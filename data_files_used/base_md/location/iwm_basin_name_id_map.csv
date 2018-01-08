@@ -1,0 +1,750 @@
+, IWM Basin Name                         , location_id 
+, SKL_F_01_ICHAPURAM-MB                        ,8038
+, SKL_F_02_MANDASA-MB                          ,8039
+, SKL_F_03_PALASA-MB                           ,8040
+, SKL_F_04_NANDIGAM-MB                         ,8041
+, SKL_F_04_SANTABOMMALI-MB                     ,8042
+, SKL_F_04_KOTABOMMALY-MB                      ,8043
+, SKL_F_05_NARASANNAPETA-MB                    ,8044
+, VZM_NAGI_KEDARIPURAM-MB                      ,8045
+, SKL_F_05_BHAMINT-MB                          ,8046
+, SKL_F_05_MELIAPUTTY-MB                       ,8047
+, SKL_F_05_HIRAMANDALAM-MB                     ,8048
+, SKL_F_05_SARUBUJJILI-MB                      ,8049
+, SKL_F_05_GARA-MB                             ,8050
+, SKL_F_06_SRIKAKULAM-MB                       ,8051
+, VZM_NAG _JANJAVATHI-MB                       ,8052
+, VZM_NAG _GUMMIDIGEDDA-MB                     ,8053
+, VZM_NAG _VOTTIGEDDA-MB                       ,8054
+, SKL_F_06_VEERAGHATTAM-MB                     ,8055
+, VZM_NAG_SVMK _GOMUKHI-MB                     ,8056
+, VZM_NAG_SVMK _BODURUGEDDA-MB                 ,8057
+, VZM_NAG_SVMK _SEETHANAGARAM-MB               ,8058
+, VZM_NAG_SVMK _ANTIPETA-MB                    ,8059
+, VZM_NAG_VEG _PEDDAGEDDA-MB                   ,8060
+, VZM_NAG_VEG _VOTTIGEDDA-MB                   ,8061
+, VZM_NAG_VEG _BOBBILI-MB                      ,8062
+, VZM_NAG_VEG _THERLAM-MB                      ,8063
+, SKL_F_06_VANGARA-MB                          ,8064
+, SKL_F_06_RAJAM-MB                            ,8065
+, SKL_F_07_G.SIGADAM-MB                        ,8066
+, SKL_F_08_P.B.VARAM-MB                        ,8067
+, VZM_ KANDIVALASAGEDDA-MB                     ,8068
+, VSP_F_10_GOSTANI_ BORRA-MB                   ,8069
+, VSP_F_9_CHAMPAVATHI_GARUGUBILLI_AGENCY-MB    ,8070
+, VZM_CMP _PEDDAGEDDA-MB                       ,8071
+, VZM_CMP _GADIGEDDA-MB                        ,8072
+, VZM_CMP _VIZIANAGARAM-MB                     ,8073
+, VZM_CMP_KUMILI-MB                            ,8074
+, VSP_E_27_SABARI-10_THOTAVALASA_ AGENCY-MB    ,8075
+, VZM_GOST _POLIPALLI-MB                       ,8076
+, VZM_CMP_EDUVAMPULAGEDDA-MB                   ,8077
+, VSP_F_14_SARADA-1_ANANTAGIRI_ AGENCY-MB      ,8078
+, VZM_GOST _TATIPUDI-MB                        ,8079
+, VZM_GOST _GANTYADA-MB                        ,8080
+, VZM_GOST _L.KOTA-MB                          ,8081
+, VZM_GOST _ALAMANDA-MB                        ,8082
+, VSP_F_10_GOSTANI_ PADMANABHAM-MB             ,8083
+, VSP_F_11_MMD_ ANANDAPURAM-MB                 ,8084
+, VZM _MEHADRIGEDDA-MB                         ,8085
+, VSP_F_12_NARAVA-2  _PENDURTY-MB              ,8086
+, VSP_F_12_NARAVA-1   SABBAVARAM-MB            ,8087
+, VSP_F_13_AKP-1_PARAWADA-MB                   ,8088
+, VSP_F_13_AKP-2_P GANTYADA-MB                 ,8089
+, VSP_F_14_SARADA-2_PEDAKOTA_AGENCY-MB         ,8090
+, VSP_F_14_ SARADA-3_GANGAVARAM-MB             ,8091
+, VSP_F_14_ SARADA-4_DEVARAPALLI-MB            ,8092
+, VSP_F_14_SARADA-10_ CHEEDIKADA-MB            ,8093
+, VSP_F_14_SARADA-11_VMADUGULA-MB              ,8094
+, VSP_F_14_ SARADA-12_GADIRAI-MB               ,8095
+, VSP_F_14_SARADA-5_KOTAPADU-MB                ,8096
+, VSP_F_14_SARADA-9_BUTCHAYYAPETA-MB           ,8097
+, VSP_F_14_SARADA-8_KASIMKOTA-MB               ,8098
+, VSP_F_SARADA-6_ATCHUTAPURAM-MB               ,8099
+, VSP_F_14_SARADA-7_ELAMANCHILI-MB             ,8100
+, VSP_F_15_VARAHA-1_ROLUGUNTA-MB               ,8101
+, VSP_F_15_VARAHA-2_NARSIPATNAM-MB             ,8102
+, VSP_F_15_VARAHA-SARPA_RAVIKAMATAM-MB         ,8103
+, VSP_F_15_VARAHA-3_S.R.VARAM-MB               ,8104
+, VSP_F_16_TANDAVA-7_RAMARAJUPALEM_ AGENCY-MB  ,8105
+, VSP_F_16_TANDAVA-6_GOLUGONDA-MB              ,8106
+, VSP_F_16_TANDAVA-4_K.AGRAHARAM-MB            ,8107
+, VSP_F_16_ TANDAVA-3_NATAVARAM-MB             ,8108
+, VSP_F_16_TANDAVA-5_GOLUGONDAPETA-MB          ,8109
+, VSP_F_16_TANDAVA-1_NAKKAPALLI-MB             ,8110
+, VSP_F_16_TANDAVA-2_PAYAKARAOPETA-MB          ,8111
+, EG-MHG-THW-TUNI-MB                           ,8112
+, EG-MHG-THE-KOTANANDURU-MB                    ,8113
+, EG-MHG-PP-SANKHAVARAM-MB                     ,8114
+, EG-MHG-SG-PRATHIPADU-MB                      ,8115
+, EG-MHG-PD-Y RAMAVARAM-MB                     ,8116
+, EG-MHG-MG-ADDATEEGALA-MB                     ,8117
+, EG-MHG-MD-JADDANGI-MB                        ,8118
+, EG-MHG-YLE-KIRLAMPUDI-MB                     ,8119
+, EG-MHG-DG-BORNAGUDEM-MB                      ,8120
+, EG-MHG-YLW-ELESWARAM-MB                      ,8121
+, VSP_F_16_TANDAVA-9_MATTAMBHEMVARAM_AGENCY-MB ,8122
+, VSP_F_16_TANDAVA-8_KOYYURU-MB                ,8123
+, PKM_C-56-CHEERALA-MB                         ,8124
+, PKM_C-56-BALLIKURVA-MB                       ,8125
+, PKM_C-56-PARCHURU-MB                         ,8126
+, PKM_C-56-J.PANGALURU-MB                      ,8127
+, PKM_C-56-INKOLLU-MB                          ,8128
+, PKM_C-56-VETAPALEM-MB                        ,8129
+, PKM_C-56-KARAMCHEDU-MB                       ,8130
+, PKM_C-57-KONAPALLI-MB                        ,8131
+, PKM_C-57-B.PETA-MB                           ,8132
+, PKM_C-57-RACHERLA-MB                         ,8133
+, PKM_C-57-ARTHAVEEDU-MB                       ,8134
+, PKM_C-57-MARKAPURAM-MB                       ,8135
+, PKM_C-57-CUMBUM-MB                           ,8136
+, PKM_C-57-PEDDARAVEEDU-MB                     ,8137
+, PKM_C-57-RUDRASAMUDRAM-MB                    ,8138
+, PKM_C-57-DORNALA-MB                          ,8139
+, PKM_C-57-BOYALAPALLI-MB                      ,8140
+, PKM_C-57-YERRAGONDAPALEM-MB                  ,8141
+, PKM_C-57-KAVALAKUNTLA-MB                     ,8142
+, PKM_C-57-TRIPURANTHKAM-MB                    ,8143
+, PKM_C-57-PULLACHERUVU-MB                     ,8144
+, PKM_C-57-MARRIVEMULA-MB                      ,8145
+, GNT-C-57-KANDLERU-1-BOLLAPALLI-PART_ONGOL-MB ,8146
+, GNT-C-57-KADLERU-2-VINUKONDA_PART-ONGOLE-MB  ,8147
+, GNT-C-57-VOLA-TANGIRALA-MB                   ,8148
+, PKM_C-57-KURICHEDU-MB                        ,8149
+, GNT-C-57-PASUPU-VELLATURU-MB                 ,8150
+, GNT-C-57-GUNDLA-1-NUJENDLA-PART_ONGOLE-MB    ,8151
+, GNT-C-57-CHEJA-CHEJARLA-MB                   ,8152
+, GNT-C-57-KONKER-SAVALYAPURAM-MB              ,8153
+, GNT-C-57-ANGA-ANGALUR-MB                     ,8154
+, PKM_C-57-KUNDURU-MB                          ,8155
+, PKM_C-57-ADDANKI-MB                          ,8156
+, PKM_C-57-EDARA-MB                            ,8157
+, PKM_C-57-MUNDLAMURU-MB                       ,8158
+, GNT-C-57-GUNDLA-2-THIMMAPURAM-PART_ONGOLE-MB ,8159
+, PKM_C-57-DARSI-MB                            ,8160
+, PKM_C-57-KORISAPADU-MB                       ,8161
+, PKM_C-56-NG PADU-MB                          ,8162
+, GNT-D-50- REMIDI-REMIDICHERLA-MB             ,8163
+, PKM_C-58-ONGOLE-MB                           ,8164
+, PKM_C-58-KOTHAPATNAM-MB                      ,8165
+, PKM_C-59-KKMITLA-MB                          ,8166
+, PKM_C-59-DONAKONDA-MB                        ,8167
+, PKM_C-59-PODILI-MB                           ,8168
+, PKM_C-59-KONDEPI-MB                          ,8169
+, PKM_C-59-CHILAKAPADU-MB                      ,8170
+, PKM_C-60-H.M.PADU-MB                         ,8171
+, PKM_C-60-VELIGANDLA-MB                       ,8172
+, PKM_C-60-BALLIPALLI-MB                       ,8173
+, PKM_C-60-KANIGIRI-MB                         ,8174
+, PKM_C-60-PC PALLY-MB                         ,8175
+, PKM_C-60-PONNALULU-MB                        ,8176
+, PKM_C-60-JARUGUMILLI-MB                      ,8177
+, PKM_C-60-S.KONDA-MB                          ,8178
+, PKM_C-61-C.S.PURAM-MB                        ,8179
+, PKM_C-61-PAMURU-MB                           ,8180
+, PKM_C-61-PEDDARAJUPALEM-MB                   ,8181
+, NLR_C_61_VEMPADU-MB                          ,8182
+, NLR_C_61_SR_PURAM-MB                         ,8183
+, PKM_C-61-TIRAGALADENNE-MB                    ,8184
+, NLR_C_61_KOTTAPETA-MB                        ,8185
+, PKM_C-61-L.SAMUDRAM-MB                       ,8186
+, NLR_C_62_GOTTIGUNDALA-MB                     ,8187
+, PKM_C-61-RALLAPADU-MB                        ,8188
+, PKM_C-61-KANDUKURU-MB                        ,8189
+, PKM_C-61-GUDLUR-MB                           ,8190
+, PKM_C-61-ULAVAPADU-MB                        ,8191
+, NLR_C_62_CHINNA ANNALUR-MB                   ,8192
+, NLR_C_62_KAVALI-MB                           ,8193
+, NLR_C_62_BOGOLE-MB                           ,8194
+, NLR_C_62_JALADANKI-MB                        ,8195
+, NLR_C_62_BRAHMANAKRAKA-MB                    ,8196
+, NLR_C_74_KOTA-MB                             ,8197
+, NLR_C_73_CHINTAVARAM-MB                      ,8198
+, NLR_C_73_GONUPALLI-MB                        ,8199
+, NLR_C_73_DEGAPUDI-MB                         ,8200
+, NLR_C_73_KASUMUR-MB                          ,8201
+, NLR_C_73_GUDUR-MB                            ,8202
+, NLR_C_73_MUTTUKUR-MB                         ,8203
+, NLR_C_73_RAMASAGARAM-MB                      ,8204
+, NLR_C_73_PALUGODU-MB                         ,8205
+, NLR_C_73_VENKATAGIRI-MB                      ,8206
+, NLR_C_73_BALAYAPALLE-MB                      ,8207
+, NLR_C_73_DAKKILI-MB                          ,8208
+, CTR_SWARNA__INAGALLURU_INAGALLLURU-MB        ,8209
+, CTR_SWARNA__BHEEMA_KOTALA-MB                 ,8210
+, CTR_SWARNA__GADANKI_GADANKI-MB               ,8211
+, CTR_SWARNA__PANAPAKAM_PANAPAKAM-MB           ,8212
+, CTR_SWARNA__NAGAPATLA_NAGAPATLA-MB           ,8213
+, CTR_SWARNA__KUPPAMBADURU_KUPPAMBADURU-MB     ,8214
+, CTR_SWARNA__KALYANI_TIRUCHANURU-MB           ,8215
+, CTR_SWARNA__AVVACHARIKONA_MAMANDURU-MB       ,8216
+, CTR_SWARNA__THONDAMANADU_YERPEDU-MB          ,8217
+, CTR_SWARNA__SRIKALAHASTI_THOTTAMBEDU-MB      ,8218
+, CTR_SWARNA__VALAGALAMANDA_MUCHUVOLU-MB       ,8219
+, NLR_C_74_PERIMIDI-MB                         ,8220
+, CTR_SWARNA__POLI_POLI-MB                     ,8221
+, NLR_C_74_YAKASIRI-MB                         ,8222
+, NLR_C_74_CHAVALI-MB                          ,8223
+, NLR_C_74_OZILI-MB                            ,8224
+, NLR_C_74_DUGGARAJUPATNA-MB                   ,8225
+, CTR_KALANGI__KVB PURAM_KVB PURAM-MB          ,8226
+, CTR_KALANGI__KATURU_KATURU-MB                ,8227
+, CTR_KALANGI__RALLAERU_NIRPAKOTA-MB           ,8228
+, NLR_C_75_SHAR-MB                             ,8229
+, NLR_C_76_TADA-MB                             ,8230
+, NLR_C_76_YEKOLLU-MB                          ,8231
+, NLR_C_75_REDDYPALEM-MB                       ,8232
+, NLR_C_75_IRKAM-MB                            ,8233
+, NLR_C_76_KADALUR-MB                          ,8234
+, NLR_C_76_VEDURUPATTU-MB                      ,8235
+, CTR_ARANI__NAGALAPURAM_NAGALAPURAM-MB        ,8236
+, CTR_ARANI__ARANI_NARAYANAVANAM-MB            ,8237
+, CTR_ARANI__SIVAGIRIVANKA_NINDRA-MB           ,8238
+, CTR_SWARNA__RAYALACHERUVU_DURGASAMUDRAM-MB   ,8239
+, CTR_KORATLIAR__PALASAMUDRAM_PALASAMUDRAM-MB  ,8240
+, CTR_KORATLIAR__S.R.PURAM_S.R.PURAM-MB        ,8241
+, CTR_KORATLIAR__KUNDETIVANKA_VEDURUKUPPAM-MB  ,8242
+, CTR_KORATLIAR__ANNURU_ANNURU-MB              ,8243
+, CTR_KORATLIAR__VIJAYAPURAM_VIJAYAPURAM-MB    ,8244
+, CTR_KORATLIAR__NAGARI_NAGARI-MB              ,8245
+, CTR_PALAR__LADDIGAMVANKA_CHOWDEPALLE-MB      ,8246
+, CTR_PALAR__RAMASAMUDRAM_RAMASAMUDRAM-MB      ,8247
+, CTR_PALAR__PEDDAPANJANIVANKA_PEDDAPANJANI-MB ,8248
+, CTR_PALAR__KOUNDINYA P1_BAIPAGARIPALLE-MB    ,8249
+, CTR_PALAR__KAIGALERU_BAIREDDIPALLE-MB        ,8250
+, CTR_PALAR__DUGGAMMAERU_V.KOTA-MB             ,8251
+, CTR_PALAR__THOTLACHERUVUVANKA_RAMAKUPPAM-MB  ,8252
+, CTR_PALAR__PALAREAST_RAJUPETA-MB             ,8253
+, CTR_PALAR__PALARWEST_THUMSI-MB               ,8254
+, CTR_PALAR__KUPPAMVANKA_KUPPAM-MB             ,8255
+, CTR_PALAR__CHINNAERU_NADIMURU-MB             ,8256
+, CTR_PONNIAR__ADAVIBODUGURU_ADAVIBODUGURU-MB  ,8257
+, CTR_PALAR__GARGEYAVANKA_IRALA-MB             ,8258
+, CTR_PALAR__M.C.VANKA_PUTHALAPATTU-MB         ,8259
+, CTR_PALAR__GODDUVANKA_THAVANAMPALLE-MB       ,8260
+, CTR_PALAR__PP.VANKA_MOGILI-MB                ,8261
+, CTR_PALAR__NIVA_CHITTOOR-MB                  ,8262
+, CTR_PALAR__GUDIPALA_GUDIPALA-MB              ,8263
+, CTR_PALAR__G.D.NELLORE_G.D.NELLORE-MB        ,8264
+, CTR_PALAR__KOUNDINYA P2_GANGAVARAM-MB        ,8265
+, CTR_PONNIAR__BISANATHAM_ADAVIBODUGURU-MB     ,8266
+, CTR_CH__PEDDAUPPARAPALLE_PEDDAUPPARAPALLE-MB ,8267
+, ATP_C_64_GOLLA-MB                            ,8268
+, ATP_C_64_AMIDALA-MB                          ,8269
+, ATP_C_64_KORRAKODU-MB                        ,8270
+, ATP_C_64_RAMAPURAM-MB                        ,8271
+, ATP_C_64_ENUMULADODDI-MB                     ,8272
+, ATP_C_64_MULAKANUR-MB                        ,8273
+, ATP_C_64_PALAVAI-MB                          ,8274
+, ATP_C_64_UDIRIPIKONDA-MB                     ,8275
+, ATP_C_65_BUDEDU-MB                           ,8276
+, ATP_C_65_TARIMALA-MB                         ,8277
+, ATP_C_66_KANAGANAPALLI-MB                    ,8278
+, ATP_C_66_THUMUCHERLA-MB                      ,8279
+, ATP_C_66_KURUGUNTA-MB                        ,8280
+, ATP_C_66_VADDUPALLI-MB                       ,8281
+, ATP_C_66_ANANTAPUR-MB                        ,8282
+, ATP_C_66_HAMPAPURAM-MB                       ,8283
+, ATP_C_66_ROTARYPURAM-MB                      ,8284
+, ATP_C_66_NARPALA-MB                          ,8285
+, ATP_C_66_SALAKAMCHERUVU-MB                   ,8286
+, ATP_C_64_M.C. PALLI-MB                       ,8287
+, ATP_C_64_NUTIMADUGU-MB                       ,8288
+, ATP_C_64_MANIREVU-MB                         ,8289
+, ATP_C_63_GOWRAJUPALLI-MB                     ,8290
+, ATP_C_63_BUCHERLA-MB                         ,8291
+, ATP_C_63_RODDAM-MB                           ,8292
+, ATP_C_63_MALAGURU-MB                         ,8293
+, ATP_C_63_CHERUKURU-MB                        ,8294
+, ATP_C_63_LEPAKSHI-MB                         ,8295
+, ATP_C_63_HINDUPUR-MB                         ,8296
+, ATP_C_63_PARIGI-MB                           ,8297
+, ATP_C_63_MADAKASIRA-MB                       ,8298
+, ATP_D_46_AGALI-MB                            ,8299
+, ATP_D_46_BASAVANAHALLI-MB                    ,8300
+, ATP_D_46_B.G. HALLI-MB                       ,8301
+, ATP_D_46_AMARAPURAM-MB                       ,8302
+, ATP_C_67_CHILAMATHUR-MB                      ,8303
+, ATP_C_67_SOMAGATTA-MB                        ,8304
+, ATP_C_67_VONAVOLU-MB                         ,8305
+, ATP_C_67_PUTTAPARTHI-MB                      ,8306
+, ATP_C_67_GONIPETA-MB                         ,8307
+, ATP_C_67_MUNIMADUGU-MB                       ,8308
+, ATP_C_67_TALAMARLA-MB                        ,8309
+, ATP_C_67_RAVULACHERUVU-MB                    ,8310
+, ATP_C_67_KANUMUKKALA-MB                      ,8311
+, ATP_C_67_POLEPALLI-MB                        ,8312
+, ATP_C_67_KUNUTHURU-MB                        ,8313
+, ATP_C_67_CHIGICHERLA-MB                      ,8314
+, ATP_C_67_TADIMARRI-MB                        ,8315
+, ATP_C_67_MUDIGUBBA-MB                        ,8316
+, ATP_C_67_PAMUDURTHI-MB                       ,8317
+, ATP_C_67_NALLACHERUVU-MB                     ,8318
+, ATP_C_67_THIPPEPALLI-MB                      ,8319
+, ATP_C_67_KONDAKAMARLA-MB                     ,8320
+, ATP_C_67_KADIRI-MB                           ,8321
+, ATP_C_67_NALLAMADA-MB                        ,8322
+, ATP_C_67_KALASAMUDRAM-MB                     ,8323
+, ATP_C_67_DORIGALLU-MB                        ,8324
+, ATP_C_67_SANEVARIPALLI-MB                    ,8325
+, KDP_C_67_PARNAPALLI-MB                       ,8326
+, ATP_C_67_THIMMAMPALLI (PART)-MB              ,8327
+, ATP_C_67_YELLANUR (PART)-MB                  ,8328
+, KDP_C_67_ETURU-MB                            ,8329
+, KDP_C_67_KONDAPURAM-MB                       ,8330
+, ATP_C_63_KOGIRA-MB                           ,8331
+, CTR_PAPA_GUMMASAMUDRAM-MB                    ,8332
+, CTR_PAPA_PTM VANKA_PTM-MB                    ,8333
+, CTR_PAPA_KADIRINADHUNIKOTA_V.KOTA-MB         ,8334
+, ATP_C_67_AMADAGURU-MB                        ,8335
+, ATP_C_69_KOKKANTI-MB                         ,8336
+, CTR_PAPA_PAPAGHNI_KANDUKURU-MB               ,8337
+, ATP_C_69_CHEEKATIMANIPALLI (PAR-MB           ,8338
+, CTR_PAPA_MOLAKALACHERUVU-MB                  ,8339
+, CTR_PAPA_MUDIVEDU_THAMBALLPALLE-MB           ,8340
+, CTR_PAPA_SOMPALLE_SOMPALLE-MB                ,8341
+, ATP_C_69_PEDABALLI-MB                        ,8342
+, CTR_PAPA_PEDDAERU EAST _BANDREVU-MB          ,8343
+, KDP_C_69_GALIVEEDU-MB                        ,8344
+, ATP_C_69_N.P. KUNTA (PART)-MB                ,8345
+, KDP_C_69_VELIGALLU-MB                        ,8346
+, CTR_PAPA_KUSAVATI _PEDDAMANDYAM-MB           ,8347
+, KDP_C_69_SURABHI-MB                          ,8348
+, ATP_C_69_VELICHALAMALA (PART)-MB             ,8349
+, ATP_C_67_TALUPULA-MB                         ,8350
+, KDP_C_69_K.YERRAGUDI-MB                      ,8351
+, KDP_C_69_VEMPALLI-MB                         ,8352
+, KDP_C_69_NANDIMANDALAM-MB                    ,8353
+, KDP_C_69_SIMHADRIPURAM-MB                    ,8354
+, KDP_C_69_KAMASAMUDRAM-MB                     ,8355
+, KDP_C_69_THONDURU-MB                         ,8356
+, KDP_C_69_LINGALA-MB                          ,8357
+, KDP_C_69_PULIVENDULA-MB                      ,8358
+, KDP_C_69_VEMULA-MB                           ,8359
+, KDP_C_69_N.PALAGIRI-MB                       ,8360
+, KDP_C_69_TALLAPALLI-MB                       ,8361
+, KDP_C_69_KAMALAPURAM-MB                      ,8362
+, ATP_C_67_KURLI (PART)-MB                     ,8363
+, KDP_C_69_KONAMPALLI-MB                       ,8364
+, ATP_C_59_KACHARLAKUNTA (PART)-MB             ,8365
+, KDP_C_71_CHINNAMANDEM-MB                     ,8366
+, KDP_C_71_SAMBEPALLI-MB                       ,8367
+, KDP_C_71_T.SUNDUPALLI-MB                     ,8368
+, KDP_C_71_T.SUNDUPALLIRF-MB                   ,8369
+, KDP_C_71_MUDUMPADU-MB                        ,8370
+, KDP_C_71_REDDIVARIPALLI-MB                   ,8371
+, KDP_C_71_VEERABALLI-MB                       ,8372
+, KDP_C_71_L.R.PALLI-MB                        ,8373
+, KDP_C_71_RAMAPURAM-MB                        ,8374
+, KDP_C_71_SANIPAYA-MB                         ,8375
+, KDP_C_71_RAJAMPET-MB                         ,8376
+, KDP_C_71_NANDALURU-MB                        ,8377
+, KDP_C_71_PULLAMPET-MB                        ,8378
+, KDP_C_71_ANANTHARAJUPET-MB                   ,8379
+, KDP_C_71_KODURU-MB                           ,8380
+, KDP_C_71_SETTIGUNTA-MB                       ,8381
+, KDP_C_71_PENAGALURU-MB                       ,8382
+, KDP_C_71_CHITVEL-MB                          ,8383
+, KDP_C_71_SESHACHAL FOREST-MB                 ,8384
+, CTR_CH_REGADAKALVA_MADANAPALLE-MB            ,8385
+, CTR_CH_RESERVOIR_NIMMANAPLLE-MB              ,8386
+, CTR_CH_TETTUVANKA_VOYALPADU-MB               ,8387
+, CTR_CH_MARRIPADUVANKA_TARIKONDA-MB           ,8388
+, CTR_CH_BAHUDAEAST_MARRIKUNTAPALLE-MB         ,8389
+, CTR_CH_DODDIPALLE RIVER_ENUGONDAPALEM-MB     ,8390
+, CTR_CH_SATHYAVATHI_CHERLOPALLE-MB            ,8391
+, CTR_CH__BAHUDAWEST_KALAKADA-MB               ,8392
+, CTR_CH__KV PALLE VANKA_KV PALLE-MB           ,8393
+, CTR_CH__PEDDAVAGUWEST_SOMALA-MB              ,8394
+, CTR_CH__PEDDAVAGUEAST_SODUM-MB               ,8395
+, CTR_CH__VALLIGATLA_KANDURU-MB                ,8396
+, CTR_CH__CHINTHALAVARIPALLE_KALIKIRI-MB       ,8397
+, CTR_CH__CG GALLU VANKA_ROMPICHERLA-MB        ,8398
+, CTR_CH__GUNDLAMALLESWARAVANKA_MELLACHERUV-MB ,8399
+, CTR_CH__SORAKAYALAPETA_VAGALLA-MB            ,8400
+, CTR_CH__GAJULERU_Y.V.PALEM-MB                ,8401
+, CTR_CH__JILLELAMANDA_JILLELAMANDA-MB         ,8402
+, ATP_C_65_GUDIPADU_NC_PART KNL-MB             ,8403
+, ATP_C_65_ALLURU (PART)-MB                    ,8404
+, ATP_C_65_TADIPATRI (PART)-MB                 ,8405
+, ATP_C_65_AMALLADINNE-MB                      ,8406
+, ATP_C_65_KRISTIPADU (PART)-MB                ,8407
+, ATP_C_65_PUPPALA-MB                          ,8408
+, ATP_C_65_IGADURU-MB                          ,8409
+, ATP_C_65_UBICHERLA (PART)-MB                 ,8410
+, ATP_C_65_KADERPET-MB                         ,8411
+, ATP_C_65_GUNTAKAL-MB                         ,8412
+, ATP_C_65_MIDTHURU-MB                         ,8413
+, ATP_C_65_UTAKALLU (PART)-MB                  ,8414
+, KU_C_MP_TUGGALI(B)-MB                        ,8415
+, KU_C_MP_TUGGALI(A)-MB                        ,8416
+, KU_C_MP_PEAPULLY(B)-MB                       ,8417
+, KU_C_KD_PEAPULLY-MB                          ,8418
+, KDP_C_65_CHAMALURU-MB                        ,8419
+, KDP_C_65_REGADIPALLI-MB                      ,8420
+, KU_C_KD_VELUGODU-MB                          ,8421
+, KU_C_KD_B.ATMAKURU_-C-MB                     ,8422
+, KU_C_KD_ORVAKAL(A)-NC-MB                     ,8423
+, KU_C_KD_MIDUTHURU-C-MB                       ,8424
+, KU_C_KD_ORVAKAL(B)-NC-MB                     ,8425
+, KU_C_KD_ORVAKAL(C)-NC-MB                     ,8426
+, KU_C_KD_PANYAM(A)-MB                         ,8427
+, KU_C_KD_PANYAM(B)-MB                         ,8428
+, KU_C_KD_GOSPADU_C-MB                         ,8429
+, KU-C_KD_BANAGANAPALLI(C)-MB                  ,8430
+, KU_C_KD_BANAGANAPALLI(A)-MB                  ,8431
+, KU_C_KD_BANAGANAPALLI(B)-MB                  ,8432
+, KU_P_KD_OWK-MB                               ,8433
+, KU_C_KD_SANJAMALA(A)-MB                      ,8434
+, KU_C_KD_SANJAMALA(B)-MB                      ,8435
+, KU_C_KD_DORNIPADU-C-MB                       ,8436
+, KU_C_KD_UYYALAWADA(A)-MB                     ,8437
+, KDP_C_68_DIGUVAKALVATALA-MB                  ,8438
+, KDP_C_68_PEDDAMUDIUM-MB                      ,8439
+, KDP_C_68_T.M.PATNAM-MB                       ,8440
+, KU_C_KD_KOLIMIGUNDLA-MB                      ,8441
+, KU_C_KD_MAHANANDI(RF)-MB                     ,8442
+, KU_C-KD_SIRIVELLA_C-MB                       ,8443
+, KU_C_KD_ALLAGADDA (A)-MB                     ,8444
+, KU_C_KD_RUDRAVARAM NC(A)-MB                  ,8445
+, KU_C_KD_RUDRAVARAM (B)-MB                    ,8446
+, KU_C_KD_ALLAGADDA-MB                         ,8447
+, KU_P_KD_CHAGALAMARRI-MB                      ,8448
+, KDP_C_68_RAJUPALEM-MB                        ,8449
+, KDP_C_68_CHAPADU-MB                          ,8450
+, KDP_C_68_DUVVURU-MB                          ,8451
+, KDP_C_68_MYDUKURU-MB                         ,8452
+, KU_C_GKD_VELUGODU-MB                         ,8453
+, KU_C_KD_B.ATMAKURU(B)-MB                     ,8454
+, KDP_C_65_KHAJIPET-MB                         ,8455
+, KDP_C_69_UPPALURU-MB                         ,8456
+, KDP_C_69_PAYASAMPALLI-MB                     ,8457
+, KDP_C_65_PENDLIMARI-MB                       ,8458
+, KDP_C_65_CHENNURU-MB                         ,8459
+, KDP_C_65_SIDHOUT-MB                          ,8460
+, KDP_C_65_KADAPA-MB                           ,8461
+, KDP_C_65_PEDDAPALLI-MB                       ,8462
+, KDP_C_65_VONTIMITTA-MB                       ,8463
+, KDP_C_65_MUDDANURU-MB                        ,8464
+, KDP_C_65_GADIKOTA-MB                         ,8465
+, KDP_C_65_J.MADUGU-MB                         ,8466
+, KDP_C_65_POTLADURTHI-MB                      ,8467
+, KDP_C_69_CHAKRAYAPET-MB                      ,8468
+, PKM_C-70-GIDDALUR-MB                         ,8469
+, PKM_C-70-KOMAROLU-MB                         ,8470
+, PKM_C-70-ALLINAGARAM-MB                      ,8471
+, KDP_C_70_GOPAVARAMPALLI-MB                   ,8472
+, KDP_C_70_KASINAYANA-MB                       ,8473
+, KDP_C_70_AKKALREDDYPALLI-MB                  ,8474
+, KDP_C_70_SAVISETTIPALLI-MB                   ,8475
+, KDP_C_70_PORUMAMILLA-MB                      ,8476
+, KDP_C_70_BADVEL-MB                           ,8477
+, KDP_C_70_B.MATAM-MB                          ,8478
+, KDP_C_70_REKULAKUNTA-MB                      ,8479
+, KDP_C_70_ATLOOR-MB                           ,8480
+, KDP_C_70_MUTHUKURU-MB                        ,8481
+, KDP_C_71_KONDURU-MB                          ,8482
+, KDP_C_71_SIRIVARAM-MB                        ,8483
+, KDP_C_65_GOPAVARAM-MB                        ,8484
+, KDP_C_65_MALLEMADUGU-MB                      ,8485
+, NLR_C_72_ANANTASAGARAM-MB                    ,8486
+, NLR_C_72_KALUVOYA-MB                         ,8487
+, NLR_C_72_CHEJARLA-MB                         ,8488
+, NLR_C_72_ALLAMPADU-MB                        ,8489
+, NLR_C_62_GANDLAVEEDU-MB                      ,8490
+, NLR_C_72_A.S.PETA-MB                         ,8491
+, NLR_C_72_PRABHUGIRIPATN-MB                   ,8492
+, NLR_C_72_NELLORE-MB                          ,8493
+, NLR_C_72_KOVUR-MB                            ,8494
+, NLR_C_72_KODAVALUR-MB                        ,8495
+, ATP_D_46_KUNDURPI-MB                         ,8496
+, ATP_D_46_APPILEPALLI-MB                      ,8497
+, ATP_D_46_SETTUR-MB                           ,8498
+, ATP_D_46_BRAHMASAMUDRAM-MB                   ,8499
+, ATP_D_46_RAYADURG-MB                         ,8500
+, ATP_D_46_BHUPASAMUDRAM-MB                    ,8501
+, ATP_D_46_BELUGUPPA-MB                        ,8502
+, ATP_D_46_SOLLAPURAM (PART-MB                 ,8503
+, ATP_D_46_KANEKAL-MB                          ,8504
+, ATP_D_46_CHADAM-MB                           ,8505
+, ATP_D_46_D. HIREHAL-MB                       ,8506
+, ATP_D_46_KADLUR-MB                           ,8507
+, ATP_D_46_URAVAKONDA-MB                       ,8508
+, ATP_D_46_HAVALIGI (PART-MB                   ,8509
+, ATP_D_46_DONEKAL (PART)-MB                   ,8510
+, KU_D_V V _CHIPPAGIRI -C-(B)-MB               ,8511
+, KU_D_VV_CIPPAGIRI-B_C-MB                     ,8512
+, KU_D_V V_ HALAHARVI(A)-MB                    ,8513
+, KU_D_VV_HOLAGONDA_C-MB                       ,8514
+, KU_D_TB_HOLAGUNDA_C-MB                       ,8515
+, KU_D_TB_ALUR_C-MB                            ,8516
+, KU_D_TB_ADONI(A)-MB                          ,8517
+, KU_D_TB_KOWTHALAM(A)_C-MB                    ,8518
+, KU_D_TB_KOWTHALAM-MB                         ,8519
+, KU-D_TB_KOSIGI_C-MB                          ,8520
+, KU_D_TB_ADONI_C-MB                           ,8521
+, KU_D_TB_PEDDAKADABUR_C-MB                    ,8522
+, KU_D_TB_YEMMIGANUR_C-MB                      ,8523
+, KU_D_TB_YEMMIGANUR-B_C-MB                    ,8524
+, KU_D_TB_NANDAVARAM_C-MB                      ,8525
+, KU-D-TB-C.BELAGAL_C-MB                       ,8526
+, KU_D_TB_GUDURU_C-MB                          ,8527
+, KU_D_TB_ALURU-MB                             ,8528
+, KU-D-TB_PATHIKONDA(A)-MB                     ,8529
+, KU_D_TB_ASPARI-MB                            ,8530
+, KU_D_TB_PATHIKONDA(B)-MB                     ,8531
+, KU_D-TB_ASPARI(A)-MB                         ,8532
+, KU_D-TB_GONEGANDLA-MB                        ,8533
+, KU_D_TB_DEVANAKONDA(A-MB                     ,8534
+, KU_D_TB_DEVANAKONDA(B)-MB                    ,8535
+, KU_D_TB_KODUMURU(A)-MB                       ,8536
+, KU_D_TB_DHONE(A)-MB                          ,8537
+, KU_D_TB_DHONE (B)-MB                         ,8538
+, KU_D_TB_KRISHNAGIRI(B)-MB                    ,8539
+, KU_D_TB_KRISHNAGIRI(A)-MB                    ,8540
+, KU_D_TB_KURNOOL-MB                           ,8541
+, KU_D_TB_VELDURTHI-MB                         ,8542
+, KU_D_TB_KALLURU(A)-MB                        ,8543
+, KU-D-TB-KALLURU(A)-MB                        ,8544
+, KU_D_TB_KALLURU(B)-MB                        ,8545
+, KU_D_TB_KURNOOL (A)_NC-MB                    ,8546
+, KU_D_TB_KURNOOL (C)_NC-MB                    ,8547
+, KU_D_TB_NANDIKOTKURU_C-MB                    ,8548
+, KU_D_LK_MIDTHURU_C-MB                        ,8549
+, KU_D_LK_J.BUNGLOW_C-MB                       ,8550
+, KU_D_LK_PAGIDYALA_C-MB                       ,8551
+, KU_D_LK_ATMAKURU(B)-MB                       ,8552
+, KU_D_LK_KOTHAPALLI (C)-MB                    ,8553
+, KU_D-LK_KOTHAPALLI(D)-MB                     ,8554
+, KU_D_LK_KOTHAPALLI (C)-2-MB                  ,8555
+, KU_D_LK_ATMAKURU(A)-MB                       ,8556
+, KU_D_LK_KOTHAPALLI (A)-MB                    ,8557
+, KU_D_LK_SRISAILAM(B)-MB                      ,8558
+, KU_D_LK_SRISAILAM_A(PART ONGOL-MB            ,8559
+, PKM_D-44-PEDDARUTLA-MB                       ,8560
+, PKM_D-44-PALUTLA-MB                          ,8561
+, PKM_D-44_GARNIPENTA-MB                       ,8562
+, GNT-D-50- JAKKULAGUNDAM-MB                   ,8563
+, GNT-D-50- JERRI-SIRIGIRIPADU-MB              ,8564
+, GNT-D-50- MUNIGUNDLA-VIJAYAPURISOUTH-MB      ,8565
+, GNT-D-50- CHANDRA-MUTUKURU-MB                ,8566
+, GNT-D-50-MACHERLA-MACHRLA-MB                 ,8567
+, GNT-D-50-NAGARJUNA-MACHERLA-MB               ,8568
+, GNT-D-50- GOLI-THUMURKOTA-MB                 ,8569
+, GNT-D-50-EDUMANGAL-RENTACHINTALA-MB          ,8570
+, GNT-D-50- GADIDA-DAIDA-MB                    ,8571
+, GNT-D-50-DANDI-GURAJALA-MB                   ,8572
+, GNT-D-50- VOPHI-VOPICHERLA-MB                ,8573
+, GNT-D-50- NAGULERU-DACHAPALLI-MB             ,8574
+, GNT-D-50-ZULAKALLU-KESANAPALLI-MB            ,8575
+, GNT-D-50- RALLA-MACHAVARAM-MB                ,8576
+, GNT-D-50- ERRA-2-PIDUGURALLA-MB              ,8577
+, GNT-D-50-NARASING-NARISINGAPADU-MB           ,8578
+, GNT-D-50- CHINTA-TADUVOYA-MB                 ,8579
+, GNT-D-50- ATCHAM-ATCHAMPETA-MB               ,8580
+, GNT-D-50-ERRA-1-RAJUPALEM-MB                 ,8581
+, GNT-D-50-CHALLA-CHALLAGUNDLA-MB              ,8582
+, GNT-D-50-ISUKA-1-KROSUR-MB                   ,8583
+, GNT-D-50-EDDU-AMARAVATHI-MB                  ,8584
+, GNT-D-50-LAKSHMI-PANIDAM-MB                  ,8585
+, GNT-D-50-MADDA-PEDAKURAPADU-MB               ,8586
+, GNT-D-50-KONDAVEETI-MEDIKONDURU-MB           ,8587
+, GNT-D-50-KATTELA-THULLURU-MB                 ,8588
+, GNT-D-50-PEDD-1-GUNTUR-MB                    ,8589
+, GNT-C-54-REPALLI-MB                          ,8590
+, GNT-C-54-KOLLURU-MB                          ,8591
+, GNT-C-54-KOLLIPARA-MB                        ,8592
+, GNT-C-55-PEDDA-2-MANGALAGIRI-MB              ,8593
+, GNT-C-54-BHATTIPROLLU-MB                     ,8594
+, GNT-C-54-NIZAMPATNAM-MB                      ,8595
+, GNT-C-54-DUGGIRALA-MB                        ,8596
+, GNT-C-55-VOGERU-CHILAKALURIPET_PART-ONGO-MB  ,8597
+, GNT-C-55-URA-ROMPICHERLA-MB                  ,8598
+, GNT-C-55-BODDU-VELPUR-MB                     ,8599
+, GNT-C-55-NALANDA-NARASARAOPET-MB             ,8600
+, GNT-C-55-NAKKA-MUPPALLA-MB                   ,8601
+, GNT-C-55-ISSUKA-2-KONDAVEEDU-MB              ,8602
+, GNT-C-55-TUMMALA-EDLAPADU-MB                 ,8603
+, GNT-C-55-NALLAMA-PEDANANDIPADU-MB            ,8604
+, GNT-C-55-RAMA-PRTHIPADU-MB                   ,8605
+, GNT-C-55-KONDA-VATTICHERUKURU-MB             ,8606
+, GNT-C-54-TSUNDURU-MB                         ,8607
+, GNT-C-54-AMARTHALURU-MB                      ,8608
+, GNT-C-54-PONNURU-MB                          ,8609
+, GNT-C-54-P.V.PALEM-MB                        ,8610
+, GNT-C-54-BAPATLA-MB                          ,8611
+, GNT-C-54-KARLAPAEM-MB                        ,8612
+, PKM_C-55-S.MAGULURU-MB                       ,8613
+, GNT-C-54-VEMURU-MB                           ,8614
+, GNT-C-54-CHERUKUPALLI-MB                     ,8615
+, GNT-C-54-NAGARAM-MB                          ,8616
+, GNT-C-54-TENALI-MB                           ,8617
+, KRI-D-48-BUDAWADA-MB                         ,8618
+, KRI-D-48-JAGGAYYAPETA-MB                     ,8619
+, KRI-D-49-VATSAVAI-MB                         ,8620
+, KRI-D-49-PENUGANCHIPROLU-MB                  ,8621
+, KRI-D-49-NANDIGAMA-MB                        ,8622
+, KRI-D-49-VEERULAPADU-MB                      ,8623
+, KRI-D-49-UTUKURU-MB                          ,8624
+, KRI-D-49-JAYANTHI-MB                         ,8625
+, KRI-D-49-K.ATMAKURU-MB                       ,8626
+, KRI-D-49-GAMPALAGUDEM-MB                     ,8627
+, KRI-D-49-PEDDAVARAM-MB                       ,8628
+, KRI-D-49-TIRUVURU-MB                         ,8629
+, KRI-D-49-A.KONDURU-MB                        ,8630
+, KRI-D-49-VISSANNAPETA-MB                     ,8631
+, KRI-I-42-MYLAVARAM-MB                        ,8632
+, KRI-I-42-REDDIGUDEM-MB                       ,8633
+, KRI-I-42-G.KONDURU-MB                        ,8634
+, KRI-I-42-GANGINENIPALEM-MB                   ,8635
+, KRI-I-42-AGIRIPALLI-MB                       ,8636
+, PENAMALURU-MB                                ,8637
+, KANKIPADU-MB                                 ,8638
+, UNGUTURU-MB                                  ,8639
+, VUYYURU-MB                                   ,8640
+, THOTLAVALLURU-MB                             ,8641
+, GHANTASALA-MB                                ,8642
+, PAMIDIMUKKALA-MB                             ,8643
+, MOVVA-MB                                     ,8644
+, PAMARRU-MB                                   ,8645
+, GUDUR-MB                                     ,8646
+, MACHILIPATNAM-MB                             ,8647
+, CHALLAPALLI-MB                               ,8648
+, GUDLAVALLERU-MB                              ,8649
+, PEDANA-MB                                    ,8650
+, PEDAPARUPUDI-MB                              ,8651
+, GUDIVADA-MB                                  ,8652
+, BAPULAPADU_DELTA-MB                          ,8653
+, NANDIVADA-MB                                 ,8654
+, MANDAVALLI-MB                                ,8655
+, MUDINEPALLI-MB                               ,8656
+, BANTUMILLI-MB                                ,8657
+, KRUTHIVENNU-MB                               ,8658
+, KAIKALURU-MB                                 ,8659
+, KALIDINDI-MB                                 ,8660
+, KRI-D-51-KANCHIKACHERLA-MB                   ,8661
+, NAGAYALANKA-MB                               ,8662
+, AVANIGADDA-MB                                ,8663
+, KRI-I-42-GANNAVARAM-MB                       ,8664
+, MOPIDEVI-MB                                  ,8665
+, KODURU-MB                                    ,8666
+, KRI-I-41-NUZIVIDU-MB                         ,8667
+, KRI-I-42-BAPULAPADU-MB                       ,8668
+, KRI-I-40-CHATRAI-MB                          ,8669
+, KRI-I-40-MUSUNURU-MB                         ,8670
+, KRI-I-40-CHILLABOYINAPAL-MB                  ,8671
+, WG- TAMMILERU SOUTH-17-MB                    ,8672
+, WG- TAMMILERUNORTH-01-MB                     ,8673
+, WG- RAMILERU-18-MB                           ,8674
+, WG- GUNDERU-16-MB                            ,8675
+, WG- BHIMADOLU-15-MB                          ,8676
+, WG- TADEPALLIGUDEM-14-MB                     ,8677
+, NIDAMARRU-MB                                 ,8678
+, PENTAPADU-MB                                 ,8679
+, TANUKU-MB                                    ,8680
+, GANAPAVARAM-MB                               ,8681
+, ATTILI-MB                                    ,8682
+, UNDI-MB                                      ,8683
+, AKIVEEDU-MB                                  ,8684
+, KALLA-MB                                     ,8685
+, PALAKODERU-MB                                ,8686
+, PENUMANTRA-MB                                ,8687
+, VEERAVASARAM-MB                              ,8688
+, IRAGAVARAM-MB                                ,8689
+, PALACOLE-MB                                  ,8690
+, PODURU-MB                                    ,8691
+, NARASAPURAM-MB                               ,8692
+, MOGALTHUR-MB                                 ,8693
+, ACHANTA-MB                                   ,8694
+, WG-JALLERU-05-MB                             ,8695
+, WG- YARRAKALAVA-1-02-MB                      ,8696
+, WG- JALAVAGU-04-MB                           ,8697
+, WG- DEVULAPALLI-03-MB                        ,8698
+, WG- BAINERU-06-MB                            ,8699
+, WG- PALETIVAGU- 12-MB                        ,8700
+, YELAMANCHILI-MB                              ,8701
+, WG- NIDADAVOLU-11-MB                         ,8702
+, UNDRAJAVARAM-MB                              ,8703
+, WG-TURPUKALAVA-07-MB                         ,8704
+, PERAVALI-MB                                  ,8705
+, PENUGONDA-MB                                 ,8706
+, WG- KOVVADA-08-MB                            ,8707
+, WG- CHITYALA-10-MB                           ,8708
+, WG- KOVVURU-DOMMERU-MB                       ,8709
+, ATREYAPURAM-MB                               ,8710
+, KADIAM-MB                                    ,8711
+, ALAMURU-MB                                   ,8712
+, RAVULAPALEM-MB                               ,8713
+, KOTHAPETA-MB                                 ,8714
+, KAPILESWARAPURAM-MB                          ,8715
+, MANDAPETA-MB                                 ,8716
+, ANAPARTHI-MB                                 ,8717
+, RAYAVARAM-MB                                 ,8718
+, KARAPA-MB                                    ,8719
+, KAJULURU-MB                                  ,8720
+, RAMACHANDRAPURAM-MB                          ,8721
+, AINAVILLI-MB                                 ,8722
+, MUMMIDIVARAMU-MB                             ,8723
+, I.POLAVARAM-MB                               ,8724
+, KATRENIKONA-MB                               ,8725
+, THALLAREVU-MB                                ,8726
+, KGANGAVARAMU-MB                              ,8727
+, AMBAJIPETA-MB                                ,8728
+, AMALAPURAM-MB                                ,8729
+, P_GANNAVARAM-MB                              ,8730
+, MAMIDIKUDURU-MB                              ,8731
+, MALIKIPURAM-MB                               ,8732
+, RAZOLE-MB                                    ,8733
+, SAKHINETIPALLE-MB                            ,8734
+, UPPALAGUPTAM-MB                              ,8735
+, ALLAVARAM-MB                                 ,8736
+, BICCAVOLU-MB                                 ,8737
+, KAKINADA-MB                                  ,8738
+, PEDAPUDI-MB                                  ,8739
+, EG-G-ZK-RANGAMPETA-MB                        ,8740
+, EG-G-BKNE-GANGAVARAM-MB                      ,8741
+, EG-G-BKW-SITANAGARAM-MB                      ,8742
+, EG-G-BKS-RAJANAGARAM-MB                      ,8743
+, EG-G-SP-RAMPACHODAVARAM-MB                   ,8744
+, EG-G-MV-KONDAMODALU-MB                       ,8745
+, WG- POLAVARAM-09-MB                          ,8746
+, KMM_E_26_BHADRACHELAM-MB                     ,8747
+, KMM_E_26_MURMURU-MB                          ,8748
+, KMM_E_26_KUKNOOR-MB                          ,8749
+, KMM_E_27_JEDIGUPPA-MB                        ,8750
+, KMM_E_26_PERAMTALLAPALLI-MB                  ,8751
+, KMM_E_26_GUMMADIVALLI-MB                     ,8752
+, KMM_E_26_FOREST_A-MB                         ,8753
+, EG-G-SB4-IJJALURU-MB                         ,8754
+, EG-G-PM-KUTRAVADA-MB                         ,8755
+, KMM_E_27_CHATTI-MB                           ,8756
+, KMM_E_27_CHINTURU-MB                         ,8757
+, VSP_E_27_SABARI-8_ARAKU VALLEY_AGENCY-MB     ,8758
+, EG-G-SB1-DONKARAYI-MB                        ,8759
+, KMM_E_27_CHOPPAMAMIDI-MB                     ,8760
+, EG-G-SB5-GUDISA-MB                           ,8761
+, EG-G-SB3-NELLURU-MB                          ,8762
+, KMM_E_27_NARSINGAPETA-MB                     ,8763
+, KMM_E_27_KUNAVARAM-MB                        ,8764
+, KMM_E_27_REKHAPALLI-MB                       ,8765
+, VSP_E_27_SABARI-7_HUKUMPETA_ AGENCY-MB       ,8766
+, VSP_E_27_SABARI-9_DUMBRIGUDA_ AGENCY-MB      ,8767
+, VSP_E_27_SABARI-5_M PUTTU_AGENCY-MB          ,8768
+, VSP_E_27_SABARI-6_PADERU_AGENCY-MB           ,8769
+, VSP_E_27_SABARI-4_P BAYALU_AGENCY-MB         ,8770
+, VSP_E_27_SABARI-3_ GMADUGULA_AGENCY-MB       ,8771
+, VSP_E_27_SABARI-2_CHINTAPLLI_ AGENCY-MB      ,8772
+, VSP_E_27_SABARI-1_ GKVEEDHI_AGENCY-MB        ,8773
+, EG-G-SB2-VATTIGEDDA-MB                       ,8774
+, CTR_CH_PASALAVANDLAPALLE_PASALA-MB           ,8775
+, KDP_C_71_RAYAVARAM-MB                        ,8776
+, NLR_C_73_RAPUR-MB                            ,8777
+, NLR_C_74_NELAPATTU-MB                        ,8778
+, KDP_C_70_KOTHAKOTA-MB                        ,8779
+, ATP_C_65_URACHINTHALA (PART)-MB              ,8780
+, PKM_C-58-CHIMAKURTHY-MB                      ,8781
+, KRI-D-51-CHANDARLAPADU-MB                    ,8782
+, BHEEMAVARAM-MB                               ,8783
+, ATP_C_63_SOMANDEPALLI-MB                     ,8784
+, KRI-D-49-NEMALI-MB                           ,8785
+, KRI-D-49-TALLURU-MB                          ,8786
