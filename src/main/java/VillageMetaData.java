@@ -18,38 +18,42 @@ public class VillageMetaData {
     
 	public static void main(String k[]) {
 
+		
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/chittor/";
+
+		
 		/**
 		 * Output files
 		 */
-		String basinAssociationTesting = "/home/ankit/Desktop/basinassociationtesting.cql";
-		String assessmentUnitCQLScriptFile = "/home/ankit/Desktop/loc_meta_data-Anantpur.cql";
+//		String basinAssociationTesting = filePath+"basinassociationtesting.cql";
+		String assessmentUnitCQLScriptFile = filePath+"loc_meta_data.cql";
 		
-        String gwlocToIWMloc = "/home/ankit/Downloads/used files/Anantapur/final_mapping.csv";      // Input File
-        String areafile = "/home/ankit/Downloads/used files/Anantapur/Area.csv";
-        String waterbodiesfile ="/home/ankit/Downloads/used files/Anantapur/MI tanks.csv";
-        String canalfile = "/home/ankit/Downloads/used files/Anantapur/canals.csv";
-        String artificialWCfile="/home/ankit/Downloads/used files/Anantapur/Wc structures.csv";
-        String irrigationUtilizationfile ="/home/ankit/Downloads/used files/Anantapur/bw_irrigated.csv";
-        String residentialUtilizationFile ="/home/ankit/Downloads/used files/Anantapur/bw_domestic.csv";
-        String industryUtilizationFile = "/home/ankit/Downloads/used files/Anantapur/bw_industry.csv";
-        String wellsSpecificYieldFile = "/home/ankit/Downloads/used files/Anantapur/vsp_rf_final_drift.csv";
-        String populationfile="/home/ankit/Downloads/used files/Anantapur/b. population lpcd.csv";
-        String assoctestfile = "/home/ankit/Downloads/final vsp - Copy/villages_with_no_mb_association.csv";
+        String gwlocToIWMloc = filePath+"final_mapping.csv";      // Input File
+        String areafile = filePath+"area.csv";
+        String waterbodiesfile =filePath+"mi_tanks.csv";
+        String canalfile = filePath+"canals.csv";
+        String artificialWCfile= filePath+"wc_structures.csv";
+        String irrigationUtilizationfile = filePath+"bw_irrigated.csv";
+        String residentialUtilizationFile = filePath+"bw_domestic.csv";
+        String industryUtilizationFile = filePath+"bw_industrial.csv";
+        String wellsSpecificYieldFile = filePath+"ranfall_unit_drift.csv";
+        String populationfile = filePath+"population.csv";
+        String assoctestfile = filePath+"villages_with_no_mb_association.csv";
         
         /**
          * Crop base files.
          */
-        String paddykhariffile = "/home/ankit/Downloads/used files/base_md/crop/village_area_sown_paddy_kharif_2016.csv"; 
-        String paddyrabifile = "/home/ankit/Downloads/used files/base_md/crop/village_area_sown_paddy_rabi_2016.csv";
-        String nonpaddykhariffile = "/home/ankit/Downloads/used files/base_md/crop/village_area_sown_non_paddy_kharif_2016.csv";
-        String nonpaddyrabifile ="/home/ankit/Downloads/used files/base_md/crop/village_area_sown_non_paddy_rabi_2016.csv";
-        String cropvillfile = "/home/ankit/Downloads/used files/base_md/crop/ecrop_to_iwm_location_map.csv";
+        String paddykhariffile = filePath+"../base_md/crop/village_area_sown_paddy_kharif_2016.csv"; 
+        String paddyrabifile = filePath+"../base_md/crop/village_area_sown_paddy_rabi_2016.csv";
+        String nonpaddykhariffile = filePath+"../base_md/crop/village_area_sown_non_paddy_kharif_2016.csv";
+        String nonpaddyrabifile = filePath+"../base_md/crop/village_area_sown_non_paddy_rabi_2016.csv";
+        String cropvillfile = filePath+"../base_md/crop/ecrop_to_iwm_location_map.csv";
         
         /**
          * Location meta data IWM base files
          */
-        String basinIdfile ="/home/ankit/Downloads/used files/base_md/location/iwm_basin_name_id_map.csv";
-        String villageIdfile = "/home/ankit/Downloads/used files/base_md/location/iwm_village_name_id_map.csv";
+        String basinIdfile = filePath+"../base_md/location/iwm_basin_name_id_map.csv";
+        String villageIdfile = filePath+"../base_md/location/iwm_village_name_id_map.csv";
         
         String record = "";
         HashMap<String,String> basinmapping = new HashMap<>();
@@ -350,8 +354,8 @@ public class VillageMetaData {
             	
             	if(!fields[format.convert("b")].isEmpty() && !fields[format.convert("b")].contains(" ")){
 //            		System.out.println(fields.length + " : first : " + fields[1].isEmpty() + " record : " + record.length() + record);
-            		String basinName = fields[format.convert("b")].trim();
-            		String typeOfWell = fields[format.convert("c")].trim();
+            		String basinName = format.removeQuotes(fields[format.convert("b")]);
+            		String typeOfWell = format.removeQuotes(fields[format.convert("c")]);
             		double yield = 0;
             		Map<String, Double> operationDays = new HashMap<>();
             		
@@ -447,11 +451,11 @@ public class VillageMetaData {
                    
                    if(!fields[format.convert("c")].isEmpty() && !fields[format.convert("c")].contains(" ")){
 //                	   System.out.println("RECHORD : " + record);
-                	   String basinName = fields[format.convert("c")].trim();
+                	   String basinName = format.removeQuotes(fields[format.convert("c")]);
                 	   String villageName = fields[format.convert("d")].trim();
                 	   
                 	   if(basinWiseWellsMD.get(basinName) == null){
-                		   System.out.println("Well MD information not found for basin : " + basinName);
+                		   System.out.println(category+" Well MD information not found for basin : " + basinName);
                 		   continue;
                 	   }
                 	   
@@ -510,7 +514,8 @@ public class VillageMetaData {
                 			   /**
                 			    * for each type of well and areaType : compute column index at runtime
                 			    */
-                			   count = (fields[(4+wellIndex) + (noOfWells*areaIndex)].isEmpty())?0:Integer.parseInt((fields[(4+wellIndex) + (noOfWells*areaIndex)])); 
+                			   
+                			   count = (fields[(4+wellIndex) + (noOfWells*areaIndex)].isEmpty())?0:Utils.parseInt((fields[(4+wellIndex) + (noOfWells*areaIndex)])); 
                 			   
                 			   villWellData.setCount(count);
                 			   villWellData.setGrowthRate(growthRate);
@@ -601,7 +606,7 @@ public class VillageMetaData {
                 	System.out.println();
                 }*/
 //                System.out.println("fields length : " + fields.length);
-                if(fields.length == 17 ||  fields.length==25 || fields.length==23||fields.length==24||fields.length==26){
+                if(fields.length == 17 ||  fields.length==25 || fields.length==23||fields.length==24||fields.length==26 || fields.length==31){
                 	double total = 0;
                 	double command = 0;
                 	double nonCommand = 0;
@@ -687,7 +692,7 @@ public class VillageMetaData {
 	        		//System.out.println(key);
 	        		//System.out.println(village_details.get(key).getVillageName());
 	        	}
-	        	System.out.println("ANKIT ::: key : " + key);
+//	        	System.out.println("ANKIT ::: key : " + key);
 //	        	System.out.println("ANKIT ::: wells : " + village_details.get(key).getResourceDistribution());
 	        	Area areaobj=Area.fromJson(village_details.get(key).getArea(), Area.class);
 				if(areaobj.total==0){
@@ -712,12 +717,12 @@ public class VillageMetaData {
 
                   String fields[] = record.split(",",-1);
                  // System.out.println("fields"+fields);
-                  if(fields.length == 17 || fields.length==25 || fields.length==23||fields.length==24||fields.length==26){
+                  if(fields.length == 17 || fields.length==25 || fields.length==23||fields.length==24||fields.length==26||fields.length==31){
                   	int BasinCode;
                   	double Villagearea = 0;
                   	String BasinName = format.removeQuotes(fields[format.convert("c")]);
                   	String gwvillageName = format.removeQuotes(fields[format.convert("d")]);
-                    double fractionArea = Double.parseDouble(fields[format.convert("e")]);
+                    double fractionArea = Utils.parseDouble(fields[format.convert("e")]);
                     
 //                    System.out.println("ANKIT ::: village : " + gwvillageName + " fraction : " + fractionArea);
 //                    System.out.println("ANKIT ::: locMap contains : " + (locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))));
@@ -738,12 +743,12 @@ public class VillageMetaData {
                             	  count++;
                             	HashMap<Integer,Double> basin_assoc = new HashMap<>();
                               	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setBasinAssociation(basin_assoc);
-                              	System.out.println("ANKIT ::: inside locationAssociation if");
+//                              	System.out.println("ANKIT ::: inside locationAssociation if");
                               }
                               if(Villagearea!=0){
                             	 // System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).loc_name+" "+(fractionArea/Villagearea));
                                   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getBasinAssociation().put(BasinCode,((fractionArea/Villagearea)));
-                                  System.out.println("ANKIT ::: inside setting locationAssociation");
+//                                  System.out.println("ANKIT ::: inside setting locationAssociation");
                               }
                              
                     	}
@@ -754,29 +759,29 @@ public class VillageMetaData {
                 	  System.out.println("Error : area row fields.length : " + fields.length);
                   }
         }
-              int c=0;
-              
-              for(String key:village_details.keySet()){
-              	if(village_details.get(key) == null){
-              		System.out.println("ANKIT ::: village details is null for key : " + key);
-              		continue;
-              	}
-//              	else if(village_details.get(key).loc_association == null){
-//              		System.out.println("ANKIT ::: location association is null for key : " + key);
+//              int c=0;
+//              
+//              for(String key:village_details.keySet()){
+//              	if(village_details.get(key) == null){
+//              		System.out.println("ANKIT ::: village details is null for key : " + key);
 //              		continue;
 //              	}
-              	
-            	if(village_details.get(key).loc_association == null || village_details.get(key).loc_association.isEmpty()){
-              		//System.out.println(key);
-              		c++;
-              		//System.out.println(village_details.get(key).getVillageName());
-              	}
-              }
-              /*for(String vill:village_details.keySet()){
-              	c++;
-              	//System.out.println(village_details.get(vill));
-              }*/
-              System.out.println("village assoc count"+c);
+////              	else if(village_details.get(key).loc_association == null){
+////              		System.out.println("ANKIT ::: location association is null for key : " + key);
+////              		continue;
+////              	}
+//              	
+//            	if(village_details.get(key).loc_association == null || village_details.get(key).loc_association.isEmpty()){
+//              		//System.out.println(key);
+//              		c++;
+//              		//System.out.println(village_details.get(key).getVillageName());
+//              	}
+//              }
+//              /*for(String vill:village_details.keySet()){
+//              	c++;
+//              	//System.out.println(village_details.get(vill));
+//              }*/
+////              System.out.println("village assoc count"+c);
               
               
           }catch (IOException e) {
@@ -785,46 +790,46 @@ public class VillageMetaData {
         
         HashSet<Integer> ids = new HashSet<>();
         //testing---
-    try (BufferedWriter file = new BufferedWriter(new FileWriter(basinAssociationTesting))) {
-	        
-    	try(BufferedReader iem = new BufferedReader(new FileReader(assoctestfile))) {
-        	record = iem.readLine();
-           int count=0;
-            while((record = iem.readLine()) != null) {
-                //System.out.println("record"+record);
-
-                String fields[] = record.split(",");
-               // System.out.println("fields"+fields.length);
-                if(fields.length==2){
-                	int vilId = Integer.parseInt(format.removeQuotes(fields[format.convert("b")]));
-                	ids.add(vilId);
-                	for(String key:village_details.keySet()){
-                      	if(village_details.get(key).loc_id==vilId){
-                      		//System.out.println(key);
-                      		//System.out.println(village_details.get(key).getVillageName()+" -- "+village_details.get(key).loc_association);
-                      		file.write(village_details.get(key).getVillageName()+" -- "+village_details.get(key).loc_association+" -- "+village_details.get(key).area+"\n");
-        	                file.newLine();
-        	                count++;
-
-                      	}
-                      	/*else{
-                      		file.write(" -- "+village_details.get(key).getVillageName()+" -- "+village_details.get(key).loc_association+"\n");
-        	                file.newLine();
-        	               // count++;
-                      	}*/
-                      }
-                }
-              
-            } 
-            //System.out.println("testing count - "+count);
-            System.out.println("set size---- "+ids.size());
-        }catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } 
+//    try (BufferedWriter file = new BufferedWriter(new FileWriter(basinAssociationTesting))) {
+//	        
+//    	try(BufferedReader iem = new BufferedReader(new FileReader(assoctestfile))) {
+//        	record = iem.readLine();
+//           int count=0;
+//            while((record = iem.readLine()) != null) {
+//                //System.out.println("record"+record);
+//
+//                String fields[] = record.split(",");
+//               // System.out.println("fields"+fields.length);
+//                if(fields.length==2){
+//                	int vilId = Integer.parseInt(format.removeQuotes(fields[format.convert("b")]));
+//                	ids.add(vilId);
+//                	for(String key:village_details.keySet()){
+//                      	if(village_details.get(key).loc_id==vilId){
+//                      		//System.out.println(key);
+//                      		//System.out.println(village_details.get(key).getVillageName()+" -- "+village_details.get(key).loc_association);
+//                      		file.write(village_details.get(key).getVillageName()+" -- "+village_details.get(key).loc_association+" -- "+village_details.get(key).area+"\n");
+//        	                file.newLine();
+//        	                count++;
+//
+//                      	}
+//                      	/*else{
+//                      		file.write(" -- "+village_details.get(key).getVillageName()+" -- "+village_details.get(key).loc_association+"\n");
+//        	                file.newLine();
+//        	               // count++;
+//                      	}*/
+//                      }
+//                }
+//              
+//            } 
+//            //System.out.println("testing count - "+count);
+//            System.out.println("set size---- "+ids.size());
+//        }catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } 
         
         
         
@@ -2806,7 +2811,7 @@ public class VillageMetaData {
                 //json for Canal
                 HashMap<String,Object> canalMap = new HashMap<>();
             	
-                String fields[] = record.split(",");
+                String fields[] = record.split(",",-1);
 //                if(fields.length==16){
                 if(!fields[format.convert("b")].contains(" ") && !fields[format.convert("b")].isEmpty()){
                 	String villageName = fields[format.convert("d")];
@@ -2938,12 +2943,13 @@ public class VillageMetaData {
                  		}
                  	}
                  	else{
-                 		System.out.println(" location : " + format.removeQuotes(fields[format.convert("c")]));
+                 		System.out.println(" location : " + format.removeQuotes(format.removeQuotes(fields[format.convert("c")])
+                 				+"##"+format.removeQuotes(fields[format.convert("d")])));
                  	}
                     // System.out.println(artificialwcjson);
                  }
                  else{
-//                	 System.out.println("ANKIT :: ELSE : field length : " + fields.length);
+                	 System.out.println("ANKIT :: ELSE : field length : " + fields.length);
                  }
              }
             for(String key:village_details.keySet()){ 

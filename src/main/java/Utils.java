@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Utils {
 
@@ -7,7 +9,9 @@ public class Utils {
 	}
 	
 	static int parseInt(String s){
-		if(s.isEmpty())	return 0;
-		else return Integer.parseInt(s);
+		Long val = Math.round(parseDouble(s));
+	
+		return val.intValue();
 	}
+	
 }

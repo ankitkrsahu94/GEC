@@ -11,6 +11,7 @@ import org.json.JSONObject;
 
 import com.google.gson.Gson;
 
+
 public class BasinXmltojson {
 
 	public static void main(String k[]) {
@@ -18,27 +19,29 @@ public class BasinXmltojson {
 		/**
 		 * output files
 		 */
-		String basinCQLOutputFileName = "/home/ankit/Desktop/InsertBasin-Anantpur.cql";
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/chittor/";
+		
+		String basinCQLOutputFileName = filePath+"InsertBasin.cql";
 
 		/**
 		 * Source files for data creation
 		 */
-		String gwlocToIWMloc = "/home/ankit/Downloads/used files/Anantapur/final_mapping.csv"; // Input
+		String gwlocToIWMloc = filePath+"final_mapping.csv"; // Input
 																										// File
-		String areafile = "/home/ankit/Downloads/used files/Anantapur/Area.csv";
-		String geologicalFile = "/home/ankit/Downloads/used files/Anantapur/geological data.csv";
-		String wellsSpecificYieldFile = "/home/ankit/Downloads/used files/Anantapur/vsp_rf_final_drift.csv";
-		String waterbodiesfile = "/home/ankit/Downloads/used files/Anantapur/MI tanks.csv";
-		String canalfile = "/home/ankit/Downloads/used files/Anantapur/canals.csv";
-		String artificialWCfile = "/home/ankit/Downloads/used files/Anantapur/Wc structures.csv";
-		String populationfile = "/home/ankit/Downloads/used files/Anantapur/b. population lpcd.csv";
+		String areafile = filePath+"area.csv";
+		String geologicalFile = filePath+"geological_data.csv";
+		String wellsSpecificYieldFile = filePath+"ranfall_unit_drift.csv";
+		String waterbodiesfile = filePath+"mi_tanks.csv";
+		String canalfile = filePath+"canals.csv";
+		String artificialWCfile = filePath+"wc_structures.csv";
+		String populationfile = filePath+"population.csv";
 		
 		/**
          * Location meta data IWM base files
          */
-		String villageIdfile = "/home/ankit/Downloads/used files/base_md/location/iwm_village_name_id_map.csv";
-		String basinIdfile ="/home/ankit/Downloads/used files/base_md/location/iwm_basin_name_id_map.csv";
-
+        String basinIdfile = filePath+"../base_md/location/iwm_basin_name_id_map.csv";
+        String villageIdfile = filePath+"../base_md/location/iwm_village_name_id_map.csv";
+        
 		String record = "";
 		HashMap<String, String> locmapping = new HashMap<>();
 		HashMap<String, String> villageMap = new HashMap<>();
@@ -140,7 +143,8 @@ public class BasinXmltojson {
 
 			while ((record = iem.readLine()) != null) {
 				String fields[] = record.split(",", -1);
-				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26) {
+				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26 
+						|| fields.length == 31) {
 
 					double total = 0;
 
@@ -186,7 +190,8 @@ public class BasinXmltojson {
 				 * System.out.println(fields.length); for(String f:fields){
 				 * System.out.print(f +" "); } System.out.println(); }
 				 */
-				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26) {
+				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 
+						|| fields.length == 26 || fields.length == 31) {
 					double total = 0;
 					double command = 0;
 					double nonCommand = 0;
@@ -262,6 +267,8 @@ public class BasinXmltojson {
 							// test++;
 							// System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")]))));
 						}
+					} else {
+						System.out.println("asdas12312 :: " + format.removeQuotes(fields[format.convert("c")]));
 					}
 					// System.out.println("test count value ######"+test);
 					// break;
@@ -275,13 +282,14 @@ public class BasinXmltojson {
 					// System.out.println(key);
 					System.out.println(Basin_details.get(key).loc_name);
 				}
-				System.out.println("ANKIT ::: key : " + key);
+//				System.out.println("ANKIT ::: key : " + key);
+//				System.out.println(Basin_details.get(key).getArea());
 				Area areaobj = Areajs.fromJson(Basin_details.get(key).getArea(), Area.class);
 				if (areaobj.total == 0) {
 					c++;
 				}
 			}
-			System.out.println("area total count= " + c);
+			System.out.println("area count where total area=0 : " + c);
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -295,7 +303,8 @@ public class BasinXmltojson {
 			while ((record = iem.readLine()) != null) {
 
 				String fields[] = record.split(",", -1);
-				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26) {
+				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 
+						|| fields.length == 26 || fields.length == 31) {
 					int villageId;
 					double fractionArea = 0;
 					String iwmBasinName = locmapping.get(format.removeQuotes(fields[format.convert("c")]));
@@ -590,7 +599,7 @@ public class BasinXmltojson {
 			record = iem.readLine();
 
 			while ((record = iem.readLine()) != null) {
-				String fields[] = record.split(",");
+				String fields[] = record.split(",", -1);
 				// 10
 				if (fields.length == 15) {
 					Mitank cmitank = new Mitank((Double.parseDouble(fields[4])), Double.parseDouble(fields[5]), 0, 120,
@@ -726,7 +735,7 @@ public class BasinXmltojson {
 				// System.out.println("ANKIT ::: fields.length : " +
 				// fields.length);
 				// 34
-				if (fields.length >= 38) {
+				if (fields.length >= 34) {
 					// System.out.println("ANKIT ::: " + record);
 					// System.out.println("ANKIT ::: inside artificial : " +
 					// ++i);
@@ -1082,7 +1091,7 @@ public class BasinXmltojson {
 				file.write(query + "\n");
 				file.newLine();
 
-				System.out.println(basinjson);
+//				System.out.println(basinjson);
 				// break;
 			}
 		} catch (IOException e) {
