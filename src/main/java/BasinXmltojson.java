@@ -139,8 +139,8 @@ public class BasinXmltojson {
 			record = iem.readLine();
 
 			while ((record = iem.readLine()) != null) {
-				String fields[] = record.split(",");
-				if (fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26) {
+				String fields[] = record.split(",", -1);
+				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26) {
 
 					double total = 0;
 
@@ -160,6 +160,8 @@ public class BasinXmltojson {
 						}
 //						 Basin_details.get(iwmBasinName).setArea(total);;
 					}
+				}else{
+					System.out.println("line : 164 : Error : area row fields.length : " + fields.length);
 				}
 			}
 			System.out.println("area count= " + Area.size());
@@ -206,12 +208,12 @@ public class BasinXmltojson {
 					double hilly = 0;
 					double forest = 0;
 					if (!fields[6].isEmpty() || !fields[10].isEmpty() || !fields[14].isEmpty()) {
-						hilly = Double.parseDouble(fields[6]) + Double.parseDouble(fields[10])
-								+ Double.parseDouble(fields[14]);
+						hilly = Utils.parseDouble(fields[6]) + Utils.parseDouble(fields[10])
+								+ Utils.parseDouble(fields[14]);
 					}
 					if (!fields[7].isEmpty() || !fields[11].isEmpty() || !fields[15].isEmpty()) {
-						forest = Double.parseDouble(fields[7]) + Double.parseDouble(fields[11])
-								+ Double.parseDouble(fields[15]);
+						forest = Utils.parseDouble(fields[7]) + Utils.parseDouble(fields[11])
+								+ Utils.parseDouble(fields[15]);
 					}
 					NonRechargeWorthy nrw = new NonRechargeWorthy(hilly, forest);
 
@@ -220,7 +222,7 @@ public class BasinXmltojson {
 
 					// JSONObject jsn = new JSONObject(areajson.getBytes());
 					// System.out.println(areajson);
-					System.out.println("locmaping : " + locmapping.keySet());
+//					System.out.println("locmaping : " + locmapping.keySet());
 					if (locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")]))) {
 
 						if (Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
@@ -292,8 +294,8 @@ public class BasinXmltojson {
 			int c = 1;
 			while ((record = iem.readLine()) != null) {
 
-				String fields[] = record.split(",");
-				if (fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26) {
+				String fields[] = record.split(",", -1);
+				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26) {
 					int villageId;
 					double fractionArea = 0;
 					String iwmBasinName = locmapping.get(format.removeQuotes(fields[format.convert("c")]));
@@ -310,11 +312,14 @@ public class BasinXmltojson {
 								basin_assoc = new HashMap<>();
 								c++;
 							}
-
+							if(Area.get(iwmBasinName) == 0)
+								System.out.println("Basin area 0 for basin : " + iwmBasinName);
 							basin_assoc.put(villageId, (fractionArea / Area.get(iwmBasinName)));
 							Basin_details.get(iwmBasinName).setBasinAssociation(basin_assoc);
 						}
 					}
+				}else{
+					System.out.println("Error : area row fields.length : " + fields.length);
 				}
 			}
 

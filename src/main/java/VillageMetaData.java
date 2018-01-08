@@ -623,10 +623,10 @@ public class VillageMetaData {
                 	double hilly=0;
                 	double forest =0;
                 	if(!fields[6].isEmpty()||!fields[10].isEmpty()||!fields[14].isEmpty()){
-	                	hilly= parseDouble(fields[6])+parseDouble(fields[10])+parseDouble(fields[14]);
+	                	hilly= Utils.parseDouble(fields[6])+Utils.parseDouble(fields[10])+Utils.parseDouble(fields[14]);
 	                }
                 	if(!fields[7].isEmpty()||!fields[11].isEmpty()||!fields[15].isEmpty()){
-	                	forest= parseDouble(fields[7])+parseDouble(fields[11])+parseDouble(fields[15]);
+	                	forest= Utils.parseDouble(fields[7])+Utils.parseDouble(fields[11])+Utils.parseDouble(fields[15]);
 	                }
                 	NonRechargeWorthy nrw = new NonRechargeWorthy(hilly,forest);
                 	
@@ -712,7 +712,7 @@ public class VillageMetaData {
 
                   String fields[] = record.split(",",-1);
                  // System.out.println("fields"+fields);
-                  if(fields.length==25 || fields.length==23||fields.length==24||fields.length==26){
+                  if(fields.length == 17 || fields.length==25 || fields.length==23||fields.length==24||fields.length==26){
                   	int BasinCode;
                   	double Villagearea = 0;
                   	String BasinName = format.removeQuotes(fields[format.convert("c")]);
@@ -736,14 +736,14 @@ public class VillageMetaData {
                           	
                               if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getBasinAssociation()==null){
                             	  count++;
-                            	  HashMap<Integer,Double> basin_assoc = new HashMap<>();
+                            	HashMap<Integer,Double> basin_assoc = new HashMap<>();
                               	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setBasinAssociation(basin_assoc);
-                              	
+                              	System.out.println("ANKIT ::: inside locationAssociation if");
                               }
                               if(Villagearea!=0){
                             	 // System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).loc_name+" "+(fractionArea/Villagearea));
                                   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getBasinAssociation().put(BasinCode,((fractionArea/Villagearea)));
-                              
+                                  System.out.println("ANKIT ::: inside setting locationAssociation");
                               }
                              
                     	}
@@ -751,7 +751,7 @@ public class VillageMetaData {
                       
                   }
                   else{
-                	  System.out.println("ANKIT ::: fields.length : " + fields.length);
+                	  System.out.println("Error : area row fields.length : " + fields.length);
                   }
         }
               int c=0;
@@ -849,7 +849,7 @@ public class VillageMetaData {
             				String IWMName = villageId.get(id);
             				
             				if(village_details.containsKey(IWMName)){
-            					System.out.println("village details contains : " + IWMName + " : " + village_details.containsKey(IWMName));
+//            					System.out.println("village details contains : " + IWMName + " : " + village_details.containsKey(IWMName));
             					//System.out.println(IWMName);
             					Map<String,Object> obj;
             					Map<String,Map<String,Double>> obj2;
@@ -2828,16 +2828,16 @@ public class VillageMetaData {
 //                	}
                 	
 //                	canalMap.put("villName", villageName);
-                	canalMap.put("length", parseDouble(fields[4]));
+                	canalMap.put("length", Utils.parseDouble(fields[4]));
                 	canalMap.put("type","0");
-                    canalMap.put("sideSlopes",parseDouble(fields[7]));//sideSlopes
-                    canalMap.put("wettedPerimeter",parseDouble(fields[8]));//wettedperimeter
-                    canalMap.put("wettedArea",parseDouble(fields[9]));//wettedarea
-                    canalMap.put("seepageFactor",parseDouble(fields[10]));//canalseepagefactor
-                    canalMap.put("bedWidth",parseDouble(fields[6]));//bedwidth
-                    canalMap.put("designDepthFlow",parseDouble("0"));//designDepthOfFlow
-                    runningDays.put("monsoon",parseInt(fields[11]));//runningDays_monsoon
-                    runningDays.put("non_monsoon",parseInt(fields[12]));//runningDays_nonmonsoon
+                    canalMap.put("sideSlopes",Utils.parseDouble(fields[7]));//sideSlopes
+                    canalMap.put("wettedPerimeter",Utils.parseDouble(fields[8]));//wettedperimeter
+                    canalMap.put("wettedArea",Utils.parseDouble(fields[9]));//wettedarea
+                    canalMap.put("seepageFactor",Utils.parseDouble(fields[10]));//canalseepagefactor
+                    canalMap.put("bedWidth",Utils.parseDouble(fields[6]));//bedwidth
+                    canalMap.put("designDepthFlow",Utils.parseDouble("0"));//designDepthOfFlow
+                    runningDays.put("monsoon",Utils.parseInt(fields[11]));//runningDays_monsoon
+                    runningDays.put("non_monsoon",Utils.parseInt(fields[12]));//runningDays_nonmonsoon
                     canalMap.put("noOfRunningDays", runningDays);
                     canal.add(canalMap);
 //                    if(villageName.equals("PEDARAMABHADRAPURAM")){
@@ -3053,16 +3053,6 @@ public class VillageMetaData {
         }    
 
     }
-	
-	static double parseDouble(String s){
-		if(s.isEmpty())	return 0.0;
-		else return Double.parseDouble(s);
-	}
-	
-	static int parseInt(String s){
-		if(s.isEmpty())	return 0;
-		else return Integer.parseInt(s);
-	}
 }
 
 
