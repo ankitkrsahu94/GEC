@@ -19,7 +19,7 @@ public class BasinXmltojson {
 		/**
 		 * output files
 		 */
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/chittor/";
+		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/Visakhapatnam/";
 		
 		String basinCQLOutputFileName = filePath+"InsertBasin.cql";
 
@@ -30,7 +30,7 @@ public class BasinXmltojson {
 																										// File
 		String areafile = filePath+"area.csv";
 		String geologicalFile = filePath+"geological_data.csv";
-		String wellsSpecificYieldFile = filePath+"ranfall_unit_drift.csv";
+		String wellsSpecificYieldFile = filePath+"rainfall_unit_drift.csv";
 		String waterbodiesfile = filePath+"mi_tanks.csv";
 		String canalfile = filePath+"canals.csv";
 		String artificialWCfile = filePath+"wc_structures.csv";
@@ -233,9 +233,6 @@ public class BasinXmltojson {
 						if (Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
 								.getArea() == null) {
 							count++;
-							if(format.removeQuotes(fields[format.convert("c")]).equals("ATP_C_65_Budedu")){
-								System.out.println("INside if : ");
-							}
 							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
 									.setArea(areajson);
 							if (total == 0) {
@@ -256,9 +253,6 @@ public class BasinXmltojson {
 							NonRechargeWorthy nrwobj = new NonRechargeWorthy(hilly, forest);
 							Area areaObj = new Area(total, rwObj, nrwobj);
 							String areaObjjson = Areajs.toJson(areaObj);
-							if(format.removeQuotes(fields[format.convert("c")]).equals("ATP_C_65_Budedu")){
-								System.out.println("INside else : ");
-							}
 							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
 									.setArea(areaObjjson);
 
@@ -283,7 +277,7 @@ public class BasinXmltojson {
 					System.out.println(Basin_details.get(key).loc_name);
 				}
 //				System.out.println("ANKIT ::: key : " + key);
-//				System.out.println(Basin_details.get(key).getArea());
+
 				Area areaobj = Areajs.fromJson(Basin_details.get(key).getArea(), Area.class);
 				if (areaobj.total == 0) {
 					c++;
@@ -321,10 +315,12 @@ public class BasinXmltojson {
 								basin_assoc = new HashMap<>();
 								c++;
 							}
-							if(Area.get(iwmBasinName) == 0)
+							if(Area.get(iwmBasinName) != 0){
+								basin_assoc.put(villageId, (fractionArea / Area.get(iwmBasinName)));
+								Basin_details.get(iwmBasinName).setBasinAssociation(basin_assoc);
+							}else{
 								System.out.println("Basin area 0 for basin : " + iwmBasinName);
-							basin_assoc.put(villageId, (fractionArea / Area.get(iwmBasinName)));
-							Basin_details.get(iwmBasinName).setBasinAssociation(basin_assoc);
+							}
 						}
 					}
 				}else{
@@ -532,14 +528,13 @@ public class BasinXmltojson {
 						GeologicalInfo.put("Weathered gneiss", geoInfo);
 
 					if (Basin_details.containsKey(locmapping.get(format.removeQuotes(fields[format.convert("b")])))) { // #TODO
-																														// why
-																														// this
-																														// conditionis
 																														// required
 						Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("b")])))
 								.setGeologicalInfo(GeologicalInfo);
 					}
 
+				}else{
+					System.out.println("ERROR in geological row length : length : " + fields.length);
 				}
 			}
 			System.out.println("geo count= " + count);
@@ -984,7 +979,7 @@ public class BasinXmltojson {
 					}
 					// System.out.println(artificialwcjson);
 				} else {
-					System.out.println("invalid : length : " + fields.length + " : " + iem.readLine());
+//					System.out.println("invalid : length : " + fields.length + " : " + iem.readLine());
 				}
 			}
 			for (String key : Basin_details.keySet()) {

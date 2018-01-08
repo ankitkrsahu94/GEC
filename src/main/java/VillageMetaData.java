@@ -19,7 +19,7 @@ public class VillageMetaData {
 	public static void main(String k[]) {
 
 		
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/chittor/";
+		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/Visakhapatnam/";
 
 		
 		/**
@@ -27,7 +27,7 @@ public class VillageMetaData {
 		 */
 //		String basinAssociationTesting = filePath+"basinassociationtesting.cql";
 		String assessmentUnitCQLScriptFile = filePath+"loc_meta_data.cql";
-		
+
         String gwlocToIWMloc = filePath+"final_mapping.csv";      // Input File
         String areafile = filePath+"area.csv";
         String waterbodiesfile =filePath+"mi_tanks.csv";
@@ -36,9 +36,10 @@ public class VillageMetaData {
         String irrigationUtilizationfile = filePath+"bw_irrigated.csv";
         String residentialUtilizationFile = filePath+"bw_domestic.csv";
         String industryUtilizationFile = filePath+"bw_industrial.csv";
-        String wellsSpecificYieldFile = filePath+"ranfall_unit_drift.csv";
+        String wellsSpecificYieldFile = filePath+"rainfall_unit_drift.csv";
         String populationfile = filePath+"population.csv";
         String assoctestfile = filePath+"villages_with_no_mb_association.csv";
+
         
         /**
          * Crop base files.
@@ -54,6 +55,12 @@ public class VillageMetaData {
          */
         String basinIdfile = filePath+"../base_md/location/iwm_basin_name_id_map.csv";
         String villageIdfile = filePath+"../base_md/location/iwm_village_name_id_map.csv";
+        
+        /**
+         * Prepare wells yield / operative days info
+         * basinName vs typeofwell vs command/non-command vs category(agriculture/domestic) vs well data
+         */
+        Map<String, Map<String, Map<String, Map<String, WellsUtilizationData>>>> basinWiseWellsMD = new HashMap<>();
         
         String record = "";
         HashMap<String,String> basinmapping = new HashMap<>();
@@ -106,11 +113,6 @@ public class VillageMetaData {
                         String MicroBasin_GWvillage_key = MicroBasinName + "##" +GWvillageName;
                         locmapping.put(MicroBasin_GWvillage_key,IWMvillageName);
                         basinmapping.put(MicroBasinName,IWMMicroBasinName);
-                        if(GWvillageName.equals("Gandlavallapalli")){
-                    		System.out.println("Mapped location to Gand village: " + locmapping.get(MicroBasin_GWvillage_key));
-                    		System.out.println("Mapped location to Gand basin: " + basinmapping.get(MicroBasinName));
-                    		
-                    	}
                 	}
                 	
                 }
@@ -339,12 +341,6 @@ public class VillageMetaData {
             e.printStackTrace();
         }
       
-        /**
-         * Prepare wells yield / operative days info
-         * basinName vs typeofwell vs command/non-command vs category(agriculture/domestic) vs well data
-         */
-        Map<String, Map<String, Map<String, Map<String, WellsUtilizationData>>>> basinWiseWellsMD = new HashMap<>();
-        
         try(BufferedReader iem = new BufferedReader(new FileReader(wellsSpecificYieldFile))) {
         	record = iem.readLine();
             while((record = iem.readLine()) != null) {
@@ -357,20 +353,30 @@ public class VillageMetaData {
             		String basinName = format.removeQuotes(fields[format.convert("b")]);
             		String typeOfWell = format.removeQuotes(fields[format.convert("c")]);
             		double yield = 0;
-            		Map<String, Double> operationDays = new HashMap<>();
             		
-            		if(basinWiseWellsMD.get(basinName) == null)
+        			
+        			if(basinWiseWellsMD.get(basinName) == null){
             			basinWiseWellsMD.put(basinName, new HashMap<String, Map<String, Map<String, WellsUtilizationData>>>());
-            		if(basinWiseWellsMD.get(basinName).get(typeOfWell) == null)
+            		}
+            			
+            		if(basinWiseWellsMD.get(basinName).get(typeOfWell) == null){
             			basinWiseWellsMD.get(basinName).put(typeOfWell, new HashMap<String, Map<String, WellsUtilizationData>>());
+            		}
+            			
             		
 //            		System.out.println("fields len : " + fields.length + " : record : " + record);
             		for(String areaType : Constants.AREA_TYPES){
-            			if(basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType) == null)
+            			Map<String, Double> operationDaysAgriculture = new HashMap<>();
+            			Map<String, Double> operationDaysIndustry = new HashMap<>();
+            			Map<String, Double> operationDaysDomestic = new HashMap<>();
+            			
+            			WellsUtilizationData wellDataAgriculture = new WellsUtilizationData();
+            			WellsUtilizationData wellDataIndustry = new WellsUtilizationData();
+            			WellsUtilizationData wellDataDomestic = new WellsUtilizationData();
+            			if(basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType) == null){
             				basinWiseWellsMD.get(basinName).get(typeOfWell).put(areaType, new HashMap<String, WellsUtilizationData>());
-            			
-            			WellsUtilizationData wellData = new WellsUtilizationData();
-            			
+            			}
+            				
             			int index = Constants.AREA_TYPES.indexOf(areaType);
             			double monsoonDays=0, nonMonsoonDays=0;
             			
@@ -384,23 +390,29 @@ public class VillageMetaData {
                 		 */
             			yield = (fields[3+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[3+(12*index)]);
                 		monsoonDays = (fields[5+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[5+(12*index)]);
-                		operationDays.put(Constants.MONSOON, monsoonDays);
+                		operationDaysAgriculture.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[6+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[6+(12*index)]);
-                		operationDays.put(Constants.NON_MONSOON, nonMonsoonDays);
-            			wellData.setYield(yield);
-                		wellData.setOperativeDays(operationDays);
-                		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.AGRICULTURE, wellData);
+                		operationDaysAgriculture.put(Constants.NON_MONSOON, nonMonsoonDays);
+                		wellDataAgriculture.setYield(yield);
+                		wellDataAgriculture.setOperativeDays(operationDaysAgriculture);
+                		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.AGRICULTURE, wellDataAgriculture);
+                		
+                		if(basinName.equals("ATP_C_66_Vaddupalli") && areaType.equals(Constants.NON_COMMAND_AREA) && typeOfWell.equals("BWs")){
+                			System.out.println("basinName : " + basinName + " : typeOfWell : " + typeOfWell);
+                			System.out.println("basinName : " + basinName + " : yield : " + yield);
+                			System.out.println("basinName : " + basinName + " : " + basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).get(Constants.AGRICULTURE));
+                		}
                 		/**
                 		 * Domestic
                 		 */
                 		yield = (fields[7+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[7+(12*index)]);
                 		monsoonDays = (fields[9+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[9+(12*index)]);
-                		operationDays.put(Constants.MONSOON, monsoonDays);
+                		operationDaysDomestic.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[10+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[10+(12*index)]);
-                		operationDays.put(Constants.NON_MONSOON, nonMonsoonDays);
-                		wellData.setYield(yield);
-                		wellData.setOperativeDays(operationDays);
-                		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.DOMESTIC, wellData);
+                		operationDaysDomestic.put(Constants.NON_MONSOON, nonMonsoonDays);
+                		wellDataDomestic.setYield(yield);
+                		wellDataDomestic.setOperativeDays(operationDaysDomestic);
+                		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.DOMESTIC, wellDataDomestic);
                 		/**
                 		 * Industry
                 		 */
@@ -408,13 +420,12 @@ public class VillageMetaData {
 //                		System.out.println(" fields : " + record);
                 		yield = (fields[11+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[11+(12*index)]);
                 		monsoonDays = (fields[13+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[13+(12*index)]);
-                		operationDays.put(Constants.MONSOON, monsoonDays);
+                		operationDaysIndustry.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[14+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[14+(12*index)]);
-                		operationDays.put(Constants.NON_MONSOON, nonMonsoonDays);
-                		wellData.setYield(yield);
-                		wellData.setOperativeDays(operationDays);
-                		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.INDUSTRY, wellData);
-                	
+                		operationDaysIndustry.put(Constants.NON_MONSOON, nonMonsoonDays);
+                		wellDataIndustry.setYield(yield);
+                		wellDataIndustry.setOperativeDays(operationDaysIndustry);
+                		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.INDUSTRY, wellDataIndustry);
             		}
             		
             	}
@@ -503,11 +514,19 @@ public class VillageMetaData {
                 			    * If that particular well is not found then set the specific yields and 
                 			    * operative days to zero
                 			    */
-                			   if(basinWiseWellsMD.get(basinName).get(well) == null)
+                			   if(basinWiseWellsMD.get(basinName).get(well) == null){
                 				   mbWell = new WellsUtilizationData();
+                				   Map<String, Double> operativeDays = new HashMap<>();
+                				   operativeDays.put(Constants.MONSOON, 0.0);
+                				   operativeDays.put(Constants.NON_MONSOON, 0.0);
+                				   mbWell.setOperativeDays(operativeDays);
+                			   }
+                				   
 //                			   System.out.println("basin : " + basinName + " : category : " + category + " : areaType : " + areaType + " : well : " + well);
-            				   else
+            				   else{
             					   mbWell = basinWiseWellsMD.get(basinName).get(well).get(areaType).get(category);
+            				   }
+            					   
                 			   
                 			   villWellData = villWellDistributionInfo.get(category).get(areaType).get(well);
                 			   
@@ -523,6 +542,12 @@ public class VillageMetaData {
                 			   villWellData.setPumpingHours(pumpingHours);
                 			   villWellData.setYield(mbWell.getYield());
                 			   villWellData.setOperativeDays(mbWell.getOperativeDays());
+                			   
+//                			   if(category.equals(Constants.AGRICULTURE) && villageName.equals("Gollapalle") && areaType.equals(Constants.NON_COMMAND_AREA) && well.equals("BWs")){
+//	                       			System.out.println("villageName : " + villageName + "mbWell : " + mbWell);
+//                				   System.out.println("villageName : " + villageName + " : villWellData : " + villWellData);
+//	                       			
+//	                       		}
                 		   }
                 	   }
                 	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setResourceDistribution(villWellDistributionInfo);
@@ -645,11 +670,6 @@ public class VillageMetaData {
                     	
                 		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea()==null){
                 			count++;
-                			if(fields[format.convert("d")].equals("Gandlavallapalli")){
-                				System.out.println("Setting in if for Gand");
-                				System.out.println("mapped location : " + locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
-                			}
-                			
                 			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArea(areajson);
                 			if(total==0){
                     			test++;
@@ -668,10 +688,6 @@ public class VillageMetaData {
                         	NonRechargeWorthy nrwobj = new NonRechargeWorthy(hilly,forest);
                         	Area areaObj = new Area(total,rwObj,nrwobj);  
                         	String areaObjjson = Area.toJson(areaObj);
-                        	if(fields[format.convert("d")].equals("Gandlavallapalli")){
-                				System.out.println("Setting in else for Gand");
-                				System.out.println("mapped location : " + locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
-                			}
                         	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArea(areaObjjson);
                 			
                 		}
@@ -692,7 +708,7 @@ public class VillageMetaData {
 	        		//System.out.println(key);
 	        		//System.out.println(village_details.get(key).getVillageName());
 	        	}
-//	        	System.out.println("ANKIT ::: key : " + key);
+	        	System.out.println("ANKIT ::: key : " + key);
 //	        	System.out.println("ANKIT ::: wells : " + village_details.get(key).getResourceDistribution());
 	        	Area areaobj=Area.fromJson(village_details.get(key).getArea(), Area.class);
 				if(areaobj.total==0){
@@ -2859,9 +2875,6 @@ public class VillageMetaData {
                                         	
                 	}
                     
-                    if(villageName.equals("PEDARAMABHADRAPURAM")){
-                    	System.out.println("final canal : " + village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getCanal());
-                    }
                    // System.out.println(canal);
                 }
         	}
@@ -2949,7 +2962,7 @@ public class VillageMetaData {
                     // System.out.println(artificialwcjson);
                  }
                  else{
-                	 System.out.println("ANKIT :: ELSE : field length : " + fields.length);
+                	 System.out.println("artificialWCfile : invalid row : field length : " + fields.length);
                  }
              }
             for(String key:village_details.keySet()){ 

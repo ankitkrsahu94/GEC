@@ -29,6 +29,7 @@ class WellsUtilizationData{
 				+ pumpingHours + ", yield=" + yield + ", operativeDays=" + operativeDays + ", growthRate=" + growthRate
 				+ "]";
 	}
+
 	public int getReferenceYear() {
 		return referenceYear;
 	}
