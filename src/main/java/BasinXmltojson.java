@@ -19,7 +19,7 @@ public class BasinXmltojson {
 		/**
 		 * output files
 		 */
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/chittor/";
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/Krishna/";
 		
 		String basinCQLOutputFileName = filePath+"InsertBasin.cql";
 
@@ -30,7 +30,7 @@ public class BasinXmltojson {
 																										// File
 		String areafile = filePath+"area.csv";
 		String geologicalFile = filePath+"geological_data.csv";
-		String wellsSpecificYieldFile = filePath+"ranfall_unit_drift.csv";
+		String wellsSpecificYieldFile = filePath+"rainfall_unit_drift.csv";
 		String waterbodiesfile = filePath+"mi_tanks.csv";
 		String canalfile = filePath+"canals.csv";
 		String artificialWCfile = filePath+"wc_structures.csv";
@@ -984,7 +984,7 @@ public class BasinXmltojson {
 					}
 					// System.out.println(artificialwcjson);
 				} else {
-					System.out.println("invalid : length : " + fields.length + " : " + iem.readLine());
+					System.out.println("invalid : length : " + fields.length + " : " + record);
 				}
 			}
 			for (String key : Basin_details.keySet()) {

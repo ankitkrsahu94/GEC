@@ -1,0 +1,31 @@
+,,,,,,,, Command,,,,Non command,,,,Poor command,,,
+SR.NO, GW Watershed name,Geo Specific Yield name,Specific Yield value as %,Rainfall infiltration Factor as %,Transmissivity as %,Storage Coefficient as %,Total area sq.km,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total
+1,Kri-D-48-Budawada,Soft rock,2,7,,,48.7,25.78,1.5,5,27.28,21.42,0,0,21.42,0,0,0,0
+2,Kri-D-48-Jaggaiahpeta,hard rock,3,11,,,162.14,157.52,4.62,7.5,162.14,0,0,0,0,0,0,0,0
+3,Kri-D-49-A.Konduru,hard rock,2,8,,,73.67,73.67,0,1.28,73.67,0,0,0,0,0,0,0,0
+4,Kri-D-49-Gampalagudem,hard rock,3,11,,,109.4714,96.9804909091,12.4909090909,14.4,109.4714,0,0,0,0,0,0,0,0
+5,Kri-D-49-Jayanthi,hard rock,3,11,,,42.55,42.55,0,0,42.55,0,0,0,0,0,0,0,0
+6,Kri-D-49--K.Atmakuru,hard rock,3,11,,,13,13,0,0,13,0,0,0,0,0,0,0,0
+7,Kri-D-49-Nandigama,hard rock,3,11,,,199.05,145.02,0,0,145.02,54.03,0,0,54.03,0,0,0,0
+8,Kri-D-49-Nemali,hard rock,3,11,,,22.34,22.34,0,0,22.34,1E-15,0,0,1E-15,0,0,0,0
+9,Kri-D-49-Peddavaram,hard rock,3,11,,,72.58,72.58,0,0,72.58,0,0,0,0,0,0,0,0
+10,Kri-D-49-Penuganchiprolu,hard rock,3,11,,,151.085,151.085,0,0,151.085,0,0,0,0,0,0,0,0
+11,Kri-D-49-Talluru,hard rock,3,11,,,24.87,24.87,0,0,24.87,0,0,0,0,0,0,0,0
+12,Kri-D-49-Tiruvuru,hard rock,3,11,,,69.59,69.59,0,0,69.59,0,0,0,0,0,0,0,0
+13,Kri-D-49-Utukuru,hard rock,3,11,,,69.53,69.53,0,0,69.53,0,0,0,0,0,0,0,0
+14,Kri-D-49-Vatsavai,hard rock,3,11,,,281.1529,277.6529,3.5,4.25,281.1529,0,0,0,0,0,0,0,0
+15,Kri-D-49-Veerulapadu,hard rock,3,11,,,115.52,115.52,0,0,115.52,0,0,0,0,0,0,0,0
+16,Kri-D-49-Vissannapeta,hard rock,3,11,,,359.71,345.5,14.21,40.76,359.71,0,0,0,0,0,0,0,0
+17,Kri-D-51-Chandarlapadu,hard rock,3,11,,,169.68,117.11,1.5,2.5,118.61,51.07,0,0,51.07,0,0,0,0
+18,Kri-D-51-Kanchikacherla ,hard rock,3,11,,,260.7,245.2,15.5,37.01,260.7,0,0,0,0,0,0,0,0
+19,Kri-I-40-Chatrai,hard rock,2,8,,,226.08,140.91,1.13,22.65,142.04,83.26,0.78,8.68,84.04,0,0,0,0
+20,Kri-I-40-Musunuru,soft rock,3,14,,,166.95,0,0,0,165.6,1.35,25.4369,166.95,0,0,0,0,0
+21,Kri-I-41-Nuzvid,hard rock,3,14,,,233.13,72.01,1.64,0,73.65,158.6,0.88,0.875,159.48,0,0,0,0
+22,Kri-I-42-Agiripalli,hard rock,2,8,,,274.88,266.94,7.94,14.25,274.88,0,0,0,0,0,0,0,0
+23,Kri-I-42-Bapulapadu,Soft rock,3,12,,,186.33,170.62,3.6,6.3,174.22,12.11,0,0,12.11,0,0,0,0
+24,Kri-I-42-Chillaboinapalli,soft rock,3,14,,,51.46,0,0,0,51.46,0,0.2024,51.46,0,0,0,0,0
+25,Kri-I-42-G.Konduru,hard rock,2,8,,,231.25,219.9,11.35,16.48,231.25,0,0,0,0,0,0,0,0
+26,kri-I-42-Ganginenipalem,hard rock,2,8,,,75.66,72.06,3.6,1.62,75.66,0,0,0,0,0,0,0,0
+27,Kri-I-42-Gannavaram,hard rock,2,8,,,308.4,299.04,9.36,12,308.4,0,0,0,0,0,0,0,0
+28,Kri-I-42-Mylavaram,hard rock,2,8,,,104.05,76.62,2.34,7.31,78.96,25.09,0,7.52,25.09,0,0,0,0
+29,Kri-I-42-Reddigudem,hard rock,2,8,,,355.06,330.86,24.2,44.38,355.06,0,0,0,0,0,0,0,0
