@@ -18,7 +18,6 @@ public class VillageMetaData {
     
 	public static void main(String k[]) {
 
-		
 		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/Visakhapatnam/";
 
 		
@@ -2771,13 +2770,13 @@ public class VillageMetaData {
             record = iem.readLine();
 
             while((record = iem.readLine()) != null) {
-                String fields[] = record.split(",");
-                if(fields.length==10){
-                	Mitank cmitank= new Mitank((Double.parseDouble(fields[4])),Double.parseDouble(fields[5]),0,120,150,0.00144);
+                String fields[] = record.split(",", -1);
+                if(fields.length==10 || fields.length==format.convert("ah")){
+                	Mitank cmitank= new Mitank((Utils.parseDouble(fields[4])),Utils.parseDouble(fields[5]),0,120,150,0.00144);
                 	Command wbcommand = new Command(cmitank);
-                	Mitank ncmitank= new Mitank((Double.parseDouble(fields[6])),Double.parseDouble(fields[7]),0,120,150,0.00144);
+                	Mitank ncmitank= new Mitank((Utils.parseDouble(fields[6])),Utils.parseDouble(fields[7]),0,120,150,0.00144);
                 	NonCommand nonCommand = new NonCommand(ncmitank);
-                	Mitank cpqmitank= new Mitank((Double.parseDouble(fields[8])),Double.parseDouble(fields[9])*0.6,0,120,150,0.00144);
+                	Mitank cpqmitank= new Mitank((Utils.parseDouble(fields[8])),Utils.parseDouble(fields[9])*0.6,0,120,150,0.00144);
                 	CommandPoorQuality commandpoorQuality = new CommandPoorQuality(cpqmitank);
                     waterbodies waterbd = new waterbodies(wbcommand,nonCommand,commandpoorQuality);
                     String waterbodyjson = waterbody.toJson(waterbd);
@@ -2788,11 +2787,11 @@ public class VillageMetaData {
                 		}
                     	else{
                     		waterbd= village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getWaterbodies();
-                    		cmitank= new Mitank((Double.parseDouble(fields[4]))+waterbd.command.mitank.count,((Double.parseDouble(fields[5])+waterbd.command.mitank.spreadArea)),0,120,150,0.00144);
+                    		cmitank= new Mitank((Utils.parseDouble(fields[4]))+waterbd.command.mitank.count,((Utils.parseDouble(fields[5])+waterbd.command.mitank.spreadArea)),0,120,150,0.00144);
                         	wbcommand = new Command(cmitank);
-                        	ncmitank= new Mitank((Double.parseDouble(fields[6]))+waterbd.non_command.mitank.count,((Double.parseDouble(fields[7])+waterbd.non_command.mitank.spreadArea)),0,120,150,0.00144);
+                        	ncmitank= new Mitank((Utils.parseDouble(fields[6]))+waterbd.non_command.mitank.count,((Utils.parseDouble(fields[7])+waterbd.non_command.mitank.spreadArea)),0,120,150,0.00144);
                         	nonCommand = new NonCommand(ncmitank);
-                        	cpqmitank= new Mitank((Double.parseDouble(fields[8]))+waterbd.command_poor_quality.mitank.count,((Double.parseDouble(fields[9])+waterbd.command_poor_quality.mitank.spreadArea)),0,120,150,0.00144);
+                        	cpqmitank= new Mitank((Utils.parseDouble(fields[8]))+waterbd.command_poor_quality.mitank.count,((Utils.parseDouble(fields[9])+waterbd.command_poor_quality.mitank.spreadArea)),0,120,150,0.00144);
                         	commandpoorQuality = new CommandPoorQuality(cpqmitank);
                             waterbd = new waterbodies(wbcommand,nonCommand,commandpoorQuality);
                             waterbodyjson = waterbody.toJson(waterbd);
@@ -2801,6 +2800,8 @@ public class VillageMetaData {
                     	}
                 	}
                    // System.out.println(waterbodyjson);
+                } else {
+                	System.out.println("asdsasac : field length not matching" +fields.length);
                 }
             }
             

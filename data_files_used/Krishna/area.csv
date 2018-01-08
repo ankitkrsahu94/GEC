@@ -1,0 +1,439 @@
+Sr.no,,,Village name,T.Area (ha),Watershed command area ,,,,Watershed Non command Area,,,,Watershed poor quality Area,,,,,,,,,,,,,,,,,
+,Water shed code,Watershed name,,,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Water shed code,Watershed name,DIS code,district,mandal code,mandal,janmaboomi code,village code,,,,,,
+1,06-D-48-13,Kri-D-48-Budawada,Annavaram,896,746,150,500,896,0,0,0,0,0,,,,,,Krishna,Paleru,Paleru,06-D-48-13,Kri-D-48-Budawada,6,Krishna,2,Jaggaiahpeta,,01984600,Annavaram
+2,06-D-48-13,Kri-D-48-Budawada,Budawada,1832,1832,0,0,1832,0,0,0,0,0,,,,,,Krishna,Paleru,Paleru,06-D-48-13,Kri-D-48-Budawada,6,Krishna,2,Jaggaiahpeta,,01984700,Budawada
+3,06-D-48-13,Kri-D-48-Budawada,K.Agraharam,622,0,0,0,0,622,0,0,622,0,,,,,,Krishna,Paleru,Paleru,06-D-48-13,Kri-D-48-Budawada,6,Krishna,2,Jaggaiahpeta,,01985400,K.Agraharam
+4,06-D-48-13,Kri-D-48-Budawada,Mukteswarapuram,1520,0,0,0,0,1520,0,0,1520,0,,,,,,Krishna,Paleru,Paleru,06-D-48-13,Kri-D-48-Budawada,6,Krishna,2,Jaggaiahpeta,,01985500,Mukteswarapuram
+5,06-D-48-02,Kri-D-48-Jaggaiahpeta,Buchavaram,762,762,0,0,762,0,0,0,0,0,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,6,Krishna,2,Jaggaiahpeta,,01983800,Buchavaram
+6,06-D-48-02,Kri-D-48-Jaggaiahpeta,Gandrai,1342,1220,122,250,1342,0,0,0,0,0,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,7,Krishna,2,Jaggaiahpeta,,01983700,Gandrai
+7,06-D-48-02,Kri-D-48-Jaggaiahpeta,Takkellapadu,542,542,0,0,542,0,0,0,0,0,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,8,Krishna,2,Jaggaiahpeta,,01983500,Takkellapadu
+8,06-D-48-02,Kri-D-48-Jaggaiahpeta,Garikapadu,196,196,0,0,196,0,0,0,0,0,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,9,Krishna,2,Jaggaiahpeta,,01984400,Garikapadu
+9,06-D-48-02,Kri-D-48-Jaggaiahpeta,R.C.Peta,383,383,0,0,383,0,0,0,0,0,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,10,Krishna,2,Jaggaiahpeta,,01983600,R.C.Peta
+10,06-D-48-02,Kri-D-48-Jaggaiahpeta,Anumanchipalli,1332,1332,0,0,1332,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,11,Krishna,2,Jaggaiahpeta,,01984300,Anumanchipalli
+11,06-D-48-02,Kri-D-48-Jaggaiahpeta,Balusupadu,533,340,193,200,533,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,12,Krishna,2,Jaggaiahpeta,,01984500,Balusupadu
+12,06-D-48-02,Kri-D-48-Jaggaiahpeta,S.M.peta,465,465,0,0,465,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,13,Krishna,2,Jaggaiahpeta,,01984200,S.M.peta
+13,06-D-48-02,Kri-D-48-Jaggaiahpeta,Tirumalagiri,1119,1119,0,0,1119,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,14,Krishna,2,Jaggaiahpeta,,01984000,Tirumalagiri
+14,06-D-48-02,Kri-D-48-Jaggaiahpeta,Chillakallu,1306,1306,0,0,1306,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,15,Krishna,2,Jaggaiahpeta,,01985000,Chillakallu
+15,06-D-48-02,Kri-D-48-Jaggaiahpeta,Jaggaiahpeta,3643,3496,147,300,3643,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,16,Krishna,2,Jaggaiahpeta,,41601000,Jaggaiahpeta
+16,06-D-48-02,Kri-D-48-Jaggaiahpeta,Jayanthipuram,1105,1105,0,0,1105,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,17,Krishna,2,Jaggaiahpeta,,01985300,Jayanthipuram
+17,06-D-48-02,Kri-D-48-Jaggaiahpeta,Ravirala,1005,1005,0,0,1005,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,18,Krishna,2,Jaggaiahpeta,,01985600,Ravirala
+18,06-D-48-02,Kri-D-48-Jaggaiahpeta,Torraguntapalem,221,221,0,0,221,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,19,Krishna,2,Jaggaiahpeta,,01984900,Torraguntapalem
+19,06-D-48-02,Kri-D-48-Jaggaiahpeta,Ravikampadu,380,380,0,0,380,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,20,Krishna,2,Jaggaiahpeta,,01984100,Ravikampadu
+20,06-D-48-03,Kri-D-48-Jaggaiahpeta,Tripuravaram,491,491,0,0,491,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-03,Kri-D-48-Jaggaiahpeta,21,Krishna,2,Jaggaiahpeta,,01984800,Tripuravaram
+21,06-D-48-02,Kri-D-48-Jaggaiahpeta,Dachupalem,514,514,0,0,514,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,21,Krishna,1,Vatsavai,,01982000,Dachupalem
+22,06-D-48-02,Kri-D-48-Jaggaiahpeta,Mangollu,715,715,0,0,715,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,22,Krishna,1,Vatsavai,,01981800,Mangollu
+23,06-D-48-02,Kri-D-48-Jaggaiahpeta,V.B.Palem,160,160,0,0,160,0,0,0,0,,,,,,,Krishna,Paleru,Paleru,06-D-48-02,Kri-D-48-Jaggaiahpeta,23,Krishna,1,Vatsavai,,01982100,V.B.Palem
+24,06-D-49-01,Kri-D-49-Vatsavai,Indugupalli,881.8,881.8,0,0,881.8,0,0,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01981500,Indugupalli
+25,06-D-49-01,Kri-D-49-Vatsavai,Pedamodupalli,354,354,0,0,354,0,0,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01981600,Pedamodupalli
+26,06-D-49-01,Kri-D-49-Vatsavai,Chinmodupalli,317,317,0,0,317,0,0,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01981700,Chinmodupalli
+27,06-D-49-01,Kri-D-49-Vatsavai,Kanneveedu,764,764,0,0,764,0,0,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01981400,Kanneveedu
+28,06-D-49-01,Kri-D-49-Vatsavai,Gopinenipalem,339.7,339.7,0,0,339.7,0,0,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01981800,Gopinenipalem
+29,06-D-49-01,Kri-D-49-Vatsavai,Chityala,926,926,0,0,926,0,0,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01982500,Chityala
+30,06-D-49-01,Kri-D-49-Vatsavai,Makkapeta,860,860,0,0,860,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01982300,Makkapeta
+31,06-D-49-01,Kri-D-49-Vatsavai,Bhimavaram,2422.5,2422.5,0,0,2422.5,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01982200,Bhimavaram
+32,06-D-49-01,Kri-D-49-Vatsavai,Hassanbada,48,48,0,0,48,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,1,Vatsavai,,01982400,Hassanbada
+33,06-D-49-01,Kri-D-49-Vatsavai,Malkapuram,1058,1058,0,0,1058,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,2,Jaggaiahpeta,,01983900,Malkapuram
+34,06-D-49-01,Kri-D-49-Vatsavai,Gowravaram,1032,1032,0,0,1032,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,2,Jaggaiahpeta,,01985100,Gowravaram
+35,06-D-49-01,Kri-D-49-Vatsavai,Pochampalli,1644,1494,150,80,1644,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,2,Jaggaiahpeta,,01985200,Pochampalli
+36,06-D-49-01,Kri-D-49-Vatsavai,Bandipalem,1895,1695,200,345,1895,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,2,Jaggaiahpeta,,01985800,Bandipalem
+37,06-D-49-01,Kri-D-49-Vatsavai,Penuganchiprolu,3880,3880,0,0,3880,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01986000,Penuganchiprolu
+38,06-D-49-01,Kri-D-49-Vatsavai,Lingagudem,345,345,0,0,345,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01985900,Lingagudem
+39,06-D-49-01,Kri-D-49-Vatsavai,Kollikulla,504.6,504.6,0,0,504.6,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01986500,Kollikulla
+40,06-D-49-01,Kri-D-49-Vatsavai,Subbayagudem,353.69,353.69,0,0,353.69,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01986000,Subbayagudem
+41,06-D-49-01,Kri-D-49-Vatsavai,Mundlapadu,1648,1648,0,0,1648,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01986600,Mundlapadu
+42,06-D-49-01,Kri-D-49-Vatsavai,Konakanchi,1887,1887,0,0,1887,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01986800,Konakanchi
+43,06-D-49-01,Kri-D-49-Vatsavai,Nawabpeta,1403,1403,0,0,1403,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01986900,Nawabpeta
+44,06-D-49-01,Kri-D-49-Vatsavai,Venkatapuram,796,796,0,0,796,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01986400,Venkatapuram
+45,06-D-49-01,Kri-D-49-Vatsavai,Senagapadu,1085,1085,0,0,1085,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01987100,Senagapadu
+46,06-D-49-01,Kri-D-49-Vatsavai,Thotacherala,665,665,0,0,665,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,3,Penuganchiprolu,,01987000,Thotacherala
+47,06-D-49-01,Kri-D-49-Vatsavai,Munagacherla,416,416,0,0,416,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,4,Nandigama,,01987400,Munagacherla
+48,06-D-49-01,Kri-D-49-Vatsavai,Nandigama,2590,2590,0,0,2590,0,0,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-01,Kri-D-49-Vatsavai,6,Krishna,4,Nandigama,,01988400,Nandigama
+49,06-D-49-03,Kri-D-49-Penuganchiprolu,Muchintala,746,746,,0,746,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,3,Penuganchiprolu,,01986100,Muchintala
+50,06-D-49-03,Kri-D-49-Penuganchiprolu,Anigandlapadu,2038,2038,,0,2038,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,3,Penuganchiprolu,,01986200,Anigandlapadu
+51,06-D-49-03,Kri-D-49-Penuganchiprolu,Gummadiduru,973,973,,0,973,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,3,Penuganchiprolu,,01986300,Gummadiduru
+52,06-D-49-03,Kri-D-49-Penuganchiprolu,Allurupadu,274,274,,0,274,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01982700,Allurupadu
+53,06-D-49-03,Kri-D-49-Penuganchiprolu,Vemavaram,383,383,,0,383,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01982600,Vemavaram
+54,06-D-49-03,Kri-D-49-Penuganchiprolu,Khambhampadu,1453,1453,,0,1453,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01983300,Khambhampadu
+55,06-D-49-03,Kri-D-49-Penuganchiprolu,Rebbavaram,202,202,,0,202,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01983400,Rebbavaram
+56,06-D-49-03,Kri-D-49-Penuganchiprolu,Polampalli,1782,1782,,0,1782,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01980900,Polampalli
+57,06-D-49-03,Kri-D-49-Penuganchiprolu,Dabbakupalli,794.5,794.5,,0,794.5,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01981000,Dabbakupalli
+58,06-D-49-03,Kri-D-49-Penuganchiprolu,Pochavaram,224,224,,0,224,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01981300,Pochavaram
+59,06-D-49-03,Kri-D-49-Penuganchiprolu,Vatsavai,1957,1957,,0,1957,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01982800,Vatsavai
+60,06-D-49-03,Kri-D-49-Penuganchiprolu,Gangavalli,251,251,,0,251,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01981200,Gangavalli
+61,06-D-49-03,Kri-D-49-Penuganchiprolu,Lingala,689,689,,0,689,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,1,Vatsavai,,01981100,Lingala
+62,06-D-49-03,Kri-D-49-Penuganchiprolu,Magallu,1437,1437,,0,1437,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,4,Nandigama,,01988700,Magallu
+63,06-D-49-03,Kri-D-49-Penuganchiprolu,Pallagiri,537,537,,0,537,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,4,Nandigama,,01988600,Pallagiri
+64,06-D-49-03,Kri-D-49-Penuganchiprolu,Satyavaram,253,253,,0,253,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,4,Nandigama,,01988500,Satyavaram
+65,06-D-49-03,Kri-D-49-Penuganchiprolu,Ramireddipalli,530,530,,0,530,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,4,Nandigama,,01988900,Ramireddipalli
+66,06-D-49-03,Kri-D-49-Penuganchiprolu,Konduru,585,585,,0,585,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-03,Kri-D-49-Penuganchiprolu,6,Krishna,4,Nandigama,,01988800,Konduru
+67,06-D-49-04,Kri-D-49-Nandigama,Takkellapadu,524,524,,0,524,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01987300,Takkellapadu
+68,06-D-49-04,Kri-D-49-Nandigama,Lingalapadu,413,413,,0,413,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01987600,Lingalapadu
+69,06-D-49-04,Kri-D-49-Nandigama,Latchapalem,352,352,,0,352,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01987500,Latchapalem
+70,06-D-49-04,Kri-D-49-Nandigama,Adaviravulapadu,683,683,,0,683,0,,0,0,0,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01987700,Adaviravulapadu
+71,06-D-49-04,Kri-D-49-Nandigama,K.Kandrika,202,0,,0,0,202,,0,202,0,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01987800,K.Kandrika
+72,06-D-49-04,Kri-D-49-Nandigama,Chandapuram,660,0,,0,0,660,,0,660,0,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01987900,Chandapuram
+73,06-D-49-04,Kri-D-49-Nandigama,Ambarupeta,324,0,,0,0,324,,0,324,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01988300,Ambarupeta
+74,06-D-49-04,Kri-D-49-Nandigama,Itavaram,516,0,,0,0,516,,0,516,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01988200,Itavaram
+75,06-D-49-04,Kri-D-49-Nandigama,Ketaveerunipadu,454,454,,0,454,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01988000,Ketaveerunipadu
+76,06-D-49-04,Kri-D-49-Nandigama,Kanchela,921,921,,0,921,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,4,Nandigama,,01988100,Kanchela
+77,06-D-49-04,Kri-D-49-Nandigama,Medipalem,310,310,,0,310,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,19,Chandarlapadu,,02017200,Medipalem
+78,06-D-49-04,Kri-D-49-Nandigama,Munagalapalli,400,0,,0,0,400,,0,400,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,19,Chandarlapadu,,02017300,Munagalapalli
+79,06-D-49-04,Kri-D-49-Nandigama,Muppala,1584,1584,,0,1584,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,19,Chandarlapadu,,02017400,Muppala
+80,06-D-49-04,Kri-D-49-Nandigama,Thurlapadu,1816,1816,,0,1816,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,19,Chandarlapadu,,02017900,Thurlapadu
+81,06-D-49-04,Kri-D-49-Nandigama,Thotaravulapadu,1208,0,,0,0,1208,,0,1208,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,19,Chandarlapadu,,02018000,Thotaravulapadu
+82,06-D-49-04,Kri-D-49-Nandigama,Chintalapadu,2093,0,,0,0,2093,,0,2093,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,19,Chandarlapadu,,02018100,Chintalapadu
+83,06-D-49-04,Kri-D-49-Nandigama,Eturu,1148,1148,,0,1148,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,19,Chandarlapadu,,02019000,Eturu
+84,06-D-49-04,Kri-D-49-Nandigama,Gandepalli,1065,1065,,0,1065,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,18,Kanchikacherla,,02015300,Gandepalli
+85,06-D-49-04,Kri-D-49-Nandigama,Keesara,662,662,,0,662,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,18,Kanchikacherla,,02015200,Keesara
+86,06-D-49-04,Kri-D-49-Nandigama,Saidapuram,248,248,,0,248,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,18,Kanchikacherla,,02015700,Saidapuram
+87,06-D-49-04,Kri-D-49-Nandigama,Pendyala,979,979,,0,979,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,18,Kanchikacherla,,02015800,Pendyala
+88,06-D-49-04,Kri-D-49-Nandigama,Vemulapalli,952,952,,0,952,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,18,Kanchikacherla,,02015900,Vemulapalli
+89,06-D-49-04,Kri-D-49-Nandigama,S.Amaravaram,763,763,,0,763,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,18,Kanchikacherla,,02016000,S.Amaravaram
+90,06-D-49-04,Kri-D-49-Nandigama,Moguluru,1329,1329,,0,1329,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,18,Kanchikacherla,,02016100,Moguluru
+91,06-D-49-04,Kri-D-49-Nandigama,Munnaluru,299,299,,0,299,0,,0,0,,,,,,,Krishna,Munneru,Munneru,06-D-49-04,Kri-D-49-Nandigama,6,Krishna,18,Kanchikacherla,,02016200,Munnaluru
+92,06-D-51-19,Kri-D-51-Chandarlapadu,Vedadri,971,0,0,0,0,971,0,0,971,0,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,2,Jaggaiahpeta,,01985700,Vedadri
+93,06-D-51-19,Kri-D-51-Chandarlapadu,Peddavaram,2255,2105,150,0,2255,0,0,0,0,0,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,4,Nandigama,,01987200,Peddavaram
+94,06-D-51-19,Kri-D-51-Chandarlapadu,Katrenipalli,334,334,0,75,334,0,0,0,0,0,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02016800,Katrenipalli
+95,06-D-51-19,Kri-D-51-Chandarlapadu,Gudimetla,2385,2385,0,175,2385,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02016900,Gudimetla
+96,06-D-51-19,Kri-D-51-Chandarlapadu,Brahma botlapalem,133,0,0,0,0,133,0,0,133,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02017000,Brahma botlapalem
+97,06-D-51-19,Kri-D-51-Chandarlapadu,Konayapalem,1353,0,0,0,0,1353,0,0,1353,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02017100,Konayapalem
+98,06-D-51-19,Kri-D-51-Chandarlapadu,Gudimetlapalem,381,0,0,0,0,381,0,0,381,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02017600,Gudimetlapalem
+99,06-D-51-19,Kri-D-51-Chandarlapadu,Bobbillapadu,1061,1061,0,0,1061,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02017500,Bobbillapadu
+100,06-D-51-19,Kri-D-51-Chandarlapadu,Chandarlapadu ,1353,0,0,0,0,1353,0,0,1353,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02017800,Chandarlapadu 
+101,06-D-51-19,Kri-D-51-Chandarlapadu,Patempadu,500,0,0,0,0,500,0,0,500,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02018200,Patempadu
+102,06-D-51-19,Kri-D-51-Chandarlapadu,Kasarabada,885,885,0,0,885,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02018400,Kasarabada
+103,06-D-51-19,Kri-D-51-Chandarlapadu,Ustepalli,751,751,0,0,751,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02017700,Ustepalli
+104,06-D-51-19,Kri-D-51-Chandarlapadu,Pokkunuru,862,862,0,0,862,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02018500,Pokkunuru
+105,06-D-51-19,Kri-D-51-Chandarlapadu,Kodavatikallu,1773,1773,0,0,1773,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02018300,Kodavatikallu
+106,06-D-51-19,Kri-D-51-Chandarlapadu,Veladikothapalem,621,621,0,0,621,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02018700,Veladikothapalem
+107,06-D-51-19,Kri-D-51-Chandarlapadu,Punnavalli,262,262,0,0,262,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02018600,Punnavalli
+108,06-D-51-19,Kri-D-51-Chandarlapadu,Popuru,672,672,0,0,672,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02018800,Popuru
+109,06-D-51-19,Kri-D-51-Chandarlapadu,Vipareetalapadu,416,0,0,0,0,416,0,0,416,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-19,Kri-D-51-Chandarlapadu,6,Krishna,19,Chandarlapadu ,,02018900,Vipareetalapadu
+110,06-D-49-02,Kri-D-49-Nemali,Ummadidevarapalli,245,245,0,0,245,1E-13,0,0,1E-13,0,,,,,,Krishna,Munneru,Wyra,06-D-49-02,Kri-D-49-Nemali,6,Krishna,7,Gampalagudem,,01994200,Ummadidevarapalli
+111,06-D-49-02,Kri-D-49-Nemali,Nemali,851,851,0,0,851,0,0,0,0,0,,,,,,Krishna,Munneru,Wyra,06-D-49-02,Kri-D-49-Nemali,6,Krishna,7,Gampalagudem,,01994300,Nemali
+112,06-D-49-02,Kri-D-49-Nemali,Konijerla,1138,1138,0,0,1138,0,0,0,0,0,,,,,,Krishna,Munneru,Wyra,06-D-49-02,Kri-D-49-Nemali,6,Krishna,7,Gampalagudem,,01994400,Konijerla
+113,06-D-49-04,Kri-D-49-Utukuru,Utukuru,2282,2282,0,0,2282,0,0,0,0,0,,,,,,Krishna,Munner,Wyra,06-D-49-04,Kri-D-49-Utukuru,6,Krishna,7,Gampalagudem,,01994500,Utukuru
+114,06-D-49-04,Kri-D-49-Utukuru,Dundiralapadu,813,813,0,0,813,0,0,0,0,0,,,,,,Krishna,Munner,Wyra,06-D-49-04,Kri-D-49-Utukuru,6,Krishna,7,Gampalagudem,,01994600,Dundiralapadu
+115,06-D-49-04,Kri-D-49-Utukuru,Penugolenu,2342,2342,0,0,2342,0,0,0,0,0,,,,,,Krishna,Munner,Wyra,06-D-49-04,Kri-D-49-Utukuru,6,Krishna,7,Gampalagudem,,01994900,Penugolenu
+116,06-D-49-04,Kri-D-49-Utukuru,Tunikipadu,1133,1133,0,0,1133,0,0,0,0,,,,,,,Krishna,Munner,Wyra,06-D-49-04,Kri-D-49-Utukuru,6,Krishna,7,Gampalagudem,,01994700,Tunikipadu
+117,06-D-49-04,Kri-D-49-Utukuru,Rajavaram,383,383,0,0,383,0,0,0,0,,,,,,,Krishna,Munner,Wyra,06-D-49-04,Kri-D-49-Utukuru,6,Krishna,7,Gampalagudem,,01994800,Rajavaram
+118,06-D-49-07,Kri-D-49-Talluru,Kakaravai,663,663,0,0,663,0,0,0,0,,,,,,,Krishna,Munner,Wyra,06-D-49-07,Kri-D-49-Talluru,6,Krishna,1,Vatsavai,,01994800,Kakaravai
+119,06-D-49-07,Kri-D-49-Talluru,Machinenipalem,396,396,0,0,396,0,0,0,0,,,,,,,Krishna,Munner,Wyra,06-D-49-07,Kri-D-49-Talluru,6,Krishna,1,Vatsavai,,01983000,Machinenipalem
+120,06-D-49-07,Kri-D-49-Talluru,Talluru,446,446,0,0,446,0,0,0,0,,,,,,,Krishna,Munner,Wyra,06-D-49-07,Kri-D-49-Talluru,6,Krishna,1,Vatsavai,,01983200,Talluru
+121,06-D-49-07,Kri-D-49-Talluru,Vemulanarva,982,982,0,0,982,0,0,0,0,,,,,,,Krishna,Munner,Wyra,06-D-49-07,Kri-D-49-Talluru,6,Krishna,1,Vatsavai,,01982900,Vemulanarva
+122,06-D-49-10,Kri-D-49--K.Atmakuru,K.Atmakuru,539,539,0,0,539,0,0,0,0,0,,,,,,Krishna,Munneru,Wyra,06-D-49-10,Kri-D-49--K.Atmakuru,6,Krishna,4,Nandigama,,01989200,K.Atmakuru
+123,06-D-49-10,Kri-D-49--K.Atmakuru,Jonnalagadda,402,402,0,0,402,0,0,0,0,0,,,,,,Krishna,Munneru,Wyra,06-D-49-10,Kri-D-49--K.Atmakuru,6,Krishna,4,Nandigama,,01989000,Jonnalagadda
+124,06-D-49-10,Kri-D-49--K.Atmakuru,V.Annavaram,359,359,0,0,359,0,0,0,0,0,,,,,,Krishna,Munneru,Wyra,06-D-49-10,Kri-D-49--K.Atmakuru,6,Krishna,5,Veerullapadu,,01989800,V.Annavaram
+125,06-D-49-05,Kri-D-49-Veerulapadu,Torragudipadu,264,264,0,0,264,0,0,0,0,0,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,4,Nandigama,,01989200,Torragudipadu
+126,06-D-49-05,Kri-D-49-Veerulapadu,Damuluru,692,692,0,0,692,0,0,0,0,0,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,4,Nandigama,,01989300,Damuluru
+127,06-D-49-05,Kri-D-49-Veerulapadu,Somavaram,812,812,0,0,812,0,0,0,0,0,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,4,Nandigama,,01989400,Somavaram
+128,06-D-49-05,Kri-D-49-Veerulapadu,Rudravaram,409,409,0,0,409,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,4,Nandigama,,01989500,Rudravaram
+129,06-D-49-05,Kri-D-49-Veerulapadu,Gollamudi,829,829,0,0,829,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,4,Nandigama,,01989600,Gollamudi
+130,06-D-49-05,Kri-D-49-Veerulapadu,Raghavapuram,1331,1331,0,0,1331,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,4,Nandigama,,01989700,Raghavapuram
+131,06-D-49-05,Kri-D-49-Veerulapadu,Pallempalli,291,291,0,0,291,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01990600,Pallempalli
+132,06-D-49-05,Kri-D-49-Veerulapadu,Konatanapalli,1092,1092,0,0,1092,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01990700,Konatanapalli
+133,06-D-49-05,Kri-D-49-Veerulapadu,Choutapalli,359,359,0,0,359,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01990300,Choutapalli
+134,06-D-49-05,Kri-D-49-Veerulapadu,Chattannavaram,404,404,0,0,404,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01990900,Chattannavaram
+135,06-D-49-05,Kri-D-49-Veerulapadu,Dachavaram,232,232,0,0,232,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01990800,Dachavaram
+136,06-D-49-05,Kri-D-49-Veerulapadu,Vellanki,1083,1083,0,0,1083,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01991500,Vellanki
+137,06-D-49-05,Kri-D-49-Veerulapadu,Tatigummi,282,282,0,0,282,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01991600,Tatigummi
+138,06-D-49-05,Kri-D-49-Veerulapadu,Gokharajupalli,275,275,0,0,275,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01991900,Gokharajupalli
+139,06-D-49-05,Kri-D-49-Veerulapadu,Nandaluru,435,435,0,0,435,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01991700,Nandaluru
+140,06-D-49-05,Kri-D-49-Veerulapadu,Bodawada,2037,2037,0,0,2037,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01991800,Bodawada
+141,06-D-49-05,Kri-D-49-Veerulapadu,Lakshmipuram,295,295,0,0,295,0,0,0,0,,,,,,,Krishna,Munneru,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01991400,Lakshmipuram
+142,06-D-49-05,Kri-D-49-Veerulapadu,Jammavaram,430,430,0,0,430,0,0,0,0,,,,,,,Krishna,Wyra,Wyra,06-D-49-05,Kri-D-49-Veerulapadu,6,Krishna,5,Veerullapadu,,01992000,Jammavaram
+143,06-D-49-01,Kri-D-49-Peddavaram,Akkapalem,1047,1047,0,0,1047,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-01,Kri-D-49-Peddavaram,6,Krishna,8,Tiruvuru,,01996600,Akkapalem
+144,06-D-49-01,Kri-D-49-Peddavaram,Chintalapadu,1049,1049,0,0,1049,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-01,Kri-D-49-Peddavaram,6,Krishna,8,Tiruvuru,,01997400,Chintalapadu
+145,06-D-49-01,Kri-D-49-Peddavaram,Erramadu,743,743,0,0,743,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-01,Kri-D-49-Peddavaram,6,Krishna,8,Tiruvuru,,01997300,Erramadu
+146,06-D-49-01,Kri-D-49-Peddavaram,Mustikuntla,422,422,0,0,422,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-01,Kri-D-49-Peddavaram,6,Krishna,8,Tiruvuru,,01997200,Mustikuntla
+147,06-D-49-01,Kri-D-49-Peddavaram,Munukulla,969,969,0,0,969,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-01,Kri-D-49-Peddavaram,6,Krishna,8,Tiruvuru,,01996500,Munukulla
+148,06-D-49-01,Kri-D-49-Peddavaram,Peddavaram,500,500,0,0,500,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-01,Kri-D-49-Peddavaram,6,Krishna,8,Tiruvuru,,01996300,Peddavaram
+149,06-D-49-01,Kri-D-49-Peddavaram,Vamakuntla,862,862,0,0,862,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-01,Kri-D-49-Peddavaram,6,Krishna,8,Tiruvuru,,01997100,Vamakuntla
+150,06-D-49-01,Kri-D-49-Peddavaram,Vavilala,1666,1666,0,0,1666,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-01,Kri-D-49-Peddavaram,6,Krishna,8,Tiruvuru,,01996400,Vavilala
+151,06-D-49-08,Kri-D-49-Tiruvuru,Tiruvuru,2875,2875,0,0,2875,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-08,Kri-D-49-Tiruvuru,6,Krishna,8,Tiruvuru,,01997000,Tiruvuru
+152,06-D-49-08,Kri-D-49-Tiruvuru,Chittela,875,875,0,0,875,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-08,Kri-D-49-Tiruvuru,6,Krishna,8,Tiruvuru,,01997700,Chittela
+153,06-D-49-08,Kri-D-49-Tiruvuru,Kokilampadu,736,736,0,0,736,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-08,Kri-D-49-Tiruvuru,6,Krishna,8,Tiruvuru,,01996800,Kokilampadu
+154,06-D-49-08,Kri-D-49-Tiruvuru,Anjaneyapuram,432,432,0,0,432,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-08,Kri-D-49-Tiruvuru,6,Krishna,8,Tiruvuru,,01997800,Anjaneyapuram
+155,06-D-49-08,Kri-D-49-Tiruvuru,Lakshmipuram,972,972,0,0,972,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-08,Kri-D-49-Tiruvuru,6,Krishna,8,Tiruvuru,,01997900,Lakshmipuram
+156,06-D-49-08,Kri-D-49-Tiruvuru,Rolupadi,1069,1069,0,0,1069,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-08,Kri-D-49-Tiruvuru,6,Krishna,8,Tiruvuru,,01997500,Rolupadi
+157,06-D-49-09,Kri-D-49-A.Konduru,Vallampatla,1408,1408,,128,1408,0,,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-09,Kri-D-49-A.Konduru,6,Krishna,9,A.Konduru,,01998400,Vallampatla
+158,06-D-49-09,Kri-D-49-A.Konduru,Marepalli,705,705,,0,705,0,,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-09,Kri-D-49-A.Konduru,6,Krishna,9,A.Konduru,,01998200,Marepalli
+159,06-D-49-09,Kri-D-49-A.Konduru,Polisettipadu,1537,1537,,0,1537,0,,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-09,Kri-D-49-A.Konduru,6,Krishna,9,A.Konduru,,01998300,Polisettipadu
+160,06-D-49-09,Kri-D-49-A.Konduru,Mallela,1286,1286,,0,1286,0,,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-09,Kri-D-49-A.Konduru,6,Krishna,8,Tiruvuru,,01998100,Mallela
+161,06-D-49-09,Kri-D-49-A.Konduru,Vemireddipalli,1859,1859,,0,1859,0,,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-09,Kri-D-49-A.Konduru,6,Krishna,11,Vissannapeta,,02000600,Vemireddipalli
+162,06-D-49-10,Kri-D-49-A.Konduru,Ramannapalem,572,572,0,0,572,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-10,Kri-D-49-A.Konduru,7,Krishna,8,Tiruvuru,,01998000,Ramannapalem
+163,06-D-49-11,Kri-D-49-Vissannapeta,Kambhampadu,631,631,0,0,631,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,9,A.Konduru,,01998600,Kambhampadu
+164,06-D-49-11,Kri-D-49-Vissannapeta,Atlapragada,1219,1001,218,417,1219,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,9,A.Konduru,,01998800,Atlapragada
+165,06-D-49-11,Kri-D-49-Vissannapeta,A.Konduru,2186,2186,0,587,2186,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,9,A.Konduru,,01998900,A.Konduru
+166,06-D-49-11,Kri-D-49-Vissannapeta,Kummarikuntla,377,377,0,0,377,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,9,A.Konduru,,01999100,Kummarikuntla
+167,06-D-49-11,Kri-D-49-Vissannapeta,Repudi,1435,1435,0,0,1435,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,9,A.Konduru,,01999000,Repudi
+168,06-D-49-11,Kri-D-49-Vissannapeta,Gollamandala,1241,1041,200,0,1241,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,9,A.Konduru,,01998500,Gollamandala
+169,06-D-49-11,Kri-D-49-Vissannapeta,Koduru,3533,3098,435,2428,3533,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,9,A.Konduru,,01998700,Koduru
+170,06-D-49-11,Kri-D-49-Vissannapeta,Tatakuntla,1411,1411,0,0,1411,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,11,Vissannapet,,02001300,Tatakuntla
+171,06-D-49-11,Kri-D-49-Vissannapeta,Telladevarapalli,1341,1341,0,0,1341,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,11,Vissannapet,,02001000,Telladevarapalli
+172,06-D-49-11,Kri-D-49-Vissannapeta,Vissannapeta,2414,2364,50,0,2414,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,11,Vissannapet,,02001400,Vissannapeta
+173,06-D-49-11,Kri-D-49-Vissannapeta,Chandrupatla,2134,2134,0,0,2134,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,11,Vissannapet,,02001100,Chandrupatla
+174,06-D-49-11,Kri-D-49-Vissannapeta,Narsapuram,1380,1380,0,100,1380,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,11,Vissannapet,,02001200,Narsapuram
+175,06-D-49-11,Kri-D-49-Vissannapeta,Putrela,3395,3395,0,0,3395,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,11,Vissannapet,,02000900,Putrela
+176,06-D-49-11,Kri-D-49-Vissannapeta,Kalagara,1910,1910,0,0,1910,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,11,Vissannapet,,02000800,Kalagara
+177,06-D-49-11,Kri-D-49-Vissannapeta,Korlamanda,1979,1979,0,0,1979,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,11,Vissannapet,,02000700,Korlamanda
+178,06-D-49-11,Kri-D-49-Vissannapeta,Chanubanda,3444,3444,0,0,3444,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,12,Chatrai,,02001700,Chanubanda
+179,06-D-49-11,Kri-D-49-Vissannapeta,Krishnaraopalem,372,372,0,0,372,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,12,Chatrai,,02001600,Krishnaraopalem
+180,06-D-49-11,Kri-D-49-Vissannapeta,Kanumuru,1461,943,518,544,1461,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,7,Gampalagudem,,01995800,Kanumuru
+181,06-D-49-11,Kri-D-49-Vissannapeta,Muchinapalli,1751,1751,0,0,1751,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,10,Reddigudem,,01999500,Muchinapalli
+182,06-D-49-11,Kri-D-49-Vissannapeta,Ganugapadu,2357,2357,0,0,2357,0,0,0,0,,,,,,,Krishna,Munneru,Katleru,06-D-49-11,Kri-D-49-Vissannapeta,6,Krishna,8,Tiruvuru,,01997600,Ganugapadu
+183,06-D-49-07,Kri-D-49-Gampalagudem,Gampalagudem,952,952,0,0,952,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995700,Gampalagudem
+184,06-D-49-07,Kri-D-49-Gampalagudem,Arlapadu,1182,1182,0,0,1182,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995400,Arlapadu
+185,06-D-49-07,Kri-D-49-Gampalagudem,Chennavaram,588,588,0,0,588,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995200,Chennavaram
+186,06-D-49-07,Kri-D-49-Gampalagudem,Gosaveedu,938,938,0,0,938,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995000,Gosaveedu
+187,06-D-49-07,Kri-D-49-Gampalagudem,Kothapalli,432,432,0,0,432,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01996000,Kothapalli
+188,06-D-49-07,Kri-D-49-Gampalagudem,Lingala,692,692,0,0,692,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995600,Lingala
+189,06-D-49-07,Kri-D-49-Gampalagudem,Meduru,942,792,150,200,942,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995300,Meduru
+190,06-D-49-07,Kri-D-49-Gampalagudem,Pedakomira,679,679,0,0,679,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995100,Pedakomira
+191,06-D-49-07,Kri-D-49-Gampalagudem,Vinagadapa,1984,1984,0,0,1984,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01996100,Vinagadapa
+192,06-D-49-07,Kri-D-49-Gampalagudem,Narikampadu,470,220,250,300,470,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01996200,Narikampadu
+193,06-D-49-07,Kri-D-49-Gampalagudem,Anumullanka,983,433,550,600,983,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995900,Anumullanka
+194,06-D-49-07,Kri-D-49-Gampalagudem,Gullapudi,1105.14,806.0490909091,299.0909090909,340,1105.14,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-07,Kri-D-49-Gampalagudem,6,Krishna,7,Gampalagudem,,01995500,Gullapudi
+195,06-D-49-03,Kri-D-49-Jayanthi,Veerullapadu,839,839,0,0,839,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-03,Kri-D-49-Jayanthi,6,Krishna,5,Veerullapadu,,01990400,Veerullapadu
+196,06-D-49-03,Kri-D-49-Jayanthi,Jayanthi,2739,2739,0,0,2739,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-03,Kri-D-49-Jayanthi,6,Krishna,5,Veerullapadu,,01990000,Jayanthi
+197,06-D-49-03,Kri-D-49-Jayanthi,Dodda Devarapadu,512,512,0,0,512,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-03,Kri-D-49-Jayanthi,6,Krishna,5,Veerullapadu,,01989900,Dodda Devarapadu
+198,06-D-49-03,Kri-D-49-Jayanthi,Ramapuram,165,165,0,0,165,0,0,0,0,0,,,,,,Krishna,Munneru,Katleru,06-D-49-03,Kri-D-49-Jayanthi,6,Krishna,5,Veerullapadu,,01990500,Ramapuram
+199,06-D-51-18,Kri-D-51-Kanchikacherla ,Peddapuram,755,755,0,0,755,0,0,0,0,0,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,Krishna,5,Veerulapadu,,01990200,Peddapuram
+200,06-D-51-18,Kri-D-51-Kanchikacherla ,G.Madhavaram,644,644,0,0,644,0,0,0,0,0,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,5,Veerulapadu,,01990100,G.Madhavaram
+201,06-D-51-18,Kri-D-51-Kanchikacherla ,Thimmapuram,978,928,50,160,978,0,0,0,0,0,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,5,Veerulapadu,,01991100,Thimmapuram
+202,06-D-51-18,Kri-D-51-Kanchikacherla ,Alluru,1189,1189,0,0,1189,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,5,Veerulapadu,,01991000,Alluru
+203,06-D-51-18,Kri-D-51-Kanchikacherla ,Chennaraopalem,1123,1063,60,80,1123,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,5,Veerulapadu,,01991200,Chennaraopalem
+204,06-D-51-18,Kri-D-51-Kanchikacherla ,Jujjuru,2559,2499,60,140,2559,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,5,Veerulapadu,,01991300,Jujjuru
+205,06-D-51-18,Kri-D-51-Kanchikacherla ,N.R.Palem,1064,964,100,220,1064,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,5,Veerulapadu,,01992300,N.R.Palem
+206,06-D-51-18,Kri-D-51-Kanchikacherla ,Jaganadhapuram,282,282,0,0,282,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,5,Veerulapadu,,01992200,Jaganadhapuram
+207,06-D-51-18,Kri-D-51-Kanchikacherla ,Ponnavaram,626,626,0,0,626,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,5,Veerulapadu,,01992100,Ponnavaram
+208,06-D-51-18,Kri-D-51-Kanchikacherla ,Peerakalapadu,397,397,0,0,397,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,18,Kanchikacherla,,02015400,Peerakalapadu
+209,06-D-51-18,Kri-D-51-Kanchikacherla ,Gottumukkala,757,507,250,600,757,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,18,Kanchikacherla,,02015500,Gottumukkala
+210,06-D-51-18,Kri-D-51-Kanchikacherla ,Kanchikacherla,2950,2950,0,0,2950,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,18,Kanchikacherla,,02015600,Kanchikacherla
+211,06-D-51-18,Kri-D-51-Kanchikacherla ,Paritala,1998,1843,155,310,1998,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,18,Kanchikacherla,,02016700,Paritala
+212,06-D-51-18,Kri-D-51-Kanchikacherla ,Bathinapadu,651,651,0,0,651,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,18,Kanchikacherla,,02016500,Bathinapadu
+213,06-D-51-18,Kri-D-51-Kanchikacherla ,Chevitikallu,924,924,0,0,924,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,18,Kanchikacherla,,02016400,Chevitikallu
+214,06-D-51-18,Kri-D-51-Kanchikacherla ,Kunikanapadu,385,385,0,0,385,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,18,Kanchikacherla,,02016300,Kunikanapadu
+215,06-D-51-18,Kri-D-51-Kanchikacherla ,Ghani Atkur,1889,1889,0,0,1889,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,18,Kanchikacherla,,02016600,Ghani Atkur
+216,06-D-51-18,Kri-D-51-Kanchikacherla ,Damuluru,1029,1029,0,0,1029,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019800,Damuluru
+217,06-D-51-18,Kri-D-51-Kanchikacherla ,Chilukuru,408,408,0,0,408,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019700,Chilukuru
+218,06-D-51-18,Kri-D-51-Kanchikacherla ,Ketanakonda,247,247,0,50,247,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019500,Ketanakonda
+219,06-D-51-18,Kri-D-51-Kanchikacherla ,Kachavaram,396,396,0,80,396,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019600,Kachavaram
+220,06-D-51-18,Kri-D-51-Kanchikacherla ,Kotikalapudi,617,617,0,0,617,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019900,Kotikalapudi
+221,06-D-51-18,Kri-D-51-Kanchikacherla ,Mulapadu,311,311,0,150,311,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02020000,Mulapadu
+222,06-D-51-18,Kri-D-51-Kanchikacherla ,Jupudi,773,773,0,60,773,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02020100,Jupudi
+223,06-D-51-18,Kri-D-51-Kanchikacherla ,Ibrahimpatnam,1521,1021,500,900,1521,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02020200,Ibrahimpatnam
+224,06-D-51-18,Kri-D-51-Kanchikacherla ,Z.N.Pothavaram,336,236,100,190,336,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019100,Z.N.Pothavaram
+225,06-D-51-18,Kri-D-51-Kanchikacherla ,Trilochanapuram,711,611,100,461,711,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019300,Trilochanapuram
+226,06-D-51-18,Kri-D-51-Kanchikacherla ,Jamimachavaram,138,113,25,100,138,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019400,Jamimachavaram
+227,06-D-51-18,Kri-D-51-Kanchikacherla ,Navepothavaram,412,262,150,200,412,0,0,0,0,,,,,,,Krishna,Minor drains falling in Krishna,Minor drains falling in Krishna,06-D-51-18,Kri-D-51-Kanchikacherla ,6,krishna,20,Ibrahimpatnam,,02019200,Navepothavaram
+228,06-I-40-12,Kri-I-40-Chatrai,Somavaram,1932,1882,50,323,1932,0,0,0,0,0,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02003000,Somavaram
+229,06-I-40-12,Kri-I-40-Chatrai,Kothagudem,602,602,0,0,602,0,0,0,0,0,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02003100,Kothagudem
+230,06-I-40-12,Kri-I-40-Chatrai,Tummagudem,1480,1480,0,499,1480,0,0,0,0,0,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002700,Tummagudem
+231,06-I-40-12,Kri-I-40-Chatrai,Chittapur,1444,1381,63,66,1444,0,0,0,0,0,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002600,Chittapur
+232,06-I-40-12,Kri-I-40-Chatrai,Arugolanupeta,1834,1834,0,654,1834,0,0,0,0,0,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002500,Arugolanupeta
+233,06-I-40-12,Kri-I-40-Chatrai,Janardhanavaram,609,609,0,0,609,0,0,0,0,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002800,Janardhanavaram
+234,06-I-40-12,Kri-I-40-Chatrai,Chatrai,2089,2089,0,179,2089,0,0,0,0,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002400,Chatrai
+235,06-I-40-12,Kri-I-40-Chatrai,Polavaram,1789,1789,0,334,1789,0,0,0,0,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002900,Polavaram
+236,06-I-40-12,Kri-I-40-Chatrai,Buruggudem,1067,0,0,0,0,1067,0,66,1067,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002300,Buruggudem
+237,06-I-40-12,Kri-I-40-Chatrai,Parvathapuram,1011,0,0,0,0,1011,0,160,1011,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02001800,Parvathapuram
+238,06-I-40-12,Kri-I-40-Chatrai,Chinnampeta,1183,0,0,0,0,1183,0,0,1183,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02001900,Chinnampeta
+239,06-I-40-12,Kri-I-40-Chatrai,Kotapadu,2709,0,0,0,0,2709,0,542,2709,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002000,Kotapadu
+240,06-I-40-12,Kri-I-40-Chatrai,Mankollu,1313,1313,0,0,1313,0,0,0,0,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002100,Mankollu
+241,06-I-40-12,Kri-I-40-Chatrai,Pothanapalli,1112,1112,0,210,1112,0,0,0,0,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,12,Chatrai,,02002200,Pothanapalli
+242,06-I-40-12,Kri-I-40-Chatrai,Kondaparva,2434,0,0,0,0,2356,78,100,2434,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-12,Kri-I-40-Chatrai,6,Krishna,11,Vissannapeta,,02001500,Kondaparva
+243,06-I-41-14,Kri-I-41-Nuzvid,Vattigudipadu,1059,1059,0,0,1059,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,16,Agiripalli,,02010700,Vattigudipadu
+244,06-I-41-14,Kri-I-41-Nuzvid,Kothapalli,469,0,0,0,0,469,0,0,469,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,15,Bapulapadu,,02007400,Kothapalli
+245,06-I-41-14,Kri-I-41-Nuzvid,Billanapalli,713,0,0,0,0,713,0,0,713,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,15,Bapulapadu,,02007500,Billanapalli
+246,06-I-41-14,Kri-I-41-Nuzvid,Koyyuru,528,0,0,0,0,528,0,0,528,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,15,Bapulapadu,,02007700,Koyyuru
+247,06-I-41-14,Kri-I-41-Nuzvid,Bommuluru,938,0,0,0,0,938,0,0,938,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,15,Bapulapadu,,02007800,Bommuluru
+248,06-I-41-14,Kri-I-41-Nuzvid,B.Kandrika,203,0,0,0,0,203,0,0,203,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,15,Bapulapadu,,02007900,B.Kandrika
+249,06-I-41-14,Kri-I-41-Nuzvid,Korlagunta,582,0,0,0,0,582,0,0,582,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,13,Musunuru,,02003900,Korlagunta
+250,06-I-41-14,Kri-I-41-Nuzvid,Nuzvid,1212,1212,0,0,1212,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,41602000,Nuzvid
+251,06-I-41-14,Kri-I-41-Nuzvid,Digavalli,2417,0,0,0,0,2367,50,50,2417,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02004900,Digavalli
+252,06-I-41-14,Kri-I-41-Nuzvid,Mukkullapadu,1617,0,0,0,0,1617,0,0,1617,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02005000,Mukkullapadu
+253,06-I-41-14,Kri-I-41-Nuzvid,Annavaram,1325,0,0,0,0,1325,0,0,1325,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02005100,Annavaram
+254,06-I-41-14,Kri-I-41-Nuzvid,H.M.Gudem,328,0,0,0,0,290,38,37.5,328,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02005200,H.M.Gudem
+255,06-I-41-14,Kri-I-41-Nuzvid,Venkatayapalem,952,0,0,0,0,952,0,0,952,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02005300,Venkatayapalem
+256,06-I-41-14,Kri-I-41-Nuzvid,Boravancha,1304,1140,164,0,1304,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02005800,Boravancha
+257,06-I-41-14,Kri-I-41-Nuzvid,Pothureddipalli,978,0,0,0,0,978,0,0,978,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02005900,Pothureddipalli
+258,06-I-41-14,Kri-I-41-Nuzvid,Jangamagudem,583,0,0,0,0,583,0,0,583,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006000,Jangamagudem
+259,06-I-41-14,Kri-I-41-Nuzvid,Thukkuluru,720,0,0,0,0,720,0,0,720,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006100,Thukkuluru
+260,06-I-41-14,Kri-I-41-Nuzvid,Ramannagudem,654,654,0,0,654,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006200,Ramannagudem
+261,06-I-41-14,Kri-I-41-Nuzvid,Polasanapalli,764,764,0,0,764,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006300,Polasanapalli
+262,06-I-41-14,Kri-I-41-Nuzvid,Morsapudi,753,753,0,0,753,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006400,Morsapudi
+263,06-I-41-14,Kri-I-41-Nuzvid,Devaragunta,685,0,0,0,0,685,0,0,685,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006500,Devaragunta
+264,06-I-41-14,Kri-I-41-Nuzvid,Vempadu,1358,0,0,0,0,1358,0,0,1358,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006600,Vempadu
+265,06-I-41-14,Kri-I-41-Nuzvid,Gollapalli,504,0,0,0,0,504,0,0,504,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006700,Gollapalli
+266,06-I-41-14,Kri-I-41-Nuzvid,Meerjapuram,744,0,0,0,0,744,0,0,744,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006800,Meerjapuram
+267,06-I-41-14,Kri-I-41-Nuzvid,M.N.Plem,304,0,0,0,0,304,0,0,304,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02006900,M.N.Plem
+268,06-I-41-14,Kri-I-41-Nuzvid,Marribandam,196,196,0,0,196,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02007000,Marribandam
+269,06-I-41-14,Kri-I-41-Nuzvid,Seetharampuram,214,214,0,0,214,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02007100,Seetharampuram
+270,06-I-41-14,Kri-I-41-Nuzvid,Pallerlamudi,1209,1209,0,0,1209,0,0,0,0,,,,,,,Between Krishna & Godavari,Ramileru,Ramileru,06-I-41-14,Kri-I-41-Nuzvid,6,Krishna,14,Nuzvid,,02007200,Pallerlamudi
+271,06-I-42-03,kri-I-42-Ganginenipalem,Ganginenipalem,626,626,0,0,626,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02012700,Ganginenipalem
+272,06-I-42-03,kri-I-42-Ganginenipalem,Telladevarapadu,605,605,0,0,605,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02012800,Telladevarapadu
+273,06-I-42-03,kri-I-42-Ganginenipalem,Sunnampadu,732,732,0,0,732,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02012900,Sunnampadu
+274,06-I-42-03,kri-I-42-Ganginenipalem,Munagapadu,584,584,0,0,584,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02013000,Munagapadu
+275,06-I-42-03,kri-I-42-Ganginenipalem,Ch.Madhavaram,982,982,0,0,982,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02013100,Ch.Madhavaram
+276,06-I-42-03,kri-I-42-Ganginenipalem,Gaddamanugu,444,444,0,0,444,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02013200,Gaddamanugu
+277,06-I-42-03,kri-I-42-Ganginenipalem,G.Konduru,863,863,0,0,863,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02013300,G.Konduru
+278,06-I-42-03,kri-I-42-Ganginenipalem,Pinapaka,360,360,0,0,360,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02014300,Pinapaka
+279,06-I-42-03,kri-I-42-Ganginenipalem,Petrampadu,482,482,0,162,482,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02012600,Petrampadu
+280,06-I-42-03,kri-I-42-Ganginenipalem,Loya,519,159,360,0,519,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02014400,Loya
+281,06-I-42-03,kri-I-42-Ganginenipalem,Duggiralapadu,575,575,0,0,575,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02012500,Duggiralapadu
+282,06-I-42-03,kri-I-42-Ganginenipalem,Narsaiahgudem,177,177,0,0,177,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02014700,Narsaiahgudem
+283,06-I-42-03,kri-I-42-Ganginenipalem,Atkuru,617,617,0,0,617,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-03,kri-I-42-Ganginenipalem,6,Krishna,17,G.Konduru,,02014200,Atkuru
+284,06-I-42-06,Kri-I-42-Mylavaram,Morsumilli,1247,1247,0,159,1247,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-06,Kri-I-42-Mylavaram,6,Krishna,6,Mylavaram,,01992400,Morsumilli
+285,06-I-42-06,Kri-I-42-Mylavaram,Mulakalapenta,514,0,0,0,0,514,0,0,514,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-06,Kri-I-42-Mylavaram,6,Krishna,6,Mylavaram,,01992900,Mulakalapenta
+286,06-I-42-06,Kri-I-42-Mylavaram,Pulluru,3097,2863,234,234,3097,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-06,Kri-I-42-Mylavaram,6,Krishna,6,Mylavaram,,01992500,Pulluru
+287,06-I-42-06,Kri-I-42-Mylavaram,Dasullapalem,899,0,0,0,0,899,0,544,899,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-06,Kri-I-42-Mylavaram,6,Krishna,6,Mylavaram,,01992800,Dasullapalem
+288,06-I-42-06,Kri-I-42-Mylavaram,Jangalapalli,886,0,0,0,0,886,0,208,886,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-06,Kri-I-42-Mylavaram,6,Krishna,6,Mylavaram,,01992700,Jangalapalli
+289,06-I-42-06,Kri-I-42-Mylavaram,Chandrugudem,1363,1363,0,0,1363,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-06,Kri-I-42-Mylavaram,6,Krishna,6,Mylavaram,,01993000,Chandrugudem
+290,06-I-42-06,Kri-I-42-Mylavaram,Sabjjapadu,210,0,0,0,0,210,0,0,210,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-06,Kri-I-42-Mylavaram,6,Krishna,6,Mylavaram,,01993300,Sabjjapadu
+291,06-I-42-06,Kri-I-42-Mylavaram,Pondugala,2189,2189,0,338,2189,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-06,Kri-I-42-Mylavaram,6,Krishna,6,Mylavaram,,01993100,Pondugala
+292,06-I-42-10,Kri-I-42-Reddigudem,Cheemalapadu,4956,4556,400,400,4956,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,9,A.Konduru,,01999200,Cheemalapadu
+293,06-I-42-10,Kri-I-42-Reddigudem,Madhavaram(West),1121,1121,0,0,1121,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,9,A.Konduru,,01999300,Madhavaram(West)
+294,06-I-42-10,Kri-I-42-Reddigudem,Madhavaram(East),613,613,0,0,613,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,9,A.Konduru,,01999400,Madhavaram(East)
+295,06-I-42-10,Kri-I-42-Reddigudem,Kudapa,1332,1132,200,200,1332,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,02000000,Kudapa
+296,06-I-42-10,Kri-I-42-Reddigudem,Kunaparajuparva,1881,1881,0,0,1881,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,01999700,Kunaparajuparva
+297,06-I-42-10,Kri-I-42-Reddigudem,Maddulaparva,2414,2414,0,0,2414,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,01999600,Maddulaparva
+298,06-I-42-10,Kri-I-42-Reddigudem,Rudravaram,1030,730,300,300,1030,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,02000100,Rudravaram
+299,06-I-42-10,Kri-I-42-Reddigudem,Reddigudem,1838,1718,120,120,1838,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,01999900,Reddigudem
+300,06-I-42-10,Kri-I-42-Reddigudem,Rangapuram,3390,2890,500,500,3390,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,02000300,Rangapuram
+301,06-I-42-10,Kri-I-42-Reddigudem,Narukullapadu,1327,1327,0,0,1327,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,02000200,Narukullapadu
+302,06-I-42-10,Kri-I-42-Reddigudem,Naguluru,1306,1006,300,300,1306,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,02000400,Naguluru
+303,06-I-42-10,Kri-I-42-Reddigudem,Patha Nagulru,622,622,0,0,622,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,02000500,Patha Nagulru
+304,06-I-42-10,Kri-I-42-Reddigudem,Anneraopeta,2311,1711,600,600,2311,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,10,Reddigudem,,01999800,Anneraopeta
+305,06-I-42-10,Kri-I-42-Reddigudem,Vedurubeedem,560,560,0,0,560,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01993600,Vedurubeedem
+306,06-I-42-10,Kri-I-42-Reddigudem,Chandrala,1157,1157,0,0,1157,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01994000,Chandrala
+307,06-I-42-10,Kri-I-42-Reddigudem,Keerthirayanigudem,883,883,0,0,883,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01993500,Keerthirayanigudem
+308,06-I-42-10,Kri-I-42-Reddigudem,Velvadam,2151,2151,0,318,2151,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01993400,Velvadam
+309,06-I-42-10,Kri-I-42-Reddigudem,T.Gannavaram,1070,1070,0,0,1070,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01993900,T.Gannavaram
+310,06-I-42-10,Kri-I-42-Reddigudem,Tolukodu,1311,1311,0,315,1311,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01992600,Tolukodu
+311,06-I-42-10,Kri-I-42-Reddigudem,Kanimerla,768,768,0,485,768,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01993700,Kanimerla
+312,06-I-42-10,Kri-I-42-Reddigudem,Parvathapuram,589,589,0,589,589,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01993800,Parvathapuram
+313,06-I-42-10,Kri-I-42-Reddigudem,Ganapavaram,1111,1111,0,311,1111,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,6,Mylavaram,,01994100,Ganapavaram
+314,06-I-42-10,Kri-I-42-Reddigudem,Koduru,1765,1765,0,0,1765,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-10,Kri-I-42-Reddigudem,6,Krishna,17,G.Konduru,,02013900,Koduru
+315,06-I-42-17,Kri-I-42-G.Konduru,Gurrajupalem,168,168,0,0,168,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02013600,Gurrajupalem
+316,06-I-42-17,Kri-I-42-G.Konduru,Nandigama,781,681,100,100,781,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02013800,Nandigama
+317,06-I-42-17,Kri-I-42-G.Konduru,Kuntamukkala,1380,1380,0,0,1380,0,0,0,0,0,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02013700,Kuntamukkala
+318,06-I-42-17,Kri-I-42-G.Konduru,Bhimavarappadu,119,119,0,0,119,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02014000,Bhimavarappadu
+319,06-I-42-17,Kri-I-42-G.Konduru,Venkatapuram,531,251,280,280,531,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02013500,Venkatapuram
+320,06-I-42-17,Kri-I-42-G.Konduru,Vellaturu,2045,2045,0,0,2045,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02014100,Vellaturu
+321,06-I-42-17,Kri-I-42-G.Konduru,Chevuturu,1194,974,220,220,1194,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02013400,Chevuturu
+322,06-I-42-17,Kri-I-42-G.Konduru,H.Mutyalampadu,276,276,0,0,276,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02014900,H.Mutyalampadu
+323,06-I-42-17,Kri-I-42-G.Konduru,Kandulampadu,205,205,0,0,205,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02015000,Kandulampadu
+324,06-I-42-17,Kri-I-42-G.Konduru,Chegireddipadu,304,304,0,0,304,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02015100,Chegireddipadu
+325,06-I-42-17,Kri-I-42-G.Konduru,Velagaleru,1362,1362,0,0,1362,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02014800,Velagaleru
+326,06-I-42-17,Kri-I-42-G.Konduru,Kavuluru,2093,2093,0,0,2093,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02014600,Kavuluru
+327,06-I-42-17,Kri-I-42-G.Konduru,Kadempothavaram,292,292,0,0,292,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,17,G.Konduru,,02014500,Kadempothavaram
+328,06-I-42-17,Kri-I-42-G.Konduru,Kondapalli,1500,1350,150,198,1500,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,20,Ibrahimpatnam,,02020500,Kondapalli
+329,06-I-42-17,Kri-I-42-G.Konduru,Tummalapalem,218,218,0,0,218,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,20,Ibrahimpatnam,,02020700,Tummalapalem
+330,06-I-42-17,Kri-I-42-G.Konduru,Ilaprolu,677,677,0,0,677,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,20,Ibrahimpatnam,,02020600,Ilaprolu
+331,06-I-42-17,Kri-I-42-G.Konduru,Guntupalli,1027,1027,0,0,1027,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,20,Ibrahimpatnam,,02020800,Guntupalli
+332,06-I-42-17,Kri-I-42-G.Konduru,Kothuru,709,649,60,0,709,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,22,Vijayawada (Rural),,02020900,Kothuru
+333,06-I-42-17,Kri-I-42-G.Konduru,Tadepalli,752,677,75,0,752,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,22,Vijayawada (Rural),,02020900,Tadepalli
+334,06-I-42-17,Kri-I-42-G.Konduru,Paidurupadu,394,394,0,0,394,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,22,Vijayawada (Rural),,02021300,Paidurupadu
+335,06-I-42-17,Kri-I-42-G.Konduru,Gollapudi,2262,2262,0,0,2262,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,22,Vijayawada (Rural),,02021500,Gollapudi
+336,06-I-42-17,Kri-I-42-G.Konduru,Rayanapadu,834,834,0,0,834,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,22,Vijayawada (Rural),,02021400,Rayanapadu
+337,06-I-42-17,Kri-I-42-G.Konduru,Shabada,102,102,0,0,102,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,22,Vijayawada (Rural),,02021200,Shabada
+338,06-I-42-17,Kri-I-42-G.Konduru,Vemavaram,393,393,0,0,393,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,22,Vijayawada (Rural),,02021100,Vemavaram
+339,06-I-42-17,Kri-I-42-G.Konduru,Jakkampudi,804,804,0,0,804,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,22,Vijayawada (Rural),,02021600,Jakkampudi
+340,06-I-42-17,Kri-I-42-G.Konduru,Mylavaram,1474,1474,0,0,1474,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,6,Mylavaram,,01993200,Mylavaram
+341,06-I-42-17,Kri-I-42-G.Konduru,Malkapuram,950,750,200,700,950,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,20,Ibrahimpatnam,,02020300,Malkapuram
+342,06-I-42-17,Kri-I-42-G.Konduru,Gudurupadu,279,229,50,150,279,0,0,0,0,,,,0,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-17,Kri-I-42-G.Konduru,6,Krishna,20,Ibrahimpatnam,,02020400,Gudurupadu
+343,06-I-42-23,Kri-I-42-Gannavaram,Kanasanapalli,407,407,0,0,407,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,16,Agiripallli,,02011900,Kanasanapalli
+344,06-I-42-23,Kri-I-42-Gannavaram,Adavinekkalam,2494,2294,200,1200,2494,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,16,Agiripallli,,02011800,Adavinekkalam
+345,06-I-42-23,Kri-I-42-Gannavaram,Pothavarappadu,713,582,131,0,713,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,16,Agiripallli,,02011700,Pothavarappadu
+346,06-I-42-23,Kri-I-42-Gannavaram,Pinnamareddipalli,365,325,40,0,365,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,16,Agiripallli,,02011400,Pinnamareddipalli
+347,06-I-42-23,Kri-I-42-Gannavaram,Gollanapalli,953,703,250,0,953,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02022900,Gollanapalli
+348,06-I-42-23,Kri-I-42-Gannavaram,Gopavarapugudem,563,563,0,0,563,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02022800,Gopavarapugudem
+349,06-I-42-23,Kri-I-42-Gannavaram,Purushottamapatnam,1125,1095,30,0,1125,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02023700,Purushottamapatnam
+350,06-I-42-23,Kri-I-42-Gannavaram,Kondapavuluru,1294,1284,10,0,1294,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02022700,Kondapavuluru
+351,06-I-42-23,Kri-I-42-Gannavaram,Vedurupavuluru,2902,2902,0,0,2902,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02023800,Vedurupavuluru
+352,06-I-42-23,Kri-I-42-Gannavaram,Surampalli,2139,2139,0,0,2139,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02022600,Surampalli
+353,06-I-42-23,Kri-I-42-Gannavaram,Savarigudem,310,310,0,0,310,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02023900,Savarigudem
+354,06-I-42-23,Kri-I-42-Gannavaram,Jakkulanekkalam,331,331,0,0,331,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02024000,Jakkulanekkalam
+355,06-I-42-23,Kri-I-42-Gannavaram,Ramachandrapuram,101,101,0,0,101,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02022500,Ramachandrapuram
+356,06-I-42-23,Kri-I-42-Gannavaram,Veerapanenigudem,443,343,100,0,443,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,23,Gannavaram,,02023500,Veerapanenigudem
+357,06-I-42-23,Kri-I-42-Gannavaram,Nunna,4184,4184,0,0,4184,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,02022000,Nunna
+358,06-I-42-23,Kri-I-42-Gannavaram,K.V.Khandrika,262,237,25,0,262,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,41603000,K.V.Khandrika
+359,06-I-42-23,Kri-I-42-Gannavaram,Pathapadu,1348,1348,0,0,1348,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,02021900,Pathapadu
+360,06-I-42-23,Kri-I-42-Gannavaram,Nainavaram,534,534,0,0,534,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,02021800,Nainavaram
+361,06-I-42-23,Kri-I-42-Gannavaram,Ambapuram,355,355,0,0,355,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,02024700,Ambapuram
+362,06-I-42-23,Kri-I-42-Gannavaram,Ramavarappadu,335,335,0,0,335,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,41603000,Ramavarappadu
+363,06-I-42-23,Kri-I-42-Gannavaram,Prasadampadu,239,239,0,0,239,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,41603000,Prasadampadu
+364,06-I-42-23,Kri-I-42-Gannavaram,Enikepadu,492,492,0,0,492,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,02022100,Enikepadu
+365,06-I-42-23,Kri-I-42-Gannavaram,Nidamanuru,543,543,0,0,543,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,02022200,Nidamanuru
+366,06-I-42-23,Kri-I-42-Gannavaram,Dane Atkuru,416,416,0,0,416,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,02022300,Dane Atkuru
+367,06-I-42-23,Kri-I-42-Gannavaram,Gudavalli,724,724,0,0,724,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,22,Vijayawada Rural,,02022400,Gudavalli
+368,06-I-42-23,Kri-I-42-Gannavaram,Gunadala,1100,950,150,0,1100,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,21,Vijayawada Urban,,41603000,Gunadala
+369,06-I-42-23,Kri-I-42-Gannavaram,Payakapuram,253,253,0,0,253,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-23,Kri-I-42-Gannavaram,6,Krishna,21,Vijayawada Urban,,41603000,Payakapuram
+370,06-I-42-24,Kri-I-42-Gannavaram,Vijayawada town,2940,2940,0,0,2940,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-24,Kri-I-42-Gannavaram,7,Krishna,21,Vijayawada Urban,,41603000,Vijayawada town
+371,06-I-42-25,Kri-I-42-Gannavaram,Bhavanipuram,385,385,0,0,385,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-25,Kri-I-42-Gannavaram,8,Krishna,21,Vijayawada Urban,,41603000,Bhavanipuram
+372,06-I-42-26,Kri-I-42-Gannavaram,Patamata,2590,2590,0,0,2590,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-26,Kri-I-42-Gannavaram,9,Krishna,21,Vijayawada Urban,,41603000,Patamata
+373,06-I-42-16,Kri-I-42-Agiripalli,Agiripalli,1534,1496,38,0,1534,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02011200,Agiripalli
+374,06-I-42-16,Kri-I-42-Agiripalli,Thotapalli,942,781,161,0,942,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02012000,Thotapalli
+375,06-I-42-16,Kri-I-42-Agiripalli,Nugondapalli,369,369,0,0,369,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02011300,Nugondapalli
+376,06-I-42-16,Kri-I-42-Agiripalli,Malliboinapalli,559,559,0,0,559,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02010300,Malliboinapalli
+377,06-I-42-16,Kri-I-42-Agiripalli,Eadara,2917,2667,250,0,2917,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02010200,Eadara
+378,06-I-42-16,Kri-I-42-Agiripalli,Baddanapalli,2954,2954,0,0,2954,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02011600,Baddanapalli
+379,06-I-42-16,Kri-I-42-Agiripalli,Tadepalli,654,454,200,0,654,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02010600,Tadepalli
+380,06-I-42-16,Kri-I-42-Agiripalli,Vadlamanu,1220,1220,0,0,1220,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02010500,Vadlamanu
+381,06-I-42-16,Kri-I-42-Agiripalli,Chopparametla,329,327,2,0,329,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02011100,Chopparametla
+382,06-I-42-16,Kri-I-42-Agiripalli,Narasigapalem,660,597,63,0,660,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,16,Agiripalli,,02012100,Narasigapalem
+383,06-I-42-16,Kri-I-42-Agiripalli,Sunkollu,594,594,0,450,594,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,14,Nuzvid,,02005400,Sunkollu
+384,06-I-42-16,Kri-I-42-Agiripalli,Bathulavarigudem,858,858,0,600,858,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,14,Nuzvid,,02005600,Bathulavarigudem
+385,06-I-42-16,Kri-I-42-Agiripalli,Eanamadala,1379,1379,0,300,1379,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,14,Nuzvid,,02005500,Eanamadala
+386,06-I-42-16,Kri-I-42-Agiripalli,Narsupeta,751,696,55,75,751,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,14,Nuzvid,,02004800,Narsupeta
+387,06-I-42-16,Kri-I-42-Agiripalli,Metlapalli,872,847,25,0,872,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02023100,Metlapalli
+388,06-I-42-16,Kri-I-42-Agiripalli,Tempalli,676,676,0,0,676,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02023400,Tempalli
+389,06-I-42-16,Kri-I-42-Agiripalli,Chikkavaram,1248,1248,0,0,1248,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02023000,Chikkavaram
+390,06-I-42-16,Kri-I-42-Agiripalli,Buthumillipadu,96,96,0,0,96,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02024900,Buthumillipadu
+391,06-I-42-16,Kri-I-42-Agiripalli,B.B.Gudem,323,323,0,0,323,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02023600,B.B.Gudem
+392,06-I-42-16,Kri-I-42-Agiripalli,Gannavaram,1230,1230,0,0,1230,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02024400,Gannavaram
+393,06-I-42-16,Kri-I-42-Agiripalli,Chinnaoutapalli,406,406,0,0,406,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02024500,Chinnaoutapalli
+394,06-I-42-16,Kri-I-42-Agiripalli,Kesarapalli,1769,1769,0,0,1769,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02024100,Kesarapalli
+395,06-I-42-16,Kri-I-42-Agiripalli,Allapuram,209,209,0,0,209,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02024600,Allapuram
+396,06-I-42-16,Kri-I-42-Agiripalli,Buddavaram,1040,1040,0,0,1040,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02024700,Buddavaram
+397,06-I-42-16,Kri-I-42-Agiripalli,Ajjempudi,350,350,0,0,350,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02024800,Ajjempudi
+398,06-I-42-16,Kri-I-42-Agiripalli,V.N.Puram,251,251,0,0,251,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02024300,V.N.Puram
+399,06-I-42-16,Kri-I-42-Agiripalli,Balliparru,682,682,0,0,682,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,23,Gannavaram,,02023300,Balliparru
+400,06-I-42-16,Kri-I-42-Agiripalli,Pedaoutapalli,1180,1180,0,0,1180,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,24,Unguturu,,02025000,Pedaoutapalli
+401,06-I-42-16,Kri-I-42-Agiripalli,Atkuru,1436,1436,0,0,1436,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-16,Kri-I-42-Agiripalli,6,krishna,24,Unguturu,,02025100,Atkuru
+402,06-I-42-15,Kri-I-42-Bapulapadu,Anathasagaram,461,461,0,0,461,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,16,Agiripalli,,02010800,Anathasagaram
+403,06-I-42-15,Kri-I-42-Bapulapadu,Eadulagudem,912,897,15,0,912,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,16,Agiripalli,,02010900,Eadulagudem
+404,06-I-42-15,Kri-I-42-Bapulapadu,Kalaturu,567,562,5,0,567,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,16,Agiripalli,,02011000,Kalaturu
+405,06-I-42-15,Kri-I-42-Bapulapadu,Krishnavaram,529,529,0,0,529,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,16,Agiripalli,,02012300,Krishnavaram
+406,06-I-42-15,Kri-I-42-Bapulapadu,Suravaram,2208,2193,15,0,2208,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,16,Agiripalli,,02012400,Suravaram
+407,06-I-42-15,Kri-I-42-Bapulapadu,Sagguru,333,183,150,0,333,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,16,Agiripalli,,02012200,Sagguru
+408,06-I-42-15,Kri-I-42-Bapulapadu,Ravicherla,1536,1361,175,0,1536,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,14,Nuzvid,,02005700,Ravicherla
+409,06-I-42-15,Kri-I-42-Bapulapadu,Bapulapadu,504,504,0,0,504,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008000,Bapulapadu
+410,06-I-42-15,Kri-I-42-Bapulapadu,Mallavalli,3166,3166,0,630,3166,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02007300,Mallavalli
+411,06-I-42-15,Kri-I-42-Bapulapadu,Remella,1223,1223,0,0,1223,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008200,Remella
+412,06-I-42-15,Kri-I-42-Bapulapadu,Singannagudem,328,0,0,0,0,328,0,0,328,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008300,Singannagudem
+413,06-I-42-15,Kri-I-42-Bapulapadu,Rangannagudem,654,0,0,0,0,654,0,0,654,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008400,Rangannagudem
+414,06-I-42-15,Kri-I-42-Bapulapadu,Shobanadripuram,229,0,0,0,0,229,0,0,229,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008500,Shobanadripuram
+415,06-I-42-15,Kri-I-42-Bapulapadu,Veeravalli,2255,2255,0,0,2255,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008900,Veeravalli
+416,06-I-42-15,Kri-I-42-Bapulapadu,Kodurupadu,502,502,0,0,502,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008800,Kodurupadu
+417,06-I-42-15,Kri-I-42-Bapulapadu,Ampapuram,882,882,0,0,882,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008700,Ampapuram
+418,06-I-42-15,Kri-I-42-Bapulapadu,Veleru,1480,1480,0,0,1480,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008100,Veleru
+419,06-I-42-15,Kri-I-42-Bapulapadu,Seri Narasannapalem,369,369,0,0,369,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02009000,Seri Narasannapalem
+420,06-I-42-15,Kri-I-42-Bapulapadu,Bandarugudem,307,307,0,0,307,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,15,Bapulapadu,,02008600,Bandarugudem
+421,06-I-42-15,Kri-I-42-Bapulapadu,Sagguru Amani,188,188,0,0,188,0,0,0,0,0,,,,,,Between Krishna & Godavari,Budameru,Budameru,06-I-42-15,Kri-I-42-Bapulapadu,6,krishna,23,Gannavaram,,02023200,Sagguru Amani
+422,06-I-40-13,Kri-I-40-Musunuru,Ramanakkapeta,1475,,,,1390,85,323.88,1475,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02003200,Ramanakkapeta
+423,06-I-40-13,Kri-I-40-Musunuru,Surepalli,804,,,,804,0,0,804,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02003300,Surepalli
+424,06-I-40-13,Kri-I-40-Musunuru,Lopudi,1292,,,,1292,0,191.09,1292,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02003400,Lopudi
+425,06-I-40-13,Kri-I-40-Musunuru,Gullapudi,2334,,,,2334,0,215.78,2334,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02003500,Gullapudi
+426,06-I-40-13,Kri-I-40-Musunuru,Chekkapalli,925,,,,925,0,0,925,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02003600,Chekkapalli
+427,06-I-40-13,Kri-I-40-Musunuru,Akkireddigudem,709,,,,709,0,0,709,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02003700,Akkireddigudem
+428,06-I-40-13,Kri-I-40-Musunuru,Chintalavalli,1567,,,,1542,25,14.17,1567,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02003800,Chintalavalli
+429,06-I-40-13,Kri-I-40-Musunuru,Musunuru,2206,,,,2206,0,381.37,2206,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02004100,Musunuru
+430,06-I-40-13,Kri-I-40-Musunuru,Yallapurm,454,,,,454,0,0,454,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02004200,Yallapurm
+431,06-I-40-13,Kri-I-40-Musunuru,Gopavaram,1566,,,,1566,0,0,1566,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02004400,Gopavaram
+432,06-I-40-13,Kri-I-40-Musunuru,Katrenipadu,2772,,,,2747,25,1389.06,2772,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02004300,Katrenipadu
+433,06-I-40-13,Kri-I-40-Musunuru,Tallavalli,591,,,,591,0,28.34,591,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-13,Kri-I-40-Musunuru,6,Krishna,13,Musunuru,,02004000,Tallavalli
+434,06-I-40-16,Kri-I-42-Chillaboinapalli,Balive,785,,,,785,0,0,785,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-16,Kri-I-42-Chillaboinapalli,6,Krishna,13,Musunuru,,02004500,Balive
+435,06-I-40-16,Kri-I-42-Chillaboinapalli,Velupucherla,1896,,,,1896,0,0,1896,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-16,Kri-I-42-Chillaboinapalli,6,Krishna,13,Musunuru,,02004700,Velupucherla
+436,06-I-40-16,Kri-I-42-Chillaboinapalli,Chillaboinapalli,875,,,,875,0,0,875,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-16,Kri-I-42-Chillaboinapalli,6,Krishna,13,Musunuru,,02004600,Chillaboinapalli
+437,06-I-40-16,Kri-I-42-Chillaboinapalli,Madicherla,1590,,,,1590,0,20.24,1590,,,,,,,,Between Krishna & Godavari,Tammileru,Tammileru,06-I-40-16,Kri-I-42-Chillaboinapalli,6,Krishna,15,Bapulapadu,,02007600,Madicherla

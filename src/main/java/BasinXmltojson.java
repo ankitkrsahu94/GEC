@@ -979,7 +979,7 @@ public class BasinXmltojson {
 					}
 					// System.out.println(artificialwcjson);
 				} else {
-//					System.out.println("invalid : length : " + fields.length + " : " + iem.readLine());
+					System.out.println("invalid : length : " + fields.length + " : " + record);
 				}
 			}
 			for (String key : Basin_details.keySet()) {
