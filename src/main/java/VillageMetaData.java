@@ -344,18 +344,15 @@ public class VillageMetaData {
         try(BufferedReader iem = new BufferedReader(new FileReader(wellsSpecificYieldFile))) {
         	record = iem.readLine();
             while((record = iem.readLine()) != null) {
-                //System.out.println("record"+record);
-            	String []fields = record.split(",",-1);
+              String []fields = record.split(",",-1);
             	
             	
-            	if(!fields[format.convert("b")].isEmpty() && !fields[format.convert("b")].contains(" ")){
-//            		System.out.println(fields.length + " : first : " + fields[1].isEmpty() + " record : " + record.length() + record);
+            	if(!format.removeQuotes(fields[format.convert("b")]).isEmpty() && !format.removeQuotes(fields[format.convert("b")]).contains("Watershed") && format.removeQuotes(fields[format.convert("b")]).length() > 0){
             		String basinName = format.removeQuotes(fields[format.convert("b")]);
             		String typeOfWell = format.removeQuotes(fields[format.convert("c")]);
             		double yield = 0;
             		Map<String, Double> operationDays = new HashMap<>();
             		
-        			
         			if(basinWiseWellsMD.get(basinName) == null){
             			basinWiseWellsMD.put(basinName, new HashMap<String, Map<String, Map<String, WellsUtilizationData>>>());
             		}
@@ -363,9 +360,7 @@ public class VillageMetaData {
             		if(basinWiseWellsMD.get(basinName).get(typeOfWell) == null){
             			basinWiseWellsMD.get(basinName).put(typeOfWell, new HashMap<String, Map<String, WellsUtilizationData>>());
             		}
-            			
             		
-//            		System.out.println("fields len : " + fields.length + " : record : " + record);
             		for(String areaType : Constants.AREA_TYPES){
             			Map<String, Double> operationDaysAgriculture = new HashMap<>();
             			Map<String, Double> operationDaysIndustry = new HashMap<>();
@@ -389,7 +384,7 @@ public class VillageMetaData {
             			/**
                 		 * Agriculture
                 		 */
-            			yield = (fields[3+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[3+(12*index)]);
+            			yield = (fields[3+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[3+(12*index)]);
                 		monsoonDays = (fields[5+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[5+(12*index)]);
                 		operationDaysAgriculture.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[6+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[6+(12*index)]);
@@ -445,7 +440,6 @@ public class VillageMetaData {
          * Category : AreaType : WellName vs wellInfo
          */
         Map<String, Map<String, Map<String, WellsUtilizationData>>> villageWellUtilData = new HashMap<>();
-        		
         for(String category : Constants.CATEGORIES){
         	if(utilizationFiles.get(category) == null)
         		continue;
@@ -461,11 +455,10 @@ public class VillageMetaData {
                    String fields[] = record.split(",",-1);
 //                   System.out.println("length : " + fields.length);
                    
-                   if(!fields[format.convert("c")].isEmpty() && !fields[format.convert("c")].contains(" ")){
-//                	   System.out.println("RECHORD : " + record);
+                   if(!format.removeQuotes(fields[format.convert("c")]).isEmpty() && format.removeQuotes(fields[format.convert("c")]).length() > 0){
                 	   String basinName = format.removeQuotes(fields[format.convert("c")]);
-                	   String villageName = fields[format.convert("d")].trim();
-                	   
+                	   String villageName = format.removeQuotes(fields[format.convert("d")]);
+                	  
                 	   if(basinWiseWellsMD.get(basinName) == null){
                 		   System.out.println(category+" Well MD information not found for basin : " + basinName);
                 		   continue;
@@ -477,12 +470,8 @@ public class VillageMetaData {
                 	   if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))) == null){
                 		   if(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])) == null)
                 			   continue;
-//                		   System.out.println("missing : " + basinName+"##"+villageName);
-//                		   System.out.println("Mapping : " + locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
                 		   village_details.put(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])), new Village());
-//                		   return;
                 	   }
-                		   
                 	  
                 	   Map<String, Map<String, Map<String, WellsUtilizationData>>> villWellDistributionInfo = village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getResourceDistribution();
                 	   
@@ -543,15 +532,12 @@ public class VillageMetaData {
                 			   villWellData.setPumpingHours(pumpingHours);
                 			   villWellData.setYield(mbWell.getYield());
                 			   villWellData.setOperativeDays(mbWell.getOperativeDays());
-                			   
-//                			   if(category.equals(Constants.AGRICULTURE) && villageName.equals("Gollapalle") && areaType.equals(Constants.NON_COMMAND_AREA) && well.equals("BWs")){
-//	                       			System.out.println("villageName : " + villageName + "mbWell : " + mbWell);
-//                				   System.out.println("villageName : " + villageName + " : villWellData : " + villWellData);
-//	                       			
-//	                       		}
                 		   }
                 	   }
                 	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setResourceDistribution(villWellDistributionInfo);
+                   }
+                   else{
+                	   System.out.println("Resource distribution : invalid row : " + record);
                    }
                 }
 //                System.out.println("Dugwell size "+computeDugwell.size());
