@@ -14,13 +14,13 @@ import com.google.gson.Gson;
 
 public class BasinXmltojson {
 
-	public static void main(String k[]) {
+	public static void compute(String distName) {
+
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/"+distName+"/";
 
 		/**
 		 * output files
 		 */
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/Srikakulam/";
-		
 		String basinCQLOutputFileName = filePath+"InsertBasin.cql";
 
 		/**

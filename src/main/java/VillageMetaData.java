@@ -16,10 +16,10 @@ import com.google.gson.Gson;
 public class VillageMetaData {
 
     
-	public static void main(String k[]) {
+	public static void compute(String districtName) {
 
 		
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/Nellore/";
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/"+districtName+"/";
 
 		
 		/**
