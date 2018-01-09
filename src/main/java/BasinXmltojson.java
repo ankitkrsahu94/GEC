@@ -19,7 +19,7 @@ public class BasinXmltojson {
 		/**
 		 * output files
 		 */
-		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/Visakhapatnam/";
+		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/chittor/";
 		
 		String basinCQLOutputFileName = filePath+"InsertBasin.cql";
 

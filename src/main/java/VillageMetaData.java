@@ -18,7 +18,7 @@ public class VillageMetaData {
     
 	public static void main(String k[]) {
 
-		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/Visakhapatnam/";
+		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/chittor/";
 
 		
 		/**
