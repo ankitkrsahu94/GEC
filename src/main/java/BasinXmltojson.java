@@ -19,7 +19,7 @@ public class BasinXmltojson {
 		/**
 		 * output files
 		 */
-		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/chittor/";
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/Srikakulam/";
 		
 		String basinCQLOutputFileName = filePath+"InsertBasin.cql";
 
@@ -144,7 +144,7 @@ public class BasinXmltojson {
 			while ((record = iem.readLine()) != null) {
 				String fields[] = record.split(",", -1);
 				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 || fields.length == 26 
-						|| fields.length == 31) {
+						|| fields.length >= 30) {
 
 					double total = 0;
 
@@ -277,7 +277,7 @@ public class BasinXmltojson {
 					System.out.println(Basin_details.get(key).loc_name);
 				}
 //				System.out.println("ANKIT ::: key : " + key);
-
+//				System.out.println(Basin_details.get(key).getArea());
 				Area areaobj = Areajs.fromJson(Basin_details.get(key).getArea(), Area.class);
 				if (areaobj.total == 0) {
 					c++;

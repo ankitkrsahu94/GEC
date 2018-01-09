@@ -18,7 +18,8 @@ public class VillageMetaData {
     
 	public static void main(String k[]) {
 
-		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/chittor/";
+		
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/Nellore/";
 
 		
 		/**
@@ -352,6 +353,7 @@ public class VillageMetaData {
             		String basinName = format.removeQuotes(fields[format.convert("b")]);
             		String typeOfWell = format.removeQuotes(fields[format.convert("c")]);
             		double yield = 0;
+            		Map<String, Double> operationDays = new HashMap<>();
             		
         			
         			if(basinWiseWellsMD.get(basinName) == null){
@@ -707,7 +709,7 @@ public class VillageMetaData {
 	        		//System.out.println(key);
 	        		//System.out.println(village_details.get(key).getVillageName());
 	        	}
-	        	System.out.println("ANKIT ::: key : " + key);
+//	        	System.out.println("ANKIT ::: key : " + key);
 //	        	System.out.println("ANKIT ::: wells : " + village_details.get(key).getResourceDistribution());
 	        	Area areaobj=Area.fromJson(village_details.get(key).getArea(), Area.class);
 				if(areaobj.total==0){
@@ -2963,7 +2965,7 @@ public class VillageMetaData {
                     // System.out.println(artificialwcjson);
                  }
                  else{
-                	 System.out.println("artificialWCfile : invalid row : field length : " + fields.length);
+                	 System.out.println("ANKIT :: ELSE : field length : " + fields.length);
                  }
              }
             for(String key:village_details.keySet()){ 

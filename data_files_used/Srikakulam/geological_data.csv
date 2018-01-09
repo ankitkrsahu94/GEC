@@ -1,0 +1,27 @@
+,,,,,,,, Command area in sq.km,,,,Non command,,,,Poor command,,,
+SR.NO, GW Watershed name,Geo Specific Yield name,Specific Yield value as %,Rainfall infiltration Factor as %,Transmissivity as %,Storage Coefficient as %,Total area sq.km,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total
+1,Skl_F_Bahuda_Ichapuram,Alluvium/Hard rock,4,11,,,283.91,0,0,0,0,282.33,1.58,0.0063,283.91,0,0,0,0
+2,Skl_F_Kandivalasagedda_PBVaram,Hard Rock,2,12,,,111.1,0,0,0,0,99.75,11.35,0,111.1,0,0,0,0
+3,Skl_F_Mahendratanaya_N,Soft Rock/Granite gneisses,5,11,,,430.57,0,0,0,0,403.93,26.64,10.2903,430.57,0,0,0,0
+4,Skl_F_Nagavali_Nagavali_E_Srikakulam,Soft rock,8,11,,,258.86,59.87,0.25,0,60.12,197.58,1.16,0.36,198.74,0,0,0,0
+5,Skl_F_Nagavali_Ottigedda_Veeraghattam,Soft rock,4,11,,,321.25,89.24,0.3,1.08,89.54,210.17,21.43,0,231.6,0,0,0,0
+6,Skl_F_Nagavali_Relligedda_Rajam,Soft rock,4,11,,,518.88,181.25,0.55,2.8619,181.8,329.18,7.9,3.1,337.08,0,0,0,0
+7,Skl_F_Nagavali_Suvarnamukhi_Vangara,Soft rock/Hard rock,3,12,,,354.32,171.59,8.5,1.5,180.09,171.93,2.3,0,174.23,0,0,0,0
+8,Skl_F_Naupada_Desagedda_Tekkali,Soft rock/ Hard rock,3,11,,,124.05,51.24,0.1,0,51.34,68.71,4,0.13,72.71,0,0,0,0.00001
+9,Skl_F_Naupada_Gareebulagedda_Kotabommali,Soft rock/ Hard rock,3,11,,,259.52,73.59,0.3,0,73.89,175.47,10.16,7.16,185.63,0,0,0,0
+10,Skl_F_Peddagedda_Gsigadam,Hard Rock,2,11,,,363.84,0,0,0,0,351.69,12.15,0,363.84,0,0,0,0
+11,Skl_F_PMD_Bendigedda_Palasa,Soft rock/Hard rock,5,11,,,297.34,41.45,1.62,0.3844,43.07,234.2,20.07,13.1496,254.27,0,0,0,0
+12,Skl_F_PMD_Sandemmagedda_Nandigam,Soft rock,3,11,,,320.7,72.99,1.66,1.4439,74.65,223.92,22.13,2.08,246.05,0,0,0,0
+13,Skl_F_Vamsadhara_Mahendratanaya_W_Meliaputti,Alluvium/Hard rock,3,11,,,217.28,0,0,0,0,186.74,30.54,0.46,217.28,0,0,0,0
+14,Skl_F_Vamsadhara_Vamsadhara_E__Narasannapeta,Soft rock/Hard rock,2,11,,,566.57,350.87,3.65,17.5375,354.52,187.13,24.92,23.7284,212.05,0,0,2.14,0
+15,Skl_F_Vamsadhara_Vamsadhara_W1_Bhamini,Soft Rock,2,11,,,186.99,0,0,0,0,138.14,48.85,0.03,186.99,0,0,0,0
+16,Skl_F_Vamsadhara_Vamsadhara_W2_Hiramandalam,Soft rock/Hard rock,3,9,,,186.15,19.15,0,0.9796,19.15,162.85,4.15,2.742,167,0,0,0,0
+17,Skl_F_Vamsadhara_Vamsadhara_W3_Sarubujjili,Soft rock/Hard rock,4,11,,,132.09,58.21,0.25,3.71,58.46,68.18,5.45,13.3031,73.63,0,0,0,0
+18,Skl_F_Vamsadhara_Vamsadhara_W4_Gara,Soft rock/Hard rock,3,11,,,241.96,218.75,2.75,0,221.5,19.99,0.47,3.22,20.46,0,0,0,0
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,100,,,,,,,,,
