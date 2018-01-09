@@ -357,7 +357,8 @@ public class BasinXmltojson {
 
 				growthRate = 0;
 				String fields[] = record.split(",");
-				if (fields.length == format.convert("aj") + 1) {
+//				if (fields.length == format.convert("aj") + 1) {
+				if (fields.length == format.convert("aj") + 5) {
 					++tempCount;
 
 					String gwBasinName = format.removeQuotes(fields[format.convert("b")]);
@@ -730,7 +731,7 @@ public class BasinXmltojson {
 				// System.out.println("ANKIT ::: fields.length : " +
 				// fields.length);
 				// 34
-				if (fields.length >= 34) {
+				if (fields.length >= 50) {
 					// System.out.println("ANKIT ::: " + record);
 					// System.out.println("ANKIT ::: inside artificial : " +
 					// ++i);
