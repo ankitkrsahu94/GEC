@@ -19,7 +19,9 @@ public class convetTo {
 //		distNames.add("Srikakulam");
 //		distNames.add("Krishna");
 //		distNames.add("EastG");
-		distNames.add("Karnool");
+//		distNames.add("Karnool");
+//		distNames.add("Guntur");
+		distNames.add("Prakasham");
 		
 		
 		for (String distName : distNames) {

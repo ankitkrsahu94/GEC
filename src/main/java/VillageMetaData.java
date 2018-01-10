@@ -122,6 +122,7 @@ public class VillageMetaData {
 //            System.out.println("ANKIT ::: locmapping : " + locmapping);
             for(String key:locmapping.keySet()){
             	//c1++;
+//            	System.out.println(key + " " + locmapping.get(key));
             	village_details.put(locmapping.get(key),new Village());
             }
             System.out.println("b4 naming"+village_details.size());
@@ -604,7 +605,7 @@ public class VillageMetaData {
         JSONObject jsn = new JSONObject();
         //inserting into area json Object
         try(BufferedReader iem = new BufferedReader(new FileReader(areafile))) {
-            
+//        	System.out.println("locmapping : " + locmapping.keySet());      
         	int count =0;
         	int c2=0;
             record = iem.readLine();
@@ -655,6 +656,9 @@ public class VillageMetaData {
                 	//JSONObject jsn = new JSONObject(areajson.getBytes());
                 	//System.out.println(areajson);
 //                	System.out.println("locmapping : " + locmapping.keySet());
+
+                	
+//                	System.out.println(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
                 	if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
                     	
                 		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea()==null){
@@ -684,6 +688,8 @@ public class VillageMetaData {
                 			//test++;
 //                			System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))));
                 		}
+                	} else {
+                		System.out.println(" asdasdasd::: " + format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
                 	}
                 	//System.out.println("test count value ######"+test);
                 	//break;
@@ -696,8 +702,8 @@ public class VillageMetaData {
         	int c=0;
             for(String key:village_details.keySet()){
 	        	if(village_details.get(key).area==null){
-	        		//System.out.println(key);
-	        		//System.out.println(village_details.get(key).getVillageName());
+//	        		System.out.println(key);
+//	        		System.out.println(village_details.get(key).getVillageName());
 	        	}
 //	        	System.out.println("ANKIT ::: key : " + key);
 //	        	System.out.println("ANKIT ::: wells : " + village_details.get(key).getResourceDistribution());
@@ -2884,6 +2890,7 @@ public class VillageMetaData {
         try(BufferedReader iem = new BufferedReader(new FileReader(artificialWCfile))) {
         	int count =0;
             record = iem.readLine();
+//            System.out.println(locmapping.keySet());
             while((record = iem.readLine()) != null) {
                 String fields[] = record.split(",",-1);
 //                System.out.println("ANKIT ::: artificial length : " + fields.length);
@@ -2914,7 +2921,7 @@ public class VillageMetaData {
                  	ArtificialWC artificialWC = new ArtificialWC(artificialWCCommand,artificialWCNonCommand,artificialWCPPoorQuality);
                  	String artificialwcjson = artificialwc.toJson(artificialWC);
 //                 	System.out.println("ANKIT ::: outside locMaping");
-                 	if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
+                 	if(locmapping.containsKey(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
 //                 		System.out.println("ANKIT ::: inside locMaping");
                  		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArtificialWC()==null){
                          	count++;

@@ -519,7 +519,7 @@ public class BasinXmltojson {
 					count++;
 
 					geoInfo.put("fraction", 1.0);
-					geoInfo.put("specific_yield", Double.parseDouble(fields[format.convert("d")]));
+					geoInfo.put("specific_yield", Utils.parseDouble(fields[format.convert("d")]));
 					geoInfo.put("transmissivity", Double.parseDouble("0"));
 					geoInfo.put("storage_coefficient", Double.parseDouble("0"));
 

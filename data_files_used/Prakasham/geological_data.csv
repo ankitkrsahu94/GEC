@@ -1,0 +1,68 @@
+,,,,,,,, Command,,,,Non command,,,,Poor command,,,
+SR.NO, GW Watershed name,Geo Specific Yield name,Specific Yield value as %,Rainfall infiltration Factor as %,Transmissivity as %,Storage Coefficient as %,Total area sq.km,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total
+1,PKM_C_G&M_Kothapatnam,softrock,6,10,,,32888,32888,0,0,32888,0,0,0,0,2000,0,0,2000
+2,PKM_C_GKM_Addanki,hardrock,2,8,,,29066,28271,795,0,29066,0,0,0,0,0.021,0,0.021,0
+3,PKM_C_GKM_B.PETA,soft rock,1.5,5,,,26900,,,,,18240,8660,,26900,,,,
+4,PKM_C_GKM_Darsi,hardrock,2,8,,,31676,31146,530,0,31676,0,0,0,0,0,0,0,0
+5,PKM_C_GKM_Edara,hardrock,2,8,,,15015,15015,0,0,15015,0,0,0,0,4913.403,0,0,4913.403
+6,PKM_C_GKM_Korisapadu,hard rock,1.5,8,,,14733,,,,,14688,45,,14733,,,,
+7,PKM_C_GKM_Kunduru,softrock,2,8,,,4088,4088,,0,4088,0,,0,0,0,,0,
+8,PKM_C_GKM_Kurichedu,hardrock,2,5,,,10783,4886,25,0,4911,5787,85,0,5872,0.01,0,0,0.01
+9,PKM_C_GKM_Markapuram(NC),soft rock,1.5,4,,,49783,,,,,25098,24685,0,49783,,,,
+10,PKM_C_GKM_Mundlamuru,hardrock,2,8,,,27263,27033,230,,27263,0,,,0,0,,,
+11,PKM_C_GKM_Tripuranthakam,softrock,1.5,7,,,20547,12545,475,0,13020,6102,1425,3065,7527,0,0,0,0
+12,PKM_C_MN_C.S.Puram,hard rock,1.5,8,,,42100,,,,,20112,21988,22609,42100,,,,
+13,PKM_C_MN_Pamuru,hard rock,1.5,8,,,42758,,,,,40603,2155,,42758,,,,
+14,PKM_C_Musi_Donakonda,hardrock,2,7,,,48755,5830,150,0,5980,41900,875,0,42775,0,,0,
+15,PKM_C_Musi_Kondepi,hard rock,1.5,8,,,57171,,,,,56576,595,,57171,,,,
+16,PKM_C_Musi_Podili,hard rock,2,8,,,27731,,,,,26446,1285,,27731,,,,
+17,PKM_C_Ogeru_S.Maguluru,hardrock,2,8,,,17459,16964,495,0,17459,0,0,0,0,0.01,0,0,0
+18,PKM_C_PL_H.M.Padu,hard rock,1.5,8,,,38604,,,,,36433,2171,4929,38604,,,,
+19,Pkm_C_PL_Ponnalulu,hard rock,1.5,8,,,21403,,,,,21117,286,1874,21403,,,,
+20,PKM_C_Romperu_Ballikurava,hardrock,2,9,,,23260,15560,240,,15800,7230,230,,7460,,,,
+21,PKM_C_Romperu_Chirala,softrock,6,10,,,9657,9657,0,0,9657,0,0,0,0,0,0,0,0
+22,PKM_C_ROMPERU_INKOLLU,hardrock,2,5,,,22112,22112,0,0,22112,0,0,0,0,10531,,0,10531
+23,PKM_C_Romperu_J.Panguluru,hardrock,2,8,,,35053,21580,125,0,21705,13198,150,367,13348,8604,0,0,6934
+24,PKM_C_Romperu_N.G.Padu,hard rock,2,5,,,20437,,,,,20437,,198,20437,,,,
+25,PKM_C_Romperu_Parchuru,softrock,2,5,,,45069,23727,535,0,24262,20807,0,0,20807,11409,,,11409
+26,PKM_C_Romperu_Vetapalem ,softrock,1,10,,,9524,9524,,,9524,0,,,0,0,,,
+27,PKM_C_Sagileru_Allinagaram,hard rock,1.5,8,,,5600,,,,,2100,3500,88,5600,,,,
+28,PKM_C_SAGILERU_GIDDALURU,soft rock,1.5,5,,,61000,,,,,31121.182,29878.818,37163.018,61000,,,,
+29,PKM_C_Sagileru_Komarolu,soft rock,1.5,5,,,26622,,,,,17992,8630,,26622,,,,
+30,PKM_C-GKM_ARDHAVEEDU,soft rock,1.5,4,,,60700,,,,,36100,24600,912.47,60700,,,,
+31,Pkm_C-Gkm_Racherla,soft rock,1.5,5,,,47700,,,,,17500,30200,,47700,,,,
+32,PKM_D_LK_Garinipenta,hard rock,1.5,8,,,3504.63,,,,,304.63,3200,3498.28,3504.63,,,,
+33,PKM-C-G&M-CHEEMAKUTHY,hardrock,2,8,,,98842,71288,200,,71488,27354,,,27354,16648,,,16648
+34,PKM-C-GKM-Boyalapalli,soft rock,1.5,5,,,18708,,,,,657,24668.002,18708,0.001,,,,
+35,PKM-C-GKM-CUMBUM,soft rock,1.5,5,,,31900,,,,,26855,5045,,31900,,,,
+36,PKM-C-GKM-DORNALA,soft rock,1.5,5,,,82840,,,,,29846,52994,,82840,,,,
+37,PKM-C-GKM-KAVALAKUNTLA,soft rock,1.5,5,,,29169,,,,,28429,740,0.007,29169,,,,
+38,PKM-C-GKM-KONAPALLI,soft rock,1.5,5,,,38853,,,,,25423,13430,0.013,38853,,,,
+39,PKM-C-GKM-MARRIVEMULA,softrock,2,7,,,8800,517,0,,517,5208,3075,4812,8283,0,0,,0
+40,PKM-C-GKM-ONGOLE,hardrock,2,8,,,15815,15649.99,165.01,0,15815,-0.016,0,0,0,8832.984,0.016,0.016,8833
+41,PKM-C-GKM-PEDDARAVEEDU,soft rock,1.5,5,,,38621,,,,,23114,15507,,38621,,,,
+42,PKM-C-GKM-PULLALACHERUVU,softrock,1.5,5,,,50900,12980,100.006,0.012,13080.004,4173,34147.005,140.011,37820,0,0,0,0
+43,PKM-C-GKM-RUDRASAMUDRAM,softrock,2,5,,,26574,13253,400,0,13653,12871,50,0,12921,0,0,0,0
+44,PKM-C-GKM-Y.PALEM,soft rock,1.5,5,,,30400,,,,,10900,19500,19036,30400,,,,
+45,PKM-C-MN-GUDLURU,soft rock,2.5,7,,,19071,,,,,19071,0,3459,19071,,,,
+46,PKM-C-MN-KANDUKUR,hard rock,1.5,8,,,49538,,,,,48637.971,900.029,2854.016,49538,,,,
+47,PKM-C-MN-L.Samudram,hard rock,1.5,7,,,19234,,,,,18354,880,0,19234,,,,
+48,PKM-C-MN-Pedda Rajupalem,hard rock,1.5,8,,,2165,,,,,2165,0,,2165,,,,
+49,PKM-C-MN-RALLAPADU,hard rock,1.5,8,,,633,,,,,633,0,0,633,,,,
+50,PKM-C-MN-Tiragalladinne,soft rock,1.5,5,,,2434,,,,,2434,0,,2434,,,,
+51,PKM-C-MN-ULAVAPADU,soft rock,2.5,7,,,30181,,,,,30181,0,5591,30181,,,,
+52,PKM-C-MUSI-CHILAKAPADU,hardrock,2,8,,,72166,61912,260,0,62172,9994,,0,9994,3566,,,3566
+53,PKM-C-MUSI-K.K.MITLA,hard rock,1.5,8,,,50313,,,,,46492,3821,0,50313,,,,
+54,PKM-C-PL-BALLIPALLI,hard rock,1.5,8,,,22361,,,,,20511,1850,111,22361,,,,
+55,PKM-C-PL-JARUGUMALLI,hard rock,1.5,5,,,22390,,,,,22390,0,0,22390,,,,
+56,PKM-C-PL-KANIGIRI,hard rock,1.5,8,,,46612,,,,,45052,1560,2656,46612,,,,
+57,PKM-C-PL-P.C.PALLI,hard rock,1.5,8,,,31039,,,,,27894,3145,,31039,,,,
+58,PKM-C-PL-S.KONDA,hard rock,1.5,8,,,20504,,,,,20504,0,0,20504,,,,
+59,PKM-C-PL-VELIGANDLA,hard rock,1.5,8,,,32100,,,,,31570,530,0,32100,,,,
+60,PKM-c-Romperu-Karamchedu,hardrock,2,5,,,16212,16212,0,0,16212,0,0,0,0,16212,0,0,16212
+61,PKM-D-KRISHNA-PALUTLA,soft rock,1.5,4,,,25480,,,,,5480,20000,,25480,,,,
+62,PKM-D-KRISHNA-PEDDARUTLA,soft rock,1.5,5,,,17524,,,,,5524,12000,,17524,,,,
+63,,,,,,,,,,,,,,,,,,,
+64,,,,,,,,,,,,,,,,,,,
+65,,,,,,,,,,,,,,,,,,,
+66,,,,,,,,,,,,,,,,,,,
