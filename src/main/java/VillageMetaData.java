@@ -18,8 +18,7 @@ public class VillageMetaData {
     
 	public static void compute(String districtName) {
 
-		
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/"+districtName+"/";
+		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/"+districtName+"/";
 
 		
 		/**
@@ -385,7 +384,8 @@ public class VillageMetaData {
                 		 * Agriculture
                 		 */
             			yield = (fields[3+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[3+(12*index)]);
-                		monsoonDays = (fields[5+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[5+(12*index)]);
+            			yield = (yield == 0.0)?650.0:yield;
+            			monsoonDays = (fields[5+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[5+(12*index)]);
                 		operationDaysAgriculture.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[6+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[6+(12*index)]);
                 		operationDaysAgriculture.put(Constants.NON_MONSOON, nonMonsoonDays);
@@ -402,6 +402,7 @@ public class VillageMetaData {
                 		 * Domestic
                 		 */
                 		yield = (fields[7+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[7+(12*index)]);
+                		yield = (yield == 0.0)?250.0:yield;
                 		monsoonDays = (fields[9+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[9+(12*index)]);
                 		operationDaysDomestic.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[10+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[10+(12*index)]);
@@ -415,6 +416,7 @@ public class VillageMetaData {
 //                		System.out.println("index : " + index);
 //                		System.out.println(" fields : " + record);
                 		yield = (fields[11+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[11+(12*index)]);
+                		yield = (yield == 0.0)?1500.0:yield;
                 		monsoonDays = (fields[13+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[13+(12*index)]);
                 		operationDaysIndustry.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[14+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[14+(12*index)]);
@@ -2951,7 +2953,7 @@ public class VillageMetaData {
                     // System.out.println(artificialwcjson);
                  }
                  else{
-                	 System.out.println("ANKIT :: ELSE : field length : " + fields.length);
+                	 System.out.println("Artificial WC : invalid row : field length : " + fields.length);
                  }
              }
             for(String key:village_details.keySet()){ 

@@ -16,7 +16,7 @@ public class BasinXmltojson {
 
 	public static void compute(String distName) {
 
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/"+distName+"/";
+		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/"+distName+"/";
 
 		/**
 		 * output files
@@ -510,7 +510,7 @@ public class BasinXmltojson {
 			record = iem.readLine();
 
 			while ((record = iem.readLine()) != null) {
-				String fields[] = record.split(",");
+				String fields[] = record.split(",", -1);
 				Map<String, Double> geoInfo = new HashMap<>();
 				Map<String, Map<String, Double>> GeologicalInfo = new HashMap<>();
 				// System.out.println("fields = "+fields.length);
@@ -535,7 +535,7 @@ public class BasinXmltojson {
 					}
 
 				}else{
-					System.out.println("ERROR in geological row length : length : " + fields.length);
+					System.out.println("Geological info : invalid row : length : " + fields.length + " : " + record);
 				}
 			}
 			System.out.println("geo count= " + count);
