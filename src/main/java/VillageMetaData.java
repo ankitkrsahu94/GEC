@@ -682,11 +682,13 @@ public class VillageMetaData {
                 		}
                 		if(total==0){
                 			//test++;
-                			//System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))));
+//                			System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))));
                 		}
                 	}
                 	//System.out.println("test count value ######"+test);
                 	//break;
+                } else {
+                	System.out.println("Area fields length :: " + fields.length);
                 }
 
             }

@@ -1,0 +1,65 @@
+,,,,,,,, Command,,,,Non command,,,,Poor command,,,,,,,,
+SR.NO, GW Watershed name,Geo Specific Yield name,Specific Yield value as %,Rainfall infiltration Factor as %,Transmissivity as %,Storage Coefficient as %,Total area sq.km,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,,,,,
+1,GNT_C_54_Amarthaluru,soft rock,6,10,,,124.32,124.31987,0.00013,0.00013,124.32,0,0,0,0,87.8599999987,1.3E-09,0,87.86,,,GNT_C_54_Amarthaluru,GNT_C_54_AMARTHALURU,GNT_C_54_Amarthaluru
+2,GNT_C_54_Bapatla,soft rock,6,10,,,44.64,44.64,0,0,44.64,0,0,0,0,34.3499999991,9E-10,0.00000009,34.35,,,GNT_C_54_Bapatla,GNT_C_54_BAPATLA,GNT_C_54_Bapatla
+3,GNT_C_54_Bhattiprollu,soft rock,16,22,,,112.76,112.76,0,0,112.76,0,0,0,0,-1.2E-09,1.2E-09,0.00000012,0,,,GNT_C_54_Bhattiprollu,GNT_C_54_BHATTIPROLU,GNT_C_54_Bhattiprollu
+4,GNT-C-54-Cherukupalli,soft rock,6,10,,,98.97,98.969,0.001,0.001,98.97,0,0,0.001,0,-0.000000001,0.000000001,0.0000001,0,,,GNT-C-54-Cherukupalli,GNT_C_54_CHERUKUPALI,GNT-C-54-Cherukupalli
+5,GNT-C-54-Duggirala,soft rock,6,16,,,133.63,133.63,0,0,133.63,0,0,0,0,0,0,0,0,,,GNT-C-54-Duggirala,GNT_C_54_DUGGIRALA,GNT-C-54-Duggirala
+6,GNT-C-54-Karlapalem,soft rock,1,16,,,100.7,100.69995,0.00005,0.00005,100.7,0,0,0.00005,0,71.4199999995,5E-10,0.00000005,71.42,,,GNT-C-54-Karlapalem,GNT_C_54_KARLAPALEM ,GNT-C-54-Karlapalem
+7,GNT-C-54-Kollipara,soft rock,6,16,,,119.75,119.75,0,0,119.75,0,0,0,0,-1.4E-09,1.4E-09,0.00000014,0,,,GNT-C-54-Kollipara,GNT_C_54_KOLLIPARA,GNT-C-54-Kollipara
+8,GNT-C-54-Kolluru,soft rock,2,24,,,108.44,108.44,0,0,108.44,0,0,0,0,0,0,0,0,,,GNT-C-54-Kolluru,GNT_C_54_KOLLURU,GNT-C-54-Kolluru
+9,GNT-C-54-Nagaram,soft rock,6,8,,,145.23,145.23,0,0,145.23,0,0,0,0,122.5599999988,1.2E-09,0.00000012,122.56,,,GNT-C-54-Nagaram,GNT_C_54_NAGARAM,GNT-C-54-Nagaram
+10,GNT-C-54-Nizampatnam,soft rock,6,8,,,160.11,160.11,0,44.31,160.11,-0.00000009,0.00000009,0.00000009,0,135.7499999991,9E-10,0.00000009,135.75,,,GNT-C-54-Nizampatnam,GNT_C_54_NIZAMPATNAM,GNT-C-54-Nizampatnam
+11,GNT-C-54-P.V.Palem,soft rock,1,10,,,74.3,74.3,0,0,74.3,0,0,0.00000006,0,-6E-10,6E-10,0.00000006,0,,,GNT-C-54-P.V.Palem,GNT_C_54_PONNURU,GNT-C-54-Ponnuru
+12,GNT-C-54-Ponnuru,soft rock,6,8,,,172.09,172.09,0,0,172.09,0,0,0.00000019,0,50.02000011,0,0,50.02000011,,,GNT-C-54-Ponnuru,GNT_C_54_P.V.PALEM,GNT-C-54-P.V.Palem
+13,GNT-C-54-Repalle,soft rock,6,8,,,232.6,232.6,0,3.77,232.6,1.97,0,0.0000018,0,176.3745000182,1.8E-09,0.00000018,176.37450002,,,GNT-C-54-Repalle,GNT_C_54_REPALLE,GNT-C-54-Repalle
+14,GNT-C-54-Tenali,soft rock,1,16,,,126.31,126.31,0,0,126.31,0.00450012,0,0.00000013,0.00450012,-1.3E-09,1.3E-09,0.00000013,0,,,GNT-C-54-Tenali,GNT_C_54_TENALI,GNT-C-54-Tenali
+15,GNT-C-54-Tsunduru,soft rock,6,10,,,104.83,104.83,0,0,104.83,0,0,0.0000012,0,-1.2E-09,1.2E-09,0.00000012,0,,,GNT-C-54-Tsunduru,GNT_C_54_TSUNDUR,GNT-C-54-Tsunduru
+16,GNT-C-54-Vemuru,soft rock,1,16,,,112.18,112.18,0,0,112.18,0,0,0.00000013,0,-1.3E-09,1.3E-09,0.00000013,0,,,GNT-C-54-Vemuru,GNT_C_54_VEMURU,GNT-C-54-Vemuru
+17,GNT-C-55-Boddu-Velpuru,Hard rock,3,11,,,71.36,71.36,0,0,71.36,0,0,0.00000005,0,-5E-10,5E-10,0.00000005,0,,,GNT-C-55-Boddu-Velpuru,GNT_C_55_BODDULA VAGU,GNT-C-55-Boddu-Velpuru
+18,GNT-C-55-Isuka-2-Kondaveedu,Hard rock,3,10,,,112.91,108.41,4.5,12.47,112.91,0,0,0,0,15.409999999,0.000000001,0.0000001,15.41,,,GNT-C-55-Isuka-2-Kondaveedu,GNT_C_55_ISUKA VAGU - 2,GNT-C-55-Isuka-2-Kondaveedu
+19,GNT-C-55-Konda-Vatticherukuru,Hard rock and soft rock,3,8,,,0.0001,0.0001,0,3.34,0,0.0001,0,2.19,0,0.0001,0,1.4627,0,,,GNT-C-55-Konda-Vatticherukuru,GNT_C_55_KONDA VAGU,GNT-C-55-Konda-Vatticherukuru
+20,GNT-C-55-Nakka-Muppalla,Hard rock and soft rock,3,8,,,484.18,483.68,0.5,2,484.18,0,0,0,0,337.0000000562,3.8E-09,0.00000038,337.00000006,,,GNT-C-55-Nakka-Muppalla,GNT_C_55_NAKKA_MUPPALLA,GNT-C-55-Nakka-Muppalla
+21,GNT-C-55-Nalanda-Narasaraopet,Hard rock,3,8,,,333.97,333.97,0,3.95,333.97,0,0,0,0,65.8500001377,2.3E-09,0.00000023,65.85000014,,,GNT-C-55-Nalanda-Narasaraopet,GNT_C_55_NALANDA VAGU,GNT-C-55-Nalanda-Narasaraopet
+22,GNT-C-55-Nallama-Pedanandipadu,Hard rock and soft rock,1,8,,,250.39,250.39,0,21.77,250.39,0,0,0,0,118.9800000485,1.5E-09,0.00000015,118.98000005,,,GNT-C-55-Nallama-Pedanandipadu,GNT_C_55_NALLAMADA VAGU,GNT-C-55-Nallama-Pedanandipadu
+23,GNT-C-55-Pedda-2-Mangalagiri,Hard rock,3,10,,,369.23,365.73,3.5,5,369.23,0,0,0,0,98.6100999967,3.3E-09,0.00000033,98.6101,,,GNT-C-55-Pedda-2-Mangalagiri,GNT_C_55_PEDA VAGU - 2,GNT-C-55-Pedda-2-Mangalagiri
+24,GNT-C-55-Rama-Prathipadu,Hard rock,3,8,,,46.14,41.64,4.5,2.5,46.14,0,0,0,0,31.3599999997,3E-10,0.00000003,31.36,,,GNT-C-55-Rama-Prathipadu,GNT_C_55_RAMAVAGU,GNT-C-55-Rama-Prathipadu
+25,GNT-C-55-Tummala-Edlapadu,Hard rock,3,5,,,97.87,94.87,3,9,97.87,0,0,0,0,72.420000029,0.000000001,0.0000001,72.42000003,,,GNT-C-55-Tummala-Edlapadu,GNT_C_55_THUMMALAPALEM VAGU,GNT-C-55-Tummala-Edlapadu
+26,GNT-C-55-Ura-Rompicherla,Hard rock,3,8,,,85.38,85.38,0,0,85.38,0,0,0,0,0,0,0,0,,,GNT-C-55-Ura-Rompicherla,GNT_C_55_URA VAGU,GNT-C-55-Ura-Rompicherla
+27,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Hard rock,2,11,,,313.83,310.83,3,12.34,313.83,0,0,0,0,82.820000108,0.000000002,0.0000002,82.82000011,,,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,GNT_C_55_VOGERU VAGU,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole
+28,GNT-C-57-Anga-Angalur,Hard rock and soft rock,2,5,,,84.7,46.18,6.55,8.33,52.73,25.42001,6.55,8.33,31.97001,0,0,0,0,,,GNT-C-57-Anga-Angalur,GNT_C_57_ANGA_ANGALURU,GNT-C-57-Anga-Angalur
+29,GNT-C-57-Cheja-Chejerla,Hard rock,3,8,,,110.38,68.48,1.61,12.34,70.09,32.29,8,21.29,40.29,0,0,0,0,,,GNT-C-57-Cheja-Chejerla,GNT_C_57_CHEJE_CHEJERLA,GNT-C-57-Cheja-Chejerla
+30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Hard rock,3,8,,,240.37,240.37,0,3.9712,240.37,0,0,0,0,0,0,0,0,,,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,GNT_C_57_GUNDLA_NUZENDLA,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole
+31,GNT-C-57-Gundla-2-Thimmapuram-Part_Ongole,Hard rock,3,8,,,49.22,48.22,1,0.0001,49.22,0,0,0,0,0,0,0,0,,,GNT-C-57-Gundla-2-Thimmapuram-Part_Ongole,GNT_C_57_GUNDLA-2_THIMMAPURAM,GNT-C-57-Gundla-2-Thimmapuram-Part_Ongole
+32,GNT-C-57-Kandaleru-1-Bollapalli-Part_Ongole,Hard rock,2,5,,,196.21,7.77,0,0,7.77,168.44,20,111.48,188.44,0,0,0,0,,,GNT-C-57-Kandaleru-1-Bollapalli-Part_Ongole,GNT_C_57_KANDALERU-1_BOLLAPALLI,GNT-C-57-Kandaleru-1-Bollapalli-Part_Ongole
+33,GNT-C-57-Kandaleru-2-Vinukonda_Part-Ongole,Hard rock,3,8,,,42.17,42.17,0,3.32,42.17,0,0,0,0,0,0,0,0,,,GNT-C-57-Kandaleru-2-Vinukonda_Part-Ongole,GNT_C_57_KANDALERU-2_VINUKONDA,GNT-C-57-Kandaleru-2-Vinukonda_Part-Ongole
+34,GNT-C-57-Konkeru-Savalyapuram,Hard rock and soft rock,3,8,,,256.81,212.72,0,0,212.72,29.09,15,24.5,44.09,0,0,0,0,,,GNT-C-57-Konkeru-Savalyapuram,GNT_C_57_KONKERU_SAVALYAPURAM,GNT-C-57-Konkeru-Savalyapuram
+35,GNT-C-57-Pasupuleru-Vellaturu,Hard rock,3,6,,,277.76,116.33,0,0,116.33,119.89,41.54,61.96,161.43,0,0,0,0,,,GNT-C-57-Pasupuleru-Vellaturu,GNT_C_57_PASUPU_VELLATURU,GNT-C-57-Pasupuleru-Vellaturu
+36,GNT-C-57-Vola-Tangirala,Hard rock,3,11,,,130.5,129.5,1,9.7,130.5,0,0,0,0,0,0,0,0,,,GNT-C-57-Vola-Tangirala,GNT_C_57_VOLA_TANGIRALA,GNT-C-57-Vola-Tangirala
+37,GNT-D-50 Mada-Pedakurapadu,Hard rock and soft rock,3,10,,,295.12,293.12,2,2,295.12,0,0,0,0,38.9999999975,2.5E-09,0.00000025,39,,,GNT-D-50 Mada-Pedakurapadu,GNT_D_50_MADA_PEDAKURAPADU,GNT-D-50 Mada-Pedakurapadu
+38,GNT-D-50- Voppi-Voppicherla,Hard rock,2,7,,,53.7,39.7,0,0.00003,39.7,6,8,6.0000002,14,0,0,0,0,,,GNT-D-50- Voppi-Voppicherla,GNT_D_50_VOPPI_VOPPICHERLA,GNT-D-50- Voppi-Voppicherla
+39,GNT-D-50-Atcham.-Atchampeta,soft rock,3,11,,,211.2,182.2,29,40.19,211.2,0,0,0,0,0,0,0,0,,,GNT-D-50-Atcham.-Atchampeta,GNT_C_50_ATCHAM_ATCHAMPETA,GNT-D-50-Atcham.-Atchampeta
+40,GNT-D-50-Challa-Challagundla,Hard rock,3,11,,,240.93,240.93,0,3.08,240.93,0,0,0,0,0,0,0,0,,,GNT-D-50-Challa-Challagundla,GNT_C_50_CHALLA_CHALLAGUNDLA,GNT-D-50-Challa-Challagundla
+41,GNT-D-50-Chandra-Mutukur,Hard rock ,2,7,,,324.13,0,0,0,0,266.09,58.04,198.72,324.13,0,0,0,0,,,GNT-D-50-Chandra-Mutukur,GNT_D_50_CHANDRAVANKA,GNT-D-50-Chandra-Mutukur
+42,GNT-D-50-Chintala-Taduvoy,Hard rock ,3,11,,,232.12,0,0,0,0,77.54,154.58,53.62,232.12,0,0,0,0,,,GNT-D-50-Chintala-Taduvoy,GNT_D_50_CHINTALA VAGU,GNT-D-50-Chintala-Taduvoy
+43,GNT-D-50-Dandi-Gurajala,Hard rock ,2,7,,,251.54,198.6492,0.001,10.101,198.6502,39.89,13,4.46,52.89,0,0,0,0,,,GNT-D-50-Dandi-Gurajala,GNT_C_50_DANDI_GURAJALA,GNT-D-50-Dandi-Gurajala
+44,GNT-D-50-Eddu-Amaravathi,soft rock,2,8,,,167.31,167.3097,0.0003,0.0003,167.31,0,0,1.7E-09,0,0,0,0.00000017,0,,,GNT-D-50-Eddu-Amaravathi,GNT_C_50_EDDU_AMARAVATHI,GNT-D-50-Eddu-Amaravathi
+45,GNT-D-50-Edumangal-Rentachintala,soft rock,3,11,,,91.94,89.94,2,4.83,91.94,0,0,0,0,0,0,0,0,,,GNT-D-50-Edumangal-Rentachintala,GNT_C_50_EDUMANGAL_RENTACHINTALA,GNT-D-50-Edumangal-Rentachintala
+46,GNT-D-50-Erra-1-Rajupalem,soft rock,3,10,,,66,62.6497,3.3503,14.36,66,0,0,0,0,0,0,0,0,,,GNT-D-50-Erra-1-Rajupalem,GNT_C_50_ERRA-1_RAJUPALEM,GNT-D-50-Erra-1-Rajupalem
+47,GNT-D-50-Erra-2-Piduguralla,soft rock,3,11,,,336.66,187.6288,0.0012,21.3807,187.63,109.03,40,86.64,149.03,0,0,0,0,,,GNT-D-50-Erra-2-Piduguralla,GNT_D_50_ERRA-2_PIDUGURALLA,GNT-D-50-Erra-2-Piduguralla
+48,GNT-D-50-Gadida-Daida,Hard rock ,2,7,,,61.74,46.7,15.04,0,61.74,0,0,0,0,0,0,0,0,,,GNT-D-50-Gadida-Daida,GNT_C_50_GADIDA_DAIDA,GNT-D-50-Gadida-Daida
+49,GNT-D-50-Goli-Thumurukota,Hard rock ,2,7,,,289.44,144.27,15.88,14.61,160.15,121.17,8.12,47.58,129.29,0,0,0,0,,,GNT-D-50-Goli-Thumurukota,GNT_D_50_GOLI_THUMRUKOTA,GNT-D-50-Goli-Thumurukota
+50,GNT-D-50-Jakkulagundam,soft rock,2,6,,,72,0,0,0,0,32,40,32,72,0,0,0,0,,,GNT-D-50-Jakkulagundam,GNT_D_50_JEKKULAGUNDAM VAGU,GNT-D-50-Jakkulagundam
+51,GNT-D-50-Jerri-Sirigiripadu,Hard rock ,3,6,,,223,0,0,0,0,149.06,73.94,145.75,223,0,0,0,0,,,GNT-D-50-Jerri-Sirigiripadu,GNT_D_50_JERRI VAGU,GNT-D-50-Jerri-Sirigiripadu
+52,GNT-D-50-Julakallu-Kesanapalli,Hard rock ,2,7,,,84.72,84.72,0,0.62,84.72,0,0,0,0,0,0,0,0,,,GNT-D-50-Julakallu-Kesanapalli,GNT_D_50_JULAKALLU_KESANUPALLI,GNT-D-50-Julakallu-Kesanapalli
+53,GNT-D-50-Kattela-Thulluru,soft rock,2,15,,,222.67,99.4,1,2.52,100.4,120.270002,2,0,122.270002,42.1101,0,0,42.1101,,,GNT-D-50-Kattela-Thulluru,GNT_D_50_KATTELA_THULLURY,GNT-D-50-Kattela-Thulluru
+54,GNT-D-50-Kondaveeti-Medikonduru,soft rock,3,8,,,213.65,210.65,3,4.95,213.65,0,0,0.00000021,0,70.1300000979,2.1E-09,0.00000021,70.1300001,,,GNT-D-50-Kondaveeti-Medikonduru,GNT_D_50_KONDAVEETI_MEDIKONDURU,GNT-D-50-Kondaveeti-Medikonduru
+55,GNT-D-50-Lakshmi-Panidam,Hard rock ,3,11,,,78.39,78.39,0,0,78.39,0,0,0,0,16.5,0,0,16.5,,,GNT-D-50-Lakshmi-Panidam,GNT_D_50_LAKSHMI_PANIDAM,GNT-D-50-Lakshmi-Panidam
+56,GNT-D-50-Macherla-Macherrla,soft rock,2,7,,,342.22,6.4799,0.0001,0.0001,6.48,315.07,20.67,134.36,335.74,0.0001,0,0,0.0001,,,GNT-D-50-Macherla-Macherrla,GNT-D-50-Macherla-Macherrla,GNT-D-50-Macherla-Macherrla
+57,GNT-D-50-Munigundla-Vijayapuri South,soft rock,2,5,,,153.16,0,0,0,0,98.46,54.7,75.3,153.16,0,0,0,0,,,GNT-D-50-Munigundla-Vijayapuri South,GNT-D-50-Munigundla-Vijayapuri South,GNT-D-50-Munigundla-Vijayapuri South
+58,GNT-D-50-Nagarjuna-Macherla,Soft  rock,2,7,,,192.92,53.82,4.75,6.09,58.57,123.85,10.5,70.58,134.35,0,0,0,0,,,GNT-D-50-Nagarjuna-Macherla,GNT_D_50_NAGARJUNA_MACHERLA,GNT-D-50-Nagarjuna-Macherla
+59,GNT-D-50-Naguleru-Dachepalle,hard rock,3,7,,,308.23,178.11,4.5,13.53,182.61,94.45,31.17,45.72,125.62,0,0,0,0,,,GNT-D-50-Naguleru-Dachepalle,GNT_D_50_NAGULERU_DACHEPALLE,GNT-D-50-Naguleru-Dachepalle
+60,GNT-D-50-Narasing-Narasingapadu,Soft  rock,2,7,,,95.32,76.52,18.8,30.24002,95.32,0,0,0,0,0,0,0,0,,,GNT-D-50-Narasing-Narasingapadu,GNT_D_50_NARASING_NARASINGAPADU,GNT-D-50-Narasing-Narasingapadu
+61,GNT-D-50-Pedda-1-Guntur,Soft  rock,3,12,,,274.65,270.94986,3.70014,1.06017,274.65,0,0,0,0,131.3100000481,1.9E-09,0.00000019,131.31000005,,,GNT-D-50-Pedda-1-Guntur,GNT_D_50_PEDDA-1_GUNTUR,GNT-D-50-Pedda-1-Guntur
+62,GNT-D-50-Ralla-Machavaram,hard rock,2,8,,,299.47,275.04,24.43,1.38,299.47,0,0,0,0,0,0,0,0,,,GNT-D-50-Ralla-Machavaram,GNT_D_50_RALLA_MACHAVARAM,GNT-D-50-Ralla-Machavaram
+63,GNT-D-50-Remidicherla,Soft  rock,1.5,5,,,103.31,0,0,0,0,93.31,10,15.76,103.31,0,0,0,0,,,GNT-D-50-Remidicherla,GNT_D_50_REMIDICHERRLA,GNT-D-50-Remidicherla

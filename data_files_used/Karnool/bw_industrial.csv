@@ -1,0 +1,992 @@
+,,,,"CA","NCA","PQA",
+,,,,"Industrial","Industrial","Industrial",
+"Sr.no","Watershed code","GW watershed name","village name","Industrial Wells","Industrial Wells","Industrial Wells","Total "
+1,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Vanikamdinne",,,,0
+2,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Jeenepalli",,,,0
+3,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Gumperamanudinne",,,,0
+4,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Erraguntla",,,,0
+5,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Rampalli",,,,0
+6,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Nelampadu",,,,0
+7,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Bramhanapalli",,,,0
+8,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Gotluru",,,,0
+9,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Kalugotlapalli",,,,0
+10,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Rajoli",,,,0
+11,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Mallevemula",,,,0
+12,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Bathaluru",,,,0
+13,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","G.Jamuladinne",,,,0
+14,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Gubagundam",,,,0
+15,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Devarayapuram",,,,0
+16,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Nallagatla",,,,0
+17,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Gopalapuram",,,,0
+18,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Allagadda",3,,,3
+19,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","PeddaChinthakuta",,,,0
+20,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","S.Lingamdinne",,,,0
+21,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Patha Kandukuru",,,,0
+22,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Palasagaram",,,,0
+23,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Kotakandukuru",,,,0
+24,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Chinthakommadinne",,,,0
+25,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Kondapuram",,,,0
+26,"13_c_68_38 (A)","Ku_C_KD_Allagadda (A)","Arjunapuram",,,,0
+27,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Gollagutta",,,,0
+28,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Meerapuram",,,,0
+29,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Banaganapalli",,,,0
+30,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Yerragudi",,,,0
+31,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Hussainapuram",,,,0
+32,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Yanagandla",,,,0
+33,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Battalurupadu",,,,0
+34,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Yagantipalli",,,,0
+35,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Bhanumukkala",,,,0
+36,"13_C_68_44(a)","KU_C_KD_BANAGANAPALLI(a)","Reserve Forest",,,,0
+37,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Velagaturu",,,,0
+38,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Bijinivemula",,,,0
+39,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Peddakopperla",,,,0
+40,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Chinakopperla",,,,0
+41,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Vallampadu",,,,0
+42,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Rayapadu",,,,0
+43,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Kotturu",,,,0
+44,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Gaggaturu",,,,0
+45,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Anupuru",,,,0
+46,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Tangaturu",,,,0
+47,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Mittapalle",,,,0
+48,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Kaipa",,,,0
+49,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Sankalapuram",,,,0
+50,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Appalapuram",,,,0
+51,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Vittalapuram",,,,0
+52,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Nandavaram",,,,0
+53,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Jillela",,,,0
+54,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Tiimmapuram",,,,0
+55,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Nandivargam",,,,0
+56,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Ramateertham",,,,0
+57,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Beeravolu",,,,0
+58,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Cheruvupalli",,,,0
+59,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Palkur",,,,0
+60,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Venkatapuram",,,,0
+61,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Kapulapalli",,,,0
+62,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Pandlapuram",,,,0
+63,"13_c_68_44-C-©","KU-C_KD_Banaganapalli-(C)-C","Reserve Forest",,,,0
+64,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Mothukuru",,,,0
+65,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Pedda Devalapuram",,,,0
+66,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Narayanapuram",,,,0
+67,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","S.Juturu",,,,0
+68,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Galichennayapalem",,,,0
+69,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Ramapuram",,,,0
+70,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","B.Atmakuru",,,,0
+71,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Kakunuru",,,,0
+72,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Parnapalli",,,,0
+73,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Eernapadu",,,,0
+74,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Kadamalakalva",,,,0
+75,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Ayyavarikoduru",,,,0
+76,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","B.Koduru",,,,0
+77,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Nandyal",4,,,4
+78,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Kothapalli",,,,0
+79,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Mulasagaram",,,,0
+80,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Billalapuram",,,,0
+81,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Kottala",,,,0
+82,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Ayyaluru",1,,,1
+83,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Bollavaram",,,,0
+84,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Bukkapuram",,,,0
+85,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Thimmapuram",,,,0
+86,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Thammadapalli",,,,0
+87,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Gopavaram",,,,0
+88,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","Nandipalli",,,,0
+89,"13_c_68_33(a)_c","Ku_C_Kd_Bandi Atmakuru (a)_c","RF",,,,0
+90,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Mittakandala",,,,0
+91,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Bhanumukkala",,,,0
+92,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Madduru",,,,0
+93,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Vempenta",,,,0
+94,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Abdullapuram",,,,0
+95,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Guntakandanala",,,,0
+96,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Regadaguduru",,,,0
+97,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Velpanuru",,,,0
+98,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Tudicherla",,,,0
+99,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Bheemavaram",,,,0
+100,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Pulimaddi",,,,0
+101,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Yerraguntla",,,,0
+102,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Paramaturu",,,,0
+103,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Bhojanam",,,,0
+104,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Pesaravai",,,,0
+105,"13_C_68_33(b)--c","Ku_C_KD_B.Atmakuru(b)","Karimaddela",,,,0
+106,"13_c_68_39","ku_c_kd_chagalamarri_C","Dadlavanipenta",,,,0
+107,"13_c_68_39","ku_c_kd_chagalamarri_C","Godigenuru",,,,0
+108,"13_c_68_39","ku_c_kd_chagalamarri_C","Madduru",,,,0
+109,"13_c_68_39","ku_c_kd_chagalamarri_C","Chagalamarri",,,,0
+110,"13_c_68_39","ku_c_kd_chagalamarri_C","Chintalacheruvu",,,,0
+111,"13_c_68_39","ku_c_kd_chagalamarri_C","Peddavangali",,,,0
+112,"13_c_68_39","ku_c_kd_chagalamarri_C","Chinavangali",,,,0
+113,"13_c_68_39","ku_c_kd_chagalamarri_C","Settiveedu",,,,0
+114,"13_c_68_39","ku_c_kd_chagalamarri_C","Peddabodanam",,,,0
+115,"13_c_68_39","ku_c_kd_chagalamarri_C","Chinnabodanam",,,,0
+116,"13_c_68_39","ku_c_kd_chagalamarri_C","Thodendlapalli",,,,0
+117,"13_c_68_39","ku_c_kd_chagalamarri_C","RF(Rudravaram)",,,,0
+118,"13_c_68_39","ku_c_kd_chagalamarri_C","Mutyalapadu",,,,0
+119,"13_c_68_39","ku_c_kd_chagalamarri_C","Ahobilum",,,,0
+120,"13_c_68_39","ku_c_kd_chagalamarri_C","Bachepalli",,,,0
+121,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Errabadu",,,,0
+122,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Thippanuru",,,,0
+123,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Kurnoor",,,,0
+124,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Lingamdinne",,,,0
+125,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Agaveli",,,,0
+126,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Pothugallu",,,,0
+127,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Mannekunta",,,,0
+128,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","S.Erragudi",,,,0
+129,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Matchapuram",,,,0
+130,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Kapatralla",,,,0
+131,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","Thimmapuram",,,,0
+132,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","P.Kotakonda",,,,0
+133,"13_D_45_27(B)","KU_D_TB_Devanakonda(b)","RF",,,,0
+134,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Burrareddy palle",,,,0
+135,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Ramachandrapuram",,,,0
+136,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Dornipadu",,,,0
+137,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Chakrarajuvemula",,,,0
+138,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Kristipadu",,,,0
+139,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Harivaram",,,,0
+140,"13_C_68_41-c","KU_C_KD_Dornipadu-c","R.Papampalli",,,,0
+141,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Padigapadu",,,,0
+142,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Uyyalawada",,,,0
+143,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Injudu",,,,0
+144,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Kondupalli",,,,0
+145,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Pedda Yemmanuru",,,,0
+146,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Vemgampalli",,,,0
+147,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Sarvaipalli",,,,0
+148,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Suddamalla",,,,0
+149,"13_C_68_41-c","KU_C_KD_Dornipadu-c","R.Jammuladinne",,,,0
+150,"13_C_68_41-c","KU_C_KD_Dornipadu-c","Narsepalle",,,,0
+151,"13_C_68_42-c","KU_C_KD_Gospadu_c","Kampamalla",,,,0
+152,"13_C_68_42-c","KU_C_KD_Gospadu_c","Bheemunipadu",,,,0
+153,"13_C_68_42-c","KU_C_KD_Gospadu_c","Joladarasi",,,,0
+154,"13_C_68_42-c","KU_C_KD_Gospadu_c","Kallugotla",,,,0
+155,"13_C_68_42-c","KU_C_KD_Gospadu_c","Revanuru",,,,0
+156,"13_C_68_42-c","KU_C_KD_Gospadu_c","Lingala",,,,0
+157,"13_C_68_42-c","KU_C_KD_Gospadu_c","M.Uppaluru",,,,0
+158,"13_C_68_42-c","KU_C_KD_Gospadu_c","w.Govindinne",,,,0
+159,"13_C_68_42-c","KU_C_KD_Gospadu_c","Gundupapala",,,,0
+160,"13_C_68_42-c","KU_C_KD_Gospadu_c","S.Kulluru",,,,0
+161,"13_C_68_42-c","KU_C_KD_Gospadu_c","Vantivelagala",,,,0
+162,"13_C_68_42-c","KU_C_KD_Gospadu_c","Yalluru",,,,0
+163,"13_C_68_42-c","KU_C_KD_Gospadu_c","Tellapuri",,,,0
+164,"13_C_68_42-c","KU_C_KD_Gospadu_c","Gospadu",,,,0
+165,"13_C_68_42-c","KU_C_KD_Gospadu_c","Jillella",,,,0
+166,"13_C_68_42-c","KU_C_KD_Gospadu_c","Pasurupadu",,,,0
+167,"13_C_68_42-c","KU_C_KD_Gospadu_c","Julepalle",,,,0
+168,"13_C_68_42-c","KU_C_KD_Gospadu_c","S.Nagulavaram",,,,0
+169,"13_C_68_42-c","KU_C_KD_Gospadu_c","Dibaguntla",,,,0
+170,"13_C_68_42-c","KU_C_KD_Gospadu_c","M.Chintakunta",,,,0
+171,"13_C_68_42-c","KU_C_KD_Gospadu_c","M.Krishnapuram",,,,0
+172,"13_C_68_42-c","KU_C_KD_Gospadu_c","Sambavaram",,,,0
+173,"13_C_68_42-c","KU_C_KD_Gospadu_c","Guntanala",,,,0
+174,"13_C_68_42-c","KU_C_KD_Gospadu_c","Mitnala",,,,0
+175,"13_C_68_42-c","KU_C_KD_Gospadu_c","Brahmanapalli",,,,0
+176,"13_C_68_42-c","KU_C_KD_Gospadu_c","pusuluru",,,,0
+177,"13_C_68_42-c","KU_C_KD_Gospadu_c","Chapirevula",,,,0
+178,"13_C_68_42-c","KU_C_KD_Gospadu_c","Kanala",,,,0
+179,"13_C_68_42-c","KU_C_KD_Gospadu_c","Chabolu",,,,0
+180,"13_C_68_42-c","KU_C_KD_Gospadu_c","Nunepalle",,,,0
+181,"13_C_68_42-c","KU_C_KD_Gospadu_c","Madduru",,,,0
+182,"13_C_68_42-c","KU_C_KD_Gospadu_c","Togarachedu",,,,0
+183,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Alaganuru",,,,0
+184,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Rollapadu",,,,0
+185,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Talamudipi",,,,0
+186,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Bilakalagudur",,,,0
+187,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Bujanur",,,,0
+188,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Chindhukur",,,,0
+189,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Gadivemula",,,,0
+190,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Manchalakatta",,,,0
+191,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Korapoluru",,,,0
+192,"13_C_68_16-c","Ku_C_kd_Miduthuru-c","Vanala",,,,0
+193,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Pinnapuram",,,,0
+194,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Gorukallu",,,,0
+195,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Kondajuturu",,,,0
+196,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Chilakala",,,,0
+197,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Balapanuru",,,,0
+198,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Panyam",,,,0
+199,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Thammarajupalli",,,,0
+200,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Nerawada",,,,0
+201,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Kowluru",,,,0
+202,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Bhupanapadu",,,,0
+203,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Reserve Forest",,,,0
+204,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Chennakkapalli",,,,0
+205,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Gadigarevula",,,,0
+206,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Koratamaddi",,,,0
+207,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Thirupadu",,,,0
+208,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Durvesi",,,,0
+209,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Poluru",,,,0
+210,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Rayamallapuram",,,,0
+211,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Munagala",,,,0
+212,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Udumulapuram",,,,0
+213,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Bugganipalli",,,,0
+214,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Kolumulapalli",,,,0
+215,"13_c_68_31(a)","Ku_c_kd_Panyam(a)","Bethamcherla",,,,0
+216,"13_C_68_31(B)","KU_C_KD_PANYAM(B)","Alamuru",,,,0
+217,"13_C_68_31(B)","KU_C_KD_PANYAM(B)","Konidedu",,,,0
+218,"13_C_68_31(B)","KU_C_KD_PANYAM(B)","Gonavaram",,,,0
+219,"13_C_68_31(B)","KU_C_KD_PANYAM(B)","RF(Panyam)",,,,0
+220,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","Mandaluru",,,,0
+221,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","Muthuluru",,,,0
+222,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","Chandaluru",,,,0
+223,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","Narasapuram",,,,0
+224,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","T.Lingamdinne",,,,0
+225,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","Velagalapall",,,,0
+226,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","Rudravaram",,,,0
+227,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","Kondamayapalli",,,,0
+228,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","R.Nagulavaram",,,,0
+229,"13_c_68_37(a)","Ku_C_kd_Rudravaram (a)","RF",,,,0
+230,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Kotakonda",,,,0
+231,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Sreerangapuram",,,,0
+232,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Yellavathulla",,,,0
+233,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Chinnakambaluru",,,,0
+234,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Peddakambaluru",,,,0
+235,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Perur",,,,0
+236,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Erragudidinna",,,,0
+237,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Chilakaluru",,,,0
+238,"13_c_68_37-Nc- (b)","Ku_C_Kd_Rudravaram (b)","Reserve Forest",,,,0
+239,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Rallakothur",,,,0
+240,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Thammadapalli",,,,0
+241,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Illurukothapeta",,,,0
+242,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Jambuladinne",,,,0
+243,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Niluvugondla",,,,0
+244,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Gulamnabipeta",,,,0
+245,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Amadala",,,,0
+246,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Soudaradinne",,,,0
+247,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Sivavaram",,,,0
+248,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Vasantapuram",,,,0
+249,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Hotramanudinne",,,,0
+250,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Kamalapuri",,,,0
+251,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Natlakothur",,,,0
+252,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Mudigodu",,,,0
+253,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Bondaladinne",,,,0
+254,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Akumalla",,,,0
+255,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Mukkamalla",,,,0
+256,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Eggoni",,,,0
+257,"13_C_68_45(a)","KU_C_KD_Sanjamala(a)","Sanjamala",,,,0
+258,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Petnikota",,,,0
+259,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Itikyala",,,,0
+260,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Kolimigundla",,,,0
+261,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Kalavatala",,,,0
+262,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Meerjapuram",,,,0
+263,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Belum",,,,0
+264,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Nandipadu",,,,0
+265,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","B.Singavaram",,,,0
+266,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Kotapadu",,,,0
+267,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Chanugondla",,,,0
+268,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Sunkesula",,,,0
+269,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Alavakonda",,,,0
+270,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Muchalapuri",,,,0
+271,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Kanala",,,,0
+272,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Mangapalle",,,,0
+273,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Giddaluru",,,,0
+274,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","S.Dattapuram",,,,0
+275,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","R.lingamdinne",,,,0
+276,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Michinenipalli",,,,0
+277,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Ramabadrapalle",,,,0
+278,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Perusomula",,,,0
+279,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Kothapalli",,,,0
+280,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Pottipadu",,,,0
+281,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Gulladurthi",,,,0
+282,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Koilkuntla",,,,0
+283,"13_c_68_45(b)","KU_C_KD_Sanjamala(b)","Chintakunta",,,,0
+284,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Mahadevapuram",,,,0
+285,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","boyalakuntla",,,,0
+286,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Govindapalli",,,,0
+287,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Kanalapalli",,,,0
+288,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Sirivella",,,,0
+289,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Kaminenipalli",,,,0
+290,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Gangavaram",,,,0
+291,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Chennuru",,,,0
+292,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Kotapadu",,,,0
+293,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Basapuram",,,,0
+294,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Gajulapalli",,,,0
+295,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","Maseedapuram",,,,0
+296,"13-C-68-36--C","KU_C-KD_SIRIVELLA_C","beeravolu",,,,0
+297,"KU_C_68_13","KU_C_KD_VELUGODU","Velugodu",,,,0
+298,"KU_C_68_13","KU_C_KD_VELUGODU","Boyarevula",,,,0
+299,"KU_C_68_14","KU_C_KD_VELUGODU","Kunta (U.I)",,,,0
+300,"KU_C_68_15","KU_C_KD_VELUGODU","RF(Pangidiguduru)",,,,0
+301,"KU_C_68_16","KU_C_KD_VELUGODU","RF(Abbirajugunta)",,,,0
+302,"KU_C_68_13","KU_C_KD_VELUGODU","Reserve Forest",,,,0
+303,"13_D_44_15","Ku_D_LK_J.Bunglow_C","Tatipadu",,,,0
+304,"13_D_44_15","Ku_D_LK_J.Bunglow_C","Thangadancha",,,,0
+305,"13_D_44_15","Ku_D_LK_J.Bunglow_C","Tarthuru",,,,0
+306,"13_D_44_15","Ku_D_LK_J.Bunglow_C","Bollavaram (Bhaskarapuram)",,,,0
+307,"13_D_44_15","Ku_D_LK_J.Bunglow_C","Mandlam",,,,0
+308,"13_D_44_15","Ku_D_LK_J.Bunglow_C","Veepanagundla",,,,0
+309,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Nandikunta",,,,0
+310,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Kokkarancha",,,,0
+311,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Dudyala",,,,0
+312,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Nallakalva",,,,0
+313,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Karivena",,,,0
+314,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Kambhalapalli",,,,0
+315,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Pamulapadu",,,,0
+316,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Juturu",,,,0
+317,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Chelimala",,,,0
+318,"13_D_44_10 -c-(b)","Ku_D_lk_Kothapalli(b)","Iskala",,,,0
+319,"13_D_44_09","Ku_D_LK_Pagidyala-C","Beeravolu",,,,0
+320,"13_D_44_09","Ku_D_LK_Pagidyala-C","Palamarri(U.I.)",,,,0
+321,"13_D_44_09","Ku_D_LK_Pagidyala-C","Pagidyala",,,,0
+322,"13_D_44_09","Ku_D_LK_Pagidyala-C","Prathakota West",,,,0
+323,"13_D_44_09","Ku_D_LK_Pagidyala-C","Lakshmipuram",,,,0
+324,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Hanavalu",,,,0
+325,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Yedavalli",,,,0
+326,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Santekulluru",,,,0
+327,"13_D_45_23(a)","KU_D_TB_ADONI(A)","G.Hosahalli",,,,0
+328,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Ganekal",,,,0
+329,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Madire",,,,0
+330,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Kadithota",,,,0
+331,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Isvi",,,,0
+332,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Parvathapuram",,,,0
+333,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Kallubavi",,,,0
+334,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Adoni",,,,0
+335,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Mandagiri",,,,0
+336,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Gonanabavi",,,,0
+337,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Dibbanakal",,,,0
+338,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Honnuru (Huvvanur)",,,,0
+339,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Virupapuram",,,,0
+340,"13_D_45_23(a)","KU_D_TB_ADONI(A)","S.Kondapuram",,,,0
+341,"13_D_45_23(a)","KU_D_TB_ADONI(A)","V.Kondapuram",,,,0
+342,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Vengalapuram",,,,0
+343,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Hanavalu",,,,0
+344,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Yedavalli",,,,0
+345,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Santekulluru",,,,0
+346,"13_D_45_23(a)","KU_D_TB_ADONI(A)","G.Hosahalli",,,,0
+347,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Ganekal",,,,0
+348,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Madire",,,,0
+349,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Kadithota",,,,0
+350,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Isvi",,,,0
+351,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Parvathapuram",,,,0
+352,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Kallubavi",,,,0
+353,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Adoni",,,,0
+354,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Mandagiri",,,,0
+355,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Gonanabavi",,,,0
+356,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Dibbanakal",,,,0
+357,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Honnuru (Huvvanur)",,,,0
+358,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Virupapuram",,,,0
+359,"13_D_45_23(a)","KU_D_TB_ADONI(A)","S.Kondapuram",,,,0
+360,"13_D_45_23(a)","KU_D_TB_ADONI(A)","V.Kondapuram",,,,0
+361,"13_D_45_23(a)","KU_D_TB_ADONI(A)","Vengalapuram",,,,0
+362,"13_d_45_19(b)","Ku_D_Tb_Kodumuru(a)","H.Kyaravadi",,,,0
+363,"13_d_45_19(b)","Ku_D_Tb_Kodumuru(a)","Vemugodu",,,,0
+364,"13_d_45_19(b)","Ku_D_Tb_Kodumuru(a)","Varkuru",,,,0
+365,"13_d_45_19(b)","Ku_D_Tb_Kodumuru(a)","Kodumuru",,,,0
+366,"13_d_45_19(b)","Ku_D_Tb_Kodumuru(a)","Mudumalagutti",,,,0
+367,"13_d_45_19(b)","Ku_D_Tb_Kodumuru(a)","Gorantla",,,,0
+368,"13_d_45_19(b)","Ku_D_Tb_Kodumuru(a)","Laddagiri",,,,0
+369,"13_D_45_2","KU-D_TB_KOSIGI_C","Agasanuru",,,,0
+370,"13_D_45_2","KU-D_TB_KOSIGI_C","Bhatrabomulapuram",,,,0
+371,"13_D_45_2","KU-D_TB_KOSIGI_C","Chitranakallu",,,,0
+372,"13_D_45_2","KU-D_TB_KOSIGI_C","Duddi",,,,0
+373,"13_D_45_2","KU-D_TB_KOSIGI_C","Yandapalli",,,,0
+374,"13_D_45_2","KU-D_TB_KOSIGI_C","Kalavalagundu",,,,0
+375,"13_D_45_2","KU-D_TB_KOSIGI_C","Devarabetta",,,,0
+376,"13_D_45_2","KU-D_TB_KOSIGI_C","Jampapuram",,,,0
+377,"13_D_45_2","KU-D_TB_KOSIGI_C","Irnagallu",,,,0
+378,"13_D_45_2","KU-D_TB_KOSIGI_C","Kosigi",,,,0
+379,"13_D_45_2","KU-D_TB_KOSIGI_C","Kandukuru",,,,0
+380,"13_D_45_2","KU-D_TB_KOSIGI_C","Puttakunta",,,,0
+381,"13_D_45_2","KU-D_TB_KOSIGI_C","Kamandoddi",,,,0
+382,"13_D_45_2","KU-D_TB_KOSIGI_C","Mugaladoddi",,,,0
+383,"13_D_45_2","KU-D_TB_KOSIGI_C","Pendekallu",,,,0
+384,"13_D_45_2","KU-D_TB_KOSIGI_C","Satanuru",,,,0
+385,"13_D_45_2","KU-D_TB_KOSIGI_C","Sajjalagadda",,,,0
+386,"13_D_45_2","KU-D_TB_KOSIGI_C","Tunbiganuru",,,,0
+387,"13_D_45_2","KU-D_TB_KOSIGI_C","Kadidoddi",,,,0
+388,"13_D_45_2","KU-D_TB_KOSIGI_C","Nelakosigi",,,,0
+389,"13_D_45_2","KU-D_TB_KOSIGI_C","Bompalli",,,,0
+390,"13_D_45_3","KU-D_TB_KOSIGI_C","Kaggallu",,,,0
+391,"13_D_45_3","KU-D_TB_KOSIGI_C","Narayanapuram",,,,0
+392,"13_D_45_3","KU-D_TB_KOSIGI_C","Ramapuram",,,,0
+393,"13_D_45_3","KU-D_TB_KOSIGI_C","Dibbanadoddi",,,,0
+394,"13_D_45_3","KU-D_TB_KOSIGI_C","Basapuram",,,,0
+395,"13_D_45_3","KU-D_TB_KOSIGI_C","Kachapuram",,,,0
+396,"13_D_45_22","KU-D_TB_KOSIGI_C","Pikkalabetta",,,,0
+397,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Hardaragiri",,,,0
+398,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Medihal",,,,0
+399,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Kaminihal",,,,0
+400,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Nagara Dona",,,,0
+401,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Thimmapuram",,,,0
+402,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Beldona",,,,0
+403,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Kundanakurthy",,,,0
+404,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Namakallu",,,,0
+405,"13_d_46_53 --c--(b)","KU_D_V V _Chippagiri -c-(b)","Ramadurgam",,,,0
+406,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Siddapuram",,,,0
+407,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Virupapuram",,,,0
+408,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Balagoti",,,,0
+409,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Nitravatti",,,,0
+410,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Amrutapuram",,,,0
+411,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Gulyam",,,,0
+412,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Bapuram",,,,0
+413,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Bella Hallu",,,,0
+414,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Halaharvi",,,,0
+415,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Machanuru",,,,0
+416,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","J.Hosahalli",,,,0
+417,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Pacharlapalli",,,,0
+418,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Kuruvalli",,,,0
+419,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Hattibelagal",,,,0
+420,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Aluru",,,,0
+421,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Arikera",,,,0
+422,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Suluyi",,,,0
+423,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Mugamanugundi",,,,0
+424,"13_D_46_54(a)-nc","KU_D_V V_ halaharvi(a)","Nagarakanvi",,,,0
+425,"13_C_68_38","KU_C_KD_ALLAGADDA","Alamuru",,,,0
+426,"13_C_68_38","KU_C_KD_ALLAGADDA","Reserve forest",,,,0
+427,"13_C_68_38","KU_C_KD_ALLAGADDA","Krishnapuram",,,,0
+428,"13_C_68_38","KU_C_KD_ALLAGADDA","Padakandla",,,,0
+429,"13_C_68_38","KU_C_KD_ALLAGADDA","Yadawada",,,,0
+430,"13_C_68_38","KU_C_KD_ALLAGADDA","Obulampalli",,,,0
+431,"13_C_68_38","KU_C_KD_ALLAGADDA","Mittapalli",,,,0
+432,"13_D_44_16","Ku_D_LK_Midthuru_C","Ganapuram",,,,0
+433,"13_D_44_16","Ku_D_LK_Midthuru_C","Bannuru",,,,0
+434,"13_D_44_16","Ku_D_LK_Midthuru_C","Tarigopula",,,,0
+435,"13_D_44_16","Ku_D_LK_Midthuru_C","Parumanchala",,,,0
+436,"13_D_44_16","Ku_D_LK_Midthuru_C","Lingapuram",,,,0
+437,"13_D_44_16","Ku_D_LK_Midthuru_C","Thummaluru",,,,0
+438,"13_D_44_16","Ku_D_LK_Midthuru_C","Thimmapuram",,,,0
+439,"13_D_44_17","Ku_D_LK_Midthuru_C","Bairapuram",,,,0
+440,"13_D_44_16","Ku_D_LK_Midthuru_C","Cherukucherla",,,,0
+441,"13_D_44_16","Ku_D_LK_Midthuru_C","Midthuru",,,,0
+442,"13_D_44_16","Ku_D_LK_Midthuru_C","Kadumuru",,,,0
+443,"13_D_44_16","Ku_D_LK_Midthuru_C","Masapet",,,,0
+444,"13_D_45_5","KU-D-TB-C.BELAGAL_C","Gundrevula",,,,0
+445,"13_D_45_5","KU-D-TB-C.BELAGAL_C","Rangapuram(kondapuram)",,,,0
+446,"13_D_45_5","KU-D-TB-C.BELAGAL_C","Polukudoddi",,,,0
+447,"13_D_45_5","KU-D-TB-C.BELAGAL_C","Polukallu",,,,0
+448,"13_D_45_5","KU-D-TB-C.BELAGAL_C","Belagallu",,,,0
+449,"13_D_45_5","KU-D-TB-C.BELAGAL_C","Burandoddi",,,,0
+450,"13_D_45_5","KU-D-TB-C.BELAGAL_C","Peddanelture",,,,0
+451,"13_D_45_5","KU-D-TB-C.BELAGAL_C","Pulakurti",,,,0
+452,"13_D_45_6","KU_D_TB_GUDURU_C","Kothakota",,,,0
+453,"13_D_45_6","KU_D_TB_GUDURU_C","Bramhanadoddi",,10,,10
+454,"13_D_45_6","KU_D_TB_GUDURU_C","Munagala",,,,0
+455,"13_D_45_6","KU_D_TB_GUDURU_C","Mallapuram",,,,0
+456,"13_D_45_6","KU_D_TB_GUDURU_C","Regadikhanapuram",,,,0
+457,"13_D_45_6","KU_D_TB_GUDURU_C","Guduru",,,,0
+458,"13_D_45_6","KU_D_TB_GUDURU_C","Ponnekkalu",,,,0
+459,"13_D_45_6","KU_D_TB_GUDURU_C","Julakallu",,,,0
+460,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Pedda Harivanam",,,,0
+461,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Chinna Harivanam",,,,0
+462,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Baladoru",,,,0
+463,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Ingaladahal",,,,0
+464,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Maddilingalahalli",,,,0
+465,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Peddagonehal",,,,0
+466,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Hebbatam",,,,0
+467,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Lingada halli",,,,0
+468,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Yellarthi",,,,0
+469,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Neraniki",,,,0
+470,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Karadigudam",,,,0
+471,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Muddanageri",,,,0
+472,"13_D_45_24","KU_D_TB_HOLAGUNDA_C","Kurukunda",,,,0
+473,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","K.Markapuram",,,,0
+474,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","Parla",,,,0
+475,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","A.Gokula padu",,,,0
+476,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","Salkapuram",,,,0
+477,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","Kalluru",,,,0
+478,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","Chanugondla",,,,0
+479,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","Gudipadu",,,,0
+480,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","Penchikalapadu",,,,0
+481,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","K.Nagalapuram",,,,0
+482,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","Budidapadu",,,,0
+483,"13-D-45-18(a)","KU-D-TB-KALLURU(A)","Pyalakurhi",,,,0
+484,"13_D_45_18(b)","KU_D_TB_KALLURU(B)","Amadaguntla",,,,0
+485,"13_D_45_18(b)","KU_D_TB_KALLURU(B)","Yerradoddi",,,,0
+486,"13_D_45_18(b)","KU_D_TB_KALLURU(B)","Anugonda",,,,0
+487,"13_D_45_18(b)","KU_D_TB_KALLURU(B)","Remaduru",,,,0
+488,"13_D_45_18(b)","KU_D_TB_KALLURU(B)","Pusuluru",,,,0
+489,"13_D_45_18(b)","KU_D_TB_KALLURU(B)","Bollavaram",,,,0
+490,"13_D_45_18(b)","KU_D_TB_KALLURU(B)","Laxmipuram",,,,0
+491,"13_D_45_18(b)","KU_D_TB_KALLURU(B)","Pandipadu",,,,0
+492,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Pandavagallu",,,,0
+493,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Bapuram",,,,0
+494,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Badenahallu",,,,0
+495,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Bantakunta",,,,0
+496,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Agasaladinne",,,,0
+497,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Dombaladinne",,,,0
+498,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Erigiri",,,,0
+499,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Kowthalam",,,,0
+500,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Itchenahal",,,,0
+501,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Kamavaram",,,,0
+502,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Kunthanahallu",,,,0
+503,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Lingamdinne",,,,0
+504,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Myaliganuru",,,,0
+505,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Tovi",,,,0
+506,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Upparahallu",,,,0
+507,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Urukunda",,,,0
+508,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Rouduru",,,,0
+509,"13_D_45_1(b)","KU_D_TB_KOWTHALAM(A)_C","Virladinne",,,,0
+510,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Kotedoddi",,,,0
+511,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Gurraladoddi",,,,0
+512,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Chudi",,,,0
+513,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Chitrapalli",,,,0
+514,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Gudikamballi",,,,0
+515,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Halvi",,,,0
+516,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Kambalanuru",,,,0
+517,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Karani",,,,0
+518,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Katriki",,,,0
+519,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Madire",,,,0
+520,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Mallanahatti",,,,0
+521,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Murali",,,,0
+522,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Nadichagi",,,,0
+523,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Podalakunta",,,,0
+524,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Sulakeri",,,,0
+525,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Thippaaldoddi",,,,0
+526,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Valluru",,,,0
+527,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Gothuladoddi",,,,0
+528,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Arlabanda",,,,0
+529,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Gowdagallu",,,,0
+530,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Jumaladinne",,,,0
+531,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Vandagallu",,,,0
+532,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Bapanadoddi",,,,0
+533,"13_D_45_1(a)","KU_D_TB_KOWTHALAM","Gavigatti",,,,0
+534,"13_D_45_7(b)","KU_D_TB_KURNOOL","R.Kontalapadu",,,,0
+535,"13_D_45_7(b)","KU_D_TB_KURNOOL","Edururu",,,,0
+536,"13_D_45_7(b)","KU_D_TB_KURNOOL","G.Singavaram",,,,0
+537,"13_D_45_7(b)","KU_D_TB_KURNOOL","Nidzuru",,,,0
+538,"13_D_45_7(b)","KU_D_TB_KURNOOL","Munagalapadu",,,,0
+539,"13_D_45_7(b)","KU_D_TB_KURNOOL","Mamidalapadu",,,,0
+540,"13_D_45_7(b)","KU_D_TB_KURNOOL","Ulchela",,,,0
+541,"13_D_45_7(b)","KU_D_TB_KURNOOL","Remata",,,,0
+542,"13_D_45_7(b)","KU_D_TB_KURNOOL","Basavapuram",,,,0
+543,"13_D_45_7(b)","KU_D_TB_KURNOOL","Sunkesula",,,,0
+544,"13_D_45_7(b)","KU_D_TB_KURNOOL","Kurnool",,,,0
+545,"13_D_45_7(b)","KU_D_TB_KURNOOL","Roja",,,,0
+546,"13_D_45_7(b)","KU_D_TB_KURNOOL","Pedda Padu",,,,0
+547,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Nagaladinne",,,,0
+548,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Chinna Kothiliki",,,,0
+549,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Pedda Kothiliki",,,,0
+550,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Joharapuram",,,,0
+551,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Pulachintha",,,,0
+552,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Machapuram",,,,0
+553,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Halaharvi",,,,0
+554,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Nandavaram",,,,0
+555,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Mugati",,,,0
+556,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Dharmapuram",,,,0
+557,"13_D_45_04","KU_D_TB_NANDAVARAM_C","Kambadahall",,,,0
+558,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Nandikotkur",,,,0
+559,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Malyala",,,,0
+560,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Satanikota",,,,0
+561,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Alluru",,,,0
+562,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Vaddemanu",,,,0
+563,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Brahmanakotkuru",,,,0
+564,"13_D_45_09","Ku_D_TB_Nandikotkuru_C","Nagaturu",,,,0
+565,"13_D_45_10","Ku_D_TB_Nandikotkuru_C","Bijinivemula",,,,0
+566,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Konidyala",,,,0
+567,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Maddigatla",,,,0
+568,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Bollavaram",,,,0
+569,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Damagatla",,,,0
+570,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Nehrunagar(Murvakonda)",,,,0
+571,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Muchumarry",,,,0
+572,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Yellala",,,,0
+573,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Veerapuram",,,,0
+574,"13_D_45_08","Ku_D_TB_Nandikotkuru_C","Nagalooti",,,,0
+575,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Kambaladinne",,,,0
+576,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Hissaramuruvani",,,,0
+577,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Peddakadaburu",,,,0
+578,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Jalawadi",,,,0
+579,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Kallakunta",,,,0
+580,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Suguru",,,,0
+581,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Buduru",,,,0
+582,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Vagarur",,,,0
+583,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Mantralayam",,,,0
+584,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Chetnepalli",,,,0
+585,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Kalladevakunta",,,,0
+586,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Chilakaladona",,,,0
+587,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Malakapuram",,,,0
+588,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Kotekallu",,,,0
+589,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Devibetta",,,,0
+590,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Banavasi",,,,0
+591,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Ibharampuram",,,,0
+592,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Nadikairawada",,,,0
+593,"13_D_45_22","KU_D_TB_PEDDAKADABUR_C","Gangavaram",,,,0
+594,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Yemmiganur",,,,0
+595,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","T.Sallagudur",,,,0
+596,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","K.Thimmapuram",,,,0
+597,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Soganuru",,,,0
+598,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Kalugotla",,,,0
+599,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Gudikal",,,,0
+600,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Sardarpuram",,,,0
+601,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Rayachotti",,,,0
+602,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Gurajala",,,,0
+603,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Mitta Somapuram",,,,0
+604,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Malasomapuram",,,,0
+605,"13_D_45_21(b)","KU_D_TB_YEMMIGANUR-B_C","Kanakaveedu",,,,0
+606,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Kadimetla",,,,0
+607,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Ralladoddi",,,,0
+608,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Parlapalli",,,,0
+609,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Pesaladinne",,,,0
+610,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Enigabala",,,,0
+611,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Garladinne",62,,,62
+612,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Divamdinne",29,,,29
+613,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Gonegondla",,,,0
+614,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Kulumala",,,,0
+615,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Alvala",,,,0
+616,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Peddamarrivedu",,,,0
+617,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Pannakaladinne",,,,0
+618,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Chamalaguduru",,,,0
+619,"13_D_45_21(a)","KU_D_TB_YEMMIGANUR_C","Kambadalhal",,,,0
+620,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Chippagiri",,,,0
+621,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Erur",,,,0
+622,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Khajipuram",,,,0
+623,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Benthana-Hal",,,,0
+624,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Doulathapuram",,,,0
+625,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Nan-Cherla",,,,0
+626,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Gummanuru",,,,0
+627,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Dega-Hal",,,,0
+628,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Chinta Kunta",,,,0
+629,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Mallikajruna Hal",,,,0
+630,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Sirugapuram",,,,0
+631,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Kokkarachedu",,,,0
+632,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Bevihal",,,,0
+633,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","Chaki-Bunda",,,,0
+634,"13_D_46_53","KU_D_VV_CHIPPAGIRI-B_C","SreedarHal",,,,0
+635,"13_D_46_24","KU_D_VV_HOLAGONDA_C","Gajjehalli",,,,0
+636,"13_D_46_24","KU_D_VV_HOLAGONDA_C","Vendavagulu",,0,,0
+637,"13_D_46_24","KU_D_VV_HOLAGONDA_C","Chinna Hythi",,,,0
+638,"13_D_46_24","KU_D_VV_HOLAGONDA_C","Holagonda",,,,0
+639,"13_D_46_24","KU_D_VV_HOLAGONDA_C","Maddatamagi",,,,0
+640,"13_D_46_24","KU_D_VV_HOLAGONDA_C","Samatigiri",,,,0
+641,"13_D_46_24","KU_D_VV_HOLAGONDA_C","Kogilathota",,,,0
+642,"13_D_46_24","KU_D_VV_HOLAGONDA_C","Honnuru",,,,0
+643,"13_c_68_47","KU_P_KD_Owk","Ramavaram",,,,0
+644,"13_c_68_47","KU_P_KD_Owk","Mettupalli",,,,0
+645,"13_c_68_47","KU_P_KD_Owk","Gundla Singavaram",,,,0
+646,"13_c_68_47","KU_P_KD_Owk","Vemulapadu",,,,0
+647,"13_c_68_47","KU_P_KD_Owk","Chennampalli",,,,0
+648,"13_c_68_47","KU_P_KD_Owk","Owk",,,,0
+649,"13_c_68_47","KU_P_KD_Owk","Kunukuntla",,,,0
+650,"13_c_68_47","KU_P_KD_Owk","Uppalapadu",,,,0
+651,"13_c_68_47","KU_P_KD_Owk","Junuthala",,,,0
+652,"13_c_68_47","KU_P_KD_Owk","Singanapalli",,,,0
+653,"13_c_68_47","KU_P_KD_Owk","Sangapatnam",,,,0
+654,"13_c_68_47","KU_P_KD_Owk","Ramapuram",,,,0
+655,"13_c_68_47","KU_P_KD_Owk","Nichenametla",,,,0
+656,"13_c_68_47","KU_P_KD_Owk","Annavaram",,,,0
+657,"13_c_68_47","KU_P_KD_Owk","Cherlopalli",,,,0
+658,"13_c_68_47","KU_P_KD_Owk","RF(Owk)",,,,0
+659,"13_c_68_47","KU_P_KD_Owk","Burugula",,,,0
+660,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Thummalapenta",,,,0
+661,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Chinthalayapalli",,,,0
+662,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Abdullapuram",,,,0
+663,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Korumanpalli",,,,0
+664,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Tholamadugu",,,,0
+665,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","S.Chennampalli",,,,0
+666,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Thimmanayanipeta",,,,0
+667,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Boyala Tadipatri",,,,0
+668,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Boyala Uppaluru",,,,0
+669,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Hanumanthagundam",,,,0
+670,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Erragudi",,,,0
+671,"13_C_68_46(a)","KU_C_KD_KOLIMIGUNDLA","Pedda Venthurla",,,,0
+672,"13_C_68_35","KU_C_KD_MAHANANDI(RF)","RESERVE FOREST",,,,0
+673,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Bukkapuram",,,,0
+674,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Uyyalawada",,,,0
+675,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Uppalapadu",,,,0
+676,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Medivemula",,,,0
+677,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Orvakal",,,,0
+678,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","N.Konthalapadu",,,,0
+679,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Guttapadu",,,,0
+680,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Kannamadakala",,,,0
+681,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","49-Bannur",,,,0
+682,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Choutukur",,,,0
+683,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Devanur",,,,0
+684,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Chinthalapalli",,,,0
+685,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Jalakanur",,,,0
+686,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","Sunkesula",,,,0
+687,"13_C_68_17(A)","KU_C_KD_Orvakal(a)-Nc","RF",,,,0
+688,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","Muddavaram",,,,0
+689,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","Eambai",,,,0
+690,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","RF Area",,,,0
+691,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","Komaravolu",,,,0
+692,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","Palakolanu",,,,0
+693,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","Kalva",,,,0
+694,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","Somayajulapalli",,,,0
+695,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","Hussainapuram",,,,0
+696,"13_C_68_17(b)","KU_C_KD_Orvakal(b)-Nc","RF Area",,,,0
+697,"13_C_68_17(c)","KU_C_KD_Orvakal(c)-Nc","Tippayapalle",,,,0
+698,"13_C_68_17(c)","KU_C_KD_Orvakal(c)-Nc","Sekunala",,,,0
+699,"13_C_68_17(c)","KU_C_KD_Orvakal(c)-Nc","Brahmanapalle",,,,0
+700,"13_C_68_17(c)","KU_C_KD_Orvakal(c)-Nc","RF area",,,,0
+701,"13_C_68_17(c)","KU_C_KD_Orvakal(c)-Nc","Gani",,,,0
+702,"13_c_68_48","KU_C_KD_PEAPULLY_(A)_NC","Malkapuram",,,,0
+703,"13_c_68_48","KU_C_KD_PEAPULLY_(A)_NC","S.Valasala",,,,0
+704,"13_c_68_48","KU_C_KD_PEAPULLY_(A)_NC","Madhavaram",,,,0
+705,"13_c_68_48","KU_C_KD_PEAPULLY_(A)_NC","Reserve Forest",,,,0
+706,"13_c_68_48","KU_C_KD_PEAPULLY_(A)_NC","Jaladurgam",,,,0
+707,"13_c_68_48","KU_C_KD_PEAPULLY_(A)_NC","Pasupula",,,,0
+708,"13_C_68_40(A)-NC","KU_C_KD_UYYALAWADA(A)","Nossam",,,,0
+709,"13_C_68_40(A)-NC","KU_C_KD_UYYALAWADA(A)","Alluru",,,,0
+710,"13_C_68_40(A)-NC","KU_C_KD_UYYALAWADA(A)","Rupanagudi",,,,0
+711,"13_C_68_40(A)-NC","KU_C_KD_UYYALAWADA(A)","Mayaluru",,,,0
+712,"13_C_68_40(A)-NC","KU_C_KD_UYYALAWADA(A)","Thudumuladinne",,,,0
+713,"13_C_68_40(A)-NC","KU_C_KD_UYYALAWADA(A)","Govindapalli",,,,0
+714,"13_C_68_40(A)-NC","KU_C_KD_UYYALAWADA(A)","Bodemmanuru",,,,0
+715,"13_C_68_40(A)-NC","KU_C_KD_UYYALAWADA(A)","Kakarawada",,,,0
+716,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Gutupalli",,,,0
+717,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Rangapuram",,,,0
+718,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Ambapuram",,,,0
+719,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Kothapalli",,,,0
+720,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Katikavanikunta",,,,0
+721,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","salamabad",,,,0
+722,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Krishnagiri",,,,0
+723,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Patapadu",,,,0
+724,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Jwalapuram",,,,0
+725,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Cherlokothur",,,,0
+726,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Gulamaliabad",,,,0
+727,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Munimadugu",,,,0
+728,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Racherla",,,,0
+729,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Vajragiri",,,,0
+730,"13_C_68_44(b)","KU_C_KD_Banaganapalli(b)","Reserve Forest",,,,0
+731,"13_C_MP_48(b)","KU_C_MP_PEAPULLY(B)","Pothudoddi",,,,0
+732,"13_C_MP_48(b)","KU_C_MP_PEAPULLY(B)","Nereducherla",,,,0
+733,"13_C_MP_48(b)","KU_C_MP_PEAPULLY(B)","Kommemarri",,,,0
+734,"13_C_MP_48(b)","KU_C_MP_PEAPULLY(B)","Chandrapalli",,,,0
+735,"13_C_MP_48(b)","KU_C_MP_PEAPULLY(B)","Gudipadu",,,,0
+736,"13_C_MP_48(b)","KU_C_MP_PEAPULLY(B)","Jakkasanikunta",,,,0
+737,"13_C_MP_48(b)","KU_C_MP_PEAPULLY(B)","RF",,,,0
+738,"13_C_65_50(a)","Ku_C_MP_Tuggali(a)","G.Erragudi",,,,0
+739,"13_C_65_50(a)","Ku_C_MP_Tuggali(a)","Kadamakuntla",,,,0
+740,"13_C_65_50(a)","Ku_C_MP_Tuggali(a)","S.Ramayampeta",,,,0
+741,"13_C_65_50(a)","Ku_C_MP_Tuggali(a)","Kalachetla",,,,0
+742,"13_C_65_50(a)","Ku_C_MP_Tuggali(a)","S.Rangapuram",,,,0
+743,"13_C_65_50(a)","Ku_C_MP_Tuggali(a)","Sho-Nallaballe",,,,0
+744,"13_C_65_50(a)","Ku_C_MP_Tuggali(a)","RF",,,,0
+745,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Chennampalli",,,,0
+746,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Edduladoddi",,,,0
+747,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Jonnagiri",,,,0
+748,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Pagidirai",,,,0
+749,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Tuggali",,,,0
+750,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Maddikera(E)",,,,0
+751,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Maddikera(W)",,,,0
+752,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","M.Agraharam",,,,0
+753,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Yadavali",,,,0
+754,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Hampa",,,,0
+755,"13_C_65_50(B)","KU_C_MP_Tuggali(b)","Peravali",,,,0
+756,"13-D_44_11-nc-(A)","KU_D_LK_Atmakuru(a)","Kurukunda",,,,0
+757,"13-D_44_11-nc-(A)","KU_D_LK_Atmakuru(a)","Vadla Ramapuram",,,,0
+758,"13-D_44_11-nc-(A)","KU_D_LK_Atmakuru(a)","Indireswaram",,,,0
+759,"13-D_44_11-nc-(A)","KU_D_LK_Atmakuru(a)","RF(Indireswaram gudem)",,,,0
+760,"13-D_44_11-nc-(A)","KU_D_LK_Atmakuru(a)","RF(Bairlutti gudem)",,,,0
+761,"13-D_44_11-nc-(A)","KU_D_LK_Atmakuru(a)","RF(Sanjeevanagarthanda)",,,,0
+762,"13-D_44_11-nc-(A)","KU_D_LK_Atmakuru(a)","RF(Nagalootigudem)",,,,0
+763,"13-D_44_11-nc-(A)","KU_D_LK_Atmakuru(a)","Reserve forest",,,,0
+764,"13_d_44_11-nc-(b)","Ku_D_Lk_Atmakuru(b)","Atmakuru",,,,0
+765,"13_d_44_11-nc-(b)","Ku_D_Lk_Atmakuru(b)","Siddapuram",,,,0
+766,"13_d_44_11-nc-(b)","Ku_D_Lk_Atmakuru(b)","Siddepalli",,,,0
+767,"13_d_44_11-nc-(b)","Ku_D_Lk_Atmakuru(b)","Krishnapuram",,,,0
+768,"13_d_44_11-nc-(b)","Ku_D_Lk_Atmakuru(b)","Pinnapuram(Venkatapuram)",,,,0
+769,"13_d_44_11-nc-(b)","Ku_D_Lk_Atmakuru(b)","Reserve forest",,,,0
+770,"13_D_45_49(A)","KU_D_TB_Dhone(a)","Kotchervu",,,,0
+771,"13_D_45_49(A)","KU_D_TB_Dhone(a)","Devara Banda",,,,0
+772,"13_D_45_49(A)","KU_D_TB_Dhone(a)","Kothakota",,,,0
+773,"13_D_45_49(A)","KU_D_TB_Dhone(a)","Pedda  Podilla",,,,0
+774,"13_D_45_49(A)","KU_D_TB_Dhone(a)","Peapully",,,,0
+775,"13_D_45_49(A)","KU_D_TB_Dhone(a)","Vengalam Palli",,,,0
+776,"13_D_45_49(A)","KU_D_TB_Dhone(a)","Mettu Palli",,,,0
+777,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Kothaburuju",,,,0
+778,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Shotrium  Gundala",,,,0
+779,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Yeddu Penta",,,,0
+780,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Yapa  Dinne",,,,0
+781,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Venkatapuram",,,,0
+782,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Ungarani gundla",,,,0
+783,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Dhone",,,,0
+784,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Udumulapadu",,,,0
+785,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Jagadurthi",,,,0
+786,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Amakatadu",,,,0
+787,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Thalla  Gokulapadu",,,,0
+788,"13_D_45_49(b)","KU_D_TB_Dhone (b)","Cherukulapadu",,,,0
+789,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Pulla gummi",,,,0
+790,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Kalugotla",,,,0
+791,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Boddu vani Palli",,,,0
+792,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Dupadu",,,,0
+793,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Dinne  Devarapadu",,,,0
+794,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Peddatekuru",,,,0
+795,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Chinnatekuru",,,,0
+796,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Bastipadu",,,,0
+797,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Chettla Malla Puram",,,,0
+798,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Ulindakonda",,,,0
+799,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Nayakallu",,,,0
+800,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Konganapadu",,,,0
+801,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Yaparlapadu",,,,0
+802,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Pulla gummi",,0,,0
+803,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Kalugotla",,0,,0
+804,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Boddu vani Palli",,0,,0
+805,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Dupadu",,0,,0
+806,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Dinne  Devarapadu",,0,,0
+807,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Peddatekuru",,0,,0
+808,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Chinnatekuru",,0,,0
+809,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Bastipadu",,0,,0
+810,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Chettla Malla Puram",,0,,0
+811,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Ulindakonda",,0,,0
+812,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Nayakallu",,0,,0
+813,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Konganapadu",,0,,0
+814,"13_D_45_18(a)","Ku_D_TB_Kalluru(a)","Yaparlapadu",,0,,0
+815,"13_D_44_10(a)","Ku_D_Lk_Kothapalli (a)","Veerabhadra Durgam",,,,0
+816,"13_D_44_10(a)","Ku_D_Lk_Kothapalli (a)","Reserve forest",,,,0
+817,"13_D_44_10(c)","Ku_D_Lk_Kothapalli (c)","Siddeswaram",,,,0
+818,"13_D_44_10(c)","Ku_D_Lk_Kothapalli (c)","Sangmeswaram",,,,0
+819,"13_D_44_10(c)","Ku_D_Lk_Kothapalli (c)","Yerramattam",,,,0
+820,"13_D_44_10(c)","Ku_D_Lk_Kothapalli (c)","Musalimadugu",,,,0
+821,"13_D_44_10(c)","Ku_D_Lk_Kothapalli (c)","RF(Guvvala Konda)",,,,0
+822,"13_D_44_10(d)","Ku_D-Lk_Kothapalli(d)","Battuvaripalli",,,,0
+823,"13_D_44_10(d)","Ku_D-Lk_Kothapalli(d)","Gummadapuram",,,,0
+824,"13_D_44_10(d)","Ku_D-Lk_Kothapalli(d)","Gokavaram",,,,0
+825,"13_D_44_10(d)","Ku_D-Lk_Kothapalli(d)","Edurupadu",,,,0
+826,"13_D_44_10(d)","Ku_D-Lk_Kothapalli(d)","Kothapalli",,,,0
+827,"13_D_44_10(d)","Ku_D-Lk_Kothapalli(d)","Sivapuram",,,,0
+828,"13_D_44_10(d)","Ku_D-Lk_Kothapalli(d)","RESERVE FOREST",,,,0
+829,"13_D_45_28(A)","KU_D_TB_Krishnagiri(a)","Chityala",,,,0
+830,"13_D_45_28(A)","KU_D_TB_Krishnagiri(a)","Alamkonda",,,,0
+831,"13_D_45_28(A)","KU_D_TB_Krishnagiri(a)","Katarukonda",,,,0
+832,"13_D_45_28(A)","KU_D_TB_Krishnagiri(a)","Chanugondla",,,,0
+833,"13_D_45_28(A)","KU_D_TB_Krishnagiri(a)","Linganeniddoddi",,,,0
+834,"13_D_45_28(A)","KU_D_TB_Krishnagiri(a)","Pendekal",,,,0
+835,"13_D_45_28(A)","KU_D_TB_Krishnagiri(a)","Mukkella",,,,0
+836,"13_D_45_28(A)","KU_D_TB_Krishnagiri(a)","Bondimadugula",,,,0
+837,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Chellelichelima",,,,0
+838,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Gundlakonda",,,,0
+839,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Nallachelimela",,,,0
+840,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Lakkasagaram",,,,0
+841,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Chunchu Erragudi",,,,0
+842,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Kambalapadu",,,,0
+843,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Erukulacheruvu",,,,0
+844,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Krishnagiri",,,,0
+845,"13_D_45_28(b)","Ku_D_Tb_Krishnagiri(b)","Thogarachedu",,,,0
+846,"13_D_44_12","KU_D_LK_SRISAILAM (a)","RF(Gudem Devastanam )",,,,0
+847,"13_D_44_12","KU_D_LK_SRISAILAM (a)","RF(Hatakesularam )",,,,0
+848,"13_D_44_12","KU_D_LK_SRISAILAM (a)","RF(Sikharam )",,,,0
+849,"13_D_44_12","KU_D_LK_SRISAILAM (a)","RF(Srisailam Project & Sunnipenta)",,,,0
+850,"13_D_44_12(b)-Nc","KU_D_LK_SRISAILAM(b)","Guvvalakuntla",,,,0
+851,"13_D_44_12(b)-Nc","KU_D_LK_SRISAILAM(b)","RF Area",,,,0
+852,"13_D_45_52","KU_D_TB_ALURU","Joharapuram",,,,0
+853,"13_D_45_52","KU_D_TB_ALURU","Molagavalli",,,,0
+854,"13_D_45_53","KU_D_TB_ALURU","Maddikera(N)",,,,0
+855,"13_D_45_52","KU_D_TB_ALURU","Buruzula",,,,0
+856,"13_D_45_25","KU_D_TB_ALUR_C","Angasakallu",,,,0
+857,"13_D_45_25","KU_D_TB_ALUR_C","A.Gonehal",,,,0
+858,"13_D_45_25","KU_D_TB_ALUR_C","Halebidu",,,,0
+859,"13_D_45_25","KU_D_TB_ALUR_C","Katariki",,,,0
+860,"13_D_45_25","KU_D_TB_ALUR_C","Kommarachedu",,,,0
+861,"13_D_45_25","KU_D_TB_ALUR_C","Manikurti",,,,0
+862,"13_D_45_25","KU_D_TB_ALUR_C","Marakattu",,,,0
+863,"13_D_45_25","KU_D_TB_ALUR_C","Musanahalli",,,,0
+864,"13_D_45_25","KU_D_TB_ALUR_C","Pedda.Hotturu",,,,0
+865,"13_D_45_25","KU_D_TB_ALUR_C","Thummalabedu",,,,0
+866,"13_D_45_25","KU_D_TB_ALUR_C","China Gonehalu",,,,0
+867,"13_D_45_25","KU_D_TB_ALUR_C","Chyagi",,,,0
+868,"13_D_45_25","KU_D_TB_ALUR_C","Dhanapuram",,,,0
+869,"13_D_45_25","KU_D_TB_ALUR_C","Naganadhahalli",,,,0
+870,"13_D_45_25","KU_D_TB_ALUR_C","Narayanapuram",,,,0
+871,"13_D_45_25","KU_D_TB_ALUR_C","Benigere",,,,0
+872,"13_D_45_25","KU_D_TB_ALUR_C","Chigali",,,,0
+873,"13_D_45_25","KU_D_TB_ALUR_C","China.Hotturu",,,,0
+874,"13_D_45_25","KU_D_TB_ALUR_C","Nagaroor",,,,0
+875,"13_D_45_26(a)","Ku_D-TB_Aspari(a)","Nalakadoddi",,,,0
+876,"13_D_45_26(a)","Ku_D-TB_Aspari(a)","Devanabanda",,,,0
+877,"13_D_45_26(a)","Ku_D-TB_Aspari(a)","Juturu",,,,0
+878,"13_D_45_26(a)","Ku_D-TB_Aspari(a)","Muthukuru",,,,0
+879,"13_D_45_26(a)","Ku_D-TB_Aspari(a)","Sankarabanda",,,,0
+880,"13_D_45_26(a)","Ku_D-TB_Aspari(a)","Chakkanihalli",,,,0
+881,"13_D_45_26(a)","Ku_D-TB_Aspari(a)","Aspari",,,,0
+882,"13_D_45_26","KU_D_TB_ASPARI","Kyruppala",,,,0
+883,"13_D_45_26","KU_D_TB_ASPARI","Bellekallu",,,,0
+884,"13_D_45_26","KU_D_TB_ASPARI","Turuvagaallu",,,,0
+885,"13_D_45_26","KU_D_TB_ASPARI","Halegeri",,,,0
+886,"13_D_45_26","KU_D_TB_ASPARI","Cherumanudoddi",,,,0
+887,"13_D_45_26","KU_D_TB_ASPARI","Tangaradona",,,,0
+888,"13_D_45_26","KU_D_TB_ASPARI","Yatakallu",,,,0
+889,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","Karivemula",,,,0
+890,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","Palakurthi",,,,0
+891,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","Jilledubudukala",,,,0
+892,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","Potlapadu",,,,0
+893,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","Ternekal",,,,0
+894,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","Kunkanur",,,,0
+895,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","Devanakonda",,,,0
+896,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","Neruduppala",,,,0
+897,"13_D-45_27(a)","KU_D_TB_Devanakonda(a)","RF",,,,0
+898,"13_D_45_20","KU_D-TB_GONEGANDLA","China Pendekal",,,,0
+899,"13_D_45_20","KU_D-TB_GONEGANDLA","Arakallu",,,,0
+900,"13_D_45_20","KU_D-TB_GONEGANDLA","Baichigeri",,,,0
+901,"13_D_45_20","KU_D-TB_GONEGANDLA","Nettekallu",,,,0
+902,"13_D_45_20","KU_D-TB_GONEGANDLA","Salakalakonda",,,,0
+903,"13_D_45_20","KU_D-TB_GONEGANDLA","Basarakodu",,,,0
+904,"13_D_45_20","KU_D-TB_GONEGANDLA","Sambagallu",,,,0
+905,"13_D_45_20","KU_D-TB_GONEGANDLA","Kandanati",,,,0
+906,"13_D_45_20","KU_D-TB_GONEGANDLA","Kadivella",,,,0
+907,"13_D_45_20","KU_D-TB_GONEGANDLA","Airanbanda",,,,0
+908,"13_D_45_20","KU_D-TB_GONEGANDLA","Gajihalli",,,,0
+909,"13_D_45_20","KU_D-TB_GONEGANDLA","B.Agraharam",,,,0
+910,"13_D_45_20","KU_D-TB_GONEGANDLA","Byluppala",,,,0
+911,"13_D_45_20","KU_D-TB_GONEGANDLA","Mulagundam",,,,0
+912,"13_D_45_20","KU_D-TB_GONEGANDLA","Banavanuru",,,,0
+913,"13_D_45_20","KU_D-TB_GONEGANDLA","Karumanchi",,,,0
+914,"13_D_45_20","KU_D-TB_GONEGANDLA","D.Kotakonda",,,,0
+915,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Nanoor",,,,0
+916,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Loddipalli",,,,0
+917,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Kethavaram",,,,0
+918,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Pudicherla",,,,0
+919,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Gargeyapuram",,,,0
+920,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Diguvupadu",,,,0
+921,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","B. Thandrapadu",,,,0
+922,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Rudravaram",,,,0
+923,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Nuthanapalli",,,,0
+924,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Pasupula",,,,0
+925,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Johrapuram",,,,0
+926,"13_D_45_07 (A)","Ku_D_TB_Kurnool (A)_NC","Thadakalapalli",,,,0
+927,"#REF!","Ku_D_TB_Kurnool (c)_NC","Gondiparla",,,,0
+928,"#REF!","Ku_D_TB_Kurnool (c)_NC","Puduru",,,,0
+929,"#REF!","Ku_D_TB_Kurnool (c)_NC","Devamadu",,,,0
+930,"#REF!","Ku_D_TB_Kurnool (c)_NC","A.Thandrapadu",,,,0
+931,"#REF!","Ku_D_TB_Kurnool (c)_NC","Panchalingala",,,,0
+932,"13_d_45_51(a)","Ku-d-tb_Pathikonda(a)","Chinnahulthi",,,,0
+933,"13_d_45_51(a)","Ku-d-tb_Pathikonda(a)","Pedda Hulthi",,,,0
+934,"13_d_45_51(a)","Ku-d-tb_Pathikonda(a)","Pathikonda",,,,0
+935,"13_d_45_51(a)","Ku-d-tb_Pathikonda(a)","Puchakayalamada",,,,0
+936,"13_d_45_51(a)","Ku-d-tb_Pathikonda(a)","Chakkaralla",,,,0
+937,"13_d_45_51(a)","Ku-d-tb_Pathikonda(a)","Hosur",,,,0
+938,"13_d_45_51(a)","Ku-d-tb_Pathikonda(a)","Ratana",,,,0
+939,"13_d_45_51(a)","Ku-d-tb_Pathikonda(a)","RF",,,,0
+940,"13_D-45_51(b)","Ku_D_Tb_Pathikonda(b)","Pandikona",,,,0
+941,"13_D-45_51(b)","Ku_D_Tb_Pathikonda(b)","Dudekonda",,,,0
+942,"13_D-45_51(b)","Ku_D_Tb_Pathikonda(b)","Yalamakuru",,,,0
+943,"13_d_45_29","Ku_d_tb_Veldurthi","Pendekal",,0,,0
+944,"13_d_45_29","Ku_d_tb_Veldurthi","Ramallakota",,0,,0
+945,"13_d_45_29","Ku_d_tb_Veldurthi","Sarparajapuram",,0,,0
+946,"13_d_45_29","Ku_d_tb_Veldurthi","S.Boyanapalli",,,,0
+947,"13_d_45_29","Ku_d_tb_Veldurthi","Narasapuram",,0,,0
+948,"13_d_45_29","Ku_d_tb_Veldurthi","Veldurthi",,0,,0
+949,"13_d_45_29","Ku_d_tb_Veldurthi","L.Banda",,0,,0
+950,"13_d_45_29","Ku_d_tb_Veldurthi","Govardhanagiri",,0,,0
+951,"13_d_45_29","Ku_d_tb_Veldurthi","Sudepalli",,0,,0
+952,"13_d_45_29","Ku_d_tb_Veldurthi","S.Peremula",,0,,0
+953,"13_d_45_29","Ku_d_tb_Veldurthi","Bogolu",,0,,0
+954,"13_d_45_29","Ku_d_tb_Veldurthi","Mallepalli",,0,,0
+955,"13_d_45_29","Ku_d_tb_Veldurthi","Narlapuram",,0,,0
+956,"13_d_45_29","Ku_d_tb_Veldurthi","Kamaganikuntla",,0,,0
+957,"13_d_45_29","Ku_d_tb_Veldurthi","RF(Dhone)",,,,0
+958,"13_d_45_30","Ku_d_tb_Veldurthi","RF(Veldurthi)",,,,0
+959,"13_c_Gkd-Velugodu","Ku_c_Gkd_Velugodu","Reserve forest",,0,,0
+960,"13_D_45_23","KU_D_TB_ADONI_C","Pedda Tumbalam",,,,0
+961,"13_D_45_23","KU_D_TB_ADONI_C","Kuppagallu",,,,0
+962,"13_D_45_23","KU_D_TB_ADONI_C","Bellikallu",,,,0
+963,"13_D_45_23","KU_D_TB_ADONI_C","Jyalimanchi",,,,0
+964,"13_D_45_23","KU_D_TB_ADONI_C","Doddanagari",,,,0
+965,"13_D_45_23","KU_D_TB_ADONI_C","Mantriki",,,,0
+966,"13_D_45_23","KU_D_TB_ADONI_C","Dayalagudem",,,,0
+967,"13_D_45_23","KU_D_TB_ADONI_C","Basapuram",,,,0
+968,"13_D_45_23","KU_D_TB_ADONI_C","Sultanapuram",,,,0
+969,"13_D_45_23","KU_D_TB_ADONI_C","Kapati",,,,0
+970,"13_D_45_23","KU_D_TB_ADONI_C","Pesalabanda",,,,0
+971,"13_D_45_23","KU_D_TB_ADONI_C","Basaladoddi",,,,0
+972,"13_D_45_23","KU_D_TB_ADONI_C","Chinna Tumbalam",,,,0
+973,"13_D_45_23","KU_D_TB_ADONI_C","Hulikanivi",,,,0
+974,"13_D_45_23","KU_D_TB_ADONI_C","Muchchigiri",,,,0
+975,"13_D_45_23","KU_D_TB_ADONI_C","Naulikallu",,,,0
+976,"13_D_45_23","KU_D_TB_ADONI_C","Mekadona",,,,0
+977,"13_D_45_23","KU_D_TB_ADONI_C","Chinna Kadaburu",,,,0
+978,"13_D_45_23","KU_D_TB_ADONI_C","Rangapuram",,,,0
+979,"13_D_45_23","KU_D_TB_ADONI_C","Tarapuram",,,,0
+980,"13_D_45_23","KU_D_TB_ADONI_C","Madhavaram",,,,0
+981,"13_D_45_23","KU_D_TB_ADONI_C","Rochumarri",,,,0
+982,"13_D_45_23","KU_D_TB_ADONI_C","Sunkeswari",,,,0
+983,"13_D_45_23","KU_D_TB_ADONI_C","Malapalli",,,,0
+984,"13_D_45_23","KU_D_TB_ADONI_C","Singarajanipalli",,,,0
+985,"13_D_45_23","KU_D_TB_ADONI_C","Pramandoddi (Omnagaram)",,,,0
+986,"13_D_45_23","KU_D_TB_ADONI_C","Sowlehalli",,,,0
+987,"13_D_45_23","KU_D_TB_ADONI_C","Belagallu",,,,0
+988,"13_D_45_23","KU_D_TB_ADONI_C","Chintakunta",,,,0
+989,"13_D_45_23","KU_D_TB_ADONI_C","Pallepadu",,,,0

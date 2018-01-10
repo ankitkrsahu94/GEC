@@ -16,7 +16,7 @@ public class BasinXmltojson {
 
 	public static void compute(String distName) {
 
-		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/"+distName+"/";
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/"+distName+"/";
 
 		/**
 		 * output files
@@ -731,7 +731,7 @@ public class BasinXmltojson {
 				// System.out.println("ANKIT ::: fields.length : " +
 				// fields.length);
 				// 34
-				if (fields.length >= 50) {
+				if (fields.length >= 43) {
 					// System.out.println("ANKIT ::: " + record);
 					// System.out.println("ANKIT ::: inside artificial : " +
 					// ++i);

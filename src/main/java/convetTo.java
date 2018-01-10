@@ -10,12 +10,16 @@ public class convetTo {
 
 		
 		List<String> distNames = new ArrayList<>();
+
+//		distNames.add("Nellore");
+//		distNames.add("Chittor");
+//		distNames.add("Visakhapatnam");
+//		distNames.add("Anantapur");
+		
 //		distNames.add("Srikakulam");
-		distNames.add("Nellore");
 //		distNames.add("Krishna");
-		distNames.add("Chittor");
-		distNames.add("Visakhapatnam");
-		distNames.add("Anantapur");
+//		distNames.add("EastG");
+		distNames.add("Karnool");
 		
 		
 		for (String distName : distNames) {
