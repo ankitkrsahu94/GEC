@@ -535,7 +535,7 @@ public class BasinXmltojson {
 					}
 
 				}else{
-					System.out.println("Geological info : invalid row : length : " + fields.length + " : " + record);
+//					System.out.println("Geological info : invalid row : length : " + fields.length + " : " + record);
 				}
 			}
 			System.out.println("geo count= " + count);
@@ -980,13 +980,13 @@ public class BasinXmltojson {
 					}
 					// System.out.println(artificialwcjson);
 				} else {
-					System.out.println("artificial WC : invalid row : length : " + fields.length + " : " + record);
+//					System.out.println("artificial WC : invalid row : length : " + fields.length + " : " + record);
 				}
 			}
 			for (String key : Basin_details.keySet()) {
 				if (Basin_details.get(key).aritificial_wc == null) {
 					// System.out.println(key);
-					System.out.println(Basin_details.get(key).loc_name);
+//					System.out.println(Basin_details.get(key).loc_name);
 				}
 			}
 			System.out.println("artificial wc count= " + count);

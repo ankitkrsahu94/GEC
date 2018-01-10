@@ -18,7 +18,7 @@ public class VillageMetaData {
     
 	public static void compute(String districtName) {
 
-		String filePath = "/home/ankit/Documents/GEC/GEC script generation code/data_files_used/"+districtName+"/";
+		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/"+districtName+"/";
 
 		
 		/**
