@@ -1,19 +1,19 @@
-GW Watershed Name,Iwm basin names,GW Village Name,iwm village names
-ATP_C_65_Kristipadu,ATP_C_65_KRISTIPADU (PART)-MB,Rayalacheruvu,Rayalacheruvu
+GW Watershed name,IWM MICROBASIN,GW Village name,IWM VILLAGE
+ATP_C_65_Kristipadu,ATP_C_65_KRISTIPADU (PART)-MB, Rayalacheruvu,Rayalacheruvu
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,74 Udegolam,Udegolam-1
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Abbedoddi,Abbedoddi
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Adadakulapalli,Adadakulapalle
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Adavigollapalli,Adivigollapalle
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Agali,Agali-1
 ATP_C_67_Pamudurthi,ATP_C_67_PAMUDURTHI-MB,Agraharam,Agraharam-1
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Agraharampalle,Agraharampalle
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Akkajampalli,Akkajampalle
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Agraharampalle,Agraharampalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Akkajampalli,Akkajampalle
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Akkaladevarahalli,Akkagaladevarahalli
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Akuledu,Akuledu
 ATP_C_67_Kalasamudram,ATP_C_67_KALASAMUDRAM-MB,Alampur,Alampur
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Alamur,Alamuru-1
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Allapalle,Allapalle
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Allugundu,Allugundu
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Allugundu,Allugundu
 ATP_C_65_Alluru,ATP_C_65_ALLURU (PART)-MB,Alur,Alur-2
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Amadaguru,Amadagur-1
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Amaladinne,Amalladinne
@@ -22,17 +22,17 @@ ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Ameenpalli,Ameenpalle
 ATP_C_64_Amidala,ATP_C_64_AMIDALA-MB,Amidala,Amidala-1
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Amidalagondi,Amidalagondi
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Anaganadoddi,Aniganidoddi
-ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Anagondapalem,Amagondapalem
+ ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Anagondapalem,Amagondapalem
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Anandaraopeta,Anandaraopeta
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Anantapur,Anantapur (Rural)
-ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Anchanahal,Donekal
+ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Anchanahal,Hanchanahal
 ATP_C_64_Golla,ATP_C_64_GOLLA-MB,Ankampalli,Ankampalle
 ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,Ankampeta,Ankampeta
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Anumpalli,Anumpalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Anumpalli,Anumpalle
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Apparacheruvu,Apparacheruvu
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Apparajupeta,Appajipeta
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Apparajupeta,Appajipeta
 ATP_C_65_Kristipadu,ATP_C_65_KRISTIPADU (PART)-MB,Appecherla,Appecherla
-ATP_D_46_Appilepalli,ATP_D_46_APPILEPALLI-MB,Appilepalli,Appilepalle
+ATP_D_46_Appilepalli,ATP_D_46_APPILEPALLI-MB,Appilepalli ,Appilepalle
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Arakabavipalli,Arkabhavipalle
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Arakatavemula,Arakativemula
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Aravedu,Aravedu-1
@@ -42,84 +42,84 @@ ATP_D_46_Bhupasamudram,ATP_D_46_BHUPASAMUDRAM-MB,Avuladatla,Avuladatla-1
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Avulampalli,Avulampalle
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Avulanne,Avulenna
 ATP_D_46_Settur,ATP_D_46_SETTUR-MB,Ayyagarlapalli,Ayyagarlapalle
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Ayyavaripalli,Ayyavaripalle-3
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Ayyavaripalli,Ayyavaripalle-3
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,B.K.Samudram,Bukkarayasamudram-1
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,B.Pappur,B.Pappuru-1
 ATP_C_66_Kurugunta,ATP_C_66_KURUGUNTA-MB,B.Yaleru,Brahmana Yaleru
 ATP_D_46_Settur,ATP_D_46_SETTUR-MB,Bachepalli,Bachchupalle
 ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Badrahalli,Bedrahalli
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Baginayanahalli,Baginayakana Halli
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Balasamudram,Balasamudram-1
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Balasamudram,Balasamudram-1
 ATP_C_66_Kanaganapalli,ATP_C_66_KANAGANAPALLI-MB,Bandameedapalli,Bandameedapalle
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Bandarlapalli,Bandarlapalle
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Bandarlapalli,Bandarlapalle
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Bandlapalli,Bandlapalle
-ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Bandlapalli,Bandlapalle
-ATP_C_67_Talupula,ATP_C_67_TALUPULA-MB,Bandlapalli,Bandlapalle
+ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Bandlapalli,Bandlapalle-2
+ATP_C_67_Talupula,ATP_C_67_TALUPULA-MB,Bandlapalli,Bandlapalle-1
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Bandur,Bandur
 ATP_D_46_Appilepalli,ATP_D_46_APPILEPALLI-MB,Basapuram,Basapuram-1
 ATP_D_46_Basavanahalli,ATP_D_46_BASAVANAHALLI-MB,Basavanahalli,Basavanahalli
 ATP_C_65_Utakal,ATP_C_65_UTAKALLU (PART)-MB,Basinepalli,Basinepalle
 ATP_C_67_Chigicherla,ATP_C_67_CHIGICHERLA-MB,Bathalapalli,Bathalapalle-1
-ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Bathalapalli,Bathalapalle-1
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Beechiganipalli,Beechiganipalle
-ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Beedupalli,Beedupalle
+ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Bathalapalli,Bathalapalle-2
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Beechiganipalli,Beechiganipalle
+ ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Beedupalli,Beedupalle
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Belodu,Belodu
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Beluguppa,Beluguppa-1
 ATP_D_46_Kanekal,ATP_D_46_KANEKAL-MB,Bennikal,Bennikal
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Bestarapalli,Bestharapalle
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Bestarapalli,Bestharapalle
 ATP_C_65_Utakal,ATP_C_65_UTAKALLU (PART)-MB,Bethapalli,Bethapalle
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Bevinahalli,Bevina Halli
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Bhogasamudram,Bhogasamudram
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Bevinahalli,Bevina Halli
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Bhogasamudram,Bhogasamudram
 ATP_D_46_Bhupasamudram,ATP_D_46_BHUPASAMUDRAM-MB,Bhupasamudram,Bhupasamudram-1
 ATP_D_46_Sollapuram,ATP_D_46_SOLLAPURAM (PART-MB,Bidurukotham,Bidurukontham
 ATP_C_65_Alluru,ATP_C_65_ALLURU (PART)-MB,Bodaipalli,Bodaipalle
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Bojjireddipalli,Bojjireddipalle
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Bokkasampalli,Bokkasampalle
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,Bollanaguddam,Bollanaguddam
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,Bollanaguddam,Bollanaguddam
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Bommagundanahalli,Bommagundanahalli
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Bommanahal,Bommanahal-1
 ATP_C_66_Hampapuram,ATP_C_66_HAMPAPURAM-MB,Bommeparthy,Bommaparthy
 ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Bondaladinne,Bondaladinne-1
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Bondalavada,Bondalawada
 ATP_C_46_Chadam,ATP_D_46_CHADAM-MB,Bondanakal,Bondankal
-ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Bonthalapalle,Bonthalapalle
+ ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Bonthalapalle,Bonthalapalle
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Boppepalli,Boppepalle
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Boyalapalle,Boyalapalle
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Brahmadevaramarri,Brahmadevaramarri
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Brahmanahaplli,Brahmanapalle-3
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Brahmanapalle,Brahmanapalle-7
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Brahmanapalli,Brahmanapalle-14
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Brahmanapalli,Brahmanapalle-14
-ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Brahmanapalli,Brahmanapalle-14
-ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Brahmanapalli,Brahmanapalle-14
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Brahmanapalli,Brahmanapalle-4
+ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Brahmanapalli,Bramhanapalle
+ ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Brahmanapalli,Brahmanapalle-13
 ATP_D_46_Kanekal,ATP_D_46_KANEKAL-MB,Brahmasamudram,Brahmasamudram-1
-ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Brahmasamudram,Brahmasamudram-1
-ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Brahmasamudram,Brahmasamudram-1
-ATP_C_63_Bucherla,ATP_C_63_BUCHERLA-MB,Bucherla,Bucharla
+ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Brahmasamudram,Brahmasamudram-3
+ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Brahmasamudram,Brahmasamudram-2
+ATP_C_63_Bucherla,ATP_C_63_BUCHERLA-MB,Bucherla ,Bucharla
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Budagavi,Budagavi
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Budanampalli,Budanampalle
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Buddareddipalli,Buddareddipalle
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Buddepalli,Buddepalle
 ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,Budedu,Budedu
 ATP_C_64_Korrakodu,ATP_C_64_KORRAKODU-MB,Budigumma,Budigumma
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Budili,Budili
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Bugumpalli,Buganipalle
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Budili,Budili
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Bugumpalli,Buganipalle
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Bukkacherla,Bukkacherla
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Bukkapatnam,Bukkapatnam-2
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Bukkapuram,Bukkapuram-5
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Bullasamudram,Bullasamudram
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Bushiahgaripalli,Bussaiahgaripalle
-ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Bynakuntapalli,Bayanakuntapalle
+ ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Bynakuntapalli,Bayanakuntapalle
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Byrapuram,Byrapuram-1
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Byrasamudram,Bhairasamudram
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Byravanithippa,Bhyravanithippa
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,C. Kodigepalli,C.Kodigepalle
-ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,C.K.palli,Chennekothapalle
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,C. Kodigepalli,C.Kodigepalle
+ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,C.K.palli ,Chennekothapalle
 ATP_C_64_Amidala,ATP_C_64_AMIDALA-MB,C.Musturu,Chinna Musturu
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,C.Vadugur,Chinnavadugur
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Chabala,Chabala
 ATP_C_46_Chadam,ATP_D_46_CHADAM-MB,Chadam,Chadam
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Chagaleru,Chagaluru
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Chagaleru,Chagaluru
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Chagallu,Chagallu-2
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Chagapuram,Chagapuram
 ATP_C_66_Salakamcheruvu,ATP_C_66_SALAKAMCHERUVU-MB,Chakrayapeta,Chakrayapeta
@@ -127,7 +127,7 @@ ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Chalakuru,Chalakur-1
 ATP_C_67_Kalasamudram,ATP_C_67_KALASAMUDRAM-MB,Chalamakuntapalli,Chalamakuntapalle
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Chalimenahalli,Chelimenahalli
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Chalivemula,Chalavemula
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Chalivendula,Chalivendala
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Chalivendula,Chalivendala
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Challapalli,Challapalle-1
 ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Challavaripalli,Challavaripalle
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Chamachenubylu,Chamachenubylu
@@ -140,35 +140,35 @@ ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Chapiri,Chapiri
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Charupalli,Charupalle
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Chatram,Chathram
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Chedulla,Chedulla
-ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Cheekatimanipalli,Cheekatimanipalle
+ ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Cheekatimanipalli,Cheekatimanipalle
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Cheekirevulapalli,Cheekirevulapalle
 ATP_C_66_Salakamcheruvu,ATP_C_66_SALAKAMCHERUVU-MB,Cheelapalli,Cheelapalle-1
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Chennampalli,Chennampalle-2
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Chennampalli,Chennampalle-2
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Chennampalli,Chennampalle-4
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Chennapuram,Chennapuram
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Chennarayanipalli,Chennarayunipalle
 ATP_C_67_Ravulachervu,ATP_C_67_RAVULACHERUVU-MB,Chennarayapatnam,Chennarayapatnam
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Cherlopalli,Cherlopalli
-ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Cherlopalli,Cherlopalli
-ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Cherukuru,Cherukur
+ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Cherlopalli,Cherlopalle-2
+ ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Cherukuru,Cherukur
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Chetnepalli,Chetnepalle
 ATP_D_46_Basavanahalli,ATP_D_46_BASAVANAHALLI-MB,Chigathurpi,Chigathurpi
 ATP_C_67_Chigicherla,ATP_C_67_CHIGICHERLA-MB,Chigicherla,Chigicherla
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Chikalaguriki,Cheekalaguriki
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Chilamakur,Chilamakuru
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Chilamathur,Chilamathur-1
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Chilamathur,Chilamathur-1
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Chillavaripalli,Chillavaripalle
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Chinaganipalle,Chinaganipalle
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Chinnachigullarevu,Chinnachigullarevu
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Chinnahothur,Chinna Hothur
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Chinnakotla,Chinnakotla
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Chinnamallepalli,Chinnamallepalle
-ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Chinnamanthuru,Chinnamanthur
+ ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Chinnamanthuru,Chinnamanthur
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Chinnapolamada,Chinnapolamada
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Chinnaramannagaripalli,Chinnaramannagaripalle
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Chinnaramannagaripalli,Chinnaramannagaripalle
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Chinnayekkaluru,Chinnayakkaluru
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Chintakunta,Chintakunta-3
-ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Chintalacheruvu,Chitrachedu
+ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Chintalacheruvu,Chintacheruvu
 ATP_D_46_Settur,ATP_D_46_SETTUR-MB,Chintarlapalli,Chintarlapalle
 ATP_C_67_Kalasamudram,ATP_C_67_KALASAMUDRAM-MB,Chippalamadugu,Chippalamadugu
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Chitrachedu,Chitrachedu
@@ -177,14 +177,14 @@ ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Chiyyedu,Chiyyedu
 ATP_C_63_Lepakshi,ATP_C_63_LEPAKSHI-MB,Cholasamudram,Cholasamudram-1
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Cholasamudram,Cholasamudram
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Cholemarri,Cholemarri
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Chowdireddipalli,Chowdireddipalle
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Chowluru,Chowlur
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Chowdireddipalli,Chowdireddipalle
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Chowluru,Chowlur
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Chowtakuntapalli,Chowtakuntapalle
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Chukkaluru,Chukkalur
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Chukkaluru,Chukkalur
 ATP_D_46_Kanekal,ATP_D_46_KANEKAL-MB,D. Kondapuram,D.Kondapuram
 ATP_C_67_Ravulachervu,ATP_C_67_RAVULACHERUVU-MB,D.Cherlopalli,D.Cherlopalle
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,D.Hirehal,D.Hirehal
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,D.Honnur,D.Honnur
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,D.Honnur,D.Honnur
 ATP_C_67_Kondakamarla,ATP_C_67_KONDAKAMARLA-MB,Daburuvaripalli,Daburuvaripalle
 ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Dadaluru,Dadalur
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Dademvaripalli,Dademvaripalle
@@ -192,24 +192,24 @@ ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Dadithota,Dadithota-1
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Daggumarri,Duggumarri
 ATP_C_67_Ravulachervu,ATP_C_67_RAVULACHERUVU-MB,Dampetla,Dampetla
 ATP_C_65_Midthuru,ATP_C_65_MIDTHURU-MB,Dancherla,Dancherla
-ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Danduvaripalle,Danduvaripalle-1
+ ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Danduvaripalle,Danduvaripalle-1
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Danduvaripalli,Danduvaripalle
 ATP_C_67_Ravulachervu,ATP_C_67_RAVULACHERUVU-MB,Darisimala,Darsimala
 ATP_C_63_Lepakshi,ATP_C_63_LEPAKSHI-MB,Demakethapalli,Demakethepalle
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Devaaragudipalli,Devaragudipalle
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Devanuppalapadu,Devanuppalapadu
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Devarapalli,Devarapalle-1
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Devarapalli,Devarapalle-1
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Devulacheruvu,Devulacheruvu
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Devarapalli,Devarapalle-1
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Devarapalli,Devarapalle-2
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Devulacheruvu,Devulacheruvu
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Dhaniyanicheruvu,Dhaniyanicheruvu
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Dharmapuram,Dharmapuram-2
-ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Dharmapuram,Dharmapuram-1
-ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Dharmavaram,Dharmavaram (M)
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Diguvamandlapalli,Diguvamandalapalle
+ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Dharmapuram ,Dharmapuram-1
+ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Dharmavaram ,Dharmavaram (M)
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Diguvamandlapalli,Diguvamandalapalle
 ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Diguvapalli,Diguvapalle
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Dimmagudi,Dimmagudi
 ATP_C_46_Chadam,ATP_D_46_CHADAM-MB,Dodagatta,Dodagatta
-ATP_C_63_Roddam,ATP_C_63_RODDAM-MB,Dodagatta,Dodagatta
+ATP_C_63_Roddam,ATP_C_63_RODDAM-MB,Dodagatta,Dodagatta-1
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Dodderi,Dodderi
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Donekal,Donekal
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Donimukkala,Donimukkala
@@ -217,51 +217,51 @@ ATP_C_67_Kondakamarla,ATP_C_67_KONDAKAMARLA-MB,Donnikota,Donnikota
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Dorigallu,Dorigallu
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Dosaledu,Dosaledu
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Dosaludiki,Dosaludiki
-ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Duddebanda,Duddebanda
+ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Duddebanda ,Duddebanda
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Duddekunta,Duddekunta
 ATP_C_64_Palavai,ATP_C_64_PALAVAI-MB,Duradakunta,Duradakunta
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Durgam,Durgam
 ATP_C_64_Palavai,ATP_C_64_PALAVAI-MB,East Kodipalli,East Kodipalle
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Eddulapalli,Eddulapalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Eddulapalli,Eddulapalle
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Edigavaripalli,Edigavaripalle
 ATP_C_67_Chigicherla,ATP_C_67_CHIGICHERLA-MB,Edula Mustur,Edula Mustur
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,EdulaBalapuram,Edulabalapuram
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Edurudona,Edurudona
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Edurudona,Edurudona
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Eguvapalli,Yeguvapalle
 ATP_C_66_Thumucherla,ATP_C_66_THUMUCHERLA-MB,Elakuntla,Elakkuntla
 ATP_C_46_Chadam,ATP_D_46_CHADAM-MB,Elangi,Elanji
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Elukuntla,Elukuntla
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Enagaluru,Inagalur-2
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Engilibanda,Engilibanda
-ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Enumulapalli,Yenumalapalle
+ ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Enumulapalli,Yenumalapalle
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Eradikera,Eradikera
 ATP_C_66_Kanaganapalli,ATP_C_66_KANAGANAPALLI-MB,Erragunta,Yerragunta-1
 ATP_C_65_Midthuru,ATP_C_65_MIDTHURU-MB,Eswarapalli,Eswarapalle
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Ethodu,Ethodu
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Ethodu,Ethodu
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,G.Anantapur,Gooty Ananta Puram
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,G.Venkatampalli,G. Venkatampalle
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Gadehothur,Gade Hothur
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Gadekal,Gadekal
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Gadidamanipalli,Gadidamvaripalle
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Gajarampalli,Gajarampalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Gajarampalli,Gajarampalle
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Galagala,Galagala
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Ganaparthipalli,Ganapathipalle
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Gandladinne,Gandladinne
-ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Gandlapadu,Gandlapadu
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Ganaparthipalli,Ganapathipalle
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Gandladinne,Gandladinne
+ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Gandlapadu ,Gandlapadu
 ATP_C_66_Thumucherla,ATP_C_66_THUMUCHERLA-MB,Gandlaparthy,Gandlaparthi-1
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Gandlapenta,Gandlapenta-1
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Gandlavallapalli,Gandlavandlapalle
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Gangadevipalli,Gangadevipalle
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Gangampalli,Gangampalle
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Gangadevipalli,Gangadevipalle
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Gangampalli,Gangampalle
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Gangavaram,Gangavaram-4
 ATP_C_67_Ravulachervu,ATP_C_67_RAVULACHERUVU-MB,Ganginepalli,Ganginepalle
 ATP_C_66_Hampapuram,ATP_C_66_HAMPAPURAM-MB,Gangulakunta,Gangulakunta
 ATP_D_46_Kadlur,ATP_D_46_KADLUR-MB,Ganigera,Ganigera
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Ganjikunta,Ganjikunta
-ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Gantimarri,Ganthimarri
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Ganjikunta,Ganjikunta
+ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Gantimarri ,Ganthimarri
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Garisalapalli,Gariselapalle
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Garladinne,Garladinne-4
-ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Garladinne,Garladinne-4
+ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Garladinne,Garladinne-3
 ATP_D_46_Sollapuram,ATP_D_46_SOLLAPURAM (PART-MB,Garudachedu,Garudachedu
 ATP_C_64_Palavai,ATP_C_64_PALAVAI-MB,Garudapuram,Garudapuram
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Garuguchintalapalli,Chintalapalle-1
@@ -270,14 +270,14 @@ ATP_C_67_Kalasamudram,ATP_C_67_KALASAMUDRAM-MB,Godduvelagala,Godduvelagala
 ATP_C_64_Golla,ATP_C_64_GOLLA-MB,Golla,Golla
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Gollapalle,Gollapalle-4
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Gollapalli,Gollapalle-3
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Gollapuram,Gollapuram
-ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Gondipalli,Gondipalle-2
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Gollapuram,Gollapuram
+ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Gondipalli ,Gondipalle-2
 ATP_C_66_Hampapuram,ATP_C_66_HAMPAPURAM-MB,Gondireddipalli,Gondireddipalle
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Gonipeta,Gonipeta
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Gootibylu,Gootibylu
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Gooty(R),Gooty (Rural)
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Gopepalli,Gopepalle
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Gorantla,Gorantla-2
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Gorantla,Gorantla-2
 ATP_C_66_Kurugunta,ATP_C_66_KURUGUNTA-MB,Goridindla,Goridindla
 ATP_C_67_Chigicherla,ATP_C_67_CHIGICHERLA-MB,Gotlur,Gotlur-1
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Gotukuru,Gotukur
@@ -286,14 +286,14 @@ ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Govindampalli,Govindapalle-1
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Govindapuram,Govindapuram-1
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Gowdanahalli,Gowdanahalli
 ATP_C_69_Velichalamala,ATP_C_69_VELICHALAMALA (PART)-MB,Gowkanapalli,Gowkanapalle
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Gownivaripalli,Gowrivaripalle
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Gownivaripalli,Gowrivaripalle
 ATP_D_46_Kanekal,ATP_D_46_KANEKAL-MB,Gramadatla,Gramadatla
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Gudibanda,Gudibanda-1
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Gudipadu,Gudipadu-5
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Gudipadu,Gudipadu-5
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Gudipalli,Gudipalle
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Gugudu,Gugudu
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Gulimikondla,Gulimikondla @ G.Kottala
-ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Gulyam,Gulyam-2
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Gulimikondla ,Gulimikondla @ G.Kottala
+ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Gulyam ,Gulyam-2
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Gulyapalem,Gulapalem
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Gummagatta,Gummagatta-1
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Gundala,Gundala
@@ -301,27 +301,27 @@ ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Gundiganipalli,Gundiganihalli
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Gunimorubal,Gunimorubagal
 ATP_C_67_Pamudurthi,ATP_C_67_PAMUDURTHI-MB,Gunipalli,Gunipalle
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Guntakal,Guntakal (Rural)
-ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Gurrambailu,Gurrambailu
+ ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Gurrambailu,Gurrambailu
 ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Gutturu,Gutturu-1
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,H.D.Halli,Hulikeradevarahalli
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,H.Hosahalli,H.Hossahalli
-ATP_D_46_Bhupasamudram,ATP_D_46_BHUPASAMUDRAM-MB,H.Hosahalli,H.Hossahalli
+ATP_D_46_Bhupasamudram,ATP_D_46_BHUPASAMUDRAM-MB,H.Hosahalli,S.Hosahalli
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,H.Siddapuram,H.Siddapuram
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,H.Sodanapalli,Haveli Sodanapalle
 ATP_D_46_Amarapuram,ATP_D_46_AMARAPURAM-MB,Halakuru,Halukuru
 ATP_C_66_Hampapuram,ATP_C_66_HAMPAPURAM-MB,Hampapuram,Hampapuram
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Hanakanahal,Hanakanahal
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Haresamudram,Haresamudram
-ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Haresamudram,Haresamudram
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,Havalgi,Havaligi
+ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Haresamudram,Haresamudram-1
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,Havalgi,Havaligi
 ATP_D_46_Basavanahalli,ATP_D_46_BASAVANAHALLI-MB,Hemavathi,Hemavathi-1
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Hindupur (R),Hindupur (M)
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Hindupur (R),Hindupur (M)
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Hirdehal,Hirdehal
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Hulikal,Hulikal-1
 ATP_D_46_Kanekal,ATP_D_46_KANEKAL-MB,Hulikera,Hulikera
 ATP_C_46_Chadam,ATP_D_46_CHADAM-MB,Hullikal,Hulikal
 ATP_C_63_Lepakshi,ATP_C_63_LEPAKSHI-MB,Hussainapuram,Hussainpuram
-ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Hussenapuram,Husenapuram
+ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Hussenapuram ,Husenapuram
 ATP_C_65_Igaduru,ATP_C_65_IGADURU-MB,Iguduru,Igudur
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Illuru,Illuru
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Inagaluru,Inagalore
@@ -331,23 +331,23 @@ ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Iragampalli,Iragampalle
 ATP_C_66_Hampapuram,ATP_C_66_HAMPAPURAM-MB,Itikalapalli,Itikalapalle
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,J.Dharmapuram,Jodidharmapuram
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,J.Kothapalli,Jonnalakothapalle
-ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,J.Kothapalli,Jonnalakothapalle
+ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,J.Kothapalli,Jowkalakothapalle
 ATP_C_64_Ramapuram,ATP_C_64_RAMAPURAM-MB,J.Ramapuram,Jarutla Rampuram
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Jadrahalli,Jadrahalli
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Jagarajupalli,Jagarajupalle
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Jajrakal,Jajarakal
 ATP_C_65_Kristipadu,ATP_C_65_KRISTIPADU (PART)-MB,Jakkalacheruvu,Jakkalacheruvu
-ATP_C_63_Bucherla,ATP_C_63_BUCHERLA-MB,Jakkalacheruvu,Jakkalacheruvu-1
-ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Jakkasamudram,Jakkasamudram
-ATP_D_46_Kunduripi,ATP_D_46_KUNDURPI-MB,Jambugumpala,Jambugumpala
+ATP_C_63_Bucherla,ATP_C_63_BUCHERLA-MB,Jakkalacheruvu ,Jakkalacheruvu-1
+ ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Jakkasamudram,Jakkasamudram
+ATP_D_46_Kunduripi ,ATP_D_46_KUNDURPI-MB,Jambugumpala,Jambugumpala
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Jambuladine,Jambuladinne-1
-ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Jambulapadu,Jambulapadu
+ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Jambulapadu ,Jambulapadu
 ATP_C_66_Hampapuram,ATP_C_66_HAMPAPURAM-MB,Jangalapalle,Jangalapalle-2
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Janthaluru,Janthulur
 ATP_C_64_Korrakodu,ATP_C_64_KORRAKODU-MB,Jayapuram,Jayapuram-1
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Jeenulakunta,Jeenulakunta
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Jogannapeta,Jogannapeta
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Jowkuladinne,Jowkuledudinne
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Jowkuladinne,Jowkuledudinne
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Julakalva,Joolakalva
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Julukunta,Julukunta
 ATP_D_46_Bhupasamudram,ATP_D_46_BHUPASAMUDRAM-MB,Junjurampalli,Junjurampalle
@@ -356,58 +356,58 @@ ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,K.Agragharam,Kondakinda Agraharam
 ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,K.Agraharam,Kalluru Agraharam
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,K.Brahmanapalli,Kadiri Brahmanapalle
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,K.Locherla,K.Locharla
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,K.N.Palyam,Konetinayanipalyam
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,K.N.Palyam ,Konetinayanipalyam
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Kadadarabenchi,Kadadarabenchi
 ATP_D_46_Kadlur,ATP_D_46_KADLUR-MB,Kadalur,Kadalur
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Kadamalakunta,Patha Kadamalakunta
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Kadamalakunta,Patha Kadamalakunta
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Kadavakallu,Kadavakallu
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Kaderpeta,Khadarpeta
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Kaderpeta,Khadarpeta
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Kadirepalli,Kadirepalle
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Kadiri,Kadiri (Rural)
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Kadiridevarapalli,Kadiridevarapalle
 ATP_C_67_Kalasamudram,ATP_C_67_KALASAMUDRAM-MB,Kadirikuntapalli,Kadirikuntlapalle
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Kadiripulikunta,Kadiripulakunta
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Kadiripulikunta,Kadiripulakunta
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Kaki,Kaki
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Kakkalapalli,Kakkalapalle (Rural)
 ATP_C_64_Udiripikonda,ATP_C_64_UDIRIPIKONDA-MB,Kalagallu,Kalagalla
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Kalapuram,Kalapuram
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Kalapuram,Kalapuram
 ATP_C_67_Kalasamudram,ATP_C_67_KALASAMUDRAM-MB,Kalasamudram,Kalasamudram
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Kalekurthi,Kalekurthi
-ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Kalipi,Kalipi
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,Kalludevanahalli,Kalludevanahalli
+ ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Kalipi ,Kalipi
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,Kalludevanahalli,Kalludevanahalli
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Kallumadi,Kallumadi
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Kallumarri,Kallumarri
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Kallumarri,Kallumarri
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Kallur,Kalluru
 ATP_C_67_Yellanur,ATP_C_67_YELLANUR (PART)-MB,Kalluru,Kalluru-1
-ATP_C_63_Lepakshi,ATP_C_63_LEPAKSHI-MB,Kalluru,Kalluru-1
+ATP_C_63_Lepakshi,ATP_C_63_LEPAKSHI-MB,Kalluru,Kallur-3
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Kalugodu,Kalugodu
 ATP_C_64_Golla,ATP_C_64_GOLLA-MB,Kaluvapalli,Kalvapalle-2
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Kalyandurg,Kalyandurg (Rural)
 ATP_C_65_Midthuru,ATP_C_65_MIDTHURU-MB,Kamalapadu,Kamalapadu-1
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Kamalapadu,Kamalapadu
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Kamalapadu,Kamalapadu
 ATP_C_66_Kurugunta,ATP_C_66_KURUGUNTA-MB,Kamarupalli,Kamarupalle
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Kamathampalli,Kamathampalle
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Kambadur,Kambadur-1
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Kambaladinne,Kambaladinne-2
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Kammavaripalli,Kammavaripalle-1
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Kambadur,Kambadur-1
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Kambaladinne,Kambaladinne-2
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Kammavaripalli,Kammavaripalle-1
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Kammuru,Kamuru
 ATP_C_66_Kanaganapalli,ATP_C_66_KANAGANAPALLI-MB,Kanaganapalli,Kanaganapalle-1
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Kanampalli,Kanampalle
 ATP_C_63_Lepakshi,ATP_C_63_LEPAKSHI-MB,Kanchisamudram,Kanchisamudram
-ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Kandikaparla,Kandikapula
+ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Kandikaparla ,Kandikapula
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Kandla Gudur,Kandlaguduru
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Kandlapalli,Kandlapalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Kandlapalli,Kandlapalle
 ATP_C_66_Hampapuram,ATP_C_66_HAMPAPURAM-MB,Kandukur,Kandakur
 ATP_D_46_Kanekal,ATP_D_46_KANEKAL-MB,Kanekal,Kanekal-1
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Kannepalli,Kannepalle
 ATP_D_46_Settur,ATP_D_46_SETTUR-MB,Kanthanahalli,Kamthanahalli
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Kanumakulapalli,Kanugamakulapalle
-ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Kanumukkala,Kanumukkala-1
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Kanumakulapalli,Kanugamakulapalle
+ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Kanumukkala ,Kanumukkala-1
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Kappalabanda,Kappala Banda
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,Karakamukkala,Karakamukkala
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,Karakamukkala,Karakamukkala
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Karesankanahalli,Karesankanahalli
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Karidikonda,Karadikonda
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Kariganipalli,Kariganipalle
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Kariganipalli,Kariganipalle
 ATP_D_46_Basavanahalli,ATP_D_46_BASAVANAHALLI-MB,Karikera,Karikera
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Karimereddipalli,Karinireddipalle
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Karisettipalli,Kanisettipalle
@@ -416,28 +416,28 @@ ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Karthanaparthi,Karthanaparthi
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Kasapuram,Kasapuram
 ATP_C_59_Kacharlakunta,ATP_C_59_KACHARLAKUNTA (PART)-MB,Kasarlakunta,Kacharlakunta
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Kassamudram,Kassamudram
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Katepalli,Katepalle-1
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Katepalli,Katepalle-1
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Katiganikaluva,Katiganikalva
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Katrimala,Katrimala
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Kavetisamudram,Kaverisamudram
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Katrimala,Katrimala
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Kavetisamudram,Kaverisamudram
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Kekathi,Kekathi
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Kesapuram,Kesapuram
 ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,Kesavapuram,Kesavapuram
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Kethaganicheruvu,Kethaganicheruvu
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Kethaganicheruvu,Kethaganicheruvu
 ATP_D_46_Settur,ATP_D_46_SETTUR-MB,Khairevu,Khairevu
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Kirikera,Kirikera
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Kirikera,Kirikera
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Kodapaganipalli,Kodapaganipalle
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Kodavandlapalli,Kodavandlapalle
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Kodiganahalli,Kodigenahalli
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Kodihalli,Kodihalli
-ATP_D_46_Agali,ATP_D_46_AGALI-MB,Kodihalli,Kodihalli
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Kodikonda,Kodikonda
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Kodiganahalli,Kodigenahalli
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Kodihalli,Kodihalli
+ATP_D_46_Agali,ATP_D_46_AGALI-MB,Kodihalli,Kodihalli-1
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Kodikonda,Kodikonda
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Kodimi,Kodimi
 ATP_C_67_Yellanur,ATP_C_67_YELLANUR (PART)-MB,Kodumurthi,Kodumurthy
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Kodur,Kodur-2
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Kodur,Kodur-2
 ATP_C_64_Kogira,ATP_C_63_KOGIRA-MB,Kogira,Kogira
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Kojjepalli,Kojjepalle
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Kokkanti,Kokkanti
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Kokkanti,Kokkanti
 ATP_D_46_Kadlur,ATP_D_46_KADLUR-MB,Kolaganahalli,Kolaganahalli
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Komali,Komali
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Komatikuntla,Komatikuntla
@@ -445,15 +445,15 @@ ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Konakondla,Konakondla
 ATP_C_64_Golla,ATP_C_64_GOLLA-MB,Konampalli,Konampalle
 ATP_C_64_Ramapuram,ATP_C_64_RAMAPURAM-MB,Konapuram,Kondapuram-2
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Konapuram,Konapuram
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Konauppalapadu,Konuppalapadu
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Konauppalapadu,Konuppalapadu
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Kondaguttpalli,Kondagattupalle
 ATP_C_67_Kondakamarla,ATP_C_67_KONDAKAMARLA-MB,Kondakamarla,Kondakamarla-1
 ATP_C_67_Kondakamarla,ATP_C_67_KONDAKAMARLA-MB,Kondamanayanipalem,Kondamanayanipalem-1
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Kondamanayanipalem,Kondamanayanipalem
 ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Kondampalli,Kondampalle-1
 ATP_C_64_M.C. Palli,ATP_C_64_M.C. PALLI-MB,Kondapuram,Kondapuram-4
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Kondur,Kondur-2
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Konduru,Konduru-1
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Kondur,Kondur-2
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Konduru,Konduru-1
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Konganapalli,Konganapalle
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Konkallu,Konkallu
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Kontanahalli,Kontanapalli
@@ -461,18 +461,18 @@ ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,Koppalakonda,Koppalakonda
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Korivipalli,Korivipalle
 ATP_C_64_Korrakodu,ATP_C_64_KORRAKODU-MB,Korrakodu,Korrakodu-1
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Korrapadu,Korrapadu-1
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Korthikota,Korthikota
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Korthikota,Korthikota
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Kotanka,Kotanka
-ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Kotapalle,Kotapalle
+ ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Kotapalle,Kotapalle
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Kothacheruvu,Kothacheruvu-1
 ATP_C_67_Pamudurthi,ATP_C_67_PAMUDURTHI-MB,Kothakota,Kothakota-5
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Kothalam,Kothalam
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Kothapalli,Kothapalle-8
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Kothapalli,Kothapalle-8
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Kothapeta,Kothapeta-1
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Kotipi,Kotipi
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Kotipi,Kotipi
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Kotlapalli,Kotlapalle
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Kotnuru,Kotnur
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Kotnuru,Kotnur
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Kowlepalli,Kowlepalle
 ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,Krishnapuram,Krishnapuram-4
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Krishnapuram,Krishnapuram-4
@@ -482,13 +482,13 @@ ATP_D_46_Kadlur,ATP_D_46_KADLUR-MB,Kudlur,Kudulur
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Kummanamala,Kummanamala
 ATP_D_46_Basavanahalli,ATP_D_46_BASAVANAHALLI-MB,Kummaranagepalli,Kumbaranagehalli
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Kummetha,Kummetha
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Kundanakota,Kundanakota
-ATP_D_46_Kunduripi,ATP_D_46_KUNDURPI-MB,Kundurpi,Kundurpi-1
-ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Kuntimaddi,Kuntimaddi
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Kundanakota,Kundanakota
+ATP_D_46_Kunduripi ,ATP_D_46_KUNDURPI-MB,Kundurpi ,Kundurpi-1
+ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Kuntimaddi ,Kuntimaddi
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Kunukuntla,Kunukuntla-1
-ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Kunuthuru,Kunuthuru (Rural)
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Kurakulapalli,Kurakulapalle
-ATP_C_67_Kurli,ATP_C_67_KURLI (PART)-MB,Kurli,Kurli
+ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Kunuthuru ,Kunuthuru (Rural)
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Kurakulapalli,Kurakulapalle
+ ATP_C_67_Kurli,ATP_C_67_KURLI (PART)-MB,Kurli,Kurli
 ATP_C_64_Palavai,ATP_C_64_PALAVAI-MB,Kurubarahalli,Kurubarahalli
 ATP_C_66_Kurugunta,ATP_C_66_KURUGUNTA-MB,Kurugunta,Kurugunta
 ATP_C_67_Kondakamarla,ATP_C_67_KONDAKAMARLA-MB,Kurumala,Kurumala
@@ -512,8 +512,8 @@ ATP_D_46_Agali,ATP_D_46_AGALI-MB,M.Rayapuram,M.Rayapuram
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Madakasira,Madakasira-1
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Madanahalli,Madenahalli
 ATP_C_64_Nutimadugu,ATP_C_64_NUTIMADUGU-MB,Maddalacheruvu,Maddalacheruvu
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Maddimadugu,Maddimadugu
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Maddinayanipalem,Maddinayanipalem
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Maddimadugu,Maddimadugu
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Maddinayanipalem,Maddinayanipalem
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Maddivarigondi,Maddivarigondi
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Madhudi,Madhudi
 ATP_C_66_Kurugunta,ATP_C_66_KURUGUNTA-MB,Madigubba,Madigubba
@@ -524,42 +524,42 @@ ATP_C_64_M.C. Palli,ATP_C_64_M.C. PALLI-MB,Makkinavaripalli,Makkinavaripalle
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Malakavemula,Malakavemula-1
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Malameedapalli,Malameedapalle
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Malapanagudi,Malapanagudi
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,Malapuram,Malapuram-1
-ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Malareddipalli,Malreddipalle
-ATP_D_46_Kunduripi,ATP_D_46_KUNDURPI-MB,Malayanur,Malayanur
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,Malapuram,Malapuram-1
+ ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Malareddipalli,Malreddipalle
+ATP_D_46_Kunduripi ,ATP_D_46_KUNDURPI-MB,Malayanur ,Malayanur
 ATP_C_67_Yellanur,ATP_C_67_YELLANUR (PART)-MB,Mallagundla,Mallagundla
-ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Mallakalva,Mallakalva
+ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Mallakalva ,Mallakalva
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Mallanayakanahalli,Mallinayakanahalli
 ATP_C_46_Chadam,ATP_D_46_CHADAM-MB,Mallapuram,Mallapuram-1
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Mallapuram,Mallapuram-1
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Mallapuram,Mallapuram-1
 ATP_C_65_Kristipadu,ATP_C_65_KRISTIPADU (PART)-MB,Mallenipalli,Mallenipalle
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Mallepalli,Mallapalle
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Mallepalli,Mallapalle
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Mallepalli,Mallapalle
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Maluguru,Maluguru
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Maluguru,Maluguru
 ATP_D_46_Sollapuram,ATP_D_46_SOLLAPURAM (PART-MB,Malyam,Malyam
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Malyavantham,Malyavantham
 ATP_C_65_Midthuru,ATP_C_65_MIDTHURU-MB,Mamadur,Mamadur
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Mandalahalli,Mandalahalli
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Mandlapalli,Mandalapalle
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Mandli,Mandli
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Manepalli,Manepalle
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Manesamudram,Manesamudram
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Manepalli,Manepalle
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Manesamudram,Manesamudram
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Mangalamadaka,Mangalamadaka
 ATP_C_67_Chigicherla,ATP_C_67_CHIGICHERLA-MB,Manilla,Mannila
 ATP_C_64_Manirevu,ATP_C_64_MANIREVU-MB,Manirevu,Manirevu
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Manuru,Manur
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Manuru,Manur
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Marala,Marala
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Maredipalli,Maredipalle
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Maredipalli,Maredipalle
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Marnepalli,Marnepalle
 ATP_C_67_Chigicherla,ATP_C_67_CHIGICHERLA-MB,Maroor,Maroor
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Marrikommadinne,Marrikommadinne
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Marrimakulapalli,Marrimakulapalle
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Marrimakulapalli,Marrimakulapalle
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Marthadu,Marthadu
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Marthadu,Marthadu
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Marukuntapalli,Marakuntapalle
 ATP_C_64_Udiripikonda,ATP_C_64_UDIRIPIKONDA-MB,Marutla,Marutla-1
 ATP_C_66_Salakamcheruvu,ATP_C_66_SALAKAMCHERUVU-MB,Matlagondi,Matlagondi
-ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Mavaturu,Mavaturu
+ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Mavaturu ,Mavaturu
 ATP_C_46_Chadam,ATP_D_46_CHADAM-MB,Mechiri,Mechiri
 ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Medapuram,Medapuram
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Medikurti,Medukurthy
@@ -568,29 +568,29 @@ ATP_D_46_Sollapuram,ATP_D_46_SOLLAPURAM (PART-MB,Meenahalli,Meenahalli
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Mekalacheruvu,Mekalacheruvu
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Melavoi,Melavoi
 ATP_C_65_Midthuru,ATP_C_65_MIDTHURU-MB,Miduthur,Miduthuru
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Moda,Moda
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Moda,Moda
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Mohammadabad,Mohammadabad
 ATP_C_64_Amidala,ATP_C_64_AMIDALA-MB,Mopidi,Mopidi
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Morasalapalle,Morasalapalle
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Morasalapalle,Morasalapalle
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Morubagal,Morubagal-1
 ATP_C_64_Palavai,ATP_C_64_PALAVAI-MB,Muddinayanipalli,Muddinayanapalle
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Muddireddipalli,Muddireddipalle
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Muddireddipalli,Muddireddipalle
 ATP_C_64_Palavai,ATP_C_64_PALAVAI-MB,Mudigallu,Mudigal
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Mudigubba,Marthadu-1
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Mudupulajuvi,Mudupalajuvi
-ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Muktapuram,Mukthapuram
+ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Muktapuram ,Mukthapuram
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Mukthapuram,Mukthapuram-1
 ATP_C_63_Gowrajupalli,ATP_C_63_GOWRAJUPALLI-MB,Mulakacheruvu,Mulakalacheruvu-1
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Mulakalapalli,S.Mulakalapalle
-ATP_D_46_Appilepalli,ATP_D_46_APPILEPALLI-MB,Mulakaledu,Mulakaledu
-ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Mulakanur,Mulakanur
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Mulakalapalli,S.Mulakalapalle
+ATP_D_46_Appilepalli,ATP_D_46_APPILEPALLI-MB,Mulakaledu ,Mulakaledu
+ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Mulakanur ,Mulakanur
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Mulakatalla,Molakathalla
-ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Mundlavaripalle,Mundlavaripalle
+ ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Mundlavaripalle,Mundlavaripalle
 ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Munimadugu,Munimadugu-1
 ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,Muntimadugu,Muntimadugu
 ATP_C_65_Kristipadu,ATP_C_65_KRISTIPADU (PART)-MB,Muppalagutty,Muppalagutti
 ATP_D_46_Kadlur,ATP_D_46_KADLUR-MB,Muradi,Muradi
-ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Mustikovila,Mustikovila
+ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Mustikovila ,Mustikovila
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Mutchukota,Muchukota
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Muthukapalli,Motukapalle
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Muthukuru,Muthukur-3
@@ -604,49 +604,49 @@ ATP_D_46_Sollapuram,ATP_D_46_SOLLAPURAM (PART-MB,N.Hanumapuram,N.Hanumapuram
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,N.P.Kunta,Nambulipulikunta-1
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,N.Thimmapuram,N.Thimmapuram
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Nadimidoddi,Nadimidoddi
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Nadimipalli,Nadimpalle-1
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Nadimipalli,Nadimpalle-1
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Nagalapuram,Nagalapuram-1
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Nagalapuram,Nagalapuram-1
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Nagaluru,Nagalur
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Nagaruru,Nagarur-1
 ATP_C_65_Midthuru,ATP_C_65_MIDTHURU-MB,Nagasamudram,Nagasamudram-1
-ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Nagasamudram,Nagasamudram-3
+ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Nagasamudram ,Nagasamudram-3
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Naginayanicheruvu,Naginayanicheruvu
 ATP_D_46_Bhupasamudram,ATP_D_46_BHUPASAMUDRAM-MB,Nagireddipalli,Nagireddipalle-1
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Nagireddipalli,Nagireddipalle-1
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Nakkaladoddi,Nakkanadoddi
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Nakkalaguttapalli,Nakkalagutta  Palle
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Nakkalapalli,Nakkalapalle
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Nallacheruvu,Nallacheruvu-1
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Nakkalapalli,Nakkalapalle
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Nallacheruvu,Nallacheruvu-1
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Nallamada,Nallamada-1
-ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Nalluru,Nallur
+ ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Nalluru,Nallur
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Nandalapadu,Nandalapadu (Rural)
-ATP_C_63_Gowrajupalli,ATP_C_63_GOWRAJUPALLI-MB,Naranagepalli,Naranagepalle
+ATP_C_63_Gowrajupalli,ATP_C_63_GOWRAJUPALLI-MB,Naranagepalli ,Naranagepalle
 ATP_C_67_Kondakamarla,ATP_C_67_KONDAKAMARLA-MB,Narasambotlapalli,Narasambhotlapalle
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Narasambudi,Narasambudi
 ATP_C_66_Thumucherla,ATP_C_66_THUMUCHERLA-MB,Narasampalli,Narasampalle
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Narasapuram,Narsapuram
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Narasapuram,Narsapuram
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Narasapuram,Narsapuram
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Narasapuram,Narsapuram
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Narasapuram,Narsapuram
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Narayanapuram,NARAYANAPURAM-2
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Naremuddapalli,Naremuddapalle
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Naremuddapalli,Naremuddapalle
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Narepalli,Narepalle
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Narpala,Narpala-1
 ATP_C_66_Kanaganapalli,ATP_C_66_KANAGANAPALLI-MB,Nasanakota,Nasanakota
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Neeluru,Neelur
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Neeluru,Neelur
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Nelagonda,Nelagonda
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Nelakota,Nelakota
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Nemakallu,Nemakallu
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Nemallepalli,Nemallapalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Nemallepalli,Nemallapalle
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Nerimetla,Nerimetla
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Nidhanawada,Nidhanawada
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Nidigallu,Nidigallu
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Nidimamidi,Nidimamidi
 ATP_D_46_Basavanahalli,ATP_D_46_BASAVANAHALLI-MB,Nidragatta,Nidragatta
-ATP_D_46_Kunduripi,ATP_D_46_KUNDURPI-MB,Nijavalli,Nijavalli
+ATP_D_46_Kunduripi ,ATP_D_46_KUNDURPI-MB,Nijavalli ,Nijavalli
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Nimbagallu,Nimbagal
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Nittoor,Nittoor
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Nittoor,Nittoor
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Nittoor,Nittoor
 ATP_C_67_Talupula,ATP_C_67_TALUPULA-MB,Nutanakalva,Nuthanakalva-1
 ATP_C_64_Nutimadugu,ATP_C_64_NUTIMADUGU-MB,Nutimadugu,Nuthimadugu-1
@@ -655,13 +655,13 @@ ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,O.D.Cheruvu,Obuladevaracheruvu-1
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Obulapuram,Obulapuram-2
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Obulapuram,Obulapuram
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Obulapuram,Obulapuram-2
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Obulapuram,Obulapuram-2
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Obulapuram,Obulapuram-2
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Obulapuram,Obulapuram-2
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Obulapuram,Obulapuram-2
 ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Obulapuram,Obulapuram-2
 ATP_C_67_Ravulachervu,ATP_C_67_RAVULACHERUVU-MB,Obulapuram,Obulapuram-2
 ATP_C_67_Talupula,ATP_C_67_TALUPULA-MB,Obulareddipalli,Obulareddipalle
-ATP_C_67_Kurli,ATP_C_67_KURLI (PART)-MB,Odulapalli,Odulapalle
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Oravoy,Oravoy
+ ATP_C_67_Kurli,ATP_C_67_KURLI (PART)-MB,Odulapalli,Odulapalle
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Oravoy,Oravoy
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,P. Yelaru,Padamatiyaleru
 ATP_C_64_Amidala,ATP_C_64_AMIDALA-MB,P.Ahobilam,Pennahobilam
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,P.Byadega,P. Byadigera
@@ -670,20 +670,20 @@ ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,P.C.Revu,Peddachigullarevu
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,P.K.Cheruvu,Patha Kothachervu-1
 ATP_C_64_Amidala,ATP_C_64_AMIDALA-MB,P.Koukuntla,Peddakowkuntla
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Pakeerupalli,Pakeerupalle
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Palasamudram,Palasamudram-1
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Palasamudram,Palasamudram-1
 ATP_C_64_Palavai,ATP_C_64_PALAVAI-MB,Palavoy,Palavoy
 ATP_C_66_Thumucherla,ATP_C_66_THUMUCHERLA-MB,Palcherla,Palacherla
-ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Pallur,Pallur
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,Palthuru,Palthur
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Palyam,Palyam
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Pamidi,Pamidi-1
+ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Pallur ,Pallur
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,Palthuru,Palthur
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Palyam,Palyam
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Pamidi,Pamidi-1
 ATP_C_67_Pamudurthi,ATP_C_67_PAMUDURTHI-MB,Pamudurthi,Pamudurthi-1
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Pandikunta,Pandikunta
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Pandikunta,Pandikunta
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Pandiparthi,Pandiparthi
 ATP_C_67_Talupula,ATP_C_67_TALUPULA-MB,Pandulakunta,Pandulakunta
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Panthulacheruvu,Panthulacheruvu
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Panthulacheruvu,Panthulacheruvu
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Papampeta,Papampeta
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Parigi,Parigi-1
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Parigi,Parigi-1
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Pasaluru,Pasalur
 ATP_C_59_Kacharlakunta,ATP_C_59_KACHARLAKUNTA (PART)-MB,Pathapalli,Pathapalle
 ATP_C_67_Kalasamudram,ATP_C_67_KALASAMUDRAM-MB,Patnam,Patnam
@@ -692,7 +692,7 @@ ATP_C_69_Pedaballi,ATP_C_69_PEDABALLI-MB,Pedaballi,Pedapalle
 ATP_C_69_Pedaballi,ATP_C_69_PEDABALLI-MB,Pedaballikothapalle,Pedaballikothapalle
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Peddajalalpuram,Peddajalalpuram
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Peddakotla,Peddakotla
-ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Peddamanthuru,Peddamanthur-1
+ ATP_C_63_Cherukuru,ATP_C_63_CHERUKURU-MB,Peddamanthuru,Peddamanthur-1
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Peddamellepalli,Peddamallepalle
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Peddamusturu,Pedda Musturu
 ATP_C_67_Talupula,ATP_C_67_TALUPULA-MB,Peddannavaripalli,Peddannavaripalle
@@ -712,8 +712,8 @@ ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Pillapalalli,Pillalapalle
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Pillenahalli,Pillenahalli
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Pinnadari,Pinnadari
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Podaralla,Podaralla
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Pogaruru,Pogarur
-ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Polepalli,Polepalle-1
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Pogaruru,Pogarur
+ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Polepalli ,Polepalle-1
 ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Poliki,Poliki
 ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Pothulakunta,Pothulakunta
 ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Pothulanagepalli,Pothulanagepalle
@@ -721,42 +721,42 @@ ATP_D_46_Donekal,ATP_D_46_DONEKAL (PART)-MB,Pottipadu,Pottipadu-2
 ATP_C_67_Kondakamarla,ATP_C_67_KONDAKAMARLA-MB,Pulagampalli,Pulagampalle-1
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Pulakunta,Pulakunta
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Pulakurthi,Pulakurthi
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Pulamathi,Pulamathi
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Puleru,Puleru
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Pulamathi,Pulamathi
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Puleru,Puleru
 ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Puletipalli,Poletipalle
 ATP_C_69_Velichalamala,ATP_C_69_VELICHALAMALA (PART)-MB,Puligundlapalli,Puligundlapalle
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Pulikuntapalli,Pulikuntlapalle
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Puliproddatur,Puliproddatur
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Puliproddatur,Puliproddatur
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Puppala,Puppala
 ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Putlur,Putlur-1
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Puttaparthy,Puttaparthi-1
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Pyadeti,Pydeti
-ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Pyadindi,Pyadindi
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,R.Ananthapuram,Ralla Anantapuram
-ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,R.Ananthapuramu,R. Anantapuram
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Pyadeti,Pydeti
+ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Pyadindi ,Pyadindi
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,R.Ananthapuram,Ralla Anantapuram
+ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,R.Ananthapuramu ,R. Anantapuram
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Rachanapalli,Rachanapalle
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Rachepalli,Rachepalle
 ATP_C_64_Ramapuram,ATP_C_64_RAMAPURAM-MB,Racherla,Racharla
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Rachumarri,Ratchumarri
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Raenimakulapalli,Renimakulapalle
 ATP_C_67_Chigicherla,ATP_C_67_CHIGICHERLA-MB,Raghavampalli,Raghavampalle
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Ragimakulapalli,Ragimakulapalle
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Ragulapadu,Ragulapadu
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Ragimakulapalli,Ragimakulapalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Ragulapadu,Ragulapadu
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Rajapuram,Rajapuram
 ATP_C_64_Amidala,ATP_C_64_AMIDALA-MB,Raketla,Raketla
 ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Rallapalli,Rallahalli
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Rallapalli,Rallapalle
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Ramagiri,Ramagiri-1
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Rallapalli ,Rallapalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Ramagiri,Ramagiri-1
 ATP_C_66_Kanaganapalli,ATP_C_66_KANAGANAPALLI-MB,Ramagiri,Ramagiri-1
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Ramanathapuram,Ramanathapuram
 ATP_C_64_Mulakanur,ATP_C_64_MULAKANUR-MB,Ramapuram,Ramapuram-5
 ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Ramapuram,Ramapuram-5
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Ramarajupalli,Ramarajupalle
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Ramarajupalli,Ramarajupalle
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Rangasamudram,Rangasamudram-1
 ATP_C_66_Hampapuram,ATP_C_66_HAMPAPURAM-MB,Rapthadu,Raptadu-1
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Ratnagiri,Ratnagiri
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Ravudi,Ravudi
-ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Ravulacheruvu,Ravulacheruvu
+ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Ravulacheruvu ,Ravulacheruvu
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Ravuludiki,Ravuludiki
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Rayadurg,Rayadurg-1
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Rayampalli,Rayampalle
@@ -764,8 +764,8 @@ ATP_D_B.G. Halli,ATP_D_46_B.G. HALLI-MB,Rayapuram,S.Rayapuram
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Reddipalli,Reddipalle
 ATP_C_63_Roddam,ATP_C_63_RODDAM-MB,Reddipalli,Reddipalle
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Reddipalli,Reddipalle
-ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Regatipalli,Regatipalle
-ATP_C_63_Bucherla,ATP_C_63_BUCHERLA-MB,Roddakampalli,Roddakampalle
+ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Regatipalli  ,Regatipalle
+ATP_C_63_Bucherla,ATP_C_63_BUCHERLA-MB,Roddakampalli ,Roddakampalle
 ATP_C_63_Roddam,ATP_C_63_RODDAM-MB,Roddam,Roddam-1
 ATP_C_64_Kogira,ATP_C_63_KOGIRA-MB,Roddam Locherla,R.Locharla
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Rolla,Rolla-1
@@ -773,9 +773,9 @@ ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Rotarypuram,Bukkarayasamudram-1
 Atp_C_67_Sanivaripalli,ATP_C_67_SANEVARIPALLI-MB,S .Brahmanapalli,Sankepalle Brahmanapalle
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,S.Bandlapalli,S.Bandlapalle
 ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,S.Guduru,Sanagalaguduru
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,S.K.Peta,Sorakayalapeta
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,S.K.Peta,Sorakayalapeta
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,S.Kuruvapalle,S.Kuruvapalle
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Sagameswarampalli,Sangameswarapalle
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Sagameswarampalli,Sangameswarapalle
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Saidapuram,Saidapuram
 ATP_C_65_Alluru,ATP_C_65_ALLURU (PART)-MB,Sajjaladinne,Sajjaladinne
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Sajjalakalva,Sajjalakalva
@@ -787,19 +787,19 @@ ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Sanipalli,Sanipalle
 Atp_C_67_Sanivaripalli,ATP_C_67_SANEVARIPALLI-MB,Sanivaripalli,Sanevaripalle
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Sankarabanda,Sankarabanda-1
 ATP_C_67_Mudigubba,ATP_C_67_MUDIGUBBA-MB,Sankepalli,Sankepalle-1
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Santhebidanur,Santhebidanur
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Santhebidanur,Santhebidanur
 ATP_D_46_Settur,ATP_D_46_SETTUR-MB,Santhukondapuram,Santhekondapuram
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Sasanakota,Sasanakota
-ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Satarlapalli,Satarlapalle
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Seegipalli,Seegipalle
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Sasanakota,Sasanakota
+ ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Satarlapalli,Satarlapalle
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Seegipalli,Seegipalle
 ATP_C_65_Igaduru,ATP_C_65_IGADURU-MB,Seetharampuram,Seetharampuram-2
-ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Seshadribatrahalli,Seshadribhatra Halli
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Settipalli,Settipalle-2
+ATP_C_67_Polepalli,ATP_C_67_POLEPALLI-MB,Seshadribatrahalli ,Seshadribhatra Halli
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Settipalli,Settipalle-2
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Settipalli,Settipalle-2
 ATP_D_46_Settur,ATP_D_46_SETTUR-MB,Settur,Settur-1
 ATP_C_64_Ramapuram,ATP_C_64_RAMAPURAM-MB,Shaiksanipalli,Shaiksanipalle
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Sho. Beerepalli,Shobeerepalle
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Sibbaraopeta,Subbaraopet
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Sho. Beerepalli,Shobeerepalle
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Sibbaraopeta,Subbaraopet
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Siddaracherla,Siddaracherla
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Siddarampeta,Siddampeta
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Siddarampuram,Siddarampuram
@@ -808,57 +808,57 @@ ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Siddrampuram,Siddarampuram-1
 ATP_D_46_Kadlur,ATP_D_46_KADLUR-MB,Singanahalli,Singanahalli
 ATP_C_66_Salakamcheruvu,ATP_C_66_SALAKAMCHERUVU-MB,Singanamala,Singanamala-1
 ATP_C_67_Yellanur,ATP_C_67_YELLANUR (PART)-MB,Singavaram,Singavaram
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Sirekolam,Sirekolam
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Sirekolam,Sirekolam
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Siripi,Seerpi
 ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,Sirivaram,Sirivaram
 ATP_C_63_Lepakshi,ATP_C_63_LEPAKSHI-MB,Sirivaram,Sirivaram
 ATP_D_46_Basavanahalli,ATP_D_46_BASAVANAHALLI-MB,Sivaram,Sivaram
 ATP_C_66_Salakamcheruvu,ATP_C_66_SALAKAMCHERUVU-MB,Sodanapalli,Sodanapalle
 ATP_D_46_Sollapuram,ATP_D_46_SOLLAPURAM (PART-MB,Sollapuram,Sollapuram
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Somagatta,Somaghatta
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Somagatta,Somaghatta
 ATP_C_66_Ananthapuramu,ATP_C_66_ANANTAPUR-MB,Somaladoddi,Somanadoddi
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Somalapuram,Somalapuram
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Somandepalli,Somandepalle-1
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Somayajulapalli,Somayajulapalle-1
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Sree Rangapuram,Sreerangapuram-1
 ATP_D_46_Kadlur,ATP_D_46_KADLUR-MB,Sreedharagatta,Sreedharaghattu
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Sreekatapuram,Sreekanthapuram  (Rural)
-ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Subbaraopeta,Subbaraopeta
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Sreekatapuram,Sreekanthapuram  (Rural)
+ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Subbaraopeta ,Subbaraopeta
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Sunnampalli,Sunnampalle
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Surepalli,Surepalli
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,T.Sadam,T.Sadum
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,T.Sadam,T.Sadum
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Tabjula,Tabjula
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Tadimarri,Tadimarri-1
 ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Tadipatri,Tadpatri (Rural)
 ATP_C_66_Thumucherla,ATP_C_66_THUMUCHERLA-MB,Tagarakunta,Thogarakunta-1
 ATP_C_67_Talamarla,ATP_C_67_TALAMARLA-MB,Talamarla,Talamarla
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Talamarlavandlapalli,Talamarlavandla Palle
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Talamarlavandlapalli,Talamarlavandla Palle
 ATP_C_67_Talupula,ATP_C_67_TALUPULA-MB,Talapula,Talupula-1
 ATP_C_65_Alluru,ATP_C_65_ALLURU (PART)-MB,Talaricheruvu,Talaricheruvu
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Tallakera,Tallakera
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Talupuru,Talupuru
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Tamballapalli,Thamballapalle-1
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Tanakal,Tanakal-1
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Tamballapalli,Thamballapalle-1
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Tanakal,Tanakal-1
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Tangedukunta,Tangedukunta
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Tappetavaripalli,Thappetavaripalle
 ATP_C_65_Tarimala,ATP_C_65_TARIMALA-MB,Tarimela,Tarimela-1
 ATP_C_66_Rotarypuram,ATP_C_66_ROTARYPURAM-MB,Taticherla,Thaticherla
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Tatrakal,Thatrakal
-ATP_C_69_Kokkanti,ATP_C_69_KOKKANTI-MB,Tavalam,Tavalam
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Tavalamarri,Tavalamarri
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Tekuledu,Tekulodu
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Tatrakal,Thatrakal
+ ATP_C_69_Kokkanti ,ATP_C_69_KOKKANTI-MB,Tavalam,Tavalam
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Tavalamarri,Tavalamarri
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Tekuledu,Tekulodu
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Teliki,Teliki
 ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Thagguparthi,Thagguparthy
-ATP_D_46_Amarapuram,ATP_D_46_AMARAPURAM-MB,Thammadehalli,Thammadehalli
+ATP_D_46_Amarapuram,ATP_D_46_AMARAPURAM-MB,Thammadehalli ,Thammadehalli
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Theetakal,Theetakal
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Thimmanaacherla,Thimmanacherla
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Thimmanayanipalyam,Thimmanayanipalem
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Thimmapuram,Thimmapuram-5
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Thimmapuram,Thimmapuram-5
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Thimmapuram,Thimmapuram-5
 ATP_C_65_Igaduru,ATP_C_65_IGADURU-MB,Thimmapuram,Thimmapuram-5
 ATP_C_66_Vaddupalli,ATP_C_66_VADDUPALLI-MB,Thimmapuram,Thimmapuram-5
 ATP_C_64_Nutimadugu,ATP_C_64_NUTIMADUGU-MB,Thimmasamudram,Thimmasamudram-1
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Thingepalli,Thungepalle
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Thingepalli,Thungepalle
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Thippabatlapalli,Thippa Batlapalle
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Thippepalle,Thippepalle
 ATP_C_67_Tadimarri,ATP_C_67_TADIMARRI-MB,Thirumalapuram,(Shro) Thirumalapuram
@@ -868,24 +868,24 @@ ATP_C_66_Kurugunta,ATP_C_66_KURUGUNTA-MB,Thopudurthi,Thopudurthi
 ATP_D_46_Sollapuram,ATP_D_46_SOLLAPURAM (PART-MB,Thumbiganur,Thumbiganur
 ATP_D_46_Agali,ATP_D_46_AGALI-MB,Thumbinakunta,Tubinakunta
 ATP_C_59_Amadaguru,ATP_C_67_AMADAGURU-MB,Thummala,Thummala-1
-ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Thummala,Thummala
+ATP_C_67_Kunuthuru,ATP_C_67_KUNUTHURU-MB,Thummala ,Thummala
 ATP_C_69_Velichalamala,ATP_C_69_VELICHALAMALA (PART)-MB,Thummalabylu,Thummalabylu
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Thummalakuntapalli,Thummalakuntla Palle
 ATP_C_66_Thumucherla,ATP_C_66_THUMUCHERLA-MB,Thumucherla,Thumucherla
-ATP_C_63_Hindupur,ATP_C_63_HINDUPUR-MB,Thumukunta,Thumukunta-2
+ ATP_C_63_Hindupur ,ATP_C_63_HINDUPUR-MB,Thumukunta,Thumukunta-2
 ATP_C_65_Kristipadu,ATP_C_65_KRISTIPADU (PART)-MB,Thutrallapalli,Tutrallapalle
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Tirumaladevarapalli,Tirumaladevarahalli
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Tirumaladevarapalli,Tirumaladevarahalli
 ATP_C_67_Puttaparthi,ATP_C_67_PUTTAPARTHI-MB,Tirumaladevarapalli,Tirumaladevarahalli
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Tungodu,Tungodu
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Turakalapatnam,Thurakalapatnam
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Turakapalli,Turakapalle
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Ubicherla,Ubicherla
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Ubicherla,Ubicherla
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Ubicherla,Ubicherla
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Uddehal,Uddehal
 ATP_D_46_Kanekal,ATP_D_46_KANEKAL-MB,Udegolam,Udegolam
 ATP_C_64_Udiripikonda,ATP_C_64_UDIRIPIKONDA-MB,udipirikonda,Udiripikonda
-ATP_C_67_Kurli,ATP_C_67_KURLI (PART)-MB,Udumulakurthi,Udumulakurthy
-ATP_C_67_Nallacheruvu,ATP_C_67_NALLACHERUVU-MB,Ulavalavandlapalli,Ulavalavandlapalle
+ ATP_C_67_Kurli,ATP_C_67_KURLI (PART)-MB,Udumulakurthi,Udumulakurthy
+ ATP_C_67_Nallacheruvu ,ATP_C_67_NALLACHERUVU-MB,Ulavalavandlapalli,Ulavalavandlapalle
 ATP_C_65_Amalladinne,ATP_C_65_AMALLADINNE-MB,Ullikallu,Ullikallu
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Undabanda,Undabanda
 ATP_D_46_D.Hirehal,ATP_D_46_D. HIREHAL-MB,Unthakallu,Untakal
@@ -895,27 +895,27 @@ ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Upparlahalli,Upparlahalli
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Uravakonda,URAVAKONDA-1
 ATP_C_65_Urachinthala,ATP_C_65_URACHINTHALA (PART)-MB,Urichintala,Uruchinthala
 ATP_C_65_Utakal,ATP_C_65_UTAKALLU (PART)-MB,Utakallu,Utakallu
-ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Utakuru,Utakur
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Vadigepalli,Vadigepalle
+ ATP_C_63_Malaguru,ATP_C_63_MALAGURU-MB,Utakuru,Utakur
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Vadigepalli,Vadigepalle
 ATP_D_46_Kanekal,ATP_D_46_KANEKAL-MB,Vadrahonnur,Vadrahonnur
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Vajrakaruru,Vajrakarur-1
-ATP_D_46_Amarapuram,ATP_D_46_AMARAPURAM-MB,Valasa,Valasa
-ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Vanavolu,Vanavolu
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Vajrakaruru,Vajrakarur-1
+ATP_D_46_Amarapuram,ATP_D_46_AMARAPURAM-MB,Valasa ,Valasa
+ ATP_C_67_VonavoluG,ATP_C_67_VONAVOLU-MB,Vanavolu,Vanavolu
 ATP_C_67_Talamarla,ATP_C_67_TALAMARLA-MB,Vangampalli,Vangampalle
 ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Vanganuru,Vanganur
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Vankamaddi,Vankamaddi
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Vankarajukalva,Vankarajukalva
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Vankarajukalva,Vankarajukalva
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Vankarakunta,Vankarakunta
 ATP_C_64_Palavai,ATP_C_64_PALAVAI-MB,Varli,Varli
 ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,vasudevapuram,Vasudevapuram-1
 ATP_D_46_Basavanahalli,ATP_D_46_BASAVANAHALLI-MB,Veerabommanahalli,Veerabommana Halli
 ATP_C_67_Kadiri,ATP_C_67_KADIRI-MB,Veeraobannapalli,Veeraobanapalle
 ATP_D_46_Rayadurg,ATP_D_46_RAYADURG-MB,Veerapuram,Veerapuram-1
-ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Veerapuram,Veerapuram-1
-ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Veerapuram,Veerapuram
+ ATP_C_67_Chilmathur,ATP_C_67_CHILAMATHUR-MB,Veerapuram,Veerapuram-1
+ATP_C_65_Tadipatri,ATP_C_65_TADIPATRI (PART)-MB,Veerapuram ,Veerapuram
 ATP_C_67_Gonipeta,ATP_C_67_GONIPETA-MB,Velagamakulapalli,Velagamakulapalle
 ATP_C_65_Alluru,ATP_C_65_ALLURU (PART)-MB,Velamakur,Velamakur
-ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Veldurthi,Veldurthi-3
+ATP_C_67_Kanumukkala,ATP_C_67_KANUMUKKALA-MB,Veldurthi ,Veldurthi-3
 ATP_C_69_Velichalamala,ATP_C_69_VELICHALAMALA (PART)-MB,Velichelamala,Velichelimala
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Velidadakala,Velidadakala
 ATP_D_46_Uravakonda,ATP_D_46_URAVAKONDA-MB,Veligonda,Veligonda
@@ -927,20 +927,20 @@ ATP_C_67_Talamarla,ATP_C_67_TALAMARLA-MB,Vemuletipalli,Vemuletipalle
 ATP_C_67_Pamudurthi,ATP_C_67_PAMUDURTHI-MB,Vengalammacheruvu,Vengalammacheruvu
 ATP_C_64_Ramapuram,ATP_C_64_RAMAPURAM-MB,venkatampalle,Venkatampalle-1
 ATP_C_66_Narpala,ATP_C_66_NARPALA-MB,Venkatampalli,Venkatampalle-2
-ATP_C_65_Gudipadu,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Venkatampalli,Venkatampalle-2
+ATP_C_65_Gudipadu ,ATP_C_65_GUDIPADU_NC_PART KNL-MB,Venkatampalli,Venkatampalle-2
 ATP_C_63_Somandepalli,ATP_C_63_SOMANDEPALLI-MB,Venkatampuram,Venkatapuram-3
 ATP_C_67_Thippepalli,ATP_C_67_THIPPEPALLI-MB,Venkatapuram,Venkatapuram-4
-ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Venkatarayanipalle,Venkatrayanipalle
+ ATP_C_67_Cheekatimanapalli,ATP_C_69_CHEEKATIMANIPALLI (PAR-MB,Venkatarayanipalle,Venkatrayanipalle
 ATP_C_67_Yellanur,ATP_C_67_YELLANUR (PART)-MB,Vennapusapalli,Vennapurapalle
 ATP_C_67_Talupula,ATP_C_67_TALUPULA-MB,Vepamanipeta,Vepamampeta
 ATP_D_46_Bhupasamudram,ATP_D_46_BHUPASAMUDRAM-MB,Veparala,Veparalla
 ATP_C_69_N.P. Kunta,ATP_C_69_N.P. KUNTA (PART)-MB,Veparala,Veparalla
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Vepulaparthi,Vepalaparthy
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,Vidapanakal,Vidapanakal-1
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,Vidapanakal,Vidapanakal-1
 ATP_C_65_Ubicherla,ATP_C_65_UBICHERLA (PART)-MB,Virupapuram,Virupapuram-2
 ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Virupapuram,Virupapuram-2
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Vittapalli,Vittapalle
-ATP-D-46-Havalgi,ATP_D_46_HAVALIGI (PART-MB,Vyasapuram,Vyasapuram
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Vittapalli,Vittapalle
+ATP-D-46-Havalgi ,ATP_D_46_HAVALIGI (PART-MB,Vyasapuram,Vyasapuram
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,W.Kodipalli,West Kodipalle
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Y.Chinthakayamanda,Y.Chintakayamanda
 ATP_C_64_Amidala,ATP_C_64_AMIDALA-MB,Y.Rampuram,Y.Rampuram
@@ -948,18 +948,18 @@ ATP_C_65_Midthuru,ATP_C_65_MIDTHURU-MB,Y.T.Cheruvu,Yerrathimmarayachervu
 ATP_C_65_Puppala,ATP_C_65_PUPPALA-MB,Yadiki,Yadiki-1
 ATP_C_63_Lepakshi,ATP_C_63_LEPAKSHI-MB,Yagnisettipalli,Yagnisettipalle
 ATP_D_46_Brahmasamudram,ATP_D_46_BRAHMASAMUDRAM-MB,Yatakal,Yatakal
-ATP_C_65_Kaderpet,ATP_C_65_KADERPET-MB,Yedururu,Edurur
-ATP_C_67_Yellanur,ATP_C_67_YELLANUR (PART)-MB,Yellanur,Yellanur-1
+ATP_C_65_Kaderpet ,ATP_C_65_KADERPET-MB,Yedururu,Edurur
+ATP_C_67_Yellanur,ATP_C_67_YELLANUR (PART)-MB,Yellanur ,Yellanur-1
 ATP_C_67_Dorigallu,ATP_C_67_DORIGALLU-MB,Yellareddypalli,Thappetavaripalle
 ATP_C_67_Thimmampalli,ATP_C_67_THIMMAMPALLI (PART)-MB,Yellutla,Ellutla-1
-ATP_C_46_Enumuladoddi,ATP_C_64_ENUMULADODDI-MB,Yenumuladoddi,Yenumaladoddi
+ATP_C_46_Enumuladoddi ,ATP_C_64_ENUMULADODDI-MB,Yenumuladoddi,Yenumaladoddi
 ATP_C_63_Madakasira,ATP_C_63_MADAKASIRA-MB,Yerrabommanahalli,Yerrabommanahalli
 ATP_C_67_Nallamada,ATP_C_67_NALLAMADA-MB,Yerradoddi,Yerradoddi-1
 ATP_C_65_Guntakal,ATP_C_65_GUNTAKAL-MB,Yerragudi,Erragudi
-ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Yerragudi,Yerragudi-2
-ATP_C_63_Parigi,ATP_C_63_PARIGI-MB,Yerragunta,Yerragunta-2
+ATP_D_46_Beluguppa,ATP_D_46_BELUGUPPA-MB,Yerragudi ,Yerragudi-2
+ATP_C_63_Parigi ,ATP_C_63_PARIGI-MB,Yerragunta,Yerragunta-2
 ATP_C_65_Budedu,ATP_C_65_BUDEDU-MB,Yerraguntla,Yerraguntla-3
 ATP_D_46_Kadlur,ATP_D_46_KADLUR-MB,Yerraguntla,Yerraguntla-3
 ATP_D_46_Settur,ATP_D_46_SETTUR-MB,Yerrakondapuram,Yerrakondapuram
 ATP_C_67_Munimadugu,ATP_C_67_MUNIMADUGU-MB,Yerramanchi,Erramanchi
-ATP_C_67_Somagatta,ATP_C_67_SOMAGATTA-MB,Yerrasingepalli,Yerrasingepalle
+ ATP_C_67_Somagatta ,ATP_C_67_SOMAGATTA-MB,Yerrasingepalli,Yerrasingepalle

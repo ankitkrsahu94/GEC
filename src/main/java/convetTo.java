@@ -20,8 +20,10 @@ public class convetTo {
 //		distNames.add("Krishna");
 //		distNames.add("EastG");
 //		distNames.add("Karnool");
-		distNames.add("Guntur");
+//		distNames.add("Guntur");
 //		distNames.add("Prakasham");
+//		distNames.add("Prakasham");
+		distNames.add("Kadapa");
 		
 		
 		for (String distName : distNames) {

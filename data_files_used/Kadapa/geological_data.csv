@@ -1,0 +1,79 @@
+,,,,,,,, Command,,,,Non command,,,,Poor command,,,
+SR.NO, GW Watershed name,Geo Specific Yield name,Specific Yield value as %,Rainfall infiltration Factor as %,Transmissivity as %,Storage Coefficient as %,Total area sq.km,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total
+1,KDP_C_65_01_Chamaluru,Shales/ Alluvium,1.5,12,,,130.56,0,0,0,0,128.99,1.57,14.66,130.56,0,0,0,0
+2,KDP_C_65_02_Regadipalli,Shaly Limestone Alluvium,1.5,12,,,70.39,0,0,0,0,70.39,0,0,70.39,0,0,0,0
+3,KDP_C_65_03_J.Madugu,Shaly Limestone Alluvium,1.5,9,,,195.38,141.93,0,0,141.93,53.45,0,0,53.45,0,0,0,0
+4,KDP_C_65_04_Gandikota,Shaly Limestone Alluvium,1.5,9,,,321.59,101.41,0,0,101.41,198.02,22.16,0,220.18,0,0,0,0
+5,KDP_C_65_05_Potladurthi,Shales/ Alluvium,1.5,9,,,87.72,72.43,0,0,72.43,15.29,0,0,15.29,0,0,0,0
+6,KDP_C_65_06_Peddapalli,Shales/ Alluvium,1.5,14,,,146.48,0,0,0,0,95.24,51.24,7.21,146.48,0,0,0,0
+7,KDP_C_65_07_Vontimitta,Shaly Limestone Alluvium,1,14,,,338.12,0,0,0,0,276.24,61.88,4.01,338.12,0,0,0,0
+8,KDP_C_65_08_Sidhout,Shaly Limestone Alluvium,1.5,10,,,259.66,68.97,0,0,68.97,126.31,64.38,0,190.69,0,0,0,0
+9,KDP_C_65_09_Khajipet,Limestones,1.5,10,,,345.52,331.29,0,0,331.29,5.81,8.42,0,14.23,0,0,0,0
+10,KDP_C_65_10_PENDLIMARI,Shaly Limestone Alluvium,1,10,,,280.35,0,0,0,0,221.49,58.86,82.77,280.35,0,0,0,0
+11,KDP_C_65_11_CHENNURU,Shaly Limestone Alluvium,1.5,10,,,209.62,123.26,0,0,123.26,86.36,0,0,86.36,0,0,0,0
+12,KDP_C_65_12_KADAPA,Shales/ Alluvium,1.5,10,,,482.42,355.17,0,0,355.17,44.78,82.47,0,127.25,0,0,0,0
+13,KDP_C_65_13_GOPAVARAM,Shales/ Phyllites,1.5,8,,,302.67,0,0,0,0,124.62,178.05,0.5,302.67,0,0,0,0
+14,KDP_C_65_14_MALLEMADUGU,Shales/ sills,1,8,,,163.62,0,0,0,0,91.37,72.25,0,163.62,0,0,0,0
+15,KDP_C_65_15_MUDDANURU,Shaly Limestone Alluvium,1.2,10,,,221.7,0,0,0,0,175.1,46.6,0,221.7,0,0,0,0
+16,KDP_C_67_16_KONDAPURAM,Shaly Limestone/ Alluvium,1.5,10,,,141.28,87.06,11.94,0,99,30.23,12.05,0,42.28,0,0,0,0
+17,KDP_C_67_17_ETURU,Shaly Limestone/ Alluvium,1.5,10,,,43.59,43.59,0,0,43.59,0,0,0,0,0,0,0,0
+18,KDP_C_67_18_PARNAPALLI,Shaly Limestone ,1.5,10,,,68.89,68.89,0,0,68.89,0,0,0,0,0,0,0,0
+19,KDP_C_68_19_T.M.PATNAM,Shaly Limestone,1,8,,,422.66,165.19,0,0,165.19,257.47,0,0,257.47,0,0,0,0
+20,KDP_C_68_20_DIGUVAKALVATALA,Shaly Limestone Alluvium,1.5,10,,,79.36,19.3,0,0,19.3,60.06,0,0,60.06,0,0,0,0
+21,KDP_C_68_21_PEDDAMUDIUM,Shaly Limestone Alluvium,1.5,10,,,66.86,66.86,0,0,66.86,0,0,0,0,0,0,0,0
+22,KDP_C_68_22_RAJUPALEM,Shaly Limestone Alluvium,1.5,8,,,223.8,223.8,0,0,223.8,0,0,0,0,0,0,0,0
+23,KDP_C_68_23_CHAPADU,Shaly Limestone Alluvium,1.5,8,,,181.22,181.22,0,0,181.22,0,0,0,0,0,0,0,0
+24,KDP_C_68_24_DUVVURU,Shaly Limestone Alluvium,1.5,8,,,202.82,202.82,0,0,202.82,0,0,0,0,0,0,0,0
+25,KDP_C_68_25_MYDUKURU,Granites,1.5,10,,,400.14,206.52,0,0,206.52,95.58,98.04,0,193.62,0,0,0,0
+26,KDP_C_69_26_Veligallu,Granites,2,11,,,107.53,0,0,0,0,100.26,7.27,0,107.53,0,0,0,0
+27,KDP_C_69_27_GALIVEEDU,Granites,2,11,,,296.67,0,0,0,0,272.4,24.27,0,296.67,0,0,0,0
+28,KDP_C_69_28_SURABHI,Granites,2,11,,,78.62,0,0,0,0,61.83,16.79,0,78.62,0,0,0,0
+29,KDP_C_69_29_K.Yerragudi,Granites,2,11,,,19.97,0,0,0,0,19.97,0,0,19.97,0,0,0,0
+30,KDP_C_69_30_Chakrayapeta,Shaly Limestone Alluvium,2,11,,,153.71,0,0,0,0,116.27,37.44,0,153.71,0,0,0,0
+31,KDP_C_69_31_VEMPALLI,Shaly Limestone Alluvium,1.5,10,,,184.21,64.09,2.6,0,66.69,56.48,61.04,0,117.52,0,0,0,0
+32,KDP_C_69_32_TALLAPALLI,Shaly Limestone Alluvium,1.5,10,,,95.7,41.49,0,0,41.49,52.37,1.84,1.84,54.21,0,0,0,0
+33,KDP_C_69_33_VEMULA,Tadipatri shale,1.5,10,,,333.11,318.81,14.3,0,333.11,0,0,0,0,0,0,0,0
+34,KDP_C_69_34_N.PALAGIRI,Shaly Limestone,1,10,,,155.68,0,0,0,0,155.68,0,0,155.68,0,0,0,0
+35,KDP_C_69_35_PULIVENDULA,Shaly Limestone,1.5,10,,,128.97,128.97,0,0,128.97,0,0,0,0,0,0,0,0
+36,KDP_C_69_36_LINGALA,Shaly Limestone,1.5,10,,,156.26,154.71,1.55,0,156.26,0,0,0,0,0,0,0,0
+37,KDP_C_69_37_KONAMPALLI,Shaly Limestone,1.5,10,,,84.53,73.89,10.64,0,84.53,0,0,0,0,0,0,0,0
+38,KDP_C_69_38_KAMASAMUDRAM,Shaly Limestone,1.5,10,,,146.36,139.63,6.73,0,146.36,0,0,0,0,0,0,0,0
+39,KDP_C_69_39_SIMHADRIPURAM,Tadipatri Shales,1.5,10,,,232.57,89.28,0,0,89.28,135.03,8.26,0,143.29,0,0,0,0
+40,KDP_C_69_40_Thonduru,Shales,1.5,10,,,80.73,0,0,0,0,72.19,8.54,0,80.73,0,0,0,0
+41,KDP_C_69_41_Uppaluru,Shales,1.5,10,,,273.71,0,0,0,0,259.41,14.3,18.3,273.71,0,0,0,0
+42,KDP_C_69_42_Payasampalli,Shales/ Alluvium,1.5,10,,,188.42,0,0,0,0,188.42,0,0,188.42,0,0,0,0
+43,KDP_C_69_43_Kamlapuram,Shales/ Alluvium,2.5,18,,,52.12,0,0,0,0,52.12,0,0,52.12,0,0,0,0
+44,KDP_C_69_44_NANDIMANDALAM,phylletes,1.5,11,,,174.05,0,0,0,0,150.54,23.51,20.11,174.05,0,0,0,0
+45,KDP_C_70_45_Kothakota,phylletes,1,10,,,122.38,0,0,0,0,93.51,28.87,0,122.38,0,0,0,0
+46,KDP_C_70_46_Gopavarampalli,phylletes,0.8,10,,,137.46,0,0,0,0,115.05,22.41,0,137.46,0,0,0,0
+47,KDP_C_70_47_Kasinayana,Shales,0.8,10,,,269.17,0,0,0,0,185.7,83.47,0,269.17,0,0,0,0
+48,KDP_C_70_48_Akkalreddypalli,Shale/ phyllites,0.8,10,,,150.63,0,0,0,0,108.73,41.9,0,150.63,0,0,0,0
+49,KDP_C_70_49_SAVISETTIPALLI,Shale/ phyllites,1.2,10,,,324.58,215.68,59.64,0,275.32,12.49,36.77,0,49.26,0,0,0,0
+50,KDP_C_70_50_PORUMAMILLA,Shale/ phyllites,1.2,10,,,149.37,131.61,5.4,0,137.01,12.36,0,0,12.36,0,0,0,0
+51,KDP_C_70_51_BADVEL,Shale/ phyllites,1,10,,,367.86,232.84,135.02,0,367.86,0,0,0,0,0,0,0,0
+52,KDP_C_70_52_B.MATAM,Shale/ phyllites,1,10,,,215.42,133.01,82.41,0,215.42,0,0,0,0,0,0,0,0
+53,KDP_C_70_53_REKULAKUNTA,Shales,1,10,,,328.74,164.4,164.34,0,328.74,0,0,0,0,0,0,0,0
+54,KDP_C_70_54_Atloor,Shales,1,10,,,162.42,0,0,0,0,120.34,42.08,55.71,162.42,0,0,0,0
+55,KDP_C_70_55_Muthukuru,Granites,1,10,,,190.73,0,0,0,0,113.63,77.1,6.62,190.73,0,0,0,0
+56,KDP_C_71_56_Ramapuram,Granites,2,11,,,291.34,0,0,0,0,238.7,52.64,0,291.34,0,0,0,0
+57,KDP_C_71_57_L.R.PALLI,Granites,2,11,,,197.19,0,0,0,0,178.27,18.9204,0,197.19,0,0,0,0
+58,KDP_C_71_58_Veeraballi,Granites,2,11,,,227.32,0,0,0,0,217.16,10.16,0,227.32,0,0,0,0
+59,KDP_C_71_59_Chinnamandem,Granites,2,11,,,284.19,0,0,0,0,262.12,22.07,0,284.19,0,0,0,0
+60,KDP_C_71_60_SAMBEPALLI,Granites,2,11,,,174.01,0,0,0,0,172.21,1.8,0,174.01,0,0,0,0
+61,KDP_C_71_61_T.Sundupalli,Granites,2,11,,,254.01,0,0,0,0,233.21,20.8,0,254.01,0,0,0,0
+62,KDP_C_71_62_Reddivaripalli,Granites,2,11,,,37.66,0,0,0,0,36.96,0.7,0,37.66,0,0,0,0
+63,KDP_C_71_63_TsundupalleRF,Granites,2,11,,,92.03,0,0,0,0,5.63,86.4,0,92.03,0,0,0,0
+64,KDP_C_71_64_Mudumpadu,Granites,2,11,,,370.97,0,0,0,0,217.72,153.25,0,370.97,0,0,0,0
+65,KDP_C_71_66_Sanipaya,Shales/ phyllites,2,11,,,164.82,0,0,0,0,78.74,86.08,13.62,164.82,0,0,0,0
+66,KDP_C_71_67_RAJAMPET,Shales/ phyllites,1,10,,,368.81,0,0,0,0,308.01,60.8,6.96,368.81,0,0,0,0
+67,KDP_C_71_68_PULLAMPET,Shales/ phyllites,1,10,,,457.35,0,0,0,0,313.63,143.72,6.57,457.35,0,0,0,0
+68,KDP_C_71_69_Anantharajupet,Shales/ phyllites,1,10,,,167.43,0,0,0,0,77.74,89.69,0,167.43,0,0,0,0
+69,KDP_C_71_70_Koduru,Shales/ phyllites,0.8,10,,,228.65,0,0,0,0,118.1,110.55,0,228.65,0,0,0,0
+70,KDP_C_71_71_Settigunta,Shales/ phyllites,0.8,9,,,204.07,0,0,0,0,129.24,74.83,0,204.07,0,0,0,0
+71,KDP_C_71_72_Seshachala Forest,phyllites/ Alluvium,0.8,9,,,65.02,0,0,0,0,18.6,46.42,0,65.02,0,0,0,0
+72,KDP_C_71_73_PENAGALURU,phyllites/ Alluvium,0.8,10,,,208.4,0,0,0,0,163.54,44.86,0,208.4,0,0,0,0
+73,KDP_C_71_74_Chitvel,phyllites/ Alluvium,0.8,9,,,225.92,0,0,0,0,143.24,82.68,0,225.92,0,0,0,0
+74,KDP_C_71_75_KONDURU,phyllites/ Alluvium,0.8,10,,,177.43,0,0,0,0,159.83,17.6,21.62,177.43,0,0,0,0
+75,KDP_C_71_76_NANDALURU,phyllites/ Alluvium,1.2,10,,,197.38,0,0,0,0,131.04,66.34,0,197.38,0,0,0,0
+76,KDP_C_71_77_SIRIVARAM,Granites,1,10,,,115.37,0,0,0,0,43.97,71.4,0,115.37,0,0,0,0
+77,KDP_C_71_65_Rayavaram,Granites,2,11,,,3.1275,0,0,0,0,1.7501,1.3774,0,3.1275,0,0,0,0

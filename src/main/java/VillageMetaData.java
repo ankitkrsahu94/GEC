@@ -74,7 +74,6 @@ public class VillageMetaData {
         transmissivity.put("transmissivity", new Integer(1));
         JSONObject storageCoefficient = new JSONObject(); 
         storageCoefficient.put("storageCoefficient", new Integer(1));
-        Village village = new Village();
         HashMap<String,Village> village_details=new HashMap<>();
         Map<Integer,Map<String,Double>> paddykharif = new HashMap<>();
         Map<Integer,Map<String,Double>> paddyrabi = new HashMap<>();
@@ -83,12 +82,7 @@ public class VillageMetaData {
         Map<String,Double> computeDugwell = new HashMap<>();
         Map<String,Double> computeTubewell = new HashMap<>();
         Map<Integer,Integer> cropId = new HashMap<>();
-        Map<String,Map<String,Map<String,Integer>>> irrOperativenonT = new HashMap<>();
-        Map<String,Map<String,Map<String,Integer>>> resOperativenonT = new HashMap<>();
-        Map<String,Map<String,Map<String,Integer>>> indOperativenonT = new HashMap<>();
-        Map<String,Map<String,Map<String,Integer>>> irrOperativeT = new HashMap<>();
-        Map<String,Map<String,Map<String,Integer>>> resOperativeT = new HashMap<>();
-        Map<String,Map<String,Map<String,Integer>>> indOperativeT = new HashMap<>();
+
        
         //loc mapping
         try(BufferedReader iem = new BufferedReader(new FileReader(gwlocToIWMloc))) {
@@ -543,63 +537,45 @@ public class VillageMetaData {
                 	   System.out.println("Resource distribution : invalid row : " + record);
                    }
                 }
-//                System.out.println("Dugwell size "+computeDugwell.size());
             }catch (IOException e) {
                 e.printStackTrace();
             }
         }
         
  	   
-//
-//        
-//        
-//        //compute dugwell
-//        try(BufferedReader iem = new BufferedReader(new FileReader(irrigationUtilizationfile))) {
-//        	record = iem.readLine();
-//            while((record = iem.readLine()) != null) {
-//                //System.out.println("record"+record);
-//
-//                String fields[] = record.split(",",-1);
-//               // System.out.println("fields"+fields.length);
-//                if(fields.length==20||fields.length==28){
-//                	String MicroBasinName = format.removeQuotes(fields[format.convert("c")]);
-//            		String GWvillageName = format.removeQuotes(fields[format.convert("d")]);
-//                    String MicroBasin_GWvillage_key = MicroBasinName + "##" +GWvillageName;
-//                	double dugwell = Double.parseDouble(fields[format.convert("l")]);
-//                	computeDugwell.put(locmapping.get(MicroBasin_GWvillage_key), dugwell);
-//                }
-//                //System.out.println("**"+MicroBasin_GWvillage_key);
-//            }
-//            System.out.println("Dugwell size "+computeDugwell.size());
-//        }catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        
-//      //compute tubewell
-//        try(BufferedReader iem = new BufferedReader(new FileReader(irrigationUtilizationfile))) {
-//        	record = iem.readLine();
-//            record = iem.readLine();
-//            record = iem.readLine();
-//            while((record = iem.readLine()) != null) {
-//                //System.out.println("record"+record);
-//
-//                String fields[] = record.split(",");
-//               // System.out.println("fields"+fields.length);
-//                if(fields.length==20||fields.length==28){
-//                	String MicroBasinName = format.removeQuotes(fields[format.convert("c")]);
-//            		String GWvillageName = format.removeQuotes(fields[format.convert("d")]);
-//                    String MicroBasin_GWvillage_key = MicroBasinName + "##" +GWvillageName;
-//                	double tubewell = Double.parseDouble(fields[format.convert("l")]);
-//                	computeTubewell.put(locmapping.get(MicroBasin_GWvillage_key), tubewell);
-//                }
-//                //System.out.println("**"+MicroBasin_GWvillage_key);
-//            }
-//            System.out.println("Tubewell size "+computeTubewell.size());
-//        }catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        
+
+        
+        
+        //compute dugwell
+        try(BufferedReader iem = new BufferedReader(new FileReader(irrigationUtilizationfile))) {
+        	record = iem.readLine();
+            while((record = iem.readLine()) != null) {
+
+                String fields[] = record.split(",",-1);
+               // System.out.println("fields"+fields.length);
+                String MicroBasinName = format.removeQuotes(fields[format.convert("c")]);
+                String GWvillageName = format.removeQuotes(fields[format.convert("d")]);
+                String MicroBasin_GWvillage_key = MicroBasinName + "##" +GWvillageName;
+                if(locmapping.containsKey(MicroBasin_GWvillage_key)){
+                	double dugwell = Utils.parseDouble(fields[format.convert("e")]);
+                	computeDugwell.put(locmapping.get(MicroBasin_GWvillage_key), dugwell);
+                	
+                	double tubewell = Utils.parseDouble(fields[format.convert("j")]);
+                	computeTubewell.put(locmapping.get(MicroBasin_GWvillage_key), tubewell);
+//                	System.out.println(MicroBasin_GWvillage_key + " " + dugwell + " " + tubewell);
+                } else {
+                	System.out.println("Location mapping not exist for :"+MicroBasin_GWvillage_key);
+                }
+            }
+            System.out.println("Dugwell size "+computeDugwell.size());
+            System.out.println("Tubewll size "+computeTubewell.size());
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+        
 //        System.out.println("ANKIT ::: VILLA : " + village_details);
+        
+        
       //json for area
         Gson Area = new Gson();
         JSONObject jsn = new JSONObject();
@@ -863,8 +839,9 @@ public class VillageMetaData {
                 	 * Canal = Surface water irrigation source
                 	 */
                 	if(source.equalsIgnoreCase("Canal")){
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				
             				if(village_details.containsKey(IWMName)){
 //            					System.out.println("village details contains : " + IWMName + " : " + village_details.containsKey(IWMName));
@@ -916,8 +893,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Lift irrigation")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName);
             					Map<String,Object> obj;
@@ -963,8 +941,10 @@ public class VillageMetaData {
                 	 * Tanks = surface water irrigation source
                 	 */
                 	if(source.equalsIgnoreCase("Tanks")){
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -1068,8 +1048,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Dug well")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -1164,15 +1145,16 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Tube well")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
             					Map<String,Map<String,Double>> obj2;
             					Map<String,Double> water=new HashMap<>();
-            					if(computeDugwell.containsKey(IWMName)){
-            						if(computeDugwell.get(IWMName)>0){
+            					if(computeTubewell.containsKey(IWMName)){
+            						if(computeTubewell.get(IWMName)>0){
             							if(village_details.get(IWMName).crop_info.get("command")==null){
                     						Map<String,Map<String,Object>> paddy=new HashMap<>();
                     						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
@@ -1269,8 +1251,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Canal")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName);
             					Map<String,Object> obj;
@@ -1323,8 +1306,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Lift irrigation")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName);
             					Map<String,Object> obj;
@@ -1353,14 +1337,14 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.LIFT_IRRIGATION) == null)
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
             					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("surface_irrigation");
+            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.LIFT_IRRIGATION);
             					//System.out.println(irrigatedArea);
             					irrigatedArea += paddyrabi.get(id).get(source);
             					//System.out.println(irrigatedArea);
-            					irrigationAreaInfo.get("non_monsoon").put("surface_irrigation", irrigatedArea);
+            					irrigationAreaInfo.get("non_monsoon").put(Constants.LIFT_IRRIGATION, irrigatedArea);
             					//System.out.println("***in lift irr"+village_details.get(IWMName).crop_info);
             					double totalArea = (double)(obj.get("cropArea"));
             					//System.out.println("total area "+totalArea);
@@ -1376,8 +1360,9 @@ public class VillageMetaData {
                 	 * Tanks = Surface water irrigation
                 	 */
                 	if(source.equalsIgnoreCase("Tanks")){
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -1429,8 +1414,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("MI Tanks")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -1482,8 +1468,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Dug well")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -1576,15 +1563,16 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Tube well")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
             					Map<String,Map<String,Double>> obj2;
             					Map<String,Double> water=new HashMap<>();
-            					if(computeDugwell.containsKey(IWMName)){
-            						if(computeDugwell.get(IWMName)>0){
+            					if(computeTubewell.containsKey(IWMName)){
+            						if(computeTubewell.get(IWMName)>0){
             							if(village_details.get(IWMName).crop_info.get("command")==null){
                     						Map<String,Map<String,Object>> paddy=new HashMap<>();
                     						obj = new HashMap<>();
@@ -1682,8 +1670,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Canal")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName);
             					Map<String,Object> obj;
@@ -1753,8 +1742,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Lift irrigation")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName);
             					Map<String,Object> obj;
@@ -1823,8 +1813,9 @@ public class VillageMetaData {
                 	 * Tanks = surface water
                 	 */
                 	if(source.equalsIgnoreCase("Tanks")){
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -1892,14 +1883,15 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("MI Tanks")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
             					Map<String,Map<String,Double>> obj2;
             					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("command")==null){
+            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
             						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
             						obj = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
@@ -1911,10 +1903,10 @@ public class VillageMetaData {
             						obj.put("waterRequired", 600);
             						obj.put("waterRequiredUnit", "mm");
             						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("command", nonpaddy);             						
+            						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
 
             					}
-            					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
+            					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
             					
             					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
             					
@@ -1940,14 +1932,14 @@ public class VillageMetaData {
                 						
             			}
                 	}
-                	
+
                 	/**
                 	 * Dug well = ground water
                 	 */
                 	if(source.equalsIgnoreCase("Dug well")){
-            			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -2079,16 +2071,16 @@ public class VillageMetaData {
                 	 * Tube well = ground water irrigation
                 	 */
                 	if(source.equalsIgnoreCase("Tube well")){
-            			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
+//            					System.out.println(IWMName + id);
             					Map<String,Object> obj;
             					Map<String,Map<String,Double>> obj2;
             					Map<String,Double> water=new HashMap<>();
-            					if(computeDugwell.containsKey(IWMName)){
-            						if(computeDugwell.get(IWMName)>0){
+            					if(computeTubewell.containsKey(IWMName)){
+            						if(computeTubewell.get(IWMName)>0){
             							if(village_details.get(IWMName).crop_info.get("command")==null){
                     						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
                     						obj = new HashMap<>();
@@ -2220,8 +2212,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Canal")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName);
             					Map<String,Object> obj;
@@ -2292,8 +2285,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Lift irrigation")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName);
             					Map<String,Object> obj;
@@ -2363,8 +2357,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Tanks")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -2435,8 +2430,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("MI Tanks")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -2491,8 +2487,9 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Dug well")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
@@ -2625,15 +2622,16 @@ public class VillageMetaData {
                 	 */
                 	if(source.equalsIgnoreCase("Tube well")){
             			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
+                		Integer idd = cropId.get(id);
+            			if(idd!= null && villageId.containsKey(idd)){
+            				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
             					Map<String,Object> obj;
             					Map<String,Map<String,Double>> obj2;
             					Map<String,Double> water=new HashMap<>();
-            					if(computeDugwell.containsKey(IWMName)){
-            						if(computeDugwell.get(IWMName)>0){
+            					if(computeTubewell.containsKey(IWMName)){
+            						if(computeTubewell.get(IWMName)>0){
             							if(village_details.get(IWMName).crop_info.get("command")==null){
                     						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
                     						obj = new HashMap<>();
@@ -2665,8 +2663,8 @@ public class VillageMetaData {
                     						obj1.put("cropArea", 0.0);
                     						obj1.put("waterRequired", 600);
                     						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
+                    						village_details.get(IWMName).crop_info.get("command").put("nonPaddy", obj1);
+                        					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
 
                     					}
                     					
