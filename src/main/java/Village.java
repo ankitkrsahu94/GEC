@@ -23,6 +23,7 @@ public class Village {
 	double storage_coefficient =1;
 	String soil_type="";
 	String area;
+	Map<String, Double> gw_dependency;
 	Map<String,Map<String,Map<String,Object>>> crop_info = new HashMap<>();
 	waterbodies water_bodies;
 	ArrayList<Map<String,Object>> canal_info;
@@ -33,7 +34,12 @@ public class Village {
 //	IndustrialUtilization industrial_source;
 	
 	
-	
+	public Map<String, Double> getGwDependencyFactor() {
+		return gw_dependency;
+	}
+	public void setGwDependencyFactor(Map<String, Double> gwDependencyFactor) {
+		this.gw_dependency = gwDependencyFactor;
+	}
 	public String getPopulation() {
 		return population;
 	}
@@ -95,17 +101,22 @@ public class Village {
 	public void setArtificialWC(ArtificialWC artificialWC) {
 		this.aritificial_wc = artificialWC;
 	}
+	
 	@Override
 	public String toString() {
-		return "Village [population=" + population + ", state_id=" + state_id + ", loc_type_id=" + loc_type_id
-				+ ", verification_status=" + verification_status + ", loc_id=" + loc_id + ", loc_name=" + loc_name
-				+ ", loc_association=" + loc_association + ", rf_infiltration_rate=" + rf_infiltration_rate
-				+ ", gw_specific_yield=" + gw_specific_yield + ", transmissivity=" + transmissivity
-				+ ", storage_coefficient=" + storage_coefficient + ", soil_type=" + soil_type + ", area=" + area
-				+ ", crop_info=" + crop_info + ", water_bodies=" + water_bodies + ", canal_info=" + canal_info
-				+ ", aritificial_wc=" + aritificial_wc + ", resourceDistribution=" + resourceDistribution + "]";
+		return "Village [population=" + population + ", state_id=" + state_id
+				+ ", loc_type_id=" + loc_type_id + ", verification_status="
+				+ verification_status + ", loc_id=" + loc_id + ", loc_name="
+				+ loc_name + ", loc_association=" + loc_association
+				+ ", rf_infiltration_rate=" + rf_infiltration_rate
+				+ ", gw_specific_yield=" + gw_specific_yield
+				+ ", transmissivity=" + transmissivity
+				+ ", storage_coefficient=" + storage_coefficient
+				+ ", soil_type=" + soil_type + ", area=" + area
+				+ ", gwDependencyFactor=" + gw_dependency + ", crop_info="
+				+ crop_info + ", water_bodies=" + water_bodies
+				+ ", canal_info=" + canal_info + ", aritificial_wc="
+				+ aritificial_wc + ", resourceDistribution="
+				+ resourceDistribution + "]";
 	}
-
-	
-
 }

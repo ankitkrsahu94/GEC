@@ -16,16 +16,16 @@ import com.google.gson.Gson;
 public class VillageMetaData {
 
     
-	public static void compute(String districtName) {
+	public static void compute(String districtName, String path) {
 
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/"+districtName+"/";
+		String filePath = path+districtName+"/";
 
 		
 		/**
 		 * Output files
 		 */
 //		String basinAssociationTesting = filePath+"basinassociationtesting.cql";
-		String assessmentUnitCQLScriptFile = filePath+"loc_meta_data.cql";
+		String assessmentUnitCQLScriptFile = path+"final_scripts/"+districtName+"-loc_meta_data.cql";
 
         String gwlocToIWMloc = filePath+"final_mapping.csv";      // Input File
         String areafile = filePath+"area.csv";
@@ -165,12 +165,12 @@ public class VillageMetaData {
             int c=0;
 
         	//readXLSXFile();
-            record = iem.readLine();
+//            record = iem.readLine();
             record = iem.readLine();
 
             while((record = iem.readLine()) != null) {
                 String fields[] = record.split(",");
-               // System.out.println("fields"+fields);
+                
                 if(fields.length==2){
                 	int VillageId = Integer.parseInt(fields[1]);
                     String IWMvillageName = format.removeQuotes(fields[0]);
@@ -189,7 +189,7 @@ public class VillageMetaData {
         for(String key:village_details.keySet()){
         	if(village_details.get(key).loc_id==0){
         		//System.out.println(key);
-        		System.out.println(village_details.get(key).getVillageName());
+        		System.out.println("Village with location id 0 : " + village_details.get(key).getVillageName());
         	}
         }
         System.out.println("village id count"+c);
@@ -334,7 +334,7 @@ public class VillageMetaData {
         }catch (IOException e) {
             e.printStackTrace();
         }
-      
+        
         try(BufferedReader iem = new BufferedReader(new FileReader(wellsSpecificYieldFile))) {
         	record = iem.readLine();
             while((record = iem.readLine()) != null) {
@@ -388,11 +388,6 @@ public class VillageMetaData {
                 		wellDataAgriculture.setOperativeDays(operationDaysAgriculture);
                 		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.AGRICULTURE, wellDataAgriculture);
                 		
-                		if(basinName.equals("ATP_C_66_Vaddupalli") && areaType.equals(Constants.NON_COMMAND_AREA) && typeOfWell.equals("BWs")){
-                			System.out.println("basinName : " + basinName + " : typeOfWell : " + typeOfWell);
-                			System.out.println("basinName : " + basinName + " : yield : " + yield);
-                			System.out.println("basinName : " + basinName + " : " + basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).get(Constants.AGRICULTURE));
-                		}
                 		/**
                 		 * Domestic
                 		 */
@@ -486,7 +481,7 @@ public class VillageMetaData {
                 			   villWellDistributionInfo.get(category).put(areaType, new HashMap<String, WellsUtilizationData>());
                 		   
                 		   for(String well : Constants.CATEGORY_WELLS.get(category)){
-                			   double growthRate = (well == "BWs")?3.0:0.0;
+                			   double growthRate = (well == "BWs")?3.0:1.0;
                 			   double pumpingHours = Constants.PUMPING_HOURS;
                 			   int count = 0;
                 			   int referenceYear = 2011;
@@ -532,6 +527,13 @@ public class VillageMetaData {
                 		   }
                 	   }
                 	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setResourceDistribution(villWellDistributionInfo);
+                	   
+                	   /**
+                        * Assign GW Dependency factor
+                        */
+                	   Map<String, Double> gwDependency = new HashMap<String, Double>();
+                	   gwDependency.put(Constants.DOMESTIC, 1.0);
+                	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setGwDependencyFactor(gwDependency);
                    }
                    else{
                 	   System.out.println("Resource distribution : invalid row : " + record);
@@ -2830,22 +2832,7 @@ public class VillageMetaData {
                 	String villageName = fields[format.convert("d")];
                 	String mb = fields[format.convert("c")];
                 	Map<String,Integer> runningDays = new HashMap<>();
-//                	if(villageName.equals("PEDARAMABHADRAPURAM")){
-//                		System.out.println(mb+"##"+villageName + " : " + locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
-//                		System.out.println("length : "+ Double.parseDouble(fields[4]));
-//                		System.out.println("type : " + "0");
-//                		System.out.println("sideSlopes : "+Double.parseDouble(fields[7]));//sideSlopes
-//                		System.out.println("wettedPerimeter : "+Double.parseDouble(fields[8]));//wettedperimeter
-//                		System.out.println("wettedArea : "+Double.parseDouble(fields[9]));//wettedarea
-//                		System.out.println("seepageFactor : "+Double.parseDouble(fields[10]));//canalseepagefactor
-//                		System.out.println("bedWidth : "+Double.parseDouble(fields[6]));//bedwidth
-//                		System.out.println("designDepthFlow : "+Double.parseDouble("0"));//designDepthOfFlow
-//                		System.out.println("running monsoon : "+Integer.parseInt(fields[11]));//runningDays_monsoon
-//                		System.out.println("running non_monsoon : "+Integer.parseInt(fields[12]));//runningDays_nonmonsoon
-//                		System.out.println("noOfRunningDays : "+runningDays);
-//                	}
-                	
-//                	canalMap.put("villName", villageName);
+
                 	canalMap.put("length", Utils.parseDouble(fields[4]));
                 	canalMap.put("type","0");
                     canalMap.put("sideSlopes",Utils.parseDouble(fields[7]));//sideSlopes

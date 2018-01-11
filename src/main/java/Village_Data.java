@@ -27,6 +27,7 @@ public class Village_Data {
 	String water_bodies;
 	String canal_info;
 	String artificial_wc;
+	String gw_dependency;
 	String resource_distribution;
 
 	
@@ -54,8 +55,23 @@ public class Village_Data {
 			setResourceDistribution(vill.resourceDistribution);
 		}
 		
-		
+		if(vill.gw_dependency != null){
+			setGwDependencyFactor(vill.gw_dependency);
+		}
 	}
+	
+	public String getGwDependencyFactor() {
+		return gw_dependency;
+	}
+
+
+	public void setGwDependencyFactor(Map<String, Double> gwDependencyFactor) {
+		Gson gs = new Gson();
+		String dependency = gs.toJson(gwDependencyFactor);
+		this.gw_dependency = dependency;
+	}
+
+
 	public String getResourceDistribution() {
 		return resource_distribution;
 	}

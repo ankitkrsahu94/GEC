@@ -14,14 +14,14 @@ import com.google.gson.Gson;
 
 public class BasinXmltojson {
 
-	public static void compute(String distName) {
-
-		String filePath = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/"+distName+"/";
+	public static void compute(String distName, String path) {
+		
+		String filePath = path+distName+"/";
 
 		/**
 		 * output files
 		 */
-		String basinCQLOutputFileName = filePath+"InsertBasin.cql";
+		String basinCQLOutputFileName = path+"final_scripts/"+distName+"-InsertBasin.cql";
 
 		/**
 		 * Source files for data creation
@@ -520,8 +520,8 @@ public class BasinXmltojson {
 
 					geoInfo.put("fraction", 1.0);
 					geoInfo.put("specific_yield", Utils.parseDouble(fields[format.convert("d")]));
-					geoInfo.put("transmissivity", Double.parseDouble("0"));
-					geoInfo.put("storage_coefficient", Double.parseDouble("0"));
+					geoInfo.put("transmissivity", Utils.parseDouble("0"));
+					geoInfo.put("storage_coefficient", Utils.parseDouble("0"));
 
 					if (fields[format.convert("c")].equalsIgnoreCase("Weathered granite(Weathered granite)"))
 						GeologicalInfo.put("Weathered granite", geoInfo);

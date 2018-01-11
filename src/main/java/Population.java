@@ -1,25 +1,21 @@
 import java.util.Map;
 
 public class Population {
-//	int lpcd;
-//	int year = 2011;
-//	int totalPopulation;
-//	double populationGrowthRate=3.76;
-//	int command;
-//	int non_command;
-//	Population(int lpcd, int totalPopulation,int command,int noncommand){
-//		this.lpcd=lpcd;
-//		this.totalPopulation = totalPopulation;
-//		this.command=command;
-//		this.non_command=noncommand;
-//	}
-	
 	int lpcd;
 	int referenceYear;
 	int totalPopulation;
 	double growthRate;
 	//Command/Non-command vs count
 	Map<String, Integer> areaWisePopulation;
+	//Command/Non-command vs noOfDays
+	Map<String, Integer> noOfDays;
+	
+	public Map<String, Integer> getNoOfDays() {
+		return noOfDays;
+	}
+	public void setNoOfDays(Map<String, Integer> noOfDays) {
+		this.noOfDays = noOfDays;
+	}
 	public int getLpcd() {
 		return lpcd;
 	}
@@ -64,5 +60,11 @@ public class Population {
 		
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Population [lpcd=" + lpcd + ", referenceYear=" + referenceYear
+				+ ", totalPopulation=" + totalPopulation + ", growthRate="
+				+ growthRate + ", areaWisePopulation=" + areaWisePopulation
+				+ ", noOfDays=" + noOfDays + "]";
+	}
 }

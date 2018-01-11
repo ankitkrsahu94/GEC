@@ -3,4 +3,7 @@
 **/.classpath
 **/.settings
 **/.project
+**/.*~*
+final_scripts/
 
+/target/
