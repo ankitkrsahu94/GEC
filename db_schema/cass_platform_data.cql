@@ -10,6 +10,7 @@ CREATE TABLE cass_platform_data.location_md (
     canal_info text,
     crop_info text,
     geological_info text,
+    gw_dependency text,
     gw_specific_yield double,
     infiltration_info text,
     loc_association text,
@@ -38,6 +39,7 @@ CREATE TABLE cass_platform_data.location_md (
     AND min_index_interval = 128
     AND read_repair_chance = 0.0
     AND speculative_retry = '99PERCENTILE';
+
 
 CREATE TABLE cass_platform_data.gec_meta_data (
     parent_id int PRIMARY KEY,
