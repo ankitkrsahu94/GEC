@@ -379,7 +379,7 @@ public class VillageMetaData {
                 		 * Agriculture
                 		 */
             			yield = (fields[3+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[3+(12*index)]);
-            			yield = (yield == 0.0)?650.0:yield;
+            			yield = (yield == 0.0)?2400.0:yield;
             			monsoonDays = (fields[5+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[5+(12*index)]);
                 		operationDaysAgriculture.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[6+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[6+(12*index)]);
@@ -392,7 +392,7 @@ public class VillageMetaData {
                 		 * Domestic
                 		 */
                 		yield = (fields[7+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[7+(12*index)]);
-                		yield = (yield == 0.0)?250.0:yield;
+                		yield = (yield == 0.0)?284.0:yield;
                 		monsoonDays = (fields[9+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[9+(12*index)]);
                 		operationDaysDomestic.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[10+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[10+(12*index)]);
@@ -406,7 +406,7 @@ public class VillageMetaData {
 //                		System.out.println("index : " + index);
 //                		System.out.println(" fields : " + record);
                 		yield = (fields[11+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[11+(12*index)]);
-                		yield = (yield == 0.0)?1500.0:yield;
+                		yield = (yield == 0.0)?4000.0:yield;
                 		monsoonDays = (fields[13+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[13+(12*index)]);
                 		operationDaysIndustry.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[14+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[14+(12*index)]);
@@ -416,12 +416,16 @@ public class VillageMetaData {
                 		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.INDUSTRY, wellDataIndustry);
             		}
             		
+            	} else {
+            		System.out.println("else of draft file " + record);
             	}
             }
         }catch (IOException e) {
             e.printStackTrace();
         }
 //        System.out.println("basinWiseWellsMD : " + basinWiseWellsMD);
+        
+//        System.out.println("******" + basinWiseWellsMD.get("VSP_14_F_NC_SARADA-9_BUTCHAYYAPETA"));
         		
         Map<String, String> utilizationFiles = new HashMap<>();
         utilizationFiles.put(Constants.AGRICULTURE, irrigationUtilizationfile);
@@ -439,7 +443,7 @@ public class VillageMetaData {
         	
 //        	System.out.println("category : " + category);
 //        	villageWellUtilData.put(category, new HashMap<String, Map<String, WellsUtilizationData>>());
-        	
+//        	System.out.println("&&&&&&&&&&&&77" + basinWiseWellsMD.get("VSP_F_14_C_SARADA-11_V.MADUGULA").keySet());
         	try(BufferedReader iem = new BufferedReader(new FileReader(utilizationFiles.get(category)))) {
             	record = iem.readLine();
                 while((record = iem.readLine()) != null) {
@@ -502,6 +506,8 @@ public class VillageMetaData {
                 				   operativeDays.put(Constants.MONSOON, 0.0);
                 				   operativeDays.put(Constants.NON_MONSOON, 0.0);
                 				   mbWell.setOperativeDays(operativeDays);
+                				   System.out.println(well);
+//                				   System.out.println(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
                 			   }
                 				   
 //                			   System.out.println("basin : " + basinName + " : category : " + category + " : areaType : " + areaType + " : well : " + well);
@@ -544,8 +550,6 @@ public class VillageMetaData {
             }
         }
         
- 	   
-
         
         
         //compute dugwell

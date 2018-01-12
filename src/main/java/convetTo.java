@@ -11,22 +11,23 @@ public class convetTo {
 		
 		List<String> distNames = new ArrayList<>();
 
-		distNames.add("Nellore");
-		distNames.add("Chittor");
-		distNames.add("Anantapur");
-		distNames.add("Srikakulam");
-		distNames.add("Krishna");
-		distNames.add("EastG");
-		distNames.add("Guntur");
-		distNames.add("Prakasham");
-		distNames.add("Kadapa");
+//		distNames.add("Nellore");
+//		distNames.add("Chittor");
+//		distNames.add("Anantapur");
+//		distNames.add("Srikakulam");
+//		distNames.add("Krishna");
+//		distNames.add("EastG");
+//		distNames.add("Guntur");
+//		distNames.add("Prakasham");
+//		distNames.add("Kadapa");
 		distNames.add("Visakhapatnam");
-		distNames.add("Karnool");
+//		distNames.add("Karnool");
+//		distNames.add("WGodavari");
 		/**
 		 * Ankit : /home/ankit/Documents/GEC/codebase/data_files_used/
 		 * Akshay : /home/akshay/proj/GECScriptsGen/GEC/data_files_used/
 		 */
-		String path = "/home/ankit/Documents/GEC/codebase/data_files_used/";
+		String path = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/";
 		for (String distName : distNames) {
 			System.out.println("********************** Computing for district " + distName);
 			

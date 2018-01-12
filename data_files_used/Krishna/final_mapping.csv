@@ -1,4 +1,4 @@
-GW Watershed Name,Iwm basin names,GW Village Name,iwm village names
+GW Watershed Name,IWM Microbasin name,GW Village Name,IWM village name
 Kri-D-49-Vissannapeta,KRI-D-49-VISSANNAPETA-MB,A.Konduru,A.Konduru
 Kri-I-42-Gannavaram,KRI-I-42-GANNAVARAM-MB,Adavinekkalam,Adivinekkalam
 Kri-D-49-Nandigama,KRI-D-49-NANDIGAMA-MB,Adaviravulapadu,Adiviravulapadu
@@ -436,3 +436,565 @@ Kri-D-51-Chandarlapadu,KRI-D-51-CHANDARLAPADU-MB,Vipareetalapadu,Vibhareetapadu
 Kri-D-49-Vissannapeta,KRI-D-49-VISSANNAPETA-MB,Vissannapeta,Vissannapet-1
 Kri-I-40-Musunuru,KRI-I-40-MUSUNURU-MB,Yallapurm,Ellapuram
 Kri-D-51-Kanchikacherla ,KRI-D-51-KANCHIKACHERLA-MB,Z.N.Pothavaram,Zami Navi Pothavaram
+Avanigadda,AVANIGADDA-MB,Edlalanka,Edlanka
+Avanigadda,AVANIGADDA-MB,South Chiruvolulanka,Chiruvolu Lanka
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Amudalapalli,Amudalapalle-2
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Arthamuru,Arthamuru-3
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Bantumilli,Bantumilli-2
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Chinathumidi,Chinatummidi
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Maddetipalli,Maddetipalle
+Kri-I-42-Unguturu,UNGUTURU-MB,Dibbanapudi,Dibbanapudi
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Malleswaram,Malleswaram-4
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Mulaparru,Mulaparru-1
+Kri-I-42-Unguturu,UNGUTURU-MB,Nagavarappadu,Nagavarappadu
+Kri-I-42-Unguturu,UNGUTURU-MB,Veldipadu,Veldipadu
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Munjuluru,Munjuluru-1
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Narayanapuram,Narayanapuram-7
+Kri-I-42-Unguturu,UNGUTURU-MB,Bokinala,Bokinala
+Kri-I-42-Unguturu,UNGUTURU-MB,Manikonda,Manikonda
+Kri-I-42-Unguturu,UNGUTURU-MB,Chikinala,Chikinala
+Kri-I-42-Unguturu,UNGUTURU-MB,Chagantipadu,Chagantipadu
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Pedapandraka,Peda Pandraka
+Kri-I-42-Unguturu,UNGUTURU-MB,Ondrampadu,Ondrampadu
+Kri-I-42-Unguturu,UNGUTURU-MB,Elukapadu,Elukapadu
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Pedathumidi,Pedatummidi
+Kri-I-42-Unguturu,UNGUTURU-MB,Mukkapadu,Mukkapadu
+Kri-I-42-Unguturu,UNGUTURU-MB,Koyyagurapadu,Koyyagurapadu
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Penduru,Pendurru
+Kri-I-42-Unguturu,UNGUTURU-MB,Madhirapadu,Madhirapadu
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Ramavarapumudi,Ramavarapumodi
+Kri-I-42-Unguturu,UNGUTURU-MB,Vemanda,Vemanda
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Satuluru,Satuluru-1
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Tippanagunta,Tippanagunta
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Kanumolu,Kanumolu
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Arugolanu,Arugolanu-1
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Kakulapadu,Kakulapadu
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Dantagunta,Dantaguntla
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Ogirala,Ogirala
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Kuripirala,Kuripirala
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Ramannagudem,Ramannagudem-3
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Chirivada,Chirivada
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Venkatapuram,Venkatapuram-16
+Kri-I-42-Bapulapadu delta,BAPULAPADU_DELTA-MB,Venkatarajugudem,Venkatrajugudem
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Challapalli,Challapalle-3
+Kri-I-52-Penamaluru,PENAMALURU-MB,Pedapulipaka,Pedapulipaka
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Chidepudi,Cheedepudi
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Lakshmipuram,Lakshmipuram-5
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Nadakuduru,Nadakuduru-1
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Puritigadda,Puritigadda-1
+Kri-I-52-Penamaluru,PENAMALURU-MB,Tadigadapa,Tadigadapa
+Kri-I-52-Penamaluru,PENAMALURU-MB,Gosala,Gosala
+Kri-I-52-Ghantasala,GHANTASALA-MB,Birudagadda,Birudugadda
+Kri-I-52-Ghantasala,GHANTASALA-MB,Bollapadu,Bollapadu-1
+Kri-I-52-Kankipadu,KANKIPADU-MB,Kunderu,Kunderu
+Kri-I-52-Ghantasala,GHANTASALA-MB,Chinakallepalli,China Kallepalle
+Kri-I-52-Ghantasala,GHANTASALA-MB,Chitturu,Chitturu-1
+Kri-I-52-Kankipadu,KANKIPADU-MB,Kolavennu,Kolavennu
+Kri-I-52-Kankipadu,KANKIPADU-MB,Punadipadu,Punadipadu
+Kri-I-52-Kankipadu,KANKIPADU-MB,Tenneru,Tenneru
+Kri-I-52-Kankipadu,KANKIPADU-MB,Maredumaka,Maredumaka
+Kri-I-52-Ghantasala,GHANTASALA-MB,Gantasala,Ghantasala-1
+Kri-I-52-Kankipadu,KANKIPADU-MB,Konathanapadu,Konathanapadu
+Kri-I-52-Kankipadu,KANKIPADU-MB,Prodduturu,Prodduturu
+Kri-I-52-Ghantasala,GHANTASALA-MB,Kothapalli,Kothapalle-26
+Kri-I-52-Kankipadu,KANKIPADU-MB,Edupugallu,Edupugallu
+Kri-I-52-Ghantasala,GHANTASALA-MB,Lankapalli,Lankapalle
+Kri-I-52-Ghantasala,GHANTASALA-MB,Mallampalli,Mallampalle
+Kri-I-52-Kankipadu,KANKIPADU-MB,Davuluru,Davuluru
+Kri-I-52-Kankipadu,KANKIPADU-MB,Chalivendrapalem,Chalivendrapalem
+Kri-I-52-Ghantasala,GHANTASALA-MB,Pooshadam,Pushadam
+Kri-I-52-Ghantasala,GHANTASALA-MB,Srikakulam,Srikakulam-1
+Kri-I-52-Ghantasala,GHANTASALA-MB,Tadepalli,Tadepalle-3
+Kri-I-52-Ghantasala,GHANTASALA-MB,Teluguravupalem,Teluguraopalem
+Kri-I-52-Ghantasala,GHANTASALA-MB,Vemulapalli,Vemulapalle-3
+Kri-I-52-Ghantasala,GHANTASALA-MB,Yelakalakuduru,Elikala Kuduru
+Kri-I-52-Vuyyuru,VUYYURU-MB,Katuru,Katuru
+Kri-I-52-Ghantasala,GHANTASALA-MB,Yendakuduru,Endakuduru
+Kri-I-52-Vuyyuru,VUYYURU-MB,Bollapadu,Bollapadu
+Kri-I-52-Gudivada,GUDIVADA-MB,Bethavolu,Bethavolu  (Rural)
+Kri-I-52-Vuyyuru,VUYYURU-MB,Saipuram,Saipuram
+Kri-I-52-Gudivada,GUDIVADA-MB,Billapadu,Billapadu (Rural)
+Kri-I-52-Gudivada,GUDIVADA-MB,Bommuluru,Bommuluru-1
+Kri-I-52-Vuyyuru,VUYYURU-MB,Akunuru,Akunuru
+Kri-I-52-Gudivada,GUDIVADA-MB,Chinayerukapadu,China Yerukapadu
+Kri-I-52-Gudivada,GUDIVADA-MB,Chowtapalli,Chowtapalle-1
+Kri-I-52-Gudivada,GUDIVADA-MB,Dondapadu,Dondapadu-3
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Edulamaddali,Edulamaddali
+Kri-I-52-Gudivada,GUDIVADA-MB,Gudivada,Gudivada (M)
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Juvvanapudi,Juvvanapudi
+Kri-I-52-Gudivada,GUDIVADA-MB,Kalvapudiagraharam,Kalvapudi Agraharam
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Vanapamula,Vanapamula
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Kornipadu,Kornipadu
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Ravulapadu,Ravulapadu
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Gurivindagunta,Gurivindagunta
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Maheswarapuram,Maheswarapuram
+Kri-I-52-Gudivada,GUDIVADA-MB,Lingavaram,Lingavaram-2
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Ventrapragada,Ventrapragada
+Kri-I-52-Gudivada,GUDIVADA-MB,Mandapadu,Mandapadu (Rural)
+Kri-I-52-Gudivada,GUDIVADA-MB,Merakagudem,Merakagudem-1
+Kri-I-52-Gudivada,GUDIVADA-MB,Nagavarappadu (Gudivada (M),Nagavarappadu-1
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Vinjarampadu,Vinjarampadu
+Kri-I-52-Gudivada,GUDIVADA-MB,Pedayerukapadu,Pedayerukapadu (Rural)
+Kri-I-52-Gudivada,GUDIVADA-MB,Ramachanrapuram,Ramachandrapuram-11
+Kri-I-52-Gudivada,GUDIVADA-MB,Seridintikurru,Seri Dintakurru
+Kri-I-52-Gudivada,GUDIVADA-MB,Serigolvepalli,Seri Golvepalle
+Kri-I-52-Gudivada,GUDIVADA-MB,Guntakoduru,Guntakoduru
+Kri-I-52-Gudivada,GUDIVADA-MB,Moturu,Moturu
+Kri-I-52-Gudivada,GUDIVADA-MB,Saidepudi,Saidepudi
+Kri-I-52-Gudivada,GUDIVADA-MB,Serivelpuru,Seri Velpur
+Kri-I-52-Gudivada,GUDIVADA-MB,Chilakamudi,Chilakamudi
+Kri-I-52-Gudivada,GUDIVADA-MB,Siddantham,Siddhantam
+Kri-I-52-Gudivada,GUDIVADA-MB,Tattivarru,Tativarru
+Kri-I-52-Gudivada,GUDIVADA-MB,Valivarthipadu,Valivarthipadu (Rural)
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Cheruvupalli,Cheruvupalle
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Chinnagonnuru,Chinagonnuru
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Dokiparru,Dokiparru-1
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Gudlavalleru,Gudlavalleru-1
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Koorada,Kurada-1
+Kri-I-52-Gudivada,GUDIVADA-MB,Gangadharapuram,Gangadharapuram
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Kowtharam,Kowtaram
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Mamidikoolla,Mamidikolla
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Nagavaram,Nagavaram-1
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Serikalvapudi,Seri Kalavapudi
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Vemavaram,Vemavaram-6
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Venuthurumilli,Venuturumilli
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Vulavalapudi,Ulavalapudi
+Kri-I-52-Gudivada,GUDIVADA-MB,Seepudi,Seepudi
+Kri-I-52-Gudivada,GUDIVADA-MB,Kasipudi,Kasipudi
+Kri-I-52-Gudivada,GUDIVADA-MB,Allidoddi,Allidoddi
+Kri-I-52-Guduru,GUDUR-MB,Gurijepalli,Gurjepalle
+Kri-I-52-Gudivada,GUDIVADA-MB,Ramanapudi,Ramanapudi
+Kri-I-52-Gudivada,GUDIVADA-MB,Chirichintala,Chirichintala
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,North valluru,North Valluru
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,South valluru,South Valluru
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Royyuru,Royyuru
+Kri-I-52-Guduru,GUDUR-MB,Idugullapalli,Idugullapalle
+Kri-I-52-Guduru,GUDUR-MB,Jakamcharla,Jakkamcherla
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Penamakuru,Penamakuru
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Garikaparru,Garikaparru
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Boddapadu,Boddapadu
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Chinapulipaka,Chinapulipaka
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Kummamuru,Kummamuru
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Kanakavalli,Kanakavalli
+Kri-I-52-Guduru,GUDUR-MB,Kalpatam,Kalapatam
+Kri-I-52-Guduru,GUDUR-MB,Kanchakoduru,Kanchakodur
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Madhurapuram,Madhurapuram
+Kri-I-52-Guduru,GUDUR-MB,Mallavolu,Mallavolu-1
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Iluru,Iluru
+Kri-I-52-Guduru,GUDUR-MB,Mukkollu,Mukkollu-1
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Hanumanthapuram,Hanumanthapuram
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Mullapudi,Mullapudi
+Kri-I-52-Guduru,GUDUR-MB,Polavaram,Polavaram-8
+Kri-I-52-Guduru,GUDUR-MB,Ramanujavarthanapalli,Ramanuja Varthalapalle
+Kri-I-52-Guduru,GUDUR-MB,Rayavaram,Rayavaram-6
+Kri-I-52-Guduru,GUDUR-MB,Tarakaturu,Tarakaturu-1
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Alapadu,Alapadu-1
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Penumatcha,Penumatcha
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Gopavaram,Gopavaram-7
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Choragudi,Choragudi
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Kaikaluru,Kaikalur-1
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Pallevada,Pallevada-1
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Ramavaram,Ramavaram-4
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Seethanapalli,Seetanapalle
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Veeranki,Veeranki
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Ameenapuram,Ameenapuram
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Kuderu,Kuderu
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Someswaram,Someswaram-1
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Syamalambhapuram,Syamalambapuram
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Thamarakollu,Tamarakollu
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Inapuru,Inapuru
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Mantada,Mantada
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Tadanki,Tadanki
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Inampudi,Inampudi
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Vinjaram,Vinjaram-2
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Gopuvanipalem,Gopuvanipalem
+Kri-I-52-Kalidindi,KALIDINDI-MB,Amaravathi,Amaravathi-2
+Kri-I-52-Kalidindi,KALIDINDI-MB,Kalidindi,Kalidindi-1
+Kri-I-52-Kalidindi,KALIDINDI-MB,Kocherla,Kotcherla-1
+Kri-I-52-Pamarru,PAMARRU-MB,Kurumaddali,Kurumaddali
+Kri-I-52-Pamarru,PAMARRU-MB,Uruturu,Uruturu
+Kri-I-52-Kalidindi,KALIDINDI-MB,Konduru,Konduru-8
+Kri-I-52-Kalidindi,KALIDINDI-MB,Korukollu,Korukollu-1
+Kri-I-52-Kalidindi,KALIDINDI-MB,Pothumarru,Pothumarru-1
+Kri-I-52-Kalidindi,KALIDINDI-MB,Resseve forest area,Kalidindi-1
+Kri-I-52-Pamarru,PAMARRU-MB,Undrapudi,Undrapudi
+Kri-I-52-Pamarru,PAMARRU-MB,Jujjavaram,Jujjavaram
+Kri-I-52-Kalidindi,KALIDINDI-MB,Sanarudravaram,Sana Rudravaram
+Kri-I-52-Kalidindi,KALIDINDI-MB,Tadinada,Thadinada
+Kri-I-52-Kalidindi,KALIDINDI-MB,Venkatapuram,Venkatapuram-17
+Kri-I-52-Pamarru,PAMARRU-MB,Nibhanupudi,Nibhanupudi
+Kri-I-52-Pamarru,PAMARRU-MB,Nimmaluru,Nimmaluru
+Kri-I-52-Kankipadu,KANKIPADU-MB,Godavarru,Godavarru-1
+Kri-I-52-Kankipadu,KANKIPADU-MB,Jagannathapuram,Jagannadhapuram-11
+Kri-I-52-Pamarru,PAMARRU-MB,Kondiparru,Kondiparru
+Kri-I-52-Kankipadu,KANKIPADU-MB,Kandulampadu,Kandalampadu
+Kri-I-52-Pamarru,PAMARRU-MB,Pedamaddali,Pedamaddali
+Kri-I-52-Pamarru,PAMARRU-MB,Addada,Addada
+Kri-I-52-Pamarru,PAMARRU-MB,Inampudi,Inampudi
+Kri-I-52-Kankipadu,KANKIPADU-MB,Kankipadu,Kankipadu-1
+Kri-I-52-Pamarru,PAMARRU-MB,Komaravolu,Komaravolu
+Kri-I-52-Kankipadu,KANKIPADU-MB,Madduru,Madduru-3
+Kri-I-52-Kankipadu,KANKIPADU-MB,Mantena,Manthena
+Kri-I-52-Kankipadu,KANKIPADU-MB,Neppalli,Neppalle
+Kri-I-52-Kankipadu,KANKIPADU-MB,Uppuluru,Uppaluru
+Kri-I-52-Kankipadu,KANKIPADU-MB,Velpuru,Velpuru-2
+Kri-I-52-Koduru,KODURU-MB,Koduru,Koduru-6
+Kri-I-52-Movva,MOVVA-MB,Pedasanagallu,Pedasanagallu
+Kri-I-52-Movva,MOVVA-MB,Barlapudi,Barlapudi
+Kri-I-52-Koduru,KODURU-MB,Lingareddypalem,Lingareddipalem
+Kri-I-52-Movva,MOVVA-MB,Avurupudi,Avurupudi
+Kri-I-52-Movva,MOVVA-MB,Ayyanki,Ayyanki
+Kri-I-52-Movva,MOVVA-MB,Gudapadu,Gudapadu
+Kri-I-52-Movva,MOVVA-MB,Nidumolu,Nidumolu
+Kri-I-52-Movva,MOVVA-MB,Palankipadu,Palankipadu
+Kri-I-52-Movva,MOVVA-MB,Kosuru,Kosuru
+Kri-I-52-Movva,MOVVA-MB,Pedamuttevi,Pedamuttevi
+Kri-I-52-Movva,MOVVA-MB,Vemulamada,Vemulamada
+Kri-I-52-Movva,MOVVA-MB,Chinamuttevi,Chinamuttevi
+Kri-I-52-Koduru,KODURU-MB,Machavaram,Machavaram-8
+Kri-I-52-Koduru,KODURU-MB,Pittalanka,Pittallanka
+Kri-I-52-Koduru,KODURU-MB,Ramakrishnapuram,Ramakrishnapuram-5
+Kri-I-52-Koduru,KODURU-MB,Viswanadhapalli,Viswanadhapalle
+Kri-I-52-Koduru,KODURU-MB,Vullipalem,Ullipalem
+Kri-I-52-Ghantasala,GHANTASALA-MB,Kodali,Kodali
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Cherukumilli,Cherkumilli
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Chinapandrika,China Pandraka
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Endepalli,Endapalle-1
+Kri-I-52-Ghantasala,GHANTASALA-MB,Devarakota,Devarakota
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Entheru,Interu
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Garsapudi,Garisepudi
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Kruthivennu,Kruthivennu-1
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Lakshmipuram,Laxmipuram-6
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Nidamarru,Nidamarru-3
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Reserve forest area,Kruthivennu-1
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Arisepalli,Arisepalle
+Kri-I-52-Ghantasala,GHANTASALA-MB,Chilakalapudi,Chilakalapudi
+Kri-I-52-Ghantasala,GHANTASALA-MB,V.Rudravaram,V.Rudravaram
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Bhogireddypalli,Bhogireddipalle
+Kri-I-52-Ghantasala,GHANTASALA-MB,Daliparru,Daliparru
+Kri-I-52-Ghantasala,GHANTASALA-MB,Chitturpu,Chitturpu
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Bhuddalapalem,Buddalapalem
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Chilakalapudi,Chilakalapudi (Rural)-1
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Chinnapuram,Chinnapuram-1
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Yarlagadda,Yarlagadda
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Nimmagadda,Nimmagadda
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Gokavaram,Gokavaram-4
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Velivolu,Velivolu
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Pagolu,Pagolu
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Gopuvanipalem,Gopuvanipalem-1
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Mangalapuram,Mangalapuram
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Vakkalagadda,Vakkalagadda
+Kri-I-52-Challapalli,CHALLAPALLI-MB,Majeru,Majeru
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Kokkiligadda,Kokkiligadda
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Pedaprolu,Pedaprolu
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Kaptanupalem,Kaptanupalem
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Hussenpalem,Hussainpalem
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Kanuru,Kanuru-2
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Karagraharam,Kara Agraharam
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Kona,Kona-1
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Machavaram,Machavaram (Rural)
+Kri-I-52-Mopidevi,MOPIDEVI-MB,North chiruvolulanka,North Chiruvolulanka
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Mopidevi lanka,Mopidevi Lanka
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Machilipatnam,Machilipatnam (M)
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Manginapudi,Manginapudi-2
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Pallethummalapalem,Palletummalapalem
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Mellamarru,Mellamarru
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Chiruvolu,Chiruvolu
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Pedapatnam,Pedapatnam-1
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Bobbarlanka,Bobbarlanka
+Avanigadda,AVANIGADDA-MB,Puligadda,Puligadda
+Avanigadda,AVANIGADDA-MB,Modumudi,Modumudi
+Avanigadda,AVANIGADDA-MB,Avanigadda,Avanigadda
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Polatithippa,Polatitippa
+Avanigadda,AVANIGADDA-MB,Vekanuru,Vekanuru
+Avanigadda,AVANIGADDA-MB,Aswaraopalem,Aswaraopalem
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Pothepalli,Pothepalle
+Kri-I-52-Nandiwada,NANDIVADA-MB,Oddulameraka,Oddulameraka
+Kri-I-52-Nandiwada,NANDIVADA-MB,Aripirala,Aripirala
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Reserve forest area,Machilipatnam (M)
+Kri-I-52-Nandiwada,NANDIVADA-MB,Kudaravalli,Kudaravalli
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Rudravaram,Rudravaram-7
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,S.N.Gollapalem,Sultannagaram Gollapalem
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Thallapalem,Tallapalem-1
+Kri-I-52-Nandiwada,NANDIVADA-MB,Vennanapudi,Vennanapudi
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Thavisapudi,Tavisipudi
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Appapuram,Appapuram-1
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Ayyavarirudravaram,Ayyavari Rudravaram
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Bhairavapatnam,Bhyravapatnam
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Chintalapudi,Chintapadu
+Kri-I-52-Nandiwada,NANDIVADA-MB,Gandepudi,Gandepudi
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Gannavaram,Gannavaram-4
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Lingala,Lellapudi
+Kri-I-52-Nandiwada,NANDIVADA-MB,Polukonda,Polukonda
+Kri-I-52-Nandiwada,NANDIVADA-MB,Rudrapaka,Rudrapaka
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Mandavalli,Mandavalli-1
+Kri-I-52-Nandiwada,NANDIVADA-MB,Pedalingala,Pedalingala
+Kri-I-52-Nandiwada,NANDIVADA-MB,Chinalingala,Chinalingala
+Kri-I-52-Nandiwada,NANDIVADA-MB,Puttagunta,Puttagunta
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Mokasakalavapudi,Mokhasakalvapudi
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Mudutallapadu,Muduthallapadu
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Munuguru,Manugunuru
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Nutchimilli,Nutchumilli
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Lokamudi,Lokamudi
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Chavalipadu,Chavalipadu
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Pasalapudi,Pasalapudi-2
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Chintapadu,Chintapadu
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Dayyampadu,Dayyampadu
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Pillipadu,Pillipadu
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Pulaparru,Pulaparru
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Kovvadalanka,Kovvadalanka
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Perikigudem,Perikegudem
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Prathipadu,Prathipadu-4
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Ingilipakalanka,Ingilipakalanka
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Nandigamalanka,Nandigamalanka
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Penumakalanka,Penumakalanka
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Sobhanadripuram,Sobhanadripuram-1
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Takkellapadu,Thakkellapadu-1
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Unikili,Unikili-1
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Annavaram,Annavaram-11
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Ayodya,Ayodhya
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Singanapudi,Singanapudi
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Melamarti lanka,Mellamarthi Lanka
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Putlacheruvu,Putlacheruvu
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Merakanapalli,Merakanapalle
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Mopidevi,Mopidevi-1
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Lellapudi,Lellapudi
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Nagayathippa,Nagayatippa
+Kri-I-52-Mandavalli,MANDAVALLI-MB,Kanukollu,Kanukollu
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Pedakallepalli,Pedakallepalle
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Kolletikota,Kolletikota
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Kottada,Kottada
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Penchikalamarru,Penchikalamarru
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Tekupalli,Tekupalle-1
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Bhujabalapatnam,Bhujabalapatnam
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Singapuram,Singapuram
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Gonepadu,Gonepadu
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Atapaka,Atapaka
+Kri-I-52-Mopidevi,MOPIDEVI-MB,Venkatapuram,Venkatapuram-18
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Achavaram,Achavaram
+Kri-I-52-Movva,MOVVA-MB,Batlapenumarru,Bhatla Penumarru
+Kri-I-52-Movva,MOVVA-MB,Kaza,Kaza-3
+Kri-I-52-Movva,MOVVA-MB,Kuchipudi,Kuchipudi-2
+Kri-I-52-Movva,MOVVA-MB,Movva,Movva-1
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Rachapatnam,Rachapatnam
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Varahapatnam,Varahapatnam
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Vadarlapadu,Vadarlapadu
+Kri-I-52-Movva,MOVVA-MB,Pedapudi,Pedapudi-2
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Doddipatla,Doddipatla
+Kri-I-52-Movva,MOVVA-MB,Yeddanapudi,Yaddanapudi
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Alluru,Alluru-2
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Bommanampadu,Bomminampadu
+Kri-I-52-Kaikaluru,KAIKALURU-MB,Vemavarappadu,Vemavarappadu
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Chevuru,Chevuru-1
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Komallapudi,Komallapudi
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Chinakamanapudi,China Kamanapudi
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Devaram,Devaram-1
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Neelipudi,Neelipudi
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Munipeda,Munipeda
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Matlam,Matlam
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Devarapudi,Devapudi
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Chandala,Chandala
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Tadivennu,Tadivennu
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Edapalli,Edepalle
+Kri-I-52-Kruthivennu,KRUTHIVENNU-MB,Chinagollapalem,Chinagollapalem
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Koduru,Koduru-5
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Komarru,Komarru-1
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Madhavaram,Madhavaram-10
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Mudinepalli,Mudinepalle
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Mulakapalli,Mulakalapalle-1
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Kanchadam,Kanchadam
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Pedakamanapudi,Peda Kamanapudi
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Peruru,Peruru-1
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Barripadu,Barripadu
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Senkarshanapuram,Sankarshana Puram
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Vadali,Vadali-1
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Vanuduru,Vanudurru
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Vutukuru,Utukuru-4
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Vyavaka,Vaivaka
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Bhavadevarapalli,Bhavadevarapalle-1
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Chorampudi,Chorampudi
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Chodavaram,Chodavaram-13
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Manimeswaram,Manimeswaram
+Kri-I-52-Bantumilli,BANTUMILLI-MB,Korlapadu,Korlapadu
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Kamanamolu,Kammanamolu
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Nagayalanka,Nagayalanka-1
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Parachivara,Parrachivara
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Reserve forest area,Forest-198
+Kri-I-52-Nandiwada,NANDIVADA-MB,Amanapudi,Anamanapudi
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Guraja,Guraja
+Kri-I-52-Nandiwada,NANDIVADA-MB,Chadurtipadu,Chedurthipadu
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Kakaravada,Kakaravada
+Kri-I-52-Nandiwada,NANDIVADA-MB,Dandiganapudi,Gandepudi
+Kri-I-52-Nandiwada,NANDIVADA-MB,Ilaparru,Ilaparru-1
+Kri-I-52-Nandiwada,NANDIVADA-MB,Janardhanapuram,Janardhanapuram-1
+Kri-I-52-Nandiwada,NANDIVADA-MB,Nandivada,Nandivada-1
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Dakaram,Dakaram
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Peyyeru,Peyyeru
+Kri-I-52-Nandiwada,NANDIVADA-MB,Nuthalapadu,Nuthulapadu
+Kri-I-52-Nandiwada,NANDIVADA-MB,Pedaverivada,Pedavirivada
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Chinapalaparru,Chinapalaparru
+Kri-I-52-Nandiwada,NANDIVADA-MB,Ramapuram,Ramapuram-14
+Kri-I-52-Nandiwada,NANDIVADA-MB,Srinivasapuram,Sreenivasapuram-2
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Singarayapalem,Singarayapalem
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Pedagonnuru,Pedagonnuru
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Gokinampadu,Gokinampadu
+Kri-I-52-Nandiwada,NANDIVADA-MB,Thamirisa,Tamirisa
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Prodduvaka,Prodduvaka
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Korraguntapalem,Korraguntapalem
+Kri-I-52-Nandiwada,NANDIVADA-MB,Thummalapalli,Thummalapalle-1
+Kri-I-52-Pamarru,PAMARRU-MB,Balliparru,Balliparru-1
+Kri-I-52-Pamarru,PAMARRU-MB,Jamidaggumilli,Zamidaggumilli
+Kri-I-52-Pamarru,PAMARRU-MB,Jamigolvepalli,Zamigolvepalle
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Vadavalli,Vadavalli
+Kri-I-52-Pamarru,PAMARRU-MB,Kanumuru,Kanumuru-1
+Kri-I-52-Pamarru,PAMARRU-MB,Kapavaram,Kapavaram-7
+Kri-I-52-Pamarru,PAMARRU-MB,Mallavaram,Mallavaram-11
+Kri-I-52-Pamarru,PAMARRU-MB,Mir-imam-palem,Mir Imam Palem
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Penumalli,Penumalli
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Chigurukota,Chigurukota
+Kri-I-52-Mudinepalli,MUDINEPALLI-MB,Pedapalaparru,Pedapalaparru
+Kri-I-52-Pamarru,PAMARRU-MB,Nimmakuru,Nemmikuru
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Angaluru,Angaluru
+Kri-I-52-Pamarru,PAMARRU-MB,Pamarru,Pamarru-2
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Vinnakota,Vinnakota
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Puritipadu,Puritipadu
+Kri-I-52-Pamarru,PAMARRU-MB,Parakarala,Prakarla
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Seridaggumilli,Seridaggumilli
+Kri-I-52-Pamarru,PAMARRU-MB,Pasumarru,Pasumarru-1
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Chandrala,Chandrala
+Kri-I-52-Pamarru,PAMARRU-MB,Polavaram,Polavaram-7
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Vemugunta,Vemugunta
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Penjendra,Penjendra
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Chitram,Chitram
+Kri-I-52-Pamarru,PAMARRU-MB,Raparla,Raparala
+Kri-I-52-Pamarru,PAMARRU-MB,Remmanapudi,Rimmanapudi
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Pesaramilli,Pesaramilli
+Kri-I-52-Pamarru,PAMARRU-MB,Yelakuru,Yelakurru
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Vemavarappalem,Vemavarappalem
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Agniparru,Aginiparru
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Chennuripalem,Chennuruvaripalem
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Gurajada,Gurazada
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Gurralanka,Gurrala Lanka
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Vadlamannadu,Vadlamannadu
+Kri-I-52-Gudlavalleru,GUDLAVALLERU-MB,Gadepudi,Gadepudi
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Kapileswarapuram,Kapileswarapuram-2
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Krishnapuram,Krishnapuram-17
+Kri-I-52-Pedana,PEDANA-MB,Madaka,Madaka
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Lankapalli,Lankapalle
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Lankapallilanka,Lankapalle  Lanka
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Mamillapalli,Mamillapalle-1
+Kri-I-52-Pedana,PEDANA-MB,Jinjeru,Jinjeru
+Kri-I-52-Pedana,PEDANA-MB,Chevendra,Chevendra
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Marrivada,Marrivada-1
+Kri-I-52-Pedana,PEDANA-MB,Mutcherla,Mutcherla
+Kri-I-52-Pedana,PEDANA-MB,Mutchiligunta,Mutchiligunta
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Meduru,Meduru-1
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Paidikondalavaripalem,Padikondalapalem
+Kri-I-52-Pedana,PEDANA-MB,Kongamcherla,Kongamcherla
+Kri-I-52-Pedana,PEDANA-MB,Kavipuram,Kavipuram
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Pamidimukkala,Pamidimukkala-1
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Phatelanka,Fathelanka
+Kri-I-52-Pedana,PEDANA-MB,Konkepudi,Konkepudi
+Kri-I-52-Pedana,PEDANA-MB,Kuduru,Kuduru
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Srirangapuram,Sreerangapuram-3
+Kri-I-52-Pedana,PEDANA-MB,Nadupuru,Nadupuru
+Kri-I-52-Pamidimukkala,PAMIDIMUKKALA-MB,Velpuru,Velpuru-3
+Kri-I-52-Pedana,PEDANA-MB,Bahussenpalem,Bahussainpalem
+Kri-I-52-Pedana,PEDANA-MB,Lankalakalavagunta,Lankalakalavagunta
+Kri-I-52-Pedana,PEDANA-MB,Balliparru,Balliparru-2
+Kri-I-52-Pedana,PEDANA-MB,Pullapadu,Pullapadu
+Kri-I-52-Pedana,PEDANA-MB,Chennuru,Chennuru-1
+Kri-I-52-Pedana,PEDANA-MB,Chodavaram,Chodavaram-9
+Kri-I-52-Pedana,PEDANA-MB,Devarapalli,Devarapalle-7
+Kri-I-52-Pedana,PEDANA-MB,Dhirisavalli,Dirisavalli
+Kri-I-52-Pedana,PEDANA-MB,Guruvindagunta,Gurivindagunta-1
+Kri-I-52-Guduru,GUDUR-MB,Maddipatla,Maddipatla
+Kri-I-52-Guduru,GUDUR-MB,Ramannapeta,Ramannapeta
+Kri-I-52-Pedana,PEDANA-MB,Kakarlamudi,Kakarlamudi-1
+Kri-I-52-Pedana,PEDANA-MB,Kamalapuram,Kamalapuram-2
+Kri-I-52-Pedana,PEDANA-MB,Koppalli,Koppalle
+Kri-I-52-Pedana,PEDANA-MB,Kummaragunta,Kummarigunta
+Kri-I-52-Guduru,GUDUR-MB,Gandram,Gandram
+Kri-I-52-Guduru,GUDUR-MB,Lellagaruvu,Lellagaruvu
+Kri-I-52-Pedana,PEDANA-MB,Nandamuru,Nandamuru-3
+Kri-I-52-Guduru,GUDUR-MB,Kappaladoddi,Kappaladoddi
+Kri-I-52-Guduru,GUDUR-MB,Akulamannadu,Akulamannadu
+Kri-I-52-Guduru,GUDUR-MB,Kankatava,Kankatava
+Kri-I-52-Guduru,GUDUR-MB,Pinagudurulanka,Pinagudurulanka
+Kri-I-52-Pedana,PEDANA-MB,Nandigama,Nandigama-4
+Kri-I-52-Pedana,PEDANA-MB,Nelakondapalli,Nelakondapalle
+Kri-I-52-Guduru,GUDUR-MB,Chittiguduru,Chittiguduru
+Kri-I-52-Guduru,GUDUR-MB,Guduru,Guduru
+Kri-I-52-Guduru,GUDUR-MB,Narikedalapalem,Narikedalapalem
+Kri-I-52-Guduru,GUDUR-MB,Kokanarayanapalem,Kokanarayanapalem
+Kri-I-52-Guduru,GUDUR-MB,Ramarajupalem,Ramarajupalem
+Kri-I-52-Pedana,PEDANA-MB,Pedana,Pedana (Rural)
+Kri-I-52-Pedana,PEDANA-MB,Penumilli,Penumalli-1
+Kri-I-52-Pedana,PEDANA-MB,Serivatharlapalli,Serivarthala Palle
+Kri-I-52-Pedana,PEDANA-MB,Singarayapalem,Singarayapalem-1
+Kri-I-52-Guduru,GUDUR-MB,Akumarru,Akumarru
+Kri-I-52-Pedana,PEDANA-MB,Vurivi,Urivi
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Appikatla,Appikatla-1
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Bhushanagulla,Bhushanagulla (Rural)
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Chinaparapudi,Chinaparupudi
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Jamidintakorru,Zamidintakurru
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Pedayadara,Pedayadara
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Moparru,Moparru-1
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Pamulapadu,Pamulapadu-4
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Pedaparapudi,Pedaparupudi-1
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Nelakurru,Nelakurru
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Somavarappadu,Somavarappadu-4
+Kri-I-52-Pedaparupudi,PEDAPARUPUDI-MB,Yelamarru,Elamarru
+Kri-I-52-Penamaluru,PENAMALURU-MB,Chodavaram,Chodavaram-5
+Kri-I-52-Penamaluru,PENAMALURU-MB,Ganguru,Ganguru-1
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Gundupalem,Gundupalem
+Kri-I-52-Penamaluru,PENAMALURU-MB,Kanuru,KANNURU
+Kri-I-52-Penamaluru,PENAMALURU-MB,Penamaluru,Penamaluru-1
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Kothapudi,Kothapudi
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Potlapalem,Potlapalem
+Kri-I-52-Penamaluru,PENAMALURU-MB,Poranki,Poranki (Rural)
+Kri-I-52-Penamaluru,PENAMALURU-MB,Vanukuru,Vanukuru-1
+Kri-I-52-Penamaluru,PENAMALURU-MB,Yanamalakuduru,ENAMALAKUDURU
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Chagantipadu,Chagantipadu-1
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Devarapalli,Devarapalle-8
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Gurivindapalli,Gurivindapalle
+Kri-I-52-Machilipatnam,MACHILIPATNAM-MB,Borrapothupalem,Borrapothupalem
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Molakalapalli,Mulakalapalle-2
+Kri-I-52-Thotlavalluru,THOTLAVALLURU-MB,Yekamuru,Yakamuru
+Kri-I-42-Unguturu,UNGUTURU-MB,Amudalapalli,Amudalapalle-1
+Kri-I-42-Unguturu,UNGUTURU-MB,Garapadu,Garapadu-2
+Kri-I-42-Unguturu,UNGUTURU-MB,Indupalli,Indupalle-1
+Kri-I-42-Unguturu,UNGUTURU-MB,Lankapalliagraharam,Lankapalle Agraharam
+Kri-I-52-Koduru,KODURU-MB,Salempalem,Salempalem
+Kri-I-42-Unguturu,UNGUTURU-MB,Nandamuru,Nandamuru-2
+Kri-I-42-Unguturu,UNGUTURU-MB,Ponukumadu,Ponukumadu-1
+Kri-I-42-Unguturu,UNGUTURU-MB,Pottipadu,Pottipadu-5
+Kri-I-52-Koduru,KODURU-MB,Mandapakala,Mandapakala
+Kri-I-42-Unguturu,UNGUTURU-MB,Tharigoppula,Tarigoppula
+Kri-I-42-Unguturu,UNGUTURU-MB,Tharigoppulakandrika,Tarigoppula Khandrika
+Kri-I-42-Unguturu,UNGUTURU-MB,Thelaprolu,Telaprolu
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Edurumondi,Edurumondi
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Ganapeswaram,Ganapeswaram
+Kri-I-42-Unguturu,UNGUTURU-MB,Thuttagunta,Tuttagunta
+Kri-I-42-Unguturu,UNGUTURU-MB,Unguturu,Unguturu-3
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,T.Kothapalem,T.Kothapalem
+Kri-I-42-Unguturu,UNGUTURU-MB,Veldipadu kandrika,Veldipadu Khandrika
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Talagadadeevi,Talagadadeevi
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Etimoga,Etimoga
+Kri-I-52-Nagayalanka,NAGAYALANKA-MB,Nangegadda,Nangegadda
+Kri-I-42-Unguturu,UNGUTURU-MB,Velinuthala,Velinutala
+Kri-I-42-Unguturu,UNGUTURU-MB,Vempadu,Vempadu-9
+Kri-I-52-Vuyyuru,VUYYURU-MB,Chinavogirala,China Ogirala
+Kri-I-52-Vuyyuru,VUYYURU-MB,Jabbarlapudi,Jabarlapudi
+Kri-I-52-Kalidindi,KALIDINDI-MB,Kollapalem,Kollapalem
+Kri-I-52-Vuyyuru,VUYYURU-MB,Kadavatikollu,Kadavakollu
+Kri-I-52-Vuyyuru,VUYYURU-MB,Kaluvapamula,Kalavapamula
+Kri-I-52-Vuyyuru,VUYYURU-MB,Mudunuru,Mudunuru-1
+Kri-I-52-Kalidindi,KALIDINDI-MB,Kondangi,Kondangi
+Kri-I-52-Kalidindi,KALIDINDI-MB,Mattagunta,Mattagunta
+Kri-I-52-Kalidindi,KALIDINDI-MB,Pedalanka,Pedalanka
+Kri-I-52-Vuyyuru,VUYYURU-MB,Pedavogirala,Peda Ogirala
+Kri-I-52-Kalidindi,KALIDINDI-MB,Avakuru,Avakuru
+Kri-I-52-Vuyyuru,VUYYURU-MB,Ramachandrapuram,Ramachandrapuram-10
+Kri-I-52-Vuyyuru,VUYYURU-MB,Veeravalli mukasa,Veeravalli Mokhasa
+Kri-I-52-Vuyyuru,VUYYURU-MB,Vuyyuru(Rural),Vuyyuru-1
