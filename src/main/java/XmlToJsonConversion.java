@@ -451,7 +451,7 @@ public class XmlToJsonConversion {
                         	wbcommand = new Command(cmitank);
                         	ncmitank= new Mitank((Double.parseDouble(fields[6]))+waterbd.non_command.mitank.count,((Double.parseDouble(fields[7])/*+waterbd.nonCommand.mitank.spreadArea_monsoon*/)*0.6),((Double.parseDouble(fields[7]/*+waterbd.nonCommand.mitank.spreadArea_nonmonsoon*/))*0.6),0,120,150,0.00144);
                         	nonCommand = new NonCommand(ncmitank);
-                        	cpqmitank= new Mitank((Double.parseDouble(fields[8]))+waterbd.command_poor_quality.mitank.count,((Double.parseDouble(fields[9])/*+waterbd.commandPoorQuality.mitank.spreadArea_monsoon*/)*0.6),((Double.parseDouble(fields[9])/*+waterbd.commandPoorQuality.mitank.spreadArea_nonmonsoon*/)*0.6),0,120,150,0.00144);
+                        	cpqmitank= new Mitank((Double.parseDouble(fields[8]))+waterbd.poor_quality.mitank.count,((Double.parseDouble(fields[9])/*+waterbd.commandPoorQuality.mitank.spreadArea_monsoon*/)*0.6),((Double.parseDouble(fields[9])/*+waterbd.commandPoorQuality.mitank.spreadArea_nonmonsoon*/)*0.6),0,120,150,0.00144);
                         	commandpoorQuality = new CommandPoorQuality(cpqmitank);
                             waterbd = new waterbodies(wbcommand,nonCommand,commandpoorQuality);
                             waterbodyjson = waterbody.toJson(waterbd);

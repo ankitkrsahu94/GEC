@@ -5,13 +5,13 @@ import java.util.Map;
 public class waterbodies {
 	
 	public Command command;
-	public CommandPoorQuality command_poor_quality;
+	public CommandPoorQuality poor_quality;
 	public NonCommand non_command;
 	
 	waterbodies(Command command,NonCommand nonCommand,CommandPoorQuality commandPoorQuality){
 		this.command= command;
 		this.non_command=nonCommand;
-		this.command_poor_quality=commandPoorQuality;
+		this.poor_quality=commandPoorQuality;
 	}
 
 }

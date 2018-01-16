@@ -14,7 +14,6 @@ public class Constants {
 	public static final String POOR_QUALITY = "poor_quality";
 	public static final String COMMAND_AREA = "command";
 	public static final String NON_COMMAND_AREA = "non_command";
-	public static final String COMMAND_POOR_QUALITY_AREA = "command_poor_quality";
 	public static final String NON_COMMAND_POOR_QUALITY_AREA = "non_command_poor_quality";
 	public static final String RECHARGE_WORTHY_AREA = "recharge_worthy";
 	//Table columns

@@ -485,7 +485,8 @@ public class VillageMetaData {
                 			   villWellDistributionInfo.get(category).put(areaType, new HashMap<String, WellsUtilizationData>());
                 		   
                 		   for(String well : Constants.CATEGORY_WELLS.get(category)){
-                			   double growthRate = (well == "BWs")?3.0:1.0;
+                			   //TODO : later change to BW: 3 : 0
+                			   double growthRate = (well == "BWs")?0.0:0.0;
                 			   double pumpingHours = Constants.PUMPING_HOURS;
                 			   int count = 0;
                 			   int referenceYear = 2011;
@@ -2793,7 +2794,7 @@ public class VillageMetaData {
                         	wbcommand = new Command(cmitank);
                         	ncmitank= new Mitank((Utils.parseDouble(fields[6]))+waterbd.non_command.mitank.count,((Utils.parseDouble(fields[7])+waterbd.non_command.mitank.spreadArea)),0,120,150,0.00144);
                         	nonCommand = new NonCommand(ncmitank);
-                        	cpqmitank= new Mitank((Utils.parseDouble(fields[8]))+waterbd.command_poor_quality.mitank.count,((Utils.parseDouble(fields[9])+waterbd.command_poor_quality.mitank.spreadArea)),0,120,150,0.00144);
+                        	cpqmitank= new Mitank((Utils.parseDouble(fields[8]))+waterbd.poor_quality.mitank.count,((Utils.parseDouble(fields[9])+waterbd.poor_quality.mitank.spreadArea)),0,120,150,0.00144);
                         	commandpoorQuality = new CommandPoorQuality(cpqmitank);
                             waterbd = new waterbodies(wbcommand,nonCommand,commandpoorQuality);
                             waterbodyjson = waterbody.toJson(waterbd);

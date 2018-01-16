@@ -628,8 +628,8 @@ public class BasinXmltojson {
 									150, 0.00144);
 							nonCommand = new NonCommand(ncmitank);
 							cpqmitank = new Mitank(
-									(Double.parseDouble(fields[8])) + waterbd.command_poor_quality.mitank.count,
-									((Double.parseDouble(fields[9]) + waterbd.command_poor_quality.mitank.spreadArea)),
+									(Double.parseDouble(fields[8])) + waterbd.poor_quality.mitank.count,
+									((Double.parseDouble(fields[9]) + waterbd.poor_quality.mitank.spreadArea)),
 									0, 120, 150, 0.00144);
 							commandpoorQuality = new CommandPoorQuality(cpqmitank);
 							waterbd = new waterbodies(wbcommand, nonCommand, commandpoorQuality);
