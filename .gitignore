@@ -5,5 +5,5 @@
 **/.project
 **/.*~*
 final_scripts/
-
+**/.orig
 /target/
