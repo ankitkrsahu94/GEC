@@ -1,0 +1,903 @@
+"Sr.no",,,"Village name","T.Area (ha)","Watershed command area ",,,,"Watershed Non command Area",,,,"Watershed poor quality Area",,,
+,"Water shed code","Watershed name",,,"Recghare","Hilly","Forest","Total","Recghare","Hilly","Forest","Total","Recghare","Hilly","Forest","Total"
+1,"05_I_40_01","WG_I_Tammileru_Chintalapudi","Gurubhartlagudem",305.6,0,0,0,0,305.6,0,0,305.6,0,0,0,0
+2,"05_I_40_02","WG_I_Tammileru_Chintalapudi","Lingagudem",377.6,0,0,0,0,377.6,0,0,377.6,0,0,0,0
+3,"05_I_40_03","WG_I_Tammileru_Chintalapudi","Raghavapuram",3614.8,0,0,0,0,3614.8,0,0,3614.8,0,0,0,0
+4,"05_I_40_04","WG_I_Tammileru_Chintalapudi","Talarlapalli",482.4,82,0,0,82,400,0,0,400,0,0,0,0
+5,"05_I_40_05","WG_I_Tammileru_Chintalapudi","Venkatrayapuram",139.2,0,0,0,0,139.2,0,0,139.2,0,0,0,0
+6,"05_I_40_06","WG_I_Tammileru_Chintalapudi","Endapalli",2219.2,0,0,0,0,2219.2,0,0,2219.2,0,0,0,0
+7,"05_I_40_07","WG_I_Tammileru_Chintalapudi","Yarrampalli",1044.8,45,0,0,45,1000,0,0,1000,0,0,0,0
+8,"05_I_40_08","WG_I_Tammileru_Chintalapudi","Amudalachalakka",108.8,0,0,0,0,108.8,0,0,108.8,0,0,0,0
+9,"05_I_40_09","WG_I_Tammileru_Chintalapudi","Chintalapudi ",3842.8,0,0,0,0,3842.8,0,0,3842.8,0,0,0,0
+10,"05_I_40_10","WG_I_Tammileru_Chintalapudi","Potunuru",440,0,0,0,0,440,0,0,440,0,0,0,0
+11,"05_I_40_11","WG_I_Tammileru_Chintalapudi","Mallayagudem",474.4,0,0,0,0,474.4,0,0,474.4,0,0,0,0
+12,"05_I_40_12","WG_I_Tammileru_Chintalapudi","Urlagudem",630.8,0,0,0,0,630.8,0,0,630.8,0,0,0,0
+13,"05_I_40_13","WG_I_Tammileru_Chintalapudi","Ayyaparajugudem",1302,0,0,0,0,1302,0,0,1302,0,0,0,0
+14,"05_I_40_14","WG_I_Tammileru_Chintalapudi","Bhogolu",2399,0,0,0,0,2399,0,0,2399,0,0,0,0
+15,"05_I_40_15","WG_I_Tammileru_Chintalapudi","Chandrannapalem",143,0,0,0,0,143,0,0,143,0,0,0,0
+16,"05_I_40_16","WG_I_Tammileru_Chintalapudi","Dharmajigudem",1291,0,0,0,0,1291,0,0,1291,0,0,0,0
+17,"05_I_40_17","WG_I_Tammileru_Chintalapudi","Kalarayanagudem",1285,0,0,0,0,1285,0,0,1285,0,0,0,0
+18,"05_I_40_18","WG_I_Tammileru_Chintalapudi","Kalyanampadu",716,16,0,0,16,700,0,0,700,0,0,0,0
+19,"05_I_40_19","WG_I_Tammileru_Chintalapudi","Konijarla",1070,0,0,0,0,1070,0,0,1070,0,0,0,0
+20,"05_I_40_20","WG_I_Tammileru_Chintalapudi","Kothapalli",1146,0,0,0,0,1146,0,0,1146,0,0,0,0
+21,"05_I_40_21","WG_I_Tammileru_Chintalapudi","Lingapalem",344,0,0,0,0,344,0,0,344,0,0,0,0
+22,"05_I_40_22","WG_I_Tammileru_Chintalapudi","Malleshwaram",377,0,0,0,0,377,0,0,377,0,0,0,0
+23,"05_I_40_23","WG_I_Tammileru_Chintalapudi","Mathamgudem",472,0,0,0,0,472,0,0,472,0,0,0,0
+24,"05_I_40_24","WG_I_Tammileru_Chintalapudi","Pochavaram",57,0,0,0,0,57,0,0,57,0,0,0,0
+25,"05_I_40_25","WG_I_Tammileru_Chintalapudi","Singagudem",1096,0,0,0,0,1096,0,0,1096,0,0,0,0
+26,"05_I_40_26","WG_I_Tammileru_Chintalapudi","T.Ch.R.Palem",1226,26,0,0,26,1200,0,0,1200,0,0,0,0
+27,"05_I_40_27","WG_I_Tammileru_Chintalapudi","Mulagapalampadu",794,0,0,0,0,794,0,0,794,0,0,0,0
+28,"05_I_40_28","WG_I_Tammileru_Chintalapudi","Yadavalli",1125,200,0,0,200,925,0,0,925,0,0,0,0
+29,"05_I_40_29","WG_I_Tammileru_Chintalapudi","Bapirajugudem",1736,0,0,0,0,1736,0,0,1736,0,0,0,0
+30,"05_I_40_30","WG_I_Tammileru_Chintalapudi","Nadipalli",396,0,0,0,0,396,0,0,396,0,0,0,0
+31,"05_I_40_31","WG_I_Tammileru_Chintalapudi","Rajampalem",104,0,0,0,0,104,0,0,104,0,0,0,0
+32,"05_I_37_03","WG_I_Yerrakalva 2_Devulapalli","Ch.potepalli",1124,0,0,0,0,1124,0,0,1124,0,0,0,0
+33,"05_I_37_04","WG_I_Yerrakalva 2_Devulapalli","Dorasanipadu",684,0,0,0,0,684,0,0,684,0,0,0,0
+34,"05_I_37_05","WG_I_Yerrakalva 2_Devulapalli","G.Kothapali",1530,0,0,0,0,1530,0,0,1530,0,0,0,0
+35,"05_I_37_06","WG_I_Yerrakalva 2_Devulapalli","IS Jagannadhaprm",2207,0,0,0,0,2207,0,54,2207,0,0,0,0
+36,"05_I_37_07","WG_I_Yerrakalva 2_Devulapalli","IS Raghavaprm ",1633,0,0,0,0,1633,0,759,1633,0,0,0,0
+37,"05_I_37_08","WG_I_Yerrakalva 2_Devulapalli","Kodigudem",1253,0,0,0,0,1253,0,0,1253,0,0,0,0
+38,"05_I_37_09","WG_I_Yerrakalva 2_Devulapalli","Gundagolanukunta",727,0,0,0,0,727,0,0,727,0,0,0,0
+39,"05_I_37_10","WG_I_Yerrakalva 2_Devulapalli","Malleswaram",54,0,0,0,0,54,0,0,54,0,0,0,0
+40,"05_I_37_11","WG_I_Yerrakalva 2_Devulapalli","Kommara (N)",596,0,0,0,0,596,0,0,596,0,0,0,0
+41,"05_I_37_12","WG_I_Yerrakalva 2_Devulapalli","Kommara [S]",383,0,0,0,0,383,0,0,383,0,0,0,0
+42,"05_I_37_13","WG_I_Yerrakalva 2_Devulapalli","Ammapalem",1047,0,0,0,0,1047,0,0,1047,0,0,0,0
+43,"05_I_37_14","WG_I_Yerrakalva 2_Devulapalli","Devulapalli",853,0,0,0,0,853,0,0,853,0,0,0,0
+44,"05_I_37_15","WG_I_Yerrakalva 2_Devulapalli","Lakkavaram ",1847,0,0,0,0,1847,0,0,1847,0,0,0,0
+45,"05_I_37_16","WG_I_Yerrakalva 2_Devulapalli","Nimmalagudem",755,0,0,0,0,755,0,0,755,0,0,0,0
+46,"05_I_37_17","WG_I_Yerrakalva 2_Devulapalli","KamavarapuKota  ",3646,0,0,0,0,3646,0,0,3646,0,0,0,0
+47,"05_I_37_18","WG_I_Yerrakalva 2_Devulapalli","Kondagudem",360,0,0,0,0,360,0,0,360,0,0,0,0
+48,"05_I_37_19","WG_I_Yerrakalva 2_Devulapalli","Ramannapalem",502,0,0,0,0,502,0,0,502,0,0,0,0
+49,"05_I_37_20","WG_I_Yerrakalva 2_Devulapalli","Ravikampadu",1294,0,0,0,0,1294,0,0,1294,0,0,0,0
+50,"05_I_37_21","WG_I_Yerrakalva 2_Devulapalli","Uppalapadu",903,0,0,0,0,903,0,0,903,0,0,0,0
+51,"05_I_37_22","WG_I_Yerrakalva 2_Devulapalli","Yadavalli ",808,0,0,0,0,808,0,0,808,0,0,0,0
+52,"05_I_37_23","WG_I_Yerrakalva 2_Devulapalli","Veerampalem",1193,350,0,0,350,843,0,0,843,0,0,0,0
+53,"05_I_37_24","WG_I_Yerrakalva 2_Devulapalli","Kunavaram",403,153,0,0,153,250,0,0,250,0,0,0,0
+54,"05_I_37_25","WG_I_Yerrakalva 2_Devulapalli","Kommugudem",1368,160,0,0,160,1208,0,0,1208,0,0,0,0
+55,"05_I_37_26","WG_I_Yerrakalva 2_Devulapalli","Dubacherla",4839,0,0,0,0,4839,0,1089,4839,0,0,0,0
+56,"05_I_37_27","WG_I_Yerrakalva 2_Devulapalli","Amumonilanka",1740,0,0,0,0,1740,0,0,1740,0,0,0,0
+57,"05_I_37_28","WG_I_Yerrakalva 2_Devulapalli","Nallajerla",3964,0,0,0,0,3964,0,1089,3964,0,0,0,0
+58,"05_I_37_29","WG_I_Yerrakalva 2_Devulapalli","Marellamudi",926,0,0,0,0,926,0,0,926,0,0,0,0
+59,"05_I_37_30","WG_I_Yerrakalva 2_Devulapalli","Ananthapalli",2372,0,0,0,0,2372,0,0,2372,0,0,0,0
+60,"05_I_37_31","WG_I_Yerrakalva 2_Devulapalli","Cheepurugudem",685,0,0,0,0,685,0,0,685,0,0,0,0
+61,"05_I_37_32","WG_I_Yerrakalva 2_Devulapalli","Gundepalli",1169,0,0,0,0,1169,0,0,1169,0,0,0,0
+62,"05_I_37_33","WG_I_Yerrakalva 2_Devulapalli","Chodavaram",404,0,0,0,0,404,0,0,404,0,0,0,0
+63,"05_I_37_34","WG_I_Yerrakalva 2_Devulapalli","Prakasaraopalem",1129,0,0,0,0,1129,0,0,1129,0,0,0,0
+64,"05_I_37_35","WG_I_Yerrakalva 2_Devulapalli","Telikacherla",1931,0,0,0,0,1931,0,0,1931,0,0,0,0
+65,"05_E_29_09","WG_E_Kondrukota (Polavaram)","Cheeduru",174,87,0,0,87,87,0,0,87,,0,0,0
+66,"05_E_29_10","WG_E_Kondrukota (Polavaram)","Chegondapalli",679,0,0,0,0,679,0,0,679,,0,0,0
+67,"05_E_29_11","WG_E_Kondrukota (Polavaram)","Kondrukota",516,0,0,0,0,516,0,0,516,,0,0,0
+68,"05_E_29_12","WG_E_Kondrukota (Polavaram)","Koruturu",178,0,0,0,0,178,0,0,178,,0,0,0
+69,"05_E_29_13","WG_E_Kondrukota (Polavaram)","Pydipaka",318,0,0,0,0,318,0,0,318,,0,0,0
+70,"05_E_29_14","WG_E_Kondrukota (Polavaram)","Ravigudem",16,0,0,0,0,16,0,0,16,,0,0,0
+71,"05_E_29_15","WG_E_Kondrukota (Polavaram)","Singanapalli",89,45,0,0,45,44,0,0,44,,0,0,0
+72,"05_E_29_16","WG_E_Kondrukota (Polavaram)","Sirivaka",14,0,0,0,0,14,0,0,14,,0,0,0
+73,"05_E_29_17","WG_E_Kondrukota (Polavaram)","Sivagiri",130,100,0,0,100,30,0,0,30,,0,0,0
+74,"05_E_29_18","WG_E_Kondrukota (Polavaram)","Tekuru",155,0,0,0,0,155,0,0,155,,0,0,0
+75,"05_E_29_19","WG_E_Kondrukota (Polavaram)","Tutugunta",318,48,0,0,48,270,0,0,270,,0,0,0
+76,"05_I_33","WG_I_Chityala_Tallapudi","Bandapuram",1569,569,0,0,569,1000,0,0,1000,0,0,0,0
+77,"05_I_34","WG_I_Chityala_Tallapudi","Duddukuru",841,441,0,0,441,400,0,0,400,0,0,0,0
+78,"05_I_35","WG_I_Chityala_Tallapudi","Bhimolu",2451,1451,0,0,1451,1000,0,0,1000,0,0,0,0
+79,"05_I_36","WG_I_Chityala_Tallapudi","Cherukumilli",1147,0,0,0,0,1147,0,0,1147,0,0,0,0
+80,"05_I_37","WG_I_Chityala_Tallapudi","Chityala",1263,463,0,0,463,800,0,0,800,0,0,0,0
+81,"05_I_38","WG_I_Chityala_Tallapudi","Gangolu",2658,658,0,0,658,2000,0,0,2000,0,0,0,0
+82,"05_I_39","WG_I_Chityala_Tallapudi","Gopalapuram",1782,782,0,0,782,1000,0,0,1000,0,0,0,0
+83,"05_I_40","WG_I_Chityala_Tallapudi","Guddigudem",741,350,0,0,350,391,0,0,391,0,0,0,0
+84,"05_I_41","WG_I_Chityala_Tallapudi","Karagapadu",1816,0,0,0,0,1816,0,850,1816,0,0,0,0
+85,"05_I_42","WG_I_Chityala_Tallapudi","Karicherlagudem",1001,500,0,0,500,501,0,0,501,0,0,0,0
+86,"05_I_43","WG_I_Chityala_Tallapudi","Komatikunta ",803,0,0,0,0,803,0,0,803,0,0,0,0
+87,"05_I_44","WG_I_Chityala_Tallapudi","Kovvurupadu",1068,568,0,0,568,500,0,0,500,0,0,0,0
+88,"05_I_45","WG_I_Chityala_Tallapudi","Nandigudem ",1657,0,0,0,0,1657,0,119,1657,0,0,0,0
+89,"05_I_46","WG_I_Chityala_Tallapudi","Saggonda",400,150,0,0,150,250,0,0,250,0,0,0,0
+90,"05_I_47","WG_I_Chityala_Tallapudi","Sagipadu",412,0,0,0,0,412,0,0,412,0,0,0,0
+91,"05_I_48","WG_I_Chityala_Tallapudi","Vadalakunta ",921,0,0,0,0,921,0,0,921,0,0,0,0
+92,"05_I_49","WG_I_Chityala_Tallapudi","Vellachintalagudem",1747,747,0,0,747,1000,0,0,1000,0,0,0,0
+93,"05_I_50","WG_I_Chityala_Tallapudi","Venkatayapalem",667,0,0,0,0,667,0,0,667,0,0,0,0
+94,"05_I_51","WG_I_Chityala_Tallapudi","Jaganadhapuram",525,0,0,0,0,525,0,0,525,0,0,0,0
+95,"05_I_52","WG_I_Chityala_Tallapudi","Annadevarapeta",1810,810,0,0,810,1000,0,0,1000,0,0,0,0
+96,"05_I_53","WG_I_Chityala_Tallapudi","Ballipadu",102,50,0,0,50,52,0,0,52,0,0,0,0
+97,"05_I_54","WG_I_Chityala_Tallapudi","Bayyavaram",362,62,0,0,62,174,126,0,300,0,0,0,0
+98,"05_I_55","WG_I_Chityala_Tallapudi","Gajjaram",674,200,0,0,200,474,0,0,474,0,0,0,0
+99,"05_I_56","WG_I_Chityala_Tallapudi","Kukunuru",219,69,0,0,69,150,0,0,150,0,0,0,0
+100,"05_I_57","WG_I_Chityala_Tallapudi","Nallamillipadu",172,72,0,0,72,100,0,0,100,0,0,0,0
+101,"05_I_58","WG_I_Chityala_Tallapudi","Pochavaram",243,43,0,0,43,200,0,0,200,0,0,0,0
+102,"05_I_59","WG_I_Chityala_Tallapudi","Prakkilanka",1304,304,0,0,304,1000,0,0,1000,0,0,0,0
+103,"05_I_60","WG_I_Chityala_Tallapudi","Ragolupalli",249,49,0,0,49,195,5,0,200,0,0,0,0
+104,"05_I_61","WG_I_Chityala_Tallapudi","Tadipudi",240,80,0,0,80,160,0,0,160,0,0,0,0
+105,"05_I_62","WG_I_Chityala_Tallapudi","Tallapudi",113,40,0,0,40,73,0,0,73,0,0,0,0
+106,"05_I_63","WG_I_Chityala_Tallapudi","Tirugudumetta",545,145,0,0,145,400,0,0,400,0,0,0,0
+107,"05_I_64","WG_I_Chityala_Tallapudi","Tupakulagudem",895,95,0,0,95,593,207,0,800,0,0,0,0
+108,"05_I_65","WG_I_Chityala_Tallapudi","Veerbhadrapuram",187,87,0,0,87,100,0,0,100,0,0,0,0
+109,"05_I_66","WG_I_Chityala_Tallapudi","Vegeswarapuram",798,98,0,0,98,700,0,0,700,0,0,0,0
+110,"05_I_67","WG_I_Chityala_Tallapudi","Peddevam",991,90,0,0,90,901,0,0,901,0,0,0,0
+111,"05_I_33_11","WG_I_Kovvuru_Dommeru","Chagallu",2460,460,0,0,460,2000,0,0,2000,0,0,0,0
+112,"05_I_33_12","WG_I_Kovvuru_Dommeru","Daravaram",308,100,0,0,100,208,0,0,208,0,0,0,0
+113,"05_I_33_13","WG_I_Kovvuru_Dommeru","Mallavaram",725,200,0,0,200,525,0,0,525,0,0,0,0
+114,"05_I_33_14","WG_I_Kovvuru_Dommeru","Markondapadu",836,136,0,0,136,700,0,0,700,0,0,0,0
+115,"05_I_33_15","WG_I_Kovvuru_Dommeru","Nelaturu",220,100,0,0,100,120,0,0,120,0,0,0,0
+116,"05_I_33_16","WG_I_Kovvuru_Dommeru","S.Muppavaram",124,24,0,0,24,100,0,0,100,0,0,0,0
+117,"05_I_33_17","WG_I_Kovvuru_Dommeru","Gowripatnam",1103,103,0,0,103,1000,0,0,1000,0,0,0,0
+118,"05_I_33_18","WG_I_Kovvuru_Dommeru","Kondagudem",330,130,0,0,130,200,0,0,200,0,0,0,0
+119,"05_I_33_19","WG_I_Kovvuru_Dommeru","Laxmipuram",1046,46,0,0,46,1000,0,0,1000,0,0,0,0
+120,"05_I_33_20","WG_I_Kovvuru_Dommeru","Arikirevala",348,148,0,0,148,200,0,0,200,0,0,0,0
+121,"05_I_33_21","WG_I_Kovvuru_Dommeru","Chidipi",170,70,0,0,70,100,0,0,100,0,0,0,0
+122,"05_I_33_22","WG_I_Kovvuru_Dommeru","Chigurulanka",82,32,0,0,32,50,0,0,50,0,0,0,0
+123,"05_I_33_23","WG_I_Kovvuru_Dommeru","Decherla",768,68,0,0,68,700,0,0,700,0,0,0,0
+124,"05_I_33_24","WG_I_Kovvuru_Dommeru","Dharmavaram",719,119,0,0,119,600,0,0,600,0,0,0,0
+125,"05_I_33_25","WG_I_Kovvuru_Dommeru","Dommeru",1565,565,0,0,565,1000,0,0,1000,0,0,0,0
+126,"05_I_33_26","WG_I_Kovvuru_Dommeru","I.Pangidi",637,37,0,0,37,600,0,0,600,0,0,0,0
+127,"05_I_33_27","WG_I_Kovvuru_Dommeru","Kovvuru",1503,503,0,0,503,1000,0,0,1000,0,0,0,0
+128,"05_I_33_28","WG_I_Kovvuru_Dommeru","Kumaradevam",674,174,0,0,174,500,0,0,500,0,0,0,0
+129,"05_I_33_29","WG_I_Kovvuru_Dommeru","Madduru",675,175,0,0,175,500,0,0,500,0,0,0,0
+130,"05_I_33_30","WG_I_Kovvuru_Dommeru","Maddurulanka",244,100,0,0,100,144,0,0,144,0,0,0,0
+131,"05_I_33_31","WG_I_Kovvuru_Dommeru","Nandamuru",280,80,0,0,80,200,0,0,200,0,0,0,0
+132,"05_I_33_32","WG_I_Kovvuru_Dommeru","Pasivedala",559,159,0,0,159,400,0,0,400,0,0,0,0
+133,"05_I_33_33","WG_I_Kovvuru_Dommeru","Penakarametta",470,70,0,0,70,400,0,0,400,0,0,0,0
+134,"05_I_33_34","WG_I_Kovvuru_Dommeru","Togummi",289,189,0,0,189,100,0,0,100,0,0,0,0
+135,"05_I_33_35","WG_I_Kovvuru_Dommeru","Vadapalli",910,110,0,0,110,800,0,0,800,0,0,0,0
+136,"05_I_33_36","WG_I_Kovvuru_Dommeru","Vemuluru",696,96,0,0,96,600,0,0,600,0,0,0,0
+137,"05_I_33_37","WG_I_Kovvuru_Dommeru","Malakapalli",876,176,0,0,176,700,0,0,700,0,0,0,0
+138,"05_I_33_38","WG_I_Kovvuru_Dommeru","Ravurupadu",152,52,0,0,52,100,0,0,100,0,0,0,0
+139,"05_I_37_13","WG_I_Nidadavolu_Arugolanu","Madhavaram",1689,0,0,0,0,1689,0,0,1689,0,0,0,0
+140,"05_I_37_14","WG_I_Nidadavolu_Arugolanu","Jagannadhapuram",1689,789,0,0,789,900,0,0,900,0,0,0,0
+141,"05_I_37_15","WG_I_Nidadavolu_Arugolanu","Nandamuru",289,289,0,0,289,0,0,0,0,0,0,0,0
+142,"05_I_37_16","WG_I_Nidadavolu_Arugolanu","Arulla",687,387,0,0,387,300,0,0,300,0,0,0,0
+143,"05_I_37_17","WG_I_Nidadavolu_Arugolanu","Navabpalem",282,282,0,0,282,0,0,0,0,0,0,0,0
+144,"05_I_37_18","WG_I_Nidadavolu_Arugolanu","Aurgolanu",1935,135,0,0,135,1800,0,0,1800,0,0,0,0
+145,"05_I_37_19","WG_I_Nidadavolu_Arugolanu","Apparaopeta",1403,403,0,0,403,1000,0,0,1000,0,0,0,0
+146,"05_I_37_20","WG_I_Nidadavolu_Arugolanu","Atlapadu",237,237,0,0,237,0,0,0,0,0,0,0,0
+147,"05_I_37_21","WG_I_Nidadavolu_Arugolanu","D.Muppavaram",154,154,0,0,154,0,0,0,0,0,0,0,0
+148,"05_I_37_22","WG_I_Nidadavolu_Arugolanu","Gopavaram",424,424,0,0,424,0,0,0,0,0,0,0,0
+149,"05_I_37_23","WG_I_Nidadavolu_Arugolanu","Jeedigunta",261,261,0,0,261,0,0,0,0,0,0,0,0
+150,"05_I_37_24","WG_I_Nidadavolu_Arugolanu","Kalavacherla",385,385,0,0,385,0,0,0,0,0,0,0,0
+151,"05_I_37_25","WG_I_Nidadavolu_Arugolanu","Korupalli",295,295,0,0,295,0,0,0,0,0,0,0,0
+152,"05_I_37_26","WG_I_Nidadavolu_Arugolanu","Munipalli",334,334,0,0,334,0,0,0,0,0,0,0,0
+153,"05_I_37_27","WG_I_Nidadavolu_Arugolanu","Nidadavolu",2745,2000,0,0,2000,745,0,0,745,0,0,0,0
+154,"05_I_37_28","WG_I_Nidadavolu_Arugolanu","Pandalaparru",459,459,0,0,459,0,0,0,0,0,0,0,0
+155,"05_I_37_29","WG_I_Nidadavolu_Arugolanu","Pendyala",291,291,0,0,291,0,0,0,0,0,0,0,0
+156,"05_I_37_30","WG_I_Nidadavolu_Arugolanu","Purushottapalli",339,0,0,0,0,339,0,0,339,0,0,0,0
+157,"05_I_37_31","WG_I_Nidadavolu_Arugolanu","Timmarajupalem",137,137,0,0,137,0,0,0,0,0,0,0,0
+158,"05_I_37_32","WG_I_Nidadavolu_Arugolanu","Vijjeswaram",283,283,0,0,283,0,0,0,0,0,0,0,0
+159,"05_I_37_33","WG_I_Nidadavolu_Arugolanu","Jeediguntalanka",106,106,0,0,106,0,0,0,0,0,0,0,0
+160,"05_I_37_34","WG_I_Nidadavolu_Arugolanu","Korumamidi ",1135,0,0,0,0,1135,0,0,1135,0,0,0,0
+161,"05_I_37_35","WG_I_Nidadavolu_Arugolanu","Ravimetla ",729,350,0,0,350,379,0,0,379,0,0,0,0
+162,"05_I_37_36","WG_I_Nidadavolu_Arugolanu","Sankarapuram",265,265,0,0,265,0,0,0,0,0,0,0,0
+163,"05_I_37_37","WG_I_Nidadavolu_Arugolanu","Singavaram ",892,0,0,0,0,892,0,0,892,0,0,0,0
+164,"05_I_37_38","WG_I_Nidadavolu_Arugolanu","Surapuram ",195,195,0,0,195,0,0,0,0,0,0,0,0
+165,"05_I_37_39","WG_I_Nidadavolu_Arugolanu","Tadimalla",1615,615,0,0,615,1000,0,0,1000,0,0,0,0
+166,"05_I_37_40","WG_I_Nidadavolu_Arugolanu","Unakaramilli ",278,0,0,0,0,278,0,0,278,0,0,0,0
+167,"05_I_37_41","WG_I_Nidadavolu_Arugolanu","Vissampalem",135,135,0,0,135,0,0,0,0,0,0,0,0
+168,"05_I_37_42","WG_I_Nidadavolu_Arugolanu","J.Khandrika",67,67,0,0,67,0,0,0,0,0,0,0,0
+169,"05_I_37_43","WG_I_Nidadavolu_Arugolanu","Settipeta",842,842,0,0,842,0,0,0,0,0,0,0,0
+170,"05_I_37_44","WG_I_Nidadavolu_Arugolanu","Brahmanagudem ",379,379,0,0,379,0,0,0,0,0,0,0,0
+171,"05_I_37_45","WG_I_Nidadavolu_Arugolanu","Chikkala ",3750,0,0,0,0,3750,0,0,3750,0,0,0,0
+172,"05_I_37_46","WG_I_Nidadavolu_Arugolanu","Kalavalapalli ",1265,0,0,0,0,1265,0,0,1265,0,0,0,0
+173,"05_I_37_47","WG_I_Nidadavolu_Arugolanu","Nandigampadu",238,0,0,0,0,238,0,0,238,0,0,0,0
+174,"05_I_37_48","WG_I_Nidadavolu_Arugolanu","Unagatla",624,0,0,0,0,624,0,0,624,0,0,0,0
+175,"05_I_14","WG_I_Jagannapeta","Jaggannapeta",944,0,0,0,0,944,0,0,944,0,0,0,0
+176,"05_I_15","WG_I_Jagannapeta","Kadakatla",759,0,0,0,0,759,0,0,759,0,0,0,0
+177,"05_I_16","WG_I_Jagannapeta","kadiadda",2176,0,0,0,0,2176,0,0,2176,0,0,0,0
+178,"05_I_17","WG_I_Jagannapeta","Kondrupolu",1036,0,0,0,0,1036,0,0,1036,0,0,0,0
+179,"05_I_18","WG_I_Jagannapeta","Kunchinapalli",1144,0,0,0,0,1144,0,0,1144,0,0,0,0
+180,"05_I_19","WG_I_Jagannapeta","Padala",421,0,0,0,0,421,0,0,421,0,0,0,0
+181,"05_I_20","WG_I_Jagannapeta","Tadepalli",2303,803,0,0,803,1500,0,0,1500,0,0,0,0
+182,"05_I_21","WG_I_Jagannapeta","Tadepalligudem (U)",748,748,0,0,748,0,0,0,0,0,0,0,0
+183,"05_I_22","WG_I_Jagannapeta","Tallamudurupadu",166,166,0,0,166,0,0,0,0,0,0,0,0
+184,"05_I_23","WG_I_Jagannapeta","Yagallapalli",250,250,0,0,250,0,0,0,0,0,0,0,0
+185,"05_I_24","WG_I_Jagannapeta","Krishnayapalem",304,304,0,0,304,0,0,0,0,0,0,0,0
+186,"05_I_25","WG_I_Jagannapeta","Venkataramannagudem",609,0,0,0,0,609,0,0,609,0,0,0,0
+187,"05_I_26","WG_I_Jagannapeta","Badampudi",1087,500,0,0,500,587,0,0,587,0,0,0,0
+188,"05_I_27","WG_I_Jagannapeta","Bommidi",800,800,0,0,800,0,0,0,0,0,0,0,0
+189,"05_I_28","WG_I_Jagannapeta","Chebrolu",1624,624,0,0,624,1000,0,0,1000,0,0,0,0
+190,"05_I_29","WG_I_Jagannapeta","Dontavaram",331,331,0,0,331,0,0,0,0,0,0,0,0
+191,"05_I_30","WG_I_Jagannapeta","Kagupadu",607,607,0,0,607,0,0,0,0,0,0,0,0
+192,"05_I_31","WG_I_Jagannapeta","Kakarlamudi",765,765,0,0,765,0,0,0,0,0,0,0,0
+193,"05_I_32","WG_I_Jagannapeta","Rachuru",1382,1382,0,0,1382,0,0,0,0,0,0,0,0
+194,"05_I_33","WG_I_Jagannapeta","Ravulaparru",637,637,0,0,637,0,0,0,0,0,0,0,0
+195,"05_I_34","WG_I_Jagannapeta","Unguturu",4405,405,0,0,405,4000,0,0,4000,0,0,0,0
+196,"05_I_35","WG_I_Jagannapeta","V.Apparaopuram",190,0,0,0,0,190,0,0,190,0,0,0,0
+197,"05_I_36","WG_I_Jagannapeta","Vellamilli",1090,0,0,0,0,1090,0,0,1090,0,0,0,0
+198,"05_I_37","WG_I_Jagannapeta","Avapadu",2781,2400,0,0,2400,381,0,0,381,0,0,0,0
+199,"05_I_38","WG_I_Bhimadole_Bhimadole","Ambarupeta",2220,0,0,0,0,2220,0,0,2220,0,0,0,0
+200,"05_I_39","WG_I_Bhimadole_Bhimadole","Duddepudi",329,0,0,0,0,329,0,0,329,0,0,0,0
+201,"05_I_40","WG_I_Bhimadole_Bhimadole","Kodurupadu",490,0,0,0,0,490,0,0,490,0,0,0,0
+202,"05_I_41","WG_I_Bhimadole_Bhimadole","Polasanipalli",882,0,0,0,0,882,0,0,882,0,0,0,0
+203,"05_I_42","WG_I_Bhimadole_Bhimadole","Vempadu",431,0,0,0,0,431,0,0,431,0,0,0,0
+204,"05_I_43","WG_I_Bhimadole_Bhimadole","Bhimadole",2020,700,0,0,700,1320,0,0,1320,0,0,0,0
+205,"05_I_44","WG_I_Bhimadole_Bhimadole","Pulla",3766,3166,0,0,3166,600,0,0,600,0,0,0,0
+206,"05_I_45","WG_I_Bhimadole_Bhimadole","D.Tirumala",218,0,0,0,0,218,0,0,218,0,0,0,0
+207,"05_I_46","WG_I_Bhimadole_Bhimadole","Dadavali",123,0,0,0,0,123,0,0,123,0,0,0,0
+208,"05_I_47","WG_I_Bhimadole_Bhimadole","Golladikuntakhandr",74,0,0,0,0,74,0,0,74,0,0,0,0
+209,"05_I_48","WG_I_Bhimadole_Bhimadole","Gopikuntakhandrika",24,0,0,0,0,24,0,0,24,0,0,0,0
+210,"05_I_49","WG_I_Bhimadole_Bhimadole","Gunnampalli",2123,623,0,0,623,1500,0,0,1500,0,0,0,0
+211,"05_I_50","WG_I_Bhimadole_Bhimadole","Jajulakunta",370,0,0,0,0,370,0,0,370,0,0,0,0
+212,"05_I_51","WG_I_Bhimadole_Bhimadole","Krishnapuram",342,0,0,0,0,342,0,0,342,0,0,0,0
+213,"05_I_52","WG_I_Bhimadole_Bhimadole","Lingaraopalem",215,0,0,0,0,215,0,0,215,0,0,0,0
+214,"05_I_53","WG_I_Bhimadole_Bhimadole","Malasanikunta",412,0,0,0,0,412,0,0,412,0,0,0,0
+215,"05_I_54","WG_I_Bhimadole_Bhimadole","Narayanapuram",2461,1200,0,0,1200,1261,0,0,1261,0,0,0,0
+216,"05_I_55","WG_I_Bhimadole_Bhimadole","P.Kannapuram",230,0,0,0,0,230,0,0,230,0,0,0,0
+217,"05_I_56","WG_I_Bhimadole_Bhimadole","Rallakunta",531,0,0,0,0,531,0,0,531,0,0,0,0
+218,"05_I_57","WG_I_Bhimadole_Bhimadole","Ramannagudem",915,0,0,0,0,915,0,0,915,0,0,0,0
+219,"05_I_58","WG_I_Bhimadole_Bhimadole","Sarabhapuram",282,0,0,0,0,282,0,0,282,0,0,0,0
+220,"05_I_59","WG_I_Bhimadole_Bhimadole","Sathenagedem",436,0,0,0,0,436,0,0,436,0,0,0,0
+221,"05_I_60","WG_I_Bhimadole_Bhimadole","sattala",255,0,0,0,0,255,0,0,255,0,0,0,0
+222,"05_I_61","WG_I_Bhimadole_Bhimadole","Timmapuram",791,0,0,0,0,791,0,0,791,0,0,0,0
+223,"05_I_62","WG_I_Bhimadole_Bhimadole","Tirumalapalem",2013,0,0,0,0,2013,0,0,2013,0,0,0,0
+224,"05_I_63","WG_I_Bhimadole_Bhimadole","Vkrishnaprm",407,0,0,0,0,407,0,0,407,0,0,0,0
+225,"05_I_64","WG_I_Bhimadole_Bhimadole","Kommugudem",271,0,0,0,0,271,0,0,271,0,0,0,0
+226,"05_I_65","WG_I_Bhimadole_Bhimadole","H. Lingapalem",274,0,0,0,0,274,0,0,274,0,0,0,0
+227,"05_I_66","WG_I_Bhimadole_Bhimadole","Pangidigudem",2355,0,0,0,0,2355,0,0,2355,0,0,0,0
+228,"05_I_67","WG_I_Bhimadole_Bhimadole","M. Nagulapalli",806,0,0,0,0,806,0,0,806,0,0,0,0
+229,"05_I_68","WG_I_Bhimadole_Bhimadole","Sayanaraopalem ",106,0,0,0,0,106,0,0,106,0,0,0,0
+230,"05_I_69","WG_I_Bhimadole_Bhimadole","V.P. Nuthanam",404,0,0,0,0,404,0,0,404,0,0,0,0
+231,"05_I_70","WG_I_Bhimadole_Bhimadole","A.Gokavaram",966.39,0,0,0,0,966,0,0,966,0,0,0,0
+232,"05_I_71","WG_I_Bhimadole_Bhimadole","Chebrolukhandrika ©",217,100,0,0,100,117,0,0,117,0,0,0,0
+233,"05_I_72","WG_I_Bhimadole_Bhimadole","Gopinadhapatnam",589.22,0,0,0,0,589,0,0,589,0,0,0,0
+234,"05_I_73","WG_I_Bhimadole_Bhimadole","Kaikaram ©",2446.72,1047,0,0,1047,1400,0,0,1400,0,0,0,0
+235,"05_I_74","WG_I_Bhimadole_Bhimadole","Nallamadu",2908,0,0,0,0,2908,0,0,2908,0,0,0,0
+236,"05_I_75","WG_I_Bhimadole_Bhimadole","Tallapuram ©",253,0,0,0,0,253,0,0,253,0,0,0,0
+237,"05_I_39_16","WG_I_Gunderu_Pedavegi","Pragadavaram",3815,0,0,0,0,3815,0,3767,3815,0,0,0,0
+238,"05_I_39_17","WG_I_Gunderu_Pedavegi","Kanupeda",876,0,0,0,0,876,0,0,876,0,0,0,0
+239,"05_I_39_18","WG_I_Gunderu_Pedavegi","Venkampalem",353,0,0,0,0,353,0,0,353,0,0,0,0
+240,"05_I_39_19","WG_I_Gunderu_Pedavegi","Timmeriddipalli",539,0,0,0,0,539,0,0,539,0,0,0,0
+241,"05_I_39_20","WG_I_Gunderu_Pedavegi","Ponukumadu",304,0,0,0,0,304,0,0,304,0,0,0,0
+242,"05_I_39_21","WG_I_Gunderu_Pedavegi","Sankuchakarapuram",231,0,0,0,0,231,0,0,231,0,0,0,0
+243,"05_I_39_22","WG_I_Gunderu_Pedavegi","Akkireddigudem",73,0,0,0,0,73,0,0,73,0,0,0,0
+244,"05_I_39_23","WG_I_Gunderu_Pedavegi","Ch. Chintalapudi",1459,0,0,0,0,1459,0,0,1459,0,0,0,0
+245,"05_I_39_24","WG_I_Gunderu_Pedavegi","Denduluru",2867,800,0,0,800,2067,0,0,2067,0,0,0,0
+246,"05_I_39_25","WG_I_Gunderu_Pedavegi","Dosapadu ©",607,607,0,0,607,0,0,0,0,0,0,0,0
+247,"05_I_39_26","WG_I_Gunderu_Pedavegi","Galayagudem",282,0,0,0,0,282,0,0,282,0,0,0,0
+248,"05_I_39_27","WG_I_Gunderu_Pedavegi","Gopannapalem",172,0,0,0,0,172,0,0,172,0,0,0,0
+249,"05_I_39_28","WG_I_Gunderu_Pedavegi","Gudigunta",920,0,0,0,0,920,0,0,920,0,0,0,0
+250,"05_I_39_29","WG_I_Gunderu_Pedavegi","Komarepalli",248,248,0,0,248,0,0,0,0,0,0,0,0
+251,"05_I_39_30","WG_I_Gunderu_Pedavegi","Kothagudem",1081,0,0,0,0,1081,0,0,1081,0,0,0,0
+252,"05_I_39_31","WG_I_Gunderu_Pedavegi","Kovvali ©",2967,2967,0,0,2967,0,0,0,0,0,0,0,0
+253,"05_I_39_32","WG_I_Gunderu_Pedavegi","Malakacherla",359,0,0,0,0,358,0,0,358,0,0,0,0
+254,"05_I_39_33","WG_I_Gunderu_Pedavegi","Medinaraopalem",805,0,0,0,0,805,0,0,805,0,0,0,0
+255,"05_I_39_34","WG_I_Gunderu_Pedavegi","Muppavaram",161,161,0,0,161,0,0,0,0,0,0,0,0
+256,"05_I_39_35","WG_I_Gunderu_Pedavegi","Naguladevunipadu",254,0,0,0,0,254,0,0,254,0,0,0,0
+257,"05_I_39_36","WG_I_Gunderu_Pedavegi","Narasimhapuram",152,100,0,0,100,52,0,0,52,0,0,0,0
+258,"05_I_39_37","WG_I_Gunderu_Pedavegi","Pothunuru",2625,2625,0,0,2625,0,0,0,0,0,0,0,0
+259,"05_I_39_38","WG_I_Gunderu_Pedavegi","Ramaraogudem",246,0,0,0,0,246,0,0,246,0,0,0,0
+260,"05_I_39_39","WG_I_Gunderu_Pedavegi","Sanigudem",492,0,0,0,0,492,0,0,492,0,0,0,0
+261,"05_I_39_40","WG_I_Gunderu_Pedavegi","Singavaram",314,314,0,0,314,0,0,0,0,0,0,0,0
+262,"05_I_39_41","WG_I_Gunderu_Pedavegi","Sriramavaram",566,0,0,0,0,566,0,0,566,0,0,0,0
+263,"05_I_39_42","WG_I_Gunderu_Pedavegi","Timmanagudem",152,0,0,0,0,152,0,0,152,0,0,0,0
+264,"05_I_39_43","WG_I_Gunderu_Pedavegi","Uppugudem",268,268,0,0,268,0,0,0,0,0,0,0,0
+265,"05_I_39_44","WG_I_Gunderu_Pedavegi","Vegavaram",297,0,0,0,0,297,0,0,297,0,0,0,0
+266,"05_I_39_45","WG_I_Gunderu_Pedavegi","Sommavarapadu",576,0,0,0,0,576,0,0,576,0,0,0,0
+267,"05_I_39_46","WG_I_Gunderu_Pedavegi","Kothapalli",354,254,0,0,254,100,0,0,100,0,0,0,0
+268,"05_I_39_47","WG_I_Gunderu_Pedavegi","Challapalli",322,222,0,0,222,100,0,0,100,0,0,0,0
+269,"05_I_39_48","WG_I_Gunderu_Pedavegi","Ankalampadu",821,0,0,0,0,821,0,0,821,0,0,0,0
+270,"05_I_39_49","WG_I_Gunderu_Pedavegi","Guntupalli",496,0,0,0,0,496,0,0,496,0,0,0,0
+271,"05_I_39_50","WG_I_Gunderu_Pedavegi","K.S.Ramavaram",902,0,0,0,0,902,0,0,902,0,0,0,0
+272,"05_I_39_51","WG_I_Gunderu_Pedavegi","Kallacheruvu",1136,0,0,0,0,1136,0,0,1136,0,0,0,0
+273,"05_I_39_52","WG_I_Gunderu_Pedavegi","Mysannagudem",1290,0,0,0,0,1290,0,0,1290,0,0,0,0
+274,"05_I_39_53","WG_I_Gunderu_Pedavegi","Polasigudem",150,0,0,0,0,150,0,0,150,0,0,0,0
+275,"05_I_39_54","WG_I_Gunderu_Pedavegi","R. Nagulapalli",1326,0,0,0,0,1326,0,0,1326,0,0,0,0
+276,"05_I_39_55","WG_I_Gunderu_Pedavegi","Tadikalapudi",6078,0,0,0,0,6078,0,0,6078,0,0,0,0
+277,"05_I_39_56","WG_I_Gunderu_Pedavegi","Mankenapalli",144,0,0,0,0,144,0,0,144,0,0,0,0
+278,"05_I_39_57","WG_I_Gunderu_Pedavegi","Assannagudem",462,0,0,0,0,462,0,0,462,0,0,0,0
+279,"05_I_39_58","WG_I_Gunderu_Pedavegi","Badarala",525,0,0,0,0,525,0,0,525,0,0,0,0
+280,"05_I_39_59","WG_I_Gunderu_Pedavegi","Ganapavarigudem",200,0,0,0,0,200,0,0,200,0,0,0,0
+281,"05_I_39_60","WG_I_Gunderu_Pedavegi","K. Gokavaram",1397,0,0,0,0,1397,0,0,1397,0,0,0,0
+282,"05_I_39_61","WG_I_Gunderu_Pedavegi","Mudicherla",761,0,0,0,0,761,0,0,761,0,0,0,0
+283,"05_I_39_62","WG_I_Gunderu_Pedavegi","Pachanagaram",639,0,0,0,0,639,0,0,639,0,0,0,0
+284,"05_I_39_63","WG_I_Gunderu_Pedavegi","Puppalavarigudem",308,0,0,0,0,308,0,0,308,0,0,0,0
+285,"05_I_39_64","WG_I_Gunderu_Pedavegi","Vemulapalli",558,0,0,0,0,558,0,0,558,0,0,0,0
+286,"05_I_39_65","WG_I_Gunderu_Pedavegi","Rangapuram",512,0,0,0,0,512,0,0,512,0,0,0,0
+287,"05_I_39_66","WG_I_Gunderu_Pedavegi","Bethavaram",295,0,0,0,0,295,0,0,295,0,0,0,0
+288,"05_I_39_67","WG_I_Gunderu_Pedavegi","Chakrayagudem",138,0,0,0,0,138,0,0,138,0,0,0,0
+289,"05_I_39_68","WG_I_Gunderu_Pedavegi","K.Kannapuram",295,0,0,0,0,295,0,0,295,0,0,0,0
+290,"05_I_39_69","WG_I_Gunderu_Pedavegi","Munduru",1135,0,0,0,0,1135,0,0,1135,0,0,0,0
+291,"05_I_39_70","WG_I_Gunderu_Pedavegi","Nyayampalli",516,0,0,0,0,516,0,0,516,0,0,0,0
+292,"05_I_39_71","WG_I_Gunderu_Pedavegi","Pedavegi",4048,0,0,0,0,4048,0,0,4048,0,0,0,0
+293,"05_I_39_72","WG_I_Gunderu_Pedavegi","T.Gokavaram",845,0,0,0,0,845,0,0,845,0,0,0,0
+294,"05_I_39_73","WG_I_Gunderu_Pedavegi","Vegiwada",953,0,0,0,0,953,0,0,953,0,0,0,0
+295,"05_I_39_74","WG_I_Gunderu_Pedavegi","Ramasingavaram",3839,0,0,0,0,3839,0,33,3839,0,0,0,0
+296,"05_I_39_75","WG_I_Gunderu_Pedavegi","Rajupothepalli",2820,0,0,0,0,2820,0,0,2820,0,0,0,0
+297,"05_I_39_76","WG_I_Gunderu_Pedavegi","Kethavaram",2334,0,0,0,0,2334,0,0,2334,0,0,0,0
+298,"05_I_39_77","WG_I_Gunderu_Pedavegi","Tedlam",1486,0,0,0,0,1486,0,0,1486,0,0,0,0
+299,"05_I_39_78","WG_I_Gunderu_Pedavegi","Sriramvaram",461,0,0,0,0,461,0,0,461,0,0,0,0
+300,"05_I_39_79","WG_I_Gunderu_Pedavegi","Krisnaraopalem",503,0,0,0,0,503,0,0,503,0,0,0,0
+301,"05_I_39_80","WG_I_Gunderu_Pedavegi","Lingaraopalem",533,0,0,0,0,533,0,0,533,0,0,0,0
+302,"05_I_39_81","WG_I_Gunderu_Pedavegi","Gudlapalli",993,0,0,0,0,993,0,0,993,0,0,0,0
+303,"05_I_39_82","WG_I_Gunderu_Pedavegi","A. Ch. Raju Palem",2189,0,0,0,0,2189,0,0,2189,0,0,0,0
+304,"05_I_39_83","WG_I_Gunderu_Pedavegi","Gundagolanu",1437,0,0,0,0,1437,0,0,1437,0,0,0,0
+305,"05_I_39_84","WG_I_Gunderu_Pedavegi","Surappagudem",964,0,0,0,0,964,0,0,964,0,0,0,0
+306,"05_I_39_85","WG_I_Gunderu_Pedavegi","Agadalanka (C)",6392,6392,0,0,6392,0,0,0,0,6392,0,0,6392
+307,"05_I_39_86","WG_I_Gunderu_Pedavegi","Chettunnapadu",2078,2078,0,0,2078,0,0,0,0,2078,0,0,2078
+308,"05_I_39_87","WG_I_Gunderu_Pedavegi","Mallavaram",1074,1074,0,0,1074,0,0,0,0,1074,0,0,1074
+309,"05_I_39_88","WG_I_Gunderu_Pedavegi","Pydichintapadu",1017,1017,0,0,1017,0,0,0,0,1017,0,0,1017
+310,"05_I_39_89","WG_I_Gunderu_Pedavegi","Kokkirailanka",655,655,0,0,655,0,0,0,0,655,0,0,655
+311,"05_I_39_90","WG_I_Gunderu_Pedavegi","Prattikollanka",1228,1228,0,0,1228,0,0,0,0,1228,0,0,1228
+312,"05_I_39_91","WG_I_Gunderu_Pedavegi","Gudivakalanka",1852,1852,0,0,1852,0,0,0,0,1852,0,0,1852
+313,"05_I_39_92","WG_I_Gunderu_Pedavegi","Komatilanka",652,652,0,0,652,0,0,0,0,652,0,0,652
+314,"05_I_39_93","WG_I_Gunderu_Pedavegi","Malkapuram",938,938,0,0,938,0,0,0,0,938,0,0,938
+315,"05_I_40_17","WG_I_Tammileru South_Eluru","M.V.Varigudem",134,0,0,0,0,134,0,0,134,0,0,0,0
+316,"05_I_40_18","WG_I_Tammileru South_Eluru","Kondalaraopalem",698,0,0,0,0,698,0,0,698,0,0,0,0
+317,"05_I_40_19","WG_I_Tammileru South_Eluru","Gokinapalli",140,0,0,0,0,140,0,0,140,0,0,0,0
+318,"05_I_40_20","WG_I_Tammileru South_Eluru","Rayannapalem",1227,0,0,0,0,1227,0,0,1227,0,0,0,0
+319,"05_I_40_21","WG_I_Tammileru South_Eluru","Vijayarai",1145,0,0,0,0,1145,0,0,1145,0,0,0,0
+320,"05_I_40_22","WG_I_Tammileru South_Eluru","Muttanaveedu",661,0,0,0,0,661,0,0,661,0,0,0,0
+321,"05_I_40_23","WG_I_Tammileru South_Eluru","Alliveedu",237,0,0,0,0,237,0,0,237,0,0,0,0
+322,"05_I_40_24","WG_I_Tammileru South_Eluru","Jagannadhapuram",955,0,0,0,0,955,0,0,955,0,0,0,0
+323,"05_I_40_25","WG_I_Tammileru South_Eluru","Kavvagunta",458,0,0,0,0,458,0,0,458,0,0,0,0
+324,"05_I_40_26","WG_I_Tammileru South_Eluru","Dondapadu",244,0,0,0,0,244,0,0,244,0,0,0,0
+325,"05_I_40_27","WG_I_Tammileru South_Eluru","Vanguru",686,0,0,0,0,686,0,0,686,0,0,0,0
+326,"05_I_40_28","WG_I_Tammileru South_Eluru"," Katlampudi",196,196,0,0,196,0,0,0,0,0,0,0,0
+327,"05_I_40_29","WG_I_Tammileru South_Eluru"," Jalipudi",2055,2055,0,0,2055,0,0,0,0,0,0,0,0
+328,"05_I_40_30","WG_I_Tammileru South_Eluru"," Komadavolu",350,350,0,0,350,0,0,0,0,0,0,0,0
+329,"05_I_40_31","WG_I_Tammileru South_Eluru","Tangellamudi",484,0,0,0,0,484,0,0,484,0,0,0,0
+330,"05_I_40_32","WG_I_Tammileru South_Eluru","Chataparru",1479,1479,0,0,1479,0,0,0,0,0,0,0,0
+331,"05_I_40_33","WG_I_Tammileru South_Eluru","Chodimella",733,733,0,0,733,0,0,0,0,0,0,0,0
+332,"05_I_40_34","WG_I_Tammileru South_Eluru","Eluru town",2972,0,0,0,0,2972,0,0,2972,0,0,0,0
+333,"05_I_40_35","WG_I_Tammileru South_Eluru","Madepalli",604,604,0,0,604,0,0,0,0,0,0,0,0
+334,"05_I_40_18","WG_I_Pedapadu","B.Singavaram",308,0,0,0,0,308,0,0,308,0,0,0,0
+335,"05_I_40_19","WG_I_Pedapadu","Pinakadimi",510,0,0,0,0,510,0,0,510,0,0,0,0
+336,"05_I_40_20","WG_I_Pedapadu","Duggirala",865,0,0,0,0,865,0,0,865,0,0,0,0
+337,"05_I_40_21","WG_I_Pedapadu","Koppaka",2677,200,0,0,200,2477,0,0,2477,0,0,0,0
+338,"05_I_40_22","WG_I_Pedapadu","Bhogapuram",700,0,0,0,0,700,0,0,700,0,0,0,0
+339,"05_I_40_23","WG_I_Pedapadu","Pedapadu",3066,3066,0,0,3066,0,0,0,0,0,0,0,0
+340,"05_I_40_24","WG_I_Pedapadu","Ravulakunta",124,124,0,0,124,0,0,0,0,0,0,0,0
+341,"05_I_40_25","WG_I_Pedapadu","Satyavolu",1445,1445,0,0,1445,0,0,0,0,0,0,0,0
+342,"05_I_40_26","WG_I_Pedapadu","S.Kothapalli",281,281,0,0,281,0,0,0,0,0,0,0,0
+343,"05_I_40_27","WG_I_Pedapadu","Vasanthavada I",666,666,0,0,666,0,0,0,0,0,0,0,0
+344,"05_I_40_28","WG_I_Pedapadu","Vasanthavada II",534,534,0,0,534,0,0,0,0,0,0,0,0
+345,"05_I_40_29","WG_I_Pedapadu","Amruthalingampeta",181,181,0,0,181,0,0,0,0,0,0,0,0
+346,"05_I_40_30","WG_I_Pedapadu","Gogunta",623,623,0,0,623,0,0,0,0,0,0,0,0
+347,"05_I_40_31","WG_I_Pedapadu","Koniki",1467,1467,0,0,1467,0,0,0,0,0,0,0,0
+348,"05_I_40_32","WG_I_Pedapadu","Rajupeta",373,373,0,0,373,0,0,0,0,0,0,0,0
+349,"05_I_40_33","WG_I_Pedapadu","Nandikeshwarapuram",23,23,0,0,23,0,0,0,0,0,0,0,0
+350,"05_I_40_34","WG_I_Pedapadu","Punukolu",213,213,0,0,213,0,0,0,0,0,0,0,0
+351,"05_I_40_35","WG_I_Pedapadu","Mupparru",1985,1985,0,0,1985,0,0,0,0,0,0,0,0
+352,"05_I_40_36","WG_I_Pedapadu","Kothuru",378,378,0,0,378,0,0,0,0,0,0,0,0
+353,"05_I_40_37","WG_I_Pedapadu","Edulakunta",58,58,0,0,58,0,0,0,0,0,0,0,0
+354,"05_I_40_38","WG_I_Pedapadu","Burugagudem",121,121,0,0,121,0,0,0,0,0,0,0,0
+355,"05_I_40_39","WG_I_Pedapadu","Tallagudem",168,0,0,0,0,168,0,0,168,0,0,0,0
+356,"05_I_40_40","WG_I_Pedapadu","Appanaveedu",830,400,0,0,400,430,0,0,430,0,0,0,0
+357,"05_I_40_41","WG_I_Pedapadu","Epuru",831,0,0,0,0,831,0,0,831,0,0,0,0
+358,"05_I_40_42","WG_I_Pedapadu","Tallamudi",410,0,0,0,0,410,0,0,410,0,0,0,0
+359,"05_I_40_43","WG_I_Pedapadu","Kalaparru",499,99,0,0,99,400,0,0,400,0,0,0,0
+360,"05_I_40_44","WG_I_Pedapadu","Vempadu",789,0,0,0,0,789,0,0,789,0,0,0,0
+361,"05_I_40_45","WG_I_Pedapadu","Gogulapadu",295,295,0,0,295,0,0,0,0,0,0,0,0
+362,"05_I_40_46","WG_I_Pedapadu","Kokkirapadu",1002,0,0,0,0,1002,0,0,1002,0,0,0,0
+363,"05_I_40_47","WG_I_Pedapadu","Vaddigudem",1959,1959,0,0,1959,0,0,0,0,0,0,0,0
+364,"05_I_40_48","WG_I_Pedapadu","Vatluru",2355,1000,0,0,1000,1355,0,0,1355,0,0,0,0
+365,"05_I_40_49","WG_I_Pedapadu","Sanivarapupeta",170,0,0,0,0,170,0,0,170,0,0,0,0
+366,"05_I_40_50","WG_I_Pedapadu","Gavaravaram",143,0,0,0,0,143,0,0,143,0,0,0,0
+367,"05_I_40_51","WG_I_Pedapadu","Satrampadu",137,0,0,0,0,137,0,0,137,0,0,0,0
+368,"05_I_40_52","WG_I_Pedapadu","Ponangi",1847,1847,0,0,1847,0,0,0,0,0,0,0,0
+369,"05_I_40_53","WG_I_Pedapadu","Sriparru",1172,1172,0,0,1172,0,0,0,0,0,0,0,0
+370,"05_I_40_54","WG_I_Pedapadu","Manuru",415,415,0,0,415,0,0,0,0,0,0,0,0
+371,"05_I_40_55","WG_I_Pedapadu","Kalakurru",1703,1703,0,0,1703,0,0,0,0,0,0,0,0
+372,"05_I_36_29","WG_I_ODJS_TANUKU","Duvva",1807,1807,0,0,1807,0,0,0,0,0,0,0,0
+373,"05_I_36_29","WG_I_ODJS_TANUKU","Tetali",722,722,0,0,722,0,0,0,0,0,0,0,0
+374,"05_I_36_29","WG_I_ODJS_TANUKU","Tanuku ",1614,1614,0,0,1614,0,0,0,0,0,0,0,0
+375,"05_I_36_29","WG_I_ODJS_TANUKU","Paidiparru",229,229,0,0,229,0,0,0,0,0,0,0,0
+376,"05_I_36_29","WG_I_ODJS_TANUKU","Mandapaka",1109,1109,0,0,1109,0,0,0,0,0,0,0,0
+377,"05_I_36_29","WG_I_ODJS_TANUKU","Velpuru",836,836,0,0,836,0,0,0,0,0,0,0,0
+378,"05_I_36_29","WG_I_ODJS_TANUKU","Komaravaram",255,255,0,0,255,0,0,0,0,0,0,0,0
+379,"05_I_36_29","WG_I_ODJS_TANUKU","Konala",478,478,0,0,478,0,0,0,0,0,0,0,0
+380,"05_I_36_29","WG_I_ODJS_TANUKU","Muddapuram",310,310,0,0,310,0,0,0,0,0,0,0,0
+381,"05_I_36_29","WG_I_ODJS_TANUKU","T.Vemavaram",187,187,0,0,187,0,0,0,0,0,0,0,0
+382,"05_I_36_29","WG_I_ODJS_TANUKU","Sajjapuram",195,195,0,0,195,0,0,0,0,0,0,0,0
+383,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Kaldari",1078,1078,0,0,1078,0,0,0,0,0,0,0,0
+384,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Velivennu",555,555,0,0,555,0,0,0,0,0,0,0,0
+385,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Dammennu",166,166,0,0,166,0,0,0,0,0,0,0,0
+386,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Chilakapadu",215,215,0,0,215,0,0,0,0,0,0,0,0
+387,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Pasalapudi",832,832,0,0,832,0,0,0,0,0,0,0,0
+388,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Suryaraopalem",461,0,0,0,0,0,0,0,0,461,0,0,461
+389,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Satyavada",461,461,0,0,461,0,0,0,0,0,0,0,0
+390,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Morta",971,971,0,0,971,0,0,0,0,0,0,0,0
+391,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Velagadurru",337,337,0,0,337,0,0,0,0,0,0,0,0
+392,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Tadiparru",577,577,0,0,577,0,0,0,0,0,0,0,0
+393,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Undrajavaram",1094,1094,0,0,1094,0,0,0,0,0,0,0,0
+394,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Vadluru",577,577,0,0,577,0,0,0,0,0,0,0,0
+395,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Chivatam",365,365,0,0,365,0,0,0,0,0,0,0,0
+396,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","K.Savaram",127,127,0,0,127,0,0,0,0,0,0,0,0
+397,"05_I_36_27","WG_I_ODJS_UNDRAJAVARAM","Palangi",298,298,0,0,298,0,0,0,0,0,0,0,0
+398,"05_I_36_28","WG_I_ODJS_Peravali","Nadupalli",422.49,422.49,0,0,422.49,0,0,0,0,0,0,0,0
+399,"05_I_36_28","WG_I_ODJS_Peravali","Kanuru",1031.13,1031.13,0,0,1031.13,0,0,0,0,0,0,0,0
+400,"05_I_36_28","WG_I_ODJS_Peravali","K.Agraharam",462.15,462.15,0,0,462.15,0,0,0,0,0,0,0,0
+401,"05_I_36_28","WG_I_ODJS_Peravali","Usulumarru",472.26,472.26,0,0,472.26,0,0,0,0,0,0,0,0
+402,"05_I_36_28","WG_I_ODJS_Peravali","Teeparru",428.96,428.96,0,0,428.96,0,0,0,0,0,0,0,0
+403,"05_I_36_28","WG_I_ODJS_Peravali","Ajjaram",169.56,169.56,0,0,169.56,0,0,0,0,0,0,0,0
+404,"05_I_36_28","WG_I_ODJS_Peravali","Kakaraparru",601.76,601.76,0,0,601.76,0,0,0,0,0,0,0,0
+405,"05_I_36_28","WG_I_ODJS_Peravali","Peravali ",633.73,633.73,0,0,633.73,0,0,0,0,0,0,0,0
+406,"05_I_36_28","WG_I_ODJS_Peravali","Kapavaram",419.65,419.65,0,0,419.65,0,0,0,0,0,0,0,0
+407,"05_I_36_28","WG_I_ODJS_Peravali","Kothapalli",245.23,245.23,0,0,245.23,0,0,0,0,0,0,0,0
+408,"05_I_36_28","WG_I_ODJS_Peravali","Mukkamala",819.08,819.08,0,0,819.08,0,0,0,0,0,0,0,0
+409,"05_I_36_28","WG_I_ODJS_Peravali","Khandavalli",1370.26,1370.26,0,0,1370.26,0,0,0,0,0,0,0,0
+410,"05_I_36_28","WG_I_ODJS_Peravali","Malleshwaram",687.15,687.15,0,0,687.15,0,0,0,0,0,0,0,0
+411,"05_I_36_28","WG_I_ODJS_Peravali","P.Vemavaram",526.9,526.9,0,0,526.9,0,0,0,0,0,0,0,0
+412,"05_I_36_36","WG_I_36_Iragavaram","Relangi",1588,1588,0,0,1588,0,0,0,0,0,0,0,0
+413,"05_I_36_36","WG_I_36_Iragavaram","Kavalipuram",502,502,0,0,502,0,0,0,0,0,0,0,0
+414,"05_I_36_36","WG_I_36_Iragavaram","Iragavaram",1431,1431,0,0,1431,0,0,0,0,0,0,0,0
+415,"05_I_36_36","WG_I_36_Iragavaram","Ogidi",256,256,0,0,256,0,0,0,0,0,0,0,0
+416,"05_I_36_36","WG_I_36_Iragavaram","Eletipadu",153,153,0,0,153,0,0,0,0,0,0,0,0
+417,"05_I_36_36","WG_I_36_Iragavaram","G.Khandrika",7,7,0,0,7,0,0,0,0,0,0,0,0
+418,"05_I_36_36","WG_I_36_Iragavaram","Ithampudi",83,83,0,0,83,0,0,0,0,0,0,0,0
+419,"05_I_36_36","WG_I_36_Iragavaram","Inaparu",381,381,0,0,381,0,0,0,0,0,0,0,0
+420,"05_I_36_36","WG_I_36_Iragavaram","Kathavapadu",275,275,0,0,275,0,0,0,0,0,0,0,0
+421,"05_I_36_36","WG_I_36_Iragavaram","Kantheru",365,365,0,0,365,0,0,0,0,0,0,0,0
+422,"05_I_36_36","WG_I_36_Iragavaram","Kakileru",394,394,0,0,394,0,0,0,0,0,0,0,0
+423,"05_I_36_36","WG_I_36_Iragavaram","Kothapadu",165,165,0,0,165,0,0,0,0,0,0,0,0
+424,"05_I_36_36","WG_I_36_Iragavaram","Podalada",86,86,0,0,86,0,0,0,0,0,0,0,0
+425,"05_I_36_36","WG_I_36_Iragavaram","Pekeru",521,521,0,0,521,0,0,0,0,0,0,0,0
+426,"05_I_36_36","WG_I_36_Iragavaram","R.Khandrika",119,119,0,0,119,0,0,0,0,0,0,0,0
+427,"05_I_36_36","WG_I_36_Iragavaram","K.Kumudavalli",263,263,0,0,263,0,0,0,0,0,0,0,0
+428,"05_I_36_36","WG_I_36_Iragavaram","Turpuvipparru",310,310,0,0,310,0,0,0,0,0,0,0,0
+429,"05_I_36_36","WG_I_36_Iragavaram","K.Illindalaparru",224,224,0,0,224,0,0,0,0,0,0,0,0
+430,"05_I_36_36","WG_I_36_Iragavaram","Goteru",244,244,0,0,244,0,0,0,0,0,0,0,0
+431,"05_I_36_36","WG_I_36_Iragavaram","Surampudi",206,206,0,0,206,0,0,0,0,0,0,0,0
+432,"05_I_36_36","WG_I_36_Iragavaram","Rapaka",333,333,0,0,333,0,0,0,0,0,0,0,0
+433,"05_I_36_30","WG_I_ODJS_Attili","Attili ",2166,2166,0,0,2166,0,0,0,0,0,0,0,0
+434,"05_I_36_30","WG_I_ODJS_Attili","Pali",281,281,0,0,281,0,0,0,0,0,0,0,0
+435,"05_I_36_30","WG_I_ODJS_Attili","Paluru",323,323,0,0,323,0,0,0,0,0,0,0,0
+436,"05_I_36_30","WG_I_ODJS_Attili","Kommara",751,0,0,0,0,0,0,0,0,751,0,0,751
+437,"05_I_36_30","WG_I_ODJS_Attili","Eduru",542,542,0,0,542,0,0,0,0,0,0,0,0
+438,"05_I_36_30","WG_I_ODJS_Attili","Kanchumarru",341,341,0,0,341,0,0,0,0,0,0,0,0
+439,"05_I_36_30","WG_I_ODJS_Attili","Manchili",794,794,0,0,794,0,0,0,0,0,0,0,0
+440,"05_I_36_30","WG_I_ODJS_Attili","Aravalli",530,530,0,0,530,0,0,0,0,0,0,0,0
+441,"05_I_36_30","WG_I_ODJS_Attili","Skinnerapuram",470,0,0,0,0,0,0,0,0,470,0,0,470
+442,"05_I_36_30","WG_I_ODJS_Attili","Unikili",541,0,0,0,0,0,0,0,0,541,0,0,541
+443,"05_I_36_30","WG_I_ODJS_Attili","Varigedu",720,720,0,0,720,0,0,0,0,0,0,0,0
+444,"05_I_36_30","WG_I_ODJS_Attili","Tirupatipuram",470,470,0,0,470,0,0,0,0,0,0,0,0
+445,"05_I_36_30","WG_I_ODJS_Attili","Ballipadu",462,462,0,0,462,0,0,0,0,0,0,0,0
+446,"05_I_36_30","WG_I_ODJS_Attili","Gummampadu",202,202,0,0,202,0,0,0,0,0,0,0,0
+447,"05_I_36_35","WG_I_ODJS_Penumantra","S.Illindalaparru",462,462,0,0,462,0,0,0,0,462,0,0,462
+448,"05_I_36_35","WG_I_ODJS_Penumantra","Mallipudi",270,270,0,0,270,0,0,0,0,270,0,0,270
+449,"05_I_36_35","WG_I_ODJS_Penumantra","Natharemeshwaram",320,320,0,0,320,0,0,0,0,320,0,0,320
+450,"05_I_36_35","WG_I_ODJS_Penumantra","Juttiga",636,636,0,0,636,0,0,0,0,636,0,0,636
+451,"05_I_36_35","WG_I_ODJS_Penumantra","Neggipudi",178,178,0,0,178,0,0,0,0,178,0,0,178
+452,"05_I_36_35","WG_I_ODJS_Penumantra","Satyavaram",257,257,0,0,257,0,0,0,0,257,0,0,257
+453,"05_I_36_35","WG_I_ODJS_Penumantra","Koyyetipadu",238,238,0,0,238,0,0,0,0,238,0,0,238
+454,"05_I_36_35","WG_I_ODJS_Penumantra","Penumantra ",1302,1302,0,0,1302,0,0,0,0,1302,0,0,1302
+455,"05_I_36_35","WG_I_ODJS_Penumantra","Mamuduru",563,563,0,0,563,0,0,0,0,563,0,0,563
+456,"05_I_36_35","WG_I_ODJS_Penumantra","Polamuru",679,679,0,0,679,0,0,0,0,679,0,0,679
+457,"05_I_36_35","WG_I_ODJS_Penumantra","Batlamaguturu",530,530,0,0,530,0,0,0,0,530,0,0,530
+458,"05_I_36_35","WG_I_ODJS_Penumantra","Alamuru",435,435,0,0,435,0,0,0,0,435,0,0,435
+459,"05_I_36_35","WG_I_ODJS_Penumantra","Velagaleru",92,92,0,0,92,0,0,0,0,92,0,0,92
+460,"05_I_36_35","WG_I_ODJS_Penumantra","Marteru",225,225,0,0,225,0,0,0,0,225,0,0,225
+461,"05_I_36_35","WG_I_ODJS_Penumantra","Oduru",396,396,0,0,396,0,0,0,0,396,0,0,396
+462,"05_I_36_35","WG_I_ODJS_Penumantra","Nelamuru",330,330,0,0,330,0,0,0,0,330,0,0,330
+463,"05_I_36_37","WG_I_ODJS_Penugonda","Vadali",684.98,684.98,0,0,684.98,0,0,0,0,0,0,0,0
+464,"05_I_36_37","WG_I_ODJS_Penugonda","Sidhantham",1162.82,1162.82,0,0,1162.82,0,0,0,0,0,0,0,0
+465,"05_I_36_37","WG_I_ODJS_Penugonda","Elaparru",351.19,351.19,0,0,351.19,0,0,0,0,0,0,0,0
+466,"05_I_36_37","WG_I_ODJS_Penugonda","Ramannapalem",324.89,324.89,0,0,324.89,0,0,0,0,0,0,0,0
+467,"05_I_36_37","WG_I_ODJS_Penugonda","Venkatrampuram",102.76,102.76,0,0,102.76,0,0,0,0,0,0,0,0
+468,"05_I_36_37","WG_I_ODJS_Penugonda","Cherukuwada",627.13,627.13,0,0,627.13,0,0,0,0,0,0,0,0
+469,"05_I_36_37","WG_I_ODJS_Penugonda","Penugonda ",1115.88,1115.88,0,0,1115.88,0,0,0,0,0,0,0,0
+470,"05_I_36_37","WG_I_ODJS_Penugonda","Munamurru",282,282,0,0,282,0,0,0,0,0,0,0,0
+471,"05_I_36_37","WG_I_ODJS_Penugonda","Tamarada",255.7,255.7,0,0,255.7,0,0,0,0,0,0,0,0
+472,"05_I_36_37","WG_I_ODJS_Penugonda","Kotalaparru",224.95,224.95,0,0,224.95,0,0,0,0,0,0,0,0
+473,"05_I_36_37","WG_I_ODJS_Penugonda","Nadipudi",544.59,544.59,0,0,544.59,0,0,0,0,0,0,0,0
+474,"05_I_36_37","WG_I_ODJS_Penugonda","Chinamallam",473.38,473.38,0,0,473.38,0,0,0,0,0,0,0,0
+475,"05_I_36_37","WG_I_ODJS_Penugonda","Mulaparru",663.13,663.13,0,0,663.13,0,0,0,0,0,0,0,0
+476,"05_I_36_37","WG_I_ODJS_Penugonda","Deva",379.91,379.91,0,0,379.91,0,0,0,0,0,0,0,0
+477,"05_I_36_38","WG_I_ODJS_Achanta","Achanta",2101,2101,,,2101,0,,,0,0,,,0
+478,"05_I_36_38","WG_I_ODJS_Achanta","Penumanchili",580,580,,,580,0,,,0,0,,,0
+479,"05_I_36_38","WG_I_ODJS_Achanta","Kodamanchili",822,822,,,822,0,,,0,0,,,0
+480,"05_I_36_38","WG_I_ODJS_Achanta","Pedamallam",407,407,,,407,0,,,0,0,,,0
+481,"05_I_36_38","WG_I_ODJS_Achanta","Koderu",232,232,,,232,0,0,,0,0,,,
+482,"05_I_36_38","WG_I_ODJS_Achanta","Kandaravalli",158,158,,,158,0,,,0,0,,,
+483,"05_I_36_38","WG_I_ODJS_Achanta","Karugoruvilli",477,477,,,477,0,,,0,0,,,
+484,"05_I_36_38","WG_I_ODJS_Achanta","Bhimalapuram",617,617,,,617,0,,,0,0,,,
+485,"05_I_36_38","WG_I_ODJS_Achanta","Valluru",935,935,,,935,0,,,0,0,,,
+486,"05_I_36_38","WG_I_ODJS_Achanta","A.Vemavaram",1145,1145,,,1145,0,,,0,0,,,
+487,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Nidamarru ",995,995,0,0,995,0,0,0,0,0,0,0,
+488,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Chinanindrakolanu",449,449,0,0,449,0,0,0,0,0,0,0,
+489,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Gunaparru",292,292,0,0,292,0,0,0,0,0,0,0,
+490,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Amudalapalli",238,238,0,0,238,0,0,0,0,0,0,0,
+491,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Tokalapalli",486,486,0,0,486,0,0,0,0,0,0,0,
+492,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Bainepalli",310,310,0,0,310,0,0,0,0,0,0,0,
+493,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Devaragopavaram",355,355,0,0,355,0,0,0,0,0,0,0,
+494,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Pedanindrakolanu",1721,1721,0,0,1721,0,0,0,0,0,0,0,
+495,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Narasimhapuram",284,284,0,0,284,0,0,0,0,0,0,0,
+496,"05_I_36_25","WG_I_ODJS_NIDAMARRU","V.Khandrika",41,41,0,0,41,0,0,0,0,0,0,0,
+497,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Mandalaparru",254,254,0,0,254,0,0,0,0,0,0,0,
+498,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Venkatapuram",461,461,0,0,461,0,0,0,0,0,0,0,
+499,"05_I_36_25","WG_I_ODJS_NIDAMARRU","timmaraogudem",453,453,0,0,453,0,0,0,0,0,0,0,
+500,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Adavukolanu",1629,1629,0,0,1629,0,0,0,0,0,0,0,
+501,"05_I_36_25","WG_I_ODJS_NIDAMARRU","P.Ramachandrapuram",55,55,0,0,55,0,0,0,0,0,0,0,
+502,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Naganamilli",139,139,0,0,139,0,0,0,0,0,0,0,
+503,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Buvvanapalli",446,446,0,0,446,0,0,0,0,0,0,0,
+504,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Kakaramilli",90,90,0,0,90,0,0,0,0,0,0,0,
+505,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Enikepali",108,108,0,0,108,0,0,0,0,0,0,0,
+506,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Krishnapuram",59,59,0,0,59,0,0,0,0,0,0,0,
+507,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Sidhapuram",117,117,0,0,117,0,0,0,0,0,0,0,
+508,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Chanamilli",814,814,0,0,814,0,0,0,0,0,0,0,
+509,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Bavaipalem",830,830,0,0,830,0,0,0,0,0,0,0,
+510,"05_I_36_25","WG_I_ODJS_NIDAMARRU","Krovvidi",1022,1022,0,0,1022,0,0,0,0,0,0,0,
+511,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Ganapavaram",619,619,0,0,619,0,0,0,0,0,0,0,
+512,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Jagannadhapuram",350,350,0,0,350,0,0,0,0,0,0,0,
+513,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Saripalli",405,405,0,0,405,0,0,0,0,0,0,0,
+514,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Kothapalli",495,495,0,0,495,0,0,0,0,0,0,0,
+515,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Varadarajapuram",246,246,0,0,246,0,0,0,0,0,0,0,
+516,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Velagapalli",139,139,0,0,139,0,0,0,0,0,0,0,
+517,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Valluru",403,403,0,0,403,0,0,0,0,0,0,0,
+518,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Vereshwarapuram",131,131,0,0,131,0,0,0,0,0,0,0,
+519,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Vakapalli",200,200,0,0,200,0,0,0,0,0,0,0,
+520,"05_I_36_31","WG_I_ODJS_GANAPAVARAM"," Jali Kommara",207,207,0,0,207,0,0,0,0,0,0,0,
+521,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","A.Gopavaram",255,255,0,0,255,0,0,0,0,0,0,0,
+522,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","muggulla",228,228,0,0,228,0,0,0,0,0,0,0,
+523,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Ardhavaram",841,841,0,0,841,0,0,0,0,0,0,0,
+524,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Pippara",1115,1115,0,0,1115,0,0,0,0,0,0,0,
+525,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Venkatrajapuram",59,59,0,0,59,0,0,0,0,0,0,0,
+526,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","J.kakinada",288,288,0,0,288,0,0,0,0,0,0,0,
+527,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Kesavaram",909,909,0,0,909,0,0,0,0,0,0,0,
+528,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Kasipadu",257,257,0,0,257,0,0,0,0,0,0,0,
+529,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Ch.Agraharam",280,280,0,0,280,0,0,0,0,0,0,0,
+530,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Ch.Ramachandrapuram",130,130,0,0,130,0,0,0,0,0,0,0,
+531,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Moyyeru",477,477,0,0,477,0,0,0,0,0,0,0,
+532,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","D.Kumudavalli",215,215,0,0,215,0,0,0,0,0,0,0,
+533,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Komarru",273,273,0,0,273,0,0,0,0,0,0,0,
+534,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","Mupparthipadu",237,237,0,0,237,0,0,0,0,0,0,0,
+535,"05_I_36_31","WG_I_ODJS_GANAPAVARAM","S.Kondepadu",427,427,0,0,427,0,0,0,0,0,0,0,
+536,"05_I_36_26","WG_I_ODJS_Pentapadu","Pentapadu ",363.41,363.41,0,0,363.41,0,0,0,0,0,0,0,
+537,"05_I_36_26","WG_I_ODJS_Pentapadu","D.Ch.Khandrika",50.99,50.99,0,0,50.99,0,0,0,0,0,0,0,
+538,"05_I_36_26","WG_I_ODJS_Pentapadu","Umamaheshwaram",193.44,193.44,0,0,193.44,0,0,0,0,0,0,0,
+539,"05_I_36_26","WG_I_ODJS_Pentapadu","Jatlapalem",906.5,906.5,0,0,906.5,0,0,0,0,0,0,0,
+540,"05_I_36_26","WG_I_ODJS_Pentapadu","Bodapadu",356.53,356.53,0,0,356.53,0,0,0,0,0,0,0,
+541,"05_I_36_26","WG_I_ODJS_Pentapadu","Mudunuru",784.69,784.69,0,0,784.69,0,0,0,0,0,0,0,
+542,"05_I_36_26","WG_I_ODJS_Pentapadu","Akutigapadu",395.38,395.38,0,0,395.38,0,0,0,0,0,0,0,
+543,"05_I_36_26","WG_I_ODJS_Pentapadu","Parimella",494.53,494.53,0,0,494.53,0,0,0,0,0,0,0,
+544,"05_I_36_26","WG_I_ODJS_Pentapadu","K.Pentapadu",636.57,636.57,0,0,636.57,0,0,0,0,0,0,0,
+545,"05_I_36_26","WG_I_ODJS_Pentapadu","Yanalapalli",405.9,405.9,0,0,405.9,0,0,0,0,0,0,0,
+546,"05_I_36_26","WG_I_ODJS_Pentapadu","N.Apparaopuram",65.56,65.56,0,0,65.56,0,0,0,0,0,0,0,
+547,"05_I_36_26","WG_I_ODJS_Pentapadu","W.Vipparru",1486.01,1486.01,0,0,1486.01,0,0,0,0,0,0,0,
+548,"05_I_36_26","WG_I_ODJS_Pentapadu","Recharla",583.56,583.56,0,0,583.56,0,0,0,0,0,0,0,
+549,"05_I_36_26","WG_I_ODJS_Pentapadu","Vallurupalli",327.8,327.8,0,0,327.8,0,0,0,0,0,0,0,
+550,"05_I_36_26","WG_I_ODJS_Pentapadu","Alampuram",603.39,603.39,0,0,603.39,0,0,0,0,0,0,0,
+551,"05_I_36_26","WG_I_ODJS_Pentapadu","Ravipadu",1041.66,1041.66,0,0,1041.66,0,0,0,0,0,0,0,
+552,"05_I_36_26","WG_I_ODJS_Pentapadu","chintapalli",256.98,256.98,0,0,256.98,0,0,0,0,0,0,0,
+553,"05_I_36_26","WG_I_ODJS_Pentapadu","Meenavalluru",618.76,618.76,0,0,618.76,0,0,0,0,0,0,0,
+554,"05_I_36_26","WG_I_ODJS_Pentapadu","Korumilli",267.9,267.9,0,0,267.9,0,0,0,0,0,0,0,
+555,"05_I_36_26","WG_I_ODJS_Pentapadu","B.kondepadu",384.45,384.45,0,0,384.45,0,0,0,0,0,0,0,
+556,"05_I_36_26","WG_I_ODJS_Pentapadu","Prathipadu",538.64,538.64,0,0,538.64,0,0,0,0,0,0,0,
+557,"05_I_36_26","WG_I_ODJS_Pentapadu","Darsiparru",871.29,871.29,0,0,871.29,0,0,0,0,0,0,0,
+558,"05_I_36_33","WG_I_ODJS_Undi","Undi ",1922,1922,0,0,1922,0,0,0,0,0,0,0,
+559,"05_I_36_33","WG_I_ODJS_Undi","Chilukuru",841,841,0,0,841,0,0,0,0,0,0,0,
+560,"05_I_36_33","WG_I_ODJS_Undi","Mahadevapatnam",694,694,0,0,694,0,0,0,0,0,0,0,
+561,"05_I_36_33","WG_I_ODJS_Undi","Velivarru",287,287,0,0,287,0,0,0,0,0,0,0,
+562,"05_I_36_33","WG_I_ODJS_Undi","N.R.P. Agraharam",354,354,0,0,354,0,0,0,0,0,0,0,
+563,"05_I_36_33","WG_I_ODJS_Undi","Yandagandi",1129,1129,0,0,1129,0,0,0,0,0,0,0,
+564,"05_I_36_33","WG_I_ODJS_Undi","Vunudurru",719,719,0,0,719,0,0,0,0,0,0,0,
+565,"05_I_36_33","WG_I_ODJS_Undi","Pedapulleru",287,287,0,0,287,0,0,0,0,0,0,0,
+566,"05_I_36_33","WG_I_ODJS_Undi","Chinapulleru",284,284,0,0,284,0,0,0,0,0,0,0,
+567,"05_I_36_33","WG_I_ODJS_Undi","Vandrum",683,683,0,0,683,0,0,0,0,0,0,0,
+568,"05_I_36_33","WG_I_ODJS_Undi","Cherukuvada",958,958,0,0,958,0,0,0,0,0,0,0,
+569,"05_I_36_33","WG_I_ODJS_Undi","Kalisipudi",355,355,0,0,355,0,0,0,0,0,0,0,
+570,"05_I_36_33","WG_I_ODJS_Undi","Arthamuru",468,468,0,0,468,0,0,0,0,0,0,0,
+571,"05_I_36_33","WG_I_ODJS_Undi","Pamulaparru",456,456,0,0,456,0,0,0,0,0,0,0,
+572,"05_I_36_33","WG_I_ODJS_Undi","Kolamuru",1149,1149,0,0,1149,0,0,0,0,0,0,0,
+573,"05_I_36_33","WG_I_ODJS_Undi","Uppuluru",593,593,0,0,593,0,0,0,0,0,0,0,
+574,"05_I_36_33","WG_I_ODJS_Undi","Pamduvva",571,571,0,0,571,0,0,0,0,0,0,0,
+575,"05_I_36_33","WG_I_ODJS_Undi","P.Khandrika",139,139,0,0,139,0,0,0,0,0,0,0,
+576,"05_I_36_33","WG_I_ODJS_Undi","Aredu",709,709,0,0,709,0,0,0,0,0,0,0,
+577,"05_I_36_33","WG_I_ODJS_Undi","Kaligotla",323,323,0,0,323,0,0,0,0,0,0,0,
+578,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Akiveedu",1122,1122,0,0,1122,0,0,0,0,0,0,0,
+579,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Dumpagadapa",402,402,0,0,402,0,0,0,0,0,0,0,
+580,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Sidhapuram",1314,1314,0,0,1314,0,0,0,0,0,0,0,
+581,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Arjamuru",196,196,0,0,196,0,0,0,0,0,0,0,
+582,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Kollaparru",1175,1175,0,0,1175,0,0,0,0,0,0,0,
+583,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Kolleru",959,959,0,0,959,0,0,0,0,0,0,0,
+584,"05_I_36_32","WG_I_ODJS_AKIVEEDU","I.Bhimavaram",709,709,0,0,709,0,0,0,0,0,0,0,
+585,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Cherukumilli",678,678,0,0,678,0,0,0,0,0,0,0,
+586,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Kuppanapudi",650,650,0,0,650,0,0,0,0,0,0,0,
+587,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Taratava",243,243,0,0,243,0,0,0,0,0,0,0,
+588,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Gummuluru",751,751,0,0,751,0,0,0,0,0,0,0,
+589,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Chinakapavaram",991,991,0,0,991,0,0,0,0,0,0,0,
+590,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Pedakapavaram",1788,1788,0,0,1788,0,0,0,0,0,0,0,
+591,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Dharmapuram",514,514,0,0,514,0,0,0,0,0,0,0,
+592,"05_I_36_32","WG_I_ODJS_AKIVEEDU","Madiwada",621,621,0,0,621,0,0,0,0,0,0,0,
+593,"05_I_36_42","WG_I_36_KALLA","Kalla",1891,1891,0,0,1891,0,0,0,0,0,0,0,
+594,"05_I_36_42","WG_I_36_KALLA","Kallakuru",1005,1005,0,0,1005,0,0,0,0,0,0,0,
+595,"05_I_36_42","WG_I_36_KALLA","Dodanapudi",1278,1278,0,0,1278,0,0,0,0,0,0,0,
+596,"05_I_36_42","WG_I_36_KALLA","Seesali",1184,1184,0,0,1184,0,0,0,0,0,0,0,
+597,"05_I_36_42","WG_I_36_KALLA","Bondada",2857,2857,0,0,2857,0,0,0,0,0,0,0,
+598,"05_I_36_42","WG_I_36_KALLA","Jakkaram",266,266,0,0,266,0,0,0,0,0,0,0,
+599,"05_I_36_42","WG_I_36_KALLA","Kolanapalli",684,684,0,0,684,0,0,0,0,0,0,0,
+600,"05_I_36_42","WG_I_36_KALLA","Kopalli",676,676,0,0,676,0,0,0,0,0,0,0,
+601,"05_I_36_42","WG_I_36_KALLA","Pedamiram",941,941,0,0,941,0,0,0,0,0,0,0,
+602,"05_I_36_42","WG_I_36_KALLA","Vempadu",199,199,0,0,199,0,0,0,0,0,0,0,
+603,"05_I_36_42","WG_I_36_KALLA","Pratallameraka",195,195,0,0,195,0,0,0,0,0,0,0,
+604,"05_I_36_42","WG_I_36_KALLA","Kalavapudi",3280,3280,0,0,3280,0,0,0,0,0,0,0,
+605,"05_I_36_42","WG_I_36_KALLA","Elurupadu",1247,1247,0,0,1247,0,0,0,0,0,0,0,
+606,"05_I_36_41","WG_I_ODJS_Bhimavaram","Bhimavaram ",1243.19,1243.19,0,0,1243.19,0,0,0,0,0,0,0,
+607,"05_I_36_41","WG_I_ODJS_Bhimavaram","Bethapudi",724.16,724.16,0,0,724.16,0,0,0,0,0,0,0,
+608,"05_I_36_41","WG_I_ODJS_Bhimavaram","Taderu",899.11,899.11,0,0,899.11,0,0,0,0,0,0,0,
+609,"05_I_36_41","WG_I_ODJS_Bhimavaram","Annavaram",319.49,319.49,0,0,319.49,0,0,0,0,0,0,0,
+610,"05_I_36_41","WG_I_ODJS_Bhimavaram","Anakoderu",1917.18,1916.99,0,0,1916.99,0,0,0,0,0,0,0,
+611,"05_I_36_41","WG_I_ODJS_Bhimavaram","Rayalam",417.94,417.93,0,0,417.93,0,0,0,0,0,0,0,
+612,"05_I_36_41","WG_I_ODJS_Bhimavaram","komarada",633.14,633.14,0,0,633.14,0,0,0,0,0,0,0,
+613,"05_I_36_41","WG_I_ODJS_Bhimavaram","Kovada",222.08,222.08,0,0,222.08,0,0,0,0,0,0,0,
+614,"05_I_36_41","WG_I_ODJS_Bhimavaram","Narsimhapuram",183.72,183.71,0,0,183.71,0,0,0,0,0,0,0,
+615,"05_I_36_41","WG_I_ODJS_Bhimavaram","L.Gutlapadu",5393.86,5393.85,0,0,5393.85,0,0,0,0,0,0,0,
+616,"05_I_36_41","WG_I_ODJS_Bhimavaram","Dirsumarru",1414.13,1414.13,0,0,1414.13,0,0,0,0,0,0,0,
+617,"05_I_36_41","WG_I_ODJS_Bhimavaram","Yanamadru",1007.04,1007.04,0,0,1007.04,0,0,0,0,0,0,0,
+618,"05_I_36_41","WG_I_ODJS_Bhimavaram","Chinamiram",480.37,480.37,0,0,480.37,0,0,0,0,0,0,0,
+619,"05_I_36_41","WG_I_ODJS_Bhimavaram","Vempa",1985.51,1985.51,0,0,1985.51,0,0,0,0,0,0,0,
+620,"05_I_36_41","WG_I_ODJS_Bhimavaram","Tundurru",1672,1672,0,0,1672,0,0,0,0,0,0,0,
+621,"05_I_36_41","WG_I_ODJS_Bhimavaram","Gunupudi",1305,1305,0,0,1305,0,0,0,0,0,0,0,
+622,"05_I_36_34","WG_I_ODJS_Palakoderu","Palakoderu",477,477,0,0,477,0,0,0,0,0,0,0,
+623,"05_I_36_34","WG_I_ODJS_Palakoderu","Vissakoderu",924,924,0,0,924,0,0,0,0,0,0,0,
+624,"05_I_36_34","WG_I_ODJS_Palakoderu","Kumudavalli",469,469,0,0,469,0,0,0,0,0,0,0,
+625,"05_I_36_34","WG_I_ODJS_Palakoderu","Pennada",652,652,0,0,652,0,0,0,0,0,0,0,
+626,"05_I_36_34","WG_I_ODJS_Palakoderu","Goraganamudi",353,353,0,0,353,0,0,0,0,0,0,0,
+627,"05_I_36_34","WG_I_ODJS_Palakoderu","Vendra",352,352,0,0,352,0,0,0,0,0,0,0,
+628,"05_I_36_34","WG_I_ODJS_Palakoderu","Vendra agraharam",115,115,0,0,115,0,0,0,0,0,0,0,
+629,"05_I_36_34","WG_I_ODJS_Palakoderu","Kondepudi",297,297,0,0,297,0,0,0,0,0,0,0,
+630,"05_I_36_34","WG_I_ODJS_Palakoderu","Shrungavruksham",1567,1567,0,0,1567,0,0,0,0,0,0,0,
+631,"05_I_36_34","WG_I_ODJS_Palakoderu","Mogallu",1341,1341,0,0,1341,0,0,0,0,0,0,0,
+632,"05_I_36_34","WG_I_ODJS_Palakoderu","Korukollu",629,629,0,0,629,0,0,0,0,0,0,0,
+633,"05_I_36_34","WG_I_ODJS_Palakoderu","Maipa",279,279,0,0,279,0,0,0,0,0,0,0,
+634,"05_I_36_34","WG_I_ODJS_Palakoderu","Garagaparru",1169,1169,0,0,1169,0,0,0,0,0,0,0,
+635,"05_I_36_34","WG_I_ODJS_Palakoderu","Gollakoderu",609,609,0,0,609,0,0,0,0,0,0,0,
+636,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Veeravasavam ",2840,2840,0,0,2840,0,0,0,0,0,0,0,
+637,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Nouduru",436,436,0,0,436,0,0,0,0,0,0,0,
+638,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Andaluru",500,500,0,0,500,0,0,0,0,0,0,0,
+639,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Konithivada",710,710,0,0,710,0,0,0,0,0,0,0,
+640,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","M.Polavaram",392,392,0,0,392,0,0,0,0,0,0,0,
+641,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Nelapogula",234,234,0,0,234,0,0,0,0,0,0,0,
+642,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","P.Vemavaram",242,242,0,0,242,0,0,0,0,0,0,0,
+643,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Tokalapudi",164,164,0,0,164,0,0,0,0,0,0,0,
+644,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Rayakuduru",1213,1213,0,0,1213,0,0,0,0,0,0,0,
+645,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Toleru",1018,1018,0,0,1018,0,0,0,0,0,0,0,
+646,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Bobbanavali",199,199,0,0,199,0,0,0,0,0,0,0,
+647,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Mentepudi",183,183,0,0,183,0,0,0,0,0,0,0,
+648,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Matsyapuri",964,964,0,0,964,0,0,0,0,0,0,0,
+649,"05_I_36_40","WG_I_ODJS_VEERAVASARAM","Matsyapuri Palem",198,198,0,0,198,0,0,0,0,0,0,0,
+650,"05_I_36_39","WG_I_36_PODURU","Panditavilluru",750.29,750.29,0,0,750.29,0,0,0,0,0,0,0,
+651,"05_I_36_39","WG_I_36_PODURU","Jagannadhapuram",477.93,477.93,0,0,477.93,0,0,0,0,0,0,0,
+652,"05_I_36_39","WG_I_36_PODURU","kavitam",755.55,755.55,0,0,755.55,0,0,0,0,0,0,0,
+653,"05_I_36_39","WG_I_36_PODURU","Poduru ",1205.15,1205.15,0,0,1205.15,0,0,0,0,0,0,0,
+654,"05_I_36_39","WG_I_36_PODURU","Miniminchinipadu",135.17,135.17,0,0,135.17,0,0,0,0,0,0,0,
+655,"05_I_36_39","WG_I_36_PODURU","Vaddiparru",458.1,458.1,0,0,458.1,0,0,0,0,0,0,0,
+656,"05_I_36_39","WG_I_36_PODURU","Gummuluru",941.7,941.7,0,0,941.7,0,0,0,0,0,0,0,
+657,"05_I_36_39","WG_I_36_PODURU","Ravipadu",276.4,276.4,0,0,276.4,0,0,0,0,0,0,0,
+658,"05_I_36_39","WG_I_36_PODURU","Penumadam",1872.08,1872.08,0,0,1872.08,0,0,0,0,0,0,0,
+659,"05_I_36_39","WG_I_36_PODURU","Mattaparu",412.38,412.38,0,0,412.38,0,0,0,0,0,0,0,
+660,"05_I_36_39","WG_I_36_PODURU","Vedangi",609.46,609.46,0,0,609.46,0,0,0,0,0,0,0,
+661,"05_I_36_39","WG_I_36_PODURU","P.Polavaram",315.25,315.25,0,0,315.25,0,0,0,0,0,0,0,
+662,"05_I_36_39","WG_I_36_PODURU","Kommuchikkala",476.72,476.72,0,0,476.72,0,0,0,0,0,0,0,
+663,"05_I_36_39","WG_I_36_PODURU","Jinnuru",518,518,0,0,518,0,0,0,0,0,0,0,
+664,"05_I_36_45","WG_I_ODJS_Palakollu","Aratlakatla",317.36,317.36,0,0,317.36,0,0,0,0,0,0,0,
+665,"05_I_36_45","WG_I_ODJS_Palakollu","Palamooru",12.21,12.21,0,0,12.21,0,0,0,0,0,0,0,
+666,"05_I_36_45","WG_I_ODJS_Palakollu","S. Chikkala",588.14,588.14,0,0,588.14,0,0,0,0,0,0,0,
+667,"05_I_36_45","WG_I_ODJS_Palakollu","Ballipadu",164.15,164.15,0,0,164.15,0,0,0,0,0,0,0,
+668,"05_I_36_45","WG_I_ODJS_Palakollu","Daggulooru",349.81,349.81,0,0,349.81,0,0,0,0,0,0,0,
+669,"05_I_36_45","WG_I_ODJS_Palakollu","Chintaparru",237.96,237.96,0,0,237.96,0,0,0,0,0,0,0,
+670,"05_I_36_45","WG_I_ODJS_Palakollu","Kapavaram",572.95,572.95,0,0,572.95,0,0,0,0,0,0,0,
+671,"05_I_36_45","WG_I_ODJS_Palakollu","Ullamparru",392.44,392.44,0,0,392.44,0,0,0,0,0,0,0,
+672,"05_I_36_45","WG_I_ODJS_Palakollu","Palakollu ",696.35,696.35,0,0,696.35,0,0,0,0,0,0,0,
+673,"05_I_36_45","WG_I_ODJS_Palakollu","Poolapalli",391.85,391.85,0,0,391.85,0,0,0,0,0,0,0,
+674,"05_I_36_45","WG_I_ODJS_Palakollu","Lankalakoderu",1121.15,1121.15,0,0,1121.15,0,0,0,0,0,0,0,
+675,"05_I_36_45","WG_I_ODJS_Palakollu","Tillapudi",509.03,509.03,0,0,509.03,0,0,0,0,0,0,0,
+676,"05_I_36_45","WG_I_ODJS_Palakollu","Velevela",380.32,380.32,0,0,380.32,0,0,0,0,0,0,0,
+677,"05_I_36_45","WG_I_ODJS_Palakollu","Agarrru",888.16,888.16,0,0,888.16,0,0,0,0,0,0,0,
+678,"05_I_36_45","WG_I_ODJS_Palakollu","Chandaparru",328.53,328.53,0,0,328.53,0,0,0,0,0,0,0,
+679,"05_I_36_45","WG_I_ODJS_Palakollu","Gorintada",254.11,254.11,0,0,254.11,0,0,0,0,0,0,0,
+680,"05_I_36_45","WG_I_ODJS_Palakollu","Digamarru",552.74,552.74,0,0,552.74,0,0,0,0,0,0,0,
+681,"05_I_36_45","WG_I_ODJS_Palakollu","Varidhanam",189.71,189.71,0,0,189.71,0,0,0,0,0,0,0,
+682,"05_I_36_45","WG_I_ODJS_Palakollu","Pedamamidipalli",153.55,153.55,0,0,153.55,0,0,0,0,0,0,0,
+683,"05_I_36_46","WG_I_ODJS_Yelamanchili","Burugupalli",525,525,0,0,525,0,0,0,0,0,0,0,
+684,"05_I_36_46","WG_I_ODJS_Yelamanchili","Doddipatla",2897,2897,0,0,2897,0,0,0,0,0,0,0,
+685,"05_I_36_46","WG_I_ODJS_Yelamanchili","Ilapakurru",2205,2205,0,0,2205,0,0,0,0,0,0,0,
+686,"05_I_36_46","WG_I_ODJS_Yelamanchili","Siragalapalli",801,801,0,0,801,0,0,0,0,0,0,0,
+687,"05_I_36_46","WG_I_ODJS_Yelamanchili","Neredumilli",627,627,0,0,627,0,0,0,0,0,0,0,
+688,"05_I_36_46","WG_I_ODJS_Yelamanchili","Medapadu",1267,1267,0,0,1267,0,0,0,0,0,0,0,
+689,"05_I_36_46","WG_I_ODJS_Yelamanchili","Kontheru",1652,1652,0,0,1652,0,0,0,0,0,0,0,
+690,"05_I_36_46","WG_I_ODJS_Yelamanchili","Kaza",1860,1860,0,0,1860,0,0,0,0,0,0,0,
+691,"05_I_36_46","WG_I_ODJS_Yelamanchili","Utada",139,139,0,0,139,0,0,0,0,0,0,0,
+692,"05_I_36_46","WG_I_ODJS_Yelamanchili","Yalamanchili ",3243,3243,0,0,3243,0,0,0,0,0,0,0,
+693,"05_I_36_46","WG_I_ODJS_Yelamanchili","Chinchinada",1242,1242,0,0,1242,0,0,0,0,0,0,0,
+694,"05_I_36_46","WG_I_ODJS_Yelamanchili","Kalagampudi",447,447,0,0,447,0,0,0,0,0,0,0,
+695,"05_I_36_46","WG_I_ODJS_Yelamanchili","Y.V.Lanka",2559,2559,0,0,2559,0,0,0,0,0,0,0,
+696,"05_I_36_46","WG_I_ODJS_Yelamanchili","Gumparru",1671,1671,0,0,1671,0,0,0,0,0,0,0,
+697,"05_I_36_46","WG_I_ODJS_Yelamanchili","Penumarru",783,783,0,0,783,0,0,0,0,0,0,0,
+698,"05_I_36_44","WG_I_ODJS_Narasapuram","Navarasapuram",449,449,0,0,449,0,0,0,0,0,0,0,
+699,"05_I_36_44","WG_I_ODJS_Narasapuram","Gondi",281,281,0,0,281,0,0,0,0,0,0,0,
+700,"05_I_36_44","WG_I_ODJS_Narasapuram","Chittavaram",468,468,0,0,468,0,0,0,0,0,0,0,
+701,"05_I_36_44","WG_I_ODJS_Narasapuram","Chinamamidipalli",623,623,0,0,623,0,0,0,0,0,0,0,
+702,"05_I_36_44","WG_I_ODJS_Narasapuram","Saripalli",593,593,0,0,593,0,0,0,0,0,0,0,
+703,"05_I_36_44","WG_I_ODJS_Narasapuram","Likhitapudi",344,344,0,0,344,0,0,0,0,0,0,0,
+704,"05_I_36_44","WG_I_ODJS_Narasapuram","Mallavaram",1224,1224,0,0,1224,0,0,0,0,0,0,0,
+705,"05_I_36_44","WG_I_ODJS_Narasapuram","K.Bethapudi",357,357,0,0,357,0,0,0,0,0,0,0,
+706,"05_I_36_44","WG_I_ODJS_Narasapuram","Kopparru",1308,1308,0,0,1308,0,0,0,0,0,0,0,
+707,"05_I_36_44","WG_I_ODJS_Narasapuram","Rustumbada",1238,1238,0,0,1238,0,0,0,0,0,0,0,
+708,"05_I_36_44","WG_I_ODJS_Narasapuram","Narsapuram ",262,262,0,0,262,0,0,0,0,0,0,0,
+709,"05_I_36_44","WG_I_ODJS_Narasapuram","Madhavaipalem",326,326,0,0,326,0,0,0,0,0,0,0,
+710,"05_I_36_44","WG_I_ODJS_Narasapuram","Sitarampuram",745,745,0,0,745,0,0,0,0,0,0,0,
+711,"05_I_36_44","WG_I_ODJS_Narasapuram","L.B.Charla",2202,2202,0,0,2202,0,0,0,0,0,0,0,
+712,"05_I_36_44","WG_I_ODJS_Narasapuram","Lakshmaneshwaram",1618,1618,0,0,1618,0,0,0,0,0,0,0,
+713,"05_I_36_44","WG_I_ODJS_Narasapuram","Vemuladevi",2674,2674,0,0,2674,0,0,0,0,0,0,0,
+714,"05_I_36_44","WG_I_ODJS_Narasapuram","Turputallu",1643,1643,0,0,1643,0,0,0,0,0,0,0,
+715,"05_I_36_43","WG_I_ODJS_Mogalturu","Mogalturu",2934,2934,0,0,2934,0,0,0,0,0,0,0,
+716,"05_I_36_43","WG_I_ODJS_Mogalturu","Seripalem",753,753,0,0,753,0,0,0,0,0,0,0,
+717,"05_I_36_43","WG_I_ODJS_Mogalturu","Kalipatnam",3068,3068,0,0,3068,0,0,0,0,0,0,0,
+718,"05_I_36_43","WG_I_ODJS_Mogalturu","Mutyalapalli",1720,1720,0,0,1720,0,0,0,0,0,0,0,
+719,"05_I_36_43","WG_I_ODJS_Mogalturu","K.P.Palem",1527,1527,0,0,1527,0,0,0,0,0,0,0,
+720,"05_I_36_43","WG_I_ODJS_Mogalturu","Perupalem",3080,3080,0,0,3080,0,0,0,0,0,0,0,
+721,"05_I_37_02","WG_I_YARRAKALVA-1_T. NARASAPURAM","Allipalli",337,,,,,307,30,0,337,,,,
+722,"05_I_37_03","WG_I_YARRAKALVA-1_T. NARASAPURAM","Chintampalli",875,,,,,875,0,0,875,,,,
+723,"05_I_37_04","WG_I_YARRAKALVA-1_T. NARASAPURAM","Ganijarla  ",749,,,,,92,657,657,749,,,,
+724,"05_I_37_05","WG_I_YARRAKALVA-1_T. NARASAPURAM","Gonnepalli",200,,,,,200,0,0,200,,,,
+725,"05_I_37_06","WG_I_YARRAKALVA-1_T. NARASAPURAM","Gopalapuram",141,,,,,81,60,0,141,,,,
+726,"05_I_37_07","WG_I_YARRAKALVA-1_T. NARASAPURAM","Gudipadukhandrika",84,,,,,84,0,0,84,,,,
+727,"05_I_37_08","WG_I_YARRAKALVA-1_T. NARASAPURAM","Kantampalem",518,,,,,518,0,0,518,,,,
+728,"05_I_37_09","WG_I_YARRAKALVA-1_T. NARASAPURAM","Laxminarsimhapuram",332,,,,,332,0,0,332,,,,
+729,"05_I_37_10","WG_I_YARRAKALVA-1_T. NARASAPURAM","Maddimattinagudem",488,,,,,488,0,0,488,,,,
+730,"05_I_37_11","WG_I_YARRAKALVA-1_T. NARASAPURAM","Namavaram",365,,,,,365,0,0,365,,,,
+731,"05_I_37_12","WG_I_YARRAKALVA-1_T. NARASAPURAM","Pattaigudem",910,,,,,910,0,0,910,,,,
+732,"05_I_37_13","WG_I_YARRAKALVA-1_T. NARASAPURAM","Rangapuram khandrika",325,,,,,325,0,0,325,,,,
+733,"05_I_37_14","WG_I_YARRAKALVA-1_T. NARASAPURAM","Recharla",974,,,,,974,0,0,974,,,,
+734,"05_I_37_15","WG_I_YARRAKALVA-1_T. NARASAPURAM","Settivarigudem",526,,,,,526,0,0,526,,,,
+735,"05_I_37_16","WG_I_YARRAKALVA-1_T. NARASAPURAM","Sitanagaram",642,,,,,642,0,0,642,,,,
+736,"05_I_37_17","WG_I_YARRAKALVA-1_T. NARASAPURAM","Tigalavancha",1524,,,,,1524,0,0,1524,,,,
+737,"05_I_37_18","WG_I_YARRAKALVA-1_T. NARASAPURAM","Utasamudram",732,,,,,732,0,0,732,,,,
+738,"05_I_37_19","WG_I_YARRAKALVA-1_T. NARASAPURAM","Venkatadrigudem",486,,,,,486,0,0,486,,,,
+739,"05_I_37_20","WG_I_YARRAKALVA-1_T. NARASAPURAM","Venkatapuram",457,,,,,457,0,0,457,,,,
+740,"05_I_37_21","WG_I_YARRAKALVA-1_T. NARASAPURAM","Earraguntapalli",3538,,,,,3538,0,1592,3538,,,,
+741,"05_I_37_22","WG_I_YARRAKALVA-1_T. NARASAPURAM","Bandamcharla",2096,,,,,2096,0,0,2096,,,,
+742,"05_I_37_23","WG_I_YARRAKALVA-1_T. NARASAPURAM","Borrampalem ",1697,,,,,1697,0,0,1697,,,,
+743,"05_I_37_24","WG_I_YARRAKALVA-1_T. NARASAPURAM","Epigunta  ",1416,,,,,1416,0,0,1416,,,,
+744,"05_I_37_25","WG_I_YARRAKALVA-1_T. NARASAPURAM","Ramannapalem ",504,,,,,504,0,0,504,,,,
+745,"05_I_37_26","WG_I_YARRAKALVA-1_T. NARASAPURAM","T.Narsapuram ",4944,,,,,4919,25,2309,4944,,,,
+746,"05_I_37_27","WG_I_YARRAKALVA-1_T. NARASAPURAM","Tirumaladevipeta",2335,,,,,2335,0,0,2335,,,,
+747,"05_I_37_28","WG_I_YARRAKALVA-1_T. NARASAPURAM","Velagapadu",1198,,,,,1181,17,295,1198,,,,
+748,"05_I_37_29","WG_I_YARRAKALVA-1_T. NARASAPURAM","Guruvaigudem",757,,,,,757,0,0,757,,,,
+749,"05_I_37_30","WG_I_YARRAKALVA-1_T. NARASAPURAM","Vallampatla",2148,,,,,2138,10,0,2148,,,,
+750,"05_I_37_04","WG_I_Jalavagu_Makkinavarigudem","A. Polavaram",963.56,,,,,963.56,0,0,963.56,,,,
+751,"05_I_37_05","WG_I_Jalavagu_Makkinavarigudem","Barrinkalapadu",762,,,,,762,0,190,762,,,,
+752,"05_I_37_06","WG_I_Jalavagu_Makkinavarigudem","Danamvarigudem",23.8866396761,,,,,23.8866396761,0,0,23.8866396761,,,,
+753,"05_I_37_07","WG_I_Jalavagu_Makkinavarigudem","Darbhagudem",2816,,,,,2816,0,1366.4,2816,,,,
+754,"05_I_37_08","WG_I_Jalavagu_Makkinavarigudem","Datlavarigudem",273,,,,,273,0,0,273,,,,
+755,"05_I_37_09","WG_I_Jalavagu_Makkinavarigudem","Jeelugumilli",2445,,,,,2445,0,1360,2445,,,,
+756,"05_I_37_10","WG_I_Jalavagu_Makkinavarigudem","Kandrikapadu",65,,,,,65,0,0,65,,,,
+757,"05_I_37_11","WG_I_Jalavagu_Makkinavarigudem","Madakamvarigudem",325,,,,,325,0,0,325,,,,
+758,"05_I_37_12","WG_I_Jalavagu_Makkinavarigudem","Nersugudem",84,,,,,84,0,0,84,,,,
+759,"05_I_37_13","WG_I_Jalavagu_Makkinavarigudem","P.Rajavaram",484,,,,,484,0,0,484,,,,
+760,"05_I_37_14","WG_I_Jalavagu_Makkinavarigudem","Ramannapalem",229,,,,,229,0,0,229,,,,
+761,"05_I_37_15","WG_I_Jalavagu_Makkinavarigudem","Tatiyakulagudem",126,,,,,126,0,0,126,,,,
+762,"05_I_37_16","WG_I_Jalavagu_Makkinavarigudem","Vankavarigudem",202,,,,,202,0,0,202,,,,
+763,"05_I_37_17","WG_I_Jalavagu_Makkinavarigudem","Appalarajugudem",956,,,,,956,0,0,956,,,,
+764,"05_I_37_18","WG_I_Jalavagu_Makkinavarigudem","Bandivarigudem ",2082,,,,,2082,0,0,2082,,,,
+765,"05_I_37_19","WG_I_Jalavagu_Makkinavarigudem","Makkinavarigudem",3155,,,,,3100.98,54.02,0,3155,,,,
+766,"05_I_37_20","WG_I_Jalavagu_Makkinavarigudem","Kollivarigudem",289,,,,,289,0,0,289,,,,
+767,"05_I_37_21","WG_I_Jalavagu_Makkinavarigudem","Vakalapudi",112,,,,,112,0,0,112,,,,
+768,"05_I_37_22","WG_I_Jalavagu_Makkinavarigudem","Krishnapuram",378,,,,,378,0,,378,,,,
+769,"05_I_37_05","WG_I_Jalleru_Jeelugumilli","Aliveru",1766,,,,,1766,0,1235,1766,,,,
+770,"05_I_37_06","WG_I_Jalleru_Jeelugumilli","Antarvedigudem",1622,,,,,1622,0,820,1622,,,,
+771,"05_I_37_07","WG_I_Jalleru_Jeelugumilli","Busarajupalli",482,,,,,482,0,41,482,,,,
+772,"05_I_37_08","WG_I_Jalleru_Jeelugumilli","Chamanapalli",1512,,,,,1512,0,1210,1512,,,,
+773,"05_I_37_09","WG_I_Jalleru_Jeelugumilli","Doramamidi",3102,,,,,3102,0,796.4,3102,,,,
+774,"05_I_37_10","WG_I_Jalleru_Jeelugumilli","Jaggisettigudem",355.6,,,,,355.6,0,40.8,355.6,,,,
+775,"05_I_37_11","WG_I_Jalleru_Jeelugumilli","Korasavarigudem",2068.8,,,,,2068.8,0,1163.2,2068.8,,,,
+776,"05_I_37_12","WG_I_Jalleru_Jeelugumilli","Ganapavaram",2254.8,,,,,2254.8,0,0,2254.8,,,,
+777,"05_I_37_13","WG_I_Jalleru_Jeelugumilli","Jainavarigudem",187.6,,,,,187.6,0,0,187.6,,,,
+778,"05_I_37_14","WG_I_Jalleru_Jeelugumilli","Seetharamanagaram",256,,,,,256,0,0,256,,,,
+779,"05_I_37_15","WG_I_Jalleru_Jeelugumilli","Buttayagudem",4918,,,,,4918,0,580,4918,,,,
+780,"05_I_37_16","WG_I_Jalleru_Jeelugumilli","Chakradevarapalli",737,,,,,737,0,0,737,,,,
+781,"05_I_37_17","WG_I_Jalleru_Jeelugumilli","Maisannagudem ",145,,,,,145,0,0,145,,,,
+782,"05_I_37_18","WG_I_Jalleru_Jeelugumilli","Matannagudem-1",107,,,,,107,0,0,107,,,,
+783,"05_I_37_19","WG_I_Jalleru_Jeelugumilli","Matannagudem-2",214,,,,,214,0,0,214,,,,
+784,"05_I_37_20","WG_I_Jalleru_Jeelugumilli","Pattennapalem",424,,,,,424,0,0,424,,,,
+785,"05_I_37_21","WG_I_Jalleru_Jeelugumilli","Pullepudi  ",630,,,,,630,0,0,630,,,,
+786,"05_I_37_22","WG_I_Jalleru_Jeelugumilli","Taduvai",2511,,,,,2511,0,0,2511,,,,
+787,"05_I_37_23","WG_I_Jalleru_Jeelugumilli","Vegavaram",987,,,,,987,0,0,987,,,,
+788,"05_I_37_24","WG_I_Jalleru_Jeelugumilli","Peddipalli",115,,,,,115,0,0,115,,,,
+789,"05_I_37_25","WG_I_Jalleru_Jeelugumilli","R. Ch. Gudem",588,,,,,588,0,0,588,,,,
+790,"05_I_37_26","WG_I_Jalleru_Jeelugumilli","Akkampeta",393,,,,,393,0,0,393,,,,
+791,"05_I_37_27","WG_I_Jalleru_Jeelugumilli","Ankannagudem",478.4,,,,,478.4,0,0,478.4,,,,
+792,"05_I_37_28","WG_I_Jalleru_Jeelugumilli","Gangannagudem ",624,,,,,624,0,0,624,,,,
+793,"05_I_37_29","WG_I_Jalleru_Jeelugumilli","Mulagalampalli",470,,,,,470,0,0,470,,,,
+794,"05_I_37_30","WG_I_Jalleru_Jeelugumilli","P. Narayanapuram",996,,,,,996,0,0,996,,,,
+795,"05_I_37_31","WG_I_Jalleru_Jeelugumilli","Routugudem ",558.8,,,,,558.8,0,0,558.8,,,,
+796,"05_I_37_32","WG_I_Jalleru_Jeelugumilli","Swarnavarigudem ",602.4,,,,,602.4,0,0,602.4,,,,
+797,"05_I_37_33","WG_I_Jalleru_Jeelugumilli","Kammayyapalem",742.8,,,,,742.8,0,0,742.8,,,,
+798,"05_I_37_34","WG_I_Jalleru_Jeelugumilli","Gopalapuram",176.8,,,,,176.8,0,0,176.8,,,,
+799,"05_I_37_35","WG_I_Jalleru_Jeelugumilli","Tatiramudugudem",277.6,,,,,277.6,0,0,277.6,,,,
+800,"05_I_37_36","WG_I_Jalleru_Jeelugumilli","Jillelagudem",258.4,,,,,258.4,0,0,258.4,,,,
+801,"05_I_37_37","WG_I_Jalleru_Jeelugumilli","Bottappagudem",318.4,,,,,318.4,0,0,318.4,,,,
+802,"05_I_37_38","WG_I_Jalleru_Jeelugumilli","P. Ankampalem",350.4,,,,,350.4,0,0,350.4,,,,
+803,"05_I_37_39","WG_I_Jalleru_Jeelugumilli","Lankalapalli",62.8,,,,,62.8,0,0,62.8,,,,
+804,"05_I_37_40","WG_I_Jalleru_Jeelugumilli","Rachannagudem",464.4,,,,,464.4,0,0,464.4,,,,
+805,"05_I_37_41","WG_I_Jalleru_Jeelugumilli","Jagannadhapuram",86.4,,,,,86.4,0,0,86.4,,,,
+806,"05_I_37_42","WG_I_Jalleru_Jeelugumilli","Puchikapadu",549.2,,,,,549.2,0,0,549.2,,,,
+807,"05_I_37_43","WG_I_Jalleru_Jeelugumilli","Veerampalem",76.4,,,,,76.4,0,0,76.4,,,,
+808,"05_I_06","WG_I_Baineru_Jangareddiguedem","Jangareddigudem",2459,,,,,2459,0,0,2459,,,,
+809,"05_I_07","WG_I_Baineru_Jangareddiguedem","Tirumalapuram",2061,,,,,2061,0,0,2061,,,,
+810,"05_I_08","WG_I_Baineru_Jangareddiguedem","Srinivasapuram",398,,,,,398,0,0,398,,,,
+811,"05_I_09","WG_I_Baineru_Jangareddiguedem","Guruvaigudem",1512,,,,,1512,0,0,1512,,,,
+812,"05_I_10","WG_I_Baineru_Jangareddiguedem","Pangidigudem",1160,,,,,1160,0,0,1160,,,,
+813,"05_I_11","WG_I_Baineru_Jangareddiguedem","Kotrupalli",44,,,,,44,0,957.89,44,,,,
+814,"05_I_12","WG_I_Baineru_Jangareddiguedem","Lakshmudugudem",918,,,,,918,0,31.17,918,,,,
+815,"05_I_13","WG_I_Baineru_Jangareddiguedem","Marlagudem",158,,,,,158,0,0,158,,,,
+816,"05_I_14","WG_I_Baineru_Jangareddiguedem","Nagampalem",97,,,,,97,0,1159.11,97,,,,
+817,"05_I_15","WG_I_Baineru_Jangareddiguedem","Dandipudi",159,,,,,159,0,932.39,159,,,,
+818,"05_I_16","WG_I_Baineru_Jangareddiguedem","Chintalagudem",278,,,,,278,0,1223.08,278,,,,
+819,"05_I_17","WG_I_Baineru_Jangareddiguedem","Mangayyapalem",77,,,,,77,0,1125.91,77,,,,
+820,"05_I_18","WG_I_Baineru_Jangareddiguedem","Ramannagudem",227,,,,,227,0,0,227,,,,
+821,"05_I_19","WG_I_Baineru_Jangareddiguedem","Nimmalagudem",145,,,,,145,0,0,145,,,,
+822,"05_I_37","WG_I_Turpukalva_K.R.PURAM","Achaiahpalem",192.4,,,,,192.4,0,0,192.4,,,,
+823,"05_I_38","WG_I_Turpukalva_K.R.PURAM","Ammapalem",92,,,,,92,0,0,92,,,,
+824,"05_I_39","WG_I_Turpukalva_K.R.PURAM","K.Kannappagudem",130.8,,,,,130.8,0,15.2,130.8,,,,
+825,"05_I_40","WG_I_Turpukalva_K.R.PURAM","K.R.Puram ",208,,,,,208,0,1.6,208,,,,
+826,"05_I_41","WG_I_Turpukalva_K.R.PURAM","Ragappagudem",163.6,,,,,163.6,0,0,163.6,,,,
+827,"05_I_42","WG_I_Turpukalva_K.R.PURAM","Ravvarigudem ",946.8,,,,,946.8,0,800.8,946.8,,,,
+828,"05_I_43","WG_I_Turpukalva_K.R.PURAM","Palakunta",451.2,,,,,451.2,0,95.2,451.2,,,,
+829,"05_I_44","WG_I_Turpukalva_K.R.PURAM","Puliramudugudem",1734.4,,,,,1734.4,0,1360.8,1734.4,,,,
+830,"05_I_45","WG_I_Turpukalva_K.R.PURAM","Itikulakota",1305.6,,,,,1305.6,0,1052.4,1305.6,,,,
+831,"05_I_46","WG_I_Turpukalva_K.R.PURAM","Merkagudem",158.4,,,,,158.4,0,0,158.4,,,,
+832,"05_I_47","WG_I_Turpukalva_K.R.PURAM","Cheemalavarigudem",98.8,,,,,98.8,0,0,98.8,,,,
+833,"05_I_48","WG_I_Turpukalva_K.R.PURAM","Bandarlagudem",1510.8,,,,,1510.8,0,1156.8,1510.8,,,,
+834,"05_I_49","WG_I_Turpukalva_K.R.PURAM","Pandugudem",326.4,,,,,326.4,0,96.8,326.4,,,,
+835,"05_I_50","WG_I_Turpukalva_K.R.PURAM","Bottappagudem",92.8,,,,,92.8,0,0,92.8,,,,
+836,"05_I_51","WG_I_Turpukalva_K.R.PURAM","Gunjavaram",134.8,,,,,134.8,0,0,134.8,,,,
+837,"05_I_52","WG_I_Turpukalva_K.R.PURAM","Koyyarajamundry",845.6,,,,,845.6,0,6.4,845.6,,,,
+838,"05_I_53","WG_I_Turpukalva_K.R.PURAM","Ramannapalem",229.2,,,,,229.2,0,0,229.2,,,,
+839,"05_I_54","WG_I_Turpukalva_K.R.PURAM","Khadrikagudem",150,,,,,150,0,0,150,,,,
+840,"05_I_55","WG_I_Turpukalva_K.R.PURAM","Yerraigudem",102.8,,,,,102.8,0,0,102.8,,,,
+841,"05_I_56","WG_I_Turpukalva_K.R.PURAM","Kethavaram ",1867,,,,,1867,0,0,1867,,,,
+842,"05_I_57","WG_I_Turpukalva_K.R.PURAM","Dippakayalapadu ",1554,,,,,1554,0,0,1554,,,,
+843,"05_I_58","WG_I_Turpukalva_K.R.PURAM","Kannapuram ",413,,,,,413,0,0,413,,,,
+844,"05_I_59","WG_I_Turpukalva_K.R.PURAM","Mahadevapuram",113,,,,,113,0,0,113,,,,
+845,"05_I_60","WG_I_Turpukalva_K.R.PURAM","Saripalli ",1284,,,,,1284,0,0,1284,,,,
+846,"05_I_61","WG_I_Turpukalva_K.R.PURAM","Bayyannagudem",1580,,,,,1580,0,0,1580,,,,
+847,"05_I_62","WG_I_Turpukalva_K.R.PURAM","Ramanujapuram",777,,,,,777,0,0,777,,,,
+848,"05_I_63","WG_I_Turpukalva_K.R.PURAM","Vedantapuram",702,,,,,702,0,0,702,,,,
+849,"05_E_33_8","WG_E_Kovvada_Pattiseema","Gogumilli",1088.4,,,,,1088.4,0,1027.2,1088.4,,,,
+850,"05_E_33_9","WG_E_Kovvada_Pattiseema","Gummuluru",1209.2,,,,,1209.2,0,1200.8,1209.2,,,,
+851,"05_E_33_10","WG_E_Kovvada_Pattiseema","Kopalli",1686.8,,,,,1686.8,0,1194,1686.8,,,,
+852,"05_E_33_11","WG_E_Kovvada_Pattiseema","Kovvada",168,,,,,168,0,4.8,168,,,,
+853,"05_E_33_12","WG_E_Kovvada_Pattiseema","Lakshmipuram",250.8,,,,,250.8,0,0,250.8,,,,
+854,"05_E_33_13","WG_E_Kovvada_Pattiseema","Lankapalli",974.4,,,,,974.4,0,600.8,974.4,,,,
+855,"05_E_33_14","WG_E_Kovvada_Pattiseema","Rajanagaram",172.4,,,,,172.4,0,11.6,172.4,,,,
+856,"05_E_33_15","WG_E_Kovvada_Pattiseema","Upparelli",1274.8,,,,,1274.8,0,1165.2,1274.8,,,,
+857,"05_E_33_16","WG_E_Kovvada_Pattiseema","Veerannapalem",1262,,,,,1262,0,1238.4,1262,,,,
+858,"05_E_33_17","WG_E_Kovvada_Pattiseema","Urrinka",141.2,,,,,141.2,0,12,141.2,,,,
+859,"05_E_33_18","WG_E_Kovvada_Pattiseema","Rammayyakunta",268.8,,,,,268.8,0,61.6,268.8,,,,
+860,"05_E_33_19","WG_E_Kovvada_Pattiseema","Muddappagudem",469.2,,,,,469.2,0,0,469.2,,,,
+861,"05_E_33_20","WG_E_Kovvada_Pattiseema","Kannarapadu",1408.4,,,,,1408.4,0,1235.6,1408.4,,,,
+862,"05_E_33_21","WG_E_Kovvada_Pattiseema","Munjuluru",244,,,,,244,0,12,244,,,,
+863,"05_E_33_22","WG_E_Kovvada_Pattiseema","L.N.D.Peta",1656,,,,,1656,0,0,1656,,,,
+864,"05_E_33_23","WG_E_Kovvada_Pattiseema","Gutala",2307,,,,,2307,0,0,2307,,,,
+865,"05_E_33_24","WG_E_Kovvada_Pattiseema","Pattiseema",1074,,,,,1074,0,0,1074,,,,
+866,"05_E_33_25","WG_E_Kovvada_Pattiseema","Pragadapalli",1210,,,,,1210,0,0,1210,,,,
+867,"05_E_33_26","WG_E_Kovvada_Pattiseema","Venkatapuram",154,,,,,154,0,0,154,,,,
+868,"05_E_33_27","WG_E_Kovvada_Pattiseema","Polavaram",2799,,,,,2799,0,0,2799,,,,
+869,"05_E_33_28","WG_E_Kovvada_Pattiseema","Vinjaram",560,,,,,560,0,0,560,,,,
+870,"05_E_33_29","WG_E_Kovvada_Pattiseema","Chilakaluru",42,,,,,42,0,0,42,,,,
+871,"05_E_33_30","WG_E_Kovvada_Pattiseema","Dharwada",22,,,,,22,0,0,22,,,,
+872,"05_E_33_31","WG_E_Kovvada_Pattiseema","Geddapalli",345,,,,,345,0,0,345,,,,
+873,"05_E_33_32","WG_E_Kovvada_Pattiseema","Nagamaplem",522,,,,,522,0,0,522,,,,
+874,"05_E_33_33","WG_E_Kovvada_Pattiseema","Saripallikunta",26,,,,,26,0,0,26,,,,
+875,"05_E_33_34","WG_E_Kovvada_Pattiseema","Dondapudi",227,,,,,227,0,0,227,,,,
+876,"05_I_37","WG_I_Paletivagu_Devarapalli","Chinnaigudem",1942,,,,,1942,0,0,1942,,,,
+877,"05_I_38","WG_I_Paletivagu_Devarapalli","Devarapalli ",4306,,,,,4306,0,0,4306,,,,
+878,"05_I_39","WG_I_Paletivagu_Devarapalli","Dhumantunigudem",376,,,,,376,0,0,376,,,,
+879,"05_I_40","WG_I_Paletivagu_Devarapalli","kurukuru",1025,,,,,1025,0,0,1025,,,,
+880,"05_I_41","WG_I_Paletivagu_Devarapalli","Pallantla",1196,,,,,1196,0,0,1196,,,,
+881,"05_I_42","WG_I_Paletivagu_Devarapalli","Tyajampudi",1219,,,,,1219,0,0,1219,,,,
+882,"05_I_43","WG_I_Paletivagu_Devarapalli","Yadavolu",2669,,,,,2669,0,0,2669,,,,
+883,"05_I_44","WG_I_Paletivagu_Devarapalli","Yarnagudem ",3409,,,,,3409,0,0,3409,,,,
+884,"05_I_45","WG_I_Paletivagu_Devarapalli","Gangavaram",202,,,,,202,0,0,202,,,,
+885,"05_I_46","WG_I_Paletivagu_Devarapalli","Ch.Ramannagudem",360,,,,,360,0,0,360,,,,
+886,"05_I_47","WG_I_Paletivagu_Devarapalli","Eduvadalapalem",858,,,,,858,0,0,858,,,,
+887,"05_I_48","WG_I_Paletivagu_Devarapalli","Kanakadripuram",442,,,,,442,0,0,442,,,,
+888,"05_I_49","WG_I_Paletivagu_Devarapalli","Kannayagudem ",409,,,,,409,0,0,409,,,,
+889,"05_I_50","WG_I_Paletivagu_Devarapalli","Parimpudi (Koyyalagudem)",4277,,,,,4277,0,0,4277,,,,
+890,"05_I_51","WG_I_Paletivagu_Devarapalli","Kuntalagudem",764,,,,,764,0,0,764,,,,
+891,"05_I_52","WG_I_Paletivagu_Devarapalli","Ponguturu",829,,,,,829,0,0,829,,,,
+892,"05_I_53","WG_I_Paletivagu_Devarapalli","Rajavaram ",1830,,,,,1830,0,0,1830,,,,
+893,"05_I_54","WG_I_Paletivagu_Devarapalli","Yarrampeta",669,,,,,669,0,0,669,,,,
+894,"05_I_55","WG_I_Paletivagu_Devarapalli","Gavaravaram",631,,,,,631,0,0,631,,,,
+895,"05_I_56","WG_I_Paletivagu_Devarapalli","Veervalli",96,,,,,96,0,0,96,,,,
+896,"05_I_57","WG_I_Paletivagu_Devarapalli","Potavaram",1985,,,,,1985,0,0,1985,,,,
+897,"05_I_58","WG_I_Paletivagu_Devarapalli","Sanjivapuram ",549,,,,,549,0,0,549,,,,
+898,"05_I_59","WG_I_Paletivagu_Devarapalli","Ammapalli",492,,,,,492,0,0,492,,,,
+899,"05_I_60","WG_I_Paletivagu_Devarapalli","Medipalli  ",202,,,,,202,0,0,202,,,,
+,,,,,,,,,,,,,,,,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
