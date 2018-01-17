@@ -22,7 +22,10 @@ public class MicroBasin {
 	ArtificialWC aritificial_wc;
 	String resource_distribution;
 	String population;
-	
+	public String rf_data;
+	public String gw_data;
+	public String gw_dependency;
+		
 	public String getPopulation() {
 		return population;
 	}

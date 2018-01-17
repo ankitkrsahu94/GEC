@@ -14,7 +14,7 @@ import com.google.gson.Gson;
 
 public class BasinXmltojson {
 
-	public static void compute(String distName, String path) {
+	public static void compute(String distName, String path, BufferedWriter bw) {
 		
 		String filePath = path+distName+"/";
 
@@ -35,6 +35,8 @@ public class BasinXmltojson {
 		String canalfile = filePath+"canals.csv";
 		String artificialWCfile = filePath+"wc_structures.csv";
 		String populationfile = filePath+"population.csv";
+        String gw_rf_file = filePath+"rf_gw_data.csv";
+
 		
 		/**
          * Location meta data IWM base files
@@ -1071,9 +1073,58 @@ public class BasinXmltojson {
 			e.printStackTrace();
 		}
 
+		
+	       // json for gw and rainfall
+        try(BufferedReader iem = new BufferedReader(new FileReader(gw_rf_file))) {
+              
+              record = iem.readLine();
+              while((record = iem.readLine()) != null) {
+                  String fields[] = record.split(",",-1);
+
+                  
+                  String basinName = format.removeQuotes(fields[format.convert("c")]);
+                		  
+                		  Map<String, Map<String,Double>> gw = new HashMap<String, Map<String,Double>>();
+                		  gw.put("command", new HashMap<String, Double>());
+                		  gw.put("non_command", new HashMap<String, Double>());
+                		  gw.get("command").put("pre", Utils.parseDouble(fields[format.convert("f")]));
+                		  gw.get("command").put("post", Utils.parseDouble(fields[format.convert("g")]));
+                		  gw.get("non_command").put("pre", Utils.parseDouble(fields[format.convert("d")]));
+                		  gw.get("non_command").put("post", Utils.parseDouble(fields[format.convert("e")]));
+                		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
+                		  
+                		  
+                		  Map<String, Map<String,Double>> rf = new HashMap<String, Map<String,Double>>();
+                		  rf.put("monsoon", new HashMap<String, Double>());
+                		  rf.put("non_monsoon", new HashMap<String, Double>());
+                		  rf.get("monsoon").put("normal", Utils.parseDouble(fields[format.convert("j")]));
+                		  rf.get("non_monsoon").put("normal", Utils.parseDouble(fields[format.convert("k")]));
+                		  rf.get("monsoon").put("actual", Utils.parseDouble(fields[format.convert("m")]));
+                		  rf.get("non_monsoon").put("actual", Utils.parseDouble(fields[format.convert("n")]));                		  
+                		  Basin_details.get(basinName).rf_data =  (new Gson()).toJson(rf);
+
+                		  
+                		  //TODO verify it .... Domestic
+	                   	  Map<String, Double> gwDependency = new HashMap<String, Double>();
+	                   	  gwDependency.put(Constants.DOMESTIC, Utils.parseDouble(fields[format.convert("h")]));
+	                   	  Basin_details.get(basinName).gw_dependency  = (new Gson()).toJson(gwDependency);
+                		  
+              }
+              
+          }catch (IOException e) {
+              e.printStackTrace();
+          }
+        
+        
 		// json for basin
 		int count = 0;
 		try (BufferedWriter file = new BufferedWriter(new FileWriter(basinCQLOutputFileName))) {
+			
+			bw.newLine();
+        	bw.write("/* **** Scripts for district : " + distName + " **** */");
+        	bw.newLine();
+        	bw.newLine();
+			
 			Gson Basin = new Gson();
 
 			for (String basinName : Basin_details.keySet()) {
@@ -1087,6 +1138,8 @@ public class BasinXmltojson {
 				file.write(query + "\n");
 				file.newLine();
 
+				bw.write(query + "\n");
+				bw.newLine();
 //				System.out.println(basinjson);
 				// break;
 			}

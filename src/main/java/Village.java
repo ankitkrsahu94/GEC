@@ -29,6 +29,10 @@ public class Village {
 	ArrayList<Map<String,Object>> canal_info;
 	ArtificialWC aritificial_wc;
 	Map<String, Map<String, Map<String, WellsUtilizationData>>> resourceDistribution;
+	
+	public String rf_data=null;
+	public String gw_data=null;
+	public String canal_discharge=null;
 //	IrrigationUtilization irrigation_source;
 //	ResidentialUtilization residential_source;
 //	IndustrialUtilization industrial_source;

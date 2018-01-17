@@ -9,17 +9,18 @@ import com.google.gson.Gson;
 
 
 public class Village_Data {
-	String loc_association;
+	String loc_assoc;
 
 	int parent_id =1;
 	int loc_type_id =10;
-	int verification_status =1;
+	int verific_status =1;
+	String assessment_year = "2012-2013";
 	int loc_id;
 	String loc_name;
-	double rf_infiltration_rate=1;
+	double rf_infil_rate=1;
 	double gw_specific_yield=1;
 	double transmissivity=1;
-	double storage_coefficient =1;
+	double storage_coeff =1;
 	String soil_type="";
 	String area;
 	String crop_info;
@@ -28,7 +29,11 @@ public class Village_Data {
 	String canal_info;
 	String artificial_wc;
 	String gw_dependency;
-	String resource_distribution;
+	String resource_dist;
+	int processed_status = 3;
+	String rf_data;
+	String gw_data;
+	String canal_discharge;
 
 	
 	
@@ -58,6 +63,14 @@ public class Village_Data {
 		if(vill.gw_dependency != null){
 			setGwDependencyFactor(vill.gw_dependency);
 		}
+		
+		if(vill.rf_data != null) {
+			this.rf_data = vill.rf_data;
+		}
+		
+		if(vill.gw_data != null) {
+			this.gw_data = vill.gw_data;
+		}
 	}
 	
 	public String getGwDependencyFactor() {
@@ -73,12 +86,12 @@ public class Village_Data {
 
 
 	public String getResourceDistribution() {
-		return resource_distribution;
+		return resource_dist;
 	}
 	public void setResourceDistribution(Map<String, Map<String, Map<String, WellsUtilizationData>>> resourceDistribution) {
 		Gson gs = new Gson();
 		String distri = gs.toJson(resourceDistribution);
-		this.resource_distribution = distri;
+		this.resource_dist = distri;
 	}
 	private void setCrop(Map<String, Map<String, Map<String, Object>>> crop_info2) {
 		Gson gs = new Gson();
@@ -93,12 +106,12 @@ public class Village_Data {
 		this.population = population;
 	}
 	public String getBasinAssociation() {
-		return loc_association;
+		return loc_assoc;
 	}
 	public void setBasinAssociation(Map<Integer, Double> basinAssociation) {
 		Gson gs = new Gson();
 		String basinAssoc = gs.toJson(basinAssociation);
-		this.loc_association = basinAssoc;
+		this.loc_assoc = basinAssoc;
 	}
 	public String getCanal() {
 		return canal_info;

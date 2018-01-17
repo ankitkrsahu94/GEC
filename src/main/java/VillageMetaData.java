@@ -16,7 +16,7 @@ import com.google.gson.Gson;
 public class VillageMetaData {
 
     
-	public static void compute(String districtName, String path) {
+	public static void compute(String districtName, String path, BufferedWriter bw) {
 
 		String filePath = path+districtName+"/";
 
@@ -24,7 +24,6 @@ public class VillageMetaData {
 		/**
 		 * Output files
 		 */
-//		String basinAssociationTesting = filePath+"basinassociationtesting.cql";
 		String assessmentUnitCQLScriptFile = path+"final_scripts/"+districtName+"-loc_meta_data.cql";
 
         String gwlocToIWMloc = filePath+"final_mapping.csv";      // Input File
@@ -37,7 +36,7 @@ public class VillageMetaData {
         String industryUtilizationFile = filePath+"bw_industrial.csv";
         String wellsSpecificYieldFile = filePath+"rainfall_unit_drift.csv";
         String populationfile = filePath+"population.csv";
-        String assoctestfile = filePath+"villages_with_no_mb_association.csv";
+        String gw_rf_file = filePath+"rf_gw_data.csv";
 
         
         /**
@@ -507,7 +506,7 @@ public class VillageMetaData {
                 				   operativeDays.put(Constants.MONSOON, 0.0);
                 				   operativeDays.put(Constants.NON_MONSOON, 0.0);
                 				   mbWell.setOperativeDays(operativeDays);
-                				   System.out.println(well);
+//                				   System.out.println(well);
 //                				   System.out.println(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
                 			   }
                 				   
@@ -3034,16 +3033,69 @@ public class VillageMetaData {
                       }
                       
                   }
-        }
+              }
               
+          }catch (IOException e) {
+              e.printStackTrace();
+          }
+
+        
+        
+        // json for gw and rainfall
+        try(BufferedReader iem = new BufferedReader(new FileReader(gw_rf_file))) {
               
+              record = iem.readLine();
+              while((record = iem.readLine()) != null) {
+                  String fields[] = record.split(",",-1);
+
+                  
+                  String basinName = format.removeQuotes(fields[format.convert("b")]);
+                  
+                  for (String basinKey : locmapping.keySet()) {
+                	
+                	  if(basinKey.split("##")[0].equals(basinName) ) {
+                		  
+                		  Map<String, Map<String,Double>> gw = new HashMap<String, Map<String,Double>>();
+                		  gw.put("command", new HashMap<String, Double>());
+                		  gw.put("non_command", new HashMap<String, Double>());
+                		  gw.get("command").put("pre", Utils.parseDouble(fields[format.convert("f")]));
+                		  gw.get("command").put("post", Utils.parseDouble(fields[format.convert("g")]));
+                		  gw.get("non_command").put("pre", Utils.parseDouble(fields[format.convert("d")]));
+                		  gw.get("non_command").put("post", Utils.parseDouble(fields[format.convert("e")]));
+                		  village_details.get(locmapping.get(basinKey)).gw_data = (new Gson()).toJson(gw);
+                		  
+                		  
+                		  Map<String, Map<String,Double>> rf = new HashMap<String, Map<String,Double>>();
+                		  rf.put("monsoon", new HashMap<String, Double>());
+                		  rf.put("non_monsoon", new HashMap<String, Double>());
+                		  rf.get("monsoon").put("normal", Utils.parseDouble(fields[format.convert("j")]));
+                		  rf.get("non_monsoon").put("normal", Utils.parseDouble(fields[format.convert("k")]));
+                		  rf.get("monsoon").put("actual", Utils.parseDouble(fields[format.convert("m")]));
+                		  rf.get("non_monsoon").put("actual", Utils.parseDouble(fields[format.convert("n")]));                		  
+                		  village_details.get(locmapping.get(basinKey)).rf_data =  (new Gson()).toJson(rf);
+
+                		  
+                		  //TODO verify it .... Domestic
+	                   	  Map<String, Double> gwDependency = new HashMap<String, Double>();
+	                   	  gwDependency.put(Constants.DOMESTIC, Utils.parseDouble(fields[format.convert("h")]));
+                		  village_details.get(locmapping.get(basinKey)).setGwDependencyFactor(gwDependency);
+                		  
+                	  }
+                  }
+              }
               
           }catch (IOException e) {
               e.printStackTrace();
           }
         
+        
         //json for village
         try (BufferedWriter file = new BufferedWriter(new FileWriter(assessmentUnitCQLScriptFile))) {
+        	
+        	bw.newLine();
+        	bw.write("/* **** Scripts for district : " + districtName + " **** */");
+        	bw.newLine();
+        	bw.newLine();
 	        
         	Gson Village = new Gson();
 	        for(String villageName:village_details.keySet()){
@@ -3052,8 +3104,11 @@ public class VillageMetaData {
 	            String villagejson = Village.toJson(village_obj);
 	            
 	                String query = "Insert into location_md JSON '"+villagejson+"';";
-	            	file.write(query + "\n");
+	                file.write(query + "\n");
 	                file.newLine();
+	                
+	                bw.write(query + "\n");
+	                bw.newLine();
 	        }
 	        System.out.println("Finished creating script file. Total Villages : " + village_details.size());
 
