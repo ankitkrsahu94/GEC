@@ -20,7 +20,7 @@ public class VillageMetaData {
 
 		String filePath = path+districtName+"/";
 
-		
+		String assesssment_year = Village_Data.assesYear;
 		/**
 		 * Output files
 		 */
@@ -37,6 +37,7 @@ public class VillageMetaData {
         String wellsSpecificYieldFile = filePath+"rainfall_unit_drift.csv";
         String populationfile = filePath+"population.csv";
         String gw_rf_file = filePath+"rf_gw_data.csv";
+        String cropDataFile = filePath+"applied_irrigation.csv";
 
         
         /**
@@ -839,6 +840,7 @@ public class VillageMetaData {
         	/**
         	 * Kharif we are taking as Monsoon
         	 */
+        if (! assesssment_year.equals("2012-2013")) {
         	for(int id:paddykharif.keySet()){
         		for(String source:paddykharif.get(id).keySet()){
                 	/**
@@ -2759,7 +2761,7 @@ public class VillageMetaData {
                 	}
                 }
              }
-
+		}
         
              
         //json for water bodies
@@ -3040,6 +3042,137 @@ public class VillageMetaData {
           }
 
         
+//************************************ Only for 2012-2013   
+	if(assesssment_year.equals("2012-2013")) {     
+        try(BufferedReader inp = new BufferedReader(new FileReader(cropDataFile))) {
+        	
+        	while((record = inp.readLine()) != null ) {
+        		String[] fields = record.split(",",-1);
+        	      		
+        		if(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])) == null) {
+        			System.out.println("location not found "+format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
+        			continue;
+        		} 
+        		
+        		Map<String,Map<String,Map<String,Object>>> cropData = new HashMap<String, Map<String,Map<String,Object>>>();
+
+				double total_area=0.0;
+				Map<String, Double> seasonData = new HashMap<String, Double>();
+        		seasonData.put("gw_irrigation", 0.0);
+        		seasonData.put("surface_irrigation", 0.0);
+
+        		Map<String, Map<String,Double>> irrigationData = new HashMap<>();
+        		irrigationData.put("monsoon", seasonData);
+				irrigationData.put("non_monsoon", seasonData);
+
+        		Map<String, Object> waterData = new HashMap<String, Object>();
+        		waterData.put("waterRequired", 600);
+        		waterData.put("waterRequiredUnit", "mm");
+        		waterData.put("cropArea", 0.0);
+        		waterData.put("irrigationAreaInfo", new HashMap<String, Map<String, Double>>(irrigationData));
+        		
+//        		if(Utils.parseDouble(fields[format.convert("e")]) == 0.01) {
+//        			System.out.println(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
+//        		}
+        		
+//        		if(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])).equals("Turebongalu")) {
+//        			System.out.println(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
+//        		}
+        		cropData.put("command", new HashMap<String, Map<String,Object>>());
+        		
+        		total_area = 0.0;
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("e")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("q")]) + Utils.parseDouble(fields[format.convert("ac")]));
+        		total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+        		irrigationData.put("monsoon", new HashMap<>(seasonData));
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("f")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("r")]) + Utils.parseDouble(fields[format.convert("ad")]));
+				total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
+        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
+        		waterData.put("cropArea", total_area);
+        		cropData.get("command").put("paddy", new HashMap<String, Object>(waterData));
+        		
+        		total_area = 0.0;
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("g")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("s")]) + Utils.parseDouble(fields[format.convert("ae")]));
+        		total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+        		irrigationData.put("monsoon", new HashMap<>(seasonData));
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("h")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("t")]) + Utils.parseDouble(fields[format.convert("af")]));
+				total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
+        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
+        		waterData.put("cropArea", total_area);
+        		cropData.get("command").put("nonPaddy", new HashMap<String, Object>(waterData));
+        		
+        		
+        		cropData.put("non_command", new HashMap<String, Map<String,Object>>());
+        		
+        		total_area = 0.0;
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("i")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("u")]) + Utils.parseDouble(fields[format.convert("ag")]));
+        		total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+        		irrigationData.put("monsoon", new HashMap<>(seasonData));
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("j")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("v")]) + Utils.parseDouble(fields[format.convert("ah")]));
+				total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
+        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
+        		waterData.put("cropArea", total_area);
+        		cropData.get("non_command").put("paddy", new HashMap<String, Object>(waterData));
+        		
+        		total_area = 0.0;
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("k")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("w")]) + Utils.parseDouble(fields[format.convert("ai")]));
+        		total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+        		irrigationData.put("monsoon", new HashMap<>(seasonData));
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("l")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("x")]) + Utils.parseDouble(fields[format.convert("aj")]));
+				total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
+        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
+        		waterData.put("cropArea", total_area);
+        		cropData.get("non_command").put("nonPaddy", new HashMap<String, Object>(waterData));
+        		
+        		
+        		cropData.put("poor_quality", new HashMap<String, Map<String,Object>>());
+        		
+        		total_area = 0.0;
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("m")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("y")]) + Utils.parseDouble(fields[format.convert("ak")]));
+        		total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+        		irrigationData.put("monsoon", new HashMap<>(seasonData));
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("m")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("z")]) + Utils.parseDouble(fields[format.convert("al")]));
+				total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
+        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
+        		waterData.put("cropArea", total_area);
+        		cropData.get("poor_quality").put("paddy", new HashMap<String, Object>(waterData));
+        		
+        		total_area = 0.0;
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("o")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("aa")]) + Utils.parseDouble(fields[format.convert("am")]));
+        		total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+        		irrigationData.put("monsoon", new HashMap<>(seasonData));
+        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("p")]));
+        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ab")]) + Utils.parseDouble(fields[format.convert("an")]));
+				total_area += seasonData.get("gw_irrigation") + seasonData.get("surface_irrigation");
+				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
+        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
+        		waterData.put("cropArea", total_area);
+        		cropData.get("poor_quality").put("nonPaddy", new HashMap<String, Object>(waterData));
+        		
+        		village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])))
+        		.crop_info = cropData;
+        	}
+        	
+
+        } catch (IOException e) {
+        	e.printStackTrace();
+        }
+        
         
         // json for gw and rainfall
         try(BufferedReader iem = new BufferedReader(new FileReader(gw_rf_file))) {
@@ -3087,7 +3220,7 @@ public class VillageMetaData {
           }catch (IOException e) {
               e.printStackTrace();
           }
-        
+        }
         
         //json for village
         try (BufferedWriter file = new BufferedWriter(new FileWriter(assessmentUnitCQLScriptFile))) {

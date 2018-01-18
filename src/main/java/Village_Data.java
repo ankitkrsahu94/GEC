@@ -9,12 +9,14 @@ import com.google.gson.Gson;
 
 
 public class Village_Data {
+	
+	public static String assesYear = "2012-2013";
 	String loc_assoc;
 
 	int parent_id =1;
 	int loc_type_id =10;
 	int verific_status =1;
-	String assessment_year = "2012-2013";
+	String assessment_year = assesYear;
 	int loc_id;
 	String loc_name;
 	double rf_infil_rate=1;
