@@ -8,7 +8,7 @@ public class MetaDataPojo {
 	String canal_infiltration;
 	String geological_info;
 	String infiltration_info;
-	public MetaDataPojo(Map<String, Map<String, Double>> gw_infiltration,
+	public MetaDataPojo(Map<String, Map<String, Map<String, Double>>> gw_infiltration,
 			Map<String, Map<String, Double>> canal_infiltration,
 			Map<String, Map<String, Object>> geological_info,
 			Map<String, Map<String, Object>> infiltration_info) {

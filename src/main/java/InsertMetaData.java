@@ -13,17 +13,31 @@ public class InsertMetaData {
         String infilfile ="/home/megha/Downloads/final vsp - Copy/infil_info.csv";
 		String record = "";
 		Gson gs = new Gson();
-		Map<String,Map<String, Double>> gw_infiltration = new HashMap<>();
+		Map<String, Map<String,Map<String, Double>>> gw_infiltration = new HashMap<>();
 		{Map<String, Double> range = new HashMap<>();
 		range.put("0-10", 0.45);
 	    range.put("10-25", 0.35);
 	    range.put("25-100", 0.20);
-		gw_infiltration.put("paddy",range);}
+	    gw_infiltration.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Double>>());
+	    gw_infiltration.get(Constants.GROUND_WATER_IRRIGATION).put("paddy",range);}
 	    {Map<String, Double> range = new HashMap<>();
 		range.put("0-10", 0.25);
 	    range.put("10-25", 0.15);
 	    range.put("25-100", 0.05);
-	    gw_infiltration.put("nonPaddy",range);}
+	    gw_infiltration.get(Constants.GROUND_WATER_IRRIGATION).put("nonPaddy",range);}
+	    
+	    {Map<String, Double> range = new HashMap<>();
+		range.put("0-10", 0.50);
+	    range.put("10-25", 0.40);
+	    range.put("25-100", 0.25);
+	    gw_infiltration.put(Constants.SURFACE_WATER_IRRIGATION, new HashMap<String, Map<String,Double>>());
+	    gw_infiltration.get(Constants.SURFACE_WATER_IRRIGATION).put("paddy",range);}
+	    {Map<String, Double> range = new HashMap<>();
+		range.put("0-10", 0.35);
+	    range.put("10-25", 0.25);
+	    range.put("25-100", 0.15);
+	    gw_infiltration.get(Constants.SURFACE_WATER_IRRIGATION).put("nonPaddy",range);}
+	    
 	    
 	    Map<String,Map<String, Double>>canal_infiltration = new HashMap<>();
 	    {
@@ -123,7 +137,7 @@ public class InsertMetaData {
 		
 		MetaDataPojo metadata = new MetaDataPojo(gw_infiltration,canal_infiltration,geological_info,infiltration_info);
 		String metajson = gs.toJson(metadata);
-		try (FileWriter file = new FileWriter("/home/megha/Desktop/insertMetaData.cql")) {
+		try (FileWriter file = new FileWriter("/home/ankit/Desktop/insertMetaData.cql")) {
             String query = "Insert into gec_meta_data JSON '"+metajson+"';";
             System.out.println(query);
             

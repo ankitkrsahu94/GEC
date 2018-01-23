@@ -1088,14 +1088,23 @@ public class BasinXmltojson {
 	                  
 	                  String basinName = format.removeQuotes(fields[format.convert("c")]);
 	                		  
-	                		  Map<String, Map<String,Double>> gw = new HashMap<String, Map<String,Double>>();
-	                		  gw.put("command", new HashMap<String, Double>());
-	                		  gw.put("non_command", new HashMap<String, Double>());
-	                		  gw.get("command").put("pre", Utils.parseDouble(fields[format.convert("f")]));
-	                		  gw.get("command").put("post", Utils.parseDouble(fields[format.convert("g")]));
-	                		  gw.get("non_command").put("pre", Utils.parseDouble(fields[format.convert("d")]));
-	                		  gw.get("non_command").put("post", Utils.parseDouble(fields[format.convert("e")]));
-	                		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
+			                  Map<String, Map<String, Map<String, Double>>> gw = new HashMap<>();
+		            		  gw.put(Constants.MONSOON, new HashMap<String, Map<String,Double>>());
+		            		  gw.put(Constants.NON_MONSOON, new HashMap<String, Map<String,Double>>());
+		            		  gw.get(Constants.MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
+		            		  gw.get(Constants.MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
+		            		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("f")]));
+		            		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("g")]));
+		            		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("d")]));
+		            		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("e")]));
+		            		  
+		            		  gw.get(Constants.NON_MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
+		            		  gw.get(Constants.NON_MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
+		            		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("g")]));
+		            		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("o")]));
+		            		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("e")]));
+		            		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("o")]));
+		            		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
 	                		  
 	                		  
 	                		  Map<String, Map<String,Double>> rf = new HashMap<String, Map<String,Double>>();

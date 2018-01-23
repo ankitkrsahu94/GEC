@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Map;
 
 public class Constants {
+	public static final int PADDY_WATER_REQUIREMENT = 1200;
+	public static final int NON_PADDY_WATER_REQUIREMENT = 600;
 	public static final String MONSOON = "monsoon";
 	public static final String NON_MONSOON = "non_monsoon";
 	public static final String ANNUAL = "annual";
@@ -105,7 +107,7 @@ public class Constants {
     	
     	CATEGORY_WELLS.get(AGRICULTURE).addAll(Arrays.asList("DW", "DW+PS/DCB", "BWs", "STW", "MTW", "Deep TW", "Filter Points"));
     	CATEGORY_WELLS.get(DOMESTIC).addAll(Arrays.asList("DW", "BWs"));
-    	CATEGORY_WELLS.get(INDUSTRY).addAll(Arrays.asList("Deep TW"));
+    	CATEGORY_WELLS.get(INDUSTRY).addAll(Arrays.asList("BWs"));
     }
 	
 }
