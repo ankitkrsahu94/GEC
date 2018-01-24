@@ -486,10 +486,11 @@ public class VillageMetaData {
                 		   
                 		   for(String well : Constants.CATEGORY_WELLS.get(category)){
                 			   //TODO : later change to BW: 3 : 0
-                			   double growthRate = (well == "BWs")?3.0:0.0;
+//                			   double growthRate = (well == "BWs")?3.0:0.0;
+                			   double growthRate = (well.equals("DW+PS/DCB") || well.equals("DW"))?0.0:3.0;
                 			   double pumpingHours = Constants.PUMPING_HOURS;
                 			   int count = 0;
-                			   int referenceYear = 2011;
+                			   int referenceYear = 2008;
                 			   int wellIndex = Constants.CATEGORY_WELLS.get(category).indexOf(well);
                 			   
                 			   if(villWellDistributionInfo.get(category).get(areaType).get(well) == null)
@@ -3211,27 +3212,27 @@ public class VillageMetaData {
                 		  gw.put(Constants.NON_MONSOON, new HashMap<String, Map<String,Double>>());
                 		  gw.get(Constants.MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
                 		  gw.get(Constants.MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
-                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("f")]));
-                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("g")]));
+                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("g")]));
+                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("h")]));
                 		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("d")]));
                 		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("e")]));
                 		  
                 		  gw.get(Constants.NON_MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
                 		  gw.get(Constants.NON_MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
-                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("g")]));
-                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("o")]));
+                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("h")]));
+                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("i")]));
                 		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("e")]));
-                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("o")]));
+                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("f")]));
                 		  village_details.get(locmapping.get(basinKey)).gw_data = (new Gson()).toJson(gw);
                 		  
                 		  
                 		  Map<String, Map<String,Double>> rf = new HashMap<String, Map<String,Double>>();
-                		  rf.put("monsoon", new HashMap<String, Double>());
-                		  rf.put("non_monsoon", new HashMap<String, Double>());
-                		  rf.get("monsoon").put("normal", Utils.parseDouble(fields[format.convert("j")]));
-                		  rf.get("non_monsoon").put("normal", Utils.parseDouble(fields[format.convert("k")]));
-                		  rf.get("monsoon").put("actual", Utils.parseDouble(fields[format.convert("m")]));
-                		  rf.get("non_monsoon").put("actual", Utils.parseDouble(fields[format.convert("n")]));                		  
+                		  rf.put(Constants.MONSOON, new HashMap<String, Double>());
+                		  rf.put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  rf.get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("l")]));
+                		  rf.get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("m")]));
+                		  rf.get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("o")]));
+                		  rf.get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("p")]));                		  
                 		  village_details.get(locmapping.get(basinKey)).rf_data =  (new Gson()).toJson(rf);
 
                 		  
