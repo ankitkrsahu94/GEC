@@ -23,7 +23,7 @@ public class Village {
 	double storage_coefficient =1;
 	String soil_type="";
 	String area;
-	Map<String, Double> gw_dependency;
+	Map<String, Map<String, Double>> gw_dependency;
 	Map<String,Map<String,Map<String,Object>>> crop_info = new HashMap<>();
 	waterbodies water_bodies;
 	ArrayList<Map<String,Object>> canal_info;
@@ -38,10 +38,10 @@ public class Village {
 //	IndustrialUtilization industrial_source;
 	
 	
-	public Map<String, Double> getGwDependencyFactor() {
+	public Map<String, Map<String, Double>> getGwDependencyFactor() {
 		return gw_dependency;
 	}
-	public void setGwDependencyFactor(Map<String, Double> gwDependencyFactor) {
+	public void setGwDependencyFactor(Map<String, Map<String, Double>> gwDependencyFactor) {
 		this.gw_dependency = gwDependencyFactor;
 	}
 	public String getPopulation() {

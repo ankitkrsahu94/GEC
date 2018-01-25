@@ -1,4 +1,4 @@
-GW Watershed Name,Iwm basin names,GW Village Name,iwm village names
+GW Watershed Name,IWM Micro basin,Village Name,IWM village name
 KDP_C_70_54_Atloor,KDP_C_70_ATLOOR-MB,Atloor,Atlur-1
 KDP_C_70_54_Atloor,KDP_C_70_ATLOOR-MB,Gujjulavaripalli,Gujjalavaripalle
 KDP_C_70_55_Muthukuru,KDP_C_70_MUTHUKURU-MB,Jonnavaram,Jannavaram
@@ -213,11 +213,11 @@ KDP_C_68_24_DUVVURU,KDP_C_68_DUVVURU-MB,Ramachandrapuram,Ramachandrapuram-5
 KDP_C_68_25_MYDUKURU,KDP_C_68_MYDUKURU-MB,T.Sallabhasayapalli,T.Sallabasayapalle
 KDP_C_68_22_RAJUPALEM,KDP_C_68_RAJUPALEM-MB,Vellala,Vellala
 KDP_C_68_22_RAJUPALEM,KDP_C_68_RAJUPALEM-MB,Paidala,Paidala
-KDP_C_69_27_GALIVEEDU,KDP_C_69_GALIVEEDU-MB,Galiveedu,Eguvagottiveedu
+KDP_C_69_27_GALIVEEDU,KDP_C_69_GALIVEEDU-MB,Galiveedu,Galiveedu-1
 KDP_C_69_27_GALIVEEDU,KDP_C_69_GALIVEEDU-MB,Gopanapalli,Gopanapalle
 KDP_C_69_27_GALIVEEDU,KDP_C_69_GALIVEEDU-MB,Korlakunta,Korlakunta-1
 KDP_C_69_27_GALIVEEDU,KDP_C_69_GALIVEEDU-MB,Nooliveedu,Nooliveedu-1
-KDP_C_69_27_GALIVEEDU,KDP_C_69_GALIVEEDU-MB,Pandikunta,Pulikunta
+KDP_C_69_27_GALIVEEDU,KDP_C_69_GALIVEEDU-MB,Pandikunta,Pandikunta-1
 KDP_C_68_22_RAJUPALEM,KDP_C_68_RAJUPALEM-MB,Parlapadu,Parlapadu
 KDP_C_69_27_GALIVEEDU,KDP_C_69_GALIVEEDU-MB,Talamudipi,Talamudipi-1
 KDP_C_68_22_RAJUPALEM,KDP_C_68_RAJUPALEM-MB,Thondaladinne,Thondaladinne
@@ -231,7 +231,7 @@ KDP_C_68_23_CHAPADU,KDP_C_68_CHAPADU-MB,Korrapadu,Korrapadu
 KDP_C_70_51_BADVEL,KDP_C_70_BADVEL-MB,Madakalavaripalli,Madakalavaripalle
 KDP_C_68_23_CHAPADU,KDP_C_68_CHAPADU-MB,Pallavolu,Pallavolu
 KDP_C_68_23_CHAPADU,KDP_C_68_CHAPADU-MB,Thummalapadu,Thummalapadu
-KDP_C_70_51_BADVEL,KDP_C_70_BADVEL-MB,Ramapuram,North Ramapuram
+KDP_C_70_51_BADVEL,KDP_C_70_BADVEL-MB,Ramapuram,Ramapuram-4
 KDP_C_65_13_GOPAVARAM,KDP_C_65_GOPAVARAM-MB,Rekalakunta,Rekalakunta-1
 KDP_C_68_23_CHAPADU,KDP_C_68_CHAPADU-MB,Kutchupapa,Kutchupapa
 KDP_C_65_04_Gandikota,KDP_C_65_GADIKOTA-MB,Ambavaram,Ambavaram-2
@@ -284,7 +284,7 @@ KDP_C_68_25_MYDUKURU,KDP_C_68_MYDUKURU-MB,Somapuram,Somapuram
 KDP_C_70_46_Gopavarampalli,KDP_C_70_GOPAVARAMPALLI-MB,Siddamurthypalli,Siddamurthypalle
 KDP_C_68_25_MYDUKURU,KDP_C_68_MYDUKURU-MB,Nerrawada,Nerrawada
 KDP_C_70_47_Kasinayana,KDP_C_70_KASINAYANA-MB,Singarayapalli,Singarayapalle
-KDP_C_70_47_Kasinayana,KDP_C_70_KASINAYANA-MB,Tellapadu,Siddamurthypalle
+KDP_C_70_47_Kasinayana,KDP_C_70_KASINAYANA-MB,Tellapadu,Tellapadu-1
 KDP_C_69_42_Payasampalli,KDP_C_69_PAYASAMPALLI-MB,Apparaopalli,Apparaopalle
 KDP_C_69_42_Payasampalli,KDP_C_69_PAYASAMPALLI-MB,Chinnacheppalli,Chinnachepalle-1
 KDP_C_69_43_Kamlapuram,KDP_C_69_KAMALAPURAM-MB,Dadireddypalli,Dadireddipalle
@@ -364,7 +364,7 @@ KDP_C_69_38_KAMASAMUDRAM,KDP_C_69_KAMASAMUDRAM-MB,Dondlavagu,Dondlavagu
 KDP_C_71_71_Settigunta,KDP_C_71_SETTIGUNTA-MB,Settigunta,Settigunta-1
 KDP_C_69_38_KAMASAMUDRAM,KDP_C_69_KAMASAMUDRAM-MB,Rayalapuram,Rayalapuram
 KDP_C_71_71_Settigunta,KDP_C_71_SETTIGUNTA-MB,Upparapalle,Upparapalle-3
-KDP_C_71_70_Koduru,KDP_C_71_KODURU-MB,V.V Kandrika,Vasudevapuram-2
+KDP_C_71_70_Koduru,KDP_C_71_KODURU-MB,V.V Kandrika,Vellelavari Khandrika
 KDP_C_71_70_Koduru,KDP_C_71_KODURU-MB,Vasudevapuram,Vasudevapuram-2
 KDP_C_67_17_ETURU,KDP_C_67_ETURU-MB,Beduduru,Bedaduru
 KDP_C_65_01_Chamaluru,KDP_C_65_CHAMALURU-MB,Bukkapatnam,Bukkapatnam-1
@@ -380,7 +380,7 @@ KDP_C_69_39_SIMHADRIPURAM,KDP_C_69_SIMHADRIPURAM-MB,Bidinamcherla,Bidinamcherla
 KDP_C_69_39_SIMHADRIPURAM,KDP_C_69_SIMHADRIPURAM-MB,Himakuntla,Himakuntla
 KDP_C_69_39_SIMHADRIPURAM,KDP_C_69_SIMHADRIPURAM-MB,Nidivelagala,Nidivelagala
 KDP_C_69_39_SIMHADRIPURAM,KDP_C_69_SIMHADRIPURAM-MB,Agraharam,Agraharam
-KDP_C_65_02_Regadipalli,KDP_C_65_REGADIPALLI-MB,K.Brahmanapalli,K.Bommepalli
+KDP_C_65_02_Regadipalli,KDP_C_65_REGADIPALLI-MB,K.Brahmanapalli,K.Brahmanapalle
 KDP_C_69_39_SIMHADRIPURAM,KDP_C_69_SIMHADRIPURAM-MB,Lomada,Lomada
 KDP_C_65_02_Regadipalli,KDP_C_65_REGADIPALLI-MB,K.Sugumanchapalli,K.Sugumanchipalle
 KDP_C_65_01_Chamaluru,KDP_C_65_CHAMALURU-MB,Koduru,Koduru-1
@@ -570,11 +570,11 @@ KDP_C_65_13_GOPAVARAM,KDP_C_65_GOPAVARAM-MB,North Ramapuram,North Ramapuram
 KDP_C_65_13_GOPAVARAM,KDP_C_65_GOPAVARAM-MB,South Ramapuram,South Ramapuram
 KDP_C_71_73_PENAGALURU,KDP_C_71_PENAGALURU-MB,Pondaluru,Pondalur
 KDP_C_65_13_GOPAVARAM,KDP_C_65_GOPAVARAM-MB,Boddecherla,Boddecherla
-KDP_C_71_73_PENAGALURU,KDP_C_71_PENAGALURU-MB,Pondaluru V.Palli.,Pondalur
+KDP_C_71_73_PENAGALURU,KDP_C_71_PENAGALURU-MB,Pondaluru V.Palli.,Pondalurvenkatampalle
 KDP_C_65_13_GOPAVARAM,KDP_C_65_GOPAVARAM-MB,Viswanathapuram,Viswanathapuram
 KDP_C_65_13_GOPAVARAM,KDP_C_65_GOPAVARAM-MB,Obulam,Obulam
 KDP_C_71_73_PENAGALURU,KDP_C_71_PENAGALURU-MB,S.V.Puram,Singanamalavengamambapuram
-KDP_C_71_73_PENAGALURU,KDP_C_71_PENAGALURU-MB,Siddavaram,Singanamala-2
+KDP_C_71_73_PENAGALURU,KDP_C_71_PENAGALURU-MB,Siddavaram,Siddavaram-3
 KDP_C_65_14_MALLEMADUGU,KDP_C_65_MALLEMADUGU-MB,Mallemadugu,Mallemadugu
 KDP_C_71_73_PENAGALURU,KDP_C_71_PENAGALURU-MB,Singanamala,Singanamala-2
 KDP_C_71_73_PENAGALURU,KDP_C_71_PENAGALURU-MB,Singanamala C.Samudram,Singanamalachennarayasamudram
@@ -732,7 +732,7 @@ KDP_C_71_67_RAJAMPET,KDP_C_71_RAJAMPET-MB,Mittameedapalli,Mittameedapalle
 KDP_C_70_47_Kasinayana,KDP_C_70_KASINAYANA-MB,Vasudevapuram,Vasudevapuram
 KDP_C_71_67_RAJAMPET,KDP_C_71_RAJAMPET-MB,Rajampeta,Rajampet-1
 KDP_C_71_64_Mudumpadu,KDP_C_71_MUDUMPADU-MB,RF,Forest-93
-KDP_C_71_64_Mudumpadu,KDP_C_71_MUDUMPADU-MB,Rollabuduguntapalli,Rollamadugu
+KDP_C_71_64_Mudumpadu,KDP_C_71_MUDUMPADU-MB,Rollabuduguntapalli,R.Buduguntapalle
 KDP_C_71_67_RAJAMPET,KDP_C_71_RAJAMPET-MB,Sitaramapuram,Sitarampuram
 KDP_C_70_47_Kasinayana,KDP_C_70_KASINAYANA-MB,Varikunta,Varikunta
 KDP_C_71_67_RAJAMPET,KDP_C_71_RAJAMPET-MB,Sri Ranga Rajapuram,Srirangarajapuram-1
@@ -792,7 +792,7 @@ KDP_C_69_37_KONAMPALLI,KDP_C_69_KONAMPALLI-MB,RF,Forest-68
 KDP_C_69_38_KAMASAMUDRAM,KDP_C_69_KAMASAMUDRAM-MB,RF,Forest-58
 KDP_C_69_39_SIMHADRIPURAM,KDP_C_69_SIMHADRIPURAM-MB,RF,Forest-54
 KDP_C_70_49_SAVISETTIPALLI,KDP_C_70_SAVISETTIPALLI-MB,RF,Forest-42
-KDP_C_70_50_PORUMAMILLA,KDP_C_70_PORUMAMILLA-MB,RF,Porumamilla-1
+KDP_C_70_50_PORUMAMILLA,KDP_C_70_PORUMAMILLA-MB,RF,Forest-39
 KDP_C_70_51_BADVEL,KDP_C_70_BADVEL-MB,RF,Forest-49
 KDP_C_71_57_L.R.PALLI,KDP_C_71_L.R.PALLI-MB,Kurnoothala,Kurnoothala
 KDP_C_71_57_L.R.PALLI,KDP_C_71_L.R.PALLI-MB,Maddirevula,Maddirevula

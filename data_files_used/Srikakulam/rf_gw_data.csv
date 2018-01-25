@@ -1,0 +1,19 @@
+S.no,GW watershed  name,IWM Micro basin,NCA pre monsoon depth to water level ,NCA post monsoon depth to water level,NCA pre monsoon depth to water level ,NCA pre monsoon depth to water level ,CA pre monsoon depth to water level ,CA post monsoon depth to water level,CA pre monsoon depth to water level ,CA pre monsoon depth to water level ,Dependancy factor nca,Dependancy factor ca,Normal annual rainfall mm,Normal Monsoon rainfall mm,Normal Non-monsoon rainfall mm,Annual rainfall for the year of assessment mm,Monsoon rainfall for the year of assessment mm,Non-monsoon rainfall for the year of assessment mm
+1,Skl_F_Bahuda_Ichapuram,SKL_F_01_ICHAPURAM-MB,8.51,4.64,8.24,,,,,,1,0,1302,750,552,1030,627,403
+2,Skl_F_Kandivalasagedda_PBVaram,SKL_F_08_P.B.VARAM-MB,14.87,8.53,14.48,,,,,,1,0,1045.6,598,447.6,1071.3,550.5,520.8
+3,Skl_F_Mahendratanaya_N,SKL_F_02_MANDASA-MB,4.13,3.53,4.36,,,,,,1,0,1234,701,533,1234,685,549
+4,Skl_F_Peddagedda_Gsigadam,SKL_F_07_G.SIGADAM-MB,13.09,3.82,12.07,,,,,,1,0,1032,599,433,1121,662,459
+5,Skl_F_Vamsadhara_Mahendratanaya_W_Meliaputti,SKL_F_05_MELIAPUTTY-MB,6.98,2.43,7.34,,,,,,1,0,1225,766,459,1195,797,399
+6,Skl_F_Vamsadhara_Vamsadhara_W1_Bhamini,SKL_F_05_BHAMINT-MB,8.14,1.9,8.84,,,,,,0.98,0,1278,820,458,1161,703,458
+7,Skl_F_Nagavali_Nagavali_E_Srikakulam,SKL_F_06_SRIKAKULAM-MB,4.26,1.06,4.15,,5.73,0.72,5.47,,0.95,0.95,1075,644,431,1515,993,522
+8,Skl_F_Nagavali_Ottigedda_Veeraghattam,SKL_F_06_VEERAGHATTAM-MB,8.8,2.37,8.36,,5.94,2.58,5.45,,0.9,0.9,1186,773,413,1390,1043,347
+9,Skl_F_Nagavali_Relligedda_Rajam,SKL_F_06_RAJAM-MB,6.1,1.68,5.17,,5.59,1.5,5.14,,0.9,0.9,1059.2,651.9,407.2,1197,769,428
+10,Skl_F_Nagavali_Suvarnamukhi_Vangara,SKL_F_06_VANGARA-MB,4.3,1.74,3.38,,4.52,0.95,3.81,,0.95,0.95,1110,708,402,1182,839,343
+11,Skl_F_Naupada_Desagedda_Tekkali,SKL_F_04_SANTABOMMALI-MB,7.75,1.33,8.18,,5.78,0.5,4.75,,1,1,1173,746,427,1270,747,523
+12,Skl_F_Naupada_Gareebulagedda_Kotabommali,SKL_F_04_KOTABOMMALY-MB,5.96,0.7,4.9,,7.13,1.01,6.7,,1,1,1179,718,461,1230,701,529
+13,Skl_F_PMD_Bendigedda_Palasa,SKL_F_03_PALASA-MB,5.58,0.3,5.17,,6.37,2.15,3.79,,0.95,0.9,1246,758,488,1382,807,575
+14,Skl_F_PMD_Sandemmagedda_Nandigam,SKL_F_04_NANDIGAM-MB,5.95,1.62,4.35,,4.62,0.4,3.92,,0.95,0.9,1230,757,473,1228,735,492
+15,Skl_F_Vamsadhara_Vamsadhara_E__Narasannapeta,SKL_F_05_NARASANNAPETA-MB,6.36,1.8,6.02,,6.36,2.33,6.43,,0.8,0.8,1174,699,475,1310,818,492
+16,Skl_F_Vamsadhara_Vamsadhara_W2_Hiramandalam,SKL_F_05_HIRAMANDALAM-MB,8.83,2.8,10.44,,3.93,1.17,4.5,,0.9,0.9,1236,763,473,1240,791,449
+17,Skl_F_Vamsadhara_Vamsadhara_W3_Sarubujjili,SKL_F_05_SARUBUJJILI-MB,8.71,2.69,8.69,,3.73,1.44,3.6,,0.9,0.9,1077,688,389,1427,975,451
+18,Skl_F_Vamsadhara_Vamsadhara_W4_Gara,SKL_F_05_GARA-MB,3.56,1.03,3.16,,5.49,1.18,6,,0.8,0.8,1078,590,488,1368,768,600

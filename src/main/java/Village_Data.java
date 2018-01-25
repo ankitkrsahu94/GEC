@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 
 public class Village_Data {
 	
-	public static String assesYear = "2012-2013";
+	public static String assesYear = "2017-2018";
 	String loc_assoc;
 
 	int parent_id =1;
@@ -80,7 +80,7 @@ public class Village_Data {
 	}
 
 
-	public void setGwDependencyFactor(Map<String, Double> gwDependencyFactor) {
+	public void setGwDependencyFactor(Map<String, Map<String, Double>> gwDependencyFactor) {
 		Gson gs = new Gson();
 		String dependency = gs.toJson(gwDependencyFactor);
 		this.gw_dependency = dependency;

@@ -536,12 +536,12 @@ public class VillageMetaData {
                 	   }
                 	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setResourceDistribution(villWellDistributionInfo);
                 	   
-                	   /**
-                        * Assign GW Dependency factor
-                        */
-                	   Map<String, Double> gwDependency = new HashMap<String, Double>();
-                	   gwDependency.put(Constants.DOMESTIC, 1.0);
-                	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setGwDependencyFactor(gwDependency);
+//                	   /**
+//                        * Assign GW Dependency factor
+//                        */
+//                	   Map<String, Double> gwDependency = new HashMap<String, Double>();
+//                	   gwDependency.put(Constants.DOMESTIC, 1.0);
+//                	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setGwDependencyFactor(gwDependency);
                    }
                    else{
                 	   System.out.println("Resource distribution : invalid row : " + record);
@@ -966,7 +966,7 @@ public class VillageMetaData {
             						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
             						
             						obj = new HashMap<>();
-            						irrigationAreaInfo.get("monsoon").put("surface_irrigation", 0.0);
+            						irrigationAreaInfo.get("monsoon").put("mi_irrigation", 0.0);
             						obj.put("irrigationAreaInfo", irrigationAreaInfo);
             						obj.put("cropArea", 0.0);
             						obj.put("waterRequired", 1100);
@@ -981,15 +981,15 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
             					}
-            					if(irrigationAreaInfo.get("monsoon").get("surface_irrigation") == null){
-            						irrigationAreaInfo.get("monsoon").put("surface_irrigation", 0.0);
+            					if(irrigationAreaInfo.get("monsoon").get("mi_irrigation") == null){
+            						irrigationAreaInfo.get("monsoon").put("mi_irrigation", 0.0);
             					}
 //            					if(((Map<String, Double>)obj.get("monsoon")).get("surface_irrigation")==null){
 //            						((Map<String, Double>)obj.get("monsoon")).put("surface_irrigation", 0.0);
 //            					}
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("surface_irrigation");
+            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("mi_irrigation");
             					irrigatedArea += paddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put("surface_irrigation", irrigatedArea);
+            					irrigationAreaInfo.get("monsoon").put("mi_irrigation", irrigatedArea);
             					double totalArea = (double)(obj.get("cropArea"));
             					totalArea += paddykharif.get(id).get(source);
             					obj.put("cropArea", totalArea);
@@ -1015,7 +1015,7 @@ public class VillageMetaData {
             						obj = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.MONSOON).put("mi_irrigation", 0.0);
             						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
             						obj2 = new HashMap<>();
             						
@@ -1034,15 +1034,15 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
             						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            					if(irrigationAreaInfo.get(Constants.MONSOON).get("mi_irrigation") == null)
+            						irrigationAreaInfo.get(Constants.MONSOON).put("mi_irrigation", 0.0);
             					
             					
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get(Constants.SURFACE_WATER_IRRIGATION);
+            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("mi_irrigation");
             					//System.out.println(irrigatedArea);
             					//System.out.println(paddykharif.get(id).get(source));
             					irrigatedArea+=paddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put(Constants.SURFACE_WATER_IRRIGATION, irrigatedArea);
+            					irrigationAreaInfo.get("monsoon").put("mi_irrigation", irrigatedArea);
             					//System.out.println("***in MI Tanks"+village_details.get(IWMName).crop_info);
             					double totalArea = (double)(obj.get("cropArea"));
             					//System.out.println("total area "+totalArea);
@@ -1383,7 +1383,7 @@ public class VillageMetaData {
             						obj = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);obj2 = new HashMap<>();
             						////obj2.put("irrigationAreaInfo", water);
             						obj.put("cropArea", 0.0);
@@ -1400,14 +1400,14 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.MI_IRRIGATION) == null)
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("surface_irrigation");
+            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.MI_IRRIGATION);
             					//System.out.println(irrigatedArea);
             					//System.out.println(paddyrabi.get(id).get(source));
             					irrigatedArea += paddyrabi.get(id).get(source);
-            					irrigationAreaInfo.get("non_monsoon").put("surface_irrigation", irrigatedArea);
+            					irrigationAreaInfo.get("non_monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
             					//System.out.println("***in Tanks"+village_details.get(IWMName).crop_info);
             					double totalArea = (double)(obj.get("cropArea"));
             					//System.out.println("total area "+totalArea);
@@ -1437,7 +1437,7 @@ public class VillageMetaData {
             						obj = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
             						obj2 = new HashMap<>();
             						obj.put("cropArea", 0.0);
@@ -1454,14 +1454,14 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.MI_IRRIGATION) == null)
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.SURFACE_WATER_IRRIGATION);
+            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.MI_IRRIGATION);
             					//System.out.println(irrigatedArea);
             					//System.out.println(paddyrabi.get(id).get(source));
             					irrigatedArea+=paddyrabi.get(id).get(source);
-            					irrigationAreaInfo.get("non_monsoon").put(Constants.SURFACE_WATER_IRRIGATION, irrigatedArea);
+            					irrigationAreaInfo.get("non_monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
             					//System.out.println("***in MI Tanks"+village_details.get(IWMName).crop_info);
             					double totalArea = (double)(obj.get("cropArea"));
             					//System.out.println("total area "+totalArea);
@@ -1836,7 +1836,7 @@ public class VillageMetaData {
             						obj = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
             						obj.put("cropArea", 0.0);
             						obj.put("waterRequired", 600);
@@ -1853,7 +1853,7 @@ public class VillageMetaData {
             						obj1 = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
             						obj1.put("cropArea", 0.0);
             						obj1.put("waterRequired", 600);
@@ -1869,14 +1869,14 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
             						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.MI_IRRIGATION) == null)
+            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             					
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("surface_irrigation");
+            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get(Constants.MI_IRRIGATION);
             					//System.out.println(irrigatedArea);
             					//System.out.println(nonpaddykharif.get(id).get(source));
             					irrigatedArea += nonpaddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put("surface_irrigation", irrigatedArea);
+            					irrigationAreaInfo.get("monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
             					//System.out.println("***in Tanks"+village_details.get(IWMName).crop_info);
             					double totalArea = (double)(obj.get("cropArea"));
             					//System.out.println("total area "+totalArea);
@@ -1906,7 +1906,7 @@ public class VillageMetaData {
             						obj = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
             						obj2 = new HashMap<>();
             						obj.put("cropArea", 0.0);
@@ -1924,14 +1924,14 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
             						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.MI_IRRIGATION) == null)
+            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             					
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get(Constants.SURFACE_WATER_IRRIGATION);
+            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get(Constants.MI_IRRIGATION);
             					//System.out.println(irrigatedArea);
             					//System.out.println(nonpaddykharif.get(id).get(source));
             					irrigatedArea+=nonpaddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put(Constants.SURFACE_WATER_IRRIGATION, irrigatedArea);
+            					irrigationAreaInfo.get("monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
             					//System.out.println("***in MI Tanks"+village_details.get(IWMName).crop_info);
             					double totalArea = (double)(obj.get("cropArea"));
             					//System.out.println("total area "+totalArea);
@@ -2380,7 +2380,7 @@ public class VillageMetaData {
             						obj = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
             						obj2 = new HashMap<>();
             						
@@ -2398,7 +2398,7 @@ public class VillageMetaData {
             						obj1 = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
             						obj2 = new HashMap<>();
             						
@@ -2416,14 +2416,14 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.MI_IRRIGATION) == null)
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("surface_irrigation");
+            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.MI_IRRIGATION);
             					//System.out.println(irrigatedArea);
             					//System.out.println(nonpaddyrabi.get(id).get(source));
             					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-            					irrigationAreaInfo.get("non_monsoon").put("surface_irrigation", irrigatedArea);
+            					irrigationAreaInfo.get("non_monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
             					//System.out.println("***in Tanks"+village_details.get(IWMName).crop_info);
             					double totalArea = (double)(obj.get("cropArea"));
             					//System.out.println("total area "+totalArea);
@@ -2453,7 +2453,7 @@ public class VillageMetaData {
             						obj = new HashMap<>();
             						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
             						obj2 = new HashMap<>();
             						
@@ -2472,15 +2472,15 @@ public class VillageMetaData {
             						irrigationAreaInfo = new HashMap<>();
             					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
             						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.MI_IRRIGATION) == null)
+            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
             					
             					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.SURFACE_WATER_IRRIGATION);
+            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.MI_IRRIGATION);
             					//System.out.println(irrigatedArea);
             					//System.out.println(nonpaddyrabi.get(id).get(source));
             					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-            					irrigationAreaInfo.get("non_monsoon").put(Constants.SURFACE_WATER_IRRIGATION, irrigatedArea);
+            					irrigationAreaInfo.get("non_monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
             					//System.out.println("***in MI Tanks"+village_details.get(IWMName).crop_info);
             					double totalArea = (double)(obj.get("cropArea"));
             					//System.out.println("total area "+totalArea);
@@ -3212,15 +3212,15 @@ public class VillageMetaData {
                 		  gw.put(Constants.NON_MONSOON, new HashMap<String, Map<String,Double>>());
                 		  gw.get(Constants.MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
                 		  gw.get(Constants.MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
-                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("g")]));
-                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("h")]));
+                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("h")]));
+                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("i")]));
                 		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("d")]));
                 		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("e")]));
                 		  
                 		  gw.get(Constants.NON_MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
                 		  gw.get(Constants.NON_MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
-                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("h")]));
-                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("i")]));
+                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("i")]));
+                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("j")]));
                 		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("e")]));
                 		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("f")]));
                 		  village_details.get(locmapping.get(basinKey)).gw_data = (new Gson()).toJson(gw);
@@ -3229,16 +3229,18 @@ public class VillageMetaData {
                 		  Map<String, Map<String,Double>> rf = new HashMap<String, Map<String,Double>>();
                 		  rf.put(Constants.MONSOON, new HashMap<String, Double>());
                 		  rf.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  rf.get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("l")]));
-                		  rf.get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("m")]));
-                		  rf.get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("o")]));
-                		  rf.get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("p")]));                		  
+                		  rf.get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
+                		  rf.get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
+                		  rf.get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
+                		  rf.get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));                		  
                 		  village_details.get(locmapping.get(basinKey)).rf_data =  (new Gson()).toJson(rf);
 
                 		  
                 		  //TODO verify it .... Domestic
-	                   	  Map<String, Double> gwDependency = new HashMap<String, Double>();
-	                   	  gwDependency.put(Constants.DOMESTIC, Utils.parseDouble(fields[format.convert("h")]));
+                		  Map<String, Map<String, Double>> gwDependency = new HashMap<String, Map<String, Double>>();
+	                   	  gwDependency.put(Constants.DOMESTIC, new HashMap<String, Double>());
+	                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.COMMAND_AREA, Utils.parseDouble(fields[format.convert("m")]));
+	                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.NON_COMMAND_AREA, Utils.parseDouble(fields[format.convert("l")]));
                 		  village_details.get(locmapping.get(basinKey)).setGwDependencyFactor(gwDependency);
                 		  
                 	  }

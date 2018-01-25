@@ -93,6 +93,7 @@ public class Constants {
 	public static final String IN_STORAGE_GW = "in_storage_gw";
 	public static final int DECIMAL = 5;
 	public static final String IRRIGATION_AREA_INFO = "irrigationAreaInfo";
+	public static final String MI_IRRIGATION = "mi_irrigation";
 	public static final String CROP_AREA = "cropArea";
 	public static final List<String> CATEGORIES = new ArrayList<String>(Arrays.asList(DOMESTIC, INDUSTRY, AGRICULTURE));
 	public static final int PUMPING_HOURS = 7;
