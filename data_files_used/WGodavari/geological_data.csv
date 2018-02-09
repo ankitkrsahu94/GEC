@@ -1,42 +1,42 @@
-,,,,,,,,,,,, Command,,,,Non command,,,,Poor command,
-SR.NO, GW Watershed name,Geo Specific Yield name,Specific Yield value as %,Rainfall infiltration Factor as %,Transmissivity as %,Storage Coefficient as %,Total area sq.km,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,,
-1,WG_E_Kondrukota (Polavaram),hardrock,1,1.5,,,349.6,92.53,0,0,92.53,253.69,3.38,9.69,257.07,0,0,0,0,0,0
-2,WG_E_Kovvada_Pattiseema,hardrock,2,11,,,215.624,0,0,0,0,215.624,0,77.64,215.624,0,0,0,0,0,0
-3,WG_I_36_Iragavaram,softrock,10,16,,,79.06,79.06,0,0,79.06,0,0,0,0,0,0,0,0,0,0
-4,WG_I_36_KALLA,softrock,10,16,,,157.03,157.03,0,0,157.03,0,0,0,0,0,0,0,0,0,0
-5,WG_I_36_PODURU,softrock,10,16,,,92.0418,92.0418,0,0,92.0418,0,0,0,0,0,0,0,0,0,0
-6,WG_I_Baineru_Jangareddiguedem,soft rock,3,12,,,96.93,0,0,0,0,96.93,0,54.2955,96.93,0,0,0,0,0,0
-7,WG_I_Bhimadole_Bhimadole,softrock,2,10,,,339.5633,68.36,0,0,68.36,271.2,0,0,271.2,0,0,0,0,0,0
-8,WG_I_Chityala_Tallapudi,Alluvial,2,10,,,323.73,89.73,0,0,89.73,230.62,3.38,9.69,234,0,0,0,0,0,0
-9,WG_I_Gunderu_Pedavegi,hardrock,2,10,,,841.12,244.52,0,0,244.52,596.59,0,38,596.59,158.86,0,0,158.86,0,0
-10,WG_I_Jagannapeta,softrock,2,10,,,265.59,107.22,0,0,107.22,158.37,0,0,158.37,0,0,0,0,0,0
-11,WG_I_Jalavagu_Makkinavarigudem,soft rock,3,12,,,157.7044663968,0,0,0,0,157.1642663968,0.5402,29.164,157.7044663968,0,0,0,0,0,0
-12,WG_I_Jalleru_Jeelugumilli,soft rock,3,12,,,324.69,0,0,0,0,324.69,0,58.864,324.69,0,0,0,0,0,0
-13,WG_I_Kovvuru_Dommeru,softrock,1.6,16,,,187.69,42.22,0,0,42.22,145.47,0,0,145.47,0,0,0,0,0,0
-14,WG_I_Nidadavolu_Arugolanu,softrock,2,10,,,268.33,104.99,0,0,104.99,163.34,0,0,163.34,0,0,0,0,0,0
-15,WG_I_ODJS_Achanta,softrock,10,16,,,74.74,74.74,0,0,74.74,0,0,0,0,0,0,0,0,0,0
-16,WG_I_ODJS_AKIVEEDU,softrock,10,16,,,121.13,121.13,0,0,121.13,0,0,0,0,0,0,0,0,0,0
-17,WG_I_ODJS_Attili,softrock,10,16,,,85.93,68.31,0,0,68.31,0,0,0,0,17.62,0,0,17.62,0,0
-18,WG_I_ODJS_Bhimavaram,softrock,10,16,,,168.4092,168.407,0,0,168.407,0,0,0,0,0,0,0,0,0,0
-19,WG_I_ODJS_GANAPAVARAM,softrock,10,16,,,91.86,91.86,0,0,91.86,0,0,0,0,0,0,0,0,0,0
-20,WG_I_ODJS_Mogalturu,softrock,10,16,,,130.82,130.82,0,0,130.82,0,0,0,0,0,0,0,0,0,0
-21,WG_I_ODJS_Narasapuram,softrock,10,16,,,163.55,163.55,0,0,163.55,0,0,0,0,0,0,0,0,0,0
-22,WG_I_ODJS_NIDAMARRU,Alluvium,10,16,,,116.48,116.48,0,0,116.48,0,0,0,0,0,0,0,0,0,0
-23,WG_I_ODJS_Palakoderu,softrock,10,16,,,92.33,92.33,0,0,92.33,0,0,0,0,0,0,0,0,0,0
-24,WG_I_ODJS_Palakollu,softrock,10,16,,,81.0052,81.0052,0,0,81.0052,0,0,0,0,0,0,0,0,0,0
-25,WG_I_ODJS_Pentapadu,softrock,10,16,,,116.3394,116.3394,0,0,116.3394,0,0,0,0,0,0,0,0,0,0
-26,WG_I_ODJS_Penugonda,softrock,10,16,,,71.9331,71.9331,0,0,71.9331,0,0,0,0,0,0,0,0,0,0
-27,WG_I_ODJS_Penumantra,softrock,10,16,,,69.13,69.13,0,0,69.13,0,0,0,0,69.13,0,0,69.13,0,0
-28,WG_I_ODJS_Peravali,softrock,10,16,,,82.9031,82.9031,0,0,82.9031,0,0,0,0,0,0,0,0,0,0
-29,WG_I_ODJS_TANUKU,softrock,3,16,,,77.42,77.42,0,0,77.42,0,0,0,0,0,0,0,0,0,0
-30,WG_I_ODJS_Undi,softrock,10,16,,,129.21,129.21,0,0,129.21,0,0,0,0,0,0,0,0,0,0
-31,WG_I_ODJS_UNDRAJAVARAM,softrock,1,16,,,81.14,76.53,0,0,76.53,0,0,0,0,4.61,0,0,4.61,0,0
-32,WG_I_ODJS_VEERAVASARAM,softrock,16,22,,,92.93,92.93,0,0,92.93,0,0,0,0,0,0,0,0,0,0
-33,WG_I_ODJS_Yelamanchili,softrock,10,16,,,219.18,219.18,0,0,219.18,0,0,0,0,0,0,0,0,0,0
-34,WG_I_Paletivagu_Devarapalli,soft rock,3,12,,,307.37,0,0,0,0,307.37,0,0,307.37,0,0,0,0,0,0
-35,WG_I_Pedapadu,softrock,3,10,,,313.23,206.28,0,0,206.28,106.95,0,0,106.95,0,0,0,0,0,0
-36,WG_I_Tammileru South_Eluru,softrock,3,10,,,154.58,54.17,0,0,54.17,100.41,0,0,100.41,0,0,0,0,0,0
-37,WG_I_Tammileru_Chintalapudi,softrock,3,10,,,307.594,3.69,0,0,3.69,303.902,0,0,303.902,0,0,0,0,0,0
-38,WG_I_Turpukalva_K.R.PURAM,hardrock,2,11,,,171.644,0,0,0,0,171.644,0,45.86,171.644,0,0,0,0,0,0
-39,WG_I_YARRAKALVA-1_T. NARASAPURAM,soft rock,3,12,,,312.98,0,0,0,0,304.99,7.99,48.53,312.98,0,0,0,0,0,0
-40,WG_I_Yerrakalva 2_Devulapalli,softrock,3,1,,,443.29,6.63,0,0,6.63,436.66,0,29.91,436.66,0,0,0,0,0,0
+,,,,,,,, Command,,,,Non command,,,,Poor command,,,
+SR.NO, GW Watershed name,Geo Specific Yield name,Specific Yield value as %,Rainfall infiltration Factor as %,Transmissivity as %,Storage Coefficient as %,Total area sq.km,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total,Recghare,Hilly,Forest,Total
+1,WG_E_Kondrukota (Polavaram),hardrock,1,1.5,,,349.6,253.69,3.38,9.69,257.07,0,0,0,0,0,0,0,0
+2,WG_E_Kovvada_Pattiseema,hardrock,2,11,,,215.624,215.624,0,77.64,215.624,0,0,0,0,0,0,0,0
+3,WG_I_36_Iragavaram,softrock,10,16,,,79.06,0,0,0,0,0,0,0,0,0,0,0,0
+4,WG_I_36_KALLA,softrock,10,16,,,157.03,0,0,0,0,0,0,0,0,0,0,0,0
+5,WG_I_36_PODURU,softrock,10,16,,,92.0418,0,0,0,0,0,0,0,0,0,0,0,0
+6,WG_I_Baineru_Jangareddiguedem,soft rock,3,12,,,96.93,96.93,0,54.2955,96.93,0,0,0,0,0,0,0,0
+7,WG_I_Bhimadole_Bhimadole,softrock,2,10,,,339.5633,271.2,0,0,271.2,0,0,0,0,0,0,0,0
+8,WG_I_Chityala_Tallapudi,Alluvial,2,10,,,323.73,230.62,3.38,9.69,234,0,0,0,0,0,0,0,0
+9,WG_I_Gunderu_Pedavegi,hardrock,2,10,,,841.12,596.59,0,38,596.59,158.86,0,0,158.86,0,0,0,0
+10,WG_I_Jagannapeta,softrock,2,10,,,265.59,158.37,0,0,158.37,0,0,0,0,0,0,0,0
+11,WG_I_Jalavagu_Makkinavarigudem,soft rock,3,12,,,157.7044663968,157.1642663968,0.5402,29.164,157.7044663968,0,0,0,0,0,0,0,0
+12,WG_I_Jalleru_Jeelugumilli,soft rock,3,12,,,324.69,324.69,0,58.864,324.69,0,0,0,0,0,0,0,0
+13,WG_I_Kovvuru_Dommeru,softrock,1.6,16,,,187.69,145.47,0,0,145.47,0,0,0,0,0,0,0,0
+14,WG_I_Nidadavolu_Arugolanu,softrock,2,10,,,268.33,163.34,0,0,163.34,0,0,0,0,0,0,0,0
+15,WG_I_ODJS_Achanta,softrock,10,16,,,74.74,0,0,0,0,0,0,0,0,0,0,0,0
+16,WG_I_ODJS_AKIVEEDU,softrock,10,16,,,121.13,0,0,0,0,0,0,0,0,0,0,0,0
+17,WG_I_ODJS_Attili,softrock,10,16,,,85.93,0,0,0,0,17.62,0,0,17.62,0,0,0,0
+18,WG_I_ODJS_Bhimavaram,softrock,10,16,,,168.4092,0,0,0,0,0,0,0,0,0,0,0,0
+19,WG_I_ODJS_GANAPAVARAM,softrock,10,16,,,91.86,0,0,0,0,0,0,0,0,0,0,0,0
+20,WG_I_ODJS_Mogalturu,softrock,10,16,,,130.82,0,0,0,0,0,0,0,0,0,0,0,0
+21,WG_I_ODJS_Narasapuram,softrock,10,16,,,163.55,0,0,0,0,0,0,0,0,0,0,0,0
+22,WG_I_ODJS_NIDAMARRU,Alluvium,10,16,,,116.48,0,0,0,0,0,0,0,0,0,0,0,0
+23,WG_I_ODJS_Palakoderu,softrock,10,16,,,92.33,0,0,0,0,0,0,0,0,0,0,0,0
+24,WG_I_ODJS_Palakollu,softrock,10,16,,,81.0052,0,0,0,0,0,0,0,0,0,0,0,0
+25,WG_I_ODJS_Pentapadu,softrock,10,16,,,116.3394,0,0,0,0,0,0,0,0,0,0,0,0
+26,WG_I_ODJS_Penugonda,softrock,10,16,,,71.9331,0,0,0,0,0,0,0,0,0,0,0,0
+27,WG_I_ODJS_Penumantra,softrock,10,16,,,69.13,0,0,0,0,69.13,0,0,69.13,0,0,0,0
+28,WG_I_ODJS_Peravali,softrock,10,16,,,82.9031,0,0,0,0,0,0,0,0,0,0,0,0
+29,WG_I_ODJS_TANUKU,softrock,3,16,,,77.42,0,0,0,0,0,0,0,0,0,0,0,0
+30,WG_I_ODJS_Undi,softrock,10,16,,,129.21,0,0,0,0,0,0,0,0,0,0,0,0
+31,WG_I_ODJS_UNDRAJAVARAM,softrock,1,16,,,81.14,0,0,0,0,4.61,0,0,4.61,0,0,0,0
+32,WG_I_ODJS_VEERAVASARAM,softrock,16,22,,,92.93,0,0,0,0,0,0,0,0,0,0,0,0
+33,WG_I_ODJS_Yelamanchili,softrock,10,16,,,219.18,0,0,0,0,0,0,0,0,0,0,0,0
+34,WG_I_Paletivagu_Devarapalli,soft rock,3,12,,,307.37,307.37,0,0,307.37,0,0,0,0,0,0,0,0
+35,WG_I_Pedapadu,softrock,3,10,,,313.23,106.95,0,0,106.95,0,0,0,0,0,0,0,0
+36,WG_I_Tammileru South_Eluru,softrock,3,10,,,154.58,100.41,0,0,100.41,0,0,0,0,0,0,0,0
+37,WG_I_Tammileru_Chintalapudi,softrock,3,10,,,307.594,303.902,0,0,303.902,0,0,0,0,0,0,0,0
+38,WG_I_Turpukalva_K.R.PURAM,hardrock,2,11,,,171.644,171.644,0,45.86,171.644,0,0,0,0,0,0,0,0
+39,WG_I_YARRAKALVA-1_T. NARASAPURAM,soft rock,3,12,,,312.98,304.99,7.99,48.53,312.98,0,0,0,0,0,0,0,0
+40,WG_I_Yerrakalva 2_Devulapalli,softrock,3,1,,,443.29,436.66,0,29.91,436.66,0,0,0,0,0,0,0,0

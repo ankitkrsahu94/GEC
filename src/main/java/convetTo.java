@@ -13,15 +13,13 @@ public class convetTo {
 
 		
 		List<String> distNames = new ArrayList<>();
-		
+//		
 //		distNames.add("Chittor");
 //		distNames.add("Anantapur");
 //		distNames.add("Srikakulam");
 //		distNames.add("Guntur");
-		distNames.add("Visakhapatnam");
-//		distNames.add("WGodavari");
-		
-		
+//		distNames.add("Visakhapatnam");
+		distNames.add("WGodavari");
 //		distNames.add("Nellore");
 //		distNames.add("Krishna");
 //		distNames.add("EastG");

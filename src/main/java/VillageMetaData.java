@@ -673,7 +673,7 @@ public class VillageMetaData {
 //                			System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))));
                 		}
                 	} else {
-                		System.out.println(" asdasdasd::: " + format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
+                		System.out.println("Mapping doesn't exist for locaiton : " + format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
                 	}
                 	//System.out.println("test count value ######"+test);
                 	//break;
@@ -2949,7 +2949,7 @@ public class VillageMetaData {
                  		}
                  	}
                  	else{
-                 		System.out.println(" location : " + format.removeQuotes(format.removeQuotes(fields[format.convert("c")])
+                 		System.out.println("Artificial WC : Mapping not found for location : " + format.removeQuotes(format.removeQuotes(fields[format.convert("c")])
                  				+"##"+format.removeQuotes(fields[format.convert("d")])));
                  	}
                     // System.out.println(artificialwcjson);
@@ -3052,7 +3052,7 @@ public class VillageMetaData {
         		String[] fields = record.split(",",-1);
         	      		
         		if(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])) == null) {
-        			System.out.println("location not found "+format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
+        			System.out.println("Crop Information : location not found "+format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
         			continue;
         		} 
         		
@@ -3085,6 +3085,7 @@ public class VillageMetaData {
         		total_area = 0.0;
         		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("e")]));
         		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("q")]));
+//        		System.out.println("ANKIT ::: " + fields[1] + " " + fields[2] + " " + fields[3]);
         		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ac")]));
         		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
         		irrigationData.put("monsoon", new HashMap<>(seasonData));

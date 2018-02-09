@@ -8,7 +8,7 @@ public class MicroBasin_Data {
 
 	int parent_id =1;
 	int verific_status =1;
-	String assessment_year = "2017-2018";
+	String assessment_year = "2012-2013";
 	int loc_id;
 	String loc_name;
 	int loc_type_id =25;

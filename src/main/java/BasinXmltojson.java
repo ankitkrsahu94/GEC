@@ -536,6 +536,9 @@ public class BasinXmltojson {
 																														// required
 						Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("b")])))
 								.setGeologicalInfo(GeologicalInfo);
+					}else{
+						System.out.println("ANKIT ::: no geo distname : " + distName + " : " + format.removeQuotes(fields[format.convert("b")]));
+						System.out.println("\n\n\n\n\n\n\n\n\n\n\n\\nn\\n\n\n\n\n\n\n\n\n\n\n");
 					}
 
 				}else{
@@ -557,7 +560,7 @@ public class BasinXmltojson {
 			record = iem.readLine();
 
 			while ((record = iem.readLine()) != null) {
-				String fields[] = record.split(",");
+				String fields[] = record.split(",", -1);
 				Map<String, Double> geoInfo = new HashMap<>();
 				Map<String, Map<String, Double>> GeologicalInfo = new HashMap<>();
 				// System.out.println("fields = "+fields.length);
@@ -565,7 +568,6 @@ public class BasinXmltojson {
 				if (fields.length == 20) {
 					count++;
 					if (fields[format.convert("c")].equalsIgnoreCase("Weathered granite(Weathered granite)")) {
-
 						geoInfo.put("fraction", 1.0);
 						geoInfo.put("infiltration_rate", Double.parseDouble(fields[format.convert("e")]));
 						GeologicalInfo.put("Weathered granite", geoInfo);
@@ -574,11 +576,13 @@ public class BasinXmltojson {
 						geoInfo.put("infiltration_rate", Double.parseDouble(fields[format.convert("e")]));
 						GeologicalInfo.put("Weathered gneiss", geoInfo);
 					}
-
+					
 					if (locmapping.keySet().contains(format.removeQuotes(fields[format.convert("b")]))
 							|| Basin_details.keySet().contains(format.removeQuotes(fields[format.convert("b")]))) {
 						Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("b")])))
 								.setInfiltrationInfo(GeologicalInfo);
+					}else{
+						System.out.println("ANKIT ::: no infiltration distname : " + distName + " : " + format.removeQuotes(fields[format.convert("b")]));
 					}
 					// System.out.println(count+" "+ResidentialUtilizationjson);
 
@@ -1104,7 +1108,7 @@ public class BasinXmltojson {
 	                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("j")]));
 	                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("e")]));
 	                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("f")]));
-		            		  System.out.println("ANKIT :: basin : " + basinName + " data : " + Basin_details.get(basinName));
+//		            		  System.out.println("ANKIT :: basin : " + basinName + " data : " + Basin_details.get(basinName));
 	                		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
 	                		  
 	                		  

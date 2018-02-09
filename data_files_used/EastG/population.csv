@@ -1,32 +1,32 @@
 Sr.No,watershed code,gw watershed name,Village code,village name,Population [command area],Population [non command area],total Population,LPCD
-1,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,1,Singarampalem,1159,,1159,63745
-2,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,4,N.Tirupatirajapuram,3165,,3165,174075
-3,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,3,Gandepalli,5624,,5624,309320
-4,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,2,Murari,7606,,7606,418330
-5,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,10,Gadarada,,5614,5614,308770
-6,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,8,Narasapuram,,4187,4187,230285
-7,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,7,Jambupatnam,5861,,5861,322355
-8,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,11,N.Agraharam,,636,636,34980
-9,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,12,Dosakayalapalli,5399,,5399,296945
-10,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,13,Burugupudi,6822,,6822,375210
-11,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,16,Buchimpeta,2738,,2738,150590
-12,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,17,Madhurapudi,2710,,2710,149050
-13,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,18,Nidigatla,2866,,2866,157630
-14,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,19,Gadala,4778,,4778,262790
-15,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,15,Mirtipadu,,3334,3334,183370
-16,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,16,Hundeswarapuram,2988,,2988,164340
-17,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,17,Mulakalanka,1378,,1378,75790
-18,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,1,S.T.Rajapuram,1958,,1958,107690
-19,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,2,Vadisaleru,,8601,8601,473055
-20,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,1,Nandarada,3619,,3619,199045
-21,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,2,Kalavacherla,6456,,6456,355080
-22,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,3,Narendrapuram,5166,,5166,284130
-23,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,4,Rajanagaram,9696,,9696,533280
-24,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,5,J.Agraharam,,555,555,30525
-25,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,6,Venkatapuram,1238,,1238,68090
-26,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,7,Velugubanda,8169,,8169,449295
-27,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,8,Palacherla,,21393,21393,1176615
-28,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,9,Kanavaram,,6526,6526,358930
+1,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,001,Singarampalem,1159,,1159,63745
+2,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,004,N.Tirupatirajapuram,3165,,3165,174075
+3,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,003,Gandepalli,5624,,5624,309320
+4,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,002,Murari,7606,,7606,418330
+5,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,010,Gadarada,,5614,5614,308770
+6,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,008,Narasapuram,,4187,4187,230285
+7,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,007,Jambupatnam,5861,,5861,322355
+8,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,011,N.Agraharam,,636,636,34980
+9,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,012,Dosakayalapalli,5399,,5399,296945
+10,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,013,Burugupudi,6822,,6822,375210
+11,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,016,Buchimpeta,2738,,2738,150590
+12,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,017,Madhurapudi,2710,,2710,149050
+13,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,018,Nidigatla,2866,,2866,157630
+14,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,019,Gadala,4778,,4778,262790
+15,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,015,Mirtipadu,,3334,3334,183370
+16,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,016,Hundeswarapuram,2988,,2988,164340
+17,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,017,Mulakalanka,1378,,1378,75790
+18,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,001,S.T.Rajapuram,1958,,1958,107690
+19,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,002,Vadisaleru,,8601,8601,473055
+20,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,001,Nandarada,3619,,3619,199045
+21,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,002,Kalavacherla,6456,,6456,355080
+22,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,003,Narendrapuram,5166,,5166,284130
+23,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,004,Rajanagaram,9696,,9696,533280
+24,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,005,J.Agraharam,,555,555,30525
+25,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,006,Venkatapuram,1238,,1238,68090
+26,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,007,Velugubanda,8169,,8169,449295
+27,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,008,Palacherla,,21393,21393,1176615
+28,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,009,Kanavaram,,6526,6526,358930
 29,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,1,Torredu,6145,,6145,337975
 30,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,2,Kolamuru,16581,,16581,911955
 31,04_E_31-3_28-004,EG-G-BkS-Rajanagaram,3,Kateru,22921,,22921,1260655
@@ -48,27 +48,27 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 47,04_E_32_26-003,EG-G-Zk-Rangampet,5,Z.Medapadu,,2563,2563,140965
 48,04_E_32_26-003,EG-G-Zk-Rangampet,8,Dowlaiswaram,,42862,42862,2357410
 49,04_E_32_26-003,EG-G-Zk-Rangampet,9,Rajavolu,,5876,5876,323180
-50,04_E_32_26-003,EG-G-Zk-Rangampet,10,Srikrishnapatnam,3495,,3495,192225
-51,04_E_32_26-003,EG-G-Zk-Rangampet,11,Thokada,5437,,5437,299035
-52,04_E_32_26-003,EG-G-Zk-Rangampet,12,Mukkinada,1996,,1996,109780
-53,04_E_32_26-003,EG-G-Zk-Rangampet,13,Pata Thungapadu,8921,,8921,490655
-54,04_E_32_26-003,EG-G-Zk-Rangampet,14,Bhupalapatnam,,5685,5685,312675
-55,04_E_32_26-003,EG-G-Zk-Rangampet,15,G.Yerrampalem,3150,,3150,173250
-56,04_E_32_26-003,EG-G-Zk-Rangampet,16,Kondagunturu,6458,,6458,355190
-57,04_E_32_26-003,EG-G-Zk-Rangampet,17,Namavaram,1938,,1938,106590
-58,04_E_32_26-003,EG-G-Zk-Rangampet,3,Rangampeta,8509,,8509,467995
-59,04_E_32_26-003,EG-G-Zk-Rangampet,4,Peda Rayavaram,2709,,2709,148995
-60,04_E_32_26-003,EG-G-Zk-Rangampet,5,Kotapadu,3675,,3675,202125
-61,04_E_32_26-003,EG-G-Zk-Rangampet,6,Venkatapuram,2564,,2564,141020
-62,04_E_32_26-003,EG-G-Zk-Rangampet,7,Subhadrampeta,1989,,1989,109395
-63,04_E_32_26-003,EG-G-Zk-Rangampet,8,Mukundavaram,,2640,2640,145200
-64,04_E_32_26-003,EG-G-Zk-Rangampet,9,Elakolanu,,4337,4337,238535
-65,04_E_32_26-003,EG-G-Zk-Rangampet,10,Pata Doddigunta,4621,,4621,254155
-66,04_E_32_26-003,EG-G-Zk-Rangampet,11,Marripadi,3670,,3670,201850
-67,04_E_32_26-003,EG-G-Zk-Rangampet,12,Singampalli,4163,,4163,228965
-68,04_E_32_26-003,EG-G-Zk-Rangampet,13,Nallamilli,2227,,2227,122485
-69,04_E_32_26-003,EG-G-Zk-Rangampet,14,G.Dontamuru,5498,,5498,302390
-70,04_E_32_26-003,EG-G-Zk-Rangampet,15,Veerampalem,2609,,2609,143495
+50,04_E_32_26-003,EG-G-Zk-Rangampet,010,Srikrishnapatnam,3495,,3495,192225
+51,04_E_32_26-003,EG-G-Zk-Rangampet,011,Thokada,5437,,5437,299035
+52,04_E_32_26-003,EG-G-Zk-Rangampet,012,Mukkinada,1996,,1996,109780
+53,04_E_32_26-003,EG-G-Zk-Rangampet,013,Pata Thungapadu,8921,,8921,490655
+54,04_E_32_26-003,EG-G-Zk-Rangampet,014,Bhupalapatnam,,5685,5685,312675
+55,04_E_32_26-003,EG-G-Zk-Rangampet,015,G.Yerrampalem,3150,,3150,173250
+56,04_E_32_26-003,EG-G-Zk-Rangampet,016,Kondagunturu,6458,,6458,355190
+57,04_E_32_26-003,EG-G-Zk-Rangampet,017,Namavaram,1938,,1938,106590
+58,04_E_32_26-003,EG-G-Zk-Rangampet,003,Rangampeta,8509,,8509,467995
+59,04_E_32_26-003,EG-G-Zk-Rangampet,004,Peda Rayavaram,2709,,2709,148995
+60,04_E_32_26-003,EG-G-Zk-Rangampet,005,Kotapadu,3675,,3675,202125
+61,04_E_32_26-003,EG-G-Zk-Rangampet,006,Venkatapuram,2564,,2564,141020
+62,04_E_32_26-003,EG-G-Zk-Rangampet,007,Subhadrampeta,1989,,1989,109395
+63,04_E_32_26-003,EG-G-Zk-Rangampet,008,Mukundavaram,,2640,2640,145200
+64,04_E_32_26-003,EG-G-Zk-Rangampet,009,Elakolanu,,4337,4337,238535
+65,04_E_32_26-003,EG-G-Zk-Rangampet,010,Pata Doddigunta,4621,,4621,254155
+66,04_E_32_26-003,EG-G-Zk-Rangampet,011,Marripadi,3670,,3670,201850
+67,04_E_32_26-003,EG-G-Zk-Rangampet,012,Singampalli,4163,,4163,228965
+68,04_E_32_26-003,EG-G-Zk-Rangampet,013,Nallamilli,2227,,2227,122485
+69,04_E_32_26-003,EG-G-Zk-Rangampet,014,G.Dontamuru,5498,,5498,302390
+70,04_E_32_26-003,EG-G-Zk-Rangampet,015,Veerampalem,2609,,2609,143495
 71,04_E_32_26-003,EG-G-Zk-Rangampet,6,Balabhadrapuram,9839,,9839,541145
 72,04_E_32_26-003,EG-G-Zk-Rangampet,7,Kapavaram,3980,,3980,218900
 73,04_E_32_26-003,EG-G-Zk-Rangampet,1,Rangapuram,4797,,4797,263835
@@ -77,7 +77,7 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 76,04_E_32_26-003,EG-G-Zk-Rangampet,2,Illapalli,,2362,2362,129910
 77,04_E_32_26-003,EG-G-Zk-Rangampet,1,Peda Brahmadevam,7738,,7738,425590
 78,04_E_32_26-003,EG-G-Zk-Rangampet,2,G.Medapadu,10934,,10934,601370
-79,04_E_32_26-003,EG-G-Zk-Rangampet,13,Surampalem,4085,,4085,224675
+79,04_E_32_26-003,EG-G-Zk-Rangampet,013,Surampalem,4085,,4085,224675
 80,04_E_32_26-003,EG-G-Zk-Rangampet,18,Valutimmapuram,1683,,1683,92565
 81,04_E_32_26-003,EG-G-Zk-Rangampet,20,Anuru,6702,,6702,368610
 82,04_E_32_26-003,EG-G-Zk-Rangampet,21,Rayabhupalapatnam,8080,,8080,444400
@@ -168,132 +168,132 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 167,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,4,LINGAVARAM,,,0,0
 168,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,5,KATTUMILLI,,22,22,1210
 169,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,,Forest,,,0,0
-170,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,9,Kalijolla,,47,47,2585
-171,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,10,Bhupatipalem,,386,386,21230
-172,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,1,Narendrapatnam,3723,,3723,204765
-173,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,2,Mamidada,3218,,3218,176990
-174,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,3,Irripaka,3623,,3623,199265
-175,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,4,Kandregula,,2486,2486,136730
-176,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,5,Govindapuram,,1968,1968,108240
-177,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,7,Rajapudi,8837,,8837,486035
-178,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,8,Manyanvaripalem,3018,,3018,165990
-179,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,9,Balabadrapuram,,482,482,26510
-180,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,10,Gollalagunta,815,,815,44825
-181,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,11,Seethampet,,193,193,10615
-182,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,12,Marripaka,1873,,1873,103015
-183,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,13,Guttappalem,,4165,4165,229075
-184,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,14,Tirupathirajupet,,365,365,20075
-185,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,15,J.Kotturu,3553,,3553,195415
-186,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,16,Jaggampet,17309,,17309,951995
-187,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,17,Ramavaram,5293,,5293,291115
-188,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,18,Seethanagaram,1151,,1151,63305
-189,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,19,Katravulapalli,11374,,11374,625570
-190,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,1,Timmapuram,6509,,6509,357995
-191,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,2,Panduru,5372,,5372,295460
-192,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,3,Nemam,3990,,3990,219450
-193,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,4,Thammavaram,7857,,7857,432135
-194,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,5,Penumarthi,1474,,1474,81070
-195,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,6,Vakalapudi,15903,,15903,874665
-196,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,7,Ramanayyapet,23677,,23677,1302235
-197,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,8,Sarpavaram,10498,,10498,577390
-198,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,9,Ganganapalle,7369,,7369,405295
-199,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,10,Suryaraopet,20378,,20378,1120790
-200,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,11,Chidiga,5351,,5351,294305
-201,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,12,Kovvada,4044,,4044,222420
-202,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,13,Repuru,2495,,2495,137225
-203,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,14,Kkd Medaline,,,0,0
-204,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,15,Kkd Muncipality,314108,,314108,17275940
-205,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,16,Jagannadhapuram,68066,,68066,3743630
-206,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,5,Mallepalle,8282,,8282,455510
-207,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,6,Uppalapadu,4322,,4322,237710
-208,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,7,Talluru,3831,,3831,210705
-209,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,8,Pro.Rangampet,7787,,7787,428285
-210,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,9,Borrampalem,1291,,1291,71005
-211,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,10,Yellamalli,3482,,3482,191510
-212,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,11,Nayakampalli,3399,,3399,186945
-213,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,12,Yerrampalem,1728,,1728,95040
+170,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,009,Kalijolla,,47,47,2585
+171,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,010,Bhupatipalem,,386,386,21230
+172,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,001,Narendrapatnam,3723,,3723,204765
+173,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,002,Mamidada,3218,,3218,176990
+174,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,003,Irripaka,3623,,3623,199265
+175,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,004,Kandregula,,2486,2486,136730
+176,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,005,Govindapuram,,1968,1968,108240
+177,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,007,Rajapudi,8837,,8837,486035
+178,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,008,Manyanvaripalem,3018,,3018,165990
+179,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,009,Balabadrapuram,,482,482,26510
+180,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,010,Gollalagunta,815,,815,44825
+181,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,011,Seethampet,,193,193,10615
+182,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,012,Marripaka,1873,,1873,103015
+183,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,013,Guttappalem,,4165,4165,229075
+184,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,014,Tirupathirajupet,,365,365,20075
+185,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,015,J.Kotturu,3553,,3553,195415
+186,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,016,Jaggampet,17309,,17309,951995
+187,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,017,Ramavaram,5293,,5293,291115
+188,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,018,Seethanagaram,1151,,1151,63305
+189,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,019,Katravulapalli,11374,,11374,625570
+190,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,001,Timmapuram,6509,,6509,357995
+191,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,002,Panduru,5372,,5372,295460
+192,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,003,Nemam,3990,,3990,219450
+193,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,004,Thammavaram,7857,,7857,432135
+194,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,005,Penumarthi,1474,,1474,81070
+195,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,006,Vakalapudi,15903,,15903,874665
+196,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,007,Ramanayyapet,23677,,23677,1302235
+197,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,008,Sarpavaram,10498,,10498,577390
+198,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,009,Ganganapalle,7369,,7369,405295
+199,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,010,Suryaraopet,20378,,20378,1120790
+200,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,011,Chidiga,5351,,5351,294305
+201,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,012,Kovvada,4044,,4044,222420
+202,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,013,Repuru,2495,,2495,137225
+203,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,014,Kkd Medaline,,,0,0
+204,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,015,Kkd Muncipality,314108,,314108,17275940
+205,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,016,Jagannadhapuram,68066,,68066,3743630
+206,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,005,Mallepalle,8282,,8282,455510
+207,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,006,Uppalapadu,4322,,4322,237710
+208,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,007,Talluru,3831,,3831,210705
+209,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,008,Pro.Rangampet,7787,,7787,428285
+210,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,009,Borrampalem,1291,,1291,71005
+211,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,010,Yellamalli,3482,,3482,191510
+212,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,011,Nayakampalli,3399,,3399,186945
+213,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,012,Yerrampalem,1728,,1728,95040
 214,04_F_19-6_11-007,EG-MHG-Ylw- Eleswaram,5,Atchyutapuratrayam,8838,,8838,486090
-215,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,1,Krishnunipalem,,3166,3166,174130
-216,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,3,Gokavaram,,15735,15735,865425
-217,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,12,Tantikonda,,4874,4874,268070
-218,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,13,Gadelapalem,,3633,3633,199815
-219,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,45,NELAKOTA,,25,25,1375
-220,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,37,POTAVARAM,,501,501,27555
-221,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,38,DEVARAM,,379,379,20845
-222,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,39,M.RAVILANKA,,237,237,13035
-223,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,41,PEDABHIMPALLI,,383,383,21065
-224,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,42,INDUKURU,,1011,1011,55605
-225,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,43,INDUKURUPET,,1995,1995,109725
-226,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,44,SARABAVARAM,,952,952,52360
-227,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,40,LOTHUPALEM,,,0,0
+215,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,001,Krishnunipalem,,3166,3166,174130
+216,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,003,Gokavaram,,15735,15735,865425
+217,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,012,Tantikonda,,4874,4874,268070
+218,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,013,Gadelapalem,,3633,3633,199815
+219,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,045,NELAKOTA,,25,25,1375
+220,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,037,POTAVARAM,,501,501,27555
+221,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,038,DEVARAM,,379,379,20845
+222,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,039,M.RAVILANKA,,237,237,13035
+223,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,041,PEDABHIMPALLI,,383,383,21065
+224,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,042,INDUKURU,,1011,1011,55605
+225,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,043,INDUKURUPET,,1995,1995,109725
+226,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,044,SARABAVARAM,,952,952,52360
+227,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,040,LOTHUPALEM,,,0,0
 228,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,,Forest,,,0,0
-229,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,1,Bolleddupalem,3032,,3032,166760
-230,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,2,Kotikesavaram,3547,,3547,195085
-231,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,3,Raghavapuram,2059,,2059,113245
-232,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,5,Srirangapatnam,,8640,8640,475200
-233,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,4,Koti,3156,,3156,173580
-234,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,15,Munagala,2066,,2066,113630
-235,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,14,Kapavaram,3292,,3292,181060
-236,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,6,Korukonda,,8800,8800,484000
-237,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,1,Purushottapatnam,4278,,4278,235290
-238,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,2,Vangalapudi,4104,,4104,225720
-239,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,3,chinakodepudi,8062,,8062,443410
-240,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,4,Nagampalli,865,,865,47575
-241,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,5,Nallagonda,549,,549,30195
-242,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,6,Singavaram,3027,,3027,166485
-243,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,7,Sitanagaram,7847,,7847,431585
-244,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,8,Raghudevapuram,11685,,11685,642675
-245,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,9,Kunavaram,2804,,2804,154220
-246,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,10,Muggalla,6984,,6984,384120
-247,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,11,Munikudali,4134,,4134,227370
-248,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,12,Katavaram,2705,,2705,148775
-249,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,13,Jalimudi,1280,,1280,70400
-250,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,14,Bobbilanka,5042,,5042,277310
-251,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,52,Penikalapudi,,96,96,5280
-252,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,70,Dirisenapalli,,353,353,19415
-253,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,72,Narasapuram,,551,551,30305
-254,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,73,K.Yerrampalem,,725,725,39875
-255,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,74,Foulkspeta,,354,354,19470
-256,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,75,Devarathigudem,,140,140,7700
-257,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,76,Kannavaram,,277,277,15235
-258,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,77,M.Burugubanda,,113,113,6215
+229,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,001,Bolleddupalem,3032,,3032,166760
+230,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,002,Kotikesavaram,3547,,3547,195085
+231,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,003,Raghavapuram,2059,,2059,113245
+232,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,005,Srirangapatnam,,8640,8640,475200
+233,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,004,Koti,3156,,3156,173580
+234,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,015,Munagala,2066,,2066,113630
+235,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,014,Kapavaram,3292,,3292,181060
+236,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,006,Korukonda,,8800,8800,484000
+237,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,001,Purushottapatnam,4278,,4278,235290
+238,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,002,Vangalapudi,4104,,4104,225720
+239,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,003,chinakodepudi,8062,,8062,443410
+240,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,004,Nagampalli,865,,865,47575
+241,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,005,Nallagonda,549,,549,30195
+242,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,006,Singavaram,3027,,3027,166485
+243,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,007,Sitanagaram,7847,,7847,431585
+244,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,008,Raghudevapuram,11685,,11685,642675
+245,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,009,Kunavaram,2804,,2804,154220
+246,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,010,Muggalla,6984,,6984,384120
+247,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,011,Munikudali,4134,,4134,227370
+248,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,012,Katavaram,2705,,2705,148775
+249,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,013,Jalimudi,1280,,1280,70400
+250,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,014,Bobbilanka,5042,,5042,277310
+251,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,052,Penikalapudi,,96,96,5280
+252,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,070,Dirisenapalli,,353,353,19415
+253,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,072,Narasapuram,,551,551,30305
+254,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,073,K.Yerrampalem,,725,725,39875
+255,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,074,Foulkspeta,,354,354,19470
+256,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,075,Devarathigudem,,140,140,7700
+257,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,076,Kannavaram,,277,277,15235
+258,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,077,M.Burugubanda,,113,113,6215
 259,04_E_31-2_15-007,EG-G-BkW- Sitanagaram,,Forest,,,0,0
-260,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,30,Lododdi,,363,363,19965
-261,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,29,Pudedu,,279,279,15345
-262,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,28,Kesavaram,,77,77,4235
-263,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,27,Pakalti,,132,132,7260
+260,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,030,Lododdi,,363,363,19965
+261,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,029,Pudedu,,279,279,15345
+262,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,028,Kesavaram,,77,77,4235
+263,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,027,Pakalti,,132,132,7260
 264,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,0,Forest,,,0,0
-265,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,1,Satyavaram,,150,150,8250
-266,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,34,Kotturu,,5677,5677,312235
-267,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,3,Dabbadi,,165,165,9075
-268,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,5,Raghavapatnam,,1138,1138,62590
-269,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,4,Ginnelaram,,132,132,7260
-270,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,28,Jaldam,,4389,4389,241395
-271,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,27,Pedduru,,,0,0
-272,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,29,D.Pidapala,,1477,1477,81235
-273,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,37,S.Pidipala,,3210,3210,176550
-274,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,41,Balaramapuram,,1259,1259,69245
-275,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,46,B.B.Patnam,,1504,1504,82720
-276,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,40,Gummaregula,,4280,4280,235400
-277,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,45,Lachireddipalem,,,0,0
-278,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,38,Uppampalem,,4185,4185,230175
-279,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,2,Sarlanka,,177,177,9735
-280,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,26,Challeru,,706,706,38830
-281,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,35,Mulagapudi,,6581,6581,361955
-282,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,36,Chakirevulapalem,,2468,2468,135740
-283,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,39,Tirupathammapet,,2901,2901,159555
-284,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,42,A.Mallavaram,,3627,3627,199485
-285,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,43,Kondapalem,,2994,2994,164670
-286,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,2,Vondregula,,163,163,8965
-287,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,3,Avelthi,,286,286,15730
-288,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,5,Velangi,,642,642,35310
-289,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,6,D.Mallapuram,,357,357,19635
-290,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,7,K.Polavaram,,,0,0
-291,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,8,Ankampalem,,198,198,10890
-292,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,9,P.Mallapuram,,1474,1474,81070
-293,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,10,Yerakapuram,,459,459,25245
-294,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,12,Srungadara,,638,638,35090
-295,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,13,Siddivanipalem,,270,270,14850
+265,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,001,Satyavaram,,150,150,8250
+266,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,034,Kotturu,,5677,5677,312235
+267,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,003,Dabbadi,,165,165,9075
+268,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,005,Raghavapatnam,,1138,1138,62590
+269,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,004,Ginnelaram,,132,132,7260
+270,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,028,Jaldam,,4389,4389,241395
+271,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,027,Pedduru,,,0,0
+272,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,029,D.Pidapala,,1477,1477,81235
+273,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,037,S.Pidipala,,3210,3210,176550
+274,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,041,Balaramapuram,,1259,1259,69245
+275,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,046,B.B.Patnam,,1504,1504,82720
+276,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,040,Gummaregula,,4280,4280,235400
+277,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,045,Lachireddipalem,,,0,0
+278,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,038,Uppampalem,,4185,4185,230175
+279,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,002,Sarlanka,,177,177,9735
+280,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,026,Challeru,,706,706,38830
+281,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,035,Mulagapudi,,6581,6581,361955
+282,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,036,Chakirevulapalem,,2468,2468,135740
+283,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,039,Tirupathammapet,,2901,2901,159555
+284,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,042,A.Mallavaram,,3627,3627,199485
+285,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,043,Kondapalem,,2994,2994,164670
+286,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,002,Vondregula,,163,163,8965
+287,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,003,Avelthi,,286,286,15730
+288,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,005,Velangi,,642,642,35310
+289,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,006,D.Mallapuram,,357,357,19635
+290,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,007,K.Polavaram,,,0,0
+291,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,008,Ankampalem,,198,198,10890
+292,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,009,P.Mallapuram,,1474,1474,81070
+293,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,010,Yerakapuram,,459,459,25245
+294,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,012,Srungadara,,638,638,35090
+295,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,013,Siddivanipalem,,270,270,14850
 296,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,15,Rowtalapudi,,11271,11271,619905
 297,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,16,Gidijam,,2944,2944,161920
 298,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,17,S.Agraharam,,2393,2393,131615
@@ -302,140 +302,140 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 301,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,22,P.Chamavaram,,1735,1735,95425
 302,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,49,M.Chamavaram,,1711,1711,94105
 303,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,50,Srungavaram,,3551,3551,195305
-304,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,25,Gavarampeta,,1036,1036,56980
-305,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,26,Jagannadhapuram,,246,246,13530
-306,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,27,Masampalli,,133,133,7315
-307,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,28,G.Kottapalli,,2351,2351,129305
-308,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,29,V.Venkatapuram,,338,338,18590
-309,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,30,Sankavaram,,11698,11698,643390
-310,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,31,Mandapam,,3664,3664,201520
-311,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,33,Annavaram,,6805,6805,374275
-312,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,34,Jaggampeta,,591,591,32505
-313,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,1,Ammirekhala,,11,11,605
-314,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,4,Anumarthi,,90,90,4950
+304,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,025,Gavarampeta,,1036,1036,56980
+305,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,026,Jagannadhapuram,,246,246,13530
+306,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,027,Masampalli,,133,133,7315
+307,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,028,G.Kottapalli,,2351,2351,129305
+308,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,029,V.Venkatapuram,,338,338,18590
+309,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,030,Sankavaram,,11698,11698,643390
+310,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,031,Mandapam,,3664,3664,201520
+311,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,033,Annavaram,,6805,6805,374275
+312,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,034,Jaggampeta,,591,591,32505
+313,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,001,Ammirekhala,,11,11,605
+314,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,004,Anumarthi,,90,90,4950
 315,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,11,Anantharam,,,0,0
 316,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,48,China Mallapuram,,,0,0
 317,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,18,D.Jagannadhapuram,,716,716,39380
 318,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,19,Billawaka,,25,25,1375
-319,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,32,Arempudi,,5949,5949,327195
-320,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,35,Kondempudi,,0,0,0
-321,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,36,Achampeta,,715,715,39325
-322,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,37,Gondhi,,319,319,17545
-323,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,38,Rajaram,,189,189,10395
-324,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,39,Konthangi,,3017,3017,165935
-325,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,40,Nellipudi,,4109,4109,225995
+319,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,032,Arempudi,,5949,5949,327195
+320,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,035,Kondempudi,,0,0,0
+321,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,036,Achampeta,,715,715,39325
+322,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,037,Gondhi,,319,319,17545
+323,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,038,Rajaram,,189,189,10395
+324,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,039,Konthangi,,3017,3017,165935
+325,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,040,Nellipudi,,4109,4109,225995
 326,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,,Forest,,,0,0
-327,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,1,Bendapudi,7706,,7706,423830
-328,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,2,Gopalapatnam,2781,,2781,152955
-329,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,3,P.Agraharam,1731,,1731,95205
-330,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,4,Thondangi,15908,,15908,874940
-331,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,5,Krishnapuram,2759,,2759,151745
-332,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,6,Pydikonda,3872,,3872,212960
-333,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,7,Anuru,1034,,1034,56870
-334,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,8,Vemavaram,1304,,1304,71720
-335,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,9,Kona,17090,,17090,939950
-336,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,10,Srunagavruksham,5263,,5263,289465
-337,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,11,A.Kottapalli,9103,,9103,500665
-338,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,12,P.E.Ch.Palem,4678,,4678,257290
-339,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,13,Ravikampudi,3584,,3584,197120
-340,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,14,Kommanapalli,1546,,1546,85030
-341,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,15,A.V.Nagaram,11542,,11542,634810
-342,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,21,Tetagunta,12460,,12460,685300
-343,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,23,Hamsavaram,7356,,7356,404580
-344,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,6,Thaduvai,,96,96,5280
-345,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,7,Doparthi,,126,126,6930
-346,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,8,Bavuruvaka,,711,711,39105
-347,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,25,U.JNPuram,,2084,2084,114620
-348,04_F_18_10-037,EG-MHG-Sg- Prathipadu,48,Vatangi,,617,617,33935
-349,04_F_18_10-037,EG-MHG-Sg- Prathipadu,51,Chikilinta,,834,834,45870
-350,04_F_18_10-037,EG-MHG-Sg- Prathipadu,49,Peddarellampadu,,246,246,13530
-351,04_F_18_10-037,EG-MHG-Sg- Prathipadu,50,Peddagarangi,,627,627,34485
-352,04_F_18_10-037,EG-MHG-Sg- Prathipadu,52,Karridevulapalem,,22,22,1210
-353,04_F_18_10-037,EG-MHG-Sg- Prathipadu,58,Kondalingamparti,,256,256,14080
-354,04_F_18_10-037,EG-MHG-Sg- Prathipadu,59,Kothapalli,,207,207,11385
-355,04_F_18_10-037,EG-MHG-Sg- Prathipadu,61,Balajipadu,,488,488,26840
-356,04_F_18_10-037,EG-MHG-Sg- Prathipadu,60,Vanchangi,,630,630,34650
-357,04_F_18_10-037,EG-MHG-Sg- Prathipadu,62,Maredbaka,,541,541,29755
-358,04_F_18_10-037,EG-MHG-Sg- Prathipadu,46,Vagurti,,539,539,29645
-359,04_F_18_10-037,EG-MHG-Sg- Prathipadu,47,Vegipalem,,953,953,52415
+327,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,001,Bendapudi,7706,,7706,423830
+328,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,002,Gopalapatnam,2781,,2781,152955
+329,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,003,P.Agraharam,1731,,1731,95205
+330,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,004,Thondangi,15908,,15908,874940
+331,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,005,Krishnapuram,2759,,2759,151745
+332,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,006,Pydikonda,3872,,3872,212960
+333,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,007,Anuru,1034,,1034,56870
+334,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,008,Vemavaram,1304,,1304,71720
+335,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,009,Kona,17090,,17090,939950
+336,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,010,Srunagavruksham,5263,,5263,289465
+337,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,011,A.Kottapalli,9103,,9103,500665
+338,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,012,P.E.Ch.Palem,4678,,4678,257290
+339,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,013,Ravikampudi,3584,,3584,197120
+340,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,014,Kommanapalli,1546,,1546,85030
+341,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,015,A.V.Nagaram,11542,,11542,634810
+342,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,021,Tetagunta,12460,,12460,685300
+343,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,023,Hamsavaram,7356,,7356,404580
+344,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,006,Thaduvai,,96,96,5280
+345,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,007,Doparthi,,126,126,6930
+346,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,008,Bavuruvaka,,711,711,39105
+347,04_F_17_09-030,EG-MHG-Pp- Sankhavaram,025,U.JNPuram,,2084,2084,114620
+348,04_F_18_10-037,EG-MHG-Sg- Prathipadu,048,Vatangi,,617,617,33935
+349,04_F_18_10-037,EG-MHG-Sg- Prathipadu,051,Chikilinta,,834,834,45870
+350,04_F_18_10-037,EG-MHG-Sg- Prathipadu,049,Peddarellampadu,,246,246,13530
+351,04_F_18_10-037,EG-MHG-Sg- Prathipadu,050,Peddagarangi,,627,627,34485
+352,04_F_18_10-037,EG-MHG-Sg- Prathipadu,052,Karridevulapalem,,22,22,1210
+353,04_F_18_10-037,EG-MHG-Sg- Prathipadu,058,Kondalingamparti,,256,256,14080
+354,04_F_18_10-037,EG-MHG-Sg- Prathipadu,059,Kothapalli,,207,207,11385
+355,04_F_18_10-037,EG-MHG-Sg- Prathipadu,061,Balajipadu,,488,488,26840
+356,04_F_18_10-037,EG-MHG-Sg- Prathipadu,060,Vanchangi,,630,630,34650
+357,04_F_18_10-037,EG-MHG-Sg- Prathipadu,062,Maredbaka,,541,541,29755
+358,04_F_18_10-037,EG-MHG-Sg- Prathipadu,046,Vagurti,,539,539,29645
+359,04_F_18_10-037,EG-MHG-Sg- Prathipadu,047,Vegipalem,,953,953,52415
 360,04_F_18_10-037,EG-MHG-Sg- Prathipadu,0,Forest,,,0,0
-361,04_F_18_10-037,EG-MHG-Sg- Prathipadu,5,Kondapalli,,116,116,6380
-362,04_F_18_10-037,EG-MHG-Sg- Prathipadu,2,Bapannadara,,275,275,15125
-363,04_F_18_10-037,EG-MHG-Sg- Prathipadu,1,Ulligogula,,117,117,6435
-364,04_F_18_10-037,EG-MHG-Sg- Prathipadu,4,Buradakota,,215,215,11825
-365,04_F_18_10-037,EG-MHG-Sg- Prathipadu,11,Girijanapuram,,37,37,2035
-366,04_F_18_10-037,EG-MHG-Sg- Prathipadu,10,Mettuchinta,,278,278,15290
-367,04_F_18_10-037,EG-MHG-Sg- Prathipadu,22,Pandavulapalem,,544,544,29920
-368,04_F_18_10-037,EG-MHG-Sg- Prathipadu,17,Gokavaram,497,,497,27335
-369,04_F_18_10-037,EG-MHG-Sg- Prathipadu,19,Vemulapalem,3478,,3478,191290
-370,04_F_18_10-037,EG-MHG-Sg- Prathipadu,9,Peddipalem,370,,370,20350
-371,04_F_18_10-037,EG-MHG-Sg- Prathipadu,20,Podurupaka,370,,370,20350
-372,04_F_18_10-037,EG-MHG-Sg- Prathipadu,24,Totapalli,,289,289,15895
-373,04_F_18_10-037,EG-MHG-Sg- Prathipadu,28,Chintaluru,,2743,2743,150865
-374,04_F_18_10-037,EG-MHG-Sg- Prathipadu,30,Sarabhavaram,,2471,2471,135905
-375,04_F_18_10-037,EG-MHG-Sg- Prathipadu,18,Uttarakanchi,4544,,4544,249920
-376,04_F_18_10-037,EG-MHG-Sg- Prathipadu,32,Lompakalova,2793,,2793,153615
-377,04_F_18_10-037,EG-MHG-Sg- Prathipadu,33,Peddasankarlapudi,3153,,3153,173415
-378,04_F_18_10-037,EG-MHG-Sg- Prathipadu,34,Chinasankarlapudi,3123,,3123,171765
-379,04_F_18_10-037,EG-MHG-Sg- Prathipadu,35,P.Jagannadhapuram,446,,446,24530
-380,04_F_18_10-037,EG-MHG-Sg- Prathipadu,36,Eluru,4334,,4334,238370
-381,04_F_18_10-037,EG-MHG-Sg- Prathipadu,27,Vakapalli,,1239,1239,68145
-382,04_F_18_10-037,EG-MHG-Sg- Prathipadu,38,Potuluru,,3015,3015,165825
-383,04_F_18_10-037,EG-MHG-Sg- Prathipadu,31,Ommangi,,7478,7478,411290
-384,04_F_18_10-037,EG-MHG-Sg- Prathipadu,39,Rachapalli,,5401,5401,297055
-385,04_F_18_10-037,EG-MHG-Sg- Prathipadu,40,Dharmavaram,,10590,10590,582450
-386,04_F_18_10-037,EG-MHG-Sg- Prathipadu,37,Prattipadu,,12139,12139,667645
-387,04_F_18_10-037,EG-MHG-Sg- Prathipadu,16,Arelladhara,,0,0,0
-388,04_F_18_10-037,EG-MHG-Sg- Prathipadu,29,Gajjanapudi,1613,,1613,88715
-389,04_F_18_10-037,EG-MHG-Sg- Prathipadu,21,K.Kothapalli,,0,0,0
-390,04_F_18_10-037,EG-MHG-Sg- Prathipadu,23,Kothuru,,1773,1773,97515
-391,04_F_18_10-037,EG-MHG-Sg- Prathipadu,3,K.Mirthivada,,67,67,3685
-392,04_F_18_10-037,EG-MHG-Sg- Prathipadu,13,Seemusuru,,0,0,0
-393,04_F_18_10-037,EG-MHG-Sg- Prathipadu,12,Thotakurapalem,,0,0,0
-394,04_F_18_10-037,EG-MHG-Sg- Prathipadu,25,Venkatanagaram,,1015,1015,55825
-395,04_F_18_10-037,EG-MHG-Sg- Prathipadu,14,Vanthada,,347,347,19085
-396,04_F_18_10-037,EG-MHG-Sg- Prathipadu,15,Yerakampalem,,0,0,0
+361,04_F_18_10-037,EG-MHG-Sg- Prathipadu,005,Kondapalli,,116,116,6380
+362,04_F_18_10-037,EG-MHG-Sg- Prathipadu,002,Bapannadara,,275,275,15125
+363,04_F_18_10-037,EG-MHG-Sg- Prathipadu,001,Ulligogula,,117,117,6435
+364,04_F_18_10-037,EG-MHG-Sg- Prathipadu,004,Buradakota,,215,215,11825
+365,04_F_18_10-037,EG-MHG-Sg- Prathipadu,011,Girijanapuram,,37,37,2035
+366,04_F_18_10-037,EG-MHG-Sg- Prathipadu,010,Mettuchinta,,278,278,15290
+367,04_F_18_10-037,EG-MHG-Sg- Prathipadu,022,Pandavulapalem,,544,544,29920
+368,04_F_18_10-037,EG-MHG-Sg- Prathipadu,017,Gokavaram,497,,497,27335
+369,04_F_18_10-037,EG-MHG-Sg- Prathipadu,019,Vemulapalem,3478,,3478,191290
+370,04_F_18_10-037,EG-MHG-Sg- Prathipadu,009,Peddipalem,370,,370,20350
+371,04_F_18_10-037,EG-MHG-Sg- Prathipadu,020,Podurupaka,370,,370,20350
+372,04_F_18_10-037,EG-MHG-Sg- Prathipadu,024,Totapalli,,289,289,15895
+373,04_F_18_10-037,EG-MHG-Sg- Prathipadu,028,Chintaluru,,2743,2743,150865
+374,04_F_18_10-037,EG-MHG-Sg- Prathipadu,030,Sarabhavaram,,2471,2471,135905
+375,04_F_18_10-037,EG-MHG-Sg- Prathipadu,018,Uttarakanchi,4544,,4544,249920
+376,04_F_18_10-037,EG-MHG-Sg- Prathipadu,032,Lompakalova,2793,,2793,153615
+377,04_F_18_10-037,EG-MHG-Sg- Prathipadu,033,Peddasankarlapudi,3153,,3153,173415
+378,04_F_18_10-037,EG-MHG-Sg- Prathipadu,034,Chinasankarlapudi,3123,,3123,171765
+379,04_F_18_10-037,EG-MHG-Sg- Prathipadu,035,P.Jagannadhapuram,446,,446,24530
+380,04_F_18_10-037,EG-MHG-Sg- Prathipadu,036,Eluru,4334,,4334,238370
+381,04_F_18_10-037,EG-MHG-Sg- Prathipadu,027,Vakapalli,,1239,1239,68145
+382,04_F_18_10-037,EG-MHG-Sg- Prathipadu,038,Potuluru,,3015,3015,165825
+383,04_F_18_10-037,EG-MHG-Sg- Prathipadu,031,Ommangi,,7478,7478,411290
+384,04_F_18_10-037,EG-MHG-Sg- Prathipadu,039,Rachapalli,,5401,5401,297055
+385,04_F_18_10-037,EG-MHG-Sg- Prathipadu,040,Dharmavaram,,10590,10590,582450
+386,04_F_18_10-037,EG-MHG-Sg- Prathipadu,037,Prattipadu,,12139,12139,667645
+387,04_F_18_10-037,EG-MHG-Sg- Prathipadu,016,Arelladhara,,0,0,0
+388,04_F_18_10-037,EG-MHG-Sg- Prathipadu,029,Gajjanapudi,1613,,1613,88715
+389,04_F_18_10-037,EG-MHG-Sg- Prathipadu,021,K.Kothapalli,,0,0,0
+390,04_F_18_10-037,EG-MHG-Sg- Prathipadu,023,Kothuru,,1773,1773,97515
+391,04_F_18_10-037,EG-MHG-Sg- Prathipadu,003,K.Mirthivada,,67,67,3685
+392,04_F_18_10-037,EG-MHG-Sg- Prathipadu,013,Seemusuru,,0,0,0
+393,04_F_18_10-037,EG-MHG-Sg- Prathipadu,012,Thotakurapalem,,0,0,0
+394,04_F_18_10-037,EG-MHG-Sg- Prathipadu,025,Venkatanagaram,,1015,1015,55825
+395,04_F_18_10-037,EG-MHG-Sg- Prathipadu,014,Vanthada,,347,347,19085
+396,04_F_18_10-037,EG-MHG-Sg- Prathipadu,015,Yerakampalem,,0,0,0
 397,04_F_18_10-037,EG-MHG-Sg- Prathipadu,3,Veldurti,3152,,3152,173360
 398,04_F_18_10-037,EG-MHG-Sg- Prathipadu,4,Dontamuru,2657,,2657,146135
 399,04_F_18_10-037,EG-MHG-Sg- Prathipadu,5,Rayavaram,4280,,4280,235400
-400,04_F_18_10-037,EG-MHG-Sg- Prathipadu,1,Kodavali,,3872,3872,212960
-401,04_F_18_10-037,EG-MHG-Sg- Prathipadu,2,Chendurti,,4430,4430,243650
-402,04_F_18_10-037,EG-MHG-Sg- Prathipadu,6,Vannepudi,,3532,3532,194260
-403,04_F_18_10-037,EG-MHG-Sg- Prathipadu,7,Chinajaggannapeta,,2505,2505,137775
-404,04_F_18_10-037,EG-MHG-Sg- Prathipadu,8,Tatiparti,,7732,7732,425260
-405,04_F_18_10-037,EG-MHG-Sg- Prathipadu,5,Chebrolu,14177,,14177,779735
-406,04_F_18_10-037,EG-MHG-Sg- Prathipadu,9,Gollaprolu,23605,,23605,1298275
-407,04_F_18_10-037,EG-MHG-Sg- Prathipadu,3,Durgada,,10237,10237,563035
-408,04_F_18_10-037,EG-MHG-Sg- Prathipadu,11,Laxmipuram,,,0,0
-409,04_F_18_10-037,EG-MHG-Sg- Prathipadu,12,Mallavaram,4986,,4986,274230
-410,04_F_18_10-037,EG-MHG-Sg- Prathipadu,10,Seethanagaram,,,0,0
-411,04_F_18_10-037,EG-MHG-Sg- Prathipadu,4,Vijayanagaram,1276,,1276,70180
+400,04_F_18_10-037,EG-MHG-Sg- Prathipadu,001,Kodavali,,3872,3872,212960
+401,04_F_18_10-037,EG-MHG-Sg- Prathipadu,002,Chendurti,,4430,4430,243650
+402,04_F_18_10-037,EG-MHG-Sg- Prathipadu,006,Vannepudi,,3532,3532,194260
+403,04_F_18_10-037,EG-MHG-Sg- Prathipadu,007,Chinajaggannapeta,,2505,2505,137775
+404,04_F_18_10-037,EG-MHG-Sg- Prathipadu,008,Tatiparti,,7732,7732,425260
+405,04_F_18_10-037,EG-MHG-Sg- Prathipadu,005,Chebrolu,14177,,14177,779735
+406,04_F_18_10-037,EG-MHG-Sg- Prathipadu,009,Gollaprolu,23605,,23605,1298275
+407,04_F_18_10-037,EG-MHG-Sg- Prathipadu,003,Durgada,,10237,10237,563035
+408,04_F_18_10-037,EG-MHG-Sg- Prathipadu,011,Laxmipuram,,,0,0
+409,04_F_18_10-037,EG-MHG-Sg- Prathipadu,012,Mallavaram,4986,,4986,274230
+410,04_F_18_10-037,EG-MHG-Sg- Prathipadu,010,Seethanagaram,,,0,0
+411,04_F_18_10-037,EG-MHG-Sg- Prathipadu,004,Vijayanagaram,1276,,1276,70180
 412,04_F_18_10-037,EG-MHG-Sg- Prathipadu,3,Ramanakkapeta,6878,,6878,378290
 413,04_F_18_10-037,EG-MHG-Sg- Prathipadu,4,Ponnada,8147,,8147,448085
 414,04_F_18_10-037,EG-MHG-Sg- Prathipadu,5,Mulapeta,4757,,4757,261635
 415,04_F_18_10-037,EG-MHG-Sg- Prathipadu,6,Amaravilli,796,,796,43780
-416,04_F_18_10-037,EG-MHG-Sg- Prathipadu,41,Vazrakutam,0,830,830,45650
-417,04_F_18_10-037,EG-MHG-Sg- Prathipadu,42,Ramannapalem,0,156,156,8580
-418,04_F_18_10-037,EG-MHG-Sg- Prathipadu,43,Kathipudi,,9584,9584,527120
-419,04_F_18_10-037,EG-MHG-Sg- Prathipadu,44,Seethaympeta,0,1102,1102,60610
+416,04_F_18_10-037,EG-MHG-Sg- Prathipadu,041,Vazrakutam,0,830,830,45650
+417,04_F_18_10-037,EG-MHG-Sg- Prathipadu,042,Ramannapalem,0,156,156,8580
+418,04_F_18_10-037,EG-MHG-Sg- Prathipadu,043,Kathipudi,,9584,9584,527120
+419,04_F_18_10-037,EG-MHG-Sg- Prathipadu,044,Seethaympeta,0,1102,1102,60610
 420,04_F_18_10-037,EG-MHG-Sg- Prathipadu,,Forest,,0,0,0
-421,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,13,Bhimavarapukota,3579,,3579,196845
-422,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,14,Surapurajupeta,2842,,2842,156310
-423,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,15,Billananduru,2388,,2388,131340
-424,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,16,Indugapalli,3965,,3965,218075
-425,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,17,T.Jaganadhapuram,1099,,1099,60445
-426,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,18,Boddavaram,3422,,3422,188210
-427,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,12,Kakarapalli,251,,251,13805
-428,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,1,K.O.Mallavaram,,4585,4585,252175
-429,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,2,Rapaka,,1992,1992,109560
-430,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,3,Dondavaka,,2453,2453,134915
-431,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,7,D.Polavaram,6425,,6425,353375
-432,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,4,Ch.Agraharam,,489,489,26895
-433,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,6,Atikivanipalem,,757,757,41635
-434,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,10,Nandivompu,675,,675,37125
-435,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,5,Kothakonda,,,0,0
-436,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,11,Maruvada,,1360,1360,74800
-437,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,12,Rekavanipalem,,1635,1635,89925
+421,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,013,Bhimavarapukota,3579,,3579,196845
+422,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,014,Surapurajupeta,2842,,2842,156310
+423,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,015,Billananduru,2388,,2388,131340
+424,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,016,Indugapalli,3965,,3965,218075
+425,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,017,T.Jaganadhapuram,1099,,1099,60445
+426,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,018,Boddavaram,3422,,3422,188210
+427,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,012,Kakarapalli,251,,251,13805
+428,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,001,K.O.Mallavaram,,4585,4585,252175
+429,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,002,Rapaka,,1992,1992,109560
+430,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,003,Dondavaka,,2453,2453,134915
+431,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,007,D.Polavaram,6425,,6425,353375
+432,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,004,Ch.Agraharam,,489,489,26895
+433,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,006,Atikivanipalem,,757,757,41635
+434,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,010,Nandivompu,675,,675,37125
+435,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,005,Kothakonda,,,0,0
+436,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,011,Maruvada,,1360,1360,74800
+437,04_F_16-1_05-011,EG-MHG-ThE- Kotananduru,012,Rekavanipalem,,1635,1635,89925
 438,04_F_19-5_19-016,EG-MHG-Yle- Kirlampudi,7,Eleswaram,34359,,34359,1889745
 439,04_F_19-5_19-016,EG-MHG-Yle- Kirlampudi,4,Ramanayyapeta,1543,,1543,84865
 440,04_F_19-5_19-016,EG-MHG-Yle- Kirlampudi,5,Lakshmipuram,1819,,1819,100045
@@ -469,36 +469,36 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 468,04_F_19-5_19-016,EG-MHG-Yle- Kirlampudi,97,Kimmuru,,992,992,54560
 469,04_F_19-5_19-016,EG-MHG-Yle- Kirlampudi,98,Gontuvanipalem,,2550,2550,140250
 470,04_F_19-5_19-016,EG-MHG-Yle- Kirlampudi,0,Forest,0,0,0,0
-471,04_F_16-2_06-017,EG-MHG-ThW-Tuni,6,Diguvasivada,,606,606,33330
-472,04_F_16-2_06-017,EG-MHG-ThW-Tuni,7,Surampeta,,,0,0
-473,04_F_16-2_06-017,EG-MHG-ThW-Tuni,8,K.E.Ch.Palem,4083,,4083,224565
-474,04_F_16-2_06-017,EG-MHG-ThW-Tuni,9,L.D.Peta,1246,,1246,68530
-475,04_F_16-2_06-017,EG-MHG-ThW-Tuni,11,Kotananduru,5238,,5238,288090
-476,04_F_16-2_06-017,EG-MHG-ThW-Tuni,19,K.Mallavaram,2918,,2918,160490
-477,04_F_16-2_06-017,EG-MHG-ThW-Tuni,20,Arthamoor,,,0,0
-478,04_F_16-2_06-017,EG-MHG-ThW-Tuni,21,K.Agraharam,1226,,1226,67430
-479,04_F_16-2_06-017,EG-MHG-ThW-Tuni,22,Kottam,6388,,6388,351340
-480,04_F_16-2_06-017,EG-MHG-ThW-Tuni,23,Venkatanagaram,,114,114,6270
-481,04_F_16-2_06-017,EG-MHG-ThW-Tuni,24,R.Venkatapuram,,293,293,16115
-482,04_F_16-2_06-017,EG-MHG-ThW-Tuni,25,Yoguvsivada  ,,,0,0
-483,04_F_16-2_06-017,EG-MHG-ThW-Tuni,30,Y.Dharapalli,,,0,0
-484,04_F_16-2_06-017,EG-MHG-ThW-Tuni,31,Gangavaram,,2015,2015,110825
-485,04_F_16-2_06-017,EG-MHG-ThW-Tuni,32,Rajavaram,,763,763,41965
-486,04_F_16-2_06-017,EG-MHG-ThW-Tuni,33,R.K.Puram,,253,253,13915
-487,04_F_16-2_06-017,EG-MHG-ThW-Tuni,44,Dharakonda,,,0,0
-488,04_F_16-2_06-017,EG-MHG-ThW-Tuni,47,Diguava Dharapalli,,111,111,6105
-489,04_F_16-2_06-017,EG-MHG-ThW-Tuni,10,Allipudi,51,,51,2805
-490,04_F_16-2_06-017,EG-MHG-ThW-Tuni,9,Kolimeru,2379,,2379,130845
-491,04_F_16-2_06-017,EG-MHG-ThW-Tuni,8,N.Suravaram,4700,,4700,258500
-492,04_F_16-2_06-017,EG-MHG-ThW-Tuni,13,Talluru,,2545,2545,139975
-493,04_F_16-2_06-017,EG-MHG-ThW-Tuni,18,Kavalapadu,843,,843,46365
-494,04_F_16-2_06-017,EG-MHG-ThW-Tuni,15,Kothuru,10168,,10168,559240
-495,04_F_16-2_06-017,EG-MHG-ThW-Tuni,22,Chepuru,,1731,1731,95205
-496,04_F_16-2_06-017,EG-MHG-ThW-Tuni,20,Chamavaram,,2402,2402,132110
-497,04_F_16-2_06-017,EG-MHG-ThW-Tuni,19,Valluru,,3640,3640,200200
-498,04_F_16-2_06-017,EG-MHG-ThW-Tuni,16,S.Annavaram,,11722,11722,644710
-499,04_F_16-2_06-017,EG-MHG-ThW-Tuni,14,N.N.Patnam,,3135,3135,172425
-500,04_F_16-2_06-017,EG-MHG-ThW-Tuni,17,Tuni,53390,,53390,2936450
+471,04_F_16-2_06-017,EG-MHG-ThW-Tuni,006,Diguvasivada,,606,606,33330
+472,04_F_16-2_06-017,EG-MHG-ThW-Tuni,007,Surampeta,,,0,0
+473,04_F_16-2_06-017,EG-MHG-ThW-Tuni,008,K.E.Ch.Palem,4083,,4083,224565
+474,04_F_16-2_06-017,EG-MHG-ThW-Tuni,009,L.D.Peta,1246,,1246,68530
+475,04_F_16-2_06-017,EG-MHG-ThW-Tuni,011,Kotananduru,5238,,5238,288090
+476,04_F_16-2_06-017,EG-MHG-ThW-Tuni,019,K.Mallavaram,2918,,2918,160490
+477,04_F_16-2_06-017,EG-MHG-ThW-Tuni,020,Arthamoor,,,0,0
+478,04_F_16-2_06-017,EG-MHG-ThW-Tuni,021,K.Agraharam,1226,,1226,67430
+479,04_F_16-2_06-017,EG-MHG-ThW-Tuni,022,Kottam,6388,,6388,351340
+480,04_F_16-2_06-017,EG-MHG-ThW-Tuni,023,Venkatanagaram,,114,114,6270
+481,04_F_16-2_06-017,EG-MHG-ThW-Tuni,024,R.Venkatapuram,,293,293,16115
+482,04_F_16-2_06-017,EG-MHG-ThW-Tuni,025,Yoguvsivada  ,,,0,0
+483,04_F_16-2_06-017,EG-MHG-ThW-Tuni,030,Y.Dharapalli,,,0,0
+484,04_F_16-2_06-017,EG-MHG-ThW-Tuni,031,Gangavaram,,2015,2015,110825
+485,04_F_16-2_06-017,EG-MHG-ThW-Tuni,032,Rajavaram,,763,763,41965
+486,04_F_16-2_06-017,EG-MHG-ThW-Tuni,033,R.K.Puram,,253,253,13915
+487,04_F_16-2_06-017,EG-MHG-ThW-Tuni,044,Dharakonda,,,0,0
+488,04_F_16-2_06-017,EG-MHG-ThW-Tuni,047,Diguava Dharapalli,,111,111,6105
+489,04_F_16-2_06-017,EG-MHG-ThW-Tuni,010,Allipudi,51,,51,2805
+490,04_F_16-2_06-017,EG-MHG-ThW-Tuni,009,Kolimeru,2379,,2379,130845
+491,04_F_16-2_06-017,EG-MHG-ThW-Tuni,008,N.Suravaram,4700,,4700,258500
+492,04_F_16-2_06-017,EG-MHG-ThW-Tuni,013,Talluru,,2545,2545,139975
+493,04_F_16-2_06-017,EG-MHG-ThW-Tuni,018,Kavalapadu,843,,843,46365
+494,04_F_16-2_06-017,EG-MHG-ThW-Tuni,015,Kothuru,10168,,10168,559240
+495,04_F_16-2_06-017,EG-MHG-ThW-Tuni,022,Chepuru,,1731,1731,95205
+496,04_F_16-2_06-017,EG-MHG-ThW-Tuni,020,Chamavaram,,2402,2402,132110
+497,04_F_16-2_06-017,EG-MHG-ThW-Tuni,019,Valluru,,3640,3640,200200
+498,04_F_16-2_06-017,EG-MHG-ThW-Tuni,016,S.Annavaram,,11722,11722,644710
+499,04_F_16-2_06-017,EG-MHG-ThW-Tuni,014,N.N.Patnam,,3135,3135,172425
+500,04_F_16-2_06-017,EG-MHG-ThW-Tuni,017,Tuni,53390,,53390,2936450
 501,04_E_34_33-002,EG-G-LGD- Anparthi,4,Mahendrawada,6648,,6648,365640
 502,04_E_34_33-002,EG-G-LGD- Anparthi,5,Polamuru,6194,,6194,340670
 503,04_E_34_33-002,EG-G-LGD- Anparthi,6,Ramavaram,5891,,5891,324005
@@ -517,8 +517,8 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 516,04_E_34_31-002,EG-G-LGD- Kadiam,5,Veeravaram,10104,,10104,555720
 517,04_E_34_31-002,EG-G-LGD- Kadiam,6,Muramanda,7521,,7521,413655
 518,04_E_34_31-002,EG-G-LGD- Kadiam,7,Dulla,9163,,9163,503965
-519,04_E_34_23-007,EG-G-LGD- Kakinada,14,Kovvur,7042,,7042,387310
-520,04_E_34_23-007,EG-G-LGD- Kakinada,15,Thurangi,21060,,21060,1158300
+519,04_E_34_23-007,EG-G-LGD- Kakinada,014,Kovvur,7042,,7042,387310
+520,04_E_34_23-007,EG-G-LGD- Kakinada,015,Thurangi,21060,,21060,1158300
 521,04_E_34_32-013,EG-G-LGD- Mandapeta,6,Mernipadu,863,,863,47465
 522,04_E_34_32-013,EG-G-LGD- Mandapeta,7,Velagatodu,5313,,5313,292215
 523,04_E_34_32-013,EG-G-LGD- Mandapeta,8,Palatodu,2736,,2736,150480
@@ -898,183 +898,183 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 897,04_E_34_58-004,EG_G_LGD_Malkipurm,10,Kesanapalli,14220,,14220,782100
 898,04_E_34_58-004,EG_G_LGD_Malkipurm,11,Sankaraguptam,10708,,10708,588940
 899,04_E_34_58-004,EG_G_LGD_Malkipurm,7,Kattimanda,4678,,4678,257290
-900,04_E_31-1,EG-G-BkNe-Gangavaram,42,Pothandorapalem,,,0,0
-901,04_E_31-1,EG-G-BkNe-Gangavaram,12,Komaravaram,,534,534,29370
-902,04_E_31-1,EG-G-BkNe-Gangavaram,19,Yendapalli,,625,625,34375
-903,04_E_31-1,EG-G-BkNe-Gangavaram,23,Kusumarai,,471,471,25905
-904,04_E_31-1,EG-G-BkNe-Gangavaram,25,Gangavaram,,2020,2020,111100
-905,04_E_31-1,EG-G-BkNe-Gangavaram,26,Lakkonda,,879,879,48345
-906,04_E_31-1,EG-G-BkNe-Gangavaram,27,Goragommi,,472,472,25960
-907,04_E_31-1,EG-G-BkNe-Gangavaram,29,Vemulova,,538,538,29590
-908,04_E_31-1,EG-G-BkNe-Gangavaram,50,Pedagarlapadu,,499,499,27445
-909,04_E_31-1,EG-G-BkNe-Gangavaram,31,Doramamidi,,469,469,25795
-910,04_E_31-1,EG-G-BkNe-Gangavaram,32,Amudalabonda,,474,474,26070
-911,04_E_31-1,EG-G-BkNe-Gangavaram,33,Yerrampalem,,150,150,8250
-912,04_E_31-1,EG-G-BkNe-Gangavaram,36,Chinagarlapadu,,112,112,6160
-913,04_E_31-1,EG-G-BkNe-Gangavaram,37,Pidatamamidi,,1064,1064,58520
-914,04_E_31-1,EG-G-BkNe-Gangavaram,38,Nellipudi,,3651,3651,200805
-915,04_E_31-1,EG-G-BkNe-Gangavaram,39,Donalapalli,,211,211,11605
-916,04_E_31-1,EG-G-BkNe-Gangavaram,43,Ojubanda,,276,276,15180
-917,04_E_31-1,EG-G-BkNe-Gangavaram,44,Jaggampalem,,528,528,29040
-918,04_E_31-1,EG-G-BkNe-Gangavaram,51,Bayyanapalli,,368,368,20240
-919,04_E_31-1,EG-G-BkNe-Gangavaram,30,Pandrapottipalem,,140,140,7700
-920,04_E_31-1,EG-G-BkNe-Gangavaram,24,Rajampela,,198,198,10890
-921,04_E_31-1,EG-G-BkNe-Gangavaram,28,Vuyyalamadugu,,19,19,1045
-922,04_E_31-1,EG-G-BkNe-Gangavaram,34,Kothada,,992,992,54560
-923,04_E_31-1,EG-G-BkNe-Gangavaram,35,Surampalem,,525,525,28875
-924,04_E_31-1,EG-G-BkNe-Gangavaram,40,Kamavarappadu,,31,31,1705
-925,04_E_31-1,EG-G-BkNe-Gangavaram,41,Kondalampalem,,35,35,1925
-926,04_E_31-1,EG-G-BkNe-Gangavaram,45,Jiyyampalem,,538,538,29590
-927,04_E_31-1,EG-G-BkNe-Gangavaram,46,Rajavaram,,452,452,24860
-928,04_E_31-1,EG-G-BkNe-Gangavaram,47,Neladonelapadu,,0,0,0
-929,04_E_31-1,EG-G-BkNe-Gangavaram,48,Rajupetaloddi,,268,268,14740
-930,04_E_31-1,EG-G-BkNe-Gangavaram,49,Yamanapalli,,138,138,7590
-931,04_E_31-1,EG-G-BkNe-Gangavaram,22,Patharamavaram,,407,407,22385
-932,04_E_31-1,EG-G-BkNe-Gangavaram,52,Kotharamavaram,,16,16,880
-933,04_E_31-1,EG-G-BkNe-Gangavaram,53,Chodavaram,,0,0,0
-934,04_E_31-1,EG-G-BkNe-Gangavaram,54,Ummetta,,151,151,8305
-935,04_E_31-1,EG-G-BkNe-Gangavaram,55,Loddipalem,,218,218,11990
+900,04_E_31-1,EG-G-BkNe-Gangavaram,042,Pothandorapalem,,,0,0
+901,04_E_31-1,EG-G-BkNe-Gangavaram,012,Komaravaram,,534,534,29370
+902,04_E_31-1,EG-G-BkNe-Gangavaram,019,Yendapalli,,625,625,34375
+903,04_E_31-1,EG-G-BkNe-Gangavaram,023,Kusumarai,,471,471,25905
+904,04_E_31-1,EG-G-BkNe-Gangavaram,025,Gangavaram,,2020,2020,111100
+905,04_E_31-1,EG-G-BkNe-Gangavaram,026,Lakkonda,,879,879,48345
+906,04_E_31-1,EG-G-BkNe-Gangavaram,027,Goragommi,,472,472,25960
+907,04_E_31-1,EG-G-BkNe-Gangavaram,029,Vemulova,,538,538,29590
+908,04_E_31-1,EG-G-BkNe-Gangavaram,050,Pedagarlapadu,,499,499,27445
+909,04_E_31-1,EG-G-BkNe-Gangavaram,031,Doramamidi,,469,469,25795
+910,04_E_31-1,EG-G-BkNe-Gangavaram,032,Amudalabonda,,474,474,26070
+911,04_E_31-1,EG-G-BkNe-Gangavaram,033,Yerrampalem,,150,150,8250
+912,04_E_31-1,EG-G-BkNe-Gangavaram,036,Chinagarlapadu,,112,112,6160
+913,04_E_31-1,EG-G-BkNe-Gangavaram,037,Pidatamamidi,,1064,1064,58520
+914,04_E_31-1,EG-G-BkNe-Gangavaram,038,Nellipudi,,3651,3651,200805
+915,04_E_31-1,EG-G-BkNe-Gangavaram,039,Donalapalli,,211,211,11605
+916,04_E_31-1,EG-G-BkNe-Gangavaram,043,Ojubanda,,276,276,15180
+917,04_E_31-1,EG-G-BkNe-Gangavaram,044,Jaggampalem,,528,528,29040
+918,04_E_31-1,EG-G-BkNe-Gangavaram,051,Bayyanapalli,,368,368,20240
+919,04_E_31-1,EG-G-BkNe-Gangavaram,030,Pandrapottipalem,,140,140,7700
+920,04_E_31-1,EG-G-BkNe-Gangavaram,024,Rajampela,,198,198,10890
+921,04_E_31-1,EG-G-BkNe-Gangavaram,028,Vuyyalamadugu,,19,19,1045
+922,04_E_31-1,EG-G-BkNe-Gangavaram,034,Kothada,,992,992,54560
+923,04_E_31-1,EG-G-BkNe-Gangavaram,035,Surampalem,,525,525,28875
+924,04_E_31-1,EG-G-BkNe-Gangavaram,040,Kamavarappadu,,31,31,1705
+925,04_E_31-1,EG-G-BkNe-Gangavaram,041,Kondalampalem,,35,35,1925
+926,04_E_31-1,EG-G-BkNe-Gangavaram,045,Jiyyampalem,,538,538,29590
+927,04_E_31-1,EG-G-BkNe-Gangavaram,046,Rajavaram,,452,452,24860
+928,04_E_31-1,EG-G-BkNe-Gangavaram,047,Neladonelapadu,,0,0,0
+929,04_E_31-1,EG-G-BkNe-Gangavaram,048,Rajupetaloddi,,268,268,14740
+930,04_E_31-1,EG-G-BkNe-Gangavaram,049,Yamanapalli,,138,138,7590
+931,04_E_31-1,EG-G-BkNe-Gangavaram,022,Patharamavaram,,407,407,22385
+932,04_E_31-1,EG-G-BkNe-Gangavaram,052,Kotharamavaram,,16,16,880
+933,04_E_31-1,EG-G-BkNe-Gangavaram,053,Chodavaram,,0,0,0
+934,04_E_31-1,EG-G-BkNe-Gangavaram,054,Ummetta,,151,151,8305
+935,04_E_31-1,EG-G-BkNe-Gangavaram,055,Loddipalem,,218,218,11990
 936,04_E_31-1,EG-G-BkNe-Gangavaram,,FOREST,,0,0,0
-937,04_E_31-38,EG-G-BkNe-Gangavaram,6,Mallisala,,5498,5498,302390
-938,04_E_31-39,EG-G-BkNe-Gangavaram,2,Kottapalli,,14309,14309,786995
-939,04_E_31-40,EG-G-BkNe-Gangavaram,6,Sudikonda,,1144,1144,62920
-940,04_E_31-41,EG-G-BkNe-Gangavaram,7,Sivaramapatnam,,193,193,10615
-941,04_E_31-42,EG-G-BkNe-Gangavaram,8,Mallavaram,,5989,5989,329395
-942,04_E_31-43,EG-G-BkNe-Gangavaram,5,Takurupalem,,543,543,29865
-943,04_E_31-44,EG-G-BkNe-Gangavaram,4,Tirumalayapalem,,5414,5414,297770
-944,04_E_31-45,EG-G-BkNe-Gangavaram,11,R.Yerrampalem,,7028,7028,386540
-945,04_E_31-46,EG-G-BkNe-Gangavaram,14,Achyutapuram,,2428,2428,133540
-946,04_E_31-47,EG-G-BkNe-Gangavaram,15,Gummalladoddi,,5420,5420,298100
-947,04_E_31-48,EG-G-BkNe-Gangavaram,9,Kanupuru,,4447,4447,244585
-948,04_E_31-49,EG-G-BkNe-Gangavaram,40,Nallagonda,,473,473,26015
-949,04_E_31-50,EG-G-BkNe-Gangavaram,48,Jagametlapalem,,489,489,26895
-950,04_E_31-51,EG-G-BkNe-Gangavaram,49,B.Velamakota,,929,929,51095
-951,04_E_31-52,EG-G-BkNe-Gangavaram,59,Utla,,850,850,46750
-952,04_E_31-53,EG-G-BkNe-Gangavaram,69,B.Ramannapalem,,382,382,21010
+937,04_E_31-38,EG-G-BkNe-Gangavaram,006,Mallisala,,5498,5498,302390
+938,04_E_31-39,EG-G-BkNe-Gangavaram,002,Kottapalli,,14309,14309,786995
+939,04_E_31-40,EG-G-BkNe-Gangavaram,006,Sudikonda,,1144,1144,62920
+940,04_E_31-41,EG-G-BkNe-Gangavaram,007,Sivaramapatnam,,193,193,10615
+941,04_E_31-42,EG-G-BkNe-Gangavaram,008,Mallavaram,,5989,5989,329395
+942,04_E_31-43,EG-G-BkNe-Gangavaram,005,Takurupalem,,543,543,29865
+943,04_E_31-44,EG-G-BkNe-Gangavaram,004,Tirumalayapalem,,5414,5414,297770
+944,04_E_31-45,EG-G-BkNe-Gangavaram,011,R.Yerrampalem,,7028,7028,386540
+945,04_E_31-46,EG-G-BkNe-Gangavaram,014,Achyutapuram,,2428,2428,133540
+946,04_E_31-47,EG-G-BkNe-Gangavaram,015,Gummalladoddi,,5420,5420,298100
+947,04_E_31-48,EG-G-BkNe-Gangavaram,009,Kanupuru,,4447,4447,244585
+948,04_E_31-49,EG-G-BkNe-Gangavaram,040,Nallagonda,,473,473,26015
+949,04_E_31-50,EG-G-BkNe-Gangavaram,048,Jagametlapalem,,489,489,26895
+950,04_E_31-51,EG-G-BkNe-Gangavaram,049,B.Velamakota,,929,929,51095
+951,04_E_31-52,EG-G-BkNe-Gangavaram,059,Utla,,850,850,46750
+952,04_E_31-53,EG-G-BkNe-Gangavaram,069,B.Ramannapalem,,382,382,21010
 953,04_E_31-54,EG-G-BkNe-Gangavaram,,FOREST,,0,0,0
-954,04_E_28_01-030,EG-G-Pm- Kutravada,2,PAMULAMAMIDI,,168,168,9240
-955,04_E_28_01-030,EG-G-Pm- Kutravada,4,BANDA,,666,666,36630
-956,04_E_28_01-030,EG-G-Pm- Kutravada,5,SIRIPANLOVA,,53,53,2915
-957,04_E_28_01-030,EG-G-Pm- Kutravada,6,CHAKKAVADA,,411,411,22605
-958,04_E_28_01-030,EG-G-Pm- Kutravada,7,MUNTHAMAMIDI,,137,137,7535
-959,04_E_28_01-030,EG-G-Pm- Kutravada,8,CHAVIDIKOTA,,275,275,15125
-960,04_E_28_01-030,EG-G-Pm- Kutravada,9,BODLANKA,,933,933,51315
-961,04_E_28_01-030,EG-G-Pm- Kutravada,10,GUMPENAGANDI,,145,145,7975
-962,04_E_28_01-030,EG-G-Pm- Kutravada,11,GUNDRATHY,,64,64,3520
-963,04_E_28_01-030,EG-G-Pm- Kutravada,12,PULLANGI,,283,283,15565
-964,04_E_28_01-030,EG-G-Pm- Kutravada,13,PEDDAMARRI,,73,73,4015
-965,04_E_28_01-030,EG-G-Pm- Kutravada,14,ADDARIVALASA,,188,188,10340
-966,04_E_28_01-030,EG-G-Pm- Kutravada,15,EGAVALASA,,75,75,4125
-967,04_E_28_01-030,EG-G-Pm- Kutravada,16,PUSIWADA,,135,135,7425
-968,04_E_28_01-030,EG-G-Pm- Kutravada,17,MUCHILIVADA,,67,67,3685
-969,04_E_28_01-030,EG-G-Pm- Kutravada,18,AKUMAMIDIKOTA,,100,100,5500
-970,04_E_28_01-030,EG-G-Pm- Kutravada,19,VAKKULURU,,194,194,10670
-971,04_E_28_01-030,EG-G-Pm- Kutravada,20,KATCHALAVADA,,69,69,3795
-972,04_E_28_01-030,EG-G-Pm- Kutravada,21,POTLAVADA,,48,48,2640
-973,04_E_28_01-030,EG-G-Pm- Kutravada,22,CHATLAVADA,,384,384,21120
-974,04_E_28_01-030,EG-G-Pm- Kutravada,23,NUKALETIVADA,,59,59,3245
-975,04_E_28_01-030,EG-G-Pm- Kutravada,24,ELIVADA,,72,72,3960
-976,04_E_28_01-030,EG-G-Pm- Kutravada,25,BODULURU,,387,387,21285
-977,04_E_28_01-030,EG-G-Pm- Kutravada,26,GONDIVADA,,192,192,10560
-978,04_E_28_01-030,EG-G-Pm- Kutravada,28,PAMULERU,,154,154,8470
-979,04_E_28_01-030,EG-G-Pm- Kutravada,29,GOGUVALASA,,0,0,0
-980,04_E_28_01-030,EG-G-Pm- Kutravada,30,KUTRAVADA,,273,273,15015
-981,04_E_28_01-030,EG-G-Pm- Kutravada,31,KAKURU,,79,79,4345
-982,04_E_28_01-030,EG-G-Pm- Kutravada,32,ARJUNALOVA,,0,0,0
-983,04_E_28_01-030,EG-G-Pm- Kutravada,33,BHIMAVARAM,,170,170,9350
-984,04_E_28_01-030,EG-G-Pm- Kutravada,34,IVAMPALLE,,86,86,4730
-985,04_E_28_01-030,EG-G-Pm- Kutravada,38,KONDAVADA,,43,43,2365
-986,04_E_28_01-030,EG-G-Pm- Kutravada,39,VUTHALURU,,111,111,6105
-987,04_E_28_01-030,EG-G-Pm- Kutravada,40,VALAMURU,,91,91,5005
-988,04_E_28_01-030,EG-G-Pm- Kutravada,42,P.MADDULURU,,12,12,660
-989,04_E_28_01-030,EG-G-Pm- Kutravada,43,THURUMAMIDI,,130,130,7150
-990,04_E_28_01-030,EG-G-Pm- Kutravada,44,KADUMURU,,33,33,1815
-991,04_E_28_01-030,EG-G-Pm- Kutravada,47,GUJJUMAMIDIVALASA,,500,500,27500
+954,04_E_28_01-030,EG-G-Pm- Kutravada,002,PAMULAMAMIDI,,168,168,9240
+955,04_E_28_01-030,EG-G-Pm- Kutravada,004,BANDA,,666,666,36630
+956,04_E_28_01-030,EG-G-Pm- Kutravada,005,SIRIPANLOVA,,53,53,2915
+957,04_E_28_01-030,EG-G-Pm- Kutravada,006,CHAKKAVADA,,411,411,22605
+958,04_E_28_01-030,EG-G-Pm- Kutravada,007,MUNTHAMAMIDI,,137,137,7535
+959,04_E_28_01-030,EG-G-Pm- Kutravada,008,CHAVIDIKOTA,,275,275,15125
+960,04_E_28_01-030,EG-G-Pm- Kutravada,009,BODLANKA,,933,933,51315
+961,04_E_28_01-030,EG-G-Pm- Kutravada,010,GUMPENAGANDI,,145,145,7975
+962,04_E_28_01-030,EG-G-Pm- Kutravada,011,GUNDRATHY,,64,64,3520
+963,04_E_28_01-030,EG-G-Pm- Kutravada,012,PULLANGI,,283,283,15565
+964,04_E_28_01-030,EG-G-Pm- Kutravada,013,PEDDAMARRI,,73,73,4015
+965,04_E_28_01-030,EG-G-Pm- Kutravada,014,ADDARIVALASA,,188,188,10340
+966,04_E_28_01-030,EG-G-Pm- Kutravada,015,EGAVALASA,,75,75,4125
+967,04_E_28_01-030,EG-G-Pm- Kutravada,016,PUSIWADA,,135,135,7425
+968,04_E_28_01-030,EG-G-Pm- Kutravada,017,MUCHILIVADA,,67,67,3685
+969,04_E_28_01-030,EG-G-Pm- Kutravada,018,AKUMAMIDIKOTA,,100,100,5500
+970,04_E_28_01-030,EG-G-Pm- Kutravada,019,VAKKULURU,,194,194,10670
+971,04_E_28_01-030,EG-G-Pm- Kutravada,020,KATCHALAVADA,,69,69,3795
+972,04_E_28_01-030,EG-G-Pm- Kutravada,021,POTLAVADA,,48,48,2640
+973,04_E_28_01-030,EG-G-Pm- Kutravada,022,CHATLAVADA,,384,384,21120
+974,04_E_28_01-030,EG-G-Pm- Kutravada,023,NUKALETIVADA,,59,59,3245
+975,04_E_28_01-030,EG-G-Pm- Kutravada,024,ELIVADA,,72,72,3960
+976,04_E_28_01-030,EG-G-Pm- Kutravada,025,BODULURU,,387,387,21285
+977,04_E_28_01-030,EG-G-Pm- Kutravada,026,GONDIVADA,,192,192,10560
+978,04_E_28_01-030,EG-G-Pm- Kutravada,028,PAMULERU,,154,154,8470
+979,04_E_28_01-030,EG-G-Pm- Kutravada,029,GOGUVALASA,,0,0,0
+980,04_E_28_01-030,EG-G-Pm- Kutravada,030,KUTRAVADA,,273,273,15015
+981,04_E_28_01-030,EG-G-Pm- Kutravada,031,KAKURU,,79,79,4345
+982,04_E_28_01-030,EG-G-Pm- Kutravada,032,ARJUNALOVA,,0,0,0
+983,04_E_28_01-030,EG-G-Pm- Kutravada,033,BHIMAVARAM,,170,170,9350
+984,04_E_28_01-030,EG-G-Pm- Kutravada,034,IVAMPALLE,,86,86,4730
+985,04_E_28_01-030,EG-G-Pm- Kutravada,038,KONDAVADA,,43,43,2365
+986,04_E_28_01-030,EG-G-Pm- Kutravada,039,VUTHALURU,,111,111,6105
+987,04_E_28_01-030,EG-G-Pm- Kutravada,040,VALAMURU,,91,91,5005
+988,04_E_28_01-030,EG-G-Pm- Kutravada,042,P.MADDULURU,,12,12,660
+989,04_E_28_01-030,EG-G-Pm- Kutravada,043,THURUMAMIDI,,130,130,7150
+990,04_E_28_01-030,EG-G-Pm- Kutravada,044,KADUMURU,,33,33,1815
+991,04_E_28_01-030,EG-G-Pm- Kutravada,047,GUJJUMAMIDIVALASA,,500,500,27500
 992,04_E_28_01-030,EG-G-Pm- Kutravada,,Forest,,0,0,0
-993,04_E_28_01-030,EG-G-Pm- Kutravada,44,POOLOVA,,147,147,8085
-994,04_E_28_01-030,EG-G-Pm- Kutravada,46,LINGAVARAM,,126,126,6930
-995,04_E_28_01-030,EG-G-Pm- Kutravada,47,BABBILOVA,,112,112,6160
-996,04_E_28_01-030,EG-G-Pm- Kutravada,48,DARAGEDDA,,199,199,10945
-997,04_E_28_01-030,EG-G-Pm- Kutravada,49,NEELAMPALEM,,0,0,0
-998,04_E_28_01-030,EG-G-Pm- Kutravada,51,JALAGALOVA,,243,243,13365
-999,04_E_28_01-030,EG-G-Pm- Kutravada,52,POLAMANUGONDI,,125,125,6875
-1000,04_E_28_01-030,EG-G-Pm- Kutravada,53,KANIVADA,,453,453,24915
-1001,04_E_28_01-030,EG-G-Pm- Kutravada,54,JAJIVALASA,,239,239,13145
-1002,04_E_28_01-030,EG-G-Pm- Kutravada,55,BUSIKOTA,,127,127,6985
-1003,04_E_28_01-030,EG-G-Pm- Kutravada,56,BURADAVALASA,,125,125,6875
-1004,04_E_28_01-030,EG-G-Pm- Kutravada,57,KORAMATIGONDI,,86,86,4730
-1005,04_E_28_01-030,EG-G-Pm- Kutravada,58,IRLAVADA,,141,141,7755
-1006,04_E_28_01-030,EG-G-Pm- Kutravada,59,DUMPAVALASA,,308,308,16940
-1007,04_E_28_01-030,EG-G-Pm- Kutravada,60,PERIKIVALASA,,248,248,13640
+993,04_E_28_01-030,EG-G-Pm- Kutravada,044,POOLOVA,,147,147,8085
+994,04_E_28_01-030,EG-G-Pm- Kutravada,046,LINGAVARAM,,126,126,6930
+995,04_E_28_01-030,EG-G-Pm- Kutravada,047,BABBILOVA,,112,112,6160
+996,04_E_28_01-030,EG-G-Pm- Kutravada,048,DARAGEDDA,,199,199,10945
+997,04_E_28_01-030,EG-G-Pm- Kutravada,049,NEELAMPALEM,,0,0,0
+998,04_E_28_01-030,EG-G-Pm- Kutravada,051,JALAGALOVA,,243,243,13365
+999,04_E_28_01-030,EG-G-Pm- Kutravada,052,POLAMANUGONDI,,125,125,6875
+1000,04_E_28_01-030,EG-G-Pm- Kutravada,053,KANIVADA,,453,453,24915
+1001,04_E_28_01-030,EG-G-Pm- Kutravada,054,JAJIVALASA,,239,239,13145
+1002,04_E_28_01-030,EG-G-Pm- Kutravada,055,BUSIKOTA,,127,127,6985
+1003,04_E_28_01-030,EG-G-Pm- Kutravada,056,BURADAVALASA,,125,125,6875
+1004,04_E_28_01-030,EG-G-Pm- Kutravada,057,KORAMATIGONDI,,86,86,4730
+1005,04_E_28_01-030,EG-G-Pm- Kutravada,058,IRLAVADA,,141,141,7755
+1006,04_E_28_01-030,EG-G-Pm- Kutravada,059,DUMPAVALASA,,308,308,16940
+1007,04_E_28_01-030,EG-G-Pm- Kutravada,060,PERIKIVALASA,,248,248,13640
 1008,04_E_28_01-030,EG-G-Pm- Kutravada,,Forest,,0,0,0
-1009,04_E_27-5_01-001,EG-G-Sb- Gudisa,1,GUDISE,,92,92,5060
-1010,04_E_27-4_01-041,EG-G-Sb- Ijjaluru,41,IJJALURU,,43,43,2365
-1011,04_E_27-3_01-027,EG-G-Sb- Nelluru,27,NELLURU,,41,41,2255
-1012,04_E_27-2_02-042,EG-G-Sb- Vattigedda,7,Ganganuru,,111,111,6105
-1013,04_E_27-2_02-042,EG-G-Sb- Vattigedda,8,Thangedukota,,167,167,9185
-1014,04_E_27-2_02-042,EG-G-Sb- Vattigedda,9,Doragondi,,0,0,0
-1015,04_E_27-2_02-042,EG-G-Sb- Vattigedda,11,Singanakota,,87,87,4785
-1016,04_E_27-2_02-042,EG-G-Sb- Vattigedda,12,Palagondi,,0,0,0
-1017,04_E_27-2_02-042,EG-G-Sb- Vattigedda,13,Koppulakota,,318,318,17490
-1018,04_E_27-2_02-042,EG-G-Sb- Vattigedda,14,Kothapakalu,,81,81,4455
-1019,04_E_27-2_02-042,EG-G-Sb- Vattigedda,15,Pathakota,,447,447,24585
-1020,04_E_27-2_02-042,EG-G-Sb- Vattigedda,16,Karnikota,,164,164,9020
-1021,04_E_27-2_02-042,EG-G-Sb- Vattigedda,17,Pulimetla,,644,644,35420
-1022,04_E_27-2_02-042,EG-G-Sb- Vattigedda,18,Chananuru,,242,242,13310
-1023,04_E_27-2_02-042,EG-G-Sb- Vattigedda,19,Chilakaveedhilanka,,205,205,11275
-1024,04_E_27-2_02-042,EG-G-Sb- Vattigedda,20,Revadikota,,197,197,10835
-1025,04_E_27-2_02-042,EG-G-Sb- Vattigedda,38,Kadarikota,,231,231,12705
-1026,04_E_27-2_02-042,EG-G-Sb- Vattigedda,39,Allurigedda,,94,94,5170
-1027,04_E_27-2_02-042,EG-G-Sb- Vattigedda,40,Gurtedu,,581,581,31955
-1028,04_E_27-2_02-042,EG-G-Sb- Vattigedda,41,Veerampalem,,67,67,3685
-1029,04_E_27-2_02-042,EG-G-Sb- Vattigedda,42,G.Vattigedda,,177,177,9735
-1030,04_E_27-2_02-042,EG-G-Sb- Vattigedda,43,Kothakota,,32,32,1760
-1031,04_E_27-2_02-042,EG-G-Sb- Vattigedda,45,Edlakonda,,171,171,9405
-1032,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,57,DARAVADA,,217,217,11935
-1033,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,58,PEDDURU,,168,168,9240
-1034,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,59,DORACHINTALAPALEM,,174,174,9570
-1035,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,60,SRIPURAM,,217,217,11935
-1036,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,61,NARSAPURAM,,185,185,10175
+1009,04_E_27-5_01-001,EG-G-Sb- Gudisa,001,GUDISE,,92,92,5060
+1010,04_E_27-4_01-041,EG-G-Sb- Ijjaluru,041,IJJALURU,,43,43,2365
+1011,04_E_27-3_01-027,EG-G-Sb- Nelluru,027,NELLURU,,41,41,2255
+1012,04_E_27-2_02-042,EG-G-Sb- Vattigedda,007,Ganganuru,,111,111,6105
+1013,04_E_27-2_02-042,EG-G-Sb- Vattigedda,008,Thangedukota,,167,167,9185
+1014,04_E_27-2_02-042,EG-G-Sb- Vattigedda,009,Doragondi,,0,0,0
+1015,04_E_27-2_02-042,EG-G-Sb- Vattigedda,011,Singanakota,,87,87,4785
+1016,04_E_27-2_02-042,EG-G-Sb- Vattigedda,012,Palagondi,,0,0,0
+1017,04_E_27-2_02-042,EG-G-Sb- Vattigedda,013,Koppulakota,,318,318,17490
+1018,04_E_27-2_02-042,EG-G-Sb- Vattigedda,014,Kothapakalu,,81,81,4455
+1019,04_E_27-2_02-042,EG-G-Sb- Vattigedda,015,Pathakota,,447,447,24585
+1020,04_E_27-2_02-042,EG-G-Sb- Vattigedda,016,Karnikota,,164,164,9020
+1021,04_E_27-2_02-042,EG-G-Sb- Vattigedda,017,Pulimetla,,644,644,35420
+1022,04_E_27-2_02-042,EG-G-Sb- Vattigedda,018,Chananuru,,242,242,13310
+1023,04_E_27-2_02-042,EG-G-Sb- Vattigedda,019,Chilakaveedhilanka,,205,205,11275
+1024,04_E_27-2_02-042,EG-G-Sb- Vattigedda,020,Revadikota,,197,197,10835
+1025,04_E_27-2_02-042,EG-G-Sb- Vattigedda,038,Kadarikota,,231,231,12705
+1026,04_E_27-2_02-042,EG-G-Sb- Vattigedda,039,Allurigedda,,94,94,5170
+1027,04_E_27-2_02-042,EG-G-Sb- Vattigedda,040,Gurtedu,,581,581,31955
+1028,04_E_27-2_02-042,EG-G-Sb- Vattigedda,041,Veerampalem,,67,67,3685
+1029,04_E_27-2_02-042,EG-G-Sb- Vattigedda,042,G.Vattigedda,,177,177,9735
+1030,04_E_27-2_02-042,EG-G-Sb- Vattigedda,043,Kothakota,,32,32,1760
+1031,04_E_27-2_02-042,EG-G-Sb- Vattigedda,045,Edlakonda,,171,171,9405
+1032,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,057,DARAVADA,,217,217,11935
+1033,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,058,PEDDURU,,168,168,9240
+1034,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,059,DORACHINTALAPALEM,,174,174,9570
+1035,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,060,SRIPURAM,,217,217,11935
+1036,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,061,NARSAPURAM,,185,185,10175
 1037,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,,Forest,,0,0,0
-1038,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,61,KATHIRALLA,,0,0,0
-1039,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,62,PANCHADARALANKA,,0,0,0
-1040,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,63,PUTTAGANDI,,125,125,6875
-1041,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,64,KUNKUMAMIDI,,13,13,715
-1042,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,65,RATSAVALASA,,118,118,6490
-1043,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,66,DARAWADA,,18,18,990
-1044,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,67,DARALOVA,,71,71,3905
-1045,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,68,GANNAVARAM,,28,28,1540
-1046,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,69,NULAKAMAMIDI,,54,54,2970
-1047,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,70,GORABANDA,,16,16,880
-1048,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,71,SESHARAI,,49,49,2695
-1049,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,72,JANGALATHOTA,,211,211,11605
-1050,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,73,BURADAKOTA,,183,183,10065
-1051,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,74,JAJIGEDDA,,28,28,1540
-1052,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,75,NELLIKOTA,,44,44,2420
-1053,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,76,DADALIKAVADA,,194,194,10670
-1054,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,77,SINGAVARAM,,131,131,7205
-1055,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,78,CHAMAGADDA,,78,78,4290
-1056,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,79,RAMULAKONDA,,70,70,3850
-1057,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,80,DABBAMAMIDI,,178,178,9790
-1058,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,81,BANDIGEDDA,,312,312,17160
-1059,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,82,NAKKARATHIPALEM,,67,67,3685
-1060,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,83,Y. RAMAVARAM,,1314,1314,72270
-1061,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,84,CHINTHAKARRAPALEM,,438,438,24090
-1062,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,85,YARLAGADDA,,533,533,29315
-1063,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,86,KOMARAVARAM,,79,79,4345
-1064,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,87,PAIDIPUTTA,,78,78,4290
-1065,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,88,PASARUGINNI,,141,141,7755
-1066,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,89,P. YERRAGONDA,,622,622,34210
-1067,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,90,VATTIGADDA,,49,49,2695
-1068,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,91,THADIKOTA,,33,33,1815
-1069,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,92,DONARAI,,0,0,0
-1070,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,93,RAVVAGADDA,,136,136,7480
-1071,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,94,BHEEMUDUGADDA,,174,174,9570
-1072,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,95,CHINTHALAPUDI,,334,334,18370
-1073,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,96,BODDAGUNTA,,124,124,6820
-1074,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,97,CHINTA KOYYA,,213,213,11715
-1075,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,98,VEDULLAPALLI,,38,38,2090
-1076,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,99,SIRIMETLA,,69,69,3795
+1038,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,061,KATHIRALLA,,0,0,0
+1039,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,062,PANCHADARALANKA,,0,0,0
+1040,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,063,PUTTAGANDI,,125,125,6875
+1041,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,064,KUNKUMAMIDI,,13,13,715
+1042,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,065,RATSAVALASA,,118,118,6490
+1043,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,066,DARAWADA,,18,18,990
+1044,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,067,DARALOVA,,71,71,3905
+1045,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,068,GANNAVARAM,,28,28,1540
+1046,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,069,NULAKAMAMIDI,,54,54,2970
+1047,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,070,GORABANDA,,16,16,880
+1048,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,071,SESHARAI,,49,49,2695
+1049,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,072,JANGALATHOTA,,211,211,11605
+1050,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,073,BURADAKOTA,,183,183,10065
+1051,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,074,JAJIGEDDA,,28,28,1540
+1052,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,075,NELLIKOTA,,44,44,2420
+1053,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,076,DADALIKAVADA,,194,194,10670
+1054,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,077,SINGAVARAM,,131,131,7205
+1055,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,078,CHAMAGADDA,,78,78,4290
+1056,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,079,RAMULAKONDA,,70,70,3850
+1057,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,080,DABBAMAMIDI,,178,178,9790
+1058,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,081,BANDIGEDDA,,312,312,17160
+1059,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,082,NAKKARATHIPALEM,,67,67,3685
+1060,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,083,Y. RAMAVARAM,,1314,1314,72270
+1061,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,084,CHINTHAKARRAPALEM,,438,438,24090
+1062,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,085,YARLAGADDA,,533,533,29315
+1063,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,086,KOMARAVARAM,,79,79,4345
+1064,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,087,PAIDIPUTTA,,78,78,4290
+1065,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,088,PASARUGINNI,,141,141,7755
+1066,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,089,P. YERRAGONDA,,622,622,34210
+1067,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,090,VATTIGADDA,,49,49,2695
+1068,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,091,THADIKOTA,,33,33,1815
+1069,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,092,DONARAI,,0,0,0
+1070,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,093,RAVVAGADDA,,136,136,7480
+1071,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,094,BHEEMUDUGADDA,,174,174,9570
+1072,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,095,CHINTHALAPUDI,,334,334,18370
+1073,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,096,BODDAGUNTA,,124,124,6820
+1074,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,097,CHINTA KOYYA,,213,213,11715
+1075,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,098,VEDULLAPALLI,,38,38,2090
+1076,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,099,SIRIMETLA,,69,69,3795
 1077,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,100,AMMAPETA,,43,43,2365
 1078,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,101,ANNAMPALEM,,43,43,2365
 1079,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,102,BONANGIPALEM,,0,0,0
@@ -1134,13 +1134,13 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 1133,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,35,Anukulapalem,,417,417,22935
 1134,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,36,Ravulapalem,,156,156,8580
 1135,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,37,Ravigudem,,158,158,8690
-1136,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,38,Settipalli,,318,318,17490
+1136,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,038,Settipalli,,318,318,17490
 1137,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,39,Chaparathipalem,,158,158,8690
 1138,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,40,Jalluru,,301,301,16555
-1139,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,41,Thungamadugula,,1016,1016,55880
+1139,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,041,Thungamadugula,,1016,1016,55880
 1140,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,42,Ratnampalem,,5,5,275
 1141,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,43,Mamidipalem,,185,185,10175
-1142,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,46,Tiyyamamidi,,78,78,4290
+1142,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,046,Tiyyamamidi,,78,78,4290
 1143,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,47,Dhanyampalem,,729,729,40095
 1144,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,48,Pedamunakanagedda,,179,179,9845
 1145,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,55,Paidiputtapadu,,69,69,3795
@@ -1149,208 +1149,208 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 1148,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,58,Panukuratipalem,,241,241,13255
 1149,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,66,Latchireddipalem,,18,18,990
 1150,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,0,Forest,,0,0,0
-1151,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,1,LAKSHMIPURAM,,134,134,7370
-1152,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,2,SEETHARAMPADU,,0,0,0
-1153,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,3,NUVVUMAMIDI,,307,307,16885
-1154,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,4,NEELAVARAM,,264,264,14520
-1155,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,5,MOHANAPURAM,,703,703,38665
-1156,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,6,PANDRAPROLU,,206,206,11330
-1157,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,7,POTHANDORAPALEM,,158,158,8690
-1158,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,8,KARAKAPADU,,151,151,8305
-1159,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,9,BARRIMAMIDI,,493,493,27115
-1160,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,10,YELLAPURAM,,161,161,8855
-1161,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,11,MARRIPALEM,,673,673,37015
-1162,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,13,E. RAMAVARAM,,451,451,24805
-1163,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,14,PEDA ADDAPALLI,,410,410,22550
-1164,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,15,ZADERU,,616,616,33880
-1165,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,16,KURAMGONDI,,264,264,14520
-1166,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,17,SARABHAVARAM,,121,121,6655
-1167,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,18,YETIPALLI,,585,585,32175
-1168,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,20,CHINA ADDAPALLI,,80,80,4400
-1169,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,21,CHEEDIPALEM,,460,460,25300
+1151,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,001,LAKSHMIPURAM,,134,134,7370
+1152,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,002,SEETHARAMPADU,,0,0,0
+1153,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,003,NUVVUMAMIDI,,307,307,16885
+1154,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,004,NEELAVARAM,,264,264,14520
+1155,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,005,MOHANAPURAM,,703,703,38665
+1156,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,006,PANDRAPROLU,,206,206,11330
+1157,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,007,POTHANDORAPALEM,,158,158,8690
+1158,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,008,KARAKAPADU,,151,151,8305
+1159,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,009,BARRIMAMIDI,,493,493,27115
+1160,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,010,YELLAPURAM,,161,161,8855
+1161,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,011,MARRIPALEM,,673,673,37015
+1162,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,013,E. RAMAVARAM,,451,451,24805
+1163,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,014,PEDA ADDAPALLI,,410,410,22550
+1164,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,015,ZADERU,,616,616,33880
+1165,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,016,KURAMGONDI,,264,264,14520
+1166,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,017,SARABHAVARAM,,121,121,6655
+1167,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,018,YETIPALLI,,585,585,32175
+1168,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,020,CHINA ADDAPALLI,,80,80,4400
+1169,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,021,CHEEDIPALEM,,460,460,25300
 1170,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,,Forest,,0,0,0
-1171,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,16,VADAPALLE,,615,615,33825
-1172,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,17,NIMMALAPALEM,,405,405,22275
-1173,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,18,CHERUVURU,,539,539,29645
-1174,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,19,BOLAGONDA,,612,612,33660
-1175,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,39,CHUPPARIPALEM,,316,316,17380
+1171,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,016,VADAPALLE,,615,615,33825
+1172,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,017,NIMMALAPALEM,,405,405,22275
+1173,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,018,CHERUVURU,,539,539,29645
+1174,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,019,BOLAGONDA,,612,612,33660
+1175,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,039,CHUPPARIPALEM,,316,316,17380
 1176,04_F_19-4_02-083,EG-MHG-Pd- Y.Ramavaram,,FOREST AREA,,0,0,0
-1177,04_E_29_14-001,EG-G-Mv- Kondamodalu,45,MUNJAMAMIDI,,61,61,3355
-1178,04_E_29_14-001,EG-G-Mv- Kondamodalu,46,KUNDADA,,496,496,27280
-1179,04_E_29_14-001,EG-G-Mv- Kondamodalu,48,MUSURU,,113,113,6215
-1180,04_E_29_14-001,EG-G-Mv- Kondamodalu,50,M.MADDULURU,,104,104,5720
+1177,04_E_29_14-001,EG-G-Mv- Kondamodalu,045,MUNJAMAMIDI,,61,61,3355
+1178,04_E_29_14-001,EG-G-Mv- Kondamodalu,046,KUNDADA,,496,496,27280
+1179,04_E_29_14-001,EG-G-Mv- Kondamodalu,048,MUSURU,,113,113,6215
+1180,04_E_29_14-001,EG-G-Mv- Kondamodalu,050,M.MADDULURU,,104,104,5720
 1181,04_E_29_14-001,EG-G-Mv- Kondamodalu,0,Forest,,0,0,0
-1182,04_E_29_14-001,EG-G-Mv- Kondamodalu,1,KINTUKURU,,64,64,3520
-1183,04_E_29_14-001,EG-G-Mv- Kondamodalu,2,EETHAPALLE,,35,35,1925
-1184,04_E_29_14-001,EG-G-Mv- Kondamodalu,3,KOYYALAGUDEM,,236,236,12980
-1185,04_E_29_14-001,EG-G-Mv- Kondamodalu,4,LANKAPAKALU,,152,152,8360
-1186,04_E_29_14-001,EG-G-Mv- Kondamodalu,5,VEERLAMAMIDI,,163,163,8965
-1187,04_E_29_14-001,EG-G-Mv- Kondamodalu,6,KAKAVADA,,456,456,25080
-1188,04_E_29_14-001,EG-G-Mv- Kondamodalu,25,CHELAKAVEEDHI,,390,390,21450
-1189,04_E_29_14-001,EG-G-Mv- Kondamodalu,26,VEMULAKONDA,,256,256,14080
-1190,04_E_29_14-001,EG-G-Mv- Kondamodalu,27,TIRUGATIRALLU,,293,293,16115
-1191,04_E_29_14-001,EG-G-Mv- Kondamodalu,28,AKURU,,210,210,11550
-1192,04_E_29_14-001,EG-G-Mv- Kondamodalu,29,SUVARLAVADA,,387,387,21285
-1193,04_E_29_14-001,EG-G-Mv- Kondamodalu,30,VATTICHELAKALU,,239,239,13145
+1182,04_E_29_14-001,EG-G-Mv- Kondamodalu,001,KINTUKURU,,64,64,3520
+1183,04_E_29_14-001,EG-G-Mv- Kondamodalu,002,EETHAPALLE,,35,35,1925
+1184,04_E_29_14-001,EG-G-Mv- Kondamodalu,003,KOYYALAGUDEM,,236,236,12980
+1185,04_E_29_14-001,EG-G-Mv- Kondamodalu,004,LANKAPAKALU,,152,152,8360
+1186,04_E_29_14-001,EG-G-Mv- Kondamodalu,005,VEERLAMAMIDI,,163,163,8965
+1187,04_E_29_14-001,EG-G-Mv- Kondamodalu,006,KAKAVADA,,456,456,25080
+1188,04_E_29_14-001,EG-G-Mv- Kondamodalu,025,CHELAKAVEEDHI,,390,390,21450
+1189,04_E_29_14-001,EG-G-Mv- Kondamodalu,026,VEMULAKONDA,,256,256,14080
+1190,04_E_29_14-001,EG-G-Mv- Kondamodalu,027,TIRUGATIRALLU,,293,293,16115
+1191,04_E_29_14-001,EG-G-Mv- Kondamodalu,028,AKURU,,210,210,11550
+1192,04_E_29_14-001,EG-G-Mv- Kondamodalu,029,SUVARLAVADA,,387,387,21285
+1193,04_E_29_14-001,EG-G-Mv- Kondamodalu,030,VATTICHELAKALU,,239,239,13145
 1194,04_E_29_14-001,EG-G-Mv- Kondamodalu,0,Forest,,0,0,0
-1195,04_E_29_14-001,EG-G-Mv- Kondamodalu,1,KONDAMODALU,,2320,2320,127600
-1196,04_E_29_14-001,EG-G-Mv- Kondamodalu,2,CHINTALAGUDEM,,95,95,5225
-1197,04_E_29_14-001,EG-G-Mv- Kondamodalu,3,MAMIDIVALASA,,152,152,8360
-1198,04_E_29_14-001,EG-G-Mv- Kondamodalu,4,THUMMURU,,292,292,16060
-1199,04_E_29_14-001,EG-G-Mv- Kondamodalu,5,GONDURU,,120,120,6600
-1200,04_E_29_14-001,EG-G-Mv- Kondamodalu,6,KATCHULURU,,285,285,15675
-1201,04_E_29_14-001,EG-G-Mv- Kondamodalu,20,MANTURU,,1092,1092,60060
-1202,04_E_29_14-001,EG-G-Mv- Kondamodalu,29,LINGAVARAM,,54,54,2970
-1203,04_E_29_14-001,EG-G-Mv- Kondamodalu,30,THOYYERU,,1650,1650,90750
-1204,04_E_29_14-001,EG-G-Mv- Kondamodalu,31,DEVIPATNAM,,1616,1616,88880
-1205,04_E_29_14-001,EG-G-Mv- Kondamodalu,32,GANUGULAGONDI,,47,47,2585
-1206,04_E_29_14-001,EG-G-Mv- Kondamodalu,21,KUDAKARAYI,,145,145,7975
+1195,04_E_29_14-001,EG-G-Mv- Kondamodalu,001,KONDAMODALU,,2320,2320,127600
+1196,04_E_29_14-001,EG-G-Mv- Kondamodalu,002,CHINTALAGUDEM,,95,95,5225
+1197,04_E_29_14-001,EG-G-Mv- Kondamodalu,003,MAMIDIVALASA,,152,152,8360
+1198,04_E_29_14-001,EG-G-Mv- Kondamodalu,004,THUMMURU,,292,292,16060
+1199,04_E_29_14-001,EG-G-Mv- Kondamodalu,005,GONDURU,,120,120,6600
+1200,04_E_29_14-001,EG-G-Mv- Kondamodalu,006,KATCHULURU,,285,285,15675
+1201,04_E_29_14-001,EG-G-Mv- Kondamodalu,020,MANTURU,,1092,1092,60060
+1202,04_E_29_14-001,EG-G-Mv- Kondamodalu,029,LINGAVARAM,,54,54,2970
+1203,04_E_29_14-001,EG-G-Mv- Kondamodalu,030,THOYYERU,,1650,1650,90750
+1204,04_E_29_14-001,EG-G-Mv- Kondamodalu,031,DEVIPATNAM,,1616,1616,88880
+1205,04_E_29_14-001,EG-G-Mv- Kondamodalu,032,GANUGULAGONDI,,47,47,2585
+1206,04_E_29_14-001,EG-G-Mv- Kondamodalu,021,KUDAKARAYI,,145,145,7975
 1207,04_E_29_14-001,EG-G-Mv- Kondamodalu,0,Forest,,,0,0
-1208,04_E_30_13-036,EG-G-Sp- Rchodavaram,7,Pedageddada,,887,887,48785
-1209,04_E_30_13-036,EG-G-Sp- Rchodavaram,8,Cheruvupalem,,310,310,17050
-1210,04_E_30_13-036,EG-G-Sp- Rchodavaram,10,Chilakamamidi,,516,516,28380
-1211,04_E_30_13-036,EG-G-Sp- Rchodavaram,11,Busigudem,,802,802,44110
-1212,04_E_30_13-036,EG-G-Sp- Rchodavaram,12,Madicharla,,644,644,35420
-1213,04_E_30_13-036,EG-G-Sp- Rchodavaram,13,Immidivaram,,112,112,6160
-1214,04_E_30_13-036,EG-G-Sp- Rchodavaram,14,Gungugudem,,339,339,18645
-1215,04_E_30_13-036,EG-G-Sp- Rchodavaram,15,Isukupatla,,271,271,14905
-1216,04_E_30_13-036,EG-G-Sp- Rchodavaram,21,Kottapakalu,,88,88,4840
-1217,04_E_30_13-036,EG-G-Sp- Rchodavaram,22,Peddapadu,,88,88,4840
-1218,04_E_30_13-036,EG-G-Sp- Rchodavaram,23,Chinageddada,,583,583,32065
-1219,04_E_30_13-036,EG-G-Sp- Rchodavaram,24,Daragudem,,362,362,19910
-1220,04_E_30_13-036,EG-G-Sp- Rchodavaram,31,Dabbavalasa,,346,346,19030
-1221,04_E_30_13-036,EG-G-Sp- Rchodavaram,32,Sokulagudem,,579,579,31845
-1222,04_E_30_13-036,EG-G-Sp- Rchodavaram,33,Gandhinagaram,,332,332,18260
-1223,04_E_30_13-036,EG-G-Sp- Rchodavaram,34,Bhupatipalem,,48,48,2640
-1224,04_E_30_13-036,EG-G-Sp- Rchodavaram,35,Rampa,,531,531,29205
-1225,04_E_30_13-036,EG-G-Sp- Rchodavaram,36,Ramachodavaram,,10057,10057,553135
-1226,04_E_30_13-036,EG-G-Sp- Rchodavaram,37,Marrivada,,298,298,16390
-1227,04_E_30_13-036,EG-G-Sp- Rchodavaram,38,Bhimavaram,,112,112,6160
-1228,04_E_30_13-036,EG-G-Sp- Rchodavaram,41,Korumilli,,290,290,15950
-1229,04_E_30_13-036,EG-G-Sp- Rchodavaram,42,Bandapalli,,1370,1370,75350
-1230,04_E_30_13-036,EG-G-Sp- Rchodavaram,43,Kunjamveedhi,,538,538,29590
-1231,04_E_30_13-036,EG-G-Sp- Rchodavaram,44,Sirigindalapadu,,678,678,37290
-1232,04_E_30_13-036,EG-G-Sp- Rchodavaram,45,Pandirimamidi,,595,595,32725
-1233,04_E_30_13-036,EG-G-Sp- Rchodavaram,46,Gogumilli,,189,189,10395
-1234,04_E_30_13-036,EG-G-Sp- Rchodavaram,47,T.Burugubandha,,485,485,26675
-1235,04_E_30_13-036,EG-G-Sp- Rchodavaram,50,Usirijonnala,,297,297,16335
-1236,04_E_30_13-036,EG-G-Sp- Rchodavaram,51,Doramadugula,,245,245,13475
-1237,04_E_30_13-036,EG-G-Sp- Rchodavaram,53,Tatiwada,,395,395,21725
-1238,04_E_30_13-036,EG-G-Sp- Rchodavaram,54,Bornagudem,,226,226,12430
-1239,04_E_30_13-036,EG-G-Sp- Rchodavaram,56,Italapalli,,630,630,34650
-1240,04_E_30_13-036,EG-G-Sp- Rchodavaram,57,Polavaram,,631,631,34705
-1241,04_E_30_13-036,EG-G-Sp- Rchodavaram,58,Beerampalli,,604,604,33220
-1242,04_E_30_13-036,EG-G-Sp- Rchodavaram,60,Sithapalli,,515,515,28325
-1243,04_E_30_13-036,EG-G-Sp- Rchodavaram,61,Jagarampalli,,279,279,15345
-1244,04_E_30_13-036,EG-G-Sp- Rchodavaram,62,Chinabarangi,,306,306,16830
-1245,04_E_30_13-036,EG-G-Sp- Rchodavaram,63,Pedabarangi,,200,200,11000
-1246,04_E_30_13-036,EG-G-Sp- Rchodavaram,64,Musurimilli,,668,668,36740
-1247,04_E_30_13-036,EG-G-Sp- Rchodavaram,66,Tamarapalli,,453,453,24915
-1248,04_E_30_13-036,EG-G-Sp- Rchodavaram,67,Gopavaram,,621,621,34155
-1249,04_E_30_13-036,EG-G-Sp- Rchodavaram,68,Gotlagudem,,358,358,19690
-1250,04_E_30_13-036,EG-G-Sp- Rchodavaram,71,Nunepalli,,289,289,15895
-1251,04_E_30_13-036,EG-G-Sp- Rchodavaram,9,DOKULAPADU,,70,70,3850
-1252,04_E_30_13-036,EG-G-Sp- Rchodavaram,20,PEDDAKONDA,,64,64,3520
-1253,04_E_30_13-036,EG-G-Sp- Rchodavaram,55,GINNEPALLE,,435,435,23925
-1254,04_E_30_13-036,EG-G-Sp- Rchodavaram,65,KOMARAVARAM,,80,80,4400
+1208,04_E_30_13-036,EG-G-Sp- Rchodavaram,007,Pedageddada,,887,887,48785
+1209,04_E_30_13-036,EG-G-Sp- Rchodavaram,008,Cheruvupalem,,310,310,17050
+1210,04_E_30_13-036,EG-G-Sp- Rchodavaram,010,Chilakamamidi,,516,516,28380
+1211,04_E_30_13-036,EG-G-Sp- Rchodavaram,011,Busigudem,,802,802,44110
+1212,04_E_30_13-036,EG-G-Sp- Rchodavaram,012,Madicharla,,644,644,35420
+1213,04_E_30_13-036,EG-G-Sp- Rchodavaram,013,Immidivaram,,112,112,6160
+1214,04_E_30_13-036,EG-G-Sp- Rchodavaram,014,Gungugudem,,339,339,18645
+1215,04_E_30_13-036,EG-G-Sp- Rchodavaram,015,Isukupatla,,271,271,14905
+1216,04_E_30_13-036,EG-G-Sp- Rchodavaram,021,Kottapakalu,,88,88,4840
+1217,04_E_30_13-036,EG-G-Sp- Rchodavaram,022,Peddapadu,,88,88,4840
+1218,04_E_30_13-036,EG-G-Sp- Rchodavaram,023,Chinageddada,,583,583,32065
+1219,04_E_30_13-036,EG-G-Sp- Rchodavaram,024,Daragudem,,362,362,19910
+1220,04_E_30_13-036,EG-G-Sp- Rchodavaram,031,Dabbavalasa,,346,346,19030
+1221,04_E_30_13-036,EG-G-Sp- Rchodavaram,032,Sokulagudem,,579,579,31845
+1222,04_E_30_13-036,EG-G-Sp- Rchodavaram,033,Gandhinagaram,,332,332,18260
+1223,04_E_30_13-036,EG-G-Sp- Rchodavaram,034,Bhupatipalem,,48,48,2640
+1224,04_E_30_13-036,EG-G-Sp- Rchodavaram,035,Rampa,,531,531,29205
+1225,04_E_30_13-036,EG-G-Sp- Rchodavaram,036,Ramachodavaram,,10057,10057,553135
+1226,04_E_30_13-036,EG-G-Sp- Rchodavaram,037,Marrivada,,298,298,16390
+1227,04_E_30_13-036,EG-G-Sp- Rchodavaram,038,Bhimavaram,,112,112,6160
+1228,04_E_30_13-036,EG-G-Sp- Rchodavaram,041,Korumilli,,290,290,15950
+1229,04_E_30_13-036,EG-G-Sp- Rchodavaram,042,Bandapalli,,1370,1370,75350
+1230,04_E_30_13-036,EG-G-Sp- Rchodavaram,043,Kunjamveedhi,,538,538,29590
+1231,04_E_30_13-036,EG-G-Sp- Rchodavaram,044,Sirigindalapadu,,678,678,37290
+1232,04_E_30_13-036,EG-G-Sp- Rchodavaram,045,Pandirimamidi,,595,595,32725
+1233,04_E_30_13-036,EG-G-Sp- Rchodavaram,046,Gogumilli,,189,189,10395
+1234,04_E_30_13-036,EG-G-Sp- Rchodavaram,047,T.Burugubandha,,485,485,26675
+1235,04_E_30_13-036,EG-G-Sp- Rchodavaram,050,Usirijonnala,,297,297,16335
+1236,04_E_30_13-036,EG-G-Sp- Rchodavaram,051,Doramadugula,,245,245,13475
+1237,04_E_30_13-036,EG-G-Sp- Rchodavaram,053,Tatiwada,,395,395,21725
+1238,04_E_30_13-036,EG-G-Sp- Rchodavaram,054,Bornagudem,,226,226,12430
+1239,04_E_30_13-036,EG-G-Sp- Rchodavaram,056,Italapalli,,630,630,34650
+1240,04_E_30_13-036,EG-G-Sp- Rchodavaram,057,Polavaram,,631,631,34705
+1241,04_E_30_13-036,EG-G-Sp- Rchodavaram,058,Beerampalli,,604,604,33220
+1242,04_E_30_13-036,EG-G-Sp- Rchodavaram,060,Sithapalli,,515,515,28325
+1243,04_E_30_13-036,EG-G-Sp- Rchodavaram,061,Jagarampalli,,279,279,15345
+1244,04_E_30_13-036,EG-G-Sp- Rchodavaram,062,Chinabarangi,,306,306,16830
+1245,04_E_30_13-036,EG-G-Sp- Rchodavaram,063,Pedabarangi,,200,200,11000
+1246,04_E_30_13-036,EG-G-Sp- Rchodavaram,064,Musurimilli,,668,668,36740
+1247,04_E_30_13-036,EG-G-Sp- Rchodavaram,066,Tamarapalli,,453,453,24915
+1248,04_E_30_13-036,EG-G-Sp- Rchodavaram,067,Gopavaram,,621,621,34155
+1249,04_E_30_13-036,EG-G-Sp- Rchodavaram,068,Gotlagudem,,358,358,19690
+1250,04_E_30_13-036,EG-G-Sp- Rchodavaram,071,Nunepalli,,289,289,15895
+1251,04_E_30_13-036,EG-G-Sp- Rchodavaram,009,DOKULAPADU,,70,70,3850
+1252,04_E_30_13-036,EG-G-Sp- Rchodavaram,020,PEDDAKONDA,,64,64,3520
+1253,04_E_30_13-036,EG-G-Sp- Rchodavaram,055,GINNEPALLE,,435,435,23925
+1254,04_E_30_13-036,EG-G-Sp- Rchodavaram,065,KOMARAVARAM,,80,80,4400
 1255,04_E_30_13-036,EG-G-Sp- Rchodavaram,0,Forest,,0,0,0
-1256,04_E_30_13-036,EG-G-Sp- Rchodavaram,8,PEDDANOOTULU,,178,178,9790
-1257,04_E_30_13-036,EG-G-Sp- Rchodavaram,10,MULAKALAGUDEM,,145,145,7975
-1258,04_E_30_13-036,EG-G-Sp- Rchodavaram,11,KOTTAGUDEM,,92,92,5060
-1259,04_E_30_13-036,EG-G-Sp- Rchodavaram,12,TATIWADA,,310,310,17050
-1260,04_E_30_13-036,EG-G-Sp- Rchodavaram,13,PEDDURU,,371,371,20405
-1261,04_E_30_13-036,EG-G-Sp- Rchodavaram,14,PAMUGANDI,,444,444,24420
-1262,04_E_30_13-036,EG-G-Sp- Rchodavaram,15,PALURU(PALEM),,758,758,41690
-1263,04_E_30_13-036,EG-G-Sp- Rchodavaram,16,DONALANKA,,354,354,19470
-1264,04_E_30_13-036,EG-G-Sp- Rchodavaram,17,MADDIRATIGUDEM,,387,387,21285
-1265,04_E_30_13-036,EG-G-Sp- Rchodavaram,18,CHOPPAKONDA,,257,257,14135
-1266,04_E_30_13-036,EG-G-Sp- Rchodavaram,22,DAMANAPALLI,,525,525,28875
-1267,04_E_30_13-036,EG-G-Sp- Rchodavaram,25,V.RAYANAPALEM,,293,293,16115
-1268,04_E_30_13-036,EG-G-Sp- Rchodavaram,26,LAKSHMIPURAM,,194,194,10670
-1269,04_E_30_13-036,EG-G-Sp- Rchodavaram,27,GUMPANAPALLI,,111,111,6105
-1270,04_E_30_13-036,EG-G-Sp- Rchodavaram,35,A.VEERAVARAM,,480,480,26400
-1271,04_E_30_13-036,EG-G-Sp- Rchodavaram,33,CH.RAMANAYYAPET,,784,784,43120
-1272,04_E_30_13-036,EG-G-Sp- Rchodavaram,34,DANDANGI,,922,922,50710
-1273,04_E_30_13-036,EG-G-Sp- Rchodavaram,23,VELAGAPALLI,,224,224,12320
-1274,04_E_30_13-036,EG-G-Sp- Rchodavaram,9,GANGAVARAM,,418,418,22990
-1275,04_E_30_13-036,EG-G-Sp- Rchodavaram,19,YERRAMETLA,,214,214,11770
-1276,04_E_30_13-036,EG-G-Sp- Rchodavaram,24,RAYAVARAM,,229,229,12595
-1277,04_E_30_13-036,EG-G-Sp- Rchodavaram,36,PUDIPALLE,,1090,1090,59950
-1278,04_E_30_13-036,EG-G-Sp- Rchodavaram,46,ANGULURU,,303,303,16665
+1256,04_E_30_13-036,EG-G-Sp- Rchodavaram,008,PEDDANOOTULU,,178,178,9790
+1257,04_E_30_13-036,EG-G-Sp- Rchodavaram,010,MULAKALAGUDEM,,145,145,7975
+1258,04_E_30_13-036,EG-G-Sp- Rchodavaram,011,KOTTAGUDEM,,92,92,5060
+1259,04_E_30_13-036,EG-G-Sp- Rchodavaram,012,TATIWADA,,310,310,17050
+1260,04_E_30_13-036,EG-G-Sp- Rchodavaram,013,PEDDURU,,371,371,20405
+1261,04_E_30_13-036,EG-G-Sp- Rchodavaram,014,PAMUGANDI,,444,444,24420
+1262,04_E_30_13-036,EG-G-Sp- Rchodavaram,015,PALURU(PALEM),,758,758,41690
+1263,04_E_30_13-036,EG-G-Sp- Rchodavaram,016,DONALANKA,,354,354,19470
+1264,04_E_30_13-036,EG-G-Sp- Rchodavaram,017,MADDIRATIGUDEM,,387,387,21285
+1265,04_E_30_13-036,EG-G-Sp- Rchodavaram,018,CHOPPAKONDA,,257,257,14135
+1266,04_E_30_13-036,EG-G-Sp- Rchodavaram,022,DAMANAPALLI,,525,525,28875
+1267,04_E_30_13-036,EG-G-Sp- Rchodavaram,025,V.RAYANAPALEM,,293,293,16115
+1268,04_E_30_13-036,EG-G-Sp- Rchodavaram,026,LAKSHMIPURAM,,194,194,10670
+1269,04_E_30_13-036,EG-G-Sp- Rchodavaram,027,GUMPANAPALLI,,111,111,6105
+1270,04_E_30_13-036,EG-G-Sp- Rchodavaram,035,A.VEERAVARAM,,480,480,26400
+1271,04_E_30_13-036,EG-G-Sp- Rchodavaram,033,CH.RAMANAYYAPET,,784,784,43120
+1272,04_E_30_13-036,EG-G-Sp- Rchodavaram,034,DANDANGI,,922,922,50710
+1273,04_E_30_13-036,EG-G-Sp- Rchodavaram,023,VELAGAPALLI,,224,224,12320
+1274,04_E_30_13-036,EG-G-Sp- Rchodavaram,009,GANGAVARAM,,418,418,22990
+1275,04_E_30_13-036,EG-G-Sp- Rchodavaram,019,YERRAMETLA,,214,214,11770
+1276,04_E_30_13-036,EG-G-Sp- Rchodavaram,024,RAYAVARAM,,229,229,12595
+1277,04_E_30_13-036,EG-G-Sp- Rchodavaram,036,PUDIPALLE,,1090,1090,59950
+1278,04_E_30_13-036,EG-G-Sp- Rchodavaram,046,ANGULURU,,303,303,16665
 1279,04_E_30_13-036,EG-G-Sp- Rchodavaram,0,Forest,,0,0,0
-1280,04_E_30_13-036,EG-G-Sp- Rchodavaram,37,KUDURU,,230,230,12650
-1281,04_E_30_13-036,EG-G-Sp- Rchodavaram,36,VETIKURU,,849,849,46695
-1282,04_E_30_13-036,EG-G-Sp- Rchodavaram,49,MAREDUMILLI,,3442,3442,189310
-1283,04_E_30_13-036,EG-G-Sp- Rchodavaram,71,TURRURU,,153,153,8415
-1284,04_E_30_13-036,EG-G-Sp- Rchodavaram,70,RAMANNAVALASA,,200,200,11000
-1285,04_E_30_13-036,EG-G-Sp- Rchodavaram,68,SUNNAMPADU,,318,318,17490
-1286,04_E_30_13-036,EG-G-Sp- Rchodavaram,67,DEVARAPALLI,,572,572,31460
-1287,04_E_30_13-036,EG-G-Sp- Rchodavaram,66,NOORUPUDI,,271,271,14905
-1288,04_E_30_13-036,EG-G-Sp- Rchodavaram,65,DENDULURU,,301,301,16555
-1289,04_E_30_13-036,EG-G-Sp- Rchodavaram,63,GORAMAMIDI,,316,316,17380
-1290,04_E_30_13-036,EG-G-Sp- Rchodavaram,53,MALLAVARAM,,274,274,15070
-1291,04_E_30_13-036,EG-G-Sp- Rchodavaram,52,MADDIVEDU,,230,230,12650
-1292,04_E_30_13-036,EG-G-Sp- Rchodavaram,54,TADEPALLI,,1093,1093,60115
-1293,04_E_30_13-036,EG-G-Sp- Rchodavaram,56,VYDUPUDI,,308,308,16940
-1294,04_E_30_13-036,EG-G-Sp- Rchodavaram,55,P.G.LANKA,,176,176,9680
-1295,04_E_30_13-036,EG-G-Sp- Rchodavaram,35,PANDIRIMAMIDIKOTA,,237,237,13035
-1296,04_E_30_13-036,EG-G-Sp- Rchodavaram,51,PUJARIPAKALU,,145,145,7975
-1297,04_E_30_13-036,EG-G-Sp- Rchodavaram,62,D.VELAMALAKOTA,,536,536,29480
-1298,04_E_30_13-036,EG-G-Sp- Rchodavaram,64,DORAMAMIDI,,129,129,7095
-1299,04_E_30_13-036,EG-G-Sp- Rchodavaram,69,PEDAMALLUPADU,,0,0,0
+1280,04_E_30_13-036,EG-G-Sp- Rchodavaram,037,KUDURU,,230,230,12650
+1281,04_E_30_13-036,EG-G-Sp- Rchodavaram,036,VETIKURU,,849,849,46695
+1282,04_E_30_13-036,EG-G-Sp- Rchodavaram,049,MAREDUMILLI,,3442,3442,189310
+1283,04_E_30_13-036,EG-G-Sp- Rchodavaram,071,TURRURU,,153,153,8415
+1284,04_E_30_13-036,EG-G-Sp- Rchodavaram,070,RAMANNAVALASA,,200,200,11000
+1285,04_E_30_13-036,EG-G-Sp- Rchodavaram,068,SUNNAMPADU,,318,318,17490
+1286,04_E_30_13-036,EG-G-Sp- Rchodavaram,067,DEVARAPALLI,,572,572,31460
+1287,04_E_30_13-036,EG-G-Sp- Rchodavaram,066,NOORUPUDI,,271,271,14905
+1288,04_E_30_13-036,EG-G-Sp- Rchodavaram,065,DENDULURU,,301,301,16555
+1289,04_E_30_13-036,EG-G-Sp- Rchodavaram,063,GORAMAMIDI,,316,316,17380
+1290,04_E_30_13-036,EG-G-Sp- Rchodavaram,053,MALLAVARAM,,274,274,15070
+1291,04_E_30_13-036,EG-G-Sp- Rchodavaram,052,MADDIVEDU,,230,230,12650
+1292,04_E_30_13-036,EG-G-Sp- Rchodavaram,054,TADEPALLI,,1093,1093,60115
+1293,04_E_30_13-036,EG-G-Sp- Rchodavaram,056,VYDUPUDI,,308,308,16940
+1294,04_E_30_13-036,EG-G-Sp- Rchodavaram,055,P.G.LANKA,,176,176,9680
+1295,04_E_30_13-036,EG-G-Sp- Rchodavaram,035,PANDIRIMAMIDIKOTA,,237,237,13035
+1296,04_E_30_13-036,EG-G-Sp- Rchodavaram,051,PUJARIPAKALU,,145,145,7975
+1297,04_E_30_13-036,EG-G-Sp- Rchodavaram,062,D.VELAMALAKOTA,,536,536,29480
+1298,04_E_30_13-036,EG-G-Sp- Rchodavaram,064,DORAMAMIDI,,129,129,7095
+1299,04_E_30_13-036,EG-G-Sp- Rchodavaram,069,PEDAMALLUPADU,,0,0,0
 1300,04_E_30_13-036,EG-G-Sp- Rchodavaram,0,Forest,,,0,0
 1301,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,99,Doddivaka,,88,88,4840
-1302,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,90,Timmapuram,,2006,2006,110330
+1302,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,090,Timmapuram,,2006,2006,110330
 1303,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,0,Forest,,0,0,0
-1304,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,45,Komarapuram,,335,335,18425
-1305,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,44,Ameenabada,,253,253,13915
-1306,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,54,Marripalem,,180,180,9900
-1307,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,53,Cherukumpalem,,87,87,4785
-1308,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,56,Urlakulapadu,,739,739,40645
-1309,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,55,Bornagudem,,341,341,18755
-1310,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,57,G.sarabhavaram,,137,137,7535
+1304,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,045,Komarapuram,,335,335,18425
+1305,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,044,Ameenabada,,253,253,13915
+1306,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,054,Marripalem,,180,180,9900
+1307,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,053,Cherukumpalem,,87,87,4785
+1308,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,056,Urlakulapadu,,739,739,40645
+1309,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,055,Bornagudem,,341,341,18755
+1310,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,057,G.sarabhavaram,,137,137,7535
 1311,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,0,Forest,,,0,0
 1312,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,2,J.Annavaram,,3643,3643,200365
 1313,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,3,Lakkavaram,,2533,2533,139315
 1314,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,1,Marriveedu,,3310,3310,182050
 1315,04_F_19-1_04-055,EG-MHG-Dg- Bornagudem,0,Forest,,0,0,0
-1316,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,1,KIRRABU,,131,131,7205
-1317,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,2,TALLAPALEM,,0,0,0
-1318,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,3,BODLAGONDI,,1525,1525,83875
-1319,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,4,BOYAPADU,,1655,1655,91025
-1320,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,5,VANAKARAYI,,587,587,32285
-1321,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,6,SARABHAVARAM,,242,242,13310
-1322,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,7,APPANNAPALEM,,714,714,39270
-1323,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,8,DAMANAPALEM,,238,238,13090
-1324,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,9,JEELUGULAPADU,,640,640,35200
-1325,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,10,KINDRA,,182,182,10010
-1326,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,11,LAGARAYI,,659,659,36245
-1327,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,12,KONDAPALLI,,1908,1908,104940
-1328,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,13,DAKARAYI,,185,185,10175
-1329,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,14,BADADANAMPALLI,,438,438,24090
-1330,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,15,CHINARELLANGIPADU,,512,512,28160
-1331,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,16,AMMIREKALA,,134,134,7370
-1332,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,17,KIMILIGEDDA,,463,463,25465
-1333,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,18,SURAMPALEM,,1962,1962,107910
-1334,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,19,LABBARTHI,,8398,8398,461890
-1335,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,20,MUNJAVARAPPADU,,134,134,7370
-1336,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,21,ANANTHAGIRI,,76,76,4180
-1337,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,23,DONGALA MALLAVARAM,,276,276,15180
-1338,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,24,NELLIMETLA,,362,362,19910
-1339,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,25,DUSARIPAMU,,110,110,6050
-1340,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,26,RAJAVOMMANGI,,159,159,8745
-1341,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,31,VOYYEDU,,88,88,4840
-1342,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,32,MURLAVANIPALEM,,385,385,21175
-1343,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,33,SUBBAMPADU,,1626,1626,89430
-1344,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,34,GINJERTHI,,414,414,22770
-1345,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,35,THANTIKONDA,,889,889,48895
-1346,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,36,YERRAMPADU,,240,240,13200
-1347,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,37,SINGAMPALLE,,85,85,4675
-1348,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,38,GOBBILAMADUGU,,606,606,33330
-1349,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,40,DONELAPALEM,,239,239,13145
-1350,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,43,JADDANGI,,1753,1753,96415
-1351,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,42,REVATIPALEM,,723,723,39765
-1352,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,41,VELAGALAPALEM,,3763,3763,206965
+1316,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,001,KIRRABU,,131,131,7205
+1317,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,002,TALLAPALEM,,0,0,0
+1318,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,003,BODLAGONDI,,1525,1525,83875
+1319,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,004,BOYAPADU,,1655,1655,91025
+1320,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,005,VANAKARAYI,,587,587,32285
+1321,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,006,SARABHAVARAM,,242,242,13310
+1322,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,007,APPANNAPALEM,,714,714,39270
+1323,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,008,DAMANAPALEM,,238,238,13090
+1324,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,009,JEELUGULAPADU,,640,640,35200
+1325,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,010,KINDRA,,182,182,10010
+1326,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,011,LAGARAYI,,659,659,36245
+1327,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,012,KONDAPALLI,,1908,1908,104940
+1328,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,013,DAKARAYI,,185,185,10175
+1329,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,014,BADADANAMPALLI,,438,438,24090
+1330,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,015,CHINARELLANGIPADU,,512,512,28160
+1331,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,016,AMMIREKALA,,134,134,7370
+1332,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,017,KIMILIGEDDA,,463,463,25465
+1333,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,018,SURAMPALEM,,1962,1962,107910
+1334,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,019,LABBARTHI,,8398,8398,461890
+1335,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,020,MUNJAVARAPPADU,,134,134,7370
+1336,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,021,ANANTHAGIRI,,76,76,4180
+1337,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,023,DONGALA MALLAVARAM,,276,276,15180
+1338,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,024,NELLIMETLA,,362,362,19910
+1339,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,025,DUSARIPAMU,,110,110,6050
+1340,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,026,RAJAVOMMANGI,,159,159,8745
+1341,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,031,VOYYEDU,,88,88,4840
+1342,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,032,MURLAVANIPALEM,,385,385,21175
+1343,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,033,SUBBAMPADU,,1626,1626,89430
+1344,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,034,GINJERTHI,,414,414,22770
+1345,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,035,THANTIKONDA,,889,889,48895
+1346,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,036,YERRAMPADU,,240,240,13200
+1347,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,037,SINGAMPALLE,,85,85,4675
+1348,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,038,GOBBILAMADUGU,,606,606,33330
+1349,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,040,DONELAPALEM,,239,239,13145
+1350,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,043,JADDANGI,,1753,1753,96415
+1351,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,042,REVATIPALEM,,723,723,39765
+1352,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,041,VELAGALAPALEM,,3763,3763,206965
 1353,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,0,Forest,,0,0,0
 1354,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,69,Kinaparti,,320,320,17600
 1355,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,64,Gavarayyapeta,,276,276,15180
@@ -1372,19 +1372,19 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 1371,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,9,Nadimpalem,,0,0,0
 1372,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,80,Rajanagaram,,196,196,10780
 1373,04_F_19-3_03-043,EG-MHG-Md- Jaddangi,0,Forest,,0,0,0
-1374,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,39,Bonangipalem,,229,229,12595
-1375,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,22,Gaduvakurthi,,394,394,21670
+1374,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,039,Bonangipalem,,229,229,12595
+1375,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,022,Gaduvakurthi,,394,394,21670
 1376,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,0,Forest,,0,0,0
 1377,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,67,Vetamamidi,,421,421,23155
 1378,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,52,D.Bhimavaram,,1132,1132,62260
 1379,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,54,Mallavarammamilla,,320,320,17600
 1380,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,53,Nimmalapalem,,421,421,23155
 1381,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,51,Doramamidi,,210,210,11550
-1382,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,34,Somannapalem,,314,314,17270
-1383,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,23,Uligogula,,337,337,18535
+1382,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,034,Somannapalem,,314,314,17270
+1383,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,023,Uligogula,,337,337,18535
 1384,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,32,Kalimamidi,,41,41,2255
 1385,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,22,Jajipalem,,214,214,11770
-1386,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,21,Tirumalawada,,112,112,6160
+1386,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,021,Tirumalawada,,112,112,6160
 1387,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,20,Durcharti,,1254,1254,68970
 1388,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,13,Potuluru,,0,0,0
 1389,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,26,D.Ramavaram,,458,458,25190
@@ -1406,3 +1406,29 @@ Sr.No,watershed code,gw watershed name,Village code,village name,Population [com
 1405,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,74,Chinna Addateegala,,100,100,5500
 1406,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,86,Yellavaram,,1523,1523,83765
 1407,04_F_19-2_03-061,EG-MHG-Mg- Addateegala,0,Forest,,0,0,0
+1408,04_E_27-1_02-001,EG-G-Sb-Donkarayi,001,Donkarai,,210,210,11550
+1409,04_E_27-1_02-001,EG-G-Sb-Donkarayi,002,Boddumamidi,,129,129,7095
+1410,04_E_27-1_02-001,EG-G-Sb-Donkarayi,003,Villarthi,,364,364,20020
+1411,04_E_27-1_02-001,EG-G-Sb-Donkarayi,004,Mangampadu,,145,145,7975
+1412,04_E_27-1_02-001,EG-G-Sb-Donkarayi,005,Marriguda,,133,133,7315
+1413,04_E_27-1_02-001,EG-G-Sb-Donkarayi,006,Bachhaluru,,231,231,12705
+1414,04_E_27-1_02-001,EG-G-Sb-Donkarayi,010,Tulasuru,,47,47,2585
+1415,04_E_27-1_02-001,EG-G-Sb-Donkarayi,021,Kallepugondi,,180,180,9900
+1416,04_E_27-1_02-001,EG-G-Sb-Donkarayi,022,Antilova,,172,172,9460
+1417,04_E_27-1_02-001,EG-G-Sb-Donkarayi,023,Dubela,,37,37,2035
+1418,04_E_27-1_02-001,EG-G-Sb-Donkarayi,024,Nagalova,,201,201,11055
+1419,04_E_27-1_02-001,EG-G-Sb-Donkarayi,025,Kakkonda,,0,0,0
+1420,04_E_27-1_02-001,EG-G-Sb-Donkarayi,026,Vadisalova,,0,0,0
+1421,04_E_27-1_02-001,EG-G-Sb-Donkarayi,027,Adupulametta,,0,0,0
+1422,04_E_27-1_02-001,EG-G-Sb-Donkarayi,028,Gondikota,,81,81,4455
+1423,04_E_27-1_02-001,EG-G-Sb-Donkarayi,029,Boddagandi,,275,275,15125
+1424,04_E_27-1_02-001,EG-G-Sb-Donkarayi,030,Rakota,,114,114,6270
+1425,04_E_27-1_02-001,EG-G-Sb-Donkarayi,031,Erragoppula,,0,0,0
+1426,04_E_27-1_02-001,EG-G-Sb-Donkarayi,032,D.Mamidivada,,216,216,11880
+1427,04_E_27-1_02-001,EG-G-Sb-Donkarayi,033,Gellavada,,0,0,0
+1428,04_E_27-1_02-001,EG-G-Sb-Donkarayi,034,Goppulathotamamidi,,116,116,6380
+1429,04_E_27-1_02-001,EG-G-Sb-Donkarayi,035,Vejuvada,,264,264,14520
+1430,04_E_27-1_02-001,EG-G-Sb-Donkarayi,036,Panasalova,,72,72,3960
+1431,04_E_27-1_02-001,EG-G-Sb-Donkarayi,037,Chaprai,,173,173,9515
+1432,04_E_27-1_02-001,EG-G-Sb-Donkarayi,050,Vootlabanda,,198,198,10890
+1433,04_E_27-1_02-001,EG-G-Sb-Donkarayi,,Forest,,0,0,0

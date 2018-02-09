@@ -1,1378 +1,1404 @@
-"GW Watershed Name","Iwm basin names","GW Village Name","iwm village names"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","A.K.Agraharam","Ambikapalle Agraharam"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","A.Kottapalli","A. Kothapalle"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","A.Mallavaram","A. Mallavaram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","A.V.Nagaram","A.V.Nagaram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","A.VEERAVARAM","A. Veeravaram"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","A.Vemavaram","A. Vemavaram"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Aadurru","Adurru"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Aalamuru","Alamuru-2"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Achampeta","Atchampeta"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Achayyapeta","Atchiyyapeta"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Achyutapuram","Atchutapuram-1"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Addapalli","Addampalle"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","ADDARIVALASA","Addarivalasa"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Addateegala","Addateegala-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Agraharam ","Agraharam (Rural)"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Ainvilli","Ainavilli"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","AKUMAMIDIKOTA","Akumamidikota"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","AKURU","Akuru"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Allavaram","Allavaram-1"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Allipudi","Allipudi"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Allurigedda","Allurigedda"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Amalapuram(R)","Amalapuram (Rural)"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Amalapuram(U)","Amalapuram (M)"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Amaravilli","Amaravalli"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Ameenabada","Aminabada-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Aminabada","Aminabada-2"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","AMMAPETA","Ammapeta"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","AMMIREKALA","Ammirekala"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Ammirekhala","Ammirekhala"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Amudalabonda","Amudalabanda"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Amujuru","Amjuru"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","ANANTHAGIRI","Ananthagiri-1"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Anantharam","Anantharam"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Anaparti","Anaparthy"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Anatavaram","Ananthavaram-7"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Andragi","Andrangi"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Angara","Angara-1"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","ANGULURU","Anguluru"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Anigeru","Anigeru"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Ankampalem","Ankampalem"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Ankampalem","Ankampalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","ANNAMPALEM","Annampalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Annampalem","Annampalem"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Annampalli","Andrangi"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Annavaram","Annavaram-7"
-"EG_G_LGD_ Sakhinetipalli","SAKHINETIPALLE-MB","Antervedi","Antarvedi"
-"EG_G_LGD_ Sakhinetipalli","SAKHINETIPALLE-MB","Antervedipalem","Antarvedipalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Anukulapalem","Anukulapalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Anumarthi","Anumarthi"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Anuru","Anuru-1"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Anuru","Anuru-1"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Appanapalli","Appanapalle"
-"EG_G_LGD_ Sakhinetipalli","SAKHINETIPALLE-MB","Appanaramunilanka","Appanaramuni Lanka"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","APPANNAPALEM","Appannapalem"
-"EG_G_LGD_Karapa","KARAPA-MB","Aratlakatta","Aratlakatta"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Arelladhara","Arilla Dhara"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Arempudi","Arempudi"
-"EG-G-LGD- Biccavole","BICCAVOLU-MB","Arikirevula","Arikarevula"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","ARJUNALOVA","Arjunalova"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Artamuru","Arthamuru-1"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Arthamoor","Arthamuru"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Aryavatam","Aryavatam-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Atchyutapuratrayam","Atchutapuratrayam-1"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Atikivanipalem","Atikivaripalem"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Atreyapuram","Atreyapuram-1"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Avelthi","Avethi"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Avidi","Avidi"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","B.B.Patnam","Bapabhupalapatnam"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","B.Doddavaram","Botlakurru Doddavaram"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","B.Kotturu","B. Kothuru"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","B.Ramannapalem","B.Ramannapalem"
-"EG_G_LGD_ Razole","RAZOLE-MB","B.Savaram","B. Savaram"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","B.SIVARAMPATNAM","B.Sivaramapatnam"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","B.V.Lanka","Baduguvanilanka"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","B.Velamakota","B. Velamalakota"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","BABBILOVA","Babbilova"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Badadam","Badadam"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","BADADANAMPALLI","Badadanampalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Balabadrapuram","Balabhadrapuram"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Balabhadrapuram","Balabhadrapuram-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Balajipadu","Balijapadu"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Balantaram","Balantharam"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Balaramapuram","Balarampuram"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","BANDA","Banda"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Bandakonda","Bandakonda"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Bandamamillu","Bandamamillu"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Bandanapudi","Bandanapudi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Bandapalli","Bandapalle-2"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Bandarlanka","BANDARULANKA"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BANDIGEDDA","Bandigedda"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Bantumilli","Bantumilli-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Bapannadara","Bapannadhara"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BARRIMAMIDI","Barrimamidi"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Bavuruvaka","Bavuruvaka"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Bayyanapalli","Bayyanapalle"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Beerampalli","Beerampalle"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Bellampudi","Bellampudi"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Bendamurlanka","Bendamurulanka-1"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Bendapudi","Bendapudi"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Bhadravaram","Bhadravaram"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Bhatlapalika","Bhatla Palika"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Bhatnavilli","Bhatnavilli"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BHEEMUDUGADDA","Bheemudugadda"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Bhimakosupalm","Bheemakrosupalem"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Bhimanapalli","Bheemanapalle"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","BHIMAVARAM","Bhimavaram-7"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Bhimavaram","Bhimavaram-7"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Bhimavarapukota","Bhimavarapukota"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Bhimudupakalu","Bhimudupakalu"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Bhogapuram","Bhogapuram"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Bhupalapatnam","Bhupalapatnam-1"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Bhupalapatnam","Bhupalapatnam-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Bhupatipalem","Bhupatipalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Bhupatipalem","Bhupatipalem"
-"EG-G-LGD- Biccavole","BICCAVOLU-MB","Biccavolu","Biccavolu-1"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Billakurru","Billa Kurru"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Billananduru","Billananduru"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Billawaka","Billavaka"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Bobbilanka","Bobbillanka"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Bodasakurru","Bodasakurru"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BODDAGUNTA","Boddagunta"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BODDAPALLI","Boddapalle"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Boddavaram","Boddavaram"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","BODLAGONDI","Bodlagondi"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","BODLANKA","Bodlanka-1"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Bodlanka","Bodlanka"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","BODULURU","Boduluru"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BOLAGONDA","Bolagonda"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Bolleddupalem","Bodleddupalem"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Bommuru(U)","BOMMURU-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BONANGIPALEM","Bullojupalem"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Bonangipalem","Bonangipalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Bornagudem","Bornagudem-1"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Bornagudem","Bornagudem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Borrampalem","Borrampalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Boyanapudi","Boyanapudi"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","BOYAPADU","Boyapadu"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Brahmasamedhyam","Brahmasamedyam"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Buchimpeta","Butchempeta"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BULLOJUPALEM","Bullojupalem"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Buradakota","Buradakota"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BURADAKOTA","Buradakota"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","BURADAVALASA","Buradavalasa"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Burugupudi","Burugupudi-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Burugupudi","Burugupudi-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","BURUGUVADA","Buruguwada"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Busigudem","Busigudem"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","BUSIKOTA","Busikota"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Ch.Agraharam","Ch. Agraharam"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Ch.Gunnepalli","Ch. Gunnepalle"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","CH.RAMANAYYAPET","China Ramanayyapeta"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Chadalada","Chadalada"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Chakirevulapalem","Chakirevulapalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Chakirevulapalem","Chakirevulapalem"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","CHAKKAVADA","Chakkavada"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Challapalli","T. Challapalle"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Challeru","Challeru"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHAMAGADDA","Chamagedda-2"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Chamavaram","Chamavaram-1"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Chananuru","Chanaganuru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Chandramampalli","Chandramampalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Chaparathipalem","Chaparatipalem"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","CHATLAVADA","Chatlavada"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","CHAVIDIKOTA","Chavidikota"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHAVITIDIBBALU","Chavitidibbalu"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Chebrolu","Chebrolu-2"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Cheduwada","Cheduvada"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHEEDIPALEM","Cheedipalem"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","CHELAKAVEEDHI","Chelakaveedhi"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Chelluru","Chelluru-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHENDURTHI","Chendurthi"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Chendurti","Chendurthi-1"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Chepuru","Chepuru"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Cherukumpalem","Chervukommupalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Cheruvupalem","Cheruvupalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHERUVURU","Cheruvuru"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Cheyyeru","Cheyyeru-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Chidiga","CHIDIGA"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Chikilinta","Chikilinta"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Chikkapugadda","Chikkapugedda"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Chilakamamidi","Chilakamamidi"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Chilakaveedhilanka","Chilakaveedhilanka"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Chillangi","Chillangi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHINA ADDAPALLI","China Addapalle"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","China Mallapuram","China Mallapuram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Chinabarangi","China Barangi"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Chinabrahmadevaram","Chinabrahmadevam"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Chinadwrapudi","Chinadevarapudi"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Chinagadavilli","Chinagedavalli"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Chinagarlapadu","Chinagarlapadu-1"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Chinageddada","Chinageddada"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Chinajaggannapeta","China Jaggampeta-1"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","chinakodepudi","Chinakondepudi"
-"EG_G_LGD_Karapa","KARAPA-MB","Chinamamidada","China Mamidada"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Chinamunakanagedda","Chinamunakanagedda"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","CHINARELLANGIPADU","Chinarellangipadu"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Chinasankarlapudi","China Sankarlapudi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Chinavadisakarra","Chinavadisakarra"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHINAVULEMPADU","Chinavulempadu"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Chinna Addateegala","Chinna Addateegala"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Chinnapadu","Chinnampadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHINTA KOYYA","Chinta Koyya"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","CHINTALAGUDEM","Chintalagudem"
-"EG_G_LGD_ Razole","RAZOLE-MB","Chintalapalli","Chintalapalle-2"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Chintaluru","Chintaluru"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Chintaluru","Chintaluru"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Chintanalanka","Chintana Lanka"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Chintapalli","Chintapalle-3"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHINTHAKARRAPALEM","Chinthakarrapalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHINTHALAPUDI","Chinthalapudi"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Chirrayanam","Pothukurru"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Chirutapudi","Chiratapudi"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Chitrada","Chitrada"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Chodavaram","Chodavaram-8"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Chodavaram","Chodavaram-8"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Chollangi","Chollangi"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Chollangipeta","Chollangi Peta"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","CHOPPAKONDA","Choppakonda"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Choppanagadda","Choppanagadda"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Choppella","Choppela-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","CHUPPARIPALEM","Chupparipalem"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","D.Ammapeta","D. Ammapeta"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","D.Bhimavaram","Bhimavaram-5"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","D.Chodavaram","Chodavaram-6"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","D.Jagannadhapuram","Dhara Jagannadhapuram"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","D.Kothuru","D. Kothuru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","D.Krishnavaram","D. Krishnavaram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","D.Mallapuram","Dhara Mallapuram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","D.Pidapala","D. Pydipala"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","D.Pinjarikonda","D. Pinjarikonda"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","D.Polavaram","D. Polavaram-1"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","D.Ramavaram","D. Ramavaram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","D.VELAMALAKOTA","D. Velamalakota"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Dabbadi","Dabbadi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DABBAMAMIDI","Dabbamamidi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Dabbapalem","Dabbapalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Dabbavalasa","Dabbavalasa"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DADALIKAVADA","Dadalikavada"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","DAKARAYI","Dakarayi"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Dakodu","Dakodu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DALIPADU","Dalipadu"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","DAMANAPALEM","Damanapalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","DAMANAPALLI","Damanapalle"
-"EG-G-LGD- Kadiam","KADIAM-MB","Damireddypalli","Damireddipalle"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","DANDANGI","Dandangi-1"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Dangeru","Dangeru"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","DARAGEDDA","Daragedda"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Daragudem","Daragudem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DARALOVA","Daralova"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DARAVADA","Daravada"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DARAWADA","Dorawada"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Darsinutula(Regulapadu)","Darsinuthula  @  Regulapadu"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","DENDULURU","Denduluru-1"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Devaguptam","Devaguptam"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","DEVARAM","Devaram"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DEVARAMADUGULA","Devaramadugula"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Devarapalli","Devarapalle-6"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","DEVARAPALLI","Devarapalle-6"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Devarathigudem","Devarathigudem"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","DEVIPATNAM","Devipatnam-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Dhanyampalem","Dhanayampalem"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Dharakonda","Darakonda"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Dharmavaram","Dharmavaram-2"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Diguava Dharapalli","Diguvadarapalle"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Diguvasivada","Diguva Sivada"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Dirisenapalli","Dirisinapalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Divili","Divili"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Doddivaka","Doddivaka"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Dokkapalem","Dokkapalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","DOKULAPADU","Dokulapadu"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Domada","Domada"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","DONALANKA","Donalanka"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Donalapalli","Donelapalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DONARAI","Donarai"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Dondavaka","Dondavaka"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","DONELAPALEM","Donelapalem"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","DONGALA MALLAVARAM","Dongala Mallavaram"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Dontamuru","Pro. Donthamuru"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Dontikurru","Dontikurru"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Doparthi","Doparthi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","DORACHINTALAPALEM","Dorachintalapalem"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Doragondi","Doragondi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Doramadugula","Daramadugula"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Doramamidi","Doramamidi-2"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","DORAMAMIDI","Doramamidi-2"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Doramamidi","Doramamidi-2"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Dosakayalapalli","Dosakayalapalle"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Dowlaiswaram","DOWLESWARAM"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Draksharamam","Draksharama"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Duggudurru","Duggudurru"
-"EG-G-LGD- Kadiam","KADIAM-MB","Dulla","Dulla"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","DUMPAVALASA","Dumpavalasa"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Duppalapalem","Duppalapalem"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Duppalapudi","Duppalapudi"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Durcharti","Ducherthi"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Durgada","Durgada"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","DUSARIPAMU","Dusaripamu"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Dwarapudi","Dwarapudi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","E. RAMAVARAM","E. Ramavaram"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Edarada","Edarada"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Edarapalli","Edarapalle"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Edlakonda","Edlakonda"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","Edurulanka","Yedurulanka"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","EETHAPALLE","Eethapalle"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","EGAVALASA","Egavalasa"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Elakolanu","Elakolanu"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Eleswaram","Yeleswaram-1"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","ELIVADA","Elivada"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Eluru","Yeluru-1"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Ethakota","Ithakota"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Fakrudinpalem","Fakruddinpalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","FOREST AREA","FOREST-249"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Foulkspeta","Foulkspeta"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","G.Agraharam","Gunnapalle Agraharam"
-"EG_G_LGD_Karapa","KARAPA-MB","G.Bhavaram","G. Bhavaram"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","G.Dontamuru","G. Donthamuru-1"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","G.Kottapalli","Gondhi Kothapalle"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","G.Mamidada","G. Mamidada"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","G.Medapadu","G. Medapadu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","G.Ragampeta","G. Ragampeta"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","G.sarabhavaram","G. Sarabhavaram"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","G.Vattigedda","G.Vattigedda"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","G.vemavaram","G. Vemavaram-1"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","G.Vemavaram","G. Vemavaram-1"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","G.Yerrampalem","G. Yerrampalem"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Gadala","Gadala-1"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Gadarada","Gadarada"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Gadelapalem","Gadelapalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Gadichinnampalem","Gadichinnampalem"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Gadilanka","Gadilanka"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Gaduvakurthi","Gaduvakurthi"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Gajjanapudi","Gajjanapudi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","GANDEMPALLI","Gandempalle"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Gandepalli","Gandepalle-2"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Gandhinagaram","Gandhinagaram"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Gandredu","Gandredu"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Gangalakurru","Gangalakurru"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Gangampalem","Gangampalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Ganganapalle","Ganganapalle-2"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Ganganuru","Ganganuru"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Gangavaram","Gangavaram-10"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Gangavaram","Gangavaram-10"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Gangavaram","Gangavaram-10"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","GANGAVARAM","Gangavaram-10"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","GANNAVARAM","Gannavaram-5"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Ganti","Ganti"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Gantipedapudi","Ganti Pedapudi"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","GANUGULAGONDI","Ganugulagondi"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Gavarampeta","Gowrampeta"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Gavarayyapeta","Gavarayyapeta"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Geddada","Geddada"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Geddanapalli","Geddanapalle"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Geddanapalli","Geddanapalle"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Gidijam","Gidajam"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","GINJERTHI","Ginjerthi"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Ginnelaram","Ginnelaram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","GINNEPALLE","Ginnepalle"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Girijanapuram","Girijanapuram"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","GOBBILAMADUGU","Gobbilamadugu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","GOBBILAPANUKULU","Gobbilapanukulu"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Godi","Godi"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Godilanka","Godilanka"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","GODUGURAYI","Godugurayi"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Gogannamatam","Gogannamattam"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Gogumilli","Gogumilli"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","GOGUVALASA","Goguvalasa"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Gokavaram","Gokavaram-3"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Gokavaram","Gokavaram-3"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Gokiwada","Gokivada"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Gollalagunta","Gollalagunta"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Gollapalem","Gollapalem-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Gollaprolu","Gollaprolu-1"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Gollavilli","Gollavilli"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Gondhi","Gondhi"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","GONDIVADA","Gondivada"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Gondolu","Gondolu"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","GONDURU","Gonduru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Goneda","Goneda"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Gontuvanipalem","Gontuvanipalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Gopalapatnam","Gopalapatnam-1"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Gopalapuram","Gopalapuram-8"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Gopavaram","Gopavaram-8"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Gopavaram","Gopavaram-8"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","GORABANDA","Goramanda"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Goragommi","Goragommi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","GORAMAMIDI","Goramamidi"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Gorinta","Gorinta"
-"EG_G_LGD_Karapa","KARAPA-MB","Gorripudi","Gorripudi"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Gorsa","Gorsa"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Gotlagudem","Gotlagudem"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Gottilapadu","Gottilapadu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Govindapuram","Govindapuram-3"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Govindarajupalem","Govindarajupalem"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Gudala","Gudala"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Gudapalli","Gudapalle"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Gudigallabhaga","Gudigalla Bhaga"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Gudigallarallagunta","Gudigalla Rallagunta"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Gudimellanka","Gudimellanka"
-"EG_G_LGD_ Sakhinetipalli","SAKHINETIPALLE-MB","Gudimoolalanka","Gudimula Kandrika"
-"EG-G-Sb- Gudisa","EG-G-SB5-GUDISA-MB","GUDISE","Gudisa"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Gudiwada","Gudivada-3"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","GUJJUMAMIDIVALASA","Gujjumamidivalasa"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Gummalladoddi","Gummalladuddi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","GUMMARAPALEM","Gummarapalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Gummaregula","Gummaregula"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Gummileru","Gummileru"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","GUMPANAPALLI","Gumpanapalle-1"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","GUMPENAGANDI","Gumpenagandi"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","GUNDRATHY","Gundrathi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Gungugudem","Gunjugudem"
-"EG_G_LGD_Karapa","KARAPA-MB","Gurajanapalli","Gurajanapalle"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Gurtedu","Gurtedu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Guttappalem","Gurrappalem"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","Guttenadeevi","Guthinadeevi"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Hamsavaram","Hamsavaram"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Hasanabada","Hasanbada"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Hukumpeta(U)","HUKUMPETA-1"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Hundeswarapuram","Hundeswarapuram"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","I.Polavaram","I. Polavaram-1"
-"EG-G-Sb- Ijjaluru","EG-G-SB4-IJJALURU-MB","IJJALURU","Ijjaluru"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Illapalli","Illapalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Illindarada","Illindrada"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Immidivaram","Immidivaram"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Immidivarappadu","Immidivarappadu"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Inapuram","Ainapuram"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Indugapalli","Indugapalle-1"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","INDUKURU","Indukuru"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","INDUKURUPET","Indukurupeta"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Indupalli","Indupalle"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Injaram","Injaram-1"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Ippanapadu","Ippanapadu"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","IRLAVADA","Irlavada"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Irripaka","Irripaka"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Irusumanada","Irusumanda"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Irusumanda","Irusumanda-1"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Isukapalli","P. Isukapalle"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Isukapudi","Isukapudi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Isukupatla","Isukapatla"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Italapalli","Irlapalle"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Ithapudi","Ithapudi"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","IVAMPALLE","Ivampalle"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","J.Agraharam","Jagannadhapuram Agraharam"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","J.Annavaram","J. Annavaram"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","J.Kotturu","J. Kothuru"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","J.R.Puram","Jagapathirajapuram"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","J.Timmapuram","J. Thimmapuram"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","JADDANGI","Jaddangi"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Jagametlapalem","Jagametlapalem"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Jaganayukulapalem","Jagannaikulapalem"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Jagannadhagiri","Jagannathagiri"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Jagannadhapuram","JAGANNADHAPURAM-6"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Jagannadhapuram","JAGANNADHAPURAM-6"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Jagapathinagaram","Jagapathinagaram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Jagarampalli","Jagametlapalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Jaggammagaripeta","Jaggammagaripeta (Rural)"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Jaggampalem","Jaggampalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Jaggampet","Jaggampeta-2"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Jaggampeta","Jaggampeta-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","JAJIGEDDA","Jajigedda"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Jajipalem","Jajipalem"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","JAJIVALASA","Jajivalasa"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","JALAGALOVA","Jalagalova"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Jaldam","Jaldam"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Jalimudi","Jalimudi"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Jalluru","Jalluru-2"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Jalluru","Jalluru-2"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Jambupatnam","Jambupatnam-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Jammulapalli","Jamulapalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","JANGALATHOTA","Jangalathota"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Janupalli","Janupalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Jayachintalapadu","Jayachintalapalem"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","JEELUGULAPADU","Jeelugulapadu"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Jegurupadu","Jegurupadu"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Jiyyampalem","Jiyyampalem"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Jonnada","Jonnada"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Juttigapadu","Juthigapadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","K. YERRAGONDA","K. Yerragonda"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","K.Agraharam","Koppaka Agraharam"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","K.E.Ch.Palem","K. E. Chinnayyapalem"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","K.Jagannadhapuram","K. Jagannadhapuram"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","K.Kothapalli","K. Kothapalle"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","K.Mallavaram","Kamatam Mallavaram"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","K.Mirthivada","K. Mirthivada"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","K.O.Mallavaram","K.O. Mallavaram"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","K.P.Puram","Kapileswarapuram-1"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","K.Pedapudi","K. Pedapudi"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","K.Polavaram","Polavaram-4"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","K.Yerrampalem","K.Yerrampalem"
-"EG_G_LGD_ Razole","RAZOLE-MB","Kadali","Kadali"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Kadarikota","Kadarikota"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Kadiyam","Kadiam-1"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","KADUMURU","Kadumuru"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Kaikavolu","Kaikavolu"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Kajuluru","Kajuluru-1"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Kakarapalli","Kakarapalle"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","KAKAVADA","Kakavada"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","KAKURU","Kakuru"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Kalavacherla","Kalavacherla-1"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Kalavacherla","Kalavacherla-1"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Kaleru","Kaleru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kalijolla","Kalijolla"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Kalimamidi","Kalimamidi"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Kamavarappadu","Kamavarappadu"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Kamini","Kamini"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KANATALABANDA","Kanatalabanda"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Kanavaram","Kanavaram"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kandarada","Kandarada"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Kandikuppa","Kandikuppa"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kandrakota","Kandrakota"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kandregula","Kandregula"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Kandregula","Kandregula"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Kandulapalem","Kandulapalem"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","KANIVADA","Kanivada"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Kannavaram","Kannavaram-1"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Kanupuru","Kanupuru"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Kapavaram","Kapavaram-3"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kapavaram","Kapavaram-3"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Kapavaram","Kapavaram-3"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Kapavaram","Kapavaram-3"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KAPPALABANDA","Kappalabanda"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KARAKAPADU","Karakapadu"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Karakuduru","Karakuduru"
-"EG_G_LGD_Karapa","KARAPA-MB","Karapa","Karapa-1"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Karnikota","Karnikota"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Karridevulapalem","Karudevipalem"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Karupallipadu","Karupallipadu"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Katavaram","Katavaram"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","KATCHALAVADA","Katchalavada"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","KATCHULURU","Katchuluru"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Kateru","KATHERU"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Katharilanka","Katharlanka"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Kathipudi","Kathipudi-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KATHIRALLA","Kathirala"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Katravulapalli","Katravulapalle"
-"EG_G_LGD_ Razole","RAZOLE-MB","Katravupadu","Katrevupadu"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Katrenikona","Katrenikona-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kattamuru","Kattamuru-1"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Kattimanda","Kattiwanda"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","KATTUMILLI","Kattumilli"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Kattunga","Kattunga"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Kavalapadu","Kavalapadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KBCHIPPALAMAMIDI","Kotabandichippalamamidi"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","Kesanakurru","Kesanakurru"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Kesanapalli","Kesanapalle-2"
-"EG_G_LGD_ Sakhinetipalli","SAKHINETIPALLE-MB","Kesavadasupalem","Kesavadasupalem"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Kesavaram","Kesavaram-4"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Kesavaram","Kesavaram-4"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Khandrika","Khandrika"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","KIMILIGEDDA","Kimiligedda"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Kimmuru","Kimmuru"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Kinaparti","Kinaparti"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","KINDRA","Kindra"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","KINTUKURU","Kintukuru"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Kirlampudi","Kirlampudi-1"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","KIRRABU","Kirrabu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kkd Medaline","MEDALINE"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kkd Muncipality","Kakinada (M)"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Kodavali","Kodavali"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Koduru","Koduru-4"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KOKITAGONDI","Kokitagondi"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Kolamuru","Kolamuru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kolanka","Kolanka"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Kolanka","Kolanka"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Kolimeru","Kolimeru"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Komarada","Komarada-2"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Komaragiri","Komaragiri"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Komarajulanka","Komaraju Lanka"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Komarapuram","Komarapuram"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Komaravaram","Komaravaram"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KOMARAVARAM","Komaravaram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","KOMARAVARAM","Komaravaram"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","Komarigiri","Komaragiri-1"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Komarigiripatnam","Komaragiripatnam"
-"EG-G-LGD- Biccavole","BICCAVOLU-MB","Komaripalem","Komaripalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Kommanapalli","Kommanapalle"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Kommanapalli","Kommanapalle"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Kona","Kona Forest"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Konalova","Konalova"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Kondagunturu","Konda Gunturu"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Kondalampalem","Kondalampalem"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Kondalingamparti","Kondalingamparthi"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","KONDAMODALU","Kondamodalu"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Kondapalem","Kondapalem"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Kondapalli","Kondapalle-3"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","KONDAPALLI","Kondapalle-3"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","KONDAVADA","Kondavada"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Kondempudi","Kondempudi"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kondevaram","Kondevaram"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Kondukuduru","Kondukuduru"
-"EG_G_LGD_Karapa","KARAPA-MB","Kongodu","Kongodu"
-"EG-G-LGD- Biccavole","BICCAVOLU-MB","Konkuduru","Konkuduru"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Konthangi","Konthangi"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Koppavaram","Koppavaram"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Koppavaram(LNpuram)","Koppavaram-1"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Koppulakota","Koppulakota"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","KORAMATIGONDI","Koramatigondi"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Korimilli","Korumilli-2"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Koringa","Koringa"
-"EG_G_LGD_Karapa","KARAPA-MB","Koripella","Koripalle"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Korukonda","Korukonda-1"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Korumilli","Korumilli"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Kota","Kota-3"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KOTA","Kota-2"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Kotananduru","Kotananduru-1"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Kotapadu","Kotapadu-6"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Kothada","Kothada"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Kothakonda","Kothakonda"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Kothakota","Kota-2"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Kothalanka","Kothalanka"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Kothapakalu","Kothapakalu-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Kothapalli","Kothapalle-18"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Kothapeta","Kothapeta-7"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Kotharamavaram","Kotharamavaram"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Kothuru","Kothuru-6"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Kothuru","Kothuru-6"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Kothurupadu","D. Kothuru"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Kothurupadu","D. Kothuru"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Koti","Koti"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Kotikesavaram","Kotikesavaram"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Kotipalli","Mallavaram Mamillu"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Kotipallibhaga","Kotipalli Bhaga"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","KOTTAGUDEM","Kothagudem-2"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Kottam","Kottam"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kottampalem","Kottampalem"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Kottampalem","Kottampalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Kottapakalu","Kothapakalu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kottapalli","Kothapalle-21"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Kottapalli","Kothapalle-21"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Kotturu","Kothuru-4"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Kovelapalem","Kovelapalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kovvada","Kovvada-1"
-"EG-G-LGD- Kakinada","KAKINADA-MB","Kovvur","Kovvuru-1"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","KOYYALAGUDEM","Koyyalagudem-1"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Krapa","Krapa"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Krapachintalapudi","Uppalapadu-11"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Krishnapuram","Krishnapuram-13"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Krishnavaram","Krishnavaram-1"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Krishnunipalem","Krishnunipalem"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","KUDAKARAYI","Kudakarayi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","KUDURU","Kuduru-1"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Kulla","Koolla"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Kumarapriyam","Kumarapriyam"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kumarapuram","Kumarapuram-2"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Kunavaram","Kunavaram-2"
-"EG_G_LGD_ Razole","RAZOLE-MB","Kunavaram","Kunavaram-2"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Kunavaram","Kunavaram-2"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","KUNDADA","Kundada"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Kundalapalli","Kundalapalle"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Kundaleswram","Kundaleswaram"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Kundipuru","Kudupuru"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Kunduru","Kunduru"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Kunjamveedhi","Kunjamveedhi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KUNKUMAMIDI","Kunkumamidi"
-"EG_G_LGD_Karapa","KARAPA-MB","Kurada","Kurada"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Kurakallaapalli","Kurakallapalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","KURAMGONDI","Kuramgondi"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Kurmapuram","Kurmapuram"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Kusumarai","Kusumarai"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","KUTRAVADA","Kutravada"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Kutukudumilli","Kutukudumilli"
-"EG-G-LGD- Anparthi","ANAPARTHI-MB","Kutukuluru","Kutukuluru"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Kuyyeru","Kuyyeru"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","L.D.Peta","Lakshmidevipeta"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","LABBARTHI","Labbarthi"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Lachipalem","Latchipalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Lachireddipalem","Latchireddipalem-1"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","LAGARAYI","Lagarayi"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Lakkavaram","Lakkavaram-3"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Lakkavaram","Lakkavaram-3"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Lakkonda","Lakkonda"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Lakshmipolavaram","Lakshmipolavaram"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Lakshmipuram","East Lakshmipuram"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","LAKSHMIPURAM","East Lakshmipuram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","LAKSHMIPURAM","East Lakshmipuram"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Lakshmiwada","Lakshmiwada"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Languparthi","Languparti"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Lankalagannavaram","Lankalagannavaram"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","LANKAPAKALU","Lankapakalu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Latchireddipalem","Latchireddipalem"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Laxmipuram","Laxmipuram-4"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Lingamparthi","Lingamparthi"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","LINGAVARAM","Lingavaram-1"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","LINGAVARAM","Lingavaram-1"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","LINGAVARAM","Lingavaram"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Loddipalem","Loddipalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Lododdi","Lododdi"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Lolla","Lolla-1"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Lolla","Lolla"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Lompakalova","Lampakalova"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","LOTHUPALEM","Lothupalem"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Lutukurru","Lutukurru"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","M.Burugubanda","M. Burugubanda"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","M.Chamavaram","Meraka  Chamavaram"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","M.MADDULURU","Madduluru"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","M.RAVILANKA","Ravilanka"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Machara","Machara"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Machavaram","Machavaram-7"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Machavaram","Machavaram-7"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","MADDIRATIGUDEM","Maddirathigudem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","MADDIVEDU","Maddiveedu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Madhavapatnam","Madhavapatnam"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Madhavapuram","Madhavapuram-1"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Madhurapudi","Madhurapudi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Madicharla","Madicherla-1"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Madiki","Madiki"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Madupalli","Madupalle"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Magatapalli","Magatapalle"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Magham","Magam"
-"EG-G-LGD- Anparthi","ANAPARTHI-MB","Mahendrawada","Mahendrawada"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Makanapalem","Makanapalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Makaram","Makaram"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Malikipuram","Malikipuram-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Mallam","Mallam-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Mallavaram","Mallavaram-7"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Mallavaram","Mallavaram-7"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","MALLAVARAM","Mallavaram-7"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Mallavarammamilla","Mallavaram Mamillu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Mallepalle","Mallepalle-3"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Mallisala","Mallisala"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Mamidada","Mamidada"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Mamidikuduru","Mamidikuduru-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Mamidipalem","Mamidipalem"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","MAMIDIVALASA","Mamidivalasa"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Mamilladoddi","Mamilladoddi"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Mandapalli","Mandapalle-3"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Mandapam","Mandapam"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Mandapeta","Mandapeta (M)"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Manepalli","Manepalle-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Mangiturti","Mangiturthi"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Manjeru","Manjeru"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","MANTURU","Manturu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Manyanvaripalem","Manyanvaripalem"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Maredbaka","Maredubaka-1"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Maredubaka","Maredubaka-2"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","MAREDUMILLI","Maredumilli-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Marlova","Marlava"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Marripadi","Marripudi-2"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Marripaka","Marripaka"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","MARRIPALEM","Marripalem-4"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Marripalem","Marripalem-4"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Marrivada","Marrivada"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Marriveedu","Marriveedu"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Maruvada","Maruvada"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Masakapalli","Masakapalle"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Masampalli","Masampalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Matlapadu","Matlapadu"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Mattaparru","Mattaparru"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Matukumilli","Mathukumilli"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Merlapalem","Merlapalem"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Mernipadu","Meruipadu"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Mettuchinta","Mettu Chintha"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Mirtipadu","Mirthipadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Mitlapalem","Mitlapalem"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Modekurru","Modekurru"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Modukurru","Modukuru-1"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Mogalikuduru","Mogalikuduru"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Mogallamuru","Mogallamuru"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","MOHANAPURAM","Mohanapuram"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","MOLLERU","Molleru"
-"EG-G-LGD- Biccavole","BICCAVOLU-MB","Molluru","Melluru"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Mondepulanka","Mondepu Lanka"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Morampudi","Morampudi (Rural)"
-"EG_G_LGD_ Sakhinetipalli","SAKHINETIPALLE-MB","Mori","Mori"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Mosalapalli","Mosalipalle"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","MUCHILIVADA","Muchilivada"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Muggalla","Muggaulla-1"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Mukkamala","Mukkamala-1"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Mukkinada","Mukkinada"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Mukkollu","Mukkollu"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Mukundavaram","Mukundavaram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Mulagapudi","Mulagapudi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","MULAKALAGUDEM","Mulagalagudem"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Mulakalanka","Mulakallanka"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Mulakalayala Bhimavaram","Mulakayala Bhimavaram"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Mulapeta","Mulapeta"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","MULASALAPALEM","Mulasalapalem"
-"EG_G_LGD_ Razole","RAZOLE-MB","Mulikipalli","Mulikipalle"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Mummidivaram","Mummidivaram-1"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Mummidivarappadu","Mummidivarappadu"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Munagala","Munagala-2"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","MUNAGALAPUDI","Munagalapudi"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Munganda","Munganda"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Mungandapalem","Mungandapalem"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Munikudali","Munikudali"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Munipalli","Munipalle-2"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","MUNJAMAMIDI","Munjamamidi"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Munjavaram","Munjavaram"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","MUNJAVARAPPADU","Munjavarappadu"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","MUNTHAMAMIDI","Munthamamidi-1"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","Muramalla","Muramalla"
-"EG-G-LGD- Kadiam","KADIAM-MB","Muramanda","Muramanda-1"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Murari","Murari"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","MURLAVANIPALEM","Murlavanipalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Musurimilli","Musurumilli"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","MUSURU","Musuru"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Mutchumilli","MUTCHIMILLI"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","MUVVALAVADA","Muvvalavada"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","N.Agraharam","Narasimhapura Agraharam"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","N.kottapalli","Nimmakayala Kothapalle"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","N.N.Patnam","Tuni (M)"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","N.Suravaram","N. Suravaram"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","N.Tirupatirajapuram","North Tirupathi Rajapuram"
-"EG_G_LGD_Karapa","KARAPA-MB","Nadakuduru","Nadakuduru"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Nadavapalli","Nadavapalle"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Nadimpalem","Nadimpalem-1"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Nadipudi","Papampeta-1"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Nadurubada","Nadurubada"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Nagampalli","Nagampalle-2"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Nagaram","Nagaram-1"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Nagulapalli","Nagulapalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NAKKALAPADU","Nakkalapadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NAKKARATHIPALEM","Nakkalapadu"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Nallagonda","Nallagonda-2"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Nallagonda","Nallagonda-2"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Nallamilli","Nallamilli"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Nallamilli","Nallamilli"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Nalluru","Nalluru"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Namavaram","Namavaram-2"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Nandampudi","Nandampudi"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Nandarada","Nandarada-1"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Nandivompu","Nandivampu"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Nangavaram","Nangavaram"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Narasapuram","Narasapuram-8"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Narasapuram","Narasapuram-8"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Narasapurapeta","Narasapurapupeta"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Narendrapatnam","Narendrapatnam"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Narendrapuram","Narendrapuram"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Narendrapuram","Narendrapuram"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Narkedimilli","Narkedimilli"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NARSAPURAM","Narsapuram-1"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Narsipudi","Narsipudi"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Navabpeta","Navabpeta"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Navakandrawada","Navakandravada"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Navara","Navara"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Nayakampalli","P.Nayakampalle"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Nedunuru","Nedunuru"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","NEELAMPALEM","Nellikota"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Neelapalli","Neelapalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NEELAVARAM","Neelavaram"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Neladonelapadu","Neeladonelapadu"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","NELAKOTA","Nelakota-1"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Nelaturu","Nelaturu-3"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NELLIKOTA","Nellikota"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","NELLIMETLA","Nellimetla"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Nellipudi","Nellipudi-3"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Nellipudi","Nellipudi-3"
-"EG-G-Sb- Nelluru","EG-G-SB3-NELLURU-MB","NELLURU","Nellore-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Nemam","Nemam"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Nidasanametta","Nidasanametta"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Nidigatla","Nidigatla"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NIMMALAPALEM","Nimmalapalem"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Nimmalapalem","Nimmalapalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","NOORUPUDI","Nurupudi"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","NUKALETIVADA","Nukaletivada"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Nukarai","Nukarai"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NULAKAMAMIDI","Nulakamamidi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Nunepalli","Neenepalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NUVVUGANTIPALEM","Nuvvugantipalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","NUVVUMAMIDI","Nuvvumamidi"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Oduru","Oduru-1"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Ojubanda","Ojubanda"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Ommangi","Vommangi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","P. YERRAGONDA","P. Yerragonda"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","P.Agraharam","P. Agraharam"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","P.Chamavaram","Pallapu Chamavaram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","P.E.Ch.Palem","P.E.Chinnayapalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","P.G.LANKA","Puttagondilanka"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","P.Jagannadhapuram","P. Jagannadhapuram"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","P.Khandrika","Padamati Khandrika-1"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","P.MADDULURU","Madduluru-1"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","P.Mallapuram","Pedamallapuram"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","P.Mallavaram","P. Mallavaram"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PAIDIPUTTA","Paidiputta"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Paidiputtapadu","Paidiputtapadu"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Pakalti","Pakavelthi"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Palacherla","Palacharla"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Palagondi","Palagondi"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Palagummi","Palagummi"
-"EG_G_LGD_ Razole","RAZOLE-MB","Palagummi","Palagummi"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Palatodu","Palathodu"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Palivela","Palivela"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Pallamkurru","Pallamkurru"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Pallipalem","Pallipalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PALURU(PALEM)","Paluru-1"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Pamarru","Pamarru-1"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PAMUGANDI","Pamugandi"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","PAMULAMAMIDI","Pamulamamidi"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","PAMULERU","Pamuleru"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Panagipalli","Paningapalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PANASALAPALEM","Panasalapalem"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Panasaloddi","Panasaloddi"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Panasapadu","Panasapadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PANCHADARALANKA","Panchadaralanka"
-"EG-G-LGD- Biccavole","BICCAVOLU-MB","Pandalapaka","Pandalapaka"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Pandavulapalem","Pandavulapalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Pandirimamidi","Pandirimamidi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PANDIRIMAMIDIKOTA","Pandirimamidikota"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Pandrapottipalem","Pandrapottipalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PANDRAPROLU","Pandraprolu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Pandravada","Pandravada"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Panduru","Panduru-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Panukuratipalem","Panukuratipalem"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Papampet","Papampeta-1"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Parupaka","Parupaka"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Pasalapudi","Pasalapudi"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Pasarlapudi","Pasarlapudi"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Pasarlapudilanka","Pasarlapudilanka"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PASARUGINNI","Pasaruginne"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Pasupalii","Pasupalle"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","Pasuvulalanka","Pasuvullanka"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Pata Doddigunta","Doddigunta"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","Pata Injaram","Patha Injaram"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Pata Thungapadu","Patha Thungapadu"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Patagannavaram","Patha  Gannavaram"
-"EG_G_LGD_Karapa","KARAPA-MB","Patarlagedda","Patharlagadda"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Patavala","Patavala"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Pathakota","Pathakota-1"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Patharamavaram","Patharamavaram"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Pawara","Pavara"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PEDA ADDAPALLI","Peda Addapalle"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Peda Brahmadevam","Pedabrahmadevam"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Peda Rayavaram","Pedarayavaram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Pedabarangi","Peda  Barangi"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","PEDABHIMPALLI","Peda Bheempalle"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Pedagadavilli","Pedagadavilli"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Pedagarlapadu","Padagarlapadu"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Pedageddada","Pedageddada"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PEDAMALLUPADU","Pedamallupadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Pedamunakanagedda","Pedamunakanagedda"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Pedapalla","Pedapalle-2"
-"EG-G-LGD- Anparthi","ANAPARTHI-MB","Pedaparti","Pedaparthi"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Pedapatnam","Pedapatnam"
-"EG-G-LGD- Mamidikuduru","MAMIDIKUDURU-MB","Pedapatnamlanka","Pedapatnamlanka"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Pedapudi","Pedapudi-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PEDAVULEMPADU","Pedavulempadu"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Peddada","Peddada"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Peddagarangi","Pedagarrangi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PEDDAKONDA","Peddakonda"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","PEDDAMARRI","Peddamarri"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Peddanapalli","Peddanapalle-1"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PEDDANOOTULU","Peddanuthulu"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Peddapadu","Peddapadu-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Peddapuram","Peddapuram (M)"
-"EG_G_LGD_Karapa","KARAPA-MB","Peddapurappadu","Peddapurapadu"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Peddarellampadu","Pedarellangipadu"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Peddasankarlapudi","Peda Sankarlapudi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Peddavadisakarra","Peddavadisakarra"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Peddipalem","Peddipalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Pedduru","Pedduru-2"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PEDDURU","Pedduru-2"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PEDDURU","Pedduru-2"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Pekeru","Pekeru"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Penikalapudi","Penikalapadu-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Penikelapadu","Penikelapadu"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Penikeru","Penikeru"
-"EG_G_LGD_Karapa","KARAPA-MB","Penuguduru","Penuguduru"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Penumalla","Penumalla"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Penumalla","Penumalla"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Penumarthi","Penumarthi"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Peravaram","Peravaram"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Peravaram","Peravaram"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","PERIKIVALASA","Perikivalasa"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Peruru","Peruru"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Pidatamamidi","Pidathamamidi"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Pillanka","Pillanka"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Pinapalla","Pinapalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Pithapuram","Pithapuram (M)"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Podagatlapalli","Podagatlapalle"
-"EG_G_LGD_ Razole","RAZOLE-MB","Podalada","Podalada-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Podurupaka","Podurupaka"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","POLAMANUGONDI","Polamanugondi"
-"EG-G-LGD- Anparthi","ANAPARTHI-MB","Polamuru","Polamuru"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Polavaram","I. Polavaram"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Polekurru","Polekurru"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Ponnada","Ponnada"
-"EG_G_LGD_ Razole","RAZOLE-MB","Ponnamanda","Ponnamanda"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","POOLOVA","Poolova"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","POTAVARAM","Pothavaram-5"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Potavaram","Pothavaram-5"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Pothandorapalem","Pothandorapalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","POTHANDORAPALEM","Pothandorapalem"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","POTLAVADA","Potlavada"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Potukurru","Pothukurru"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Potuluru","Pothuluru-1"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Potuluru","Pothuluru-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Prattipadu","Prathipadu-2"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Pro.Rangampet","Pro. Ragampeta"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Pudedu","Pudedu"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PUDIPALLE","Pudipalle"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","PUJARIPAKALU","Pujaripakalu"
-"EG-G-LGD- Anparthi","ANAPARTHI-MB","Pulagurta","Pulagurtha"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Pulidindi","Pulidindi"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Puligogulapadu","Puligogulapadu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Pulimeru","Pulimeru"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Pulimetla","Pulimetala"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","PULLANGI","Pullangi"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Pulletikurru","Pulletikurru"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PULUSUMAMIDI","Pulusumamidi"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Purushottapatnam","Purushothapatnam"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","PUSIWADA","Pusiwada"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PUTIKUNTA","Putikunta"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PUTTAGANDI","Puttagandi"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Puttakonda","Puttakonda"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","PUTTAPALLI","Puttapalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","PVemavaram","P. Vemavaram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Pydikonda","Pydikonda"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Pyna","Pyna"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","R.K.Puram","Ramakrishnapuram-1"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","R.Venkatapuram","R. Venkatapuram"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","R.Yerrampalem","Rampa Yerrampalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","RACHAPALEM","Rachapalem-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Rachapalli","Rachapalle-2"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Raghavapatnam","Raghavapatnam"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Raghavapuram","Raghavapuram-2"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Raghudevapuram","Raghudevapuram"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Rajahmundry(NMA)","RAJAHMUNDRY (NMA)"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Rajampela","Rajampalem"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Rajanagaram","Rajanagaram-5"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Rajanagaram","Rajanagaram-5"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Rajapudi","Rajapudi"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Rajaram","Rajaram"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Rajavaram","Rajavaram-1"
-"EG_G_LGD_ Atreyapuram","ATREYAPURAM-MB","Rajavaram","Rajavaram-1"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Rajavaram","Rajavaram-1"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Rajavaram","Rajavaram-1"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Rajavolu","Rajavolu-1"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","RAJAVOMMANGI","Rajavommangi-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Rajupalem","Rajupalem-10"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Rajupalem","Rajupalem-10"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Rajupetaloddi","Rajupetaloddi"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Rallakandrika","Rallakhandrika"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Ramachandrapuram","Ramachandrapuram (M)"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Ramachodavaram","RAMPACHODAVARAM(U)"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Ramakrishnapuram","Ramakrishnapuram-2"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Ramanakkapeta","Ramanakkapeta-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Ramanayyapet","RAMANAYYAPETA-2"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Ramanayyapeta","Ramanayyapeta-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Ramannapalem","Ramannapalem-2"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","RAMANNAVALASA","Ramannavalasa"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Ramarajulanka","Ramarajulanka"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Ramavaram","Ramavaram-2"
-"EG-G-LGD- Anparthi","ANAPARTHI-MB","Ramavaram","Ramavaram-2"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Rameswaram","Rameswaram"
-"EG_G_LGD_ Sakhinetipalli","SAKHINETIPALLE-MB","Rameswaram","Rameswaram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Rampa","Rampa"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","RAMULAKONDA","Ramulakonda"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","RAMULDEVAPURAM","Ramuldevapuram"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Rangampeta","Rangampeta-1"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Rangapuram","Rangapuram-3"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Rapaka","Rapaka"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Raparti","Raparthi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Ratnampalem","Ratnampalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","RATSAVALASA","Ratsavalasa"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Ravigudem","Ravigudem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Ravikampudi","Ravikampadu-1"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Ravulapalem","Ravulapalem-2"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Ravulapalem","Ravulapalem-2"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","RAVVAGADDA","Ravvagadda"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Rayabhupalapatnam","Rayabhupalapatnam-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Rayapalli","Rayapalle"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Rayavaram","Pro. Rayavaram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","RAYAVARAM","Pro. Rayavaram"
-"EG_G_LGD_ Razole","RAZOLE-MB","Razole(R)","Razole-1"
-"EG_G_LGD_ Razole","RAZOLE-MB","Razole(u)","Razole-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","REGADIPALEM","Regadipalem"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Rekavanipalem","Rekhavanipalem"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Rellagedda","Rellugadda"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Repuru","Repuru"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Revadikota","Revadikota"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","REVATIPALEM","Revatipalem"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Rjajahmundry(M)","RAJAHMUNDRY(U)"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Rollagedda","Rollagedda"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Rowtalapudi","Rowthulapudi"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Ryali","Ryali"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","S.Agraharam","Srungadhara Agraharam"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","S.Annavaram","S. Annavaram (Rural)"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","S.Pidipala","Santha Pydipala"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","S.R.Palem","Sungarayunipalem"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","S.Savaram","Sirasavalli Savaram"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","S.T.Rajapuram","South Thirupathi Rajapuram"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","S.Timmapuram","S. Thimmapuram"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","S.Yanam","Surasaniyanam"
-"EG_G_LGD_ Sakhinetipalli","SAKHINETIPALLE-MB","Sakhinretipalli","Sakhinetipalle-1"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Sakurru","Sakuru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Samalkota","Samalkot (M)"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Samanasa","Samanasa"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Samantakurru","Samanthakuru"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Sampara","Sampara"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Sanapallilanka","Sanapalli Lanka"
-"EG_G_LGD_ Alamuru","ALAMURU-MB","Sandhipudi","Sandhipudi"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Sankaraguptam","Sankaraguptham"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Sankavaram","Sankhavaram-1"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Sannavilli","Sannavalli"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","SARABAVARAM","Sarabhavaram-2"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Sarabhavaram","Sarabhavaram-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","SARABHAVARAM","Sarabhavaram"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","SARABHAVARAM","Sarabhavaram-1"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Sarampedapadu","Sarampetapadu"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Sarampeta","Sarampeta"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Sarlanka","Sarlanka"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Sarpavaram","Sarpavaram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Satyavaram","Satyavaram-1"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Satyawada","Satyawada-1"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Seela","Seela"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Seemusuru","Seemusuru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Seethampet","Seethampeta-2"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Seethanagaram","Seethanagaram-4"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Seethanagaram","Seethanagaram-4"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Seetharampadu","Seetharampadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","SEETHARAMPADU","Seetharampadu"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Seethaympeta","Seethayampeta"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Sellapaka","Selapaka"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","SESHARAI","Sesharai"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Settipalli","Settipalle-6"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Shahapuram","Sahapuram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Siddivanipalem","Siddivaripalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","SIMHADRIPALEM","Simhadripalem"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","SINGAMPALLE","Singampalle"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Singampalli","Singampalle-1"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Singanakota","Singanakota"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Singarampalem","Singarampalem"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Singavaram","Singavaram-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","SINGAVARAM","Singavaram-1"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Sirigindalapadu","Sirigindalapadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","SIRIMETLA","Sirimetla"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Siripalli","Siripalle"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","SIRIPANLOVA","Siripanlova"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Siripuram","Siripuram-2"
-"EG_G_LGD_Karapa","KARAPA-MB","Siripuram","Siripuram-2"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Siriwada","Sirivada"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Sitanagaram","Seethanagaram-2"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Sithapalli","Seethapalle"
-"EG_G_LGD_ Razole","RAZOLE-MB","Sivakodu","Sivakodu-1"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Sivala","Sivala-1"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Sivaramapatnam","Sivaramapatnam"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Sokulagudem","Sokulagudem"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Somannapalem","Somannapalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Somavaram","Somavaram-2"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Somavaram","Somavaram-2"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Someswaram","Someswaram"
-"EG_G_LGD_ Razole","RAZOLE-MB","Sompalli","Sompalle-1"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Srikrishnapatnam","Srikrishnapatnam-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","SRIPURAM","Sripuram"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Srirangapatnam","Srirangapatnam"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Srunagavruksham","Srungavruksham"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Srungadara","Srungadhara"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Srungavaram","Srungavaram-1"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","SUBBAMPADU","Subbampadu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Subbampeta","Subbampeta"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Subhadrampeta","Subhadrampeta"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Sudikonda","Sudikonda"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Sundarapalli","Sundarapalle"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Sunkarapalem","Sunkarapalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","SUNNAMPADU","Sunnampadu-1"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Surampalem","Surampalem-2"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Surampalem","Surampalem-2"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","SURAMPALEM","Surampalem"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Surampeta","Surampeta"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","Surapurajupeta","Surapurajupeta"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Suryaraopet","SURYARAOPETA"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","SUVARLAVADA","Suvarlavada"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","T.Burugubandha","T.Burugubanda"
-"EG-MHG-ThE- Kotananduru","EG-MHG-THE-KOTANANDURU-MB","T.Jaganadhapuram","Thatipaka Jagan Nadha Nagaram"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","T.kottapalli","T. Kothapalle"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","TADEPALLI","Thadepalle-1"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Tadikona","Tadikona"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Tadipalli","Tadipalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Tadiparti","Tatiparthi-1"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Takurupalem","Takurupalem"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","TALLAPALEM","Tallapalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Talluru","Talluru-2"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Talluru","Talluru-2"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Tamarada","Thamarada"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Tamarapalli","Tamarapalle"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Tamarapalli","Tamarapalle"
-"EG-G-LGD- Mummidivaram","MUMMIDIVARAMU-MB","Tanelanka","Tanelanka"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Tantikonda","Thantikonda-1"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Tanumalla","Tanumalla"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Tapeswram","Tapeswaram"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Tarlampudi","Tarlampudi"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Tatapudi","Thatapudi-1"
-"EG_G_LGD_ Razole","RAZOLE-MB","Tatipaka","Thatipaka"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Tatiparti","Tatiparthi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Tatiwada","Thativada"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","TATIWADA","Thativada"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Teki","Teki"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Tetagunta","Tetagunta"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","THADIKOTA","Thadikota"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Thaduvai","Thaduvai"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Thammavaram","Thammavaram"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Thandavapalli","Thandavapalle"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Thangedukota","Thangedukota"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","THANTIKONDA","Thantikonda"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Thokada","Thokada"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Thondangi","Thondangi-1"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Thondavaram","Thondavaram"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Thotakurapalem","Thotakurapalem"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Thotapeta","Thotapeta"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","THOYYERU","Thoyyeru"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","THUMMURU","Thummuru"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Thungamadugula","Thungamadugula"
-"EG-G-LGD- Kakinada","KAKINADA-MB","Thurangi","TURANGI"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","THURUMAMIDI","Thurumamidi"
-"EG-G-LGD- Ipolavaram","I.POLAVARAM-MB","Tillakuppa","Thillakkuppa"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Timmapuram","Thimmapuram-15"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Timmapuram","Thimmapuram-15"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","TIRUGATIRALLU","Tirugatirallu"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Tirumalawada","Tirumalawada"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Tirumalayapalem","Tirumalayapalem"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Tirumali","Tirumali"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Tirupathammapet","Tirupatammapeta"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Tirupathirajupet","Tirupatirajupeta"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Tirupati","Tirupati-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Tiyyamamidi","Tiyyamamidi"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Torredu","Torredu-1"
-"EG-G-LGD- Biccavole","BICCAVOLU-MB","Tossipudi","Tossipudi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","TOTAKURAPALEM","Totakurapalem"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Totapalli","Thotapalle-3"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Tottaramudi","Totharamudi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","TUMIKELAPADU","Tumikelapadu"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Tummalapalli","Thummalapalle"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Tuni","Tuni (M)"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","TURRURU","Thurruru"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Turupulanka","Thurupulanka"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","U.JNPuram","U. Jagannadhapuram"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Ubalanka","Ubalanka"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Udimudi","Udumudi"
-"EG-G-LGD- Biccavole","BICCAVOLU-MB","Ulapalli","Voolapalle"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Uligogula","Uligogula"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Ulimeswram","Ulimeswaram"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Ulligogula","Uligogila"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Ummetta","Ummetha"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Unduru","Unduru"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Unduru","Unduru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Uppada","Uppada"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Uppalaguptam","Uppalaguptam-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Uppalapadu","Uppalapadu-11"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Uppalapadu","Uppalapadu-11"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Uppampalem","Uppampalem"
-"EG_G_LGD_ Tallarevu","THALLAREVU-MB","Uppangala","Uppangala"
-"EG_G_LGD_ Katrenikona","KATRENIKONA-MB","Uppidi","Uppudi"
-"EG_G_LGD_ Kajuluru","KAJULURU-MB","Uppumilli","Uppumilli"
-"EG-MHG-Dg- Bornagudem","EG-MHG-DG-BORNAGUDEM-MB","Urlakulapadu","Urlakulapadu"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","Usirijonnala","Usirikajonalu"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Utla","Utla"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Utrumilli","Utrumilli"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Uttarakanchi","Uttarakanchi-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","V.K.Rayapuram","Venkata Krishnarayapuram"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","V.Kottapalli","Vainateya Kothapalle"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","V.RAYANAPALEM","V. Ramannapalem"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","V.Seetayyapalem","Vemulapalle  @  Seetayyapalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","V.Venkatapuram","Vadrevu Venkatapuram"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Vadapalem","Vadapalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","VADAPALLE","Vadapalle"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Vadapalli","Vadapalle-2"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Vaddiparru","Vaddiparru"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Vadisaleru","Vadisaleru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Vadlamuru","Vadlamuru"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Vadlamuru","Vadlamuru"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Vadrevupalli","Vadrevupalle"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vagurti","Vokurthi"
-"EG_G_LGD_Karapa","KARAPA-MB","Vakada","Vakada"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Vakalapudi","VAKALAPUDI-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vakapalli","Vakapalle"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Vakatippa","Vakatippa-1"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Vakatippa","Vakatippa-1"
-"EGG_LGD_ Ambajipeta","AMBAJIPETA-MB","Vakkalanka","Vakkalanka"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","VAKKULURU","Vakkuluru"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","VALAMURU","Valamuru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Valluru","Valluru-3"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Valluru","Valluru-3"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Valluru","Valluru-3"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Valutimmapuram","Valuthimmapuram"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","VANAKARAYI","Vanakarayi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","VANAMAMIDIGONDI","Vanamamidigondi"
-"EG_G_LGD_ Kothapeta","KOTHAPETA-MB","Vanapalli","Vanapalle"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vanchangi","Vanchangi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Vangalamadugu","Vangalamadugu"
-"EG-G-BkW- Sitanagaram","EG-G-BKW-SITANAGARAM-MB","Vangalapudi","Vangalapudi"
-"EG-G-LGD- Amalapuram","AMALAPURAM-MB","Vannechintalapudi","Vanne Chintalapudi"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vannepudi","Vannepudi"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vanthada","Vanthada"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Vasantawada","Vasanthawada"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vatangi","Vatangi"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","VATTICHELAKALU","Vattichelakaku"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","VATTIGADDA","Vattigedda-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vazrakutam","Vazrakutam"
-"EG_G_LGD_ Ravulapalem","RAVULAPALEM-MB","Vedireswaram","Vedireswaram"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Vedullakonda","Vedullakonda"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","VEDULLAPALLI","Vedullapalle"
-"EG_G_LGD_ Kpuram","KAPILESWARAPURAM-MB","Vedurumudi","Vedurumudi"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Vedurupaka","Vedurupaka"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Veerabhadrapuram","Veerabhadrapuram"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Veerampalem","Veerampalem-1"
-"EG-G-Sb- Vattigedda","EG-G-SB2-VATTIGEDDA-MB","Veerampalem","Veerampalem-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Veeraraghavapuram","Veeraraghavapuram"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Veeravallipalem","Veeravallipalem"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Veeravaram","Veeravaram-1"
-"EG-G-LGD- Kadiam","KADIAM-MB","Veeravaram","Veeravaram-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Veeravaram","Veeravaram"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","VEERLAMAMIDI","Veerlamamidi"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Vegayampeta","Vegayammapeta"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vegipalem","Vogipalem"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Vekatayapalem","Venkatayapalem-4"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","VELAGALAPALEM","Velagalapalem"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","VELAGAPALLI","Velagapalle-1"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Velagatodu","Velagathodu"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Velampalem","Velampalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Velangi","Velangi"
-"EG_G_LGD_Karapa","KARAPA-MB","Velangi","Velangi"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Velanka","Velanka-1"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Veldurti","Veldurthi-5"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Velicheru","Valicheru"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Vella","Vella"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Velugubanda","Velugubanda"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Veluvalapalli","Veluvalapalle"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Vemagiri","Vemagiri-1"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Vemavaram","Vemavaram-5"
-"EG-G-Mv- Kondamodalu","EG-G-MV-KONDAMODALU-MB","VEMULAKONDA","Vemulakonda"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vemulapalem","Vemulapalem"
-"EG_G_LGD_Karapa","KARAPA-MB","Vemulavada","Vemulavada"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Vemulova","Vemulova"
-"EG-G-LGD- Pedapudi","PEDAPUDI-MB","Vendra","Vendra"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Venkatanagaram","Venkatanagaram-2"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Venkatanagaram","Venkatanagaram"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","Venkatanagaram","Venkatanagaram-2"
-"EG-G-BkS-Rajanagaram","EG-G-BKS-RAJANAGARAM-MB","Venkatapuram","Venkatapuram-14"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Venkatapuram","Venkatapuram-14"
-"EG_G_LGD_ Rayavaram","RAYAVARAM-MB","Venturu","Venturu"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Vetamamidi","Vetamamidi"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","VETIKURU","Vetukuru"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Vetlapalem","Vetlapalem"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Vijayanagaram","Vijayanagaram"
-"EG-G-LGD- Ainavilli","AINAVILLI-MB","Vilasa","Vilasa"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Vilasagangavaram","Vilasa Gangavaram"
-"EG_G_LGD_ Upplguptam","UPPALAGUPTAM-MB","Vilasavilli","Vilasavilli"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Virava","Virava"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Virawada","Viravada"
-"EG_G_LGD_Malkipurm","MALIKIPURAM-MB","Viseswarayapuram","Visweswarayapuram"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Vondregula","Ondregula"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","VOYYEDU","Voyyedu"
-"EG-G-LGD- Atreyapuram","ATREYAPURAM-MB","Vuchili","Utchili"
-"EG-G-Pm- Kutravada","EG-G-PM-KUTRAVADA-MB","VUTHALURU","Vuthaluru"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Vutlapalem","Vutlapalem"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Vuyyalamadugu","Vuyyalamadugu"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","VYDUPUDI","Vyadapudi"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","Y. RAMAVARAM","Y. Ramavaram"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Y.Dharapalli","Yeguvadarapalle"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Yamanapalli","Yamanapalle"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Yanamadala","Yanamadala-1"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","YARLAGADDA","Yarlagadda-1"
-"EG-G-LGD- Mandapeta","MANDAPETA-MB","Yeditha","Yeditha"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Yellamalli","Yellamilli"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","YELLAPURAM","Yellapuram-1"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Yellapuram","Yellapuram"
-"EG-MHG-Mg- Addateegala","EG-MHG-MG-ADDATEEGALA-MB","Yellavaram","Yellavaram"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Yendagandi","Yendagandi"
-"EG_G_LGD_Karapa","KARAPA-MB","Yendamuru","Yandamuru"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Yendapalli","Yendapalle-1"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Yendpalli","Yendapalle-2"
-"EG_G_GD_ Allavaram","ALLAVARAM-MB","Yentrikona","Yentrikona"
-"EG-G-LGD- Pgannavaram","P_GANNAVARAM-MB","Yenugupalli","Yenugupalle"
-"EG-MHG-Sg- Prathipadu","EG-MHG-SG-PRATHIPADU-MB","Yerakampalem","Yerakampalem"
-"EG-MHG-Pp- Sankhavaram","EG-MHG-PP-SANKHAVARAM-MB","Yerakapuram","Yarakapuram"
-"EG-G-Sp- Rchodavaram","EG-G-SP-RAMPACHODAVARAM-MB","YERRAMETLA","Yerrametla"
-"EG-MHG-Md- Jaddangi","EG-MHG-MD-JADDANGI-MB","YERRAMPADU","Yerrampadu"
-"EG-MHG-Ylw- Eleswaram","EG-MHG-YLW-ELESWARAM-MB","Yerrampalem","Yerrampalem-1"
-"EG-G-BkNe-Gangavaram","EG-G-BKNE-GANGAVARAM-MB","Yerrampalem","Yerrampalem"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","YERRAMREDDIPALEM","Yerramreddipalem"
-"EG_G_LGD_ Kgangavaram","KGANGAVARAMU-MB","Yerrapotavaram","Yerraa Pothavaram"
-"EG-MHG-Yle- Kirlampudi","EG-MHG-YLE-KIRLAMPUDI-MB","Yerravaram","Yerravaram"
-"EG_G_LGD_ Rcpuram","RAMACHANDRAPURAM-MB","Yerupalli","Yerupalle"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","YETIPALLI","Yetipalle"
-"EG-MHG-ThW-Tuni","EG-MHG-THW-TUNI-MB","Yoguvsivada  ","Yeguvasivada"
-"EG_G_LGD_Karapa","KARAPA-MB","Z.Bhavaram","Z. Bhavaram"
-"EG-G-Zk-Rangampet","EG-G-ZK-RANGAMPETA-MB","Z.Medapadu","Z.Medapadu"
-"EG-MHG-Pd- Y.Ramavaram","EG-MHG-PD-Y RAMAVARAM-MB","ZADERU","Zaderu"
+GW Watershed Name,Iwm basin names,GW Village Name,iwm village names
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,A.K.Agraharam,Ambikapalle Agraharam
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,A.Kottapalli,A. Kothapalle
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,A.Mallavaram,A. Mallavaram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,A.V.Nagaram,A.V.Nagaram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,A.VEERAVARAM,A. Veeravaram
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,A.Vemavaram,A. Vemavaram
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Aadurru,Adurru
+EG_G_LGD_ Alamuru,ALAMURU-MB,Aalamuru,Alamuru-2
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Achampeta,Atchampeta
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Achayyapeta,Atchiyyapeta
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Achyutapuram,Atchutapuram-1
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Addapalli,Addampalle
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,ADDARIVALASA,Addarivalasa
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Addateegala,Addateegala-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Agraharam ,Agraharam (Rural)
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Ainvilli,Ainavilli
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,AKUMAMIDIKOTA,Akumamidikota
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,AKURU,Akuru
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Allavaram,Allavaram-1
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Allipudi,Allipudi
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Allurigedda,Allurigedda
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Amalapuram(R),Amalapuram (Rural)
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Amalapuram(U),Amalapuram (M)
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Amaravilli,Amaravalli
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Ameenabada,Aminabada-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Aminabada,Aminabada-2
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,AMMAPETA,Ammapeta
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,AMMIREKALA,Ammirekala
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Ammirekhala,Ammirekhala
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Amudalabonda,Amudalabanda
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Amujuru,Amjuru
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,ANANTHAGIRI,Ananthagiri-1
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Anantharam,Anantharam
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Anaparti,Anaparthy
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Anatavaram,Ananthavaram-7
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Andragi,Andrangi
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Angara,Angara-1
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,ANGULURU,Anguluru
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Anigeru,Anigeru
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Ankampalem,Ankampalem
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Ankampalem,Ankampalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,ANNAMPALEM,Annampalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Annampalem,Annampalem
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Annampalli,Andrangi
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Annavaram,Annavaram-7
+EG_G_LGD_ Sakhinetipalli,SAKHINETIPALLE-MB,Antervedi,Antarvedi
+EG_G_LGD_ Sakhinetipalli,SAKHINETIPALLE-MB,Antervedipalem,Antarvedipalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Anukulapalem,Anukulapalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Anumarthi,Anumarthi
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Anuru,Anuru-1
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Anuru,Anuru-1
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Appanapalli,Appanapalle
+EG_G_LGD_ Sakhinetipalli,SAKHINETIPALLE-MB,Appanaramunilanka,Appanaramuni Lanka
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,APPANNAPALEM,Appannapalem
+EG_G_LGD_Karapa,KARAPA-MB,Aratlakatta,Aratlakatta
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Arelladhara,Arilla Dhara
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Arempudi,Arempudi
+EG-G-LGD- Biccavole,BICCAVOLU-MB,Arikirevula,Arikarevula
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,ARJUNALOVA,Arjunalova
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Artamuru,Arthamuru-1
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Arthamoor,Arthamuru
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Aryavatam,Aryavatam-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Atchyutapuratrayam,Atchutapuratrayam-1
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Atikivanipalem,Atikivaripalem
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Atreyapuram,Atreyapuram-1
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Avelthi,Avethi
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Avidi,Avidi
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,B.B.Patnam,Bapabhupalapatnam
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,B.Doddavaram,Botlakurru Doddavaram
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,B.Kotturu,B. Kothuru
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,B.Ramannapalem,B.Ramannapalem
+EG_G_LGD_ Razole,RAZOLE-MB,B.Savaram,B. Savaram
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,B.SIVARAMPATNAM,B.Sivaramapatnam
+EG_G_LGD_ Alamuru,ALAMURU-MB,B.V.Lanka,Baduguvanilanka
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,B.Velamakota,B. Velamalakota
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,BABBILOVA,Babbilova
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Badadam,Badadam
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,BADADANAMPALLI,Badadanampalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Balabadrapuram,Balabhadrapuram
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Balabhadrapuram,Balabhadrapuram-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Balajipadu,Balijapadu
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Balantaram,Balantharam
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Balaramapuram,Balarampuram
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,BANDA,Banda
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Bandakonda,Bandakonda
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Bandamamillu,Bandamamillu
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Bandanapudi,Bandanapudi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Bandapalli,Bandapalle-2
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Bandarlanka,BANDARULANKA
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BANDIGEDDA,Bandigedda
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Bantumilli,Bantumilli-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Bapannadara,Bapannadhara
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BARRIMAMIDI,Barrimamidi
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Bavuruvaka,Bavuruvaka
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Bayyanapalli,Bayyanapalle
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Beerampalli,Beerampalle
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Bellampudi,Bellampudi
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Bendamurlanka,Bendamurulanka-1
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Bendapudi,Bendapudi
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Bhadravaram,Bhadravaram
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Bhatlapalika,Bhatla Palika
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Bhatnavilli,Bhatnavilli
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BHEEMUDUGADDA,Bheemudugadda
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Bhimakosupalm,Bheemakrosupalem
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Bhimanapalli,Bheemanapalle
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,BHIMAVARAM,Bhimavaram-7
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Bhimavaram,Bhimavaram-7
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Bhimavarapukota,Bhimavarapukota
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Bhimudupakalu,Bhimudupakalu
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Bhogapuram,Bhogapuram
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Bhupalapatnam,Bhupalapatnam-1
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Bhupalapatnam,Bhupalapatnam-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Bhupatipalem,Bhupatipalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Bhupatipalem,Bhupatipalem
+EG-G-LGD- Biccavole,BICCAVOLU-MB,Biccavolu,Biccavolu-1
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Billakurru,Billa Kurru
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Billananduru,Billananduru
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Billawaka,Billavaka
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Bobbilanka,Bobbillanka
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Bodasakurru,Bodasakurru
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BODDAGUNTA,Boddagunta
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BODDAPALLI,Boddapalle
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Boddavaram,Boddavaram
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,BODLAGONDI,Bodlagondi
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,BODLANKA,Bodlanka-1
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Bodlanka,Bodlanka
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,BODULURU,Boduluru
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BOLAGONDA,Bolagonda
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Bolleddupalem,Bodleddupalem
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Bommuru(U),BOMMURU-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BONANGIPALEM,Bullojupalem
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Bonangipalem,Bonangipalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Bornagudem,Bornagudem-1
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Bornagudem,Bornagudem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Borrampalem,Borrampalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Boyanapudi,Boyanapudi
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,BOYAPADU,Boyapadu
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Brahmasamedhyam,Brahmasamedyam
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Buchimpeta,Butchempeta
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BULLOJUPALEM,Bullojupalem
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Buradakota,Buradakota
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BURADAKOTA,Buradakota
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,BURADAVALASA,Buradavalasa
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Burugupudi,Burugupudi-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Burugupudi,Burugupudi-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,BURUGUVADA,Buruguwada
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Busigudem,Busigudem
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,BUSIKOTA,Busikota
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Ch.Agraharam,Ch. Agraharam
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Ch.Gunnepalli,Ch. Gunnepalle
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,CH.RAMANAYYAPET,China Ramanayyapeta
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Chadalada,Chadalada
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Chakirevulapalem,Chakirevulapalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Chakirevulapalem,Chakirevulapalem
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,CHAKKAVADA,Chakkavada
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Challapalli,T. Challapalle
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Challeru,Challeru
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHAMAGADDA,Chamagedda-2
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Chamavaram,Chamavaram-1
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Chananuru,Chanaganuru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Chandramampalli,Chandramampalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Chaparathipalem,Chaparatipalem
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,CHATLAVADA,Chatlavada
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,CHAVIDIKOTA,Chavidikota
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHAVITIDIBBALU,Chavitidibbalu
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Chebrolu,Chebrolu-2
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Cheduwada,Cheduvada
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHEEDIPALEM,Cheedipalem
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,CHELAKAVEEDHI,Chelakaveedhi
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Chelluru,Chelluru-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHENDURTHI,Chendurthi
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Chendurti,Chendurthi-1
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Chepuru,Chepuru
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Cherukumpalem,Chervukommupalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Cheruvupalem,Cheruvupalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHERUVURU,Cheruvuru
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Cheyyeru,Cheyyeru-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Chidiga,CHIDIGA
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Chikilinta,Chikilinta
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Chikkapugadda,Chikkapugedda
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Chilakamamidi,Chilakamamidi
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Chilakaveedhilanka,Chilakaveedhilanka
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Chillangi,Chillangi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHINA ADDAPALLI,China Addapalle
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,China Mallapuram,China Mallapuram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Chinabarangi,China Barangi
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Chinabrahmadevaram,Chinabrahmadevam
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Chinadwrapudi,Chinadevarapudi
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Chinagadavilli,Chinagedavalli
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Chinagarlapadu,Chinagarlapadu-1
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Chinageddada,Chinageddada
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Chinajaggannapeta,China Jaggampeta-1
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,chinakodepudi,Chinakondepudi
+EG_G_LGD_Karapa,KARAPA-MB,Chinamamidada,China Mamidada
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Chinamunakanagedda,Chinamunakanagedda
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,CHINARELLANGIPADU,Chinarellangipadu
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Chinasankarlapudi,China Sankarlapudi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Chinavadisakarra,Chinavadisakarra
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHINAVULEMPADU,Chinavulempadu
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Chinna Addateegala,Chinna Addateegala
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Chinnapadu,Chinnampadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHINTA KOYYA,Chinta Koyya
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,CHINTALAGUDEM,Chintalagudem
+EG_G_LGD_ Razole,RAZOLE-MB,Chintalapalli,Chintalapalle-2
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Chintaluru,Chintaluru
+EG_G_LGD_ Alamuru,ALAMURU-MB,Chintaluru,Chintaluru
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Chintanalanka,Chintana Lanka
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Chintapalli,Chintapalle-3
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHINTHAKARRAPALEM,Chinthakarrapalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHINTHALAPUDI,Chinthalapudi
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Chirrayanam,Pothukurru
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Chirutapudi,Chiratapudi
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Chitrada,Chitrada
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Chodavaram,Chodavaram-8
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Chodavaram,Chodavaram-8
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Chollangi,Chollangi
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Chollangipeta,Chollangi Peta
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,CHOPPAKONDA,Choppakonda
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Choppanagadda,Choppanagadda
+EG_G_LGD_ Alamuru,ALAMURU-MB,Choppella,Choppela-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,CHUPPARIPALEM,Chupparipalem
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,D.Ammapeta,D. Ammapeta
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,D.Bhimavaram,Bhimavaram-5
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,D.Chodavaram,Chodavaram-6
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,D.Jagannadhapuram,Dhara Jagannadhapuram
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,D.Kothuru,D. Kothuru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,D.Krishnavaram,D. Krishnavaram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,D.Mallapuram,Dhara Mallapuram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,D.Pidapala,D. Pydipala
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,D.Pinjarikonda,D. Pinjarikonda
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,D.Polavaram,D. Polavaram-1
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,D.Ramavaram,D. Ramavaram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,D.VELAMALAKOTA,D. Velamalakota
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Dabbadi,Dabbadi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DABBAMAMIDI,Dabbamamidi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Dabbapalem,Dabbapalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Dabbavalasa,Dabbavalasa
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DADALIKAVADA,Dadalikavada
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,DAKARAYI,Dakarayi
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Dakodu,Dakodu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DALIPADU,Dalipadu
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,DAMANAPALEM,Damanapalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,DAMANAPALLI,Damanapalle
+EG-G-LGD- Kadiam,KADIAM-MB,Damireddypalli,Damireddipalle
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,DANDANGI,Dandangi-1
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Dangeru,Dangeru
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,DARAGEDDA,Daragedda
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Daragudem,Daragudem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DARALOVA,Daralova
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DARAVADA,Daravada
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DARAWADA,Dorawada
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Darsinutula(Regulapadu),Darsinuthula  @  Regulapadu
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,DENDULURU,Denduluru-1
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Devaguptam,Devaguptam
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,DEVARAM,Devaram
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DEVARAMADUGULA,Devaramadugula
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Devarapalli,Devarapalle-6
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,DEVARAPALLI,Devarapalle-6
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Devarathigudem,Devarathigudem
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,DEVIPATNAM,Devipatnam-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Dhanyampalem,Dhanayampalem
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Dharakonda,Darakonda
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Dharmavaram,Dharmavaram-2
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Diguava Dharapalli,Diguvadarapalle
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Diguvasivada,Diguva Sivada
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Dirisenapalli,Dirisinapalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Divili,Divili
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Doddivaka,Doddivaka
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Dokkapalem,Dokkapalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,DOKULAPADU,Dokulapadu
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Domada,Domada
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,DONALANKA,Donalanka
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Donalapalli,Donelapalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DONARAI,Donarai
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Dondavaka,Dondavaka
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,DONELAPALEM,Donelapalem
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,DONGALA MALLAVARAM,Dongala Mallavaram
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Dontamuru,Pro. Donthamuru
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Dontikurru,Dontikurru
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Doparthi,Doparthi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,DORACHINTALAPALEM,Dorachintalapalem
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Doragondi,Doragondi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Doramadugula,Daramadugula
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Doramamidi,Doramamidi-2
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,DORAMAMIDI,Doramamidi-2
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Doramamidi,Doramamidi-2
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Dosakayalapalli,Dosakayalapalle
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Dowlaiswaram,DOWLESWARAM
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Draksharamam,Draksharama
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Duggudurru,Duggudurru
+EG-G-LGD- Kadiam,KADIAM-MB,Dulla,Dulla
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,DUMPAVALASA,Dumpavalasa
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Duppalapalem,Duppalapalem
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Duppalapudi,Duppalapudi
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Durcharti,Ducherthi
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Durgada,Durgada
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,DUSARIPAMU,Dusaripamu
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Dwarapudi,Dwarapudi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,E. RAMAVARAM,E. Ramavaram
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Edarada,Edarada
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Edarapalli,Edarapalle
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Edlakonda,Edlakonda
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,Edurulanka,Yedurulanka
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,EETHAPALLE,Eethapalle
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,EGAVALASA,Egavalasa
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Elakolanu,Elakolanu
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Eleswaram,Yeleswaram-1
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,ELIVADA,Elivada
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Eluru,Yeluru-1
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Ethakota,Ithakota
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Fakrudinpalem,Fakruddinpalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,FOREST AREA,FOREST-249
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Foulkspeta,Foulkspeta
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,G.Agraharam,Gunnapalle Agraharam
+EG_G_LGD_Karapa,KARAPA-MB,G.Bhavaram,G. Bhavaram
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,G.Dontamuru,G. Donthamuru-1
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,G.Kottapalli,Gondhi Kothapalle
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,G.Mamidada,G. Mamidada
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,G.Medapadu,G. Medapadu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,G.Ragampeta,G. Ragampeta
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,G.sarabhavaram,G. Sarabhavaram
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,G.Vattigedda,G.Vattigedda
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,G.vemavaram,G. Vemavaram-1
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,G.Vemavaram,G. Vemavaram-1
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,G.Yerrampalem,G. Yerrampalem
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Gadala,Gadala-1
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Gadarada,Gadarada
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Gadelapalem,Gadelapalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Gadichinnampalem,Gadichinnampalem
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Gadilanka,Gadilanka
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Gaduvakurthi,Gaduvakurthi
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Gajjanapudi,Gajjanapudi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,GANDEMPALLI,Gandempalle
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Gandepalli,Gandepalle-2
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Gandhinagaram,Gandhinagaram
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Gandredu,Gandredu
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Gangalakurru,Gangalakurru
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Gangampalem,Gangampalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Ganganapalle,Ganganapalle-2
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Ganganuru,Ganganuru
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Gangavaram,Gangavaram-10
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Gangavaram,Gangavaram-10
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Gangavaram,Gangavaram-10
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,GANGAVARAM,Gangavaram-10
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,GANNAVARAM,Gannavaram-5
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Ganti,Ganti
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Gantipedapudi,Ganti Pedapudi
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,GANUGULAGONDI,Ganugulagondi
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Gavarampeta,Gowrampeta
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Gavarayyapeta,Gavarayyapeta
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Geddada,Geddada
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Geddanapalli,Geddanapalle
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Geddanapalli,Geddanapalle
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Gidijam,Gidajam
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,GINJERTHI,Ginjerthi
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Ginnelaram,Ginnelaram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,GINNEPALLE,Ginnepalle
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Girijanapuram,Girijanapuram
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,GOBBILAMADUGU,Gobbilamadugu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,GOBBILAPANUKULU,Gobbilapanukulu
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Godi,Godi
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Godilanka,Godilanka
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,GODUGURAYI,Godugurayi
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Gogannamatam,Gogannamattam
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Gogumilli,Gogumilli
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,GOGUVALASA,Goguvalasa
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Gokavaram,Gokavaram-3
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Gokavaram,Gokavaram-3
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Gokiwada,Gokivada
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Gollalagunta,Gollalagunta
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Gollapalem,Gollapalem-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Gollaprolu,Gollaprolu-1
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Gollavilli,Gollavilli
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Gondhi,Gondhi
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,GONDIVADA,Gondivada
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Gondolu,Gondolu
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,GONDURU,Gonduru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Goneda,Goneda
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Gontuvanipalem,Gontuvanipalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Gopalapatnam,Gopalapatnam-1
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Gopalapuram,Gopalapuram-8
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Gopavaram,Gopavaram-8
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Gopavaram,Gopavaram-8
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,GORABANDA,Goramanda
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Goragommi,Goragommi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,GORAMAMIDI,Goramamidi
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Gorinta,Gorinta
+EG_G_LGD_Karapa,KARAPA-MB,Gorripudi,Gorripudi
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Gorsa,Gorsa
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Gotlagudem,Gotlagudem
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Gottilapadu,Gottilapadu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Govindapuram,Govindapuram-3
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Govindarajupalem,Govindarajupalem
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Gudala,Gudala
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Gudapalli,Gudapalle
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Gudigallabhaga,Gudigalla Bhaga
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Gudigallarallagunta,Gudigalla Rallagunta
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Gudimellanka,Gudimellanka
+EG_G_LGD_ Sakhinetipalli,SAKHINETIPALLE-MB,Gudimoolalanka,Gudimula Kandrika
+EG-G-Sb- Gudisa,EG-G-SB5-GUDISA-MB,GUDISE,Gudisa
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Gudiwada,Gudivada-3
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,GUJJUMAMIDIVALASA,Gujjumamidivalasa
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Gummalladoddi,Gummalladuddi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,GUMMARAPALEM,Gummarapalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Gummaregula,Gummaregula
+EG_G_LGD_ Alamuru,ALAMURU-MB,Gummileru,Gummileru
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,GUMPANAPALLI,Gumpanapalle-1
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,GUMPENAGANDI,Gumpenagandi
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,GUNDRATHY,Gundrathi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Gungugudem,Gunjugudem
+EG_G_LGD_Karapa,KARAPA-MB,Gurajanapalli,Gurajanapalle
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Gurtedu,Gurtedu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Guttappalem,Gurrappalem
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,Guttenadeevi,Guthinadeevi
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Hamsavaram,Hamsavaram
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Hasanabada,Hasanbada
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Hukumpeta(U),HUKUMPETA-1
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Hundeswarapuram,Hundeswarapuram
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,I.Polavaram,I. Polavaram-1
+EG-G-Sb- Ijjaluru,EG-G-SB4-IJJALURU-MB,IJJALURU,Ijjaluru
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Illapalli,Illapalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Illindarada,Illindrada
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Immidivaram,Immidivaram
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Immidivarappadu,Immidivarappadu
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Inapuram,Ainapuram
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Indugapalli,Indugapalle-1
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,INDUKURU,Indukuru
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,INDUKURUPET,Indukurupeta
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Indupalli,Indupalle
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Injaram,Injaram-1
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Ippanapadu,Ippanapadu
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,IRLAVADA,Irlavada
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Irripaka,Irripaka
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Irusumanada,Irusumanda
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Irusumanda,Irusumanda-1
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Isukapalli,P. Isukapalle
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Isukapudi,Isukapudi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Isukupatla,Isukapatla
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Italapalli,Irlapalle
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Ithapudi,Ithapudi
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,IVAMPALLE,Ivampalle
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,J.Agraharam,Jagannadhapuram Agraharam
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,J.Annavaram,J. Annavaram
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,J.Kotturu,J. Kothuru
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,J.R.Puram,Jagapathirajapuram
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,J.Timmapuram,J. Thimmapuram
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,JADDANGI,Jaddangi
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Jagametlapalem,Jagametlapalem
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Jaganayukulapalem,Jagannaikulapalem
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Jagannadhagiri,Jagannathagiri
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Jagannadhapuram,JAGANNADHAPURAM-6
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Jagannadhapuram,JAGANNADHAPURAM-6
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Jagapathinagaram,Jagapathinagaram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Jagarampalli,Jagametlapalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Jaggammagaripeta,Jaggammagaripeta (Rural)
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Jaggampalem,Jaggampalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Jaggampet,Jaggampeta-2
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Jaggampeta,Jaggampeta-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,JAJIGEDDA,Jajigedda
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Jajipalem,Jajipalem
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,JAJIVALASA,Jajivalasa
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,JALAGALOVA,Jalagalova
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Jaldam,Jaldam
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Jalimudi,Jalimudi
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Jalluru,Jalluru-2
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Jalluru,Jalluru-2
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Jambupatnam,Jambupatnam-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Jammulapalli,Jamulapalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,JANGALATHOTA,Jangalathota
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Janupalli,Janupalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Jayachintalapadu,Jayachintalapalem
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,JEELUGULAPADU,Jeelugulapadu
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Jegurupadu,Jegurupadu
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Jiyyampalem,Jiyyampalem
+EG_G_LGD_ Alamuru,ALAMURU-MB,Jonnada,Jonnada
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Juttigapadu,Juthigapadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,K. YERRAGONDA,K. Yerragonda
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,K.Agraharam,Koppaka Agraharam
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,K.E.Ch.Palem,K. E. Chinnayyapalem
+EG-G-LGD- Ainavilli,AINAVILLI-MB,K.Jagannadhapuram,K. Jagannadhapuram
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,K.Kothapalli,K. Kothapalle
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,K.Mallavaram,Kamatam Mallavaram
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,K.Mirthivada,K. Mirthivada
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,K.O.Mallavaram,K.O. Mallavaram
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,K.P.Puram,Kapileswarapuram-1
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,K.Pedapudi,K. Pedapudi
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,K.Polavaram,Polavaram-4
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,K.Yerrampalem,K.Yerrampalem
+EG_G_LGD_ Razole,RAZOLE-MB,Kadali,Kadali
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Kadarikota,Kadarikota
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Kadiyam,Kadiam-1
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,KADUMURU,Kadumuru
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Kaikavolu,Kaikavolu
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Kajuluru,Kajuluru-1
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Kakarapalli,Kakarapalle
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,KAKAVADA,Kakavada
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,KAKURU,Kakuru
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Kalavacherla,Kalavacherla-1
+EG_G_LGD_ Alamuru,ALAMURU-MB,Kalavacherla,Kalavacherla-1
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Kaleru,Kaleru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kalijolla,Kalijolla
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Kalimamidi,Kalimamidi
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Kamavarappadu,Kamavarappadu
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Kamini,Kamini
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KANATALABANDA,Kanatalabanda
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Kanavaram,Kanavaram
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kandarada,Kandarada
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Kandikuppa,Kandikuppa
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kandrakota,Kandrakota
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kandregula,Kandregula
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Kandregula,Kandregula
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Kandulapalem,Kandulapalem
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,KANIVADA,Kanivada
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Kannavaram,Kannavaram-1
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Kanupuru,Kanupuru
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Kapavaram,Kapavaram-3
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kapavaram,Kapavaram-3
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Kapavaram,Kapavaram-3
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Kapavaram,Kapavaram-3
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KAPPALABANDA,Kappalabanda
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KARAKAPADU,Karakapadu
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Karakuduru,Karakuduru
+EG_G_LGD_Karapa,KARAPA-MB,Karapa,Karapa-1
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Karnikota,Karnikota
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Karridevulapalem,Karudevipalem
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Karupallipadu,Karupallipadu
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Katavaram,Katavaram
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,KATCHALAVADA,Katchalavada
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,KATCHULURU,Katchuluru
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Kateru,KATHERU
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Katharilanka,Katharlanka
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Kathipudi,Kathipudi-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KATHIRALLA,Kathirala
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Katravulapalli,Katravulapalle
+EG_G_LGD_ Razole,RAZOLE-MB,Katravupadu,Katrevupadu
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Katrenikona,Katrenikona-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kattamuru,Kattamuru-1
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Kattimanda,Kattiwanda
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,KATTUMILLI,Kattumilli
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Kattunga,Kattunga
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Kavalapadu,Kavalapadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KBCHIPPALAMAMIDI,Kotabandichippalamamidi
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,Kesanakurru,Kesanakurru
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Kesanapalli,Kesanapalle-2
+EG_G_LGD_ Sakhinetipalli,SAKHINETIPALLE-MB,Kesavadasupalem,Kesavadasupalem
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Kesavaram,Kesavaram-4
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Kesavaram,Kesavaram-4
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Khandrika,Khandrika
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,KIMILIGEDDA,Kimiligedda
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Kimmuru,Kimmuru
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Kinaparti,Kinaparti
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,KINDRA,Kindra
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,KINTUKURU,Kintukuru
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Kirlampudi,Kirlampudi-1
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,KIRRABU,Kirrabu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kkd Medaline,MEDALINE
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kkd Muncipality,Kakinada (M)
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Kodavali,Kodavali
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Koduru,Koduru-4
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KOKITAGONDI,Kokitagondi
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Kolamuru,Kolamuru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kolanka,Kolanka
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Kolanka,Kolanka
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Kolimeru,Kolimeru
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Komarada,Komarada-2
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Komaragiri,Komaragiri
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Komarajulanka,Komaraju Lanka
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Komarapuram,Komarapuram
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Komaravaram,Komaravaram
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KOMARAVARAM,Komaravaram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,KOMARAVARAM,Komaravaram
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,Komarigiri,Komaragiri-1
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Komarigiripatnam,Komaragiripatnam
+EG-G-LGD- Biccavole,BICCAVOLU-MB,Komaripalem,Komaripalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Kommanapalli,Kommanapalle
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Kommanapalli,Kommanapalle
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Kona,Kona Forest
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Konalova,Konalova
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Kondagunturu,Konda Gunturu
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Kondalampalem,Kondalampalem
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Kondalingamparti,Kondalingamparthi
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,KONDAMODALU,Kondamodalu
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Kondapalem,Kondapalem
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Kondapalli,Kondapalle-3
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,KONDAPALLI,Kondapalle-3
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,KONDAVADA,Kondavada
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Kondempudi,Kondempudi
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kondevaram,Kondevaram
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Kondukuduru,Kondukuduru
+EG_G_LGD_Karapa,KARAPA-MB,Kongodu,Kongodu
+EG-G-LGD- Biccavole,BICCAVOLU-MB,Konkuduru,Konkuduru
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Konthangi,Konthangi
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Koppavaram,Koppavaram
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Koppavaram(LNpuram),Koppavaram-1
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Koppulakota,Koppulakota
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,KORAMATIGONDI,Koramatigondi
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Korimilli,Korumilli-2
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Koringa,Koringa
+EG_G_LGD_Karapa,KARAPA-MB,Koripella,Koripalle
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Korukonda,Korukonda-1
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Korumilli,Korumilli
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Kota,Kota-3
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KOTA,Kota-2
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Kotananduru,Kotananduru-1
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Kotapadu,Kotapadu-6
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Kothada,Kothada
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Kothakonda,Kothakonda
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Kothakota,Kota-2
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Kothalanka,Kothalanka
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Kothapakalu,Kothapakalu-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Kothapalli,Kothapalle-18
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Kothapeta,Kothapeta-7
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Kotharamavaram,Kotharamavaram
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Kothuru,Kothuru-6
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Kothuru,Kothuru-6
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Kothurupadu,D. Kothuru
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Kothurupadu,D. Kothuru
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Koti,Koti
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Kotikesavaram,Kotikesavaram
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Kotipalli,Mallavaram Mamillu
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Kotipallibhaga,Kotipalli Bhaga
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,KOTTAGUDEM,Kothagudem-2
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Kottam,Kottam
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kottampalem,Kottampalem
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Kottampalem,Kottampalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Kottapakalu,Kothapakalu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kottapalli,Kothapalle-21
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Kottapalli,Kothapalle-21
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Kotturu,Kothuru-4
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Kovelapalem,Kovelapalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kovvada,Kovvada-1
+EG-G-LGD- Kakinada,KAKINADA-MB,Kovvur,Kovvuru-1
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,KOYYALAGUDEM,Koyyalagudem-1
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Krapa,Krapa
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Krapachintalapudi,Uppalapadu-11
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Krishnapuram,Krishnapuram-13
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Krishnavaram,Krishnavaram-1
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Krishnunipalem,Krishnunipalem
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,KUDAKARAYI,Kudakarayi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,KUDURU,Kuduru-1
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Kulla,Koolla
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Kumarapriyam,Kumarapriyam
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kumarapuram,Kumarapuram-2
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Kunavaram,Kunavaram-2
+EG_G_LGD_ Razole,RAZOLE-MB,Kunavaram,Kunavaram-2
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Kunavaram,Kunavaram-2
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,KUNDADA,Kundada
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Kundalapalli,Kundalapalle
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Kundaleswram,Kundaleswaram
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Kundipuru,Kudupuru
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Kunduru,Kunduru
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Kunjamveedhi,Kunjamveedhi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KUNKUMAMIDI,Kunkumamidi
+EG_G_LGD_Karapa,KARAPA-MB,Kurada,Kurada
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Kurakallaapalli,Kurakallapalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,KURAMGONDI,Kuramgondi
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Kurmapuram,Kurmapuram
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Kusumarai,Kusumarai
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,KUTRAVADA,Kutravada
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Kutukudumilli,Kutukudumilli
+EG-G-LGD- Anparthi,ANAPARTHI-MB,Kutukuluru,Kutukuluru
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Kuyyeru,Kuyyeru
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,L.D.Peta,Lakshmidevipeta
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,LABBARTHI,Labbarthi
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Lachipalem,Latchipalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Lachireddipalem,Latchireddipalem-1
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,LAGARAYI,Lagarayi
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Lakkavaram,Lakkavaram-3
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Lakkavaram,Lakkavaram-3
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Lakkonda,Lakkonda
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Lakshmipolavaram,Lakshmipolavaram
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Lakshmipuram,East Lakshmipuram
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,LAKSHMIPURAM,East Lakshmipuram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,LAKSHMIPURAM,East Lakshmipuram
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Lakshmiwada,Lakshmiwada
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Languparthi,Languparti
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Lankalagannavaram,Lankalagannavaram
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,LANKAPAKALU,Lankapakalu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Latchireddipalem,Latchireddipalem
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Laxmipuram,Laxmipuram-4
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Lingamparthi,Lingamparthi
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,LINGAVARAM,Lingavaram-1
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,LINGAVARAM,Lingavaram-1
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,LINGAVARAM,Lingavaram
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Loddipalem,Loddipalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Lododdi,Lododdi
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Lolla,Lolla-1
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Lolla,Lolla
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Lompakalova,Lampakalova
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,LOTHUPALEM,Lothupalem
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Lutukurru,Lutukurru
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,M.Burugubanda,M. Burugubanda
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,M.Chamavaram,Meraka  Chamavaram
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,M.MADDULURU,Madduluru
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,M.RAVILANKA,Ravilanka
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Machara,Machara
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Machavaram,Machavaram-7
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Machavaram,Machavaram-7
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,MADDIRATIGUDEM,Maddirathigudem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,MADDIVEDU,Maddiveedu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Madhavapatnam,Madhavapatnam
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Madhavapuram,Madhavapuram-1
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Madhurapudi,Madhurapudi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Madicharla,Madicherla-1
+EG_G_LGD_ Alamuru,ALAMURU-MB,Madiki,Madiki
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Madupalli,Madupalle
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Magatapalli,Magatapalle
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Magham,Magam
+EG-G-LGD- Anparthi,ANAPARTHI-MB,Mahendrawada,Mahendrawada
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Makanapalem,Makanapalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Makaram,Makaram
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Malikipuram,Malikipuram-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Mallam,Mallam-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Mallavaram,Mallavaram-7
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Mallavaram,Mallavaram-7
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,MALLAVARAM,Mallavaram-7
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Mallavarammamilla,Mallavaram Mamillu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Mallepalle,Mallepalle-3
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Mallisala,Mallisala
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Mamidada,Mamidada
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Mamidikuduru,Mamidikuduru-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Mamidipalem,Mamidipalem
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,MAMIDIVALASA,Mamidivalasa
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Mamilladoddi,Mamilladoddi
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Mandapalli,Mandapalle-3
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Mandapam,Mandapam
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Mandapeta,Mandapeta (M)
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Manepalli,Manepalle-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Mangiturti,Mangiturthi
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Manjeru,Manjeru
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,MANTURU,Manturu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Manyanvaripalem,Manyanvaripalem
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Maredbaka,Maredubaka-1
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Maredubaka,Maredubaka-2
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,MAREDUMILLI,Maredumilli-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Marlova,Marlava
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Marripadi,Marripudi-2
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Marripaka,Marripaka
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,MARRIPALEM,Marripalem-4
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Marripalem,Marripalem-4
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Marrivada,Marrivada
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Marriveedu,Marriveedu
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Maruvada,Maruvada
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Masakapalli,Masakapalle
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Masampalli,Masampalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Matlapadu,Matlapadu
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Mattaparru,Mattaparru
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Matukumilli,Mathukumilli
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Merlapalem,Merlapalem
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Mernipadu,Meruipadu
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Mettuchinta,Mettu Chintha
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Mirtipadu,Mirthipadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Mitlapalem,Mitlapalem
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Modekurru,Modekurru
+EG_G_LGD_ Alamuru,ALAMURU-MB,Modukurru,Modukuru-1
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Mogalikuduru,Mogalikuduru
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Mogallamuru,Mogallamuru
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,MOHANAPURAM,Mohanapuram
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,MOLLERU,Molleru
+EG-G-LGD- Biccavole,BICCAVOLU-MB,Molluru,Melluru
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Mondepulanka,Mondepu Lanka
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Morampudi,Morampudi (Rural)
+EG_G_LGD_ Sakhinetipalli,SAKHINETIPALLE-MB,Mori,Mori
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Mosalapalli,Mosalipalle
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,MUCHILIVADA,Muchilivada
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Muggalla,Muggaulla-1
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Mukkamala,Mukkamala-1
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Mukkinada,Mukkinada
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Mukkollu,Mukkollu
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Mukundavaram,Mukundavaram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Mulagapudi,Mulagapudi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,MULAKALAGUDEM,Mulagalagudem
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Mulakalanka,Mulakallanka
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Mulakalayala Bhimavaram,Mulakayala Bhimavaram
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Mulapeta,Mulapeta
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,MULASALAPALEM,Mulasalapalem
+EG_G_LGD_ Razole,RAZOLE-MB,Mulikipalli,Mulikipalle
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Mummidivaram,Mummidivaram-1
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Mummidivarappadu,Mummidivarappadu
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Munagala,Munagala-2
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,MUNAGALAPUDI,Munagalapudi
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Munganda,Munganda
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Mungandapalem,Mungandapalem
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Munikudali,Munikudali
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Munipalli,Munipalle-2
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,MUNJAMAMIDI,Munjamamidi
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Munjavaram,Munjavaram
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,MUNJAVARAPPADU,Munjavarappadu
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,MUNTHAMAMIDI,Munthamamidi-1
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,Muramalla,Muramalla
+EG-G-LGD- Kadiam,KADIAM-MB,Muramanda,Muramanda-1
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Murari,Murari
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,MURLAVANIPALEM,Murlavanipalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Musurimilli,Musurumilli
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,MUSURU,Musuru
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Mutchumilli,MUTCHIMILLI
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,MUVVALAVADA,Muvvalavada
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,N.Agraharam,Narasimhapura Agraharam
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,N.kottapalli,Nimmakayala Kothapalle
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,N.N.Patnam,Tuni (M)
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,N.Suravaram,N. Suravaram
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,N.Tirupatirajapuram,North Tirupathi Rajapuram
+EG_G_LGD_Karapa,KARAPA-MB,Nadakuduru,Nadakuduru
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Nadavapalli,Nadavapalle
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Nadimpalem,Nadimpalem-1
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Nadipudi,Papampeta-1
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Nadurubada,Nadurubada
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Nagampalli,Nagampalle-2
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Nagaram,Nagaram-1
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Nagulapalli,Nagulapalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NAKKALAPADU,Nakkalapadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NAKKARATHIPALEM,Nakkalapadu
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Nallagonda,Nallagonda-2
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Nallagonda,Nallagonda-2
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Nallamilli,Nallamilli
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Nallamilli,Nallamilli
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Nalluru,Nalluru
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Namavaram,Namavaram-2
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Nandampudi,Nandampudi
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Nandarada,Nandarada-1
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Nandivompu,Nandivampu
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Nangavaram,Nangavaram
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Narasapuram,Narasapuram-8
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Narasapuram,Narasapuram-8
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Narasapurapeta,Narasapurapupeta
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Narendrapatnam,Narendrapatnam
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Narendrapuram,Narendrapuram
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Narendrapuram,Narendrapuram
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Narkedimilli,Narkedimilli
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NARSAPURAM,Narsapuram-1
+EG_G_LGD_ Alamuru,ALAMURU-MB,Narsipudi,Narsipudi
+EG_G_LGD_ Alamuru,ALAMURU-MB,Navabpeta,Navabpeta
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Navakandrawada,Navakandravada
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Navara,Navara
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Nayakampalli,P.Nayakampalle
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Nedunuru,Nedunuru
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,NEELAMPALEM,Nellikota
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Neelapalli,Neelapalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NEELAVARAM,Neelavaram
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Neladonelapadu,Neeladonelapadu
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,NELAKOTA,Nelakota-1
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Nelaturu,Nelaturu-3
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NELLIKOTA,Nellikota
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,NELLIMETLA,Nellimetla
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Nellipudi,Nellipudi-3
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Nellipudi,Nellipudi-3
+EG-G-Sb- Nelluru,EG-G-SB3-NELLURU-MB,NELLURU,Nellore-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Nemam,Nemam
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Nidasanametta,Nidasanametta
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Nidigatla,Nidigatla
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NIMMALAPALEM,Nimmalapalem
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Nimmalapalem,Nimmalapalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,NOORUPUDI,Nurupudi
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,NUKALETIVADA,Nukaletivada
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Nukarai,Nukarai
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NULAKAMAMIDI,Nulakamamidi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Nunepalli,Neenepalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NUVVUGANTIPALEM,Nuvvugantipalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,NUVVUMAMIDI,Nuvvumamidi
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Oduru,Oduru-1
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Ojubanda,Ojubanda
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Ommangi,Vommangi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,P. YERRAGONDA,P. Yerragonda
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,P.Agraharam,P. Agraharam
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,P.Chamavaram,Pallapu Chamavaram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,P.E.Ch.Palem,P.E.Chinnayapalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,P.G.LANKA,Puttagondilanka
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,P.Jagannadhapuram,P. Jagannadhapuram
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,P.Khandrika,Padamati Khandrika-1
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,P.MADDULURU,Madduluru-1
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,P.Mallapuram,Pedamallapuram
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,P.Mallavaram,P. Mallavaram
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PAIDIPUTTA,Paidiputta
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Paidiputtapadu,Paidiputtapadu
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Pakalti,Pakavelthi
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Palacherla,Palacharla
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Palagondi,Palagondi
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Palagummi,Palagummi
+EG_G_LGD_ Razole,RAZOLE-MB,Palagummi,Palagummi
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Palatodu,Palathodu
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Palivela,Palivela
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Pallamkurru,Pallamkurru
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Pallipalem,Pallipalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PALURU(PALEM),Paluru-1
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Pamarru,Pamarru-1
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PAMUGANDI,Pamugandi
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,PAMULAMAMIDI,Pamulamamidi
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,PAMULERU,Pamuleru
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Panagipalli,Paningapalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PANASALAPALEM,Panasalapalem
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Panasaloddi,Panasaloddi
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Panasapadu,Panasapadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PANCHADARALANKA,Panchadaralanka
+EG-G-LGD- Biccavole,BICCAVOLU-MB,Pandalapaka,Pandalapaka
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Pandavulapalem,Pandavulapalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Pandirimamidi,Pandirimamidi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PANDIRIMAMIDIKOTA,Pandirimamidikota
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Pandrapottipalem,Pandrapottipalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PANDRAPROLU,Pandraprolu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Pandravada,Pandravada
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Panduru,Panduru-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Panukuratipalem,Panukuratipalem
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Papampet,Papampeta-1
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Parupaka,Parupaka
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Pasalapudi,Pasalapudi
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Pasarlapudi,Pasarlapudi
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Pasarlapudilanka,Pasarlapudilanka
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PASARUGINNI,Pasaruginne
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Pasupalii,Pasupalle
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,Pasuvulalanka,Pasuvullanka
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Pata Doddigunta,Doddigunta
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,Pata Injaram,Patha Injaram
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Pata Thungapadu,Patha Thungapadu
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Patagannavaram,Patha  Gannavaram
+EG_G_LGD_Karapa,KARAPA-MB,Patarlagedda,Patharlagadda
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Patavala,Patavala
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Pathakota,Pathakota-1
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Patharamavaram,Patharamavaram
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Pawara,Pavara
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PEDA ADDAPALLI,Peda Addapalle
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Peda Brahmadevam,Pedabrahmadevam
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Peda Rayavaram,Pedarayavaram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Pedabarangi,Peda  Barangi
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,PEDABHIMPALLI,Peda Bheempalle
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Pedagadavilli,Pedagadavilli
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Pedagarlapadu,Padagarlapadu
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Pedageddada,Pedageddada
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PEDAMALLUPADU,Pedamallupadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Pedamunakanagedda,Pedamunakanagedda
+EG_G_LGD_ Alamuru,ALAMURU-MB,Pedapalla,Pedapalle-2
+EG-G-LGD- Anparthi,ANAPARTHI-MB,Pedaparti,Pedaparthi
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Pedapatnam,Pedapatnam
+EG-G-LGD- Mamidikuduru,MAMIDIKUDURU-MB,Pedapatnamlanka,Pedapatnamlanka
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Pedapudi,Pedapudi-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PEDAVULEMPADU,Pedavulempadu
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Peddada,Peddada
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Peddagarangi,Pedagarrangi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PEDDAKONDA,Peddakonda
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,PEDDAMARRI,Peddamarri
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Peddanapalli,Peddanapalle-1
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PEDDANOOTULU,Peddanuthulu
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Peddapadu,Peddapadu-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Peddapuram,Peddapuram (M)
+EG_G_LGD_Karapa,KARAPA-MB,Peddapurappadu,Peddapurapadu
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Peddarellampadu,Pedarellangipadu
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Peddasankarlapudi,Peda Sankarlapudi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Peddavadisakarra,Peddavadisakarra
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Peddipalem,Peddipalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Pedduru,Pedduru-2
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PEDDURU,Pedduru-2
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PEDDURU,Pedduru-2
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Pekeru,Pekeru
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Penikalapudi,Penikalapadu-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Penikelapadu,Penikelapadu
+EG_G_LGD_ Alamuru,ALAMURU-MB,Penikeru,Penikeru
+EG_G_LGD_Karapa,KARAPA-MB,Penuguduru,Penuguduru
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Penumalla,Penumalla
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Penumalla,Penumalla
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Penumarthi,Penumarthi
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Peravaram,Peravaram
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Peravaram,Peravaram
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,PERIKIVALASA,Perikivalasa
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Peruru,Peruru
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Pidatamamidi,Pidathamamidi
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Pillanka,Pillanka
+EG_G_LGD_ Alamuru,ALAMURU-MB,Pinapalla,Pinapalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Pithapuram,Pithapuram (M)
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Podagatlapalli,Podagatlapalle
+EG_G_LGD_ Razole,RAZOLE-MB,Podalada,Podalada-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Podurupaka,Podurupaka
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,POLAMANUGONDI,Polamanugondi
+EG-G-LGD- Anparthi,ANAPARTHI-MB,Polamuru,Polamuru
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Polavaram,I. Polavaram
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Polekurru,Polekurru
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Ponnada,Ponnada
+EG_G_LGD_ Razole,RAZOLE-MB,Ponnamanda,Ponnamanda
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,POOLOVA,Poolova
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,POTAVARAM,Pothavaram-5
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Potavaram,Pothavaram-5
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Pothandorapalem,Pothandorapalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,POTHANDORAPALEM,Pothandorapalem
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,POTLAVADA,Potlavada
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Potukurru,Pothukurru
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Potuluru,Pothuluru-1
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Potuluru,Pothuluru-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Prattipadu,Prathipadu-2
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Pro.Rangampet,Pro. Ragampeta
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Pudedu,Pudedu
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PUDIPALLE,Pudipalle
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,PUJARIPAKALU,Pujaripakalu
+EG-G-LGD- Anparthi,ANAPARTHI-MB,Pulagurta,Pulagurtha
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Pulidindi,Pulidindi
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Puligogulapadu,Puligogulapadu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Pulimeru,Pulimeru
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Pulimetla,Pulimetala
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,PULLANGI,Pullangi
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Pulletikurru,Pulletikurru
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PULUSUMAMIDI,Pulusumamidi
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Purushottapatnam,Purushothapatnam
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,PUSIWADA,Pusiwada
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PUTIKUNTA,Putikunta
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PUTTAGANDI,Puttagandi
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Puttakonda,Puttakonda
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,PUTTAPALLI,Puttapalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,PVemavaram,P. Vemavaram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Pydikonda,Pydikonda
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Pyna,Pyna
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,R.K.Puram,Ramakrishnapuram-1
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,R.Venkatapuram,R. Venkatapuram
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,R.Yerrampalem,Rampa Yerrampalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,RACHAPALEM,Rachapalem-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Rachapalli,Rachapalle-2
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Raghavapatnam,Raghavapatnam
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Raghavapuram,Raghavapuram-2
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Raghudevapuram,Raghudevapuram
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Rajahmundry(NMA),RAJAHMUNDRY (NMA)
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Rajampela,Rajampalem
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Rajanagaram,Rajanagaram-5
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Rajanagaram,Rajanagaram-5
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Rajapudi,Rajapudi
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Rajaram,Rajaram
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Rajavaram,Rajavaram-1
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Rajavaram,Rajavaram-1
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Rajavaram,Rajavaram-1
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Rajavaram,Rajavaram-1
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Rajavolu,Rajavolu-1
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,RAJAVOMMANGI,Rajavommangi-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Rajupalem,Rajupalem-10
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Rajupalem,Rajupalem-10
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Rajupetaloddi,Rajupetaloddi
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Rallakandrika,Rallakhandrika
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Ramachandrapuram,Ramachandrapuram (M)
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Ramachodavaram,RAMPACHODAVARAM(U)
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Ramakrishnapuram,Ramakrishnapuram-2
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Ramanakkapeta,Ramanakkapeta-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Ramanayyapet,RAMANAYYAPETA-2
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Ramanayyapeta,Ramanayyapeta-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Ramannapalem,Ramannapalem-2
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,RAMANNAVALASA,Ramannavalasa
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Ramarajulanka,Ramarajulanka
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Ramavaram,Ramavaram-2
+EG-G-LGD- Anparthi,ANAPARTHI-MB,Ramavaram,Ramavaram-2
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Rameswaram,Rameswaram
+EG_G_LGD_ Sakhinetipalli,SAKHINETIPALLE-MB,Rameswaram,Rameswaram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Rampa,Rampa
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,RAMULAKONDA,Ramulakonda
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,RAMULDEVAPURAM,Ramuldevapuram
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Rangampeta,Rangampeta-1
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Rangapuram,Rangapuram-3
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Rapaka,Rapaka
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Raparti,Raparthi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Ratnampalem,Ratnampalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,RATSAVALASA,Ratsavalasa
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Ravigudem,Ravigudem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Ravikampudi,Ravikampadu-1
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Ravulapalem,Ravulapalem-2
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Ravulapalem,Ravulapalem-2
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,RAVVAGADDA,Ravvagadda
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Rayabhupalapatnam,Rayabhupalapatnam-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Rayapalli,Rayapalle
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Rayavaram,Pro. Rayavaram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,RAYAVARAM,Pro. Rayavaram
+EG_G_LGD_ Razole,RAZOLE-MB,Razole(R),Razole-1
+EG_G_LGD_ Razole,RAZOLE-MB,Razole(u),Razole-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,REGADIPALEM,Regadipalem
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Rekavanipalem,Rekhavanipalem
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Rellagedda,Rellugadda
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Repuru,Repuru
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Revadikota,Revadikota
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,REVATIPALEM,Revatipalem
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Rjajahmundry(M),RAJAHMUNDRY(U)
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Rollagedda,Rollagedda
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Rowtalapudi,Rowthulapudi
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Ryali,Ryali
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,S.Agraharam,Srungadhara Agraharam
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,S.Annavaram,S. Annavaram (Rural)
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,S.Pidipala,Santha Pydipala
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,S.R.Palem,Sungarayunipalem
+EG-G-LGD- Ainavilli,AINAVILLI-MB,S.Savaram,Sirasavalli Savaram
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,S.T.Rajapuram,South Thirupathi Rajapuram
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,S.Timmapuram,S. Thimmapuram
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,S.Yanam,Surasaniyanam
+EG_G_LGD_ Sakhinetipalli,SAKHINETIPALLE-MB,Sakhinretipalli,Sakhinetipalle-1
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Sakurru,Sakuru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Samalkota,Samalkot (M)
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Samanasa,Samanasa
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Samantakurru,Samanthakuru
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Sampara,Sampara
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Sanapallilanka,Sanapalli Lanka
+EG_G_LGD_ Alamuru,ALAMURU-MB,Sandhipudi,Sandhipudi
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Sankaraguptam,Sankaraguptham
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Sankavaram,Sankhavaram-1
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Sannavilli,Sannavalli
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,SARABAVARAM,Sarabhavaram-2
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Sarabhavaram,Sarabhavaram-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,SARABHAVARAM,Sarabhavaram
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,SARABHAVARAM,Sarabhavaram-1
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Sarampedapadu,Sarampetapadu
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Sarampeta,Sarampeta
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Sarlanka,Sarlanka
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Sarpavaram,Sarpavaram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Satyavaram,Satyavaram-1
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Satyawada,Satyawada-1
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Seela,Seela
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Seemusuru,Seemusuru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Seethampet,Seethampeta-2
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Seethanagaram,Seethanagaram-4
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Seethanagaram,Seethanagaram-4
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Seetharampadu,Seetharampadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,SEETHARAMPADU,Seetharampadu
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Seethaympeta,Seethayampeta
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Sellapaka,Selapaka
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,SESHARAI,Sesharai
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Settipalli,Settipalle-6
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Shahapuram,Sahapuram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Siddivanipalem,Siddivaripalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,SIMHADRIPALEM,Simhadripalem
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,SINGAMPALLE,Singampalle
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Singampalli,Singampalle-1
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Singanakota,Singanakota
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Singarampalem,Singarampalem
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Singavaram,Singavaram-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,SINGAVARAM,Singavaram-1
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Sirigindalapadu,Sirigindalapadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,SIRIMETLA,Sirimetla
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Siripalli,Siripalle
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,SIRIPANLOVA,Siripanlova
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Siripuram,Siripuram-2
+EG_G_LGD_Karapa,KARAPA-MB,Siripuram,Siripuram-2
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Siriwada,Sirivada
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Sitanagaram,Seethanagaram-2
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Sithapalli,Seethapalle
+EG_G_LGD_ Razole,RAZOLE-MB,Sivakodu,Sivakodu-1
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Sivala,Sivala-1
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Sivaramapatnam,Sivaramapatnam
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Sokulagudem,Sokulagudem
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Somannapalem,Somannapalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Somavaram,Somavaram-2
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Somavaram,Somavaram-2
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Someswaram,Someswaram
+EG_G_LGD_ Razole,RAZOLE-MB,Sompalli,Sompalle-1
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Srikrishnapatnam,Srikrishnapatnam-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,SRIPURAM,Sripuram
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Srirangapatnam,Srirangapatnam
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Srunagavruksham,Srungavruksham
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Srungadara,Srungadhara
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Srungavaram,Srungavaram-1
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,SUBBAMPADU,Subbampadu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Subbampeta,Subbampeta
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Subhadrampeta,Subhadrampeta
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Sudikonda,Sudikonda
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Sundarapalli,Sundarapalle
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Sunkarapalem,Sunkarapalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,SUNNAMPADU,Sunnampadu-1
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Surampalem,Surampalem-2
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Surampalem,Surampalem-2
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,SURAMPALEM,Surampalem
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Surampeta,Surampeta
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,Surapurajupeta,Surapurajupeta
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Suryaraopet,SURYARAOPETA
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,SUVARLAVADA,Suvarlavada
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,T.Burugubandha,T.Burugubanda
+EG-MHG-ThE- Kotananduru,EG-MHG-THE-KOTANANDURU-MB,T.Jaganadhapuram,Thatipaka Jagan Nadha Nagaram
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,T.kottapalli,T. Kothapalle
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,TADEPALLI,Thadepalle-1
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Tadikona,Tadikona
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Tadipalli,Tadipalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Tadiparti,Tatiparthi-1
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Takurupalem,Takurupalem
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,TALLAPALEM,Tallapalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Talluru,Talluru-2
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Talluru,Talluru-2
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Tamarada,Thamarada
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Tamarapalli,Tamarapalle
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Tamarapalli,Tamarapalle
+EG-G-LGD- Mummidivaram,MUMMIDIVARAMU-MB,Tanelanka,Tanelanka
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Tantikonda,Thantikonda-1
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Tanumalla,Tanumalla
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Tapeswram,Tapeswaram
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Tarlampudi,Tarlampudi
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Tatapudi,Thatapudi-1
+EG_G_LGD_ Razole,RAZOLE-MB,Tatipaka,Thatipaka
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Tatiparti,Tatiparthi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Tatiwada,Thativada
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,TATIWADA,Thativada
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Teki,Teki
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Tetagunta,Tetagunta
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,THADIKOTA,Thadikota
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Thaduvai,Thaduvai
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Thammavaram,Thammavaram
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Thandavapalli,Thandavapalle
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Thangedukota,Thangedukota
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,THANTIKONDA,Thantikonda
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Thokada,Thokada
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Thondangi,Thondangi-1
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Thondavaram,Thondavaram
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Thotakurapalem,Thotakurapalem
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Thotapeta,Thotapeta
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,THOYYERU,Thoyyeru
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,THUMMURU,Thummuru
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Thungamadugula,Thungamadugula
+EG-G-LGD- Kakinada,KAKINADA-MB,Thurangi,TURANGI
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,THURUMAMIDI,Thurumamidi
+EG-G-LGD- Ipolavaram,I.POLAVARAM-MB,Tillakuppa,Thillakkuppa
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Timmapuram,Thimmapuram-15
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Timmapuram,Thimmapuram-15
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,TIRUGATIRALLU,Tirugatirallu
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Tirumalawada,Tirumalawada
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Tirumalayapalem,Tirumalayapalem
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Tirumali,Tirumali
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Tirupathammapet,Tirupatammapeta
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Tirupathirajupet,Tirupatirajupeta
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Tirupati,Tirupati-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Tiyyamamidi,Tiyyamamidi
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Torredu,Torredu-1
+EG-G-LGD- Biccavole,BICCAVOLU-MB,Tossipudi,Tossipudi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,TOTAKURAPALEM,Totakurapalem
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Totapalli,Thotapalle-3
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Tottaramudi,Totharamudi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,TUMIKELAPADU,Tumikelapadu
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Tummalapalli,Thummalapalle
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Tuni,Tuni (M)
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,TURRURU,Thurruru
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Turupulanka,Thurupulanka
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,U.JNPuram,U. Jagannadhapuram
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Ubalanka,Ubalanka
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Udimudi,Udumudi
+EG-G-LGD- Biccavole,BICCAVOLU-MB,Ulapalli,Voolapalle
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Uligogula,Uligogula
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Ulimeswram,Ulimeswaram
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Ulligogula,Uligogila
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Ummetta,Ummetha
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Unduru,Unduru
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Unduru,Unduru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Uppada,Uppada
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Uppalaguptam,Uppalaguptam-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Uppalapadu,Uppalapadu-11
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Uppalapadu,Uppalapadu-11
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Uppampalem,Uppampalem
+EG_G_LGD_ Tallarevu,THALLAREVU-MB,Uppangala,Uppangala
+EG_G_LGD_ Katrenikona,KATRENIKONA-MB,Uppidi,Uppudi
+EG_G_LGD_ Kajuluru,KAJULURU-MB,Uppumilli,Uppumilli
+EG-MHG-Dg- Bornagudem,EG-MHG-DG-BORNAGUDEM-MB,Urlakulapadu,Urlakulapadu
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,Usirijonnala,Usirikajonalu
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Utla,Utla
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Utrumilli,Utrumilli
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Uttarakanchi,Uttarakanchi-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,V.K.Rayapuram,Venkata Krishnarayapuram
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,V.Kottapalli,Vainateya Kothapalle
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,V.RAYANAPALEM,V. Ramannapalem
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,V.Seetayyapalem,Vemulapalle  @  Seetayyapalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,V.Venkatapuram,Vadrevu Venkatapuram
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Vadapalem,Vadapalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,VADAPALLE,Vadapalle
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Vadapalli,Vadapalle-2
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Vaddiparru,Vaddiparru
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Vadisaleru,Vadisaleru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Vadlamuru,Vadlamuru
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Vadlamuru,Vadlamuru
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Vadrevupalli,Vadrevupalle
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vagurti,Vokurthi
+EG_G_LGD_Karapa,KARAPA-MB,Vakada,Vakada
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Vakalapudi,VAKALAPUDI-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vakapalli,Vakapalle
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Vakatippa,Vakatippa-1
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Vakatippa,Vakatippa-1
+EGG_LGD_ Ambajipeta,AMBAJIPETA-MB,Vakkalanka,Vakkalanka
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,VAKKULURU,Vakkuluru
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,VALAMURU,Valamuru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Valluru,Valluru-3
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Valluru,Valluru-3
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Valluru,Valluru-3
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Valutimmapuram,Valuthimmapuram
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,VANAKARAYI,Vanakarayi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,VANAMAMIDIGONDI,Vanamamidigondi
+EG_G_LGD_ Kothapeta,KOTHAPETA-MB,Vanapalli,Vanapalle
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vanchangi,Vanchangi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Vangalamadugu,Vangalamadugu
+EG-G-BkW- Sitanagaram,EG-G-BKW-SITANAGARAM-MB,Vangalapudi,Vangalapudi
+EG-G-LGD- Amalapuram,AMALAPURAM-MB,Vannechintalapudi,Vanne Chintalapudi
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vannepudi,Vannepudi
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vanthada,Vanthada
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Vasantawada,Vasanthawada
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vatangi,Vatangi
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,VATTICHELAKALU,Vattichelakaku
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,VATTIGADDA,Vattigedda-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vazrakutam,Vazrakutam
+EG_G_LGD_ Ravulapalem,RAVULAPALEM-MB,Vedireswaram,Vedireswaram
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Vedullakonda,Vedullakonda
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,VEDULLAPALLI,Vedullapalle
+EG_G_LGD_ Kpuram,KAPILESWARAPURAM-MB,Vedurumudi,Vedurumudi
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Vedurupaka,Vedurupaka
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Veerabhadrapuram,Veerabhadrapuram
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Veerampalem,Veerampalem-1
+EG-G-Sb- Vattigedda,EG-G-SB2-VATTIGEDDA-MB,Veerampalem,Veerampalem-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Veeraraghavapuram,Veeraraghavapuram
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Veeravallipalem,Veeravallipalem
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Veeravaram,Veeravaram-1
+EG-G-LGD- Kadiam,KADIAM-MB,Veeravaram,Veeravaram-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Veeravaram,Veeravaram
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,VEERLAMAMIDI,Veerlamamidi
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Vegayampeta,Vegayammapeta
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vegipalem,Vogipalem
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Vekatayapalem,Venkatayapalem-4
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,VELAGALAPALEM,Velagalapalem
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,VELAGAPALLI,Velagapalle-1
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Velagatodu,Velagathodu
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Velampalem,Velampalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Velangi,Velangi
+EG_G_LGD_Karapa,KARAPA-MB,Velangi,Velangi
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Velanka,Velanka-1
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Veldurti,Veldurthi-5
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Velicheru,Valicheru
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Vella,Vella
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Velugubanda,Velugubanda
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Veluvalapalli,Veluvalapalle
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Vemagiri,Vemagiri-1
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Vemavaram,Vemavaram-5
+EG-G-Mv- Kondamodalu,EG-G-MV-KONDAMODALU-MB,VEMULAKONDA,Vemulakonda
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vemulapalem,Vemulapalem
+EG_G_LGD_Karapa,KARAPA-MB,Vemulavada,Vemulavada
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Vemulova,Vemulova
+EG-G-LGD- Pedapudi,PEDAPUDI-MB,Vendra,Vendra
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Venkatanagaram,Venkatanagaram-2
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Venkatanagaram,Venkatanagaram
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,Venkatanagaram,Venkatanagaram-2
+EG-G-BkS-Rajanagaram,EG-G-BKS-RAJANAGARAM-MB,Venkatapuram,Venkatapuram-14
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Venkatapuram,Venkatapuram-14
+EG_G_LGD_ Rayavaram,RAYAVARAM-MB,Venturu,Venturu
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Vetamamidi,Vetamamidi
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,VETIKURU,Vetukuru
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Vetlapalem,Vetlapalem
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Vijayanagaram,Vijayanagaram
+EG-G-LGD- Ainavilli,AINAVILLI-MB,Vilasa,Vilasa
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Vilasagangavaram,Vilasa Gangavaram
+EG_G_LGD_ Upplguptam,UPPALAGUPTAM-MB,Vilasavilli,Vilasavilli
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Virava,Virava
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Virawada,Viravada
+EG_G_LGD_Malkipurm,MALIKIPURAM-MB,Viseswarayapuram,Visweswarayapuram
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Vondregula,Ondregula
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,VOYYEDU,Voyyedu
+EG-G-LGD- Atreyapuram,ATREYAPURAM-MB,Vuchili,Utchili
+EG-G-Pm- Kutravada,EG-G-PM-KUTRAVADA-MB,VUTHALURU,Vuthaluru
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Vutlapalem,Vutlapalem
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Vuyyalamadugu,Vuyyalamadugu
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,VYDUPUDI,Vyadapudi
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,Y. RAMAVARAM,Y. Ramavaram
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Y.Dharapalli,Yeguvadarapalle
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Yamanapalli,Yamanapalle
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Yanamadala,Yanamadala-1
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,YARLAGADDA,Yarlagadda-1
+EG-G-LGD- Mandapeta,MANDAPETA-MB,Yeditha,Yeditha
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Yellamalli,Yellamilli
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,YELLAPURAM,Yellapuram-1
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Yellapuram,Yellapuram
+EG-MHG-Mg- Addateegala,EG-MHG-MG-ADDATEEGALA-MB,Yellavaram,Yellavaram
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Yendagandi,Yendagandi
+EG_G_LGD_Karapa,KARAPA-MB,Yendamuru,Yandamuru
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Yendapalli,Yendapalle-1
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Yendpalli,Yendapalle-2
+EG_G_GD_ Allavaram,ALLAVARAM-MB,Yentrikona,Yentrikona
+EG-G-LGD- Pgannavaram,P_GANNAVARAM-MB,Yenugupalli,Yenugupalle
+EG-MHG-Sg- Prathipadu,EG-MHG-SG-PRATHIPADU-MB,Yerakampalem,Yerakampalem
+EG-MHG-Pp- Sankhavaram,EG-MHG-PP-SANKHAVARAM-MB,Yerakapuram,Yarakapuram
+EG-G-Sp- Rchodavaram,EG-G-SP-RAMPACHODAVARAM-MB,YERRAMETLA,Yerrametla
+EG-MHG-Md- Jaddangi,EG-MHG-MD-JADDANGI-MB,YERRAMPADU,Yerrampadu
+EG-MHG-Ylw- Eleswaram,EG-MHG-YLW-ELESWARAM-MB,Yerrampalem,Yerrampalem-1
+EG-G-BkNe-Gangavaram,EG-G-BKNE-GANGAVARAM-MB,Yerrampalem,Yerrampalem
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,YERRAMREDDIPALEM,Yerramreddipalem
+EG_G_LGD_ Kgangavaram,KGANGAVARAMU-MB,Yerrapotavaram,Yerraa Pothavaram
+EG-MHG-Yle- Kirlampudi,EG-MHG-YLE-KIRLAMPUDI-MB,Yerravaram,Yerravaram
+EG_G_LGD_ Rcpuram,RAMACHANDRAPURAM-MB,Yerupalli,Yerupalle
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,YETIPALLI,Yetipalle
+EG-MHG-ThW-Tuni,EG-MHG-THW-TUNI-MB,Yoguvsivada  ,Yeguvasivada
+EG_G_LGD_Karapa,KARAPA-MB,Z.Bhavaram,Z. Bhavaram
+EG-G-Zk-Rangampet,EG-G-ZK-RANGAMPETA-MB,Z.Medapadu,Z.Medapadu
+EG-MHG-Pd- Y.Ramavaram,EG-MHG-PD-Y RAMAVARAM-MB,ZADERU,Zaderu
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Donkarai,Donkarai
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Boddumamidi,Boddumamidi
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Villarthi,Villarti
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Mangampadu,Mangampadu
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Marriguda,Marriguda
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Bachhaluru,Bachaluru
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Tulasuru,Tulusuru
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Kallepugondi,Kallepugonda
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Antilova,Antilova-1
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Dubela,Dubela
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Nagalova,Nagalova
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Kakkonda,Kakkonda
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Vadisalova,Vadisalova
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Adupulametta,Adupulametta
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Gondikota,Gondikota
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Boddagandi,Boddagondi-4
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Rakota,Rakota-1
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Erragoppula,Yerragoppula
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,D.Mamidivada,D. Mamidivada
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Gellavada,Gellavada
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Goppulathotamamidi,Goppulathotamamidi
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Vejuvada,Vejuvada
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Panasalova,Panasalova
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Chaprai,Chaparai
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Vootlabanda,Vootlabanda
+EG-G-Sb-Donkarayi,EG-G-SB1-DONKARAYI-MB,Forest,FOREST-308

@@ -1,23 +1,23 @@
-S.no,GW watershed  name,IWM Micro basin,NCA pre monsoon depth to water level ,NCA post monsoon depth to water level,NCA pre monsoon depth to water level ,NCA pre monsoon depth to water level ,CA pre monsoon depth to water level ,CA post monsoon depth to water level,CA pre monsoon depth to water level ,CA pre monsoon depth to water level ,Dependancy factor ca,Dependancy factor nca,Normal annual rainfall mm,Normal Monsoon rainfall mm,Normal Non-monsoon rainfall mm,Annual rainfall for the year of assessment mm,Monsoon rainfall for the year of assessment mm,Non-monsoon rainfall for the year of assessment mm
-1,WG_I_Tammileru_Chintalapudi,WG- TAMMILERUNORTH-01-MB,7.45,1.59,5.33,,6.64,1.07,4.32,,0,1,1136,828,308,1434,1012,422
-2,WG_I_Yerrakalva 2_Devulapalli,WG- DEVULAPALLI-03-MB,13.5,7.47,7.78,,10.8,1.17,9.51,,0,1,1098,810,288,1527,1053,474
-3,WG_E_Kondrukota (Polavaram),WG- POLAVARAM-09-MB,8.07,5.2,6.49,,6.2,6.23,8.27,4.15,1,0,1195,807,388,1468,980,488
-4,WG_I_Chityala_Tallapudi,WG- CHITYALA-10-MB,6.55,3.49,4.99,,4.48,1.67,4.43,,0,1,1065,751,314,1266,828,438
+S.no,GW watershed  name,IWM Micro basin,NCA pre monsoon depth to water level ,NCA post monsoon depth to water level,NCA pre monsoon depth to water level ,NCA pre monsoon depth to water level ,CA pre monsoon depth to water level ,CA post monsoon depth to water level,CA pre monsoon depth to water level ,CA pre monsoon depth to water level ,Dependancy factor nca,Dependancy factor ca,Normal annual rainfall mm,Normal Monsoon rainfall mm,Normal Non-monsoon rainfall mm,Annual rainfall for the year of assessment mm,Monsoon rainfall for the year of assessment mm,Non-monsoon rainfall for the year of assessment mm
+1,WG_I_Tammileru_Chintalapudi,WG- TAMMILERUNORTH-01-MB,7.45,1.59,5.33,,6.64,1.07,4.32,,1,0,1136,828,308,1434,1012,422
+2,WG_I_Yerrakalva 2_Devulapalli,WG- DEVULAPALLI-03-MB,13.5,7.47,7.78,,10.8,1.17,9.51,,1,0,1098,810,288,1527,1053,474
+3,WG_E_Kondrukota (Polavaram),WG- POLAVARAM-09-MB,8.07,5.2,6.49,,6.2,6.23,8.27,4.15,0,1,1195,807,388,1468,980,488
+4,WG_I_Chityala_Tallapudi,WG- CHITYALA-10-MB,6.55,3.49,4.99,,4.48,1.67,4.43,,1,0,1065,751,314,1266,828,438
 5,WG_I_Kovvuru_Dommeru,WG- KOVVURU-DOMMERU-MB,2.73,0.77,2.43,,4.82,0.93,3.28,,1,1,1137,766,371,1305,812,493
-6,WG_I_Nidadavolu_Arugolanu,WG- NIDADAVOLU-11-MB,8.79,3.23,5.65,,1.64,0.85,2.86,,0,1,1152,787,365,1548,922,626
-7,WG_I_Jagannapeta,WG- TADEPALLIGUDEM-14-MB,2.63,0.96,2.46,,3.7,1.08,3.54,,0,1,1154,786,368,1610,972,638
-8,WG_I_Bhimadole_Bhimadole,WG- BHIMADOLU-15-MB,2.94,1.18,2.77,,3.7,1.08,2.77,,0,1,1000,721,279,1431,991,440
-9,WG_I_Gunderu_Pedavegi,WG- GUNDERU-16-MB,18.05,8.82,11.44,,4.35,1.53,4.03,1.29,0,1,969,703,266,1431,991,440
-10,WG_I_Tammileru South_Eluru,WG- TAMMILERU SOUTH-17-MB,18.82,15.05,16.75,,3.89,2.85,3.53,,0,1,818,319,499,1565,1097,468
-11,WG_I_Pedapadu,WG- RAMILERU-18-MB,20.95,4.97,13.85,,3.05,1.72,2.68,,0,1,1060,763,297,1600,1124,476
-12,WG_I_ODJS_TANUKU,TANUKU-MB,0,0,0,0,4.25,0.98,3.17,,0,1,1296,867,429,1780,1115,665
+6,WG_I_Nidadavolu_Arugolanu,WG- NIDADAVOLU-11-MB,8.79,3.23,5.65,,1.64,0.85,2.86,,1,0,1152,787,365,1548,922,626
+7,WG_I_Jagannapeta,WG- TADEPALLIGUDEM-14-MB,2.63,0.96,2.46,,3.7,1.08,3.54,,1,0,1154,786,368,1610,972,638
+8,WG_I_Bhimadole_Bhimadole,WG- BHIMADOLU-15-MB,2.94,1.18,2.77,,3.7,1.08,2.77,,1,0,1000,721,279,1431,991,440
+9,WG_I_Gunderu_Pedavegi,WG- GUNDERU-16-MB,18.05,8.82,11.44,,4.35,1.53,4.03,1.29,1,0,969,703,266,1431,991,440
+10,WG_I_Tammileru South_Eluru,WG- TAMMILERU SOUTH-17-MB,18.82,15.05,16.75,,3.89,2.85,3.53,,1,0,818,319,499,1565,1097,468
+11,WG_I_Pedapadu,WG- RAMILERU-18-MB,20.95,4.97,13.85,,3.05,1.72,2.68,,1,0,1060,763,297,1600,1124,476
+12,WG_I_ODJS_TANUKU,TANUKU-MB,0,0,0,0,4.25,0.98,3.17,,1,0,1296,867,429,1780,1115,665
 13,WG_I_ODJS_UNDRAJAVARAM,UNDRAJAVARAM-MB,0,0,0,0,6.5,2.45,5.4,,0,0,1207,838,369,1794,1144,650
 14,WG_I_ODJS_Peravali,PERAVALI-MB,0,0,0,0,4.94,3.48,6.41,,0,0,1207,817,390,1624,1001,623
 15,WG_I_36_Iragavaram,IRAGAVARAM-MB,0,0,0,0,3.24,0.8,2.02,,0,0,1294,859,435,1608,987,621
 16,WG_I_ODJS_Attili,ATTILI-MB,0,0,0,0,3.35,1.26,1.84,,0,0,1220,795,425,1582,956,626
-17,WG_I_ODJS_Penumantra,PENUMANTRA-MB,0,0,0,0,2.9,1.8,2.94,,1,0,1204,810,394,1549,973,576
-18,WG_I_ODJS_Penugonda,PENUGONDA-MB,0,0,0,0,2.42,1.9,2.59,,1,0,1169,777,392,1614,927,687
-19,WG_I_ODJS_Achanta,ACHANTA-MB,0,0,0,0,3.05,0.83,2.2,,1,0,1393,881,512,1734,1018,716
+17,WG_I_ODJS_Penumantra,PENUMANTRA-MB,0,0,0,0,2.9,1.8,2.94,,0,1,1204,810,394,1549,973,576
+18,WG_I_ODJS_Penugonda,PENUGONDA-MB,0,0,0,0,2.42,1.9,2.59,,0,1,1169,777,392,1614,927,687
+19,WG_I_ODJS_Achanta,ACHANTA-MB,0,0,0,0,3.05,0.83,2.2,,0,1,1393,881,512,1734,1018,716
 20,WG_I_ODJS_NIDAMARRU,NIDAMARRU-MB,0,0,0,0,3.24,2.2,3.09,,0,0,1111,749,362,1605,961,644
 21,WG_I_ODJS_GANAPAVARAM,GANAPAVARAM-MB,0,0,0,0,2.6,2.33,4.18,,0,0,1121,752,369,1500,890,610
 22,WG_I_ODJS_Pentapadu,PENTAPADU-MB,0,0,0,0,3.24,0.46,2.49,,0,0,1173,791,382,1693,972,721
@@ -27,15 +27,15 @@ S.no,GW watershed  name,IWM Micro basin,NCA pre monsoon depth to water level ,NC
 26,WG_I_ODJS_Bhimavaram,BHEEMAVARAM-MB,0,0,0,0,1.12,0.31,0.93,,0,0,1162,773,389,1613,973,640
 27,WG_I_ODJS_Palakoderu,PALAKODERU-MB,0,0,0,0,4.49,3.7,4.6,,0,0,1129,763,366,1649,1040,609
 28,WG_I_ODJS_VEERAVASARAM,VEERAVASARAM-MB,0,0,0,0,4.12,2.28,3.89,,0,0,1198,783,415,1450,853,597
-29,WG_I_36_PODURU,PODURU-MB,0,0,0,0,4.42,1.12,2.49,,1,0,1246,787,459,1761,1039,722
+29,WG_I_36_PODURU,PODURU-MB,0,0,0,0,4.42,1.12,2.49,,0,1,1246,787,459,1761,1039,722
 30,WG_I_ODJS_Palakollu,PALACOLE-MB,0,0,0,0,3.03,0.46,1.85,,0,0,1336,817,519,1466,850,616
-31,WG_I_ODJS_Yelamanchili,YELAMANCHILI-MB,0,0,0,0,2.15,0.8,1.71,,1,0,1275,777,498,1531,855,676
-32,WG_I_ODJS_Narasapuram,NARASAPURAM-MB,0,0,0,0,1.22,0.28,0.5,,1,0,1293,753,540,1534,821,713
+31,WG_I_ODJS_Yelamanchili,YELAMANCHILI-MB,0,0,0,0,2.15,0.8,1.71,,0,1,1275,777,498,1531,855,676
+32,WG_I_ODJS_Narasapuram,NARASAPURAM-MB,0,0,0,0,1.22,0.28,0.5,,0,1,1293,753,540,1534,821,713
 33,WG_I_ODJS_Mogalturu,MOGALTHUR-MB,0,0,0,0,2.49,0.26,2.03,,0,0,1243,693,550,1650,904,746
-34,WG_I_YARRAKALVA-1_T. NARASAPURAM,WG- YARRAKALAVA-1-02-MB,8.99,2.52,8.7,,,,,,,1,1098,816,282,1329,973,356
-35,WG_I_Jalavagu_Makkinavarigudem,WG- JALAVAGU-04-MB,5.4,1.85,7.05,,,,,,,1,1084,796,288,1457,1114,343
-36,WG_I_Jalleru_Jeelugumilli,WG-JALLERU-05-MB,24.65,10.76,18.78,,,,,,,1,1169,869,300,1592,1202,390
-37,WG_I_Baineru_Jangareddiguedem,WG- BAINERU-06-MB,24.65,10.76,18.78,,,,,,,1,1182,890,292,1674,1278,396
-38,WG_I_Turpukalva_K.R.PURAM,WG-TURPUKALAVA-07-MB,8.57,2.8,7.65,,,,,,,1,1192,878,314,1614,1238,376
-39,WG_E_Kovvada_Pattiseema,WG- KOVVADA-08-MB,4.62,2.44,4.11,,,,,,,1,1185,853,332,1475,1027,448
-40,WG_I_Paletivagu_Devarapalli,WG- PALETIVAGU- 12-MB,7.77,1.68,8.11,,,,,,,1,1106,781,325,1426,953,473
+34,WG_I_YARRAKALVA-1_T. NARASAPURAM,WG- YARRAKALAVA-1-02-MB,8.99,2.52,8.7,,,,,,1,,1098,816,282,1329,973,356
+35,WG_I_Jalavagu_Makkinavarigudem,WG- JALAVAGU-04-MB,5.4,1.85,7.05,,,,,,1,,1084,796,288,1457,1114,343
+36,WG_I_Jalleru_Jeelugumilli,WG-JALLERU-05-MB,24.65,10.76,18.78,,,,,,1,,1169,869,300,1592,1202,390
+37,WG_I_Baineru_Jangareddiguedem,WG- BAINERU-06-MB,24.65,10.76,18.78,,,,,,1,,1182,890,292,1674,1278,396
+38,WG_I_Turpukalva_K.R.PURAM,WG-TURPUKALAVA-07-MB,8.57,2.8,7.65,,,,,,1,,1192,878,314,1614,1238,376
+39,WG_E_Kovvada_Pattiseema,WG- KOVVADA-08-MB,4.62,2.44,4.11,,,,,,1,,1185,853,332,1475,1027,448
+40,WG_I_Paletivagu_Devarapalli,WG- PALETIVAGU- 12-MB,7.77,1.68,8.11,,,,,,1,,1106,781,325,1426,953,473

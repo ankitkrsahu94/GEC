@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 
 public class Village_Data {
 	
-	public static String assesYear = "2017-2018";
+	public static String assesYear = "2012-2013";
 	String loc_assoc;
 
 	int parent_id =1;
