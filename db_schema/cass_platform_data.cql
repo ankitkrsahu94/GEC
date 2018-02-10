@@ -47,12 +47,18 @@ CREATE TABLE cass_platform_data.location_md (
 
 
 CREATE TABLE cass_platform_data.gec_meta_data (
-    parent_id int PRIMARY KEY,
+    parent_uuid uuid,
+    assessment_year text,
+    assessment_hierarchy text,
+    computation_hierarchies set<text>,
+    assessment_units map<text, frozen<map<text,text>>>,
+    season_duration map<text, frozen<map<text,text>>>,
     canal_infiltration text,
     dependency_factor text,
     geological_info text,
     gw_infiltration text,
-    infiltration_info text
+    infiltration_info text,
+    PRIMARY KEY (parent_uuid, assessment_year)
 ) WITH bloom_filter_fp_chance = 0.01
     AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
     AND comment = ''
@@ -67,4 +73,8 @@ CREATE TABLE cass_platform_data.gec_meta_data (
     AND min_index_interval = 128
     AND read_repair_chance = 0.0
     AND speculative_retry = '99PERCENTILE';
+
+
+
+INSERT INTO gec_meta_data(parent_uuid, assessment_year, assessment_hierarchy, computation_hierarchies, assessment_units, canal_infiltration, dependency_factor) VALUES ( 123e4567-e89b-12d3-a456-426655440000, '2012-2013', 'admin', {'admin', 'basin', 'political'}, {'anantapur':('village',1), 'srikakulam':('mandal',0)}, 'canal-infiltration', 'dependency-factor');
 

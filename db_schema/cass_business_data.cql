@@ -1,15 +1,15 @@
 CREATE KEYSPACE cass_business_data WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '1'}  AND durable_writes = true;
 
 CREATE TABLE cass_business_data.activity_log (
-    parent_id int,
+    parent_uuid uuid,
     project_id int,
-    time_period int,
-    loc_id int,
-    insert_ts bigint,
-    data text,
+    time_period text,
     user_id int,
-    PRIMARY KEY ((parent_id, project_id, time_period), loc_id, insert_ts)
-) WITH CLUSTERING ORDER BY (loc_id ASC, insert_ts ASC)
+    insert_ts bigint,
+    loc_uuid uuid,
+    data text,
+    PRIMARY KEY ((parent_uuid, project_id, time_period), user_id, insert_ts)
+) WITH CLUSTERING ORDER BY (user_id ASC, insert_ts DESC)
     AND bloom_filter_fp_chance = 0.01
     AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
     AND comment = ''
