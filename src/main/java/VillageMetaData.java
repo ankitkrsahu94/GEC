@@ -1180,7 +1180,7 @@ public class VillageMetaData {
                     						village_details.get(IWMName).crop_info.put("command", paddy);             						
 
                     					}
-                    					obj = village_details.get(IWMName).crop_info.get(Constants.COMMAND_AREA).get(Constants.PADDY);
+                    					obj = village_details.get(IWMName).crop_info.get(Constants.COMMAND).get(Constants.PADDY);
                     					
                     					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
                     					
@@ -1203,7 +1203,7 @@ public class VillageMetaData {
                     					obj.put("cropArea", totalArea);
             						}
             						else{
-            							if(village_details.get(IWMName).crop_info.get(Constants.NON_COMMAND_AREA)==null){
+            							if(village_details.get(IWMName).crop_info.get(Constants.NON_COMMAND)==null){
                     						Map<String,Map<String,Object>> paddy=new HashMap<>();
                     						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
                     						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
@@ -1216,10 +1216,10 @@ public class VillageMetaData {
                     						obj.put("waterRequired", 1100);
                     						obj.put("waterRequiredUnit", "mm");
                     						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put(Constants.NON_COMMAND_AREA, paddy);             						
+                    						village_details.get(IWMName).crop_info.put(Constants.NON_COMMAND, paddy);             						
 
                     					}
-                    					obj = village_details.get(IWMName).crop_info.get(Constants.NON_COMMAND_AREA).get(Constants.PADDY);
+                    					obj = village_details.get(IWMName).crop_info.get(Constants.NON_COMMAND).get(Constants.PADDY);
                     					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
                     					
                     					if(irrigationAreaInfo.get(Constants.MONSOON) == null) {
@@ -3005,8 +3005,8 @@ public class VillageMetaData {
                    	}
                   	
                   	lpcd = (totalPopulation == 0)?0:(lpcd/totalPopulation);
-                  	populationMap.put(Constants.COMMAND_AREA, command);
-                  	populationMap.put(Constants.NON_COMMAND_AREA, noncommand);
+                  	populationMap.put(Constants.COMMAND, command);
+                  	populationMap.put(Constants.NON_COMMAND, noncommand);
                   	if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))){
                       //	System.out.println("hello");
                   		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).population==null){
@@ -3024,8 +3024,8 @@ public class VillageMetaData {
                   			if(populationObj.getAreaWisePopulation() == null)
                   				populationObj.setAreaWisePopulation(new HashMap<String, Integer>());
                   			
-                  			populationObj.getAreaWisePopulation().put(Constants.COMMAND_AREA, command);
-                  			populationObj.getAreaWisePopulation().put(Constants.NON_COMMAND_AREA, noncommand);
+                  			populationObj.getAreaWisePopulation().put(Constants.COMMAND, command);
+                  			populationObj.getAreaWisePopulation().put(Constants.NON_COMMAND, noncommand);
 //                  			lpcd+=populationObj.lpcd;
 //                  			totalPopulation+=populationObj.totalPopulation;
 //                  			command += populationMap.get(Constants.COMMAND_AREA);
@@ -3210,86 +3210,77 @@ public class VillageMetaData {
                 		 
                 		  //AreaType vs 'avg' vs 'level' vs Assessmentyear vs season vs pre-post vs data
                 		  Map<String, Map<String, Map<String, Map<String, Map<String, Map<String, Double>>>>>> gw = new HashMap<String, Map<String,Map<String,Map<String,Map<String,Map<String,Double>>>>>>();
-                		  gw.put(Constants.COMMAND_AREA, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
-                		  gw.put(Constants.NON_COMMAND_AREA, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+                		  gw.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+                		  gw.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
                 		  gw.put(Constants.POOR_QUALITY, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
-//                		  
-                		  gw.get(Constants.COMMAND_AREA).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
-                		  gw.get(Constants.NON_COMMAND_AREA).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+                		  
+                		  gw.get(Constants.COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+                		  gw.get(Constants.NON_COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
                 		  gw.get(Constants.POOR_QUALITY).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
-//                		  
-                		  gw.get(Constants.COMMAND_AREA).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
-                		  gw.get(Constants.NON_COMMAND_AREA).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+                		  
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
-//                		  
-                		  gw.get(Constants.COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-                		  gw.get(Constants.NON_COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+                		  
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-//                		  
-                		  gw.get(Constants.COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
-                		  gw.get(Constants.COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
-//                		  
-                		  gw.get(Constants.COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
-                		  gw.get(Constants.COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
-//                		  
-                		  gw.get(Constants.NON_COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.NON_COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
-                		  gw.get(Constants.NON_COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
-//                		  
-                		  gw.get(Constants.NON_COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.NON_COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
-                		  gw.get(Constants.NON_COMMAND_AREA).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
+                		  
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
+                		  
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
+                		  
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
+                		  
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
                 		  
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
-//                		  
+                		  
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
 
-                		  
-                		  
-                		  
-                		  /**
-                		   * can be reverted to use as old code.
-                		   */
-//                		  Map<String, Map<String, Map<String, Double>>> gw = new HashMap<>();
-//                		  gw.put(Constants.MONSOON, new HashMap<String, Map<String,Double>>());
-//                		  gw.put(Constants.NON_MONSOON, new HashMap<String, Map<String,Double>>());
-//                		  gw.get(Constants.MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
-//                		  gw.get(Constants.MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
-//                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("h")]));
-//                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("i")]));
-//                		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("d")]));
-//                		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("e")]));
-//                		  
-//                		  gw.get(Constants.NON_MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
-//                		  gw.get(Constants.NON_MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
-//                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("i")]));
-//                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("j")]));
-//                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("e")]));
-//                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("f")]));
                 		  village_details.get(locmapping.get(basinKey)).gw_data = (new Gson()).toJson(gw);
                 		  
+                		  //areaType vs AssessmentYear vs mon/nonmonsoon vs actual/normal vs value
+                		  Map<String, Map<String, Map<String, Map<String, Double>>>> rf = new HashMap<String, Map<String,Map<String,Map<String,Double>>>>();
+                		  rf.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
+                		  rf.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
+                		  rf.get(Constants.COMMAND).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
+                		  rf.get(Constants.NON_COMMAND).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
+                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
                 		  
-                		  Map<String, Map<String,Double>> rf = new HashMap<String, Map<String,Double>>();
-                		  rf.put(Constants.MONSOON, new HashMap<String, Double>());
-                		  rf.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  rf.get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
-                		  rf.get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
-                		  rf.get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
-                		  rf.get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));                		  
+                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
+                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
+                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));
+                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
+                		  
+                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
+                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
+                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));
+                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
+                		  
                 		  village_details.get(locmapping.get(basinKey)).rf_data =  (new Gson()).toJson(rf);
 
                 		  
                 		  //TODO verify it .... Domestic
                 		  Map<String, Map<String, Double>> gwDependency = new HashMap<String, Map<String, Double>>();
 	                   	  gwDependency.put(Constants.DOMESTIC, new HashMap<String, Double>());
-	                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.COMMAND_AREA, Utils.parseDouble(fields[format.convert("m")]));
-	                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.NON_COMMAND_AREA, Utils.parseDouble(fields[format.convert("l")]));
+	                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("m")]));
+	                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("l")]));
                 		  village_details.get(locmapping.get(basinKey)).setGwDependencyFactor(gwDependency);
                 		  
                 	  }

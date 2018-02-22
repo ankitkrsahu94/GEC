@@ -15,8 +15,8 @@ public class Constants {
 	public static final String POST_MONSOON = "post_monsoon";
 	//Area
 	public static final String POOR_QUALITY = "poor_quality";
-	public static final String COMMAND_AREA = "command";
-	public static final String NON_COMMAND_AREA = "non_command";
+	public static final String COMMAND = "command";
+	public static final String NON_COMMAND = "non_command";
 	public static final String NON_COMMAND_POOR_QUALITY_AREA = "non_command_poor_quality";
 	public static final String RECHARGE_WORTHY_AREA = "recharge_worthy";
 	//Table columns
@@ -59,11 +59,10 @@ public class Constants {
 	public static final String CRITICAL = "critical";
 	public static final String OVER_EXPLOITED = "over_exploited";
 	public static final String STAGE = "stage";
-	public static final List<String> ASSESSMENT_YEAR = new ArrayList<>(Arrays.asList("2016-2017"));
 	public static final List<String> SEASONS = new ArrayList<>(Arrays.asList(MONSOON, NON_MONSOON, ANNUAL));
 	public static final int PROCESSED = 1;
 	public static final int UNPROCESSED = 0;
-	public static final List<String> AREA_TYPES = new ArrayList<String>(Arrays.asList(COMMAND_AREA, NON_COMMAND_AREA, POOR_QUALITY));
+	public static final List<String> AREA_TYPES = new ArrayList<String>(Arrays.asList(COMMAND, NON_COMMAND, POOR_QUALITY));
 	public static final String RECHARGE = "recharge";
 	public static final String DRAFT = "draft";
 	public static final String OTHER = "other";

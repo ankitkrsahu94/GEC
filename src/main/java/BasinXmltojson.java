@@ -1037,8 +1037,8 @@ public class BasinXmltojson {
 					}
 					
 					Map<String, Integer> populationMap = new HashMap<>();
-					populationMap.put(Constants.COMMAND_AREA, command);
-					populationMap.put(Constants.NON_COMMAND_AREA, noncommand);
+					populationMap.put(Constants.COMMAND, command);
+					populationMap.put(Constants.NON_COMMAND, noncommand);
 					if (locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")]))) {
 						// System.out.println("hello");
 						if (Basin_details.get(
@@ -1059,8 +1059,8 @@ public class BasinXmltojson {
                   			if(populationObj.getAreaWisePopulation() == null)
                   				populationObj.setAreaWisePopulation(new HashMap<String, Integer>());
                   			
-                  			populationObj.getAreaWisePopulation().put(Constants.COMMAND_AREA, command);
-                  			populationObj.getAreaWisePopulation().put(Constants.NON_COMMAND_AREA, noncommand);
+                  			populationObj.getAreaWisePopulation().put(Constants.COMMAND, command);
+                  			populationObj.getAreaWisePopulation().put(Constants.NON_COMMAND, noncommand);
 //							lpcd += populationObj.lpcd;
 //							totalPopulation += populationObj.totalPopulation;
 //							command += populationObj.command;
@@ -1095,19 +1095,19 @@ public class BasinXmltojson {
 			                  Map<String, Map<String, Map<String, Double>>> gw = new HashMap<>();
 			                  gw.put(Constants.MONSOON, new HashMap<String, Map<String,Double>>());
 	                		  gw.put(Constants.NON_MONSOON, new HashMap<String, Map<String,Double>>());
-	                		  gw.get(Constants.MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
-	                		  gw.get(Constants.MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
-	                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("h")]));
-	                		  gw.get(Constants.MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("i")]));
-	                		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("d")]));
-	                		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("e")]));
+	                		  gw.get(Constants.MONSOON).put(Constants.COMMAND, new HashMap<String, Double>());
+	                		  gw.get(Constants.MONSOON).put(Constants.NON_COMMAND, new HashMap<String, Double>());
+	                		  gw.get(Constants.MONSOON).get(Constants.COMMAND).put("pre", Utils.parseDouble(fields[format.convert("h")]));
+	                		  gw.get(Constants.MONSOON).get(Constants.COMMAND).put("post", Utils.parseDouble(fields[format.convert("i")]));
+	                		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND).put("pre", Utils.parseDouble(fields[format.convert("d")]));
+	                		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND).put("post", Utils.parseDouble(fields[format.convert("e")]));
 	                		  
-	                		  gw.get(Constants.NON_MONSOON).put(Constants.COMMAND_AREA, new HashMap<String, Double>());
-	                		  gw.get(Constants.NON_MONSOON).put(Constants.NON_COMMAND_AREA, new HashMap<String, Double>());
-	                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("i")]));
-	                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("j")]));
-	                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("pre", Utils.parseDouble(fields[format.convert("e")]));
-	                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND_AREA).put("post", Utils.parseDouble(fields[format.convert("f")]));
+	                		  gw.get(Constants.NON_MONSOON).put(Constants.COMMAND, new HashMap<String, Double>());
+	                		  gw.get(Constants.NON_MONSOON).put(Constants.NON_COMMAND, new HashMap<String, Double>());
+	                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND).put("pre", Utils.parseDouble(fields[format.convert("i")]));
+	                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND).put("post", Utils.parseDouble(fields[format.convert("j")]));
+	                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND).put("pre", Utils.parseDouble(fields[format.convert("e")]));
+	                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND).put("post", Utils.parseDouble(fields[format.convert("f")]));
 //		            		  System.out.println("ANKIT :: basin : " + basinName + " data : " + Basin_details.get(basinName));
 	                		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
 	                		  
@@ -1125,8 +1125,8 @@ public class BasinXmltojson {
 	                		  //TODO verify it .... Domestic
 		                   	  Map<String, Map<String, Double>> gwDependency = new HashMap<String, Map<String, Double>>();
 		                   	  gwDependency.put(Constants.DOMESTIC, new HashMap<String, Double>());
-		                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.COMMAND_AREA, Utils.parseDouble(fields[format.convert("m")]));
-		                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.NON_COMMAND_AREA, Utils.parseDouble(fields[format.convert("l")]));
+		                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("m")]));
+		                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("l")]));
 		                   	  Basin_details.get(basinName).gw_dependency  = (new Gson()).toJson(gwDependency);
 	                		  
 	              }
