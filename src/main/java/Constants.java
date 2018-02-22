@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Constants {
+	public static final String CURRENT_ASSESSMENT_YEAR = "2012-2013";
 	public static final int PADDY_WATER_REQUIREMENT = 1200;
 	public static final int NON_PADDY_WATER_REQUIREMENT = 600;
 	public static final String MONSOON = "monsoon";
@@ -97,6 +98,11 @@ public class Constants {
 	public static final String CROP_AREA = "cropArea";
 	public static final List<String> CATEGORIES = new ArrayList<String>(Arrays.asList(DOMESTIC, INDUSTRY, AGRICULTURE));
 	public static final int PUMPING_HOURS = 7;
+	public static final String LEVEL = "level";
+	public static final String PRE = "pre";
+	public static final String POST = "post";
+	
+	public static final String AVERAGE = "avg";
     /**
      * For each category what is the type of wells from which we can get yield
      */
