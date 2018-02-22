@@ -143,11 +143,12 @@ public class Village_Data {
 		 Map<String,Object> obj = new HashMap<>();
 		 Gson gs = new Gson();
 		 Area areaObj = gs.fromJson(area, Area.class);
-		 Map<String, Object> areaDistribution = new HashMap<>();
-         areaDistribution.put("recharge_worthy",areaObj.rechargeWorthy );
-         areaDistribution.put("non_recharge_worthy",areaObj.nonRechargeWorthy );
-         obj.put("total", areaObj.total);
-	     obj.put("areaDistribution", areaDistribution);
+		 obj.put(Constants.COMMAND, areaObj.command);
+		 obj.put(Constants.NON_COMMAND, areaObj.non_command);
+		 obj.put(Constants.POOR_QUALITY, areaObj.poor_quality);
+		 obj.put(Constants.HILLY, areaObj.hilly);
+		 obj.put(Constants.FOREST, areaObj.forest);
+		 obj.put(Constants.TOTAL, areaObj.total);
 	     this.area = gs.toJson(obj);
 		
 	}

@@ -213,7 +213,6 @@ public class BasinXmltojson {
 					if (!fields[13].isEmpty()) {
 						poorQuality = Double.parseDouble(fields[13]);
 					}
-					RechargeWorthy rw = new RechargeWorthy(command, nonCommand, poorQuality);
 					double hilly = 0;
 					double forest = 0;
 					if (!fields[6].isEmpty() || !fields[10].isEmpty() || !fields[14].isEmpty()) {
@@ -224,11 +223,17 @@ public class BasinXmltojson {
 						forest = Utils.parseDouble(fields[7]) + Utils.parseDouble(fields[11])
 								+ Utils.parseDouble(fields[15]);
 					}
-					NonRechargeWorthy nrw = new NonRechargeWorthy(hilly, forest);
-
-					Area area = new Area(total, rw, nrw);
+					Area area = new Area();
+					total = command + nonCommand + poorQuality + hilly + forest;
+					
+					area.command = command;
+					area.non_command = nonCommand;
+					area.poor_quality = poorQuality;
+					area.hilly = hilly;
+					area.forest = forest;
+					area.total = total;
+					
 					String areajson = Areajs.toJson(area);
-
 					// JSONObject jsn = new JSONObject(areajson.getBytes());
 					// System.out.println(areajson);
 //					System.out.println("locmaping : " + locmapping.keySet());
@@ -247,15 +252,20 @@ public class BasinXmltojson {
 							Area areaobj = Areajs.fromJson(Basin_details
 									.get(locmapping.get(format.removeQuotes(fields[format.convert("c")]))).getArea(),
 									Area.class);
+							
 							total += areaobj.total;
-							command += areaobj.rechargeWorthy.command;
-							nonCommand += areaobj.rechargeWorthy.non_command;
-							poorQuality += areaobj.rechargeWorthy.poor_quality;
-							RechargeWorthy rwObj = new RechargeWorthy(command, nonCommand, poorQuality);
-							hilly += areaobj.nonRechargeWorthy.hilly;
-							forest += areaobj.nonRechargeWorthy.forest;
-							NonRechargeWorthy nrwobj = new NonRechargeWorthy(hilly, forest);
-							Area areaObj = new Area(total, rwObj, nrwobj);
+							command += areaobj.command;
+							nonCommand += areaobj.non_command;
+							poorQuality += areaobj.poor_quality;
+							hilly += areaobj.hilly;
+							forest += areaobj.forest;
+							Area areaObj = new Area();
+							areaObj.command = command;
+							areaObj.non_command = nonCommand;
+							areaObj.poor_quality = poorQuality;
+							areaObj.hilly = hilly;
+							areaObj.forest = forest;
+							areaObj.total = total;
 							String areaObjjson = Areajs.toJson(areaObj);
 							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
 									.setArea(areaObjjson);

@@ -611,7 +611,7 @@ public class VillageMetaData {
                 	double nonCommand = 0;
                 	double poorQuality = 0;
                 	
-	                if(!fields[4].isEmpty()){
+                	if(!fields[4].isEmpty()){
 	                	total=Double.parseDouble(fields[4]);
 	                }
 	                if(!fields[5].isEmpty()){
@@ -623,7 +623,6 @@ public class VillageMetaData {
 	                if(!fields[13].isEmpty()){
 	                	poorQuality=Double.parseDouble(fields[13]);
 	                }
-                	RechargeWorthy rw = new RechargeWorthy(command,nonCommand,poorQuality);
                 	double hilly=0;
                 	double forest =0;
                 	if(!fields[6].isEmpty()||!fields[10].isEmpty()||!fields[14].isEmpty()){
@@ -632,11 +631,18 @@ public class VillageMetaData {
                 	if(!fields[7].isEmpty()||!fields[11].isEmpty()||!fields[15].isEmpty()){
 	                	forest= Utils.parseDouble(fields[7])+Utils.parseDouble(fields[11])+Utils.parseDouble(fields[15]);
 	                }
-                	NonRechargeWorthy nrw = new NonRechargeWorthy(hilly,forest);
                 	
-                	Area area = new Area(total,rw,nrw);
-                	String areajson = Area.toJson(area);
+                	Area areaObj = new Area();
+                	areaObj.command = command;
+                	areaObj.non_command = nonCommand;
+                	areaObj.poor_quality = poorQuality;
+                	areaObj.hilly = hilly;
+                	areaObj.forest = forest;
+                	total = command + nonCommand + poorQuality + hilly + forest;
+                	areaObj.total = total;
                 	
+                	String areajson = Area.toJson(areaObj);
+                	System.out.println("AREA JSON : " + areajson);
                 	//JSONObject jsn = new JSONObject(areajson.getBytes());
                 	//System.out.println(areajson);
 //                	System.out.println("locmapping : " + locmapping.keySet());
@@ -654,17 +660,24 @@ public class VillageMetaData {
                     		}
                 		}
                 		else{
-                			Area areaobj=Area.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea(), Area.class);
-                			total+=areaobj.total;
-                			command+=areaobj.rechargeWorthy.command;
-                   			nonCommand+=areaobj.rechargeWorthy.non_command;
-                			poorQuality+=areaobj.rechargeWorthy.poor_quality;
-                			RechargeWorthy rwObj = new RechargeWorthy(command,nonCommand,poorQuality);
-                			hilly+=areaobj.nonRechargeWorthy.hilly;
-                			forest+=areaobj.nonRechargeWorthy.forest;
-                        	NonRechargeWorthy nrwobj = new NonRechargeWorthy(hilly,forest);
-                        	Area areaObj = new Area(total,rwObj,nrwobj);  
-                        	String areaObjjson = Area.toJson(areaObj);
+                			Area areaobj= Area.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea(), Area.class);
+//                			if(areaObj2 == null)
+//                				areaObj2 = new Area();
+//                			System.out.println("AReA : " + village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea());
+                			total += areaobj.total;
+                			command+=areaobj.command;
+                   			nonCommand+=areaobj.non_command;
+                			poorQuality+=areaobj.poor_quality;
+                			hilly+=areaobj.hilly;
+                			forest+=areaobj.forest;
+                			Area areaObj2 = new Area();
+                			areaObj2.command = command;
+                			areaObj2.non_command = nonCommand;
+                			areaObj2.poor_quality = poorQuality;
+                			areaObj2.hilly = hilly;
+                			areaObj2.forest = forest;
+							areaObj2.total = total;
+                        	String areaObjjson = Area.toJson(areaObj2);
                         	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArea(areaObjjson);
                 			
                 		}
@@ -691,9 +704,8 @@ public class VillageMetaData {
 	        	}
 //	        	System.out.println("ANKIT ::: key : " + key);
 //	        	System.out.println("ANKIT ::: wells : " + village_details.get(key).getResourceDistribution());
-	        	Area areaobj=Area.fromJson(village_details.get(key).getArea(), Area.class);
-				
-	        	if(areaobj.total==0){
+	        	Area area= Area.fromJson(village_details.get(key).getArea(), Area.class);
+	        	if(area.total==0){
 					c++;
 				}
 	        }
@@ -735,7 +747,7 @@ public class VillageMetaData {
                     	if(Basin_Id.containsKey(basinmapping.get(BasinName))) {
                     		BasinCode = Basin_Id.get(basinmapping.get(BasinName));
                     		Area areaobj=Area.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea(), Area.class);
-                  		  	Villagearea = areaobj.total;
+                    		Villagearea = areaobj.total;
                           	
                               if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getBasinAssociation()==null){
                             	  count++;
