@@ -10,6 +10,11 @@ CREATE TABLE cass_platform_data.location_md (
     loc_name text,
     rf_infil_rate double,
     gw_specific_yield double,
+<<<<<<< Updated upstream
+    transmissivity double,
+    storage_coeff double,
+=======
+>>>>>>> Stashed changes
     soil_type text,
     loc_assoc text,
     area text,
