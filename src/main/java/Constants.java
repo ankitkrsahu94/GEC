@@ -5,9 +5,12 @@ import java.util.List;
 import java.util.Map;
 
 public class Constants {
-	public static final String CURRENT_ASSESSMENT_YEAR = "2012-2013";
-	public static final int PADDY_WATER_REQUIREMENT = 1200;
-	public static final int NON_PADDY_WATER_REQUIREMENT = 600;
+	public static final String GEC_ASSESSMENT_YEAR = "2012-2013";
+	public static final int PARENT_ID = 1;
+	public static final int LOC_TYPE_VILLAGE = 10;
+	public static final int LOC_TYPE_MB = 25;
+	public static final double PADDY_WATER_REQUIREMENT = 600.00;
+	public static final double NON_PADDY_WATER_REQUIREMENT = 300.00;
 	public static final String MONSOON = "monsoon";
 	public static final String NON_MONSOON = "non_monsoon";
 	public static final String ANNUAL = "annual";
@@ -19,7 +22,6 @@ public class Constants {
 	public static final String NON_COMMAND = "non_command";
 	public static final String HILLY = "hilly";
 	public static final String FOREST = "forest";
-	public static final String NON_COMMAND_POOR_QUALITY_AREA = "non_command_poor_quality";
 	public static final String RECHARGE_WORTHY_AREA = "recharge_worthy";
 	//Table columns
 	public static final String GEOLOGICAL_INFO = "geological_info";
@@ -47,10 +49,12 @@ public class Constants {
 	public static final String ARTIFICIAL_STRUCTURE = "artificial_structure";
 	public static final String SURFACE_WATER_IRRIGATION = "surface_irrigation";
 	public static final String LIFT_IRRIGATION = "lift_irrigation";
+	public static final String MI_IRRIGATION = "mi_irrigation";
 	public static final String GROUND_WATER_IRRIGATION = "gw_irrigation";
 	//Crop
 	public static final String PADDY = "paddy";
 	public static final String NON_PADDY = "nonPaddy";
+	public static final List<String> CROP_TYPES = new ArrayList<String>(Arrays.asList(PADDY, NON_PADDY));
 	public static final String KHARIF = "kharif";
 	public static final String RABI = "rabi";
 	//Others
@@ -61,7 +65,7 @@ public class Constants {
 	public static final String CRITICAL = "critical";
 	public static final String OVER_EXPLOITED = "over_exploited";
 	public static final String STAGE = "stage";
-	public static final List<String> SEASONS = new ArrayList<>(Arrays.asList(MONSOON, NON_MONSOON, ANNUAL));
+	public static final List<String> SEASONS = new ArrayList<>(Arrays.asList(MONSOON, NON_MONSOON));
 	public static final int PROCESSED = 1;
 	public static final int UNPROCESSED = 0;
 	public static final List<String> AREA_TYPES = new ArrayList<String>(Arrays.asList(COMMAND, NON_COMMAND, POOR_QUALITY));
@@ -95,13 +99,23 @@ public class Constants {
 	public static final String IN_STORAGE_GW = "in_storage_gw";
 	public static final int DECIMAL = 5;
 	public static final String IRRIGATION_AREA_INFO = "irrigationAreaInfo";
-	public static final String MI_IRRIGATION = "mi_irrigation";
 	public static final String CROP_AREA = "cropArea";
 	public static final List<String> CATEGORIES = new ArrayList<String>(Arrays.asList(DOMESTIC, INDUSTRY, AGRICULTURE));
 	public static final int PUMPING_HOURS = 7;
 	public static final String LEVEL = "level";
 	public static final String PRE = "pre";
 	public static final String POST = "post";
+	public static final String MI_TANK = "mi_tank";
+	public static final String PT = "pt";
+	public static final String MPT = "mpt";
+	public static final String CD = "cd";
+	public static final String FP = "fp";
+	public static final List<String> ARS_TYPES = new ArrayList<String>(Arrays.asList(PT, MPT, CD, FP, OTHER));
+	public static final Map<String, Double> FILLINGS = new HashMap<String, Double>();
+	public static final Double ARS_INFIL_FACTOR = 0.5;
+	public static final Double LITRES_TO_HAM = 0.0000001;
+	public static final double HECTARE_PER_ACRE = 0.404686;
+	public static final List<String> IRRIGATION_SOURCES = new ArrayList<String>(Arrays.asList(SURFACE_WATER_IRRIGATION, GROUND_WATER_IRRIGATION, MI_IRRIGATION));
 	
 	public static final String AVERAGE = "avg";
     /**
@@ -109,6 +123,12 @@ public class Constants {
      */
     public static final Map<String, List<String>> CATEGORY_WELLS = new HashMap<>();
     static{
+    	FILLINGS.put(FP, 22.0);
+    	FILLINGS.put(PT, 1.5);
+    	FILLINGS.put(MPT, 1.5);
+    	FILLINGS.put(CD, 6.0);
+    	FILLINGS.put(OTHER, 10.0);
+    	
     	CATEGORY_WELLS.put(INDUSTRY, new ArrayList<String>());
     	CATEGORY_WELLS.put(DOMESTIC, new ArrayList<String>());
     	CATEGORY_WELLS.put(AGRICULTURE, new ArrayList<String>());

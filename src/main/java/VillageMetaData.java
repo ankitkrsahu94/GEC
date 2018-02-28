@@ -3,7 +3,6 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -11,6 +10,7 @@ import java.util.Map;
 import org.json.JSONObject;
 
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 
 public class VillageMetaData {
@@ -380,6 +380,7 @@ public class VillageMetaData {
                 		 */
             			yield = (fields[3+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[3+(12*index)]);
             			yield = (yield == 0.0)?2400.0:yield;
+            			yield = yield * (7*Constants.LITRES_TO_HAM);
             			monsoonDays = (fields[5+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[5+(12*index)]);
                 		operationDaysAgriculture.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[6+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[6+(12*index)]);
@@ -393,6 +394,7 @@ public class VillageMetaData {
                 		 */
                 		yield = (fields[7+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[7+(12*index)]);
                 		yield = (yield == 0.0)?284.0:yield;
+                		yield = yield * (7*Constants.LITRES_TO_HAM);
                 		monsoonDays = (fields[9+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[9+(12*index)]);
                 		operationDaysDomestic.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[10+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[10+(12*index)]);
@@ -407,6 +409,7 @@ public class VillageMetaData {
 //                		System.out.println(" fields : " + record);
                 		yield = (fields[11+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[11+(12*index)]);
                 		yield = (yield == 0.0)?4000.0:yield;
+                		yield = yield * (7*Constants.LITRES_TO_HAM);
                 		monsoonDays = (fields[13+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[13+(12*index)]);
                 		operationDaysIndustry.put(Constants.MONSOON, monsoonDays);
                 		nonMonsoonDays = (fields[14+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[14+(12*index)]);
@@ -508,11 +511,8 @@ public class VillageMetaData {
                 				   operativeDays.put(Constants.MONSOON, 0.0);
                 				   operativeDays.put(Constants.NON_MONSOON, 0.0);
                 				   mbWell.setOperativeDays(operativeDays);
-//                				   System.out.println(well);
-//                				   System.out.println(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
                 			   }
                 				   
-//                			   System.out.println("basin : " + basinName + " : category : " + category + " : areaType : " + areaType + " : well : " + well);
             				   else{
             					   mbWell = basinWiseWellsMD.get(basinName).get(well).get(areaType).get(category);
             				   }
@@ -734,17 +734,8 @@ public class VillageMetaData {
                   	String gwvillageName = format.removeQuotes(fields[format.convert("d")]);
                     double fractionArea = Utils.parseDouble(fields[format.convert("e")]);
                     
-//                    System.out.println("ANKIT ::: village : " + gwvillageName + " fraction : " + fractionArea);
-//                    System.out.println("ANKIT ::: locMap contains : " + (locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))));
                     if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
-                      	/*System.out.println(BasinName);
-                      	System.out.println("Basin_Id"+Basin_Id);
-                      	System.out.println("basinmapping"+basinmapping);*/
-//                    	System.out.println("ANKIT ::: Basin ID : " + Basin_Id);
-//                    	System.out.println("ANKIT ::: Basin Name : " + BasinName);
-//                    	System.out.println("ANKIT ::: Basin mapping : " + basinmapping);
-//                    	System.out.println("ANKIT ::: Basin ID Contains : " + Basin_Id.containsKey(basinmapping.get(BasinName)));
-                    	if(Basin_Id.containsKey(basinmapping.get(BasinName))) {
+                      	if(Basin_Id.containsKey(basinmapping.get(BasinName))) {
                     		BasinCode = Basin_Id.get(basinmapping.get(BasinName));
                     		Area areaobj=Area.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea(), Area.class);
                     		Villagearea = areaobj.total;
@@ -769,30 +760,6 @@ public class VillageMetaData {
                 	  System.out.println("Error : area row fields.length : " + fields.length);
                   }
         }
-//              int c=0;
-//              
-//              for(String key:village_details.keySet()){
-//              	if(village_details.get(key) == null){
-//              		System.out.println("ANKIT ::: village details is null for key : " + key);
-//              		continue;
-//              	}
-////              	else if(village_details.get(key).loc_association == null){
-////              		System.out.println("ANKIT ::: location association is null for key : " + key);
-////              		continue;
-////              	}
-//              	
-//            	if(village_details.get(key).loc_association == null || village_details.get(key).loc_association.isEmpty()){
-//              		//System.out.println(key);
-//              		c++;
-//              		//System.out.println(village_details.get(key).getVillageName());
-//              	}
-//              }
-//              /*for(String vill:village_details.keySet()){
-//              	c++;
-//              	//System.out.println(village_details.get(vill));
-//              }*/
-////              System.out.println("village assoc count"+c);
-              
               
           }catch (IOException e) {
               e.printStackTrace();
@@ -864,97 +831,36 @@ public class VillageMetaData {
                 		Integer idd = cropId.get(id);
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
-            				
             				if(village_details.containsKey(IWMName)){
-//            					System.out.println("village details contains : " + IWMName + " : " + village_details.containsKey(IWMName));
-            					//System.out.println(IWMName);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("command")==null){
-            						Map<String,Map<String,Object>> paddy=new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
+            					//source vs AreaType vs CropType vs CropName vs CropData
+            					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					obj = village_details.get(IWMName).getCrop();
+            					if(obj == null)
+            						obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					
+            					if(obj.get(Constants.SURFACE_WATER_IRRIGATION) == null){
+            						obj.put(Constants.SURFACE_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+            					}
+            					
+            					if(obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND) == null){
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).put(Constants.COMMAND, new HashMap<String, Map<String,CropData>>());
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).put(Constants.PADDY, new HashMap<String, CropData>());
             						
-            						obj = new HashMap<>();
-            						
-            						irrigationAreaInfo.get("monsoon").put("surface_irrigation", 0.0);
-            						obj.put("irrigationAreaInfo", irrigationAreaInfo);
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 1100);
-            						obj.put("waterRequiredUnit", "mm");
-            						paddy.put("paddy", obj);
-            						village_details.get(IWMName).crop_info.put("command", paddy);             						
-
+            						CropData crop = new CropData();
+            						crop.setCropArea(new HashMap<String, Double>());
+            						crop.setWaterRequired(new HashMap<String, Double>());
+            						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+            						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+            						crop.getCropArea().put(Constants.MONSOON, 0.0);
+            						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).put(Constants.PADDY, crop);
+            						village_details.get(IWMName).setCrop(obj);          	
             					}
-            					obj = village_details.get(IWMName).crop_info.get("command").get("paddy");
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get("irrigationAreaInfo");
-            					if(irrigationAreaInfo == null){
-            						irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-            					}
-            					if(irrigationAreaInfo.get("monsoon").get("surface_irrigation") == null){
-            						irrigationAreaInfo.get("monsoon").put("surface_irrigation", 0.0);
-            					}
-//            					if(((Map<String, Double>)obj.get("irrigationAreaInfo").get("monsoon").get("surface_irrigation"))==null){
-//            						((Map<String,Double>)obj.get("irrigationAreaInfo").get("monsoon")).put("surface_irrigation", 0.0);
-//            					}
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("surface_irrigation");
-            					irrigatedArea += paddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put("surface_irrigation", irrigatedArea);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					totalArea += paddykharif.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
-            				}
-                						
-            			}
-                	}
-                	/**
-                	 * For now we will not be considering lift irrigation in our data.
-                	 */
-                	if(source.equalsIgnoreCase("Lift irrigation")){
-            			
-                		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
-            				String IWMName = villageId.get(idd);
-            				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName);
-            					Map<String,Object> obj;
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						obj = new HashMap<>();
-            						Map<String,Map<String,Object>> paddy=new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-            						irrigationAreaInfo.get("monsoon").put("lift_irrigation", 0.0);
-            						obj.put("irrigationAreaInfo", irrigationAreaInfo);
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 1100);
-            						obj.put("waterRequiredUnit", "mm");
-            						paddy.put("paddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get("irrigationAreaInfo");
-            					if(irrigationAreaInfo.get("monsoon") == null){
-            						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-            						irrigationAreaInfo.get("monsoon").put("lift_irrigation", 0.0);
-            					}
-            					if(irrigationAreaInfo.get("monsoon").get("lift_irrigation")==null){
-            						irrigationAreaInfo.get("monsoon").put("lift_irrigation", 0.0);
-            					}
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("lift_irrigation");
-            					//System.out.println(irrigatedArea);
-            					irrigatedArea+=paddykharif.get(id).get(source);
-            					//System.out.println(irrigatedArea);
-            					irrigationAreaInfo.get("monsoon").put("lift_irrigation", irrigatedArea);
-            					//System.out.println("***in lift irr"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea+=paddykharif.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
+//            					obj = village_details.get(IWMName).getCrop();
+            					double irrigatedArea = obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get(Constants.PADDY).getCropArea().get(Constants.MONSOON);
+            					irrigatedArea += (paddykharif.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+            					obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get(Constants.PADDY).getCropArea().put(Constants.MONSOON, irrigatedArea);
+            					village_details.get(IWMName).setCrop(obj);
             				}
                 						
             			}
@@ -962,105 +868,38 @@ public class VillageMetaData {
                 	/**
                 	 * Tanks = surface water irrigation source
                 	 */
-                	if(source.equalsIgnoreCase("Tanks")){
-
+                	if(source.equalsIgnoreCase("Tanks") || source.equalsIgnoreCase("MI Tanks")){
                 		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
+            			if((idd!= null && villageId.containsKey(idd)) || villageId.containsKey(id)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> paddy=new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
+            					//source vs AreaType vs CropType vs CropName vs CropData
+            					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					obj = village_details.get(IWMName).crop_info;
+            					if(obj == null)
+            						obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					if(obj.get(Constants.MI_IRRIGATION) == null)
+            						obj.put(Constants.MI_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+            					
+            					if(obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND) == null){
+            						obj.get(Constants.MI_IRRIGATION).put(Constants.NON_COMMAND, new HashMap<String, Map<String,CropData>>());
+            						obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).put(Constants.PADDY, new HashMap<String, CropData>());
             						
-            						obj = new HashMap<>();
-            						irrigationAreaInfo.get("monsoon").put("mi_irrigation", 0.0);
-            						obj.put("irrigationAreaInfo", irrigationAreaInfo);
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 1100);
-            						obj.put("waterRequiredUnit", "mm");
-            						paddy.put("paddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
+            						CropData crop = new CropData();
+            						crop.setCropArea(new HashMap<String, Double>());
+            						crop.setWaterRequired(new HashMap<String, Double>());
+            						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+            						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+            						crop.getCropArea().put(Constants.MONSOON, 0.0);
+            						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+            						obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).put(Constants.PADDY, crop);
+            						village_details.get(IWMName).crop_info = obj;             					
             					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get("irrigationAreaInfo");
-            					if(irrigationAreaInfo == null){
-            						irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-            					}
-            					if(irrigationAreaInfo.get("monsoon").get("mi_irrigation") == null){
-            						irrigationAreaInfo.get("monsoon").put("mi_irrigation", 0.0);
-            					}
-//            					if(((Map<String, Double>)obj.get("monsoon")).get("surface_irrigation")==null){
-//            						((Map<String, Double>)obj.get("monsoon")).put("surface_irrigation", 0.0);
-//            					}
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("mi_irrigation");
-            					irrigatedArea += paddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put("mi_irrigation", irrigatedArea);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					totalArea += paddykharif.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
-            				}
-                						
-            			}
-                	}
-                	/**
-                	 * MI Tanks = surface water
-                	 */
-                	if(source.equalsIgnoreCase("MI Tanks")){
-            			
-            			if(villageId.containsKey(id)){
-            				String IWMName = villageId.get(id);
-            				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> paddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put("mi_irrigation", 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 1100);
-            						obj.put("waterRequiredUnit", "mm");
-            						paddy.put("paddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-            					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.MONSOON).get("mi_irrigation") == null)
-            						irrigationAreaInfo.get(Constants.MONSOON).put("mi_irrigation", 0.0);
-            					
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("mi_irrigation");
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(paddykharif.get(id).get(source));
-            					irrigatedArea+=paddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put("mi_irrigation", irrigatedArea);
-            					//System.out.println("***in MI Tanks"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea+=paddykharif.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
+//            					obj = village_details.get(IWMName).crop_info;
+            					double irrigatedArea = obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get(Constants.PADDY).getCropArea().get(Constants.MONSOON);
+            					irrigatedArea += (paddykharif.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+            					obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get(Constants.PADDY).getCropArea().put(Constants.MONSOON, irrigatedArea);
+            					village_details.get(IWMName).setCrop(obj);
             				}
                 						
             			}
@@ -1069,96 +908,46 @@ public class VillageMetaData {
                 	 * Dug well = Ground water irrigation
                 	 */
                 	if(source.equalsIgnoreCase("Dug well")){
-            			
-                		Integer idd = cropId.get(id);
+            			Integer idd = cropId.get(id);
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
             					if(computeDugwell.containsKey(IWMName)){
-            						if(computeDugwell.get(IWMName)>0){
-            							if(village_details.get(IWMName).crop_info.get("command")==null){
-                    						Map<String,Map<String,Object>> paddy=new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-                    						obj = new HashMap<>();
-                    						irrigationAreaInfo.get("monsoon").put("gw_irrigation", 0.0);
-                    						obj.put("irrigationAreaInfo", irrigationAreaInfo);
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 1100);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put("command", paddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("command").get("paddy");
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get("irrigationAreaInfo");
-                    					if(irrigationAreaInfo == null){
-                    						irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-                    					}
-                    					if(irrigationAreaInfo.get("monsoon").get("gw_irrigation") == null){
-                    						irrigationAreaInfo.get("monsoon").put("gw_irrigation", 0.0);
-                    					}
-//                    					if(((Map<String, Double>)obj.get("monsoon")).get("gw_irrigation")==null){
-//                    						((Map<String, Double>)obj.get("monsoon")).put("gw_irrigation", 0.0);
-//                    					}
-                    					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(paddykharif.get(id).get(source));
-                    					irrigatedArea+=paddykharif.get(id).get(source);
-                    					irrigationAreaInfo.get("monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area "+totalArea);
-                    					totalArea+=paddykharif.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            						else{
-            							if(village_details.get(IWMName).crop_info.get("non_command")==null){
-                    						Map<String,Map<String,Object>> paddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-                    						irrigationAreaInfo.get("monsoon").put("gw_irrigation", 0.0);
-                    						obj.put("irrigationAreaInfo", irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 1100);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get("irrigationAreaInfo");
-                    					if(irrigationAreaInfo.get("monsoon") == null){
-                    						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-                    						irrigationAreaInfo.get("monsoon").put("irrigationAreaInfo", 0.0);
-                    					}
-                    					//System.out.println(obj);
-                    					if(irrigationAreaInfo.get("monsoon").get("gw_irrigation")==null){
-                    						irrigationAreaInfo.get("monsoon").put("gw_irrigation", 0.0);
-                    					}
-                    					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(paddykharif.get(id).get(source));
-                    					irrigatedArea+=paddykharif.get(id).get(source);
-                    					irrigationAreaInfo.get("monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area "+totalArea);
-                    					totalArea+=paddykharif.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            					}
-            					
-
-            				}
+            						String area = Constants.NON_COMMAND;
+            						if(computeDugwell.get(IWMName)>0)
+            							area = Constants.COMMAND;
+            						//source vs AreaType vs CropType vs CropName vs CropData
+                					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+                					obj = village_details.get(IWMName).getCrop();
+                					if(obj == null)
+                						obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+                					
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION) == null){
+                						obj.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+                					}
+                					
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area) == null){
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).put(area, new HashMap<String, Map<String,CropData>>());
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).put(Constants.PADDY, new HashMap<String, CropData>());
                 						
+                						CropData crop = new CropData();
+                						crop.setCropArea(new HashMap<String, Double>());
+                						crop.setWaterRequired(new HashMap<String, Double>());
+                						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+                						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+                						crop.getCropArea().put(Constants.MONSOON, 0.0);
+                						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.PADDY).put(Constants.PADDY, crop);
+                						village_details.get(IWMName).setCrop(obj);  
+                					}
+                					
+//                					obj = village_details.get(IWMName).crop_info;
+                					double irrigatedArea = obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.PADDY).get(Constants.PADDY).getCropArea().get(Constants.MONSOON);
+                					irrigatedArea += (paddykharif.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+                					obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.PADDY).get(Constants.PADDY).getCropArea().put(Constants.MONSOON, irrigatedArea);
+                					village_details.get(IWMName).setCrop(obj);
+            					}
+            				}		
             			}
                 	}
                 	
@@ -1172,92 +961,42 @@ public class VillageMetaData {
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
             					if(computeTubewell.containsKey(IWMName)){
-            						if(computeTubewell.get(IWMName)>0){
-            							if(village_details.get(IWMName).crop_info.get("command")==null){
-                    						Map<String,Map<String,Object>> paddy=new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put("monsoon", new HashMap<String, Double>());
-                    						obj = new HashMap<>();
-                    						irrigationAreaInfo.get("monsoon").put("gw_irrigation", 0.0);
-                    						obj.put("irrigationAreaInfo", irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 1100);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put("command", paddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get(Constants.COMMAND).get(Constants.PADDY);
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get(Constants.MONSOON).get(Constants.GROUND_WATER_IRRIGATION);
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(paddykharif.get(id).get(source));
-                    					irrigatedArea += paddykharif.get(id).get(source);
-                    					irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get(Constants.CROP_AREA));
-                    					//System.out.println("total area command "+totalArea);
-                    					totalArea += paddykharif.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            						else{
-            							if(village_details.get(IWMName).crop_info.get(Constants.NON_COMMAND)==null){
-                    						Map<String,Map<String,Object>> paddy=new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						obj = new HashMap<>();
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						
-                    						obj2 = new HashMap<>();
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj.put(Constants.CROP_AREA, 0.0);
-                    						obj.put("waterRequired", 1100);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put(Constants.NON_COMMAND, paddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get(Constants.NON_COMMAND).get(Constants.PADDY);
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo.get(Constants.MONSOON) == null) {
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					}
-                    					//System.out.println(obj);
-                    					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.GROUND_WATER_IRRIGATION)==null){
-                    						irrigationAreaInfo.get("monsoon").put("gw_irrigation", 0.0);
-                    					}
-                    					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(paddykharif.get(id).get(source));
-                    					irrigatedArea += paddykharif.get(id).get(source);
-                    					irrigationAreaInfo.get("monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area noncommand"+totalArea);
-                    					totalArea += paddykharif.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            					}
-            					
-
-            				}
+            						String area = Constants.NON_COMMAND;
+            						if(computeTubewell.get(IWMName)>0)
+            							area = Constants.COMMAND;
+            						//source vs AreaType vs CropType vs CropName vs CropData
+        							Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+        							obj = village_details.get(IWMName).getCrop();
+        							if(obj == null)
+        								obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+        							
+        							if(obj.get(Constants.GROUND_WATER_IRRIGATION) == null ||
+                							village_details.get(IWMName).crop_info.get(Constants.GROUND_WATER_IRRIGATION).get(area) == null){
+                						obj.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+                					}
+        							
+        							if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area) == null){
+        								obj.get(Constants.GROUND_WATER_IRRIGATION).put(area, new HashMap<String, Map<String,CropData>>());
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).put(Constants.PADDY, new HashMap<String, CropData>());
                 						
+                						CropData crop = new CropData();
+                						crop.setCropArea(new HashMap<String, Double>());
+                						crop.setWaterRequired(new HashMap<String, Double>());
+                						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+                						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+                						crop.getCropArea().put(Constants.MONSOON, 0.0);
+                						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.PADDY).put(Constants.PADDY, crop);
+                						village_details.get(IWMName).crop_info = obj;   
+        							}
+//        							obj = village_details.get(IWMName).crop_info;
+                					double irrigatedArea = obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.PADDY).get(Constants.PADDY).getCropArea().get(Constants.MONSOON);
+                					irrigatedArea += (paddykharif.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+                					obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.PADDY).get(Constants.PADDY).getCropArea().put(Constants.MONSOON, irrigatedArea);
+                					village_details.get(IWMName).setCrop(obj);
+            					}
+            				}		
             			}
                 	}
                 }
@@ -1272,107 +1011,41 @@ public class VillageMetaData {
                 	 * Canal = surface water irrigation
                 	 */
                 	if(source.equalsIgnoreCase("Canal")){
-            			
-                		Integer idd = cropId.get(id);
+            			Integer idd = cropId.get(id);
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("command")==null){
-            						Map<String,Map<String,Object>> paddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						////obj2.put("irrigationAreaInfo", water);
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 1100);
-            						obj.put("waterRequiredUnit", "mm");
-            						paddy.put("paddy", obj);
-            						village_details.get(IWMName).crop_info.put("command", paddy);             						
-
+            					//source vs AreaType vs CropType vs CropName vs CropData
+            					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					obj = village_details.get(IWMName).getCrop();
+    							if(obj == null)
+    								obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+    							
+    							if(obj.get(Constants.SURFACE_WATER_IRRIGATION) == null){
+            						obj.put(Constants.SURFACE_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+            						
             					}
-            					obj = village_details.get(IWMName).crop_info.get("command").get("paddy");
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
+    							
+    							if(obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND) == null){
+    								obj.get(Constants.SURFACE_WATER_IRRIGATION).put(Constants.COMMAND, new HashMap<String, Map<String,CropData>>());
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).put(Constants.PADDY, new HashMap<String, CropData>());
+            						
+            						CropData crop = new CropData();
+            						crop.setCropArea(new HashMap<String, Double>());
+            						crop.setWaterRequired(new HashMap<String, Double>());
+            						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+            						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+            						crop.getCropArea().put(Constants.MONSOON, 0.0);
+            						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).put(Constants.PADDY, crop);
+            						village_details.get(IWMName).setCrop(obj);
+    							}
             					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("surface_irrigation");
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(paddykharif.get(id).get(source));
-            					irrigatedArea+=paddyrabi.get(id).get(source);
-            					//System.out.println(irrigatedArea);
-            					irrigationAreaInfo.get("non_monsoon").put("surface_irrigation", irrigatedArea);
-            					//System.out.println("**in canal "+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea+=paddyrabi.get(id).get(source);
-            					//System.out.println(totalArea);
-            					obj.put("cropArea", totalArea);
-            				}
-                						
-            			}
-                	}
-                	
-                	/**
-                	 * Lift irrigation  = lift irrigation
-                	 */
-                	if(source.equalsIgnoreCase("Lift irrigation")){
-            			
-                		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
-            				String IWMName = villageId.get(idd);
-            				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> paddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						////obj2.put("irrigationAreaInfo", water);
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 1100);
-            						obj.put("waterRequiredUnit", "mm");
-            						paddy.put("paddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.LIFT_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.LIFT_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					irrigatedArea += paddyrabi.get(id).get(source);
-            					//System.out.println(irrigatedArea);
-            					irrigationAreaInfo.get("non_monsoon").put(Constants.LIFT_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in lift irr"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea += paddyrabi.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
+//            					obj = village_details.get(IWMName).crop_info;
+            					double irrigatedArea = obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get(Constants.PADDY).getCropArea().get(Constants.NON_MONSOON);
+            					irrigatedArea += (paddyrabi.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+            					obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get(Constants.PADDY).getCropArea().put(Constants.NON_MONSOON, irrigatedArea);
+            					village_details.get(IWMName).setCrop(obj);
             				}
                 						
             			}
@@ -1381,107 +1054,42 @@ public class VillageMetaData {
                 	/**
                 	 * Tanks = Surface water irrigation
                 	 */
-                	if(source.equalsIgnoreCase("Tanks")){
+                	if(source.equalsIgnoreCase("Tanks") || source.equalsIgnoreCase("MI Tanks")){
                 		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
+            			if((idd!= null && villageId.containsKey(idd)) || villageId.containsKey(id)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> paddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);obj2 = new HashMap<>();
-            						////obj2.put("irrigationAreaInfo", water);
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 1100);
-            						obj.put("waterRequiredUnit", "mm");
-            						paddy.put("paddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
+            					//source vs AreaType vs CropType vs CropName vs CropData
+            					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					obj = village_details.get(IWMName).getCrop();
+    							if(obj == null)
+    								obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+    							
+    							if(obj.get(Constants.MI_IRRIGATION) == null){
+            						obj.put(Constants.MI_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
             					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
+    							
+    							if(obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND) == null){
+    								obj.get(Constants.MI_IRRIGATION).put(Constants.NON_COMMAND, new HashMap<String, Map<String,CropData>>());
+            						obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).put(Constants.PADDY, new HashMap<String, CropData>());
+            						
+            						CropData crop = new CropData();
+            						crop.setCropArea(new HashMap<String, Double>());
+            						crop.setWaterRequired(new HashMap<String, Double>());
+            						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+            						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+            						crop.getCropArea().put(Constants.MONSOON, 0.0);
+            						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+            						obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).put(Constants.PADDY, crop);
+            						village_details.get(IWMName).setCrop(obj);           
+    							}
             					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.MI_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.MI_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(paddyrabi.get(id).get(source));
-            					irrigatedArea += paddyrabi.get(id).get(source);
-            					irrigationAreaInfo.get("non_monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in Tanks"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea += paddyrabi.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
+//    							obj = village_details.get(IWMName).crop_info;
+            					double irrigatedArea = obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get(Constants.PADDY).getCropArea().get(Constants.NON_MONSOON);
+            					irrigatedArea += (paddyrabi.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+            					obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get(Constants.PADDY).getCropArea().put(Constants.NON_MONSOON, irrigatedArea);
+            					village_details.get(IWMName).setCrop(obj);
             				}
-                						
-            			}
-                	}
-                	
-                	/**
-                	 * MI Tanks = surface water irrigation
-                	 */
-                	if(source.equalsIgnoreCase("MI Tanks")){
-            			
-                		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
-            				String IWMName = villageId.get(idd);
-            				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> paddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 1100);
-            						obj.put("waterRequiredUnit", "mm");
-            						paddy.put("paddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.MI_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.MI_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(paddyrabi.get(id).get(source));
-            					irrigatedArea+=paddyrabi.get(id).get(source);
-            					irrigationAreaInfo.get("non_monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in MI Tanks"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea+=paddyrabi.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
-            				}
-                						
             			}
                 	}
                 	
@@ -1494,89 +1102,43 @@ public class VillageMetaData {
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
             					if(computeDugwell.containsKey(IWMName)){
-            						if(computeDugwell.get(IWMName)>0){
-            							if(village_details.get(IWMName).crop_info.get("command")==null){
-                    						Map<String,Map<String,Object>> paddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 1100);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put("command", paddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("command").get("paddy");
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(paddyrabi.get(id).get(source));
-                    					irrigatedArea+=paddyrabi.get(id).get(source);
-                    					irrigationAreaInfo.get("non_monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area "+totalArea);
-                    					totalArea+=paddyrabi.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            						else{
-            							if(village_details.get(IWMName).crop_info.get("non_command")==null){
-                    						Map<String,Map<String,Object>> paddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 1100);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(paddyrabi.get(id).get(source));
-                    					irrigatedArea+=paddyrabi.get(id).get(source);
-                    					irrigationAreaInfo.get("non_monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area "+totalArea);
-                    					totalArea += paddyrabi.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            					}
-            					
-
-            				}
+            						String areaType = Constants.NON_COMMAND;
+            						if(computeDugwell.get(IWMName)>0)
+            							areaType = Constants.COMMAND;
+            							
+        							//source vs AreaType vs CropType vs CropName vs CropData
+            						Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						obj = village_details.get(IWMName).getCrop();
+            						if(obj == null)
+        								obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION) == null){
+                						obj.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+                					}
+            						
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType) == null){
+            							obj.get(Constants.GROUND_WATER_IRRIGATION).put(areaType, new HashMap<String, Map<String,CropData>>());
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType).put(Constants.PADDY, new HashMap<String, CropData>());
                 						
+                						CropData crop = new CropData();
+                						crop.setCropArea(new HashMap<String, Double>());
+                						crop.setWaterRequired(new HashMap<String, Double>());
+                						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+                						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+                						crop.getCropArea().put(Constants.MONSOON, 0.0);
+                						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType).get(Constants.PADDY).put(Constants.PADDY, crop);
+                						village_details.get(IWMName).setCrop(obj);
+            						}
+            						
+//                					obj = village_details.get(IWMName).crop_info;
+                					double irrigatedArea = obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType).get(Constants.PADDY).get(Constants.PADDY).getCropArea().get(Constants.NON_MONSOON);
+                					irrigatedArea += (paddyrabi.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+                					obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType).get(Constants.PADDY).get(Constants.PADDY).getCropArea().put(Constants.NON_MONSOON, irrigatedArea);
+                					village_details.get(IWMName).setCrop(obj);
+            					}
+            				}			
             			}
                 	}
                 	
@@ -1584,95 +1146,44 @@ public class VillageMetaData {
                 	 * Tube well = ground water irrigation
                 	 */
                 	if(source.equalsIgnoreCase("Tube well")){
-            			
-                		Integer idd = cropId.get(id);
+            			Integer idd = cropId.get(id);
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
             					if(computeTubewell.containsKey(IWMName)){
-            						if(computeTubewell.get(IWMName)>0){
-            							if(village_details.get(IWMName).crop_info.get("command")==null){
-                    						Map<String,Map<String,Object>> paddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 1100);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put("command", paddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("command").get("paddy");
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(paddyrabi.get(id).get(source));
-                    					irrigatedArea+=paddyrabi.get(id).get(source);
-                    					irrigationAreaInfo.get("non_monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area command "+totalArea);
-                    					totalArea += paddyrabi.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            						else{
-            							if(village_details.get(IWMName).crop_info.get("non_command")==null){
-                    						Map<String,Map<String,Object>> paddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 1100);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						paddy.put("paddy", obj);
-                    						village_details.get(IWMName).crop_info.put("non_command", paddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("non_command").get("paddy");
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(paddyrabi.get(id).get(source));
-                    					irrigatedArea+=paddyrabi.get(id).get(source);
-                    					irrigationAreaInfo.get("non_monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area noncommand"+totalArea);
-                    					totalArea += paddyrabi.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            					}
-            					
-
-            				}
+            						String areaType = Constants.NON_COMMAND;
+            						if(computeTubewell.get(IWMName)>0)
+            							areaType = Constants.COMMAND;
+        							//source vs AreaType vs CropType vs CropName vs CropData
+            						Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						obj = village_details.get(IWMName).getCrop();
+            						if(obj == null)
+            							obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION) == null){
+                						obj.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+                					}
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType) == null){
+            							obj.get(Constants.GROUND_WATER_IRRIGATION).put(areaType, new HashMap<String, Map<String,CropData>>());
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType).put(Constants.PADDY, new HashMap<String, CropData>());
                 						
+                						CropData crop = new CropData();
+                						crop.setCropArea(new HashMap<String, Double>());
+                						crop.setWaterRequired(new HashMap<String, Double>());
+                						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+                						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+                						crop.getCropArea().put(Constants.MONSOON, 0.0);
+                						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType).get(Constants.PADDY).put(Constants.PADDY, crop);
+                						village_details.get(IWMName).setCrop(obj);            
+            						}
+//            						obj = village_details.get(IWMName).crop_info;
+            						double irrigatedArea = obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType).get(Constants.PADDY).get(Constants.PADDY).getCropArea().get(Constants.NON_MONSOON);
+                					irrigatedArea += (paddyrabi.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+                					obj.get(Constants.GROUND_WATER_IRRIGATION).get(areaType).get(Constants.PADDY).get(Constants.PADDY).getCropArea().put(Constants.NON_MONSOON, irrigatedArea);
+                					village_details.get(IWMName).setCrop(obj);
+            					}
+            				}			
             			}
                 	}
                 }
@@ -1685,276 +1196,94 @@ public class VillageMetaData {
         	
         	for(int id:nonpaddykharif.keySet()){
                 for(String source:nonpaddykharif.get(id).keySet()){
-                				//System.out.println(source);
-                	
                 	/**
                 	 * Canal = surface water irrigation
                 	 */
                 	if(source.equalsIgnoreCase("Canal")){
-            			
-                		Integer idd = cropId.get(id);
+            			Integer idd = cropId.get(id);
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("command")==null){
-            						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 600);
-            						obj.put("waterRequiredUnit", "mm");
-            						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("command", nonpaddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
+            					//source vs AreaType vs CropType vs CropName vs CropData
+            					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					obj = village_details.get(IWMName).getCrop();
+            					if(obj == null)
+        							obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
             					
-            					if(obj==null){
-            						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-            						Map<String,Object>obj1 = new HashMap<>();
-            						obj2 = new HashMap<>();
-            						obj1 = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
-            						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj1.put("cropArea", 0.0);
-            						obj1.put("waterRequired", 600);
-            						obj1.put("waterRequiredUnit", "mm");
-            						village_details.get(IWMName).crop_info.get("command").put("nonPaddy", obj1);
-                					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-
+            					if(obj.get(Constants.SURFACE_WATER_IRRIGATION) == null){
+            						obj.put(Constants.SURFACE_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+            					}
+            					if(obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND) == null){
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).put(Constants.COMMAND, new HashMap<String, Map<String,CropData>>());
+            						
             					}
             					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("surface_irrigation");
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(nonpaddykharif.get(id).get(source));
-            					irrigatedArea += nonpaddykharif.get(id).get(source);
-            					//System.out.println(irrigatedArea);
-            					irrigationAreaInfo.get("monsoon").put("surface_irrigation", irrigatedArea);
-            					//System.out.println("**in canal "+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea += nonpaddykharif.get(id).get(source);
-            					//System.out.println(totalArea);
-            					obj.put("cropArea", totalArea);
-            				}
-                						
-            			}
-                	}
-                	/**
-                	 * Lift Irrigation = lift irrigation
-                	 */
-                	if(source.equalsIgnoreCase("Lift irrigation")){
-            			
-                		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
-            				String IWMName = villageId.get(idd);
-            				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 600);
-            						obj.put("waterRequiredUnit", "mm");
-            						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
+            					if(obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY) == null){
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).put(Constants.NON_PADDY, new HashMap<String, CropData>());
+            						
+            						CropData crop = new CropData();
+            						crop.setCropArea(new HashMap<String, Double>());
+            						crop.setWaterRequired(new HashMap<String, Double>());
+            						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+            						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+            						crop.getCropArea().put(Constants.MONSOON, 0.0);
+            						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).put(Constants.NON_PADDY, crop);
+            						village_details.get(IWMName).setCrop(obj);  
             					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-            					if(obj==null){
-            						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-            						Map<String,Object>obj1 = new HashMap<>();
-            						obj2 = new HashMap<>();
-            						obj1 = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
-            						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj1.put("cropArea", 0.0);
-            						obj1.put("waterRequired", 600);
-            						obj1.put("waterRequiredUnit", "mm");
-            						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-
-            					}
-            					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.LIFT_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
-            					
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get(Constants.LIFT_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					irrigatedArea+=nonpaddykharif.get(id).get(source);
-            					//System.out.println(irrigatedArea);
-            					irrigationAreaInfo.get("monsoon").put(Constants.LIFT_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in lift irr"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea+=nonpaddykharif.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
-            				}
-                						
+            						
+//            					obj = village_details.get(IWMName).crop_info;
+            					double irrigatedArea = obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().get(Constants.MONSOON);
+            					irrigatedArea += (nonpaddykharif.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+            					obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().put(Constants.MONSOON, irrigatedArea);
+            					village_details.get(IWMName).setCrop(obj);
+            				}			
             			}
                 	}
                 	
                 	/**
                 	 * Tanks = surface water
                 	 */
-                	if(source.equalsIgnoreCase("Tanks")){
+                	if(source.equalsIgnoreCase("Tanks") || source.equalsIgnoreCase("MI Tanks")){
                 		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
+            			if((idd!= null && villageId.containsKey(idd)) || villageId.containsKey(id)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 600);
-            						obj.put("waterRequiredUnit", "mm");
-            						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
+            					//source vs AreaType vs CropType vs CropName vs CropData
+            					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					obj = village_details.get(IWMName).getCrop();
+            					if(obj == null)
+        							obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					
+            					if(obj.get(Constants.MI_IRRIGATION) == null){
+            						obj.put(Constants.MI_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
             					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-            					if(obj==null){
-            						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-            						Map<String,Object>obj1 = new HashMap<>();
-            						obj2 = new HashMap<>();
-            						obj1 = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj1.put("cropArea", 0.0);
-            						obj1.put("waterRequired", 600);
-            						obj1.put("waterRequiredUnit", "mm");
-            						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-
+            					if(obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND) == null){
+            						obj.get(Constants.MI_IRRIGATION).put(Constants.NON_COMMAND, new HashMap<String, Map<String,CropData>>());
+            						  
             					}
-            					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.MI_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get(Constants.MI_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(nonpaddykharif.get(id).get(source));
-            					irrigatedArea += nonpaddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in Tanks"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea += nonpaddykharif.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
-            				}
-                						
+            					if(obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY) == null){
+            						obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).put(Constants.NON_PADDY, new HashMap<String, CropData>());
+            						
+            						CropData crop = new CropData();
+            						crop.setCropArea(new HashMap<String, Double>());
+            						crop.setWaterRequired(new HashMap<String, Double>());
+            						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+            						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+            						crop.getCropArea().put(Constants.MONSOON, 0.0);
+            						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+            						obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).put(Constants.NON_PADDY, crop);
+            						village_details.get(IWMName).setCrop(obj);
+            					}	
+//            					obj = village_details.get(IWMName).crop_info;
+            					double irrigatedArea = obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().get(Constants.MONSOON);
+            					irrigatedArea += (nonpaddykharif.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+            					obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().put(Constants.MONSOON, irrigatedArea);
+            					village_details.get(IWMName).setCrop(obj);
+            				}		
             			}
                 	}
                 	
-                	/**
-                	 * Mi tanks = surface water irrigation
-                	 */
-                	if(source.equalsIgnoreCase("MI Tanks")){
-            			
-                		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
-            				String IWMName = villageId.get(idd);
-            				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 600);
-            						obj.put("waterRequiredUnit", "mm");
-            						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-            					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.MI_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("monsoon").get(Constants.MI_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(nonpaddykharif.get(id).get(source));
-            					irrigatedArea+=nonpaddykharif.get(id).get(source);
-            					irrigationAreaInfo.get("monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in MI Tanks"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea += nonpaddykharif.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
-            				}
-                						
-            			}
-                	}
-
                 	/**
                 	 * Dug well = ground water
                 	 */
@@ -1964,128 +1293,45 @@ public class VillageMetaData {
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
             					if(computeDugwell.containsKey(IWMName)){
-            						if(computeDugwell.get(IWMName)>0){
-            							if(village_details.get(IWMName).crop_info.get("command")==null){
-                    						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 600);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						nonpaddy.put("nonPaddy", obj);
-                    						village_details.get(IWMName).crop_info.put("command", nonpaddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-                    					//System.out.println(obj);
-                    					if(obj==null){
-                    						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-                    						Map<String,Object>obj1 = new HashMap<>();
-                    						obj2 = new HashMap<>();
-                    						obj1 = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj1.put("cropArea", 0.0);
-                    						obj1.put("waterRequired", 600);
-                    						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-
-                    					}
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(nonpaddykharif.get(id).get(source));
-                    					irrigatedArea+=nonpaddykharif.get(id).get(source);
-                    					irrigationAreaInfo.get("monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area "+totalArea);
-                    					totalArea+=nonpaddykharif.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            						else{
-            							if(village_details.get(IWMName).crop_info.get("non_command")==null){
-                    						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 600);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						nonpaddy.put("nonPaddy", obj);
-                    						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-                    					//System.out.println(obj);
-                    					if(obj==null){
-                    						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-                    						Map<String,Object>obj1 = new HashMap<>();
-                    						obj2 = new HashMap<>();
-                    						obj1 = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						
-                    						obj1.put("cropArea", 0.0);
-                    						obj1.put("waterRequired", 600);
-                    						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-
-                    					}
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(nonpaddykharif.get(id).get(source));
-                    					irrigatedArea+=nonpaddykharif.get(id).get(source);
-                    					irrigationAreaInfo.get("monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area "+totalArea);
-                    					totalArea+=nonpaddykharif.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            					}
-            					
-
-            				}
+            						String area = Constants.NON_COMMAND;
+            						if(computeDugwell.get(IWMName)>0)
+            							area = Constants.COMMAND;
+            						
+            						//source vs AreaType vs CropType vs CropName vs CropData
+            						Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						obj = village_details.get(IWMName).getCrop();
+            						if(obj == null)
+            							obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION) == null){
+                						obj.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
                 						
+                					}
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area) == null){
+            							obj.get(Constants.GROUND_WATER_IRRIGATION).put(area, new HashMap<String, Map<String,CropData>>());
+            						}
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY) == null){
+            							obj.get(Constants.GROUND_WATER_IRRIGATION).put(area, new HashMap<String, Map<String,CropData>>());
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).put(Constants.NON_PADDY, new HashMap<String, CropData>());
+                						
+                						CropData crop = new CropData();
+                						crop.setCropArea(new HashMap<String, Double>());
+                						crop.setWaterRequired(new HashMap<String, Double>());
+                						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+                						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+                						crop.getCropArea().put(Constants.MONSOON, 0.0);
+                						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).put(Constants.NON_PADDY, crop);
+                						village_details.get(IWMName).setCrop(obj);
+            						}
+//                					obj = village_details.get(IWMName).crop_info;
+                					double irrigatedArea = obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().get(Constants.MONSOON);
+                					irrigatedArea += (nonpaddykharif.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+                					obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().put(Constants.MONSOON, irrigatedArea);
+                					village_details.get(IWMName).setCrop(obj);
+            					}
+            				}			
             			}
                 	}
                 	
@@ -2097,129 +1343,45 @@ public class VillageMetaData {
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-//            					System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
             					if(computeTubewell.containsKey(IWMName)){
-            						if(computeTubewell.get(IWMName)>0){
-            							if(village_details.get(IWMName).crop_info.get("command")==null){
-                    						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 600);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						nonpaddy.put("nonPaddy", obj);
-                    						village_details.get(IWMName).crop_info.put("command", nonpaddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-                    					//System.out.println(obj);
-                    					if(obj==null){
-                    						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-                    						Map<String,Object>obj1 = new HashMap<>();
-                    						obj1 = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						obj1.put("cropArea", 0.0);
-                    						obj1.put("waterRequired", 600);
-                    						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-
-                    					}
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					//System.out.println(obj);
-                    					
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(nonpaddykharif.get(id).get(source));
-                    					irrigatedArea+=nonpaddykharif.get(id).get(source);
-                    					irrigationAreaInfo.get("monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area command "+totalArea);
-                    					totalArea+=nonpaddykharif.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            						else{
-            							if(village_details.get(IWMName).crop_info.get("non_command")==null){
-                    						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 600);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						nonpaddy.put("nonPaddy", obj);
-                    						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-                    					//System.out.println(obj);
-                    					if(obj==null){
-                    						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-                    						Map<String,Object>obj1 = new HashMap<>();
-                    						obj1 = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj1.put("cropArea", 0.0);
-                    						obj1.put("waterRequired", 600);
-                    						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-
-                    					}
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(nonpaddykharif.get(id).get(source));
-                    					irrigatedArea+=nonpaddykharif.get(id).get(source);
-                    					irrigationAreaInfo.get("monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area noncommand"+totalArea);
-                    					totalArea += nonpaddykharif.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            					}
-            					
-
-            				}
+            						String area = Constants.NON_COMMAND;
+            						if(computeTubewell.get(IWMName)>0)
+            							area = Constants.COMMAND;
+            						
+            						//source vs AreaType vs CropType vs CropName vs CropData
+            						Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+                					obj = village_details.get(IWMName).getCrop();
+                					if(obj == null)
+                						obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION) == null){
+                						obj.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+                						  
+                					}
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area) == null){
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).put(area, new HashMap<String, Map<String,CropData>>());
                 						
+                					}
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY) == null){
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).put(Constants.NON_PADDY, new HashMap<String, CropData>());
+                						CropData crop = new CropData();
+                						crop.setCropArea(new HashMap<String, Double>());
+                						crop.setWaterRequired(new HashMap<String, Double>());
+                						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+                						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+                						crop.getCropArea().put(Constants.MONSOON, 0.0);
+                						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).put(Constants.NON_PADDY, crop);
+                						village_details.get(IWMName).setCrop(obj);
+                					}
+                					
+//                					obj = village_details.get(IWMName).crop_info;
+                					double irrigatedArea = obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().get(Constants.MONSOON);
+                					irrigatedArea += (nonpaddykharif.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+                					obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().put(Constants.MONSOON, irrigatedArea);
+                					village_details.get(IWMName).setCrop(obj);	
+            					}
+            				}			
             			}
                 	}
                 }
@@ -2238,269 +1400,83 @@ public class VillageMetaData {
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("command")==null){
-            						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 600);
-            						obj.put("waterRequiredUnit", "mm");
-            						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("command", nonpaddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-            					if(obj==null){
-            						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-            						Map<String,Object>obj1 = new HashMap<>();
-            						obj1 = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
-            						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
+            					//source vs AreaType vs CropType vs CropName vs CropData
+            					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					obj = village_details.get(IWMName).getCrop();
+            					
+            					if(obj == null)
+            						obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					
+            					if(obj.get(Constants.SURFACE_WATER_IRRIGATION) == null){
+            						obj.put(Constants.SURFACE_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
             						
-            						obj1.put("cropArea", 0.0);
-            						obj1.put("waterRequired", 600);
-            						obj1.put("waterRequiredUnit", "mm");
-            						village_details.get(IWMName).crop_info.get("command").put("nonPaddy", obj1);
-                					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-
+            					}
+            					if(obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND) == null)
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).put(Constants.COMMAND, new HashMap<String, Map<String,CropData>>());
+            					
+            					if(obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY) == null){
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).put(Constants.NON_PADDY, new HashMap<String, CropData>());
+            						CropData crop = new CropData();
+            						crop.setCropArea(new HashMap<String, Double>());
+            						crop.setWaterRequired(new HashMap<String, Double>());
+            						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+            						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+            						crop.getCropArea().put(Constants.MONSOON, 0.0);
+            						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+            						obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).put(Constants.NON_PADDY, crop);
+            						village_details.get(IWMName).setCrop(obj);
             					}
             					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.SURFACE_WATER_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.SURFACE_WATER_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("surface_irrigation");
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(nonpaddykharif.get(id).get(source));
-            					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-            					//System.out.println(irrigatedArea);
-            					irrigationAreaInfo.get("non_monsoon").put("surface_irrigation", irrigatedArea);
-            					//System.out.println("**in canal "+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea+=nonpaddyrabi.get(id).get(source);
-            					//System.out.println(totalArea);
-            					obj.put("cropArea", totalArea);
-            				}
-                						
+//            					obj = village_details.get(IWMName).crop_info;
+            					double irrigatedArea = obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().get(Constants.NON_MONSOON);
+            					irrigatedArea += (nonpaddyrabi.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+            					obj.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().put(Constants.NON_MONSOON, irrigatedArea);
+            					village_details.get(IWMName).setCrop(obj);
+            				}			
             			}
                 	}
                 	
-                	/**
-                	 * lift irrigation = ground water
-                	 */
-                	if(source.equalsIgnoreCase("Lift irrigation")){
-            			
-                		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
-            				String IWMName = villageId.get(idd);
-            				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 600);
-            						obj.put("waterRequiredUnit", "mm");
-            						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-            					if(obj==null){
-            						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-            						Map<String,Object>obj1 = new HashMap<>();
-            						obj1 = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
-            						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						
-            						obj1.put("cropArea", 0.0);
-            						obj1.put("waterRequired", 600);
-            						obj1.put("waterRequiredUnit", "mm");
-            						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-
-            					}
-            					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.LIFT_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.LIFT_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.LIFT_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-            					//System.out.println(irrigatedArea);
-            					irrigationAreaInfo.get("non_monsoon").put(Constants.LIFT_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in lift irr"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea += nonpaddyrabi.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
-            				}
-                						
-            			}
-                	}
                 	
                 	/**
                 	 * Tanks = surface water
                 	 */
-                	if(source.equalsIgnoreCase("Tanks")){
+                	if(source.equalsIgnoreCase("Tanks") || source.equalsIgnoreCase("MI Tanks")){
             			
                 		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
+            			if((idd!= null && villageId.containsKey(idd)) || villageId.containsKey(id)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
+            					//source vs AreaType vs CropType vs CropName vs CropData
+            					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					obj = village_details.get(IWMName).getCrop();
+            					if(obj == null)
+            						obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            					if(obj.get(Constants.MI_IRRIGATION)==null)
+            						obj.put(Constants.MI_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+            					
+            					if(obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND) == null)
+            						obj.get(Constants.MI_IRRIGATION).put(Constants.NON_COMMAND, new HashMap<String, Map<String,CropData>>());
+            					
+            					if(obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY) == null){
+            						obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).put(Constants.NON_PADDY, new HashMap<String, CropData>());
             						
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 600);
-            						obj.put("waterRequiredUnit", "mm");
-            						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
+            						CropData crop = new CropData();
+            						crop.setCropArea(new HashMap<String, Double>());
+            						crop.setWaterRequired(new HashMap<String, Double>());
+            						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+            						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+            						crop.getCropArea().put(Constants.MONSOON, 0.0);
+            						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+            						obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).put(Constants.NON_PADDY, crop);
+            						village_details.get(IWMName).setCrop(obj);
             					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-            					if(obj==null){
-            						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-            						Map<String,Object>obj1 = new HashMap<>();
-            						obj1 = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
             						
-            						obj1.put("cropArea", 0.0);
-            						obj1.put("waterRequired", 600);
-            						obj1.put("waterRequiredUnit", "mm");
-            						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-
-            					}
-            					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.MI_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.MI_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(nonpaddyrabi.get(id).get(source));
-            					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-            					irrigationAreaInfo.get("non_monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in Tanks"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea+=nonpaddyrabi.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
+//            					obj = village_details.get(IWMName).crop_info;
+            					double irrigatedArea = obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().get(Constants.NON_MONSOON);
+            					irrigatedArea += (nonpaddyrabi.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+            					obj.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().put(Constants.NON_MONSOON, irrigatedArea);
+            					village_details.get(IWMName).setCrop(obj);
             				}
-                						
-            			}
-                	}
-                	
-                	/**
-                	 * mi tanks = surface water
-                	 */
-                	if(source.equalsIgnoreCase("MI Tanks")){
-            			
-                		Integer idd = cropId.get(id);
-            			if(idd!= null && villageId.containsKey(idd)){
-            				String IWMName = villageId.get(idd);
-            				if(village_details.containsKey(IWMName)){
-            					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
-            					if(village_details.get(IWMName).crop_info.get("non_command")==null){
-            						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-            						obj = new HashMap<>();
-            						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-            						obj2 = new HashMap<>();
-            						
-            						obj.put("cropArea", 0.0);
-            						obj.put("waterRequired", 600);
-            						obj.put("waterRequiredUnit", "mm");
-            						nonpaddy.put("nonPaddy", obj);
-            						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
-            					}
-            					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-            					
-            					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-            					
-            					if(irrigationAreaInfo == null)
-            						irrigationAreaInfo = new HashMap<>();
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-            						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.MI_IRRIGATION) == null)
-            						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.MI_IRRIGATION, 0.0);
-            					
-            					
-            					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get(Constants.MI_IRRIGATION);
-            					//System.out.println(irrigatedArea);
-            					//System.out.println(nonpaddyrabi.get(id).get(source));
-            					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-            					irrigationAreaInfo.get("non_monsoon").put(Constants.MI_IRRIGATION, irrigatedArea);
-            					//System.out.println("***in MI Tanks"+village_details.get(IWMName).crop_info);
-            					double totalArea = (double)(obj.get("cropArea"));
-            					//System.out.println("total area "+totalArea);
-            					totalArea+=nonpaddyrabi.get(id).get(source);
-            					obj.put("cropArea", totalArea);
-
-            				}
-                						
             			}
                 	}
                 	
@@ -2508,134 +1484,47 @@ public class VillageMetaData {
                 	 * Dug well = ground water irrigation
                 	 */
                 	if(source.equalsIgnoreCase("Dug well")){
-            			
                 		Integer idd = cropId.get(id);
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
             					if(computeDugwell.containsKey(IWMName)){
-            						if(computeDugwell.get(IWMName)>0){
-            							if(village_details.get(IWMName).crop_info.get("command")==null){
-                    						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 600);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						nonpaddy.put("nonPaddy", obj);
-                    						village_details.get(IWMName).crop_info.put("command", nonpaddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-                    					//System.out.println(obj);
-                    					if(obj==null){
-                    						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-                    						Map<String,Object>obj1 = new HashMap<>();
-                    						obj1 = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						
-                    						obj1.put("cropArea", 0.0);
-                    						obj1.put("waterRequired", 600);
-                    						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-
-                    					}
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(nonpaddyrabi.get(id).get(source));
-                    					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-                    					irrigationAreaInfo.get("non_monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area "+totalArea);
-                    					totalArea += nonpaddyrabi.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            						else{
-            							if(village_details.get(IWMName).crop_info.get("non_command")==null){
-                    						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 600);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						nonpaddy.put("nonPaddy", obj);
-                    						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-                    					//System.out.println(obj);
-                    					if(obj==null){
-                    						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-                    						Map<String,Object>obj1 = new HashMap<>();
-                    						obj1 = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						
-                    						obj1.put("cropArea", 0.0);
-                    						obj1.put("waterRequired", 600);
-                    						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-
-                    					}
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(nonpaddyrabi.get(id).get(source));
-                    					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-                    					irrigationAreaInfo.get("non_monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area "+totalArea);
-                    					totalArea+=nonpaddyrabi.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
+            						String area = Constants.NON_COMMAND;
+            						if(computeDugwell.get(IWMName)>0)
+            							area = Constants.COMMAND;
+            						//source vs AreaType vs CropType vs CropName vs CropData
+                					Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+                					obj = village_details.get(IWMName).getCrop();
+                					if(obj == null)
+                						obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+                					
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION)==null)
+                						obj.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+                					
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area)==null)
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).put(area, new HashMap<String, Map<String,CropData>>());
+                					
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY) == null){
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).put(Constants.NON_PADDY, new HashMap<String, CropData>());
+                						CropData crop = new CropData();
+                						crop.setCropArea(new HashMap<String, Double>());
+                						crop.setWaterRequired(new HashMap<String, Double>());
+                						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+                						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+                						crop.getCropArea().put(Constants.MONSOON, 0.0);
+                						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).put(Constants.NON_PADDY, crop);
+                						village_details.get(IWMName).setCrop(obj);  
+                					}
+                					
+//                					obj = village_details.get(IWMName).crop_info;
+                					double irrigatedArea = obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().get(Constants.NON_MONSOON);
+                					irrigatedArea += (nonpaddyrabi.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+                					obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().put(Constants.NON_MONSOON, irrigatedArea);
+                					village_details.get(IWMName).setCrop(obj);  
             					}
-            					
-
-            				}
-                						
+            				}			
             			}
                 	}
                 	
@@ -2643,134 +1532,49 @@ public class VillageMetaData {
                 	 * Tube well = ground water irrigation
                 	 */
                 	if(source.equalsIgnoreCase("Tube well")){
-            			
-                		Integer idd = cropId.get(id);
+            			Integer idd = cropId.get(id);
             			if(idd!= null && villageId.containsKey(idd)){
             				String IWMName = villageId.get(idd);
             				if(village_details.containsKey(IWMName)){
             					//System.out.println(IWMName + id);
-            					Map<String,Object> obj;
-            					Map<String,Map<String,Double>> obj2;
-            					Map<String,Double> water=new HashMap<>();
             					if(computeTubewell.containsKey(IWMName)){
-            						if(computeTubewell.get(IWMName)>0){
-            							if(village_details.get(IWMName).crop_info.get("command")==null){
-                    						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 600);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						nonpaddy.put("nonPaddy", obj);
-                    						village_details.get(IWMName).crop_info.put("command", nonpaddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-                    					//System.out.println(obj);
-                    					if(obj==null){
-                    						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-                    						Map<String,Object>obj1 = new HashMap<>();
-                    						obj1 = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						
-                    						obj1.put("cropArea", 0.0);
-                    						obj1.put("waterRequired", 600);
-                    						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("command").get("nonPaddy");
-
-                    					}
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(nonpaddyrabi.get(id).get(source));
-                    					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-                    					irrigationAreaInfo.get("non_monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area command "+totalArea);
-                    					totalArea+=nonpaddyrabi.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            						else{
-            							if(village_details.get(IWMName).crop_info.get("non_command")==null){
-                    						Map<String,Map<String,Object>> nonpaddy=new HashMap<>();
-                    						obj = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						
-                    						obj.put("cropArea", 0.0);
-                    						obj.put("waterRequired", 600);
-                    						obj.put("waterRequiredUnit", "mm");
-                    						nonpaddy.put("nonPaddy", obj);
-                    						village_details.get(IWMName).crop_info.put("non_command", nonpaddy);             						
-
-                    					}
-                    					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-                    					if(obj==null){
-                    						//System.out.println(village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy"));
-                    						Map<String,Object>obj1 = new HashMap<>();
-                    						obj1 = new HashMap<>();
-                    						Map<String, Map<String, Double>> irrigationAreaInfo = new HashMap<>();
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    						obj1.put(Constants.IRRIGATION_AREA_INFO, irrigationAreaInfo);
-                    						obj2 = new HashMap<>();
-                    						
-                    						obj1.put("cropArea", 0.0);
-                    						obj1.put("waterRequired", 600);
-                    						obj1.put("waterRequiredUnit", "mm");
-                    						village_details.get(IWMName).crop_info.get("non_command").put("nonPaddy", obj1);
-                        					obj = village_details.get(IWMName).crop_info.get("non_command").get("nonPaddy");
-
-                    					}
-                    					
-                    					Map<String, Map<String, Double>> irrigationAreaInfo = (Map<String, Map<String, Double>>) obj.get(Constants.IRRIGATION_AREA_INFO);
-                    					
-                    					if(irrigationAreaInfo == null)
-                    						irrigationAreaInfo = new HashMap<>();
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON) == null)
-                    						irrigationAreaInfo.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                    					if(irrigationAreaInfo.get(Constants.NON_MONSOON).get(Constants.GROUND_WATER_IRRIGATION) == null)
-                    						irrigationAreaInfo.get(Constants.NON_MONSOON).put(Constants.GROUND_WATER_IRRIGATION, 0.0);
-                    					
-                    					double irrigatedArea = irrigationAreaInfo.get("non_monsoon").get("gw_irrigation");
-                    					//System.out.println(irrigatedArea);
-                    					//System.out.println(nonpaddyrabi.get(id).get(source));
-                    					irrigatedArea+=nonpaddyrabi.get(id).get(source);
-                    					irrigationAreaInfo.get("non_monsoon").put("gw_irrigation", irrigatedArea);
-                    					//System.out.println("***in dugwells"+village_details.get(IWMName).crop_info);
-                    					double totalArea = (double)(obj.get("cropArea"));
-                    					//System.out.println("total area noncommand"+totalArea);
-                    					totalArea+=nonpaddyrabi.get(id).get(source);
-                    					obj.put("cropArea", totalArea);
-            						}
-            					}
-            					
-
-            				}
+            						String area = Constants.NON_COMMAND;
+            						if(computeTubewell.get(IWMName)>0)
+            							area = Constants.COMMAND;
+            						//source vs AreaType vs CropType vs CropName vs CropData
+            						Map<String, Map<String, Map<String, Map<String, CropData>>>> obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						obj = village_details.get(IWMName).getCrop();
+            						if(obj == null)
+            							obj = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
+            						
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION)==null){
+                						obj.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Map<String,CropData>>>());
+                						  
+                					}
+            						if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area) == null){
+            							obj.get(Constants.GROUND_WATER_IRRIGATION).put(area, new HashMap<String, Map<String,CropData>>());
                 						
+            						}
+                					if(obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY) == null){
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).put(Constants.NON_PADDY, new HashMap<String, CropData>());
+                						CropData crop = new CropData();
+                						crop.setCropArea(new HashMap<String, Double>());
+                						crop.setWaterRequired(new HashMap<String, Double>());
+                						crop.getWaterRequired().put(Constants.MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+                						crop.getWaterRequired().put(Constants.NON_MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+                						crop.getCropArea().put(Constants.MONSOON, 0.0);
+                						crop.getCropArea().put(Constants.NON_MONSOON, 0.0);
+                						obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).put(Constants.NON_PADDY, crop);
+                						village_details.get(IWMName).setCrop(obj);  
+                					}
+                					
+//                					obj = village_details.get(IWMName).crop_info;
+                					double irrigatedArea = obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().get(Constants.NON_MONSOON);
+                					irrigatedArea += (nonpaddyrabi.get(id).get(source)*Constants.HECTARE_PER_ACRE);
+                					obj.get(Constants.GROUND_WATER_IRRIGATION).get(area).get(Constants.NON_PADDY).get(Constants.NON_PADDY).getCropArea().put(Constants.NON_MONSOON, irrigatedArea);
+                					village_details.get(IWMName).setCrop(obj);  
+            					}
+            				}		
             			}
                 	}
                 }
@@ -2789,31 +1593,45 @@ public class VillageMetaData {
 
             while((record = iem.readLine()) != null) {
                 String fields[] = record.split(",", -1);
-                if(fields.length==10 || fields.length==format.convert("ah")){
-                	Mitank cmitank= new Mitank((Utils.parseDouble(fields[4])),Utils.parseDouble(fields[5]),0,120,150,0.00144);
-                	Command wbcommand = new Command(cmitank);
-                	Mitank ncmitank= new Mitank((Utils.parseDouble(fields[6])),Utils.parseDouble(fields[7]),0,120,150,0.00144);
-                	NonCommand nonCommand = new NonCommand(ncmitank);
-                	Mitank cpqmitank= new Mitank((Utils.parseDouble(fields[8])),Utils.parseDouble(fields[9])*0.6,0,120,150,0.00144);
-                	CommandPoorQuality commandpoorQuality = new CommandPoorQuality(cpqmitank);
-                    waterbodies waterbd = new waterbodies(wbcommand,nonCommand,commandpoorQuality);
-                    String waterbodyjson = waterbody.toJson(waterbd);
-                    if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
+                if(fields.length==10){
+//                	waterBodyType vs AreaType vs IStorageStructureData
+                	Map<String, Map<String, WaterBody>> miTank = new HashMap<String, Map<String,WaterBody>>();
+            		miTank.put(Constants.MI_TANK, new HashMap<String, WaterBody>());
+            		for(String areaType : Constants.AREA_TYPES){
+                		WaterBody mi = new WaterBody();
+                		mi.setRechargeFactor(0.00144);
+                		mi.setImpoundDays(new HashMap<String, Integer>());
+                		mi.getImpoundDays().put(Constants.MONSOON, 120);
+                		mi.getImpoundDays().put(Constants.NON_MONSOON, 150);
+                		
+                		miTank.get(Constants.MI_TANK).put(areaType, mi);
+                	}
+                	
+                	miTank.get(Constants.MI_TANK).get(Constants.COMMAND).setCount(Utils.parseDouble(fields[format.convert("e")]));
+                	miTank.get(Constants.MI_TANK).get(Constants.COMMAND).setSpreadArea(Utils.parseDouble(fields[format.convert("f")]));
+                	miTank.get(Constants.MI_TANK).get(Constants.NON_COMMAND).setCount(Utils.parseDouble(fields[format.convert("g")]));
+                	miTank.get(Constants.MI_TANK).get(Constants.NON_COMMAND).setSpreadArea(Utils.parseDouble(fields[format.convert("h")]));
+                	miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).setCount(Utils.parseDouble(fields[format.convert("i")]));
+                	miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).setSpreadArea(Utils.parseDouble(fields[format.convert("j")]));
+                   
+                	if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
                     	if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getWaterbodies()==null){
                         	count++;
-                			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setWaterbodies(waterbd);
+                			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setWaterbodies(miTank);
                 		}
                     	else{
-                    		waterbd= village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getWaterbodies();
-                    		cmitank= new Mitank((Utils.parseDouble(fields[4]))+waterbd.command.mitank.count,((Utils.parseDouble(fields[5])+waterbd.command.mitank.spreadArea)),0,120,150,0.00144);
-                        	wbcommand = new Command(cmitank);
-                        	ncmitank= new Mitank((Utils.parseDouble(fields[6]))+waterbd.non_command.mitank.count,((Utils.parseDouble(fields[7])+waterbd.non_command.mitank.spreadArea)),0,120,150,0.00144);
-                        	nonCommand = new NonCommand(ncmitank);
-                        	cpqmitank= new Mitank((Utils.parseDouble(fields[8]))+waterbd.poor_quality.mitank.count,((Utils.parseDouble(fields[9])+waterbd.poor_quality.mitank.spreadArea)),0,120,150,0.00144);
-                        	commandpoorQuality = new CommandPoorQuality(cpqmitank);
-                            waterbd = new waterbodies(wbcommand,nonCommand,commandpoorQuality);
-                            waterbodyjson = waterbody.toJson(waterbd);
-                   			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setWaterbodies(waterbd);
+                    		miTank = village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getWaterbodies();
+                    		
+                    		miTank.get(Constants.MI_TANK).get(Constants.COMMAND).setCount(Utils.parseDouble(fields[format.convert("e")])+miTank.get(Constants.MI_TANK).get(Constants.COMMAND).getCount());
+                    		miTank.get(Constants.MI_TANK).get(Constants.COMMAND).setSpreadArea(Utils.parseDouble(fields[format.convert("f")])+miTank.get(Constants.MI_TANK).get(Constants.COMMAND).getSpreadArea());
+                    		
+                    		miTank.get(Constants.MI_TANK).get(Constants.NON_COMMAND).setCount(Utils.parseDouble(fields[format.convert("g")])+miTank.get(Constants.MI_TANK).get(Constants.NON_COMMAND).getCount());
+                    		miTank.get(Constants.MI_TANK).get(Constants.NON_COMMAND).setSpreadArea(Utils.parseDouble(fields[format.convert("h")])+miTank.get(Constants.MI_TANK).get(Constants.NON_COMMAND).getSpreadArea());
+                    		
+                    		miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).setCount(Utils.parseDouble(fields[format.convert("i")])+miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).getCount());
+                    		miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).setSpreadArea(Utils.parseDouble(fields[format.convert("j")])+miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).getSpreadArea());
+                    		
+                   			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setWaterbodies(miTank);
 
                     	}
                 	}
@@ -2842,39 +1660,36 @@ public class VillageMetaData {
             record = iem.readLine();
 
             while((record = iem.readLine()) != null) {
-            	ArrayList<Map<String,Object>> canal = new ArrayList<>();
-                //json for Canal
-                HashMap<String,Object> canalMap = new HashMap<>();
-            	
                 String fields[] = record.split(",",-1);
 //                if(fields.length==16){
                 if(!fields[format.convert("b")].contains(" ") && !fields[format.convert("b")].isEmpty()){
                 	String villageName = fields[format.convert("d")];
                 	String mb = fields[format.convert("c")];
-                	Map<String,Integer> runningDays = new HashMap<>();
-
-                	canalMap.put("length", Utils.parseDouble(fields[4]));
-                	canalMap.put("type","0");
-                    canalMap.put("sideSlopes",Utils.parseDouble(fields[7]));//sideSlopes
-                    canalMap.put("wettedPerimeter",Utils.parseDouble(fields[8]));//wettedperimeter
-                    canalMap.put("wettedArea",Utils.parseDouble(fields[9]));//wettedarea
-                    canalMap.put("seepageFactor",Utils.parseDouble(fields[10]));//canalseepagefactor
-                    canalMap.put("bedWidth",Utils.parseDouble(fields[6]));//bedwidth
-                    canalMap.put("designDepthFlow",Utils.parseDouble("0"));//designDepthOfFlow
-                    runningDays.put("monsoon",Utils.parseInt(fields[11]));//runningDays_monsoon
-                    runningDays.put("non_monsoon",Utils.parseInt(fields[12]));//runningDays_nonmonsoon
-                    canalMap.put("noOfRunningDays", runningDays);
-                    canal.add(canalMap);
-//                    if(villageName.equals("PEDARAMABHADRAPURAM")){
-//                    	System.out.println("canal : " + canalMap);
-//                    }
-//                    
+                	//AreaType vs CanalName vs CanalData
+                	Map<String, Map<String, CanalData>> canalData = new HashMap<String, Map<String,CanalData>>();
+                	canalData.put(Constants.COMMAND, new HashMap<String, CanalData>());
+                	canalData.put(Constants.NON_COMMAND, new HashMap<String, CanalData>());
+                	canalData.put(Constants.POOR_QUALITY, new HashMap<String, CanalData>());
+                	CanalData canal = new CanalData();
+                	String canalName = String.valueOf(Math.random());
+                	canal.setLength(Utils.parseDouble(fields[4]));
+                	canal.setSideSlopes(Utils.parseDouble(fields[7]));
+                	canal.setDesignDepthFlow(Utils.parseDouble(fields[5]));
+                	canal.setBedWidth(Utils.parseDouble(fields[6]));
+                	canal.setNoOfRunningDays(new HashMap<String, Integer>());
+                	canal.getNoOfRunningDays().put(Constants.MONSOON, Utils.parseInt(fields[11]));
+                	canal.getNoOfRunningDays().put(Constants.NON_MONSOON, Utils.parseInt(fields[12]));
+                	canal.setSeepageFactor(Utils.parseDouble(fields[10]));
+                	canal.setSegmentName(canalName);
+                	
+                	canalData.get(Constants.COMMAND).put(canalName, canal);
+                	
                     if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
                 		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getCanal()==null){
                         	count++;
-                        	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setCanal(canal);
+                        	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setCanal(canalData);
                         }else{
-                        	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getCanal().add(canalMap);
+                        	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getCanal().get(Constants.COMMAND).putAll(canalData.get(Constants.COMMAND));
                         }
                                         	
                 	}
@@ -2895,35 +1710,36 @@ public class VillageMetaData {
         try(BufferedReader iem = new BufferedReader(new FileReader(artificialWCfile))) {
         	int count =0;
             record = iem.readLine();
-//            System.out.println(locmapping.keySet());
             while((record = iem.readLine()) != null) {
                 String fields[] = record.split(",",-1);
-//                System.out.println("ANKIT ::: artificial length : " + fields.length);
                  if(fields.length==34){
-//                	System.out.println("ANKIT ::: record.length : " + fields.length);
-//                	System.out.println("ANKIT :: record : " + record);
-                 	PercolationTanks cpt= new PercolationTanks(fields[format.convert("e")].isEmpty() ? 0 : (Double.parseDouble(fields[format.convert("e")])),(fields[format.convert("f")].isEmpty() ? 0 : Double.parseDouble(fields[format.convert("f")])),(Double.parseDouble("1.5")),0.5);
-                 	MiniPercolationTanks cmpt= new MiniPercolationTanks(fields[format.convert("g")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("g")])),(fields[format.convert("h")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("h")])),(Double.parseDouble("1.5")),0.5);
-                 	CheckDams ccd= new CheckDams(fields[format.convert("i")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("i")])),(fields[format.convert("j")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("j")])),(Double.parseDouble("6")),0.5);
-                 	FarmPonds fp = new FarmPonds((fields[format.convert("k")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("k")])),(fields[format.convert("l")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("l")])),(Double.parseDouble("22")),0.5);
-                 	Other other = new Other(fields[format.convert("m")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("m")])),(fields[format.convert("n")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("n")])),(Double.parseDouble("10")),0.5);
-                 	ArtificialWCCommand artificialWCCommand = new ArtificialWCCommand(cpt,cmpt,ccd,fp,other);
+                	//waterBodyType vs ArtificialStructureData
+            		Map<String, ArtificialWC> artificialWC = new HashMap<String, ArtificialWC>();
+            		
+            		for(String arsType : Constants.ARS_TYPES){
+            			ArtificialWC ars = new ArtificialWC();
+            			ars.setNoOfFillings(Constants.FILLINGS.get(arsType));
+            			ars.setInfiltrationFactor(Constants.ARS_INFIL_FACTOR);
+            			ars.setCapacity(new HashMap<String, Double>());
+            			artificialWC.put(arsType, ars);
+            		}
                  	
-                 	PercolationTanks ncpt= new PercolationTanks(fields[format.convert("o")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("o")])),fields[format.convert("p")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("p")])),(Double.parseDouble("1.5")),0.5);
-                 	MiniPercolationTanks ncmpt= new MiniPercolationTanks(fields[format.convert("q")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("q")])),(fields[format.convert("r")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("r")])),(Double.parseDouble("1.5")),0.5);
-                 	CheckDams nccd= new CheckDams(fields[format.convert("s")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("s")])),(fields[format.convert("t")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("t")])),(Double.parseDouble("6")),0.5);
-                 	FarmPonds ncfp = new FarmPonds(fields[format.convert("u")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("u")])),(fields[format.convert("v")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("v")])),(Double.parseDouble("22")),0.5);
-                 	Other ncother = new Other(fields[format.convert("w")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("w")])),(fields[format.convert("x")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("x")])),(Double.parseDouble("10")),0.5);
-                 	ArtificialWCNonCommand artificialWCNonCommand = new ArtificialWCNonCommand(ncpt,ncmpt,nccd,ncfp,ncother);
-                 	
-                 	PercolationTanks pqpt= new PercolationTanks(fields[format.convert("y")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("y")])),(fields[format.convert("z")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("z")])),(Double.parseDouble("1.5")),0.5);
-                 	MiniPercolationTanks pqmpt= new MiniPercolationTanks(fields[format.convert("aa")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("aa")])),(fields[format.convert("ab")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ab")])),(Double.parseDouble("1.5")),0.5);
-                 	CheckDams pqcd= new CheckDams(fields[format.convert("ac")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("ac")])),(fields[format.convert("ad")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ad")])),(Double.parseDouble("6")),0.5);
-                 	FarmPonds pqfp = new FarmPonds(fields[format.convert("ae")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("ae")])),(fields[format.convert("af")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("af")])),(Double.parseDouble("22")),0.5);
-                 	Other pqother = new Other(fields[format.convert("ag")].isEmpty() ? 0 :(Double.parseDouble(fields[format.convert("ag")])),(fields[format.convert("ah")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ah")])),(Double.parseDouble("10")),0.5);
-                 	ArtificialWCPPoorQuality artificialWCPPoorQuality = new ArtificialWCPPoorQuality(pqpt,pqmpt,pqcd,pqfp,pqother);
-
-                 	ArtificialWC artificialWC = new ArtificialWC(artificialWCCommand,artificialWCNonCommand,artificialWCPPoorQuality);
+            		artificialWC.get(Constants.PT).getCapacity().put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("f")]));
+            		artificialWC.get(Constants.PT).getCapacity().put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("p")]));
+            		artificialWC.get(Constants.PT).getCapacity().put(Constants.POOR_QUALITY, Utils.parseDouble(fields[format.convert("z")]));
+            		artificialWC.get(Constants.MPT).getCapacity().put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("h")]));
+            		artificialWC.get(Constants.MPT).getCapacity().put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("r")]));
+            		artificialWC.get(Constants.MPT).getCapacity().put(Constants.POOR_QUALITY, Utils.parseDouble(fields[format.convert("ab")]));
+            		artificialWC.get(Constants.CD).getCapacity().put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("j")]));
+            		artificialWC.get(Constants.CD).getCapacity().put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("t")]));
+            		artificialWC.get(Constants.CD).getCapacity().put(Constants.POOR_QUALITY, Utils.parseDouble(fields[format.convert("ad")]));
+            		artificialWC.get(Constants.FP).getCapacity().put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("l")]));
+            		artificialWC.get(Constants.FP).getCapacity().put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("v")]));
+            		artificialWC.get(Constants.FP).getCapacity().put(Constants.POOR_QUALITY, Utils.parseDouble(fields[format.convert("af")]));
+            		artificialWC.get(Constants.OTHER).getCapacity().put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("n")]));
+            		artificialWC.get(Constants.OTHER).getCapacity().put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("x")]));
+            		artificialWC.get(Constants.OTHER).getCapacity().put(Constants.POOR_QUALITY, Utils.parseDouble(fields[format.convert("ah")]));
+            		
                  	String artificialwcjson = artificialwc.toJson(artificialWC);
 //                 	System.out.println("ANKIT ::: outside locMaping");
                  	if(locmapping.containsKey(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
@@ -2933,28 +1749,24 @@ public class VillageMetaData {
                          	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArtificialWC(artificialWC);
                  		}else{
                  			artificialWC= village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArtificialWC();
-                 			cpt= new PercolationTanks((fields[format.convert("e")].isEmpty() ? 0 : Double.parseDouble(fields[format.convert("e")]))+artificialWC.command.pt.count,(fields[format.convert("f")].isEmpty() ? 0 : Double.parseDouble(fields[format.convert("f")]))+artificialWC.command.pt.capacity,(Double.parseDouble("1.5")),0.5);
-                         	cmpt= new MiniPercolationTanks((fields[format.convert("g")].isEmpty() ? 0 : Double.parseDouble(fields[format.convert("g")]))+artificialWC.command.mpt.count,(fields[format.convert("h")].isEmpty() ? 0 : Double.parseDouble(fields[format.convert("h")]))+artificialWC.command.mpt.capacity,(Double.parseDouble("1.5")),0.5);
-                         	ccd= new CheckDams((fields[format.convert("i")].isEmpty() ? 0 : Double.parseDouble(fields[format.convert("i")]))+artificialWC.command.cd.count,(fields[format.convert("j")].isEmpty() ? 0 : Double.parseDouble(fields[format.convert("j")]))+artificialWC.command.cd.capacity,(Double.parseDouble("6")),0.5);
-                         	fp = new FarmPonds((fields[format.convert("k")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("k")]))+artificialWC.command.fp.count,(fields[format.convert("l")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("l")]))+artificialWC.command.fp.capacity,(Double.parseDouble("22")),0.5);
-                         	other = new Other((fields[format.convert("m")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("m")]))+artificialWC.command.others.count,(fields[format.convert("n")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("n")]))+artificialWC.command.others.capacity,(Double.parseDouble("10")),0.5);
-                         	artificialWCCommand = new ArtificialWCCommand(cpt,cmpt,ccd,fp,other);
-                         	
-                         	ncpt= new PercolationTanks((fields[format.convert("o")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("o")]))+artificialWC.non_command.pt.count,(fields[format.convert("p")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("p")]))+artificialWC.non_command.pt.capacity,(Double.parseDouble("1.5")),0.5);
-                         	ncmpt= new MiniPercolationTanks((fields[format.convert("q")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("q")]))+artificialWC.non_command.mpt.count,(fields[format.convert("r")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("r")]))+artificialWC.non_command.mpt.capacity,(Double.parseDouble("1.5")),0.5);
-                         	nccd= new CheckDams((fields[format.convert("s")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("s")]))+artificialWC.non_command.cd.count,(fields[format.convert("t")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("t")]))+artificialWC.non_command.cd.capacity,(Double.parseDouble("6")),0.5);
-                         	ncfp = new FarmPonds((fields[format.convert("u")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("u")]))+artificialWC.non_command.fp.count,(fields[format.convert("v")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("v")]))+artificialWC.non_command.fp.capacity,(Double.parseDouble("22")),0.5);
-                         	ncother = new Other((fields[format.convert("w")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("w")]))+artificialWC.non_command.others.count,(fields[format.convert("x")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("x")]))+artificialWC.non_command.others.capacity,(Double.parseDouble("10")),0.5);
-                         	artificialWCNonCommand = new ArtificialWCNonCommand(ncpt,ncmpt,nccd,ncfp,ncother);
-                         	
-                         	pqpt= new PercolationTanks((fields[format.convert("y")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("y")])),(fields[format.convert("z")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("z")])),(Double.parseDouble("1.5")),0.5);
-                         	pqmpt= new MiniPercolationTanks((fields[format.convert("aa")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("aa")])),(fields[format.convert("ab")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ab")])),(Double.parseDouble("1.5")),0.5);
-                         	pqcd= new CheckDams((fields[format.convert("ac")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ac")])),(fields[format.convert("ad")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ad")])),(Double.parseDouble("6")),0.5);
-                         	pqfp = new FarmPonds((fields[format.convert("ae")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ae")])),(fields[format.convert("af")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("af")])),(Double.parseDouble("22")),0.5);
-                         	pqother = new Other((fields[format.convert("ag")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ag")])),(fields[format.convert("ah")].isEmpty() ? 0 :Double.parseDouble(fields[format.convert("ah")])),(Double.parseDouble("10")),0.5);
-                         	artificialWCPPoorQuality = new ArtificialWCPPoorQuality(pqpt,pqmpt,pqcd,pqfp,pqother);
-
-                         	artificialWC = new ArtificialWC(artificialWCCommand,artificialWCNonCommand,artificialWCPPoorQuality);
+                 			
+                 			
+                 			artificialWC.get(Constants.PT).getCapacity().put(Constants.COMMAND, artificialWC.get(Constants.PT).getCapacity().get(Constants.COMMAND)+Utils.parseDouble(fields[format.convert("f")]));
+                 			artificialWC.get(Constants.PT).getCapacity().put(Constants.NON_COMMAND, artificialWC.get(Constants.PT).getCapacity().get(Constants.NON_COMMAND)+Utils.parseDouble(fields[format.convert("p")]));
+                 			artificialWC.get(Constants.PT).getCapacity().put(Constants.POOR_QUALITY, artificialWC.get(Constants.PT).getCapacity().get(Constants.POOR_QUALITY)+Utils.parseDouble(fields[format.convert("z")]));
+                 			artificialWC.get(Constants.MPT).getCapacity().put(Constants.COMMAND, artificialWC.get(Constants.MPT).getCapacity().get(Constants.COMMAND)+Utils.parseDouble(fields[format.convert("h")]));
+                 			artificialWC.get(Constants.MPT).getCapacity().put(Constants.NON_COMMAND, artificialWC.get(Constants.MPT).getCapacity().get(Constants.NON_COMMAND)+Utils.parseDouble(fields[format.convert("r")]));
+                 			artificialWC.get(Constants.MPT).getCapacity().put(Constants.POOR_QUALITY, artificialWC.get(Constants.MPT).getCapacity().get(Constants.POOR_QUALITY)+Utils.parseDouble(fields[format.convert("ab")]));
+                 			artificialWC.get(Constants.CD).getCapacity().put(Constants.COMMAND, artificialWC.get(Constants.CD).getCapacity().get(Constants.COMMAND)+Utils.parseDouble(fields[format.convert("j")]));
+                 			artificialWC.get(Constants.CD).getCapacity().put(Constants.NON_COMMAND, artificialWC.get(Constants.CD).getCapacity().get(Constants.NON_COMMAND)+Utils.parseDouble(fields[format.convert("t")]));
+                 			artificialWC.get(Constants.CD).getCapacity().put(Constants.POOR_QUALITY, artificialWC.get(Constants.CD).getCapacity().get(Constants.POOR_QUALITY)+Utils.parseDouble(fields[format.convert("ad")]));
+                 			artificialWC.get(Constants.FP).getCapacity().put(Constants.COMMAND, artificialWC.get(Constants.FP).getCapacity().get(Constants.COMMAND)+Utils.parseDouble(fields[format.convert("l")]));
+                 			artificialWC.get(Constants.FP).getCapacity().put(Constants.NON_COMMAND, artificialWC.get(Constants.FP).getCapacity().get(Constants.NON_COMMAND)+Utils.parseDouble(fields[format.convert("v")]));
+                 			artificialWC.get(Constants.FP).getCapacity().put(Constants.POOR_QUALITY, artificialWC.get(Constants.FP).getCapacity().get(Constants.POOR_QUALITY)+Utils.parseDouble(fields[format.convert("af")]));
+                 			artificialWC.get(Constants.OTHER).getCapacity().put(Constants.COMMAND, artificialWC.get(Constants.OTHER).getCapacity().get(Constants.COMMAND)+Utils.parseDouble(fields[format.convert("n")]));
+                 			artificialWC.get(Constants.OTHER).getCapacity().put(Constants.NON_COMMAND, artificialWC.get(Constants.OTHER).getCapacity().get(Constants.NON_COMMAND)+Utils.parseDouble(fields[format.convert("x")]));
+                 			artificialWC.get(Constants.OTHER).getCapacity().put(Constants.POOR_QUALITY, artificialWC.get(Constants.OTHER).getCapacity().get(Constants.POOR_QUALITY)+Utils.parseDouble(fields[format.convert("ah")]));
+                 			
                          	artificialwcjson = artificialwc.toJson(artificialWC);
                          	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArtificialWC(artificialWC);
 
@@ -2989,61 +1801,52 @@ public class VillageMetaData {
               
           	//readXLSXFile();
               record = iem.readLine();
-              Population populationObj;
               String populationJson;
               while((record = iem.readLine()) != null) {
                   //System.out.println("record"+record);
                   String fields[] = record.split(",",-1);
                  // System.out.println("fields"+fields);
-                  int lpcd =0;
-                  int referenceYear = 2011;
-                  double growthRate = 3.76;
-                  Map<String, Integer> populationMap = new HashMap<>();
-                  int totalPopulation=0;
-                  int command = 0;
-                  int noncommand =0;
                   if(fields.length==9){
-                  	if(!fields[format.convert("i")].isEmpty()){
-                  		lpcd = (int) Double.parseDouble(fields[format.convert("i")]);
-                                        	}
-                  	if(!fields[format.convert("h")].isEmpty()){
-                  		totalPopulation=(int) Double.parseDouble(fields[format.convert("h")]);
-                 	}
-                  	if(!fields[format.convert("f")].isEmpty()){
-                  		command = (int) Double.parseDouble(fields[format.convert("f")]);
-                    }
-                  	if(!fields[format.convert("g")].isEmpty()){
-                  	   	noncommand = (int) Double.parseDouble(fields[format.convert("g")]);
-                   	}
-                  	
-                  	lpcd = (totalPopulation == 0)?0:(lpcd/totalPopulation);
-                  	populationMap.put(Constants.COMMAND, command);
-                  	populationMap.put(Constants.NON_COMMAND, noncommand);
+                	  
+                	// areaType vs Population data
+                	Map<String, Population>  population = new HashMap<String, Population>();
+                	for(String areaType : Constants.AREA_TYPES){
+                		Population pop = new Population();
+                		pop.setGrowthRate(3.76);
+                		pop.setReferenceYear(2011);
+                		if(Utils.parseDouble(fields[format.convert("h")]) > 0.0)
+                			pop.setLpcd(Utils.parseDouble(fields[format.convert("i")])/Utils.parseDouble(fields[format.convert("h")]));
+                		population.put(areaType, pop);
+                		
+                	}
+                	
+                	population.get(Constants.COMMAND).setTotalPopulation(Utils.parseInt(fields[format.convert("f")]));
+                	population.get(Constants.NON_COMMAND).setTotalPopulation(Utils.parseInt(fields[format.convert("g")]));
+                	
                   	if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))){
                       //	System.out.println("hello");
                   		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).population==null){
-                  			populationObj = new Population(lpcd, referenceYear, totalPopulation, growthRate, populationMap);
-                          	populationJson = populationjsn.toJson(populationObj);
+                  			populationJson = populationjsn.toJson(population);
                   			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).setPopulation(populationJson);
                 		}
                   		else{
 //                  			System.out.println(fields[format.convert("e")] + "else me aya");
-                  			populationObj= populationjsn.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).getPopulation(),Population.class);
-                  			if(populationObj == null)
-                  				populationObj = new Population();
-                  			populationObj.setLpcd(lpcd);
-                  			populationObj.setTotalPopulation(totalPopulation);
-                  			if(populationObj.getAreaWisePopulation() == null)
-                  				populationObj.setAreaWisePopulation(new HashMap<String, Integer>());
+                  			population = populationjsn.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).getPopulation(), new TypeToken<Map<String, Population>>(){}.getType());
+                  			if(population == null){
+                  				for(String areaType : Constants.AREA_TYPES){
+                            		Population pop = new Population();
+                            		pop.setGrowthRate(3.76);
+                            		pop.setReferenceYear(2011);
+                            		pop.setLpcd(Utils.parseDouble(fields[format.convert("i")])/Utils.parseDouble(fields[format.convert("h")]));
+                            		population.put(areaType, pop);
+                            		
+                            	}
+                  			}
                   			
-                  			populationObj.getAreaWisePopulation().put(Constants.COMMAND, command);
-                  			populationObj.getAreaWisePopulation().put(Constants.NON_COMMAND, noncommand);
-//                  			lpcd+=populationObj.lpcd;
-//                  			totalPopulation+=populationObj.totalPopulation;
-//                  			command += populationMap.get(Constants.COMMAND_AREA);
-//                  			noncommand += populationMap.get(Constants.NON_COMMAND_AREA);
-//                  			populationObj = new Population(lpcd,totalPopulation,command,noncommand);
-                          	populationJson = populationjsn.toJson(populationObj);
+                  			population.get(Constants.COMMAND).setTotalPopulation(population.get(Constants.COMMAND).getTotalPopulation()+Utils.parseInt(fields[format.convert("f")]));
+                        	population.get(Constants.NON_COMMAND).setTotalPopulation(population.get(Constants.NON_COMMAND).getTotalPopulation()+Utils.parseInt(fields[format.convert("g")]));
+                        	
+                          	populationJson = populationjsn.toJson(population);
                             village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).setPopulation(populationJson);
                   		}
                       }
@@ -3057,7 +1860,7 @@ public class VillageMetaData {
 
         
 //************************************ Only for 2012-2013   
-	if(assesssment_year.equals("2012-2013")) {     
+	if(assesssment_year.equals(Constants.GEC_ASSESSMENT_YEAR)) {     
         try(BufferedReader inp = new BufferedReader(new FileReader(cropDataFile))) {
         	
         	while((record = inp.readLine()) != null ) {
@@ -3068,136 +1871,139 @@ public class VillageMetaData {
         			continue;
         		} 
         		
-        		Map<String,Map<String,Map<String,Object>>> cropData = new HashMap<String, Map<String,Map<String,Object>>>();
-
-				double total_area=0.0;
-				Map<String, Double> seasonData = new HashMap<String, Double>();
-        		seasonData.put("gw_irrigation", 0.0);
-        		seasonData.put("surface_irrigation", 0.0);
-
-        		Map<String, Map<String,Double>> irrigationData = new HashMap<>();
-        		irrigationData.put("monsoon", seasonData);
-				irrigationData.put("non_monsoon", seasonData);
-
-        		Map<String, Object> waterData = new HashMap<String, Object>();
-        		waterData.put("waterRequired", Constants.PADDY_WATER_REQUIREMENT);
-        		waterData.put("waterRequiredUnit", "mm");
-        		waterData.put("cropArea", 0.0);
-        		waterData.put("irrigationAreaInfo", new HashMap<String, Map<String, Double>>(irrigationData));
+//        		source vs AreaType vs CropType vs CropName vs CropData
+        		Map<String, Map<String, Map<String, Map<String, CropData>>>> cropInfo = new HashMap<String, Map<String,Map<String,Map<String,CropData>>>>();
         		
-//        		if(Utils.parseDouble(fields[format.convert("e")]) == 0.01) {
-//        			System.out.println(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])));
-//        		}
+        		for(String source : Constants.IRRIGATION_SOURCES){
+        			cropInfo.put(source, new HashMap<String, Map<String,Map<String,CropData>>>());
+        			for(String areaType : Constants.AREA_TYPES){
+        				cropInfo.get(source).put(areaType, new HashMap<String, Map<String,CropData>>());
+        				for(String cropType : Constants.CROP_TYPES){
+        					cropInfo.get(source).get(areaType).put(cropType, new HashMap<String, CropData>());
+        					String cropName = "A";
+        					CropData cropData = new CropData();
+        					cropData.setCropName(cropName);
+        					cropData.setCropArea(new HashMap<String, Double>());
+        					cropData.setWaterRequired(new HashMap<String, Double>());
+        					if(cropType.equals(Constants.PADDY)){
+        						cropData.getWaterRequired().put(Constants.MONSOON, Constants.PADDY_WATER_REQUIREMENT);
+        						cropData.getWaterRequired().put(Constants.NON_MONSOON, 2*Constants.PADDY_WATER_REQUIREMENT);
+        					}else{
+        						cropData.getWaterRequired().put(Constants.MONSOON, Constants.NON_PADDY_WATER_REQUIREMENT);
+        						cropData.getWaterRequired().put(Constants.NON_MONSOON, 2*Constants.NON_PADDY_WATER_REQUIREMENT);
+        					}
+        					cropInfo.get(source).get(areaType).get(cropType).put(cropName, cropData);
+        				}
+        			}
+        		}
         		
-//        		if(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])).equals("Turebongalu")) {
-//        			System.out.println(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
-//        		}
-        		cropData.put("command", new HashMap<String, Map<String,Object>>());
+        		//---------------------------------GW Irr
+        		//------------Command
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("e")]));
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("f")]));
         		
-        		total_area = 0.0;
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("e")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("q")]));
-//        		System.out.println("ANKIT ::: " + fields[1] + " " + fields[2] + " " + fields[3]);
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ac")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-        		irrigationData.put("monsoon", new HashMap<>(seasonData));
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("f")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("r")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ad")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
-        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
-        		waterData.put("cropArea", total_area);
-        		cropData.get("command").put("paddy", new HashMap<String, Object>(waterData));
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("g")]));
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("h")]));
         		
-        		total_area = 0.0;
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("g")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("s")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ae")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-        		irrigationData.put("monsoon", new HashMap<>(seasonData));
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("h")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("t")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("af")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
-        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
-        		waterData.put("waterRequired", Constants.NON_PADDY_WATER_REQUIREMENT);
-        		waterData.put("cropArea", total_area);
-        		cropData.get("command").put("nonPaddy", new HashMap<String, Object>(waterData));
+        		//----------------Non-command	
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("i")]));
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("j")]));
         		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("k")]));
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("l")]));
         		
-        		cropData.put("non_command", new HashMap<String, Map<String,Object>>());
+        		//----------------Poor-Quality	
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("m")]));
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("n")]));
         		
-        		total_area = 0.0;
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("i")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("u")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ag")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-        		irrigationData.put("monsoon", new HashMap<>(seasonData));
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("j")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("v")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ah")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
-        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
-        		waterData.put("waterRequired", Constants.PADDY_WATER_REQUIREMENT);
-        		waterData.put("cropArea", total_area);
-        		cropData.get("non_command").put("paddy", new HashMap<String, Object>(waterData));
-        		
-        		total_area = 0.0;
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("k")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("w")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ai")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-        		irrigationData.put("monsoon", new HashMap<>(seasonData));
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("l")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("x")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("aj")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
-        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
-        		waterData.put("waterRequired", Constants.NON_PADDY_WATER_REQUIREMENT);
-        		waterData.put("cropArea", total_area);
-        		cropData.get("non_command").put("nonPaddy", new HashMap<String, Object>(waterData));
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
+        		cropInfo.get(Constants.GROUND_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
         		
         		
-        		cropData.put("poor_quality", new HashMap<String, Map<String,Object>>());
         		
-        		total_area = 0.0;
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("m")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("y")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("ak")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-        		irrigationData.put("monsoon", new HashMap<>(seasonData));
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("m")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("z")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("al")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
-        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
-        		waterData.put("waterRequired", Constants.PADDY_WATER_REQUIREMENT);
-        		waterData.put("cropArea", total_area);
-        		cropData.get("poor_quality").put("paddy", new HashMap<String, Object>(waterData));
+        		//-------------------------------- MI IRR
+        		//------------Command
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("q")]));
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("r")]));
         		
-        		total_area = 0.0;
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("o")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("aa")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("am")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-        		irrigationData.put("monsoon", new HashMap<>(seasonData));
-        		seasonData.put("gw_irrigation", Utils.parseDouble(fields[format.convert("p")]));
-        		seasonData.put("mi_irrigation", Utils.parseDouble(fields[format.convert("ab")]));
-        		seasonData.put("surface_irrigation", Utils.parseDouble(fields[format.convert("an")]));
-        		total_area += seasonData.get("gw_irrigation") + seasonData.get("mi_irrigation") + seasonData.get("surface_irrigation");
-				irrigationData.put("non_monsoon", new HashMap<>(seasonData));    		
-        		waterData.put("irrigationAreaInfo", new HashMap<>(irrigationData));
-        		waterData.put("waterRequired", Constants.NON_PADDY_WATER_REQUIREMENT);
-        		waterData.put("cropArea", total_area);
-        		cropData.get("poor_quality").put("nonPaddy", new HashMap<String, Object>(waterData));
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("s")]));
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("t")]));
+        		
+        		//----------------Non-command	
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("u")]));
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("v")]));
+        		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("w")]));
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("x")]));
+        		
+        		//----------------Poor-Quality	
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("y")]));
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("z")]));
+        		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("aa")]));
+        		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("ab")]));
+        		
+        		
+        		//--------------------------------Surface Irr
+        		//------------Command
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ac")]));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("ad")]));
+        		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ae")]));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("af")]));
+        		
+        		//----------------Non-command	
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ag")]));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("ah")]));
+        		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ai")]));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("aj")]));
+        		
+        		//----------------Poor-Quality	
+        		//Paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ak")]));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("al")]));
+        		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("am")]));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("an")]));
         		
         		village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])))
-        		.crop_info = cropData;
+        		.crop_info = cropInfo;
         	}
         	
 
@@ -3234,33 +2040,33 @@ public class VillageMetaData {
                 		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
                 		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
                 		  
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
                 		  
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
                 		  
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
+                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
                 		  
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
                 		  
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
+                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
                 		  
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
+                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
+                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
                 		  
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
+                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
+                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
 
                 		  village_details.get(locmapping.get(basinKey)).gw_data = (new Gson()).toJson(gw);
                 		  
@@ -3268,32 +2074,31 @@ public class VillageMetaData {
                 		  Map<String, Map<String, Map<String, Map<String, Double>>>> rf = new HashMap<String, Map<String,Map<String,Map<String,Double>>>>();
                 		  rf.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
                 		  rf.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
-                		  rf.get(Constants.COMMAND).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
-                		  rf.get(Constants.NON_COMMAND).put(Constants.CURRENT_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
-                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
                 		  
-                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
-                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
-                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));
-                		  rf.get(Constants.COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
+                		  rf.get(Constants.COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
+                		  rf.get(Constants.NON_COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
+                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
+                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
+                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
+                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
+                		 
+                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
+                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
+                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
+                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
                 		  
-                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
-                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
-                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));
-                		  rf.get(Constants.NON_COMMAND).get(Constants.CURRENT_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
+                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
+                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
+                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
+                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
                 		  
                 		  village_details.get(locmapping.get(basinKey)).rf_data =  (new Gson()).toJson(rf);
 
                 		  
-                		  //TODO verify it .... Domestic
-                		  Map<String, Map<String, Double>> gwDependency = new HashMap<String, Map<String, Double>>();
-	                   	  gwDependency.put(Constants.DOMESTIC, new HashMap<String, Double>());
-	                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("m")]));
-	                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("l")]));
-                		  village_details.get(locmapping.get(basinKey)).setGwDependencyFactor(gwDependency);
+                		  Map<String, Population> population = populationjsn.fromJson(village_details.get(locmapping.get(basinKey)).getPopulation(), new TypeToken<Map<String, Population>>(){}.getType());
+                		  population.get(Constants.COMMAND).setGwDependency(Utils.parseDouble(fields[format.convert("m")]));
+	                   	  population.get(Constants.NON_COMMAND).setGwDependency(Utils.parseDouble(fields[format.convert("l")]));
+	                   	  village_details.get(locmapping.get(basinKey)).setPopulation(populationjsn.toJson(population));
                 		  
                 	  }
                   }

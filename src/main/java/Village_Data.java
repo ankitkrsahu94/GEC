@@ -1,8 +1,5 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
-import org.apache.poi.util.SystemOutLogger;
 
 import com.google.gson.Gson;
 
@@ -10,19 +7,17 @@ import com.google.gson.Gson;
 
 public class Village_Data {
 	
-	public static String assesYear = "2012-2013";
+	public static String assesYear = Constants.GEC_ASSESSMENT_YEAR;
 	String loc_assoc;
 
-	int parent_id =1;
-	int loc_type_id =10;
+	int parent_id=Constants.PARENT_ID;
+	int loc_type_id =Constants.LOC_TYPE_VILLAGE;
 	int verific_status =1;
 	String assessment_year = assesYear;
 	int loc_id;
 	String loc_name;
 	double rf_infil_rate=1;
 	double gw_specific_yield=1;
-	double transmissivity=1;
-	double storage_coeff =1;
 	String soil_type="";
 	String area;
 	String crop_info;
@@ -95,7 +90,7 @@ public class Village_Data {
 		String distri = gs.toJson(resourceDistribution);
 		this.resource_dist = distri;
 	}
-	private void setCrop(Map<String, Map<String, Map<String, Object>>> crop_info2) {
+	private void setCrop(Map<String, Map<String, Map<String, Map<String, CropData>>>> crop_info2) {
 		Gson gs = new Gson();
 		String crop = gs.toJson(crop_info2);
 		this.crop_info=crop;
@@ -118,7 +113,7 @@ public class Village_Data {
 	public String getCanal() {
 		return canal_info;
 	}
-	public void setCanal(ArrayList<Map<String,Object>> canal) {
+	public void setCanal(Map<String, Map<String, CanalData>> canal) {
 		 Gson gs = new Gson();
 		 String canal_info;
 		 canal_info= gs.toJson(canal);
@@ -159,7 +154,7 @@ public class Village_Data {
 	public String getWaterbodies() {
 		return water_bodies;
 	}
-	public void setWaterbodies(waterbodies waterbodies) {
+	public void setWaterbodies(Map<String, Map<String, WaterBody>> waterbodies) {
 		Gson gs = new Gson();
 		String wb = gs.toJson(waterbodies);
 		this.water_bodies = wb;
@@ -167,7 +162,7 @@ public class Village_Data {
 	public String getArtificialWC() {
 		return artificial_wc;
 	}
-	public void setArtificialWC(ArtificialWC artificialWC) {
+	public void setArtificialWC(Map<String, ArtificialWC> artificialWC) {
 		Gson gs = new Gson();
 		String WC = gs.toJson(artificialWC);
 		this.artificial_wc = WC;

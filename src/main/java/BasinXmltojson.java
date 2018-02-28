@@ -10,6 +10,7 @@ import java.util.Map;
 import org.json.JSONObject;
 
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 
 public class BasinXmltojson {
@@ -603,76 +604,6 @@ public class BasinXmltojson {
 			e.printStackTrace();
 		}
 
-		// json for water bodies
-		Gson waterbody = new Gson();
-		// inserting into waterbodies json Object
-		try (BufferedReader iem = new BufferedReader(new FileReader(waterbodiesfile))) {
-			int count = 0;
-			record = iem.readLine();
-			record = iem.readLine();
-			record = iem.readLine();
-
-			while ((record = iem.readLine()) != null) {
-				String fields[] = record.split(",", -1);
-				// 10
-				if (fields.length == 15) {
-					Mitank cmitank = new Mitank((Double.parseDouble(fields[4])), Double.parseDouble(fields[5]), 0, 120,
-							150, 0.00144);
-					Command wbcommand = new Command(cmitank);
-					Mitank ncmitank = new Mitank((Double.parseDouble(fields[6])), Double.parseDouble(fields[7]), 0, 120,
-							150, 0.00144);
-					NonCommand nonCommand = new NonCommand(ncmitank);
-					Mitank cpqmitank = new Mitank((Double.parseDouble(fields[8])), Double.parseDouble(fields[9]) * 0.6,
-							0, 120, 150, 0.00144);
-					CommandPoorQuality commandpoorQuality = new CommandPoorQuality(cpqmitank);
-					waterbodies waterbd = new waterbodies(wbcommand, nonCommand, commandpoorQuality);
-					String waterbodyjson = waterbody.toJson(waterbd);
-					if (locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")]))) {
-						if (Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-								.getWater_bodies() == null) {
-							count++;
-							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.setWater_bodies(waterbd);
-						} else {
-							waterbd = Basin_details
-									.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.getWater_bodies();
-							cmitank = new Mitank((Double.parseDouble(fields[4])) + waterbd.command.mitank.count,
-									((Double.parseDouble(fields[5]) + waterbd.command.mitank.spreadArea)), 0, 120, 150,
-									0.00144);
-							wbcommand = new Command(cmitank);
-							ncmitank = new Mitank((Double.parseDouble(fields[6])) + waterbd.non_command.mitank.count,
-									((Double.parseDouble(fields[7]) + waterbd.non_command.mitank.spreadArea)), 0, 120,
-									150, 0.00144);
-							nonCommand = new NonCommand(ncmitank);
-							cpqmitank = new Mitank(
-									(Double.parseDouble(fields[8])) + waterbd.poor_quality.mitank.count,
-									((Double.parseDouble(fields[9]) + waterbd.poor_quality.mitank.spreadArea)),
-									0, 120, 150, 0.00144);
-							commandpoorQuality = new CommandPoorQuality(cpqmitank);
-							waterbd = new waterbodies(wbcommand, nonCommand, commandpoorQuality);
-							waterbodyjson = waterbody.toJson(waterbd);
-							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.setWater_bodies(waterbd);
-
-						}
-					}
-					// System.out.println(waterbodyjson);
-				}
-			}
-
-			/*
-			 * for(String key:village_details.keySet()){
-			 * if(village_details.get(key).water_bodies==null){
-			 * //System.out.println(key);
-			 * System.out.println(village_details.get(key).getVillageName()); }
-			 * }
-			 */
-			System.out.println(" water body count= " + count);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
 		// inserting into canal json Object
 		try (BufferedReader iem = new BufferedReader(new FileReader(canalfile))) {
 
@@ -727,370 +658,7 @@ public class BasinXmltojson {
 			e.printStackTrace();
 		}
 
-		// json for artificial wc
-		Gson artificialwc = new Gson();
-		// inserting into artificial wc json Object
-		try (BufferedReader iem = new BufferedReader(new FileReader(artificialWCfile))) {
-			int count = 0, i = 0;
-			record = iem.readLine();
-
-			while ((record = iem.readLine()) != null) {
-				String fields[] = record.split(",", -1);
-				// System.out.println(fields.length);
-				// if(fields.length == 24){
-				// System.out.println("ANKIT ::: 24 : " + record);
-				// }
-				// if(fields.length == 34){
-				// System.out.println("ANKIT ::: 34 : " + record);
-				// }
-				// else{
-				// System.out.println("ANKIT ::: other : " + record);
-				// }
-				// System.out.println("ANKIT ::: fields.length : " +
-				// fields.length);
-				// 34
-				if (fields.length >= 43) {
-					// System.out.println("ANKIT ::: " + record);
-					// System.out.println("ANKIT ::: inside artificial : " +
-					// ++i);
-					PercolationTanks cpt = new PercolationTanks(
-							fields[format.convert("e")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("e")])),
-							(fields[format.convert("f")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("f")])),
-							(Double.parseDouble("1.5")), 0.5);
-					MiniPercolationTanks cmpt = new MiniPercolationTanks(
-							fields[format.convert("g")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("g")])),
-							(fields[format.convert("h")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("h")])),
-							(Double.parseDouble("1.5")), 0.5);
-					CheckDams ccd = new CheckDams(
-							fields[format.convert("i")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("i")])),
-							(fields[format.convert("j")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("j")])),
-							(Double.parseDouble("6")), 0.5);
-					FarmPonds fp = new FarmPonds(
-							(fields[format.convert("k")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("k")])),
-							(fields[format.convert("l")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("l")])),
-							(Double.parseDouble("22")), 0.5);
-					Other other = new Other(
-							fields[format.convert("m")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("m")])),
-							(fields[format.convert("n")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("n")])),
-							(Double.parseDouble("10")), 0.5);
-					ArtificialWCCommand artificialWCCommand = new ArtificialWCCommand(cpt, cmpt, ccd, fp, other);
-
-					PercolationTanks ncpt = new PercolationTanks(
-							fields[format.convert("o")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("o")])),
-							fields[format.convert("p")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("p")])),
-							(Double.parseDouble("1.5")), 0.5);
-					MiniPercolationTanks ncmpt = new MiniPercolationTanks(
-							fields[format.convert("q")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("q")])),
-							(fields[format.convert("r")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("r")])),
-							(Double.parseDouble("1.5")), 0.5);
-					CheckDams nccd = new CheckDams(
-							fields[format.convert("s")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("s")])),
-							(fields[format.convert("t")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("t")])),
-							(Double.parseDouble("6")), 0.5);
-					FarmPonds ncfp = new FarmPonds(
-							fields[format.convert("u")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("u")])),
-							(fields[format.convert("v")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("v")])),
-							(Double.parseDouble("22")), 0.5);
-					Other ncother = new Other(
-							fields[format.convert("w")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("w")])),
-							(fields[format.convert("x")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("x")])),
-							(Double.parseDouble("10")), 0.5);
-					ArtificialWCNonCommand artificialWCNonCommand = new ArtificialWCNonCommand(ncpt, ncmpt, nccd, ncfp,
-							ncother);
-
-					PercolationTanks pqpt = new PercolationTanks(
-							fields[format.convert("y")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("y")])),
-							(fields[format.convert("z")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("z")])),
-							(Double.parseDouble("1.5")), 0.5);
-					MiniPercolationTanks pqmpt = new MiniPercolationTanks(
-							fields[format.convert("aa")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("aa")])),
-							(fields[format.convert("ab")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("ab")])),
-							(Double.parseDouble("1.5")), 0.5);
-					CheckDams pqcd = new CheckDams(
-							fields[format.convert("ac")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("ac")])),
-							(fields[format.convert("ad")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("ad")])),
-							(Double.parseDouble("6")), 0.5);
-					FarmPonds pqfp = new FarmPonds(
-							fields[format.convert("ae")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("ae")])),
-							(fields[format.convert("af")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("af")])),
-							(Double.parseDouble("22")), 0.5);
-					Other pqother = new Other(
-							fields[format.convert("ag")].isEmpty() ? 0
-									: (Double.parseDouble(fields[format.convert("ag")])),
-							(fields[format.convert("ah")].isEmpty() ? 0
-									: Double.parseDouble(fields[format.convert("ah")])),
-							(Double.parseDouble("10")), 0.5);
-					ArtificialWCPPoorQuality artificialWCPPoorQuality = new ArtificialWCPPoorQuality(pqpt, pqmpt, pqcd,
-							pqfp, pqother);
-
-					ArtificialWC artificialWC = new ArtificialWC(artificialWCCommand, artificialWCNonCommand,
-							artificialWCPPoorQuality);
-					String artificialwcjson = artificialwc.toJson(artificialWC);
-					if (locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")]))) {
-						/**
-						 * 
-						 */
-						if (Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-								.getArtificialWC() == null) {
-							count++;
-							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.setArtificialWC(artificialWC);
-						}
-						/**
-						 */
-						else {
-							artificialWC = Basin_details
-									.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.getArtificialWC();
-							cpt = new PercolationTanks(
-									(fields[format.convert("e")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("e")]))
-											+ artificialWC.command.pt.count,
-									(fields[format.convert("f")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("f")]))
-											+ artificialWC.command.pt.capacity,
-									(Double.parseDouble("1.5")), 0.5);
-							cmpt = new MiniPercolationTanks(
-									(fields[format.convert("g")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("g")]))
-											+ artificialWC.command.mpt.count,
-									(fields[format.convert("h")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("h")]))
-											+ artificialWC.command.mpt.capacity,
-									(Double.parseDouble("1.5")), 0.5);
-							ccd = new CheckDams(
-									(fields[format.convert("i")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("i")]))
-											+ artificialWC.command.cd.count,
-									(fields[format.convert("j")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("j")]))
-											+ artificialWC.command.cd.capacity,
-									(Double.parseDouble("6")), 0.5);
-							fp = new FarmPonds(
-									(fields[format.convert("k")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("k")]))
-											+ artificialWC.command.fp.count,
-									(fields[format.convert("l")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("l")]))
-											+ artificialWC.command.fp.capacity,
-									(Double.parseDouble("22")), 0.5);
-							other = new Other(
-									(fields[format.convert("m")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("m")]))
-											+ artificialWC.command.others.count,
-									(fields[format.convert("n")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("n")]))
-											+ artificialWC.command.others.capacity,
-									(Double.parseDouble("10")), 0.5);
-							artificialWCCommand = new ArtificialWCCommand(cpt, cmpt, ccd, fp, other);
-
-							ncpt = new PercolationTanks(
-									(fields[format.convert("o")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("o")]))
-											+ artificialWC.non_command.pt.count,
-									(fields[format.convert("p")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("p")]))
-											+ artificialWC.non_command.pt.capacity,
-									(Double.parseDouble("1.5")), 0.5);
-							ncmpt = new MiniPercolationTanks(
-									(fields[format.convert("q")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("q")]))
-											+ artificialWC.non_command.mpt.count,
-									(fields[format.convert("r")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("r")]))
-											+ artificialWC.non_command.mpt.capacity,
-									(Double.parseDouble("1.5")), 0.5);
-							nccd = new CheckDams(
-									(fields[format.convert("s")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("s")]))
-											+ artificialWC.non_command.cd.count,
-									(fields[format.convert("t")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("t")]))
-											+ artificialWC.non_command.cd.capacity,
-									(Double.parseDouble("6")), 0.5);
-							ncfp = new FarmPonds(
-									(fields[format.convert("u")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("u")]))
-											+ artificialWC.non_command.fp.count,
-									(fields[format.convert("v")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("v")]))
-											+ artificialWC.non_command.fp.capacity,
-									(Double.parseDouble("22")), 0.5);
-							ncother = new Other(
-									(fields[format.convert("w")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("w")]))
-											+ artificialWC.non_command.others.count,
-									(fields[format.convert("x")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("x")]))
-											+ artificialWC.non_command.others.capacity,
-									(Double.parseDouble("10")), 0.5);
-							artificialWCNonCommand = new ArtificialWCNonCommand(ncpt, ncmpt, nccd, ncfp, ncother);
-
-							pqpt = new PercolationTanks(
-									(fields[format.convert("y")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("y")])),
-									(fields[format.convert("z")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("z")])),
-									(Double.parseDouble("1.5")), 0.5);
-							pqmpt = new MiniPercolationTanks(
-									(fields[format.convert("aa")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("aa")])),
-									(fields[format.convert("ab")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("ab")])),
-									(Double.parseDouble("1.5")), 0.5);
-							pqcd = new CheckDams(
-									(fields[format.convert("ac")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("ac")])),
-									(fields[format.convert("ad")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("ad")])),
-									(Double.parseDouble("6")), 0.5);
-							pqfp = new FarmPonds(
-									(fields[format.convert("ae")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("ae")])),
-									(fields[format.convert("af")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("af")])),
-									(Double.parseDouble("22")), 0.5);
-							pqother = new Other(
-									(fields[format.convert("ag")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("ag")])),
-									(fields[format.convert("ah")].isEmpty() ? 0
-											: Double.parseDouble(fields[format.convert("ah")])),
-									(Double.parseDouble("10")), 0.5);
-							artificialWCPPoorQuality = new ArtificialWCPPoorQuality(pqpt, pqmpt, pqcd, pqfp, pqother);
-
-							artificialWC = new ArtificialWC(artificialWCCommand, artificialWCNonCommand,
-									artificialWCPPoorQuality);
-							artificialwcjson = artificialwc.toJson(artificialWC);
-							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.setArtificialWC(artificialWC);
-
-						}
-					} else {
-						System.out.println("not found : " + format.removeQuotes(fields[format.convert("c")]));
-					}
-					// System.out.println(artificialwcjson);
-				} else {
-//					System.out.println("artificial WC : invalid row : length : " + fields.length + " : " + record);
-				}
-			}
-			for (String key : Basin_details.keySet()) {
-				if (Basin_details.get(key).aritificial_wc == null) {
-					// System.out.println(key);
-//					System.out.println(Basin_details.get(key).loc_name);
-				}
-			}
-			System.out.println("artificial wc count= " + count);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		// json for population
-		Gson populationjsn = new Gson();
-
-		try (BufferedReader iem = new BufferedReader(new FileReader(populationfile))) {
-
-			// readXLSXFile();
-			record = iem.readLine();
-			Population populationObj;
-			String populationJson;
-			while ((record = iem.readLine()) != null) {
-				// System.out.println("record"+record);
-				String fields[] = record.split(",");
-				// System.out.println("fields"+fields);
-				int lpcd = 0;
-				int referenceYear = 2011;
-				double growthRate = 3.76;
-				int totalPopulation = 0;
-				int command = 0;
-				int noncommand = 0;
-				// correct : 9, population at microbasin not used anymore
-				if (fields.length == 15) {
-					if (!fields[format.convert("i")].isEmpty()) {
-						lpcd = (int) Double.parseDouble(fields[format.convert("i")]);
-					}
-					if (!fields[format.convert("h")].isEmpty()) {
-						totalPopulation = (int) Double.parseDouble(fields[format.convert("h")]);
-					}
-					if (!fields[format.convert("f")].isEmpty()) {
-						command = (int) Double.parseDouble(fields[format.convert("f")]);
-					}
-					if (!fields[format.convert("g")].isEmpty()) {
-						noncommand = (int) Double.parseDouble(fields[format.convert("g")]);
-					}
-					
-					Map<String, Integer> populationMap = new HashMap<>();
-					populationMap.put(Constants.COMMAND, command);
-					populationMap.put(Constants.NON_COMMAND, noncommand);
-					if (locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")]))) {
-						// System.out.println("hello");
-						if (Basin_details.get(
-								locmapping.get(format.removeQuotes(fields[format.convert("c")]))).population == null) {
-							populationObj = new Population(lpcd, referenceYear, totalPopulation, growthRate, populationMap);
-							populationJson = populationjsn.toJson(populationObj);
-							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.setPopulation(populationJson);
-						} else {
-							populationObj = populationjsn.fromJson(
-									Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-											.getPopulation(),
-									Population.class);
-							if(populationObj == null)
-                  				populationObj = new Population();
-                  			populationObj.setLpcd(lpcd);
-                  			populationObj.setTotalPopulation(totalPopulation);
-                  			if(populationObj.getAreaWisePopulation() == null)
-                  				populationObj.setAreaWisePopulation(new HashMap<String, Integer>());
-                  			
-                  			populationObj.getAreaWisePopulation().put(Constants.COMMAND, command);
-                  			populationObj.getAreaWisePopulation().put(Constants.NON_COMMAND, noncommand);
-//							lpcd += populationObj.lpcd;
-//							totalPopulation += populationObj.totalPopulation;
-//							command += populationObj.command;
-//							noncommand += populationObj.non_command;
-//							populationObj = new Population(lpcd, totalPopulation, command, noncommand);
-							populationJson = populationjsn.toJson(populationObj);
-							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.setPopulation(populationJson);
-						}
-					}
-
-				}
-			}
-
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		
-	       // json for gw and rainfall
+        // json for gw and rainfall
 		if(assesssment_year.equals("2012-2013")) {     
 	
 	        try(BufferedReader iem = new BufferedReader(new FileReader(gw_rf_file))) {
@@ -1102,43 +670,76 @@ public class BasinXmltojson {
 	                  
 	                  String basinName = format.removeQuotes(fields[format.convert("c")]);
 	                		  
-			                  Map<String, Map<String, Map<String, Double>>> gw = new HashMap<>();
-			                  gw.put(Constants.MONSOON, new HashMap<String, Map<String,Double>>());
-	                		  gw.put(Constants.NON_MONSOON, new HashMap<String, Map<String,Double>>());
-	                		  gw.get(Constants.MONSOON).put(Constants.COMMAND, new HashMap<String, Double>());
-	                		  gw.get(Constants.MONSOON).put(Constants.NON_COMMAND, new HashMap<String, Double>());
-	                		  gw.get(Constants.MONSOON).get(Constants.COMMAND).put("pre", Utils.parseDouble(fields[format.convert("h")]));
-	                		  gw.get(Constants.MONSOON).get(Constants.COMMAND).put("post", Utils.parseDouble(fields[format.convert("i")]));
-	                		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND).put("pre", Utils.parseDouble(fields[format.convert("d")]));
-	                		  gw.get(Constants.MONSOON).get(Constants.NON_COMMAND).put("post", Utils.parseDouble(fields[format.convert("e")]));
-	                		  
-	                		  gw.get(Constants.NON_MONSOON).put(Constants.COMMAND, new HashMap<String, Double>());
-	                		  gw.get(Constants.NON_MONSOON).put(Constants.NON_COMMAND, new HashMap<String, Double>());
-	                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND).put("pre", Utils.parseDouble(fields[format.convert("i")]));
-	                		  gw.get(Constants.NON_MONSOON).get(Constants.COMMAND).put("post", Utils.parseDouble(fields[format.convert("j")]));
-	                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND).put("pre", Utils.parseDouble(fields[format.convert("e")]));
-	                		  gw.get(Constants.NON_MONSOON).get(Constants.NON_COMMAND).put("post", Utils.parseDouble(fields[format.convert("f")]));
-//		            		  System.out.println("ANKIT :: basin : " + basinName + " data : " + Basin_details.get(basinName));
-	                		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
-	                		  
-	                		  
-	                		  Map<String, Map<String,Double>> rf = new HashMap<String, Map<String,Double>>();
-	                		  rf.put(Constants.MONSOON, new HashMap<String, Double>());
-	                		  rf.put(Constants.NON_MONSOON, new HashMap<String, Double>());
-	                		  rf.get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
-	                		  rf.get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
-	                		  rf.get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
-	                		  rf.get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));                		  
-	                		  Basin_details.get(basinName).rf_data =  (new Gson()).toJson(rf);
-	
-	                		  
-	                		  //TODO verify it .... Domestic
-		                   	  Map<String, Map<String, Double>> gwDependency = new HashMap<String, Map<String, Double>>();
-		                   	  gwDependency.put(Constants.DOMESTIC, new HashMap<String, Double>());
-		                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("m")]));
-		                   	  gwDependency.get(Constants.DOMESTIC).put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("l")]));
-		                   	  Basin_details.get(basinName).gw_dependency  = (new Gson()).toJson(gwDependency);
-	                		  
+	                  //AreaType vs 'avg' vs 'level' vs Assessmentyear vs season vs pre-post vs data
+            		  Map<String, Map<String, Map<String, Map<String, Map<String, Map<String, Double>>>>>> gw = new HashMap<String, Map<String,Map<String,Map<String,Map<String,Map<String,Double>>>>>>();
+            		  gw.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+            		  gw.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+            		  gw.put(Constants.POOR_QUALITY, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+            		  
+            		  gw.get(Constants.COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+            		  gw.get(Constants.NON_COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+            		  gw.get(Constants.POOR_QUALITY).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+            		  
+            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+            		  
+            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+            		  
+            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
+            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
+            		  
+            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
+            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
+            		  
+            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
+            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
+            		  
+            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
+            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
+            		  
+            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
+            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
+            		  
+            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
+            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
+
+            		  
+            		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
+            		  
+            		  //areaType vs AssessmentYear vs mon/nonmonsoon vs actual/normal vs value
+            		//areaType vs AssessmentYear vs mon/nonmonsoon vs actual/normal vs value
+            		  Map<String, Map<String, Map<String, Map<String, Double>>>> rf = new HashMap<String, Map<String,Map<String,Map<String,Double>>>>();
+            		  rf.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
+            		  rf.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
+            		  
+            		  rf.get(Constants.COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
+            		  rf.get(Constants.NON_COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
+            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
+            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
+            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
+            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
+            		 
+            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
+            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
+            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
+            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
+            		  
+            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
+            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
+            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
+            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
+            		  
+            		  Basin_details.get(basinName).rf_data =  (new Gson()).toJson(rf);
+            		  	  
 	              }
 	              
 	          }catch (IOException e) {

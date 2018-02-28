@@ -1,87 +1,38 @@
+import java.util.Map;
 
-public class Crop {
-	CropCommand command;
-	CropNonCommand nonCommand;
-	CropPoorQuality poorQuality;
-	Crop(CropCommand cropCommand,CropNonCommand cropNonCommand,CropPoorQuality cropPoorQuality){
-		this.command=cropCommand;
-		this.nonCommand=cropNonCommand;
-		this.poorQuality=cropPoorQuality;
+class CropData{
+	String cropName;
+	//Monsoon/Non-Monsoon vs value
+	Map<String, Double> cropArea;
+	//monsoon/non vs data
+	Map<String, Double> waterRequired;
+	
+	
+	public CropData() {
 	}
-}
-class CropCommand{
-	Paddy paddy;
-	NonPaddy nonPaddy;
-	CropCommand(Paddy paddy,NonPaddy nonPaddy){
-		this.paddy=paddy;
-		this.nonPaddy=nonPaddy;
+	
+	public String getCropName() {
+		return cropName;
 	}
-}
-class CropNonCommand{
-	Paddy paddy;
-	NonPaddy nonPaddy;
-	CropNonCommand(Paddy paddy,NonPaddy nonPaddy){
-		this.paddy=paddy;
-		this.nonPaddy=nonPaddy;
+	public void setCropName(String cropName) {
+		this.cropName = cropName;
 	}
-}
-class CropPoorQuality{
-	Paddy paddy;
-	NonPaddy nonPaddy;
-	CropPoorQuality(Paddy paddy,NonPaddy nonPaddy){
-		this.paddy=paddy;
-		this.nonPaddy=nonPaddy;
+	public Map<String, Double> getCropArea() {
+		return cropArea;
 	}
-}
+	public void setCropArea(Map<String, Double> cropArea) {
+		this.cropArea = cropArea;
+	}
+	public Map<String, Double> getWaterRequired() {
+		return waterRequired;
+	}
+	public void setWaterRequired(Map<String, Double> waterRequired) {
+		this.waterRequired = waterRequired;
+	}
 
-class Paddy{
-	double cropArea;
-	double waterRequired;
-	String waterRequiredUnit;
-	Kharif kharif;
-	Rabi rabi;
-	Paddy(double area,Kharif kharif,Rabi rabi){
-		this.cropArea=area;
-		this.waterRequired=0;
-		this.waterRequiredUnit="mm";
-		this.kharif=kharif;
-		this.rabi=rabi;
+	@Override
+	public String toString() {
+		return "CropData [cropName=" + cropName + ", cropArea=" + cropArea
+				+ ", waterRequired=" + waterRequired + "]";
 	}
 }
-class NonPaddy{
-	double cropArea;
-	double waterRequired;
-	String waterRequiredUnit;
-	Kharif kharif;
-	Rabi rabi;
-	NonPaddy(double area,Kharif kharif,Rabi rabi){
-		this.cropArea=area;
-		this.waterRequired=0;
-		this.waterRequiredUnit="mm";
-		this.kharif=kharif;
-		this.rabi=rabi;
-	}
-}
-
-class Kharif{
-	double areaIrrigatedBySurfaceWater;
-	double areaIrrigatedByMITank;
-	double areaIrrigatedByGroundWater;
-	Kharif(double areaIrrigatedBySurfaceWater,double areaIrrigatedByMITank,double areaIrrigatedByGroundWater){
-		this.areaIrrigatedBySurfaceWater=areaIrrigatedBySurfaceWater;
-		this.areaIrrigatedByMITank=areaIrrigatedByMITank;
-		this.areaIrrigatedByGroundWater=areaIrrigatedByGroundWater;
-	}
-}
-
-class Rabi{
-	double areaIrrigatedBySurfaceWater;
-	double areaIrrigatedByMITank;
-	double areaIrrigatedByGroundWater;
-	Rabi(double areaIrrigatedBySurfaceWater,double areaIrrigatedByMITank,double areaIrrigatedByGroundWater){
-		this.areaIrrigatedBySurfaceWater=areaIrrigatedBySurfaceWater;
-		this.areaIrrigatedByMITank=areaIrrigatedByMITank;
-		this.areaIrrigatedByGroundWater=areaIrrigatedByGroundWater;
-	}
-}
-

@@ -9,16 +9,16 @@ import com.google.gson.Gson;
 public class MicroBasin {
 	ArrayList<Map<String,Object>> canal_info;
 
-	int parent_id =1;
+	int parent_id =Constants.PARENT_ID;
 	int verification_status =1;
 	int loc_id;
 	String loc_name;
-	int loc_type_id =25;
+	int loc_type_id =Constants.LOC_TYPE_MB;
 	String area;
 	String loc_association;
 	String geological_info;
 	String infiltration_info;
-	waterbodies water_bodies;
+	Map<String, Map<String, WaterBody>> water_bodies;
 	ArtificialWC aritificial_wc;
 	String resource_distribution;
 	String population;
@@ -32,10 +32,10 @@ public class MicroBasin {
 	public void setPopulation(String population) {
 		this.population = population;
 	}
-	public waterbodies getWater_bodies() {
+	public Map<String, Map<String, WaterBody>> getWater_bodies() {
 		return water_bodies;
 	}
-	public void setWater_bodies(waterbodies water_bodies) {
+	public void setWater_bodies(Map<String, Map<String, WaterBody>> water_bodies) {
 		this.water_bodies = water_bodies;
 	}
 	public ArrayList<Map<String, Object>> getCanal_info() {

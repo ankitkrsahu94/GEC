@@ -1,33 +1,24 @@
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
-
-import org.apache.poi.util.SystemOutLogger;
-
-import com.google.gson.Gson;
-
-
 
 public class Village {
 	String population;
 
-	int state_id =1;
-	int loc_type_id =10;
+	int state_id =Constants.PARENT_ID;
+	int loc_type_id =Constants.LOC_TYPE_VILLAGE;
 	int verification_status =1;
 	int loc_id;
 	String loc_name;
 	Map<Integer,Double> loc_association;
 	double rf_infiltration_rate=1;
 	double gw_specific_yield=1;
-	double transmissivity=1;
-	double storage_coefficient =1;
 	String soil_type="";
 	String area;
 	Map<String, Map<String, Double>> gw_dependency;
-	Map<String,Map<String,Map<String,Object>>> crop_info = new HashMap<>();
-	waterbodies water_bodies;
-	ArrayList<Map<String,Object>> canal_info;
-	ArtificialWC aritificial_wc;
+	Map<String, Map<String, Map<String, Map<String, CropData>>>> crop_info;
+	//AreaType vs waterBodyType vs IStorageStructureData
+	public Map<String, Map<String, WaterBody>> water_bodies;
+	Map<String, Map<String, CanalData>> canal_info;
+	Map<String, ArtificialWC> aritificial_wc;
 	Map<String, Map<String, Map<String, WellsUtilizationData>>> resourceDistribution;
 	
 	public String rf_data=null;
@@ -62,10 +53,10 @@ public class Village {
 	public void setBasinAssociation(Map<Integer, Double> basinAssociation) {
 		this.loc_association = basinAssociation;
 	}
-	public ArrayList<Map<String,Object>> getCanal() {
+	public Map<String, Map<String, CanalData>> getCanal() {
 		return canal_info;
 	}
-	public void setCanal(ArrayList<Map<String,Object>> canal) {
+	public void setCanal(Map<String, Map<String, CanalData>> canal) {
 		this.canal_info = canal;
 	}
 	public int getVillageId() {
@@ -87,22 +78,22 @@ public class Village {
 	     this.area = area;
 		
 	}
-	public Map<String, Map<String, Map<String, Object>>> getCrop() {
+	public Map<String, Map<String, Map<String, Map<String, CropData>>>> getCrop() {
 		return crop_info;
 	}
-	public void setCrop(Map<String, Map<String, Map<String, Object>>> crop) {
+	public void setCrop(Map<String, Map<String, Map<String, Map<String, CropData>>>> crop) {
 		this.crop_info = crop;
 	}
-	public waterbodies getWaterbodies() {
+	public Map<String, Map<String, WaterBody>> getWaterbodies() {
 		return water_bodies;
 	}
-	public void setWaterbodies(waterbodies waterbodies) {
+	public void setWaterbodies(Map<String, Map<String, WaterBody>> waterbodies) {
 		this.water_bodies = waterbodies;
 	}
-	public ArtificialWC getArtificialWC() {
+	public Map<String, ArtificialWC> getArtificialWC() {
 		return aritificial_wc;
 	}
-	public void setArtificialWC(ArtificialWC artificialWC) {
+	public void setArtificialWC(Map<String, ArtificialWC> artificialWC) {
 		this.aritificial_wc = artificialWC;
 	}
 	
@@ -113,14 +104,14 @@ public class Village {
 				+ verification_status + ", loc_id=" + loc_id + ", loc_name="
 				+ loc_name + ", loc_association=" + loc_association
 				+ ", rf_infiltration_rate=" + rf_infiltration_rate
-				+ ", gw_specific_yield=" + gw_specific_yield
-				+ ", transmissivity=" + transmissivity
-				+ ", storage_coefficient=" + storage_coefficient
-				+ ", soil_type=" + soil_type + ", area=" + area
-				+ ", gwDependencyFactor=" + gw_dependency + ", crop_info="
-				+ crop_info + ", water_bodies=" + water_bodies
-				+ ", canal_info=" + canal_info + ", aritificial_wc="
-				+ aritificial_wc + ", resourceDistribution="
-				+ resourceDistribution + "]";
+				+ ", gw_specific_yield=" + gw_specific_yield + ", soil_type="
+				+ soil_type + ", area=" + area + ", gw_dependency="
+				+ gw_dependency + ", crop_info=" + crop_info
+				+ ", water_bodies=" + water_bodies + ", canal_info="
+				+ canal_info + ", aritificial_wc=" + aritificial_wc
+				+ ", resourceDistribution=" + resourceDistribution
+				+ ", rf_data=" + rf_data + ", gw_data=" + gw_data
+				+ ", canal_discharge=" + canal_discharge + "]";
 	}
+	
 }

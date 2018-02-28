@@ -18,13 +18,13 @@ public class InsertMetaData {
 		range.put("0-10", 0.45);
 	    range.put("10-25", 0.35);
 	    range.put("25-100", 0.20);
-	    gw_infiltration.put(Constants.GROUND_WATER_IRRIGATION, new HashMap<String, Map<String,Double>>());
-	    gw_infiltration.get(Constants.GROUND_WATER_IRRIGATION).put("paddy",range);}
+	    gw_infiltration.put(Constants.GW_IRRIGATION, new HashMap<String, Map<String,Double>>());
+	    gw_infiltration.get(Constants.GW_IRRIGATION).put("paddy",range);}
 	    {Map<String, Double> range = new HashMap<>();
 		range.put("0-10", 0.25);
 	    range.put("10-25", 0.15);
 	    range.put("25-100", 0.05);
-	    gw_infiltration.get(Constants.GROUND_WATER_IRRIGATION).put("nonPaddy",range);}
+	    gw_infiltration.get(Constants.GW_IRRIGATION).put("nonPaddy",range);}
 	    
 	    {Map<String, Double> range = new HashMap<>();
 		range.put("0-10", 0.50);
