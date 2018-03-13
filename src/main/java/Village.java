@@ -8,7 +8,7 @@ public class Village {
 	int verification_status =1;
 	int loc_id;
 	String loc_name;
-	Map<Integer,Double> loc_association;
+	Map<Integer,Map<String, Double>> loc_association;
 	double rf_infiltration_rate=1;
 	double gw_specific_yield=1;
 	String soil_type="";
@@ -47,10 +47,10 @@ public class Village {
 	public void setPopulation(String population) {
 		this.population = population;
 	}
-	public Map<Integer, Double> getBasinAssociation() {
+	public Map<Integer,Map<String, Double>> getBasinAssociation() {
 		return loc_association;
 	}
-	public void setBasinAssociation(Map<Integer, Double> basinAssociation) {
+	public void setBasinAssociation(Map<Integer,Map<String, Double>> basinAssociation) {
 		this.loc_association = basinAssociation;
 	}
 	public Map<String, Map<String, CanalData>> getCanal() {

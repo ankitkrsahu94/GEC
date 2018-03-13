@@ -63,21 +63,21 @@ public class MicroBasin {
 	public void setMicroBasinName(String microBasinName) {
 		this.loc_name = microBasinName;
 	}
-	public Map<Integer, Double> getBasinAssociation() {
+	public Map<Integer, Map<String, Double>> getBasinAssociation() {
 		Gson gs = new Gson();
 		
-		Type type = new TypeToken<Map<Integer,Double>>() {}.getType(); 
-		Map<Integer,Double> assoc = gs.fromJson(this.loc_association, type);
+		Type type = new TypeToken<Map<Integer, Map<String, Double>>>() {}.getType(); 
+		Map<Integer, Map<String, Double>> assoc = gs.fromJson(this.loc_association, type);
 		//System.out.println(assoc);
 		return assoc;
 	}
-	public void setBasinAssociation(Map<Integer, Double> VillageAssociation) {
+	public void setBasinAssociation(Map<Integer, Map<String, Double>> VillageAssociation) {
 		//System.out.println(VillageAssociation);
 		Gson gs = new Gson();
 		String assoc = gs.toJson(VillageAssociation);
 		//System.out.println("String "+assoc);
-		Type type = new TypeToken<Map<Integer,Double>>() {}.getType(); 
-		Map<Integer,Double> assocmap = gs.fromJson(assoc, type);
+		Type type = new TypeToken<Map<Integer, Map<String, Double>>>() {}.getType(); 
+		Map<Integer, Map<String, Double>> assocmap = gs.fromJson(assoc, type);
 		this.loc_association = assoc;
 		//System.out.println("map"+getBasinAssociation());
 	}

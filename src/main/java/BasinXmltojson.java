@@ -272,15 +272,7 @@ public class BasinXmltojson {
 									.setArea(areaObjjson);
 
 						}
-						if (total == 0) {
-							// test++;
-							// System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")]))));
-						}
-					} else {
-						System.out.println("asdas12312 :: " + format.removeQuotes(fields[format.convert("c")]));
 					}
-					// System.out.println("test count value ######"+test);
-					// break;
 				}
 
 			}
@@ -325,13 +317,16 @@ public class BasinXmltojson {
 						if (iwmBasinName != null && village_id.containsKey(villageMap.get(villKey))) {
 							villageId = village_id.get(villageMap.get(villKey));
 
-							Map<Integer, Double> basin_assoc = Basin_details.get(iwmBasinName).getBasinAssociation();
+							Map<Integer, Map<String, Double>> basin_assoc = Basin_details.get(iwmBasinName).getBasinAssociation();
 							if (basin_assoc == null) {
 								basin_assoc = new HashMap<>();
 								c++;
 							}
+							if(basin_assoc.get(villageId) == null)
+								basin_assoc.put(villageId, new HashMap<String, Double>());
+							
 							if(Area.get(iwmBasinName) != 0){
-								basin_assoc.put(villageId, (fractionArea / Area.get(iwmBasinName)));
+								basin_assoc.get(villageId).put(Constants.TOTAL, (fractionArea / Area.get(iwmBasinName)));
 								Basin_details.get(iwmBasinName).setBasinAssociation(basin_assoc);
 							}else{
 								System.out.println("Basin area 0 for basin : " + iwmBasinName);

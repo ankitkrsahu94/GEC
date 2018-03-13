@@ -105,7 +105,7 @@ public class Village_Data {
 	public String getBasinAssociation() {
 		return loc_assoc;
 	}
-	public void setBasinAssociation(Map<Integer, Double> basinAssociation) {
+	public void setBasinAssociation(Map<Integer,Map<String, Double>> basinAssociation) {
 		Gson gs = new Gson();
 		String basinAssoc = gs.toJson(basinAssociation);
 		this.loc_assoc = basinAssoc;

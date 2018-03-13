@@ -17,7 +17,7 @@ public class convetTo {
 //		distNames.add("Chittor");
 //		distNames.add("Anantapur");
 //		distNames.add("Srikakulam");
-//		distNames.add("Guntur");
+		distNames.add("Guntur");
 		distNames.add("Visakhapatnam");
 //		distNames.add("WGodavari");
 //		distNames.add("Nellore");

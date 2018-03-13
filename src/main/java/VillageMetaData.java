@@ -86,7 +86,7 @@ public class VillageMetaData {
        
         //loc mapping
         try(BufferedReader iem = new BufferedReader(new FileReader(gwlocToIWMloc))) {
-            
+            Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
         	//readXLSXFile();
             record = iem.readLine();
             while((record = iem.readLine()) != null) {
@@ -95,17 +95,27 @@ public class VillageMetaData {
                 String fields[] = record.split(",");
                // System.out.println("fields"+fields);
                 if(fields.length==4){
-                	String MicroBasinName;
-                	String GWvillageName;
-                	String IWMvillageName;
+                	String gwMBName;
+                	String gwVillName;
+                	String iwmVillName;
+                	String iwmMBName;
                 	if(!format.removeQuotes(fields[format.convert("a")]).isEmpty() && !format.removeQuotes(fields[format.convert("c")]).isEmpty() && !format.removeQuotes(fields[format.convert("d")]).isEmpty()&& !format.removeQuotes(fields[format.convert("d")]).equalsIgnoreCase("#N/A")){
-                    	MicroBasinName = format.removeQuotes(fields[format.convert("a")]);
-                    	String IWMMicroBasinName=format.removeQuotes(fields[format.convert("b")]);
-                		GWvillageName = format.removeQuotes(fields[format.convert("c")]);
-                        IWMvillageName = format.removeQuotes(fields[format.convert("d")]);
-                        String MicroBasin_GWvillage_key = MicroBasinName + "##" +GWvillageName;
-                        locmapping.put(MicroBasin_GWvillage_key,IWMvillageName);
-                        basinmapping.put(MicroBasinName,IWMMicroBasinName);
+                    	gwMBName = format.removeQuotes(fields[format.convert("a")]);
+                    	iwmMBName=format.removeQuotes(fields[format.convert("b")]);
+                		gwVillName = format.removeQuotes(fields[format.convert("c")]);
+                        iwmVillName = format.removeQuotes(fields[format.convert("d")]);
+                        
+                        String MicroBasin_GWvillage_key = gwMBName + "##" +gwVillName;
+                        
+                        if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                        	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                        	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                        	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                        }else
+                        	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+                        	
+                        locmapping.put(MicroBasin_GWvillage_key,iwmVillName);
+                        basinmapping.put(gwMBName,iwmMBName);
                 	}
                 	
                 }
@@ -442,22 +452,24 @@ public class VillageMetaData {
         for(String category : Constants.CATEGORIES){
         	if(utilizationFiles.get(category) == null)
         		continue;
-        	
-        	
-//        	System.out.println("category : " + category);
-//        	villageWellUtilData.put(category, new HashMap<String, Map<String, WellsUtilizationData>>());
-//        	System.out.println("&&&&&&&&&&&&77" + basinWiseWellsMD.get("VSP_F_14_C_SARADA-11_V.MADUGULA").keySet());
+        	        	
         	try(BufferedReader iem = new BufferedReader(new FileReader(utilizationFiles.get(category)))) {
             	record = iem.readLine();
                 while((record = iem.readLine()) != null) {
-                    //System.out.println("record"+record);
                    String fields[] = record.split(",",-1);
-//                   System.out.println("length : " + fields.length);
-                   
+                   Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
                    if(!format.removeQuotes(fields[format.convert("c")]).isEmpty() && format.removeQuotes(fields[format.convert("c")]).length() > 0){
                 	   String basinName = format.removeQuotes(fields[format.convert("c")]);
                 	   String villageName = format.removeQuotes(fields[format.convert("d")]);
-                	  
+                	   String MicroBasin_GWvillage_key = basinName + "##" + villageName;
+                	   
+                	   if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                       	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                       	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                       	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                       }else
+                       	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+                	   
                 	   if(basinWiseWellsMD.get(basinName) == null){
                 		   System.out.println(category+" Well MD information not found for basin : " + basinName);
                 		   continue;
@@ -466,13 +478,13 @@ public class VillageMetaData {
                 	   /**
                         * Category : AreaType : WellName vs wellInfo
                         */
-                	   if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))) == null){
-                		   if(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])) == null)
+                	   if(village_details.get(locmapping.get(MicroBasin_GWvillage_key)) == null){
+                		   if(locmapping.get(MicroBasin_GWvillage_key) == null)
                 			   continue;
-                		   village_details.put(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])), new Village());
+                		   village_details.put(locmapping.get(MicroBasin_GWvillage_key), new Village());
                 	   }
                 	  
-                	   Map<String, Map<String, Map<String, WellsUtilizationData>>> villWellDistributionInfo = village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getResourceDistribution();
+                	   Map<String, Map<String, Map<String, WellsUtilizationData>>> villWellDistributionInfo = village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getResourceDistribution();
                 	   
                 	   if(villWellDistributionInfo == null)
                 		   villWellDistributionInfo = new HashMap<>();
@@ -534,14 +546,7 @@ public class VillageMetaData {
                 			   villWellData.setOperativeDays(mbWell.getOperativeDays());
                 		   }
                 	   }
-                	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setResourceDistribution(villWellDistributionInfo);
-                	   
-//                	   /**
-//                        * Assign GW Dependency factor
-//                        */
-//                	   Map<String, Double> gwDependency = new HashMap<String, Double>();
-//                	   gwDependency.put(Constants.DOMESTIC, 1.0);
-//                	   village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setGwDependencyFactor(gwDependency);
+                	   village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setResourceDistribution(villWellDistributionInfo);
                    }
                    else{
                 	   System.out.println("Resource distribution : invalid row : " + record);
@@ -557,13 +562,22 @@ public class VillageMetaData {
         //compute dugwell
         try(BufferedReader iem = new BufferedReader(new FileReader(irrigationUtilizationfile))) {
         	record = iem.readLine();
-            while((record = iem.readLine()) != null) {
+            Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
+        	while((record = iem.readLine()) != null) {
 
                 String fields[] = record.split(",",-1);
                // System.out.println("fields"+fields.length);
                 String MicroBasinName = format.removeQuotes(fields[format.convert("c")]);
                 String GWvillageName = format.removeQuotes(fields[format.convert("d")]);
                 String MicroBasin_GWvillage_key = MicroBasinName + "##" +GWvillageName;
+                
+                if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                }else
+                	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+               
                 if(locmapping.containsKey(MicroBasin_GWvillage_key)){
                 	double dugwell = Utils.parseDouble(fields[format.convert("e")]);
                 	computeDugwell.put(locmapping.get(MicroBasin_GWvillage_key), dugwell);
@@ -595,22 +609,26 @@ public class VillageMetaData {
             record = iem.readLine();
             record = iem.readLine();
             int test =0;
+            Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
             while((record = iem.readLine()) != null) {
                 String fields[] = record.split(",", -1);
-               /* if(fields.length!=25&&fields.length!=23&&fields.length!=24){
-                	System.out.println(fields.length);
-                	for(String f:fields){
-                		System.out.print(f +" ");
-                	}
-                	System.out.println();
-                }*/
-//                System.out.println("fields length : " + fields.length);
+
                 if(fields.length == 17 ||  fields.length==25 || fields.length==23||fields.length==24||fields.length==26 || fields.length==31){
                 	double total = 0;
                 	double command = 0;
                 	double nonCommand = 0;
                 	double poorQuality = 0;
-                	
+                	String basinName = format.removeQuotes(fields[format.convert("c")]);
+                    String villageName = format.removeQuotes(fields[format.convert("d")]);
+                	String MicroBasin_GWvillage_key = basinName + "##" + villageName;
+             	   
+             	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                    	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                    	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                    	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                    }else
+                    	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+             	   
                 	if(!fields[4].isEmpty()){
 	                	total=Double.parseDouble(fields[4]);
 	                }
@@ -642,28 +660,19 @@ public class VillageMetaData {
                 	areaObj.total = total;
                 	
                 	String areajson = Area.toJson(areaObj);
-                	System.out.println("AREA JSON : " + areajson);
-                	//JSONObject jsn = new JSONObject(areajson.getBytes());
-                	//System.out.println(areajson);
-//                	System.out.println("locmapping : " + locmapping.keySet());
-
                 	
-//                	System.out.println(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
-                	if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
+                	if(locmapping.keySet().contains(MicroBasin_GWvillage_key)){
                     	
-                		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea()==null){
+                		if(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getArea()==null){
                 			count++;
-                			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArea(areajson);
+                			village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setArea(areajson);
                 			if(total==0){
                     			test++;
-                    			//System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))));
                     		}
                 		}
                 		else{
-                			Area areaobj= Area.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea(), Area.class);
-//                			if(areaObj2 == null)
-//                				areaObj2 = new Area();
-//                			System.out.println("AReA : " + village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea());
+                			Area areaobj= Area.fromJson(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getArea(), Area.class);
+
                 			total += areaobj.total;
                 			command+=areaobj.command;
                    			nonCommand+=areaobj.non_command;
@@ -678,18 +687,12 @@ public class VillageMetaData {
                 			areaObj2.forest = forest;
 							areaObj2.total = total;
                         	String areaObjjson = Area.toJson(areaObj2);
-                        	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArea(areaObjjson);
+                        	village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setArea(areaObjjson);
                 			
                 		}
-                		if(total==0){
-                			//test++;
-//                			System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))));
-                		}
                 	} else {
-                		System.out.println("Mapping doesn't exist for locaiton : " + format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
+                		System.out.println("Mapping doesn't exist for locaiton : " + MicroBasin_GWvillage_key);
                 	}
-                	//System.out.println("test count value ######"+test);
-                	//break;
                 } else {
                 	System.out.println("Area fields length :: " + fields.length);
                 }
@@ -698,12 +701,6 @@ public class VillageMetaData {
         	System.out.println("test count value ######"+test);
         	int c=0;
             for(String key:village_details.keySet()){
-	        	if(village_details.get(key).area==null){
-//	        		System.out.println(key);
-//	        		System.out.println(village_details.get(key).getVillageName());
-	        	}
-//	        	System.out.println("ANKIT ::: key : " + key);
-//	        	System.out.println("ANKIT ::: wells : " + village_details.get(key).getResourceDistribution());
 	        	Area area= Area.fromJson(village_details.get(key).getArea(), Area.class);
 	        	if(area.total==0){
 					c++;
@@ -721,7 +718,7 @@ public class VillageMetaData {
           	//readXLSXFile();
               record = iem.readLine();
               record = iem.readLine();
-              int count =0;
+              Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
               while((record = iem.readLine()) != null) {
                   //System.out.println("record"+record);
 
@@ -731,27 +728,46 @@ public class VillageMetaData {
                   	int BasinCode;
                   	double Villagearea = 0;
                   	String BasinName = format.removeQuotes(fields[format.convert("c")]);
-                  	String gwvillageName = format.removeQuotes(fields[format.convert("d")]);
-                    double fractionArea = Utils.parseDouble(fields[format.convert("e")]);
+                  	double fractionArea = Utils.parseDouble(fields[format.convert("e")]);
                     
-                    if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
-                      	if(Basin_Id.containsKey(basinmapping.get(BasinName))) {
+                    String villageName = format.removeQuotes(fields[format.convert("d")]);
+                	String MicroBasin_GWvillage_key = BasinName + "##" + villageName;
+             	   
+             	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                    	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                    	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                    	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                    }else
+                    	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+             	   	
+                   if(locmapping.keySet().contains(MicroBasin_GWvillage_key)){
+                	   double commandArea = Utils.parseDouble(fields[format.convert("f")]);
+                       double nonCommandArea = Utils.parseDouble(fields[format.convert("j")]);
+                       double poorQualityArea = Utils.parseDouble(fields[format.convert("n")]);
+               		
+                       
+                       Area areaobj= Area.fromJson(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getArea(), Area.class);
+                       double tCommandArea = (areaobj.command > 0.0)?areaobj.command:1;
+                       double tNonCommandArea = (areaobj.non_command > 0.0)?areaobj.non_command:1;
+                       double tPoorQualityArea = (areaobj.poor_quality > 0.0)?areaobj.poor_quality:1;
+                       Villagearea = (areaobj.total > 0.0)?areaobj.total:1;
+                       
+                       if(Basin_Id.containsKey(basinmapping.get(BasinName))) {
                     		BasinCode = Basin_Id.get(basinmapping.get(BasinName));
-                    		Area areaobj=Area.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArea(), Area.class);
-                    		Villagearea = areaobj.total;
-                          	
-                              if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getBasinAssociation()==null){
-                            	  count++;
-                            	HashMap<Integer,Double> basin_assoc = new HashMap<>();
-                              	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setBasinAssociation(basin_assoc);
-//                              	System.out.println("ANKIT ::: inside locationAssociation if");
-                              }
-                              if(Villagearea!=0){
-                            	 // System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).loc_name+" "+(fractionArea/Villagearea));
-                                  village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getBasinAssociation().put(BasinCode,((fractionArea/Villagearea)));
-//                                  System.out.println("ANKIT ::: inside setting locationAssociation");
-                              }
-                             
+                    		Map<Integer, Map<String, Double>> locAssociation = village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getBasinAssociation();
+                              
+                    		if(locAssociation == null)
+                    			locAssociation = new HashMap<Integer, Map<String,Double>>();
+                    		
+                    		if(locAssociation.get(BasinCode) == null)
+                    			locAssociation.put(BasinCode, new HashMap<String, Double>());
+                    		
+                    		locAssociation.get(BasinCode).put(Constants.COMMAND, (commandArea/tCommandArea));
+                    		locAssociation.get(BasinCode).put(Constants.NON_COMMAND, (nonCommandArea/tNonCommandArea));
+                    		locAssociation.get(BasinCode).put(Constants.POOR_QUALITY, (poorQualityArea/tPoorQualityArea));
+                    		locAssociation.get(BasinCode).put(Constants.TOTAL, (fractionArea/Villagearea));
+                    		village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setBasinAssociation(locAssociation);
+                    		
                     	}
                     }
                       
@@ -1590,10 +1606,22 @@ public class VillageMetaData {
             record = iem.readLine();
             record = iem.readLine();
             record = iem.readLine();
-
+            Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
+            
             while((record = iem.readLine()) != null) {
                 String fields[] = record.split(",", -1);
                 if(fields.length==10){
+                	String basinName = format.removeQuotes(fields[format.convert("c")]);
+                    String villageName = format.removeQuotes(fields[format.convert("d")]);
+                	String MicroBasin_GWvillage_key = basinName + "##" + villageName;
+             	   
+             	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                    	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                    	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                    	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                    }else
+                    	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+                	
 //                	waterBodyType vs AreaType vs IStorageStructureData
                 	Map<String, Map<String, WaterBody>> miTank = new HashMap<String, Map<String,WaterBody>>();
             		miTank.put(Constants.MI_TANK, new HashMap<String, WaterBody>());
@@ -1614,13 +1642,13 @@ public class VillageMetaData {
                 	miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).setCount(Utils.parseDouble(fields[format.convert("i")]));
                 	miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).setSpreadArea(Utils.parseDouble(fields[format.convert("j")]));
                    
-                	if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
-                    	if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getWaterbodies()==null){
+                	if(locmapping.keySet().contains(MicroBasin_GWvillage_key)){
+                    	if(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getWaterbodies()==null){
                         	count++;
-                			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setWaterbodies(miTank);
+                			village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setWaterbodies(miTank);
                 		}
                     	else{
-                    		miTank = village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getWaterbodies();
+                    		miTank = village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getWaterbodies();
                     		
                     		miTank.get(Constants.MI_TANK).get(Constants.COMMAND).setCount(Utils.parseDouble(fields[format.convert("e")])+miTank.get(Constants.MI_TANK).get(Constants.COMMAND).getCount());
                     		miTank.get(Constants.MI_TANK).get(Constants.COMMAND).setSpreadArea(Utils.parseDouble(fields[format.convert("f")])+miTank.get(Constants.MI_TANK).get(Constants.COMMAND).getSpreadArea());
@@ -1631,7 +1659,7 @@ public class VillageMetaData {
                     		miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).setCount(Utils.parseDouble(fields[format.convert("i")])+miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).getCount());
                     		miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).setSpreadArea(Utils.parseDouble(fields[format.convert("j")])+miTank.get(Constants.MI_TANK).get(Constants.POOR_QUALITY).getSpreadArea());
                     		
-                   			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setWaterbodies(miTank);
+                   			village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setWaterbodies(miTank);
 
                     	}
                 	}
@@ -1641,12 +1669,6 @@ public class VillageMetaData {
                 }
             }
             
-            /*for(String key:village_details.keySet()){
-            	if(village_details.get(key).water_bodies==null){
-            		//System.out.println(key);
-            		System.out.println(village_details.get(key).getVillageName());
-            	}
-            }*/
             System.out.println(" water body count= "+count);
         }catch (IOException e) {
             e.printStackTrace();
@@ -1658,12 +1680,22 @@ public class VillageMetaData {
         	int count =0;
             record = iem.readLine();
             record = iem.readLine();
-
+            Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
             while((record = iem.readLine()) != null) {
                 String fields[] = record.split(",",-1);
 //                if(fields.length==16){
                 if(!fields[format.convert("b")].contains(" ") && !fields[format.convert("b")].isEmpty()){
-                	String villageName = fields[format.convert("d")];
+                	String basinName = format.removeQuotes(fields[format.convert("c")]);
+                    String villageName = format.removeQuotes(fields[format.convert("d")]);
+                	String MicroBasin_GWvillage_key = basinName + "##" + villageName;
+             	   
+             	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                    	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                    	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                    	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                    }else
+                    	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+             	   	
                 	String mb = fields[format.convert("c")];
                 	//AreaType vs CanalName vs CanalData
                 	Map<String, Map<String, CanalData>> canalData = new HashMap<String, Map<String,CanalData>>();
@@ -1684,12 +1716,12 @@ public class VillageMetaData {
                 	
                 	canalData.get(Constants.COMMAND).put(canalName, canal);
                 	
-                    if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
-                		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getCanal()==null){
+                    if(locmapping.keySet().contains(MicroBasin_GWvillage_key)){
+                		if(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getCanal()==null){
                         	count++;
-                        	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setCanal(canalData);
+                        	village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setCanal(canalData);
                         }else{
-                        	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getCanal().get(Constants.COMMAND).putAll(canalData.get(Constants.COMMAND));
+                        	village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getCanal().get(Constants.COMMAND).putAll(canalData.get(Constants.COMMAND));
                         }
                                         	
                 	}
@@ -1710,9 +1742,21 @@ public class VillageMetaData {
         try(BufferedReader iem = new BufferedReader(new FileReader(artificialWCfile))) {
         	int count =0;
             record = iem.readLine();
+            Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
             while((record = iem.readLine()) != null) {
                 String fields[] = record.split(",",-1);
                  if(fields.length==34){
+                	String basinName = format.removeQuotes(fields[format.convert("c")]);
+                    String villageName = format.removeQuotes(fields[format.convert("d")]);
+                 	String MicroBasin_GWvillage_key = basinName + "##" + villageName;
+              	   
+              	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                     	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                     	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                     	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                     }else
+                     	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+                	 
                 	//waterBodyType vs ArtificialStructureData
             		Map<String, ArtificialWC> artificialWC = new HashMap<String, ArtificialWC>();
             		
@@ -1740,17 +1784,13 @@ public class VillageMetaData {
             		artificialWC.get(Constants.OTHER).getCapacity().put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("x")]));
             		artificialWC.get(Constants.OTHER).getCapacity().put(Constants.POOR_QUALITY, Utils.parseDouble(fields[format.convert("ah")]));
             		
-                 	String artificialwcjson = artificialwc.toJson(artificialWC);
-//                 	System.out.println("ANKIT ::: outside locMaping");
-                 	if(locmapping.containsKey(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))){
+                 	if(locmapping.containsKey(MicroBasin_GWvillage_key)){
 //                 		System.out.println("ANKIT ::: inside locMaping");
-                 		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArtificialWC()==null){
+                 		if(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getArtificialWC()==null){
                          	count++;
-                         	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArtificialWC(artificialWC);
+                         	village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setArtificialWC(artificialWC);
                  		}else{
-                 			artificialWC= village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).getArtificialWC();
-                 			
-                 			
+                 			artificialWC= village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getArtificialWC();
                  			artificialWC.get(Constants.PT).getCapacity().put(Constants.COMMAND, artificialWC.get(Constants.PT).getCapacity().get(Constants.COMMAND)+Utils.parseDouble(fields[format.convert("f")]));
                  			artificialWC.get(Constants.PT).getCapacity().put(Constants.NON_COMMAND, artificialWC.get(Constants.PT).getCapacity().get(Constants.NON_COMMAND)+Utils.parseDouble(fields[format.convert("p")]));
                  			artificialWC.get(Constants.PT).getCapacity().put(Constants.POOR_QUALITY, artificialWC.get(Constants.PT).getCapacity().get(Constants.POOR_QUALITY)+Utils.parseDouble(fields[format.convert("z")]));
@@ -1767,27 +1807,19 @@ public class VillageMetaData {
                  			artificialWC.get(Constants.OTHER).getCapacity().put(Constants.NON_COMMAND, artificialWC.get(Constants.OTHER).getCapacity().get(Constants.NON_COMMAND)+Utils.parseDouble(fields[format.convert("x")]));
                  			artificialWC.get(Constants.OTHER).getCapacity().put(Constants.POOR_QUALITY, artificialWC.get(Constants.OTHER).getCapacity().get(Constants.POOR_QUALITY)+Utils.parseDouble(fields[format.convert("ah")]));
                  			
-                         	artificialwcjson = artificialwc.toJson(artificialWC);
-                         	village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]))).setArtificialWC(artificialWC);
+                         	village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setArtificialWC(artificialWC);
 
                  		}
                  	}
                  	else{
-                 		System.out.println("Artificial WC : Mapping not found for location : " + format.removeQuotes(format.removeQuotes(fields[format.convert("c")])
-                 				+"##"+format.removeQuotes(fields[format.convert("d")])));
+                 		System.out.println("Artificial WC : Mapping not found for location : " + MicroBasin_GWvillage_key);
                  	}
-                    // System.out.println(artificialwcjson);
                  }
                  else{
                 	 System.out.println("Artificial WC : invalid row : field length : " + fields.length);
                  }
              }
-            for(String key:village_details.keySet()){ 
-            	if(village_details.get(key).aritificial_wc==null){
-            		//System.out.println(key);
-            		//System.out.println(village_details.get(key).getVillageName());
-            	}
-            }
+            
             System.out.println("artificial wc count= "+count);
         }catch (IOException e) {
             e.printStackTrace();
@@ -1802,12 +1834,23 @@ public class VillageMetaData {
           	//readXLSXFile();
               record = iem.readLine();
               String populationJson;
+              Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
               while((record = iem.readLine()) != null) {
                   //System.out.println("record"+record);
                   String fields[] = record.split(",",-1);
                  // System.out.println("fields"+fields);
                   if(fields.length==9){
-                	  
+                	  String basinName = format.removeQuotes(fields[format.convert("c")]);
+                      String villageName = format.removeQuotes(fields[format.convert("e")]);
+                  	String MicroBasin_GWvillage_key = basinName + "##" + villageName;
+               	   
+               	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                      	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                      	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                      	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                      }else
+                      	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+               	   	
                 	// areaType vs Population data
                 	Map<String, Population>  population = new HashMap<String, Population>();
                 	for(String areaType : Constants.AREA_TYPES){
@@ -1823,23 +1866,21 @@ public class VillageMetaData {
                 	population.get(Constants.COMMAND).setTotalPopulation(Utils.parseInt(fields[format.convert("f")]));
                 	population.get(Constants.NON_COMMAND).setTotalPopulation(Utils.parseInt(fields[format.convert("g")]));
                 	
-                  	if(locmapping.keySet().contains(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))){
-                      //	System.out.println("hello");
-                  		if(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).population==null){
+                  	if(locmapping.keySet().contains(MicroBasin_GWvillage_key)){
+                  		if(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).population==null){
                   			populationJson = populationjsn.toJson(population);
-                  			village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).setPopulation(populationJson);
+                  			village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setPopulation(populationJson);
                 		}
                   		else{
-//                  			System.out.println(fields[format.convert("e")] + "else me aya");
-                  			population = populationjsn.fromJson(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).getPopulation(), new TypeToken<Map<String, Population>>(){}.getType());
+                  			population = populationjsn.fromJson(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getPopulation(), new TypeToken<Map<String, Population>>(){}.getType());
                   			if(population == null){
+                  				population = new HashMap<String, Population>();
                   				for(String areaType : Constants.AREA_TYPES){
                             		Population pop = new Population();
                             		pop.setGrowthRate(3.76);
                             		pop.setReferenceYear(2011);
                             		pop.setLpcd(Utils.parseDouble(fields[format.convert("i")])/Utils.parseDouble(fields[format.convert("h")]));
                             		population.put(areaType, pop);
-                            		
                             	}
                   			}
                   			
@@ -1847,7 +1888,7 @@ public class VillageMetaData {
                         	population.get(Constants.NON_COMMAND).setTotalPopulation(population.get(Constants.NON_COMMAND).getTotalPopulation()+Utils.parseInt(fields[format.convert("g")]));
                         	
                           	populationJson = populationjsn.toJson(population);
-                            village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("e")]))).setPopulation(populationJson);
+                            village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setPopulation(populationJson);
                   		}
                       }
                       
@@ -1862,12 +1903,23 @@ public class VillageMetaData {
 //************************************ Only for 2012-2013   
 	if(assesssment_year.equals(Constants.GEC_ASSESSMENT_YEAR)) {     
         try(BufferedReader inp = new BufferedReader(new FileReader(cropDataFile))) {
-        	
+        	Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
         	while((record = inp.readLine()) != null ) {
         		String[] fields = record.split(",",-1);
-        	      		
-        		if(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])) == null) {
-        			System.out.println("Crop Information : location not found "+format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")]));
+        	    
+        		String basinName = format.removeQuotes(fields[format.convert("c")]);
+                String villageName = format.removeQuotes(fields[format.convert("d")]);
+            	String MicroBasin_GWvillage_key = basinName + "##" + villageName;
+         	   
+         	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                }else
+                	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+         	   	
+        		if(locmapping.get(MicroBasin_GWvillage_key) == null) {
+        			System.out.println("Crop Information : location not found "+MicroBasin_GWvillage_key);
         			continue;
         		} 
         		
@@ -2002,8 +2054,7 @@ public class VillageMetaData {
         		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("am")]));
         		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("an")]));
         		
-        		village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])+"##"+format.removeQuotes(fields[format.convert("d")])))
-        		.crop_info = cropInfo;
+        		village_details.get(locmapping.get(MicroBasin_GWvillage_key)).crop_info = cropInfo;
         	}
         	
 
