@@ -5,14 +5,19 @@ class ArtificialWC{
 	double infiltrationFactor;
 	//areaType vs capacity
 	Map<String,Double> capacity;
+	Map<String, Integer> count;
 	
 	ArtificialWC(){}
+	
+	
 	@Override
 	public String toString() {
 		return "ArtificialWC [noOfFillings=" + noOfFillings
 				+ ", infiltrationFactor=" + infiltrationFactor + ", capacity="
-				+ capacity + "]";
+				+ capacity + ", count=" + count + "]";
 	}
+
+
 	public double getNoOfFillings() {
 		return noOfFillings;
 	}
@@ -21,6 +26,12 @@ class ArtificialWC{
 	}
 	public double getInfiltrationFactor() {
 		return infiltrationFactor;
+	}
+	public Map<String, Integer> getCount() {
+		return count;
+	}
+	public void setCount(Map<String, Integer> count) {
+		this.count = count;
 	}
 	public void setInfiltrationFactor(double infiltrationFactor) {
 		this.infiltrationFactor = infiltrationFactor;
@@ -31,6 +42,5 @@ class ArtificialWC{
 	public void setCapacity(Map<String, Double> capacity) {
 		this.capacity = capacity;
 	}
-	
 	
 }

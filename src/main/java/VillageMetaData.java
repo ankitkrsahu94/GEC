@@ -20,11 +20,11 @@ public class VillageMetaData {
 
 		String filePath = path+districtName+"/";
 
-		String assesssment_year = Village_Data.assesYear;
+		String assesssment_year = Constants.GEC_ASSESSMENT_YEAR;
 		/**
 		 * Output files
 		 */
-		String assessmentUnitCQLScriptFile = path+"final_scripts/"+districtName+"-loc_meta_data.cql";
+		String assessmentUnitCQLScriptFile = path+"final_scripts/"+districtName+"-loc_meta_data-"+Constants.GEC_ASSESSMENT_YEAR+".cql";;
 
         String gwlocToIWMloc = filePath+"final_mapping.csv";      // Input File
         String areafile = filePath+"area.csv";
@@ -1765,9 +1765,26 @@ public class VillageMetaData {
             			ars.setNoOfFillings(Constants.FILLINGS.get(arsType));
             			ars.setInfiltrationFactor(Constants.ARS_INFIL_FACTOR);
             			ars.setCapacity(new HashMap<String, Double>());
+            			ars.setCount(new HashMap<String, Integer>());
             			artificialWC.put(arsType, ars);
             		}
                  	
+            		artificialWC.get(Constants.PT).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("e")]));
+            		artificialWC.get(Constants.PT).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("o")]));
+            		artificialWC.get(Constants.PT).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("y")]));
+            		artificialWC.get(Constants.MPT).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("g")]));
+            		artificialWC.get(Constants.MPT).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("q")]));
+            		artificialWC.get(Constants.MPT).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("aa")]));
+            		artificialWC.get(Constants.CD).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("i")]));
+            		artificialWC.get(Constants.CD).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("s")]));
+            		artificialWC.get(Constants.CD).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("ac")]));
+            		artificialWC.get(Constants.FP).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("k")]));
+            		artificialWC.get(Constants.FP).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("u")]));
+            		artificialWC.get(Constants.FP).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("ae")]));
+            		artificialWC.get(Constants.OTHER).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("m")]));
+            		artificialWC.get(Constants.OTHER).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("w")]));
+            		artificialWC.get(Constants.OTHER).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("ag")]));
+            		
             		artificialWC.get(Constants.PT).getCapacity().put(Constants.COMMAND, Utils.parseDouble(fields[format.convert("f")]));
             		artificialWC.get(Constants.PT).getCapacity().put(Constants.NON_COMMAND, Utils.parseDouble(fields[format.convert("p")]));
             		artificialWC.get(Constants.PT).getCapacity().put(Constants.POOR_QUALITY, Utils.parseDouble(fields[format.convert("z")]));
@@ -1790,7 +1807,22 @@ public class VillageMetaData {
                          	count++;
                          	village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setArtificialWC(artificialWC);
                  		}else{
-                 			artificialWC= village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getArtificialWC();
+                 			artificialWC.get(Constants.PT).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("e")]));
+                    		artificialWC.get(Constants.PT).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("o")]));
+                    		artificialWC.get(Constants.PT).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("y")]));
+                    		artificialWC.get(Constants.MPT).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("g")]));
+                    		artificialWC.get(Constants.MPT).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("q")]));
+                    		artificialWC.get(Constants.MPT).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("aa")]));
+                    		artificialWC.get(Constants.CD).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("i")]));
+                    		artificialWC.get(Constants.CD).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("s")]));
+                    		artificialWC.get(Constants.CD).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("ac")]));
+                    		artificialWC.get(Constants.FP).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("k")]));
+                    		artificialWC.get(Constants.FP).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("u")]));
+                    		artificialWC.get(Constants.FP).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("ae")]));
+                    		artificialWC.get(Constants.OTHER).getCount().put(Constants.COMMAND, Utils.parseInt(fields[format.convert("m")]));
+                    		artificialWC.get(Constants.OTHER).getCount().put(Constants.NON_COMMAND, Utils.parseInt(fields[format.convert("w")]));
+                    		artificialWC.get(Constants.OTHER).getCount().put(Constants.POOR_QUALITY, Utils.parseInt(fields[format.convert("ag")]));
+                    		
                  			artificialWC.get(Constants.PT).getCapacity().put(Constants.COMMAND, artificialWC.get(Constants.PT).getCapacity().get(Constants.COMMAND)+Utils.parseDouble(fields[format.convert("f")]));
                  			artificialWC.get(Constants.PT).getCapacity().put(Constants.NON_COMMAND, artificialWC.get(Constants.PT).getCapacity().get(Constants.NON_COMMAND)+Utils.parseDouble(fields[format.convert("p")]));
                  			artificialWC.get(Constants.PT).getCapacity().put(Constants.POOR_QUALITY, artificialWC.get(Constants.PT).getCapacity().get(Constants.POOR_QUALITY)+Utils.parseDouble(fields[format.convert("z")]));
@@ -1901,8 +1933,8 @@ public class VillageMetaData {
 
         
 //************************************ Only for 2012-2013   
-	if(assesssment_year.equals(Constants.GEC_ASSESSMENT_YEAR)) {     
-        try(BufferedReader inp = new BufferedReader(new FileReader(cropDataFile))) {
+	if(assesssment_year.equals("2012-2013")) {     
+		try(BufferedReader inp = new BufferedReader(new FileReader(cropDataFile))) {
         	Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
         	while((record = inp.readLine()) != null ) {
         		String[] fields = record.split(",",-1);
@@ -2147,6 +2179,15 @@ public class VillageMetaData {
 
                 		  
                 		  Map<String, Population> population = populationjsn.fromJson(village_details.get(locmapping.get(basinKey)).getPopulation(), new TypeToken<Map<String, Population>>(){}.getType());
+                		  if(population == null)
+                			  population = new HashMap<String, Population>();
+                		  
+                		  if(population.get(Constants.COMMAND) == null)
+                			  population.put(Constants.COMMAND, new Population());
+                		  
+                		  if(population.get(Constants.NON_COMMAND) == null)
+                			  population.put(Constants.NON_COMMAND, new Population());
+                		  
                 		  population.get(Constants.COMMAND).setGwDependency(Utils.parseDouble(fields[format.convert("m")]));
 	                   	  population.get(Constants.NON_COMMAND).setGwDependency(Utils.parseDouble(fields[format.convert("l")]));
 	                   	  village_details.get(locmapping.get(basinKey)).setPopulation(populationjsn.toJson(population));

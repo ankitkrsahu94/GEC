@@ -17,7 +17,7 @@ public class convetTo {
 //		distNames.add("Chittor");
 //		distNames.add("Anantapur");
 //		distNames.add("Srikakulam");
-		distNames.add("Guntur");
+//		distNames.add("Guntur");
 		distNames.add("Visakhapatnam");
 //		distNames.add("WGodavari");
 //		distNames.add("Nellore");
@@ -32,12 +32,12 @@ public class convetTo {
 		 * Akshay : /home/akshay/proj/GECScriptsGen/GEC/data_files_used/
 		 */
 		//Ankit
-		String path = "/home/ankit/Documents/GEC/codebase/data_files_used/";
+		String path = "/home/ankit/Documents/GEC/codebase/data_files_used/";	
 		//Akshay
 //		String path = "/home/akshay/proj/GECScriptsGen/GEC/data_files_used/";
 		
-		String villCQLScriptFile = path+"final_scripts/vill_meta_data.cql";
-		String basinCQLScriptFile = path+"final_scripts/basin_meta_data.cql";
+		String villCQLScriptFile = path+"final_scripts/vill_meta_data-"+Constants.GEC_ASSESSMENT_YEAR+".cql";
+		String basinCQLScriptFile = path+"final_scripts/basin_meta_data-"+Constants.GEC_ASSESSMENT_YEAR+".cql";
 
 		try(BufferedWriter bwVill = new BufferedWriter(new FileWriter(villCQLScriptFile));
 				BufferedWriter bwBasin = new BufferedWriter(new FileWriter(basinCQLScriptFile))) {

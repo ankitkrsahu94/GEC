@@ -24,7 +24,7 @@ public class BasinXmltojson {
 		/**
 		 * output files
 		 */
-		String basinCQLOutputFileName = path+"final_scripts/"+distName+"-InsertBasin.cql";
+		String basinCQLOutputFileName = path+"final_scripts/"+distName+"-InsertBasin-"+Constants.GEC_ASSESSMENT_YEAR+".cql";;
 
 		/**
 		 * Source files for data creation
