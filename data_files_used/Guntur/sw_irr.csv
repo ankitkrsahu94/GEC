@@ -1,0 +1,729 @@
+,,,,Irrigated with surface water,,,,,,,,,,,
+S.No,Watershed code,Watershed Name,Village Name,command area,,,,Non command area,,,,Poor GW quality area,,,
+,,,,Paddy,,Non-paddy,,Paddy,,Non-paddy,,Paddy,,Non-paddy,
+,,,,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi
+2,07-C-54-60,GNT_C_54_Amarthaluru,Kuchipudi,814,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+3,07-C-54-60,GNT_C_54_Amarthaluru,Mulpur,1006,50,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+4,07-C-54-60,GNT_C_54_Amarthaluru,Pedapudi,80,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+5,07-C-54-60,GNT_C_54_Amarthaluru,Koditadiparru,465,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+6,07-C-54-60,GNT_C_54_Amarthaluru,Moparru,760,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+7,07-C-54-60,GNT_C_54_Amarthaluru,Turumella,395,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+8,07-C-54-60,GNT_C_54_Amarthaluru,Amartaluru,1258,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+9,07-C-54-60,GNT_C_54_Amarthaluru,Panchalavaram,833,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+10,07-C-54-60,GNT_C_54_Amarthaluru,Govada,1458,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+11,07-C-54-60,GNT_C_54_Amarthaluru,Yalavarru,504,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+12,07-C-54-60,GNT_C_54_Amarthaluru,Intur,1901,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+13,07-C-54-60,GNT_C_54_Amarthaluru,Pyapparru,358,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+14,07-C-54-60,GNT_C_54_Amarthaluru,Bodapadu,272,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+15,07-C-54-61,GNT_C_54_Bapatla,Gopapuram,516.8,50,0,0,,,,,517,50,0,0
+16,07-C-54-61,GNT_C_54_Bapatla,Poondla,920.4,0,0,0,,,,,750,0,0,0
+17,07-C-54-61,GNT_C_54_Bapatla,Etheru,677.6,0,0,0,,,,,678,0,0,0
+18,07-C-54-61,GNT_C_54_Bapatla,Palaparthipadu,90,0,0,0,,,,,50,0,0,0
+19,07-C-54-61,GNT_C_54_Bapatla,Gudipudi,260,0,0,0,,,,,125,0,0,0
+20,07-C-54-61,GNT_C_54_Bapatla,Neredupalli,336,0,0,0,,,,,250,0,0,0
+21,07-C-54-61,GNT_C_54_Bapatla,Bharthipudi,150,0,0,0,,,,,75,0,0,0
+22,07-C-54-61,GNT_C_54_Bapatla,Appikatla,651.2,0,0,0,,,,,300,0,0,0
+23,07-C-54-61,GNT_C_54_Bapatla,Velicherla,254.4,0,0,0,,,,,254,0,0,0
+24,07-C-54-48,GNT_C_54_Bhattiprollu,Sivangulapalem,274,1,1,1,,,,,0.0001,0.0001,0.0001,0.0001
+25,07-C-54-48,GNT_C_54_Bhattiprollu,Addepalli,1343,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+26,07-C-54-48,GNT_C_54_Bhattiprollu,Vellaturu,303,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+27,07-C-54-48,GNT_C_54_Bhattiprollu,Pesaralanka,133,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+28,07-C-54-48,GNT_C_54_Bhattiprollu,Pedalanka,333,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+29,07-C-54-48,GNT_C_54_Bhattiprollu,Oleru,641,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+30,07-C-54-48,GNT_C_54_Bhattiprollu,Gorigapudi,345,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+31,07-C-54-48,GNT_C_54_Bhattiprollu,Pedapulivarru,905,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+32,07-C-54-48,GNT_C_54_Bhattiprollu,Surepalle,391,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+33,07-C-54-48,GNT_C_54_Bhattiprollu,Konetipuram,443,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+34,07-C-54-48,GNT_C_54_Bhattiprollu,Pallekona,635,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+35,07-C-54-48,GNT_C_54_Bhattiprollu,Bhattiprolu,1145,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+36,07-C-54-47,GNT-C-54-Cherukupalli,Rambhotlapalem,1044,0,5,205,,,,,0.0001,0.0001,0.0001,0.0001
+37,07-C-54-47,GNT-C-54-Cherukupalli,Kavur,655,0,10,131,,,,,0.0001,0.0001,0.0001,0.0001
+38,07-C-54-47,GNT-C-54-Cherukupalli,Arumbaka,1077,0,12,212,,,,,0.0001,0.0001,0.0001,0.0001
+39,07-C-54-47,GNT-C-54-Cherukupalli,Ponnpalli,353,0,3,71,,,,,0.0001,0.0001,0.0001,0.0001
+40,07-C-54-47,GNT-C-54-Cherukupalli,Nadimpalli,428,0,5,86,,,,,0.0001,0.0001,0.0001,0.0001
+41,07-C-54-47,GNT-C-54-Cherukupalli,Gudavalli,1114,0,8,227,,,,,0.0001,0.0001,0.0001,0.0001
+42,07-C-54-47,GNT-C-54-Cherukupalli,Kanagala,1106,0,6,222,,,,,0.0001,0.0001,0.0001,0.0001
+43,07-C-54-47,GNT-C-54-Cherukupalli,Rajavolu,543,0,4,107,,,,,0.0001,0.0001,0.0001,0.0001
+44,07-C-54-47,GNT-C-54-Cherukupalli,Arepalli,749,0,7,151,,,,,0.0001,0.0001,0.0001,0.0001
+45,07-C-54-47,GNT-C-54-Cherukupalli,Balusulapalem,419,0,3,83,,,,,0.0001,0.0001,0.0001,0.0001
+46,07-C-54-62,GNT-C-54-Duggirala,Chiluvuru,913.2,10,15,182,,,,,0.0001,0.0001,0.0001,0.0001
+47,07-C-54-62,GNT-C-54-Duggirala,Tummapudi,241.6,0.001,0.000001,61,,,,,0.0001,0.0001,0.0001,0.0001
+48,07-C-54-62,GNT-C-54-Duggirala,Srungarapuram,82.8,0.001,0.000001,16,,,,,0.0001,0.0001,0.0001,0.0001
+49,07-C-54-62,GNT-C-54-Duggirala,Pedakonduru,354,0.001,0.000001,70,,,,,0.0001,0.0001,0.0001,0.0001
+50,07-C-54-62,GNT-C-54-Duggirala,Godavarru,182,0.001,0.000001,36,,,,,0.0001,0.0001,0.0001,0.0001
+51,07-C-54-62,GNT-C-54-Duggirala,Chinapalem,1146.8,0.001,0.000001,228,,,,,0.0001,0.0001,0.0001,0.0001
+52,07-C-54-62,GNT-C-54-Duggirala,Perikalapudi,373.2,0.001,0.000001,74,,,,,0.0001,0.0001,0.0001,0.0001
+53,07-C-54-62,GNT-C-54-Duggirala,Morampudi,244,0.001,0.000001,48,,,,,0.0001,0.0001,0.0001,0.0001
+54,07-C-54-62,GNT-C-54-Duggirala,K.Konduru,702,0.001,0.001,140,,,,,0.0001,0.0001,0.0001,0.0001
+55,07-C-54-62,GNT-C-54-Duggirala,Penumuli,1159.6,0.001,0.001,232,,,,,0.0001,0.0001,0.0001,0.0001
+56,07-C-54-62,GNT-C-54-Duggirala,Duggirala,426.4,0.001,0.000001,84,,,,,0.0001,0.0001,0.0001,0.0001
+57,07-C-54-62,GNT-C-54-Duggirala,Emani,1950,0.001,0.001,395,,,,,0.0001,0.0001,0.0001,0.0001
+58,07-C-54-62,GNT-C-54-Duggirala,Chintalapudi,178,0.001,0.001,35,,,,,0.0001,0.0001,0.0001,0.0001
+59,07-C-54-62,GNT-C-54-Duggirala,Devarapalli Agraharam,32.4,0.001,0.001,6,,,,,0.0001,0.0001,0.0001,0.0001
+60,07-C-54-52,GNT-C-54-Karlapalem,Yazali,837,36,0.01,0.01,,,,,700,0.0001,0.0001,0.0001
+61,07-C-54-52,GNT-C-54-Karlapalem,Bhuddam,252,60,0.01,0.01,,,,,100,0.0001,0.0001,0.0001
+62,07-C-54-52,GNT-C-54-Karlapalem,Karlapalem,1032,820,0.01,0.01,,,,,500,0.0001,0.0001,0.0001
+63,07-C-54-52,GNT-C-54-Karlapalem,Ganapavaram,0,0,0.01,0.01,,,,,1306,120,0.0001,0.0001
+64,07-C-54-52,GNT-C-54-Karlapalem,Pareli,0,0,0.01,0.01,,,,,1902,1266,0.0001,0.0001
+65,07-C-54-50,GNT-C-54-Kollipara,Vallabhapuram,1102,0.01,0.01,220,,,,,0.0001,0.0001,0.0001,0.0001
+66,07-C-54-50,GNT-C-54-Kollipara,Munnangi,667,0.01,0.01,135,,,,,0.0001,0.0001,0.0001,0.0001
+67,07-C-54-50,GNT-C-54-Kollipara,Dhanthaluru,272,0.01,0.01,55,,,,,0.0001,0.0001,0.0001,0.0001
+68,07-C-54-50,GNT-C-54-Kollipara,Kunchavaram,125,0.01,0.01,26,,,,,0.0001,0.0001,0.0001,0.0001
+69,07-C-54-50,GNT-C-54-Kollipara,Athota,405,0.01,0.01,80,,,,,0.0001,0.0001,0.0001,0.0001
+70,07-C-54-50,GNT-C-54-Kollipara,Siripuram,442,0.01,0.01,88,,,,,0.0001,0.0001,0.0001,0.0001
+71,07-C-54-50,GNT-C-54-Kollipara,Chivaluru,580,0.01,0.01,116,,,,,0.0001,0.0001,0.0001,0.0001
+72,07-C-54-50,GNT-C-54-Kollipara,Pidaparru,297,0.01,0.01,60,,,,,0.0001,0.0001,0.0001,0.0001
+73,07-C-54-50,GNT-C-54-Kollipara,Kollipara,328,0.01,0.01,66,,,,,0.0001,0.0001,0.0001,0.0001
+74,07-C-54-50,GNT-C-54-Kollipara,Bommuvaripalem,439,0.01,0.01,88,,,,,0.0001,0.0001,0.0001,0.0001
+75,07-C-54-50,GNT-C-54-Kollipara,Annavaram,482,0.01,0.01,96,,,,,0.0001,0.0001,0.0001,0.0001
+76,07-C-54-50,GNT-C-54-Kollipara,Thumuluru,400,0.01,0.01,80,,,,,0.0001,0.0001,0.0001,0.0001
+77,07-C-54-50,GNT-C-54-Kollipara,Davuluru,879,0.01,0.01,174,,,,,0.0001,0.0001,0.0001,0.0001
+78,07-C-54-50,GNT-C-54-Kollipara,Chemudupadu,536,0.01,0.01,106,,,,,0.0001,0.0001,0.0001,0.0001
+79,07-C-54-49,GNT-C-54-Kolluru,Ananthavaram,832.4,0,42.8,145,,,,,0.0001,0.0001,0.0001,0.0001
+80,07-C-54-49,GNT-C-54-Kolluru,Chilumuru,144.4,0,9.2,26,,,,,0.0001,0.0001,0.0001,0.0001
+81,07-C-54-49,GNT-C-54-Kolluru,Ipur,238.4,0,6,46,,,,,0.0001,0.0001,0.0001,0.0001
+82,07-C-54-49,GNT-C-54-Kolluru,Gajullanka,0,0,11.6,5,,,,,0.0001,0.0001,0.0001,0.0001
+83,07-C-54-49,GNT-C-54-Kolluru,Pedalanka,0,0,3.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+84,07-C-54-49,GNT-C-54-Kolluru,Kollur,1318,0,34,311,,,,,0.0001,0.0001,0.0001,0.0001
+85,07-C-54-49,GNT-C-54-Kolluru,Boddulurupadu,90.8,0,0,18,,,,,0.0001,0.0001,0.0001,0.0001
+86,07-C-54-49,GNT-C-54-Kolluru,Ravikampadu,1128.8,0,51.6,225,,,,,0.0001,0.0001,0.0001,0.0001
+87,07-C-54-49,GNT-C-54-Kolluru,Gurivindapalle,106,0,5.6,21,,,,,0.0001,0.0001,0.0001,0.0001
+88,07-C-54-49,GNT-C-54-Kolluru,Chinapulivarru,414.4,0,14,82,,,,,0.0001,0.0001,0.0001,0.0001
+89,07-C-54-49,GNT-C-54-Kolluru,Donepudi,521.2,0,4.8,103,,,,,0.0001,0.0001,0.0001,0.0001
+90,07-C-54-49,GNT-C-54-Kolluru,Potharlanka,0,0,17.2,5,,,,,0.0001,0.0001,0.0001,0.0001
+91,07-C-54-57,GNT-C-54-Nagaram,Peddavaram,382,0,5,76,,,,,0.0001,0.0001,0.0001,0.0001
+92,07-C-54-57,GNT-C-54-Nagaram,Thotapalle,391,0,6,81,,,,,0.0001,0.0001,0.0001,0.0001
+93,07-C-54-57,GNT-C-54-Nagaram,Dhulipudi,1384,0,25,264,,,,,0.0001,0.0001,0.0001,0.0001
+94,07-C-54-57,GNT-C-54-Nagaram,Pamidimarru,360,0,7,69,,,,,0.0001,0.0001,0.0001,0.0001
+95,07-C-54-57,GNT-C-54-Nagaram,Eletipalem,879,0,16,165,,,,,0.0001,0.0001,0.0001,0.0001
+96,07-C-54-57,GNT-C-54-Nagaram,Nagaram,610,0,12,123,,,,,0.0001,0.0001,0.0001,0.0001
+97,07-C-54-57,GNT-C-54-Nagaram,Pudivada,677,0,13,134,,,,,0.0001,0.0001,0.0001,0.0001
+98,07-C-54-57,GNT-C-54-Nagaram,Siripudi,508,0,10,101,,,,,0.0001,0.0001,0.0001,0.0001
+99,07-C-54-57,GNT-C-54-Nagaram,Pedapalle,1299,0,25,214,,,,,0.0001,0.0001,0.0001,0.0001
+100,07-C-54-57,GNT-C-54-Nagaram,Pedamatlapudi,1179,0,23,224,,,,,0.0001,0.0001,0.0001,0.0001
+101,07-C-54-57,GNT-C-54-Nagaram,Edupalle,699,0,15,141,,,,,0.0001,0.0001,0.0001,0.0001
+102,07-C-54-57,GNT-C-54-Nagaram,Allaparru,3337,0,66,634,,,,,0.0001,0.0001,0.0001,0.0001
+103,07-C-54-58,GNT-C-54-Nizampatnam,Nizampatnam,1547,0,31,13,,,,,0.0001,0.0001,0.0001,0.0001
+104,07-C-54-58,GNT-C-54-Nizampatnam,Amudalapalle(With Marshes),771,0,15,0,,,,,0.0001,0.0001,0.0001,0.0001
+105,07-C-54-58,GNT-C-54-Nizampatnam,Pregnam,785,0,16,0,,,,,0.0001,0.0001,0.0001,0.0001
+106,07-C-54-58,GNT-C-54-Nizampatnam,Muthupalle Agraharam,279,0,5,5,,,,,0.0001,0.0001,0.0001,0.0001
+107,07-C-54-58,GNT-C-54-Nizampatnam,Pallapatla,520,0,10,0,,,,,0.0001,0.0001,0.0001,0.0001
+108,07-C-54-58,GNT-C-54-Nizampatnam,Kuchinapudi,1949,0,38,15,,,,,0.0001,0.0001,0.0001,0.0001
+109,07-C-54-58,GNT-C-54-Nizampatnam,Adavuladeevi(With Marshes),2020,0,40,6,,,,,0.0001,0.0001,0.0001,0.0001
+110,07-C-54-58,GNT-C-54-Nizampatnam,Dindi(Including Marshes),40,0,2,0,,,,,0.0001,0.0001,0.0001,0.0001
+111,07-C-54-58,GNT-C-54-Nizampatnam,Nizampatnam forest,520,0,11,0,,,,,0.0001,0.0001,0.0001,0.0001
+112,07-C-54-59,GNT-C-54-Ponnuru,Jupudi,300,0,5,60,,,,,0.0001,0.0001,0.0001,0.0001
+113,07-C-54-59,GNT-C-54-Ponnuru,B. Kodur,550,0,11,111,,,,,0.0001,0.0001,0.0001,0.0001
+114,07-C-54-59,GNT-C-54-Ponnuru,Vellaluru,360,0,7,72,,,,,0.0001,0.0001,0.0001,0.0001
+115,07-C-54-59,GNT-C-54-Ponnuru,Mamillapalle,200,0,4,40,,,,,0.0001,0.0001,0.0001,0.0001
+116,07-C-54-59,GNT-C-54-Ponnuru,Aremanda,260,0,5,52,,,,,0.0001,0.0001,0.0001,0.0001
+117,07-C-54-59,GNT-C-54-Ponnuru,Dandamudi,390,0,8,78,,,,,0.0001,0.0001,0.0001,0.0001
+118,07-C-54-59,GNT-C-54-Ponnuru,Munipalle,810,0,16,162,,,,,0.0001,0.0001,0.0001,0.0001
+119,07-C-54-59,GNT-C-54-Ponnuru,P.T.Parru,390,0,8,79,,,,,0.0001,0.0001,0.0001,0.0001
+120,07-C-54-59,GNT-C-54-Ponnuru,Doppalapudi,250,0,5,51,,,,,0.0001,0.0001,0.0001,0.0001
+121,07-C-54-59,GNT-C-54-Ponnuru,Mannava,1060,0,21,212,,,,,0.0001,0.0001,0.0001,0.0001
+122,07-C-54-59,GNT-C-54-Ponnuru,Upparapalem,905,0,18,183,,,,,0.0001,0.0001,0.0001,0.0001
+123,07-C-54-59,GNT-C-54-Ponnuru,Ponnur,2156,0,42,421,,,,,0.0001,0.0001,0.0001,0.0001
+124,07-C-54-59,GNT-C-54-Ponnuru,Kondamudi,925,0,18,182,,,,,0.0001,0.0001,0.0001,0.0001
+125,07-C-54-59,GNT-C-54-Ponnuru,Jadavalli,250,0,5,52,,,,,0.0001,0.0001,0.0001,0.0001
+126,07-C-54-59,GNT-C-54-Ponnuru,Vaddimukkala,150,0,3,30,,,,,0.0001,0.0001,0.0001,0.0001
+127,07-C-54-59,GNT-C-54-Ponnuru,Chintalapudi,450,0,3,91,,,,,0.0001,0.0001,0.0001,0.0001
+128,07-C-54-59,GNT-C-54-Ponnuru,Vallabharaopalem,1550,0,8,311,,,,,0.0001,0.0001,0.0001,0.0001
+129,07-C-54-59,GNT-C-54-Ponnuru,Nandur,960,0,18,192,,,,,0.0001,0.0001,0.0001,0.0001
+130,07-C-54-59,GNT-C-54-Ponnuru,Mulukuduru,850,0,15,171,,,,,0.0001,0.0001,0.0001,0.0001
+131,07-C-54-53,GNT-C-54-P.V.Palem,Komali,406,0.001,20,80,,,,,0.0001,0.0001,0.0001,0.0001
+132,07-C-54-53,GNT-C-54-P.V.Palem,Sangupalem Koduru,773,0.001,35,142,,,,,0.0001,0.0001,0.0001,0.0001
+133,07-C-54-53,GNT-C-54-P.V.Palem,Chandole,852,0.001,41,163,,,,,0.0001,0.0001,0.0001,0.0001
+134,07-C-54-53,GNT-C-54-P.V.Palem,Pittalavanipalem,1100,0.001,56,11,,,,,0.0001,0.0001,0.0001,0.0001
+135,07-C-54-53,GNT-C-54-P.V.Palem,Khajipalem,750,0.001,37,7,,,,,0.0001,0.0001,0.0001,0.0001
+136,07-C-54-53,GNT-C-54-P.V.Palem,Alluru,1128,0.001,58,12,,,,,0.0001,0.0001,0.0001,0.0001
+137,07-C-54-56,GNT-C-54-Repalle,Parisapadu,94,0,3,20,,,,,0.0001,0.0001,0.0001,0.0001
+138,07-C-54-56,GNT-C-54-Repalle,Karumuru,300,0,6,60,,,,,0.0001,0.0001,0.0001,0.0001
+139,07-C-54-56,GNT-C-54-Repalle,Bethapudi,740,0,15,143,,,,,0.0001,0.0001,0.0001,0.0001
+140,07-C-54-56,GNT-C-54-Repalle,Peteru,382,0,8,75,,,,,0.0001,0.0001,0.0001,0.0001
+141,07-C-54-56,GNT-C-54-Repalle,Penumudi,137,0,3,27,,,,,0.0001,0.0001,0.0001,0.0001
+142,07-C-54-56,GNT-C-54-Repalle,Chatragadda,147,0,4,29,,,,,0.0001,0.0001,0.0001,0.0001
+143,07-C-54-56,GNT-C-54-Repalle,Komarajugadda,257,0,5,50,,,,,0.0001,0.0001,0.0001,0.0001
+144,07-C-54-56,GNT-C-54-Repalle,Nalluru,651,0,13,135,,,,,0.0001,0.0001,0.0001,0.0001
+145,07-C-54-56,GNT-C-54-Repalle,Aravapalli,137,0,3,27,,,,,0.0001,0.0001,0.0001,0.0001
+146,07-C-54-56,GNT-C-54-Repalle,Repalle,1456,0,31,293,,,,,0.0001,0.0001,0.0001,0.0001
+147,07-C-54-56,GNT-C-54-Repalle,Uuppudi,682,0,13,138,,,,,0.0001,0.0001,0.0001,0.0001
+148,07-C-54-56,GNT-C-54-Repalle,Isukapalle,820,0,16,163,,,,,0.0001,0.0001,0.0001,0.0001
+149,07-C-54-56,GNT-C-54-Repalle,Singupalem,1344,0,25,267,,,,,0.0001,0.0001,0.0001,0.0001
+150,07-C-54-56,GNT-C-54-Repalle,Visweswaram,238,0,5,48,,,,,0.0001,0.0001,0.0001,0.0001
+151,07-C-54-56,GNT-C-54-Repalle,Chodayapalem,849,0,16,169,,,,,0.0001,0.0001,0.0001,0.0001
+152,07-C-54-56,GNT-C-54-Repalle,Kaithepalle,842,0,15,169,,,,,0.0001,0.0001,0.0001,0.0001
+153,07-C-54-56,GNT-C-54-Repalle,Pothumeraka(With Marshes area),95,0,2,19,,,,,0.0001,0.0001,0.0001,0.0001
+154,07-C-54-56,GNT-C-54-Repalle,Gangadipalem(With Marshes area),1795,0,36,360,,,,,0.0001,0.0001,0.0001,0.0001
+155,07-C-54-55,GNT-C-54-Tenali,Kolakaluru,390,0,8,78,,,,,0.0001,0.0001,0.0001,0.0001
+156,07-C-54-55,GNT-C-54-Tenali,Devarapally,5,0,0,1,,,,,0.0001,0.0001,0.0001,0.0001
+157,07-C-54-55,GNT-C-54-Tenali,Nandivelugu,293,0,6,58,,,,,0.0001,0.0001,0.0001,0.0001
+158,07-C-54-55,GNT-C-54-Tenali,Kathevaram,1301,0,26,261,,,,,0.0001,0.0001,0.0001,0.0001
+159,07-C-54-55,GNT-C-54-Tenali,Gudivada,498,0,10,100,,,,,0.0001,0.0001,0.0001,0.0001
+160,07-C-54-55,GNT-C-54-Tenali,Sangamjagarlamudi,460,0,9,92,,,,,0.0001,0.0001,0.0001,0.0001
+161,07-C-54-55,GNT-C-54-Tenali,Angalakuduru,661,0,13,132,,,,,0.0001,0.0001,0.0001,0.0001
+162,07-C-54-55,GNT-C-54-Tenali,Nelapadu,1410,0,29,282,,,,,0.0001,0.0001,0.0001,0.0001
+163,07-C-54-55,GNT-C-54-Tenali,Burripalem,583,0,12,116,,,,,0.0001,0.0001,0.0001,0.0001
+164,07-C-54-55,GNT-C-54-Tenali,Chinaravuru,732,0,14,146,,,,,0.0001,0.0001,0.0001,0.0001
+165,07-C-54-55,GNT-C-54-Tenali,Pedaravuru,651,0,13,134,,,,,0.0001,0.0001,0.0001,0.0001
+166,07-C-54-55,GNT-C-54-Tenali,Pinapadu,380,0,8,76,,,,,0.0001,0.0001,0.0001,0.0001
+167,07-C-54-55,GNT-C-54-Tenali,Tenali,680,0,14,136,,,,,0.0001,0.0001,0.0001,0.0001
+168,07-C-54-54,GNT-C-54-Tsunduru,Edlapalle,1136,0,24,339,,,,,0.0001,0.0001,0.0001,0.0001
+169,07-C-54-54,GNT-C-54-Tsunduru,Chinaparimi,466,0,9,136,,,,,0.0001,0.0001,0.0001,0.0001
+170,07-C-54-54,GNT-C-54-Tsunduru,Valiveru,957,0,18,191,,,,,0.0001,0.0001,0.0001,0.0001
+171,07-C-54-54,GNT-C-54-Tsunduru,Penugudurupadu,467,0,8,93,,,,,0.0001,0.0001,0.0001,0.0001
+172,07-C-54-54,GNT-C-54-Tsunduru,Kothapalli Narikellapadu,369,0,7,74,,,,,0.0001,0.0001,0.0001,0.0001
+173,07-C-54-54,GNT-C-54-Tsunduru,Thottempudi,175,0,3,35,,,,,0.0001,0.0001,0.0001,0.0001
+174,07-C-54-54,GNT-C-54-Tsunduru,Vetapalem,639,0,12,183,,,,,0.0001,0.0001,0.0001,0.0001
+175,07-C-54-54,GNT-C-54-Tsunduru,Tsunduru,956,0,18,275,,,,,0.0001,0.0001,0.0001,0.0001
+176,07-C-54-54,GNT-C-54-Tsunduru,Pedagadelavarru,724,0,14,214,,,,,0.0001,0.0001,0.0001,0.0001
+177,07-C-54-54,GNT-C-54-Tsunduru,Manduru,607,0,12,181,,,,,0.0001,0.0001,0.0001,0.0001
+178,07-C-54-54,GNT-C-54-Tsunduru,Alapadu,592,0,11,179,,,,,0.0001,0.0001,0.0001,0.0001
+179,07-C-54-54,GNT-C-54-Tsunduru,Modukuru,1529,0,31,451,,,,,0.0001,0.0001,0.0001,0.0001
+180,07-C-54-51,GNT-C-54-Vemuru,Pulichintalapalem,76.4,0,4.8,21,,,,,0.0001,0.0001,0.0001,0.0001
+181,07-C-54-51,GNT-C-54-Vemuru,Jampani,1498.4,0,113.2,451,,,,,0.0001,0.0001,0.0001,0.0001
+182,07-C-54-51,GNT-C-54-Vemuru,Chadalavada,539.6,0,15.6,167,,,,,0.0001,0.0001,0.0001,0.0001
+183,07-C-54-51,GNT-C-54-Vemuru,Kuchallapadu,572.8,0,36,173,,,,,0.0001,0.0001,0.0001,0.0001
+184,07-C-54-51,GNT-C-54-Vemuru,Varahapuram,150.8,0,6.8,45,,,,,0.0001,0.0001,0.0001,0.0001
+185,07-C-54-51,GNT-C-54-Vemuru,Vemuru,1746.4,0,104.4,512,,,,,0.0001,0.0001,0.0001,0.0001
+186,07-C-54-51,GNT-C-54-Vemuru,Pothumarru,83.2,0,12,24,,,,,0.0001,0.0001,0.0001,0.0001
+187,07-C-54-51,GNT-C-54-Vemuru,Peravalipalem,804,0,30.8,240,,,,,0.0001,0.0001,0.0001,0.0001
+188,07-C-54-51,GNT-C-54-Vemuru,Peravali,740.8,0,12,222,,,,,0.0001,0.0001,0.0001,0.0001
+189,07-C-54-51,GNT-C-54-Vemuru,Chavali,842,0,8,252,,,,,0.0001,0.0001,0.0001,0.0001
+190,07-C-54-51,GNT-C-54-Vemuru,Balijepally,181.2,0,0,54,,,,,0.0001,0.0001,0.0001,0.0001
+191,07-C-54-51,GNT-C-54-Vemuru,Abbanagudavalli,127.6,0,4.8,36,,,,,0.0001,0.0001,0.0001,0.0001
+192,07-C-54-51,GNT-C-54-Vemuru,Penumarru,648,0,1.6,192,,,,,0.0001,0.0001,0.0001,0.0001
+193,07-C-55-37,GNT-C-55-Boddu-Velpuru,Gogulapadu,113.6,0,919.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+194,07-C-55-37,GNT-C-55-Boddu-Velpuru,Alawala,91.6,0,510.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+195,07-C-55-37,GNT-C-55-Boddu-Velpuru,Thurumella,486,0,692.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+196,07-C-55-37,GNT-C-55-Boddu-Velpuru,Annavarappadu,838.4,0,854.8,20,,,,,0.0001,0.0001,0.0001,0.0001
+197,07-C-55-37,GNT-C-55-Boddu-Velpuru,Velpuru,118.4,0,1061.2,50,,,,,0.0001,0.0001,0.0001,0.0001
+198,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Talluru,306,0,829.6,30,,,,,0.0001,0.0001,0.0001,0.0001
+199,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Bethapudi,195.6,0,390.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+200,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Vemavaram,347.6,0,366.4,40,,,,,0.0001,0.0001,0.0001,0.0001
+201,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Phyrangipuram,205.6,0,472.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+202,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Havusuganesa,127.2,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+203,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Repudi,289.2,0,489.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+204,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Nudurupadu,94.4,0,548,0,,,,,0.0001,0.0001,0.0001,0.0001
+205,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Kondaveedu,184.4,0,304.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+206,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Solasa,334.4,0,156,0,,,,,0.0001,0.0001,0.0001,0.0001
+207,07-C-55-42,GNT-C-55-Isuka-2-Kondaveedu,Chirumamilla,299.2,0,154,0,,,,,0.0001,0.0001,0.0001,0.0001
+208,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Kondaveedu Hill & Forest,0,0,0,0.01,,,,,0,0,0,0
+209,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Etukuru,12.8,0,0,0.01,,,,,12.8,0,0,0
+210,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Ankireddypalem,122,0,0,0.01,,,,,122,0,0,0
+211,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Potturu,132,0,370,0.01,,,,,132,0,370,0
+212,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Chowdavaram,59.2,0,512.4,0.01,,,,,59.2,0,512.4,0
+213,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Godavarru,203.6,0,0,0.01,,,,,203.6,0,0,0
+214,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Vadlamudi,320,0,0,0.01,,,,,320,0,0,0
+215,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Srirangapuram,60,0,0,0.01,,,,,60,0,0,0
+216,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Chebrolu,480,0,0,0.01,,,,,480,0,0,0
+217,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Patareddypalem,333.6,0,0,0.01,,,,,333.6,0,0,0
+218,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Manchala,100,0,20,0.01,,,,,100,0,20,0
+219,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Kornepadu,172.4,0,202,0.01,,,,,172.4,0,202,0
+220,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Ananthavarappadu,135.2,0,232.8,0.01,,,,,135.2,0,232.8,50
+221,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Chamallamudi,248,0,310,0.01,,,,,248,0,310,0
+222,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Kurunuthala,0,0,0,0.01,,,,,0,0,0,0
+223,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Garapadu,83.2,0,77.6,0.01,,,,,83.2,0,77.6,0
+224,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Yamarru,226,0,122.8,0.01,,,,,226,0,122.8,0
+225,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Katrapadu,152.8,0,172,0.01,,,,,152.8,0,172,0
+226,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Vatticherukuru,481.6,0,758.8,0.01,,,,,481.6,0,758.8,20
+227,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Lemallepadu,30.8,0,6,0.01,,,,,30.8,0,6,0
+228,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Kovelamudi,30,0,30,0.01,,,,,30,0,30,0
+229,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Karempudipadu,140,0,0,0.01,,,,,140,0,0,0
+230,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Mutluru,412.4,0,0,0.01,,,,,412.4,0,0,0
+231,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Pallapadu,520,0,140,0.01,,,,,520,0,140,0
+232,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Enamadala,12,0,0,0.01,,,,,12,0,0,0
+233,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Kondepadu,3.6,0,0,0.01,,,,,3.6,0,0,0
+234,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Mallayapalem,586,0,0,0,,,,,586,0,0,0
+235,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Vangipuram,974.8,0,0,0.01,,,,,974.8,0,0,0
+236,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Vallur,832.8,0,796,0.01,,,,,832.8,0,796,0
+237,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Kollimarla,512.8,0,499.2,0.01,,,,,512.8,0,499.2,100
+238,07-C-55-45,GNT-C-55-Konda-Vatticherukuru,Pandrapadu,109.2,0,108,0.01,,,,,109.2,0,108,0
+239,07-C-55-41,GNT-C-55-Nakka-Muppalla,Lakkarajugarlapadu,211.6,0,544.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+240,07-C-55-41,GNT-C-55-Nakka-Muppalla,Palidevarlapadu,60.4,0,72.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+241,07-C-55-41,GNT-C-55-Nakka-Muppalla,Narnepadu,371.6,0,430.4,50,,,,,0.0001,0.0001,0.0001,0.0001
+242,07-C-55-41,GNT-C-55-Nakka-Muppalla,L kurapadu,223.6,0,262,0,,,,,0.0001,0.0001,0.0001,0.0001
+243,07-C-55-41,GNT-C-55-Nakka-Muppalla,Erraguntlapadu,62.8,0,456,60,,,,,0.0001,0.0001,0.0001,0.0001
+244,07-C-55-41,GNT-C-55-Nakka-Muppalla,Merikapudi,242.4,0,144.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+245,07-C-55-41,GNT-C-55-Nakka-Muppalla,Gundlapadu,97.2,0,82.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+246,07-C-55-41,GNT-C-55-Nakka-Muppalla,Ponukupadu,467.6,0,789.2,100,,,,,0.0001,0.0001,0.0001,0.0001
+247,07-C-55-41,GNT-C-55-Nakka-Muppalla,Mydavolu,303.6,0,156,0,,,,,0.0001,0.0001,0.0001,0.0001
+248,07-C-55-41,GNT-C-55-Nakka-Muppalla,Vankayalapadu,205.6,0,452.8,50,,,,,0.0001,0.0001,0.0001,0.0001
+249,07-C-55-41,GNT-C-55-Nakka-Muppalla,Edlapadu,74.4,0,146.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+250,07-C-55-41,GNT-C-55-Nakka-Muppalla,Timmapuram,114.8,0,144.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+251,07-C-55-41,GNT-C-55-Nakka-Muppalla,Jaladi,217.6,0,253.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+252,07-C-55-41,GNT-C-55-Nakka-Muppalla,Thurlapadu,0,0,0,0,,,,,188,0.0001,0.0001,0.0001
+253,07-C-55-41,GNT-C-55-Nakka-Muppalla,Sandepudi,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+254,07-C-55-41,GNT-C-55-Nakka-Muppalla,Satuluru,19.2,0,1440.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+255,07-C-55-41,GNT-C-55-Nakka-Muppalla,Chandavaram,346.4,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+256,07-C-55-41,GNT-C-55-Nakka-Muppalla,Gorijavolu,170.4,0,620.4,60,,,,,0.0001,0.0001,0.0001,0.0001
+257,07-C-55-41,GNT-C-55-Nakka-Muppalla,Sankranthipadu,91.2,0,470,0,,,,,0.0001,0.0001,0.0001,0.0001
+258,07-C-55-41,GNT-C-55-Nakka-Muppalla,Tubadu,517.2,0,475.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+259,07-C-55-41,GNT-C-55-Nakka-Muppalla,Nadendla,1108.8,0,1676.8,100,,,,,0.0001,0.0001,0.0001,0.0001
+260,07-C-55-41,GNT-C-55-Nakka-Muppalla,Dondapadu,225.2,0,108.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+261,07-C-55-41,GNT-C-55-Nakka-Muppalla,Kukkapallevari palem,0.01,0.01,0.01,0,,,,,50,0,0,0
+262,07-C-55-41,GNT-C-55-Nakka-Muppalla,Gorijavoluguntapalem,0.01,0.01,0.01,0,,,,,67.6,0,39.6,0
+263,07-C-55-41,GNT-C-55-Nakka-Muppalla,Ravipadu,0.01,0.01,0.01,0,,,,,28.8,0,0,0
+264,07-C-55-41,GNT-C-55-Nakka-Muppalla,Pusulur,0.01,0.01,0.01,0,,,,,987.2,20,0,0
+265,07-C-55-41,GNT-C-55-Nakka-Muppalla,Katrapadu,0.01,0.01,0.01,0,,,,,846.4,0,0,0
+266,07-C-55-41,GNT-C-55-Nakka-Muppalla,Varagani,0.01,0.01,0.01,0,,,,,850.8,0,0,0
+267,07-C-55-41,GNT-C-55-Nakka-Muppalla,Rajupalem,0.01,0.01,0.01,0,,,,,390,0,0,0
+268,07-C-55-41,GNT-C-55-Nakka-Muppalla,Garikapadu,0.01,0.01,0.01,0,,,,,160,0,0,0
+269,07-C-55-41,GNT-C-55-Nakka-Muppalla,Bhallukanudupalem,0.01,0.01,0.01,0,,,,,328,0,0,0
+270,07-C-55-41,GNT-C-55-Nakka-Muppalla,Kakumanu,0.01,0.01,0.01,0,,,,,618.8,0,0,30
+271,07-C-55-41,GNT-C-55-Nakka-Muppalla,Kommur,0.01,0.01,0.01,0,,,,,1083.2,0,0,0
+272,07-C-55-41,GNT-C-55-Nakka-Muppalla,Kondapaturu,0.01,0.01,0.01,0,,,,,628,0,0,0
+273,07-C-55-41,GNT-C-55-Nakka-Muppalla,Appapuram,0.01,0.01,0.01,0,,,,,380,0,0,0
+274,07-C-55-41,GNT-C-55-Nakka-Muppalla,Retur,0.01,0.01,0.01,0,,,,,1300,0,0,0
+275,07-C-55-41,GNT-C-55-Nakka-Muppalla,Bodipalem,0.01,0.01,0.01,0,,,,,440,0,0,0
+276,07-C-55-41,GNT-C-55-Nakka-Muppalla,Jillellamudi,146,0.000001,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+277,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Rupenaguntla,511.2,0,1323.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+278,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Muppalla,218.8,0,811.2,50,,,,,0.0001,0.0001,0.0001,0.0001
+279,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Gollapadu,94.8,0,435.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+280,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Kanuparru,208,0,418.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+281,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Irlapadu,130,0,688,50,,,,,0.0001,0.0001,0.0001,0.0001
+282,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,N.Agraharam,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+283,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Ganapavaram,212.4,0,174,0,,,,,0.0001,0.0001,0.0001,0.0001
+284,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Pamidipadu Agraharam,125.2,0,507.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+285,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Mulakaluru,346.8,0,747.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+286,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Guntagarlapadu,75.2,0,146.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+287,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Ravipadu,452.8,0,1007.6,50,,,,,0.0001,0.0001,0.0001,0.0001
+288,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Ikkurru,212.4,0,449.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+289,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Lingamguntla,108.4,0,224.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+290,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Narasaraopet,104,0,350.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+291,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Jonnalagadda,190,0,507.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+292,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Pothavarppadu,147.6,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+293,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Kesanapalle,389.2,0,414,0,,,,,0.0001,0.0001,0.0001,0.0001
+294,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Ellamanda,707.2,0,1754.4,120,,,,,0.0001,0.0001,0.0001,0.0001
+295,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Uppalapadu,258,0,417.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+296,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Govindapuram,0,0,0,0,,,,,345.2,0,772.8,50
+297,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Kavuru,0,0,0,0,,,,,522.4,0,264.8,0.0001
+298,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Manukondavaripalem,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+299,07-C-55-39,GNT-C-55-Nalanda-Narasaraopet,Veluru,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+300,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Pedanadipadu,1210,0,150,0,,,,,0.0001,0.0001,0.0001,0.0001
+301,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Annavaram,300,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+302,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Uppalapadu,1010,0,200,50,,,,,0.0001,0.0001,0.0001,0.0001
+303,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Palaparru,1120,0,200,60,,,,,0.0001,0.0001,0.0001,0.0001
+304,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Mulapalem,0,0,0,0,,,,,1310,0,0,0
+305,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Jammulapalem,0,0,0,0,,,,,950,0,0,0
+306,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Cheruvu,0,0,0,0,,,,,1650,0,0,0
+307,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Narasayapelem,0,0,0,0,,,,,1465,0,150,0
+308,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Murukondapadu,0,0,0,0,,,,,2250,0,200,50
+309,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Kankatapalem,1750,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+310,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Bapatla West,900,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+311,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Bapatla East,2137,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+312,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Adivi,1114,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+313,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,M.P.Varipalem,1800,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+314,07-C-55-40,GNT-C-55-Nallama-Pedanandipadu,Forest and marshes,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+315,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Tadepalle,0,0,445.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+316,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Kunchanapalle,200,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+317,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Kolanukonda,100,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+318,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Vaddeswaram,150,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+319,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Ippatam,366,0,219.2,50,,,,,0.0001,0.0001,0.0001,0.0001
+320,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Gundimeda,305,0,122,0,,,,,0.0001,0.0001,0.0001,0.0001
+321,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Chirravuru,62,0,261.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+322,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Atmakur,408,0,321.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+323,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Mangalagiri,158,0,465.6,60,,,,,0.0001,0.0001,0.0001,0.0001
+324,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Kaza,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+325,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Chinakakani,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+326,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Pedavadlapudi,501,0,533.2,65,,,,,0.0001,0.0001,0.0001,0.0001
+327,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Chinavadlapudi,457,0,570,60,,,,,0.0001,0.0001,0.0001,0.0001
+328,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Nutakki,700,0,160,0,,,,,0.0001,0.0001,0.0001,0.0001
+329,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Ramachandrapuram,550,0,100,0,,,,,0.0001,0.0001,0.0001,0.0001
+330,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Guntur,0,0,471.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+331,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Budampadu,0,0,368.4,55,,,,,0.0001,0.0001,0.0001,0.0001
+332,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Nallapadu,13.2,0,30.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+333,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Koppuravuru,450,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+334,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Namburu,2641,0,1056.4,150,,,,,0.0001,0.0001,0.0001,0.0001
+335,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Pedakakani,146,0,1029.6,130,,,,,0.0001,0.0001,0.0001,0.0001
+336,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Venigandla,25,0,949.2,50,,,,,0.0001,0.0001,0.0001,0.0001
+337,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Agatavarappadu,0,0,316,0,,,,,0.0001,0.0001,0.0001,0.0001
+338,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Takkellapadu,825,0,970.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+339,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Uppalapadu,1427,0,1141.6,150,,,,,0.0001,0.0001,0.0001,0.0001
+340,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Devarayabhotlapalem,288,0,230.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+341,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Tangellamudi,483,0,386.4,120,,,,,0.0001,0.0001,0.0001,0.0001
+342,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Anumarlapudi,243,0,194.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+343,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Narakoduru,593,0,650,50,,,,,0.0001,0.0001,0.0001,0.0001
+344,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Vejendla,785,0,733.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+345,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Suddapally,458,0,648.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+346,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,M. Ananthavaram,97,0,38.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+347,07-C-55-46,GNT-C-55-Pedda-2-Mangalagiri,Sekuru,1274,0,1409.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+348,07-C-55-44,GNT-C-55-Rama-Prathipadu,Kondaveedu Hill & Forest,0.01,0.01,0.01,0.01,,,,,0.0001,0.0001,0.0001,0.0001
+349,07-C-55-44,GNT-C-55-Rama-Prathipadu,Edulapalem,0,0,0,0,,,,,62,0.0001,0.0001,0.0001
+350,07-C-55-44,GNT-C-55-Rama-Prathipadu,Prattipadu,0,0,0,0,,,,,263,0.0001,349,50
+351,07-C-55-44,GNT-C-55-Rama-Prathipadu,Nadimpalem,0,0,0,0,,,,,82,0.0001,66,0.0001
+352,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Kondaveedu Hill & Forest ,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+353,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Kondajagarlamudi,0,0,0,0,,,,,19.2,0,0,0.0001
+354,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Gottipadu,0,0,0,0,,,,,308,0,532.8,150
+355,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Ganikapudi,0,0,0,0,,,,,76.8,0,178.8,50
+356,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Marripalem,5.6,0,6,0,,,,,0.0001,0.0001,0.0001,0.0001
+357,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Unnava,130.4,0,312.8,85,,,,,0.0001,0.0001,0.0001,0.0001
+358,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Viswanadhuni Kandrika,0,0,145.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+359,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Karuchola,90.8,0,144.4,15,,,,,0.0001,0.0001,0.0001,0.0001
+360,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Kopparru,169.2,0,396.4,65,,,,,0.0001,0.0001,0.0001,0.0001
+361,07-C-55-43,GNT-C-55-Tummala-Edlapadu,Annaparru,204.4,0,433.2,50,,,,,0.0001,0.0001,0.0001,0.0001
+362,07-C-55-38,GNT-C-55-Ura-Rompicherla,Dasaripalem,44,0,366,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+363,07-C-55-38,GNT-C-55-Ura-Rompicherla,Annavaram,838.4,0,854.8,52,,,,,0.0001,0.0001,0.0001,0.0001
+364,07-C-55-38,GNT-C-55-Ura-Rompicherla,Romphicherla,727.6,0,1008.8,150,,,,,0.0001,0.0001,0.0001,0.0001
+365,07-C-55-38,GNT-C-55-Ura-Rompicherla,Vipperlapalli Agraharam,455.6,0,1356,200,,,,,0.0001,0.0001,0.0001,0.0001
+366,07-C-55-38,GNT-C-55-Ura-Rompicherla,Muthanapalli,124,0,462.4,50,,,,,0.0001,0.0001,0.0001,0.0001
+367,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Kunkalagunta,324.8,0,1629.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+368,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Palapadu,184.8,0,417.2,10,,,,,0.0001,0.0001,0.0001,0.0001
+369,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Kakani,453.2,0,457.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+370,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Petlurivaripalem,0,0,269.6,75,,,,,0.0001,0.0001,0.0001,0.0001
+371,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Kondakavuru,104.8,0,56,0,,,,,0.0001,0.0001,0.0001,0.0001
+372,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Santhagudipadu,359.6,0,820.8,12,,,,,0.0001,0.0001,0.0001,0.0001
+373,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Vipparla,246.4,0,510,0,,,,,0.0001,0.0001,0.0001,0.0001
+374,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Machavaram,861.6,0,380.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+375,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Nallagarlapadu,0,0,229.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+376,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Edavalli,0,0,0,0,,,,,324,0.0001,630,50
+377,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Pothavaram,194.8,0,439.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+378,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Chilakaluripet,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+379,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Gottipadu,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+380,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Pasumarru,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+381,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Chinapasumarru,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+382,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Boppudi,0,0,0,0,,,,,32,0.0001,0.0001,0.0001
+383,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Rajapeta,0,0,0,0,,,,,74,0.0001,192,20
+384,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Murikipudi,0,0,0,0,,,,,0.0001,0.0001,11,2
+385,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Tatapudi,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+386,07-C-55-36,GNT-C-55-Vogeru-Chilakaluripet_Part-Ongole,Kantevarikandrika,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+387,07-C-57-33,GNT-C-57-Anga-Angalur,Bollapalle RF,0,0,0,0,,,,,0.1,0.1,0.1,0.1
+388,07-C-57-33,GNT-C-57-Anga-Angalur,Agnigundala,56.8,0,178.4,0,,,,,0,0,0,0
+389,07-C-57-33,GNT-C-57-Anga-Angalur,Angaluru,98,0,75.6,0,,,,,0,0,0,0
+390,07-C-57-33,GNT-C-57-Anga-Angalur,Kotcherla,156.4,0,673.6,125,,,,,0,0,0,0
+391,07-C-57-33,GNT-C-57-Anga-Angalur,Kondramutla,499.2,0,944,150,,,,,0,0,0,0
+392,07-C-57-33,GNT-C-57-Anga-Angalur,Dasullapalli,0,0,0,0,,,,,0,0,0,0
+393,07-C-57-35,GNT-C-57-Cheja-Chejerla,Hill and Forest,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+394,07-C-57-35,GNT-C-57-Cheja-Chejerla,Chejerla,63.2,0,34,0,,,,,0.0001,0.0001,0.0001,0.0001
+395,07-C-57-35,GNT-C-57-Cheja-Chejerla,Arepalli,0,0,20,0,,,,,0.0001,0.0001,0.0001,0.0001
+396,07-C-57-36,GNT-C-57-Cheja-Chejerla,Hill and Forest,0,0,0,0,,,,,0,0,0,0
+397,07-C-57-35,GNT-C-57-Cheja-Chejerla,Inumella,150,0,94.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+398,07-C-57-35,GNT-C-57-Cheja-Chejerla,Muppalla,812,0,623.2,150,,,,,0.0001,0.0001,0.0001,0.0001
+399,07-C-57-35,GNT-C-57-Cheja-Chejerla,Chittapuram,129.6,0,311.2,50,,,,,0.0001,0.0001,0.0001,0.0001
+400,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Karumanchi,383.2,0,1310.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+401,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Madamanchipadu,122,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+402,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Settupalle,0,0,163,0,,,,,0.0001,0.0001,0.0001,0.0001
+403,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Ummadivaram,20.8,0,86.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+404,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Nagulavaram,72.4,0,47.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+405,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Gokanakonda,176,0,638.4,50,,,,,0.0001,0.0001,0.0001,0.0001
+406,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Pamidipadu,297.2,0,958.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+407,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Khambhampadu,0,0,884.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+408,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,T.Annavaram,0,0,106.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+409,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Tellabadu,145.2,0,82.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+410,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Uppalapadu,190.8,0,723.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+411,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Tripurapuram,401.6,0,130,0,,,,,0.0001,0.0001,0.0001,0.0001
+412,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Kondraprolu,17.2,0,632,0,,,,,0.0001,0.0001,0.0001,0.0001
+413,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Mulakaluru,445.6,0,295.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+414,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Puvvada,486.8,0,637.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+415,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Talarlapalle,493.6,0,663.2,50,,,,,0.0001,0.0001,0.0001,0.0001
+416,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,V.Appapuram,485.6,0,85.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+417,07-C-57-30,GNT-C-57-Gundla-1-Nuzendla-Part_Ongole,Nuzendla,233.6,0,1038.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+418,07-C-57-64,GNT-C-57-Gundla-2-Thimmapuram-Part_Ongole,Putchanutala,286,0,1266,150,,,,,0.0001,0.0001,0.0001,0.0001
+419,07-C-57-64,GNT-C-57-Gundla-2-Thimmapuram-Part_Ongole,Timmapuram,316,0,214,0,,,,,0.0001,0.0001,0.0001,0.0001
+420,07-C-57-29,GNT-C-57-Kandaleru-1-Bollapalli-Part_Ongole,Gandiganumala,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+421,07-C-57-29,GNT-C-57-Kandaleru-1-Bollapalli-Part_Ongole,Ravulapuram,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+422,07-C-57-29,GNT-C-57-Kandaleru-1-Bollapalli-Part_Ongole,Gutlapalle,0,0.01,312,10,,,,,0.0001,0.0001,0.0001,0.0001
+423,07-C-57-29,GNT-C-57-Kandaleru-1-Bollapalli-Part_Ongole,Bollapally R.F,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+424,07-C-57-63,GNT-C-57-Kandaleru-2-Vinukonda_Part-Ongole,Koppukonda,354,0,867.2,100,,,,,0.0001,0.0001,0.0001,0.0001
+425,07-C-57-63,GNT-C-57-Kandaleru-2-Vinukonda_Part-Ongole,Chowtayapalem,125,0,136,20,,,,,0.0001,0.0001,0.0001,0.0001
+426,07-C-57-63,GNT-C-57-Kandaleru-2-Vinukonda_Part-Ongole,Neelagangavaram,251,0,314,65,,,,,0.0001,0.0001,0.0001,0.0001
+427,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Guttikonda RF,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+428,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Bommarajupally,0,0,0,0,,,,,0,0,0,0
+429,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Ipur,113.6,0,310.8,0,,,,,0,0,0,0
+430,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Vanikunta,83.6,0,170,0,,,,,0,0,0,0
+431,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Kondayapalem,455.2,0,690.4,0,,,,,0,0,0,0
+432,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Gundepalle,43.2,0,177.6,0,,,,,0,0,0,0
+433,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Kottaluru,334,0,488.8,0,,,,,0,0,0,0
+434,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Potluru,184.4,0,1098,50,,,,,0,0,0,0
+435,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Sanampudi,610.8,0,954.8,0,,,,,0,0,0,0
+436,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Kanumarlapudi,69.6,0,365.2,0,,,,,0,0,0,0
+437,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Pitchikalapalem,452,0,391.2,0,,,,,0,0,0,0
+438,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Naragayapalem,0,0,145.6,0,,,,,0,0,0,0
+439,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Brahmanapalle,13.2,0,457.6,0,,,,,0,0,0,0
+440,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Vittamrajupalle,11.6,0,116.8,0,,,,,0,0,0,0
+441,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Pedakancherla,710.8,0,864.8,65,,,,,0,0,0,0
+442,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Perumallapalle,384.8,0,0,0,,,,,0,0,0,0
+443,07-C-57-34,GNT-C-57-Konkeru-Savalyapuram,Enugupalem,377.6,0,683.6,0,,,,,0,0,0,0
+444,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Bollapalle ,0,0,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+445,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Vaddemgunta,124,0,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+446,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Sarikondayapalem,0,0,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+447,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Vellaturu,457.6,0,985.2,50,,,,,0.0001,0.0001,0.0001,0.0001
+448,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Perurupadu,142,0,766,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+449,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Kanumalacheruvu,29.6,0,110.8,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+450,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Bollapalle Hill&Forst,0,0.001,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+451,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,PerurupaduHill&Forest,0,0.001,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+452,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Narasarayanipalem,0,0,145.6,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+453,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Dondapadu,404,0,119.6,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+454,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Timmayapalem,710.8,0,864.8,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+455,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Vinukonda,98.8,0,1034,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+456,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Venkupalem,0,0,196,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+457,07-C-57-32,GNT-C-57-Pasupuleru-Vellaturu,Vinukonda Hill&Forest,0,0.001,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+458,07-C-57-31,GNT-C-57-Vola-Tangirala,Andugulapadu,211.6,0,544.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+459,07-C-57-31,GNT-C-57-Vola-Tangirala,Nayanipalem,60.4,0,72.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+460,07-C-57-31,GNT-C-57-Vola-Tangirala,Sivapuram,371.6,0,430.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+461,07-C-57-31,GNT-C-57-Vola-Tangirala,Surepally,223.6,0,262,0,,,,,0.0001,0.0001,0.0001,0.0001
+462,07-C-57-31,GNT-C-57-Vola-Tangirala,Tangirala,62.8,0,456,50,,,,,0.0001,0.0001,0.0001,0.0001
+463,07-C-57-31,GNT-C-57-Vola-Tangirala,Murthuzapuram,242.4,0,144.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+464,07-C-57-31,GNT-C-57-Vola-Tangirala,Chintalacheruvu,97.2,0,82.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+465,07-C-57-31,GNT-C-57-Vola-Tangirala,Peddavaram,467.6,0,789.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+466,07-C-57-31,GNT-C-57-Vola-Tangirala,Ainavolu,303.6,0,156,0,,,,,0.0001,0.0001,0.0001,0.0001
+467,07-C-57-31,GNT-C-57-Vola-Tangirala,Mukkellapadu,205.6,0,452.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+468,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Chintapalli,180,0,552.4,552,,,,,0.0001,0.0001,0.0001,0.0001
+469,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Tallacheruvu,28,0,598.8,599,,,,,0.0001,0.0001,0.0001,0.0001
+470,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Chamarru,452.4,0,867.6,868,,,,,0.0001,0.0001,0.0001,0.0001
+471,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Kogantivaripalem,0,0,221.6,222,,,,,0.0001,0.0001,0.0001,0.0001
+472,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Chigurupadu,135.2,0,486.4,486,,,,,0.0001,0.0001,0.0001,0.0001
+473,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Pedapalem,250,0,239.6,240,,,,,0.0001,0.0001,0.0001,0.0001
+474,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Konduru,172.8,0,262.4,262,,,,,0.0001,0.0001,0.0001,0.0001
+475,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Mittapalem,7.6,0,494.8,495,,,,,0.0001,0.0001,0.0001,0.0001
+476,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Velpuru,582.8,0,1038.8,1039,,,,,0.0001,0.0001,0.0001,0.0001
+477,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Oravakallu,325.6,0,428.4,428,,,,,0.0001,0.0001,0.0001,0.0001
+478,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Ambadipudi,64.4,0,240.4,240,,,,,0.0001,0.0001,0.0001,0.0001
+479,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Konur,76.8,0,286.8,287,,,,,0.0001,0.0001,0.0001,0.0001
+480,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,Kastala Agraharam,41.2,0,236,236,,,,,0.0001,0.0001,0.0001,0.0001
+481,07-D-50-20,GNT-D-50-Atcham.-Atchampeta,"Venkatayapalem 
+Hill & Forest",0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+482,07-D-50-23,GNT-D-50-Challa-Challagundla,Pakalapadu,503.6,0,590.4,451,,,,,0,0,0,0
+483,07-D-50-23,GNT-D-50-Challa-Challagundla,Kattamuru,156.4,0,623.6,416,,,,,0,0,0,0
+484,07-D-50-23,GNT-D-50-Challa-Challagundla,Abbur,292,0,494.4,324,,,,,0,0,0,0
+485,07-D-50-23,GNT-D-50-Challa-Challagundla,Bhimavaram,122,0,448,299,,,,,0,0,0,0
+486,07-D-50-23,GNT-D-50-Challa-Challagundla,Kankanalapalli,107.6,0,197.2,127,,,,,0,0,0,0
+487,07-D-50-23,GNT-D-50-Challa-Challagundla,Dhulipalla,270.8,0,983.6,631,,,,,0,0,0,0
+488,07-D-50-23,GNT-D-50-Challa-Challagundla,Sattenapally,161.6,0,376.8,247,,,,,0,0,0,0
+489,07-D-50-23,GNT-D-50-Challa-Challagundla,Challagundla,256,0,806,583,,,,,0,0,0,0
+490,07-D-50-23,GNT-D-50-Challa-Challagundla,Cheemalamarri,223.2,0,620.4,412,,,,,0,0,0,0
+491,07-D-50-23,GNT-D-50-Challa-Challagundla,Chagallu,540,0,736,501,,,,,0,0,0,0
+492,07-D-50-23,GNT-D-50-Challa-Challagundla,Dachavarapadu,4,0,117.6,73,,,,,0,0,0,0
+493,07-D-50-23,GNT-D-50-Challa-Challagundla,Tondapi,480.8,0,845.2,578,,,,,0,0,0,0
+494,07-D-50-23,GNT-D-50-Challa-Challagundla,Madala,484,0,1352,906,,,,,0,0,0,0
+495,07-D-50-23,GNT-D-50-Challa-Challagundla,Bollavaram,49.2,0,222.8,131,,,,,0,0,0,0
+496,07-D-50-23,GNT-D-50-Challa-Challagundla,Dammalapudu,187.6,0,1135.6,765,,,,,0,0,0,0
+497,07-D-50-9,GNT-D-50-Dandi-Gurajala,Pulipadu,366,0.01,963.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+498,07-D-50-9,GNT-D-50-Dandi-Gurajala,Gangavaram,930.4,0.01,1014.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+499,07-D-50-9,GNT-D-50-Dandi-Gurajala,Palligunta,341.2,0.01,539.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+500,07-D-50-9,GNT-D-50-Dandi-Gurajala,Gurajala,742,0.01,1914.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+501,07-D-50-9,GNT-D-50-Dandi-Gurajala,Charlagudipadu,485.6,0.01,953.6,284,,,,,0.0001,0.0001,0.0001,0.0001
+502,07-D-50-9,GNT-D-50-Dandi-Gurajala,Pondugula,476.8,0,558.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+503,07-D-50-9,GNT-D-50-Dandi-Gurajala,Miryala,458.8,0.01,799.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+504,07-D-50-9,GNT-D-50-Dandi-Gurajala,Naramalapadu,147.2,0.01,232.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+505,07-D-50-9,GNT-D-50-Dandi-Gurajala,Dharmavaram,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+506,07-D-50-9,GNT-D-50-Dandi-Gurajala,Adigopula,241.2,0.01,430,0,,,,,0.0001,0.0001,0.0001,0.0001
+507,07-D-50-9,GNT-D-50-Dandi-Gurajala,Nidanampadu,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+508,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Machayapalem,14,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+509,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Bellamkonda,299.6,0,873.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+510,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Vipparla,238.8,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+511,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Utukuru,343.6,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+512,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Parupalle,79.6,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+513,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Peesapadu,252.8,5,206,0,,,,,0.0001,0.0001,0.0001,0.0001
+514,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Puttipadu,44.4,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+515,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Munugodu,525.6,0,299.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+516,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Attalur,214,0,618.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+517,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Jupudi,163.6,0,592,0,,,,,0.0001,0.0001,0.0001,0.0001
+518,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Pondugula,42.8,0,68.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+519,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Hussain nagaram,42.4,0,252,0,,,,,0.0001,0.0001,0.0001,0.0001
+520,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Ramapuram,152.4,0,162,0,,,,,0.0001,0.0001,0.0001,0.0001
+521,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Bhrugubanda,506.8,3,787.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+522,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Rentapalla,92,0,62.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+523,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Rajupalem,114,0,485.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+524,07-D-50-18,GNT-D-50-Eddu-Amaravathi,Reddygudem,530.8,0,419.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+525,07-D-50-8,GNT-D-50-Edumangal-Rentachintala,Mittagudipadu,268,0,688.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+526,07-D-50-8,GNT-D-50-Edumangal-Rentachintala,Rentachintala,437.2,0,941.6,30,,,,,0.0001,0.0001,0.0001,0.0001
+527,07-D-50-8,GNT-D-50-Edumangal-Rentachintala,Rentala,277.2,0,6649.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+528,07-D-50-8,GNT-D-50-Edumangal-Rentachintala,Madugala,610,0,1330.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+529,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Akurajupalli,567.2,0,546,0,,,,,0.0001,0.0001,0.0001,0.0001
+530,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,SR puram,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+531,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Pillutla,547.6,52,858.8,25,,,,,0.0001,0.0001,0.0001,0.0001
+532,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Mallavolu,242.8,0,701.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+533,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Bodanam,0,0,95.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+534,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Kethavaram,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+535,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,chityala,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+536,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Kollur,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+537,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Emmajigudem,93.2,0,370,0,,,,,0.0001,0.0001,0.0001,0.0001
+538,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,MT Puram,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+539,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Papayapalem,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+540,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Vannayapalem,89.2,0,115.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+541,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,"Guttikonda & 
+Venkatayapalem Forest & Hills",0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+542,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Piduguralla,103.2,0,896.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+543,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Konanki,538.4,64,378.4,41,,,,,0.0001,0.0001,0.0001,0.0001
+544,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Janapadu,252.8,0,775.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+545,07-D-50-22,GNT-D-50-Erra-2-Piduguralla,Guttikonda,632.4,0,420.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+546,07-D-50-16,GNT-D-50-Erra-1-Rajupalem,Chowtapapayapalem,60,0,18,0,,,,,0.0001,0.0001,0.0001,0.0001
+547,07-D-50-16,GNT-D-50-Erra-1-Rajupalem,Ganapavaram,305.2,0,548.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+548,07-D-50-16,GNT-D-50-Erra-1-Rajupalem,Balijepalle,208.4,0,350.4,10,,,,,0.0001,0.0001,0.0001,0.0001
+549,07-D-50-16,GNT-D-50-Erra-1-Rajupalem,Uppalapadu,315.6,0,747.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+550,07-D-50-16,GNT-D-50-Erra-1-Rajupalem,Guttikonda Hills & Forest,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+551,07-D-50-16,GNT-D-50-Erra-1-Rajupalem,Nekarikallu,258.4,0,116.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+552,07-D-50-10,GNT-D-50-Gadida-Daida,Gottimukkala,349.2,26,525.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+553,07-D-50-10,GNT-D-50-Gadida-Daida,Daida,113.6,0,414,12,,,,,0.0001,0.0001,0.0001,0.0001
+554,07-D-50-10,GNT-D-50-Gadida-Daida,Telukutla,259.6,0,377.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+555,07-D-50-7,GNT-D-50-Goli-Thumurukota,Kambhampadu,1568,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+556,07-D-50-7,GNT-D-50-Goli-Thumurukota,Mutyalampadu,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+557,07-D-50-7,GNT-D-50-Goli-Thumurukota,Mallavaram,96,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+558,07-D-50-7,GNT-D-50-Goli-Thumurukota,Goli,174.4,0,443,0,,,,,0.0001,0.0001,0.0001,0.0001
+559,07-D-50-7,GNT-D-50-Goli-Thumurukota,Pasarlapadu,688.8,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+560,07-D-50-7,GNT-D-50-Goli-Thumurukota,Thumrukota,1178.4,56,0,111,,,,,0.0001,0.0001,0.0001,0.0001
+561,07-D-50-7,GNT-D-50-Goli-Thumurukota,Paluvoi,1476.4,215,0,126,,,,,0.0001,0.0001,0.0001,0.0001
+562,07-D-50-7,GNT-D-50-Goli-Thumurukota,Manchikallu,221.6,120,0,54,,,,,0.0001,0.0001,0.0001,0.0001
+563,07-D-50-7,GNT-D-50-Goli-Thumurukota,Hill and Forest,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+564,07-D-50-7,GNT-D-50-Goli-Thumurukota,Darivemula,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+565,07-D-50-7,GNT-D-50-Goli-Thumurukota,Obulesunipalle,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+566,07-D-50-7,GNT-D-50-Goli-Thumurukota,Durgi,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+567,07-D-50-12,GNT-D-50-Julakallu-Kesanapalli,Kesanapalle,384,1,612.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+568,07-D-50-12,GNT-D-50-Julakallu-Kesanapalli,Pedagarlapadu,569,0,886.4,1,,,,,0.0001,0.0001,0.0001,0.0001
+569,07-D-50-12,GNT-D-50-Julakallu-Kesanapalli,Zulakallu,241,0,168.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+570,07-D-50-12,GNT-D-50-Julakallu-Kesanapalli,Chinagarlpadu,274,0,518.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+571,07-D-50-27,GNT-D-50-Kattela-Thulluru,Karlapudi,30,12,89,0,,,,,0.0001,0.0001,0.0001,0.0001
+572,07-D-50-27,GNT-D-50-Kattela-Thulluru,Harischandrapuram,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+573,07-D-50-27,GNT-D-50-Kattela-Thulluru,Vaddamanu,82,0,68,0,,,,,0.0001,0.0001,0.0001,0.0001
+574,07-D-50-27,GNT-D-50-Kattela-Thulluru,Ananthavaram,24,11,166,0,,,,,0.0001,0.0001,0.0001,0.0001
+575,07-D-50-27,GNT-D-50-Kattela-Thulluru,Nekkallu,8,0,127,0,,,,,0.0001,0.0001,0.0001,0.0001
+576,07-D-50-27,GNT-D-50-Kattela-Thulluru,Pedaparimi,631,231,1547,0,,,,,0.0001,0.0001,0.0001,0.0001
+577,07-D-50-27,GNT-D-50-Kattela-Thulluru,Thullur,31,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+578,07-D-50-27,GNT-D-50-Kattela-Thulluru,Pitchikalapalem,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+579,07-D-50-27,GNT-D-50-Kattela-Thulluru,Dondapadu,53,0,41,0,,,,,0.0001,0.0001,0.0001,0.0001
+580,07-D-50-27,GNT-D-50-Kattela-Thulluru,Borupalem,52,0,56,46,,,,,0.0001,0.0001,0.0001,0.0001
+581,07-D-50-27,GNT-D-50-Kattela-Thulluru,Abbarajupalem,126,0,106,85,,,,,0.0001,0.0001,0.0001,0.0001
+582,07-D-50-27,GNT-D-50-Kattela-Thulluru,Rayapudi,178,0,1254,1022,,,,,0.0001,0.0001,0.0001,0.0001
+583,07-D-50-27,GNT-D-50-Kattela-Thulluru,Kondamarajupalem,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+584,07-D-50-27,GNT-D-50-Kattela-Thulluru,Nelapadu,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+585,07-D-50-27,GNT-D-50-Kattela-Thulluru,Sakhamuru,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+586,07-D-50-27,GNT-D-50-Kattela-Thulluru,Velagapudi,88,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+587,07-D-50-27,GNT-D-50-Kattela-Thulluru,Lingayapalem,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+588,07-D-50-27,GNT-D-50-Kattela-Thulluru,Uddandarayunipalem,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+589,07-D-50-27,GNT-D-50-Kattela-Thulluru,Malkapuram,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+590,07-D-50-27,GNT-D-50-Kattela-Thulluru,Mandadam,0,0,422,254,,,,,0.0001,0.0001,0.0001,0.0001
+591,07-D-50-27,GNT-D-50-Kattela-Thulluru,Venkatapalem,0,0,247,136,,,,,0.0001,0.0001,0.0001,0.0001
+592,07-D-50-27,GNT-D-50-Kattela-Thulluru,Mothadaka,70,0,234,0,,,,,0.0001,0.0001,0.0001,0.0001
+593,07-D-50-27,GNT-D-50-Kattela-Thulluru,Nidumukkala,163,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+594,07-D-50-27,GNT-D-50-Kattela-Thulluru,Mothadaka_Nidumukkala RF,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+595,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Vaikuntapuram,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+596,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Pedamadduru,12.4,0,202,0,,,,,0.0001,0.0001,0.0001,0.0001
+597,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Narukullapadu,186.8,0,71.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+598,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Endroyi,87.2,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+599,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Unguturu,459.2,0,146.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+600,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Nemalikallu,369.6,0,544.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+601,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Pamulapadu,394.8,0,556.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+602,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Bejatpuram,46.4,0,554.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+603,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Lachannagudipudi,132.4,0,38,0,,,,,0.0001,0.0001,0.0001,0.0001
+604,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Ravela,142.4,0,456.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+605,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Aminabad,183.6,0,141.6,130,,,,,0.0001,0.0001,0.0001,0.0001
+606,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Siripuram,276,5,473.6,0,,,,,122,5,12,0.0001
+607,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Varagani,200,0,171.2,0,,,,,54,0.0001,0.0001,0.0001
+608,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Mandapadu,175.6,0,278,0,,,,,0.0001,0.0001,0.0001,0.0001
+609,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Velavarthipadu,290.4,0,245.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+610,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Medikonduru,474,0,894,0,,,,,0.0001,0.0001,0.0001,0.0001
+611,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Visadala,180,0,514.8,0,,,,,136,0.0001,0.0001,6
+612,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Dogiparru,1.2,0,154,0,,,,,0.0001,0.0001,0.0001,0.0001
+613,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Mangalagiripadu,16.4,0,60,0,,,,,0.0001,0.0001,0.0001,0.0001
+614,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Pon.Kandrika,13.2,0,69.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+615,07-D-50-25,GNT-D-50-Kondaveeti-Medikonduru,Perecherla RF,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+616,07-D-50-24,GNT-D-50-Lakshmi-Panidam,Bayyavaram,215.6,1,470.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+617,07-D-50-24,GNT-D-50-Lakshmi-Panidam,Balemarru,192,0,19.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+618,07-D-50-24,GNT-D-50-Lakshmi-Panidam,Andukuru,199.6,0,285.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+619,07-D-50-24,GNT-D-50-Lakshmi-Panidam,Garapadu,271.2,0,394.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+620,07-D-50-24,GNT-D-50-Lakshmi-Panidam,Lagadapadu,79.2,0,378.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+621,07-D-50-24,GNT-D-50-Lakshmi-Panidam,Gorantla,211.6,0,174.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+622,07-D-50-24,GNT-D-50-Lakshmi-Panidam,Bhatlur,146.8,0,388.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+623,07-D-50-24,GNT-D-50-Lakshmi-Panidam,Panidam,412.4,0,975.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+624,07-D-50-5,GNT-D-50-Macherla-Macherrla,A.J.Madaka,125,3,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+625,07-D-50-5,GNT-D-50-Macherla-Macherrla,Rayavaram,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+626,07-D-50-5,GNT-D-50-Macherla-Macherrla,Macherla,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+627,07-D-50-5,GNT-D-50-Macherla-Macherrla,Polepalle,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+628,07-D-50-5,GNT-D-50-Macherla-Macherrla,Atmakur,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+629,07-D-50-5,GNT-D-50-Macherla-Macherrla,Hill and Forest,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+630,07-D-50-5,GNT-D-50-Macherla-Macherrla,Kandlakunta,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+631,07-D-50-5,GNT-D-50-Macherla-Macherrla,Gundlapadu,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+632,07-D-50-5,GNT-D-50-Macherla-Macherrla,Ratchamillipadu,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+633,07-D-50-5,GNT-D-50-Macherla-Macherrla,Mandadi,0,0.01,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+634,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Malladi,194,0,206,0,,,,,0.0001,0.0001,0.0001,0.0001
+635,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Didugu,171.6,0,592,0,,,,,0.0001,0.0001,0.0001,0.0001
+636,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Lingapuram,194.4,0,206,0,,,,,0.0001,0.0001,0.0001,0.0001
+637,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Daranikota,628.4,2,1013.2,5,,,,,0.0001,0.0001,0.0001,0.0001
+638,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Amaravathi,270.8,0,461.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+639,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Tallur,240,0,360.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+640,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Kasipadu,183.6,0,289.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+641,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Balusupadu,133.2,0,585.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+642,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Kambhampadu,62.8,0,303.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+643,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Jalalpuram,231.2,0,121.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+644,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Patibandla,205.6,0,507.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+645,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Mussapuram,116.4,0,202,0,,,,,0.0001,0.0001,0.0001,0.0001
+646,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Lingamguntla,344,0,268.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+647,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Chinamakkena,80,0,89.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+648,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Pedakurapadu,562,0,1835.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+649,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Nandigama,328.4,0,620,0,,,,,0.0001,0.0001,0.0001,0.0001
+650,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Gudipudi,448.4,0,649.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+651,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Pedamakkena,176.4,0,373.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+652,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Kantepudi,4,0,249.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+653,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Komerapudi,256.8,0,415.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+654,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Takkellapadu,103.2,0,335.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+655,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Srirangipalem,0,0,320,0,,,,,0.0001,0.0001,0.0001,0.0001
+656,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Korrapadu,260.8,0,606,0,,,,,0.0001,0.0001,0.0001,0.0001
+657,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Paladugu,226,0,513.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+658,07-D-50-26,GNT-D-50 Mada-Pedakurapadu,Potlapadu,69.2,0,64,0,,,,,0.0001,0.0001,0.0001,0.0001
+659,07-D-50-6,GNT-D-50-Nagarjuna-Macherla,Nagulavaram,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+660,07-D-50-6,GNT-D-50-Nagarjuna-Macherla,Pasuvemula,140,1,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+661,07-D-50-6,GNT-D-50-Nagarjuna-Macherla,Tallapalle,420,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+662,07-D-50-6,GNT-D-50-Nagarjuna-Macherla,Kothapalle,0,0,1,0,,,,,0.0001,0.0001,0.0001,0.0001
+663,07-D-50-6,GNT-D-50-Nagarjuna-Macherla,Koppunur,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+664,07-D-50-6,GNT-D-50-Nagarjuna-Macherla,Hill and Forest,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+665,07-D-50-6,GNT-D-50-Nagarjuna-Macherla,Damarapadu,20,0,0,15,,,,,0.0001,0.0001,0.0001,0.0001
+666,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Gogulapadu,406.4,1,715.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+667,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Ramapuram,111.6,0,563.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+668,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Gamalapadu,404,0,503.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+669,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Dachepalle,478.4,0,503.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+670,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Nadikudi,117.6,0,669.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+671,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Alugumallipadu,41.6,0,127.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+672,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Sankarapuram,332,0,817.6,3,,,,,0.0001,0.0001,0.0001,0.0001
+673,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Chinakodamagundla,148.4,0,318.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+674,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Chintapalli,142.4,0,744,0,,,,,0.0001,0.0001,0.0001,0.0001
+675,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,V.L.Puram,70.8,0,98,0,,,,,0.0001,0.0001,0.0001,0.0001
+676,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Karempudi,229.6,0,146.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+677,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Petasanigandla,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+678,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Singarutla,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+679,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,"Bollapally, Kakirala hill & forest",0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+680,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Ayyannapalem,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+681,07-D-50-11,GNT-D-50-Naguleru-Dachepalle,Mellavagu,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+682,07-D-50-17,GNT-D-50-Narasing-Narasingapadu,Nemalipuri,220,0,854.8,660,,,,,0.0001,0.0001,0.0001,0.0001
+683,07-D-50-17,GNT-D-50-Narasing-Narasingapadu,Kubadpuram,117.2,0,552.4,250,,,,,0.0001,0.0001,0.0001,0.0001
+684,07-D-50-17,GNT-D-50-Narasing-Narasingapadu,Guttikonda hill & Forest,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+685,07-D-50-17,GNT-D-50-Narasing-Narasingapadu,Gundlapalli,83.2,0,1048,0,,,,,0.0001,0.0001,0.0001,0.0001
+686,07-D-50-17,GNT-D-50-Narasing-Narasingapadu,Narasingapadu,109.2,0,123.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+687,07-D-50-17,GNT-D-50-Narasing-Narasingapadu,Tripurapuram,15.2,0,45.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+688,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Ainavolu,0,0.001,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+689,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Penumaka,0,0.001,313,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+690,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Undavalli,800,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+691,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Kuragallu,54,0.001,184,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+692,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Krishnyapalem,0,0.001,208,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+693,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Nowlur,493,0.001,648,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+694,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Nidamarru,0,0.001,198,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+695,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Tadikonda,0,0,114,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+696,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Ponekallu,171.6,0,760.4,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+697,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Bandarupalle,18,0,947.2,0.001,,,,,18,0,947.2,0.0001
+698,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Damarapalle,0,0,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+699,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Lam,170.8,0,320,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+700,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Kantheru,0,0.001,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+701,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Perecherla,0,0,85.2,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+702,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Perecherla RF,0,0.001,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+703,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Chinapalakaluru,123.6,0,221.6,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+704,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Pedapalakalueu,416,0,512.4,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+705,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Jonnalagadda,0,0,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+706,07-D-50-28,GNT-D-50-Pedda-1-Guntur,Gorantla,0,0,0,0.001,,,,,0.0001,0.0001,0.0001,0.0001
+707,07-D-50-15,GNT-D-50-Ralla-Machavaram,Bhatrupalem,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+708,07-D-50-15,GNT-D-50-Ralla-Machavaram,Madinapadu,200.4,0,415.6,0,,,,,0.0001,0.0001,0.0001,0.0001
+709,07-D-50-15,GNT-D-50-Ralla-Machavaram,Tangeda,858.8,0,986,0,,,,,0.0001,0.0001,0.0001,0.0001
+710,07-D-50-15,GNT-D-50-Ralla-Machavaram,Mutyalampadu,134.8,0,227.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+711,07-D-50-15,GNT-D-50-Ralla-Machavaram,Madinapadu forest,0,0,0,0,,,,,0.0001,0.0001,0.0001,0.0001
+712,07-D-50-15,GNT-D-50-Ralla-Machavaram,Chennayapalem,191.2,0,35.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+713,07-D-50-15,GNT-D-50-Ralla-Machavaram,Tadutla,198,0,52.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+714,07-D-50-15,GNT-D-50-Ralla-Machavaram,Vemavaram,380.8,0,4.8,0,,,,,0.0001,0.0001,0.0001,0.0001
+715,07-D-50-15,GNT-D-50-Ralla-Machavaram,Machavaram,306.8,0,715.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+716,07-D-50-15,GNT-D-50-Ralla-Machavaram,Pinnelli,547.6,0,858.8,5,,,,,0.0001,0.0001,0.0001,0.0001
+717,07-D-50-15,GNT-D-50-Ralla-Machavaram,Tummalacheruvu,147.6,0,1523.2,0,,,,,0.0001,0.0001,0.0001,0.0001
+718,07-D-50-15,GNT-D-50-Ralla-Machavaram,Kamepalli,384,2,621.6,16,,,,,0.0001,0.0001,0.0001,0.0001
+719,07-D-50-15,GNT-D-50-Ralla-Machavaram,Peda agraharam,160,0,218,0,,,,,0.0001,0.0001,0.0001,0.0001
+720,07-D-50-15,GNT-D-50-Ralla-Machavaram,Karalapadu,530.8,0,728,0,,,,,0.0001,0.0001,0.0001,0.0001
+721,07-D-50-15,GNT-D-50-Ralla-Machavaram,China Agraharam,150,0,118.4,0,,,,,0.0001,0.0001,0.0001,0.0001
+722,07-D-50-13,GNT-D-50- Voppi-Voppicherla,Pedakodamagundla,256,5,864,42,,,,,0.0001,0.0001,0.0001,0.0001
+723,07-D-50-13,GNT-D-50- Voppi-Voppicherla,Voppicherla,199,0,522,23,,,,,0.0001,0.0001,0.0001,0.0001
+724,07-D-50-13,GNT-D-50- Voppi-Voppicherla,Kakirala hill & forest,0,0.001,0,0,,,,,0.0001,0.0001,0.0001,0.0001

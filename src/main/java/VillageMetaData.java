@@ -20,7 +20,7 @@ public class VillageMetaData {
 
 		String filePath = path+districtName+"/";
 
-		String assesssment_year = Constants.GEC_ASSESSMENT_YEAR;
+		String assesssment_year = Constants.GEC_ASSESSMENT_YEAR.split("_")[0];
 		/**
 		 * Output files
 		 */
@@ -38,6 +38,7 @@ public class VillageMetaData {
         String populationfile = filePath+"population.csv";
         String gw_rf_file = filePath+"rf_gw_data.csv";
         String cropDataFile = filePath+"applied_irrigation.csv";
+        String sw_irr_file = filePath+"sw_irr.csv";
 
         
         /**
@@ -503,6 +504,9 @@ public class VillageMetaData {
                 			   //TODO : later change to BW: 3 : 0
 //                			   double growthRate = (well == "BWs")?3.0:0.0;
                 			   double growthRate = (well.equals("DW+PS/DCB") || well.equals("DW"))?0.0:3.0;
+                			   
+//                			   //TODO : must change
+//                			   growthRate = 0.0;
                 			   double pumpingHours = Constants.PUMPING_HOURS;
                 			   int count = 0;
                 			   int referenceYear = 2008;
@@ -2052,39 +2056,39 @@ public class VillageMetaData {
         		cropInfo.get(Constants.MI_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("ab")]));
         		
         		
-        		//--------------------------------Surface Irr
-        		//------------Command
-        		//Paddy
-        		//monsoon//non-monsoon
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ac")]));
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("ad")]));
-        		
-        		//Non-paddy
-        		//monsoon//non-monsoon
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ae")]));
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("af")]));
-        		
-        		//----------------Non-command	
-        		//Paddy
-        		//monsoon//non-monsoon
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ag")]));
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("ah")]));
-        		
-        		//Non-paddy
-        		//monsoon//non-monsoon
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ai")]));
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("aj")]));
-        		
-        		//----------------Poor-Quality	
-        		//Paddy
-        		//monsoon//non-monsoon
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ak")]));
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("al")]));
-        		
-        		//Non-paddy
-        		//monsoon//non-monsoon
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("am")]));
-        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("an")]));
+//        		//--------------------------------Surface Irr
+//        		//------------Command
+//        		//Paddy
+//        		//monsoon//non-monsoon
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ac")]));
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("ad")]));
+//        		
+//        		//Non-paddy
+//        		//monsoon//non-monsoon
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ae")]));
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("af")]));
+//        		
+//        		//----------------Non-command	
+//        		//Paddy
+//        		//monsoon//non-monsoon
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ag")]));
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("ah")]));
+//        		
+//        		//Non-paddy
+//        		//monsoon//non-monsoon
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ai")]));
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("aj")]));
+//        		
+//        		//----------------Poor-Quality	
+//        		//Paddy
+//        		//monsoon//non-monsoon
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("ak")]));
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("al")]));
+//        		
+//        		//Non-paddy
+//        		//monsoon//non-monsoon
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("am")]));
+//        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("an")]));
         		
         		village_details.get(locmapping.get(MicroBasin_GWvillage_key)).crop_info = cropInfo;
         	}
@@ -2093,6 +2097,84 @@ public class VillageMetaData {
         } catch (IOException e) {
         	e.printStackTrace();
         }
+		
+		try(BufferedReader iem = new BufferedReader(new FileReader(sw_irr_file))) {
+            
+            record = iem.readLine();
+            Map<String, Integer> keyRepetition = new HashMap<String, Integer>();
+            while((record = iem.readLine()) != null) {
+                String fields[] = record.split(",",-1);
+                String basinName = format.removeQuotes(fields[format.convert("c")]);
+                String villageName = format.removeQuotes(fields[format.convert("d")]);
+            	String MicroBasin_GWvillage_key = basinName + "##" + villageName;
+         	   	double stored;
+         	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
+                	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
+                	keyRepetition.put(MicroBasin_GWvillage_key, times);
+                	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
+                }else
+                	keyRepetition.put(MicroBasin_GWvillage_key, 0);
+         	   	
+        		if(locmapping.get(MicroBasin_GWvillage_key) == null) {
+        			System.out.println("Crop Information : location not found "+MicroBasin_GWvillage_key);
+        			continue;
+        		}
+        		
+        		Map<String, Map<String, Map<String, Map<String, CropData>>>> cropInfo = village_details.get(locmapping.get(MicroBasin_GWvillage_key)).crop_info;
+        		if(cropInfo == null)	continue;
+        	
+        		//--------------------------------Surface Irr
+        		//------------Command
+        		//Paddy
+        		//monsoon//non-monsoon
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().get(Constants.MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, stored + Utils.parseDouble(fields[format.convert("e")]));
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().get(Constants.NON_MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("f")]));
+        		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().get(Constants.MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("g")]));
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().get(Constants.NON_MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("h")]));
+        		
+        		//----------------Non-command	
+        		//Paddy
+        		//monsoon//non-monsoon
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().get(Constants.MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("i")]));
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().get(Constants.NON_MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("j")]));
+        		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().get(Constants.MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("k")]));
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().get(Constants.NON_MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.NON_COMMAND).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("l")]));
+        		
+        		//----------------Poor-Quality	
+        		//Paddy
+        		//monsoon//non-monsoon
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().get(Constants.MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("m")]));
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().get(Constants.NON_MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("n")]));
+        		
+        		//Non-paddy
+        		//monsoon//non-monsoon
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().get(Constants.MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
+        		stored = Utils.validateValue(cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().get(Constants.NON_MONSOON));
+        		cropInfo.get(Constants.SURFACE_WATER_IRRIGATION).get(Constants.POOR_QUALITY).get(Constants.NON_PADDY).get("A").getCropArea().put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
+        		
+        		village_details.get(locmapping.get(MicroBasin_GWvillage_key)).crop_info = cropInfo;
+            }
+		}catch (Exception e) {
+			System.out.println("VIllageMetaData : Some exception happened while asssigning SURFACE WATER IRRIGATION");
+			e.printStackTrace();
+		}
         
         
         // json for gw and rainfall

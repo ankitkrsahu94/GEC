@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Constants {
-	public static final String GEC_ASSESSMENT_YEAR = "2017-2018";
+	public static final String GEC_ASSESSMENT_YEAR = "2012-2013";
 	public static final int PARENT_ID = 1;
 	public static final int LOC_TYPE_VILLAGE = 10;
 	public static final int LOC_TYPE_MB = 25;

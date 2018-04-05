@@ -13,6 +13,10 @@ public class Utils {
 		
 	}
 	
+	static double validateValue(Double d){
+		return (d==null)?0.0:d;
+	}
+	
 	static int parseInt(String s){
 		Long val = Math.round(parseDouble(s));
 	

@@ -1,0 +1,484 @@
+,,,,Irrigated with surface water,,,,,,,,,,,
+S.No,Watershed code,Watershed Name,Village Name,command area,,,,Non command area,,,,Poor GW quality area,,,
+,,,,Paddy,,Non-paddy,,Paddy,,Non-paddy,,Paddy,,Non-paddy,
+,,,,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi
+1,08_C_58_47,PKM_C_G&M_Kothapatnam,Aluru,24,24,,,,,,,0.0001,0.0001,0.0001,0.0001
+2,08_C_58_47,PKM_C_G&M_Kothapatnam,Padarthi,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+3,08_C_58_47,PKM_C_G&M_Kothapatnam,Kothapatnam ,,113,,,,,,,0.0001,0.0001,0.0001,0.0001
+4,08_C_58_47,PKM_C_G&M_Kothapatnam,Rajupalem,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+5,08_C_58_47,PKM_C_G&M_Kothapatnam,P.kandrika,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+6,08_C_58_47,PKM_C_G&M_Kothapatnam,Ethamukkala,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+7,08_C_58_47,PKM_C_G&M_Kothapatnam,Madanuru,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+8,08_C_56_17,PKM_C_Romperu_Ballikurava,Vemavaram,36,0,0,0,,,,,,,,
+9,08_C_56_17,PKM_C_Romperu_Ballikurava,Konidena,304,113,,,,,,,,,,
+10,08_C_56_17,PKM_C_Romperu_Ballikurava,Ballikurava ,61,66,,,,,,,,,,
+11,08_C_56_17,PKM_C_Romperu_Ballikurava,Chennupalli,305,486,,,,,,,,,,
+12,08_C_56_17,PKM_C_Romperu_Ballikurava,Muktheswaram,360,220,,,,,,,,,,
+13,08_C_56_17,PKM_C_Romperu_Ballikurava,Guntupalli,119,0,,,,,,,,,,
+14,08_C_56_17,PKM_C_Romperu_Ballikurava,Vallapalli,313,42,,,,,,,,,,
+15,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Garlapadu,0,14,0,0,,,,,,,,
+16,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Gadiyapudi,0,0,0,0,,,,,,,,
+17,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Mallavaram,0,12,0,0,,,,,,,,
+18,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Venkateswarapuram,0,0,0,0,,,,,,,,
+19,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Doddavaram ,0,0,0,0,,,,,,,,
+20,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Nelaturu,0,0,0,0,,,,,,,,
+21,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Maddipadu ,0,0,0,0,,,,,,,,
+22,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Lingamguntla,0,0,0,0,,,,,,,,
+23,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Ilapavuluru,74,93,0,0,,,,,,,,
+24,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Rangasaipuram,0,32,0,0,,,,,,,,
+25,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Pallamalli,10,2,0,0,,,,,,,,
+26,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Nekunambad,12,128,0,0,,,,,2,20,,
+27,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Chandrapadu,0,0,0,0,,,,,,,,
+28,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,T.Gudipadu,0,0,0,0,,,,,,,,
+29,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Bandlamudi,0,0,0,0,,,,,,,,
+30,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,P. Naidupalem,0,0,0,0,,,,,,,,
+31,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Cheemakurthy,0,0,0,0,,,,,,,,
+32,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,K.Agraharam,0,0,0,0,,,,,,,,
+33,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Yerragudipadu,0,0,0,0,,,,,,,,
+34,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Manchikalapadu,0,0,0,0,,,,,,,,
+35,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Lakshmipuram,0,0,0,0,,,,,,,,
+36,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Rudravaram,0,0,0,0,,,,,,,,
+37,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Guravareddipalem,0,0,0,0,,,,,,,,
+38,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Minampadu,0,0,0,0,,,,,,,,
+39,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Endluru,0,0,0,0,,,,,,,,
+40,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Pernamitta,0,0,0,0,,,,,,,,
+41,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,S.N.Padu (Gangavaram),0,0,0,0,,,,,,,,
+42,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Throvagunta,0,0,0,0,,,,,,,,
+43,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Devarampadu,0,0,0,0,,,,,,,,
+44,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Gudimendlapadu,0,0,0,0,,,,,,,,
+45,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Mukthinuthalapadu,60,42,0,0,,,,,,,,
+46,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Vellampalli,0,0,0,0,,,,,,,,
+47,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Kolachinakota,0,348,0,0,,,,,,,,
+48,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Seetharampuram,0,0,0,0,,,,,,,,
+49,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Nandipadu,0,0,0,0,,,,,,,,
+50,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Inamanamellur,0,0,0,0,,,,,,,,
+51,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Doddavarappadu,0,0,0,0,,,,,,,,
+52,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Peddakothapalli,0,22,0,0,,,,,,,,
+53,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Yedugundlapadu,0,4,0,0,,,,,,,,
+54,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,P.Gudipadu,0,0,0,0,,,,,,,,
+55,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Karavadi ,0,46,0,0,,,,,,,,
+56,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Ulichi,0,0,0,0,,,,,,,,
+57,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Chejerla,0,0,0,0,,,,,,,,
+58,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Maddiralapadu,12,48,0,0,,,,,,,,
+59,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Chekurapadu,12,63,0,0,,,,,,,,
+60,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Devarapalem,80,120,0,0,,,,,1,,,2
+61,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Nippatlapadu,104,200,0,0,,,,,,,,
+62,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Budavada,0,0,0,0,,,,,,,,
+63,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,R.L.Puram,0,12,0,0,,,,,,,,
+64,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Mylavaram,0,0,0,0,,,,,,,,
+65,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Pulikonda,0,96,0,0,,,,,,,,
+66,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Ravipadu,0,0,0,0,,,,,,,,
+67,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Busarlapalli,0,0,0,0,,,,,,,,
+68,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,G.Lakshmipuram,0,0,0,0,,,,,,,,
+69,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Ramachandrapuram,0,0,0,0,,,,,,,,
+70,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Pidathalapudi,0,0,0,0,,,,,,,,
+71,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Gonuguntla,85,0,0,0,,,,,,,,
+72,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Tripurasundaripuram,0,165,0,0,,,,,,,,
+73,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,China Uyyalavada,0,138,0,0,,,,,,,,
+74,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Gummalampadu,1,10,0,0,,,,,,,,
+75,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Enikapadu,0,28,0,0,,,,,,,,
+76,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,B.Machavaram(Madduluru),0,0,0,0,,,,,,,,
+77,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Mattipadu(Vemulapadu),0,0,0,0,,,,,,,,
+78,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Chilakapadu,0,0,0,0,,,,,,,,
+79,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,P.Takkellapadu,0,0,0,0,,,,,,,,
+80,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Konaganivaripalem,0,0,0,0,,,,,,,,
+81,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,S.N.Puram,10,206,0,0,,,,,,,,
+82,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Boddikurapadu,63,1164,0,0,,,,,,,,
+83,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Surayapalem,3,118,0,0,,,,,,,,
+84,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Karumanchi,0,0,0,0,,,,,,,,
+85,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Nidamaluru,0,0,0,0,,,,,,,,
+86,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Ponduru,0,0,0,0,,,,,,,,
+87,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Turpu Naidupalem,2,2,0,0,,,,,,,,
+88,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,G.kattubadi,25,4,0,0,,,,,,,,
+89,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Mallavarappadu,31,40,0,0,,,,,,,,
+90,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Kanduluru,0,0,0,0,,,,,,,,
+91,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Marlapadu,0,0,0,0,,,,,,,,
+92,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Konijedu,12,27,0,0,,,,,,,,
+93,08_C_58_47,PKM_C_G&M_Kothapatnam,Aluru,24,24,,,,,,,0.0001,0.0001,0.0001,0.0001
+94,08_C_58_47,PKM_C_G&M_Kothapatnam,Padarthi,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+95,08_C_58_47,PKM_C_G&M_Kothapatnam,Kothapatnam ,,113,,,,,,,0.0001,0.0001,0.0001,0.0001
+96,08_C_58_47,PKM_C_G&M_Kothapatnam,Rajupalem,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+97,08_C_58_47,PKM_C_G&M_Kothapatnam,P.kandrika,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+98,08_C_58_47,PKM_C_G&M_Kothapatnam,Ethamukkala,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+99,08_C_58_47,PKM_C_G&M_Kothapatnam,Madanuru,,,,,,,,,0.0001,0.0001,0.0001,0.0001
+100,08_C_56_17,PKM_C_Romperu_Ballikurava,Vemavaram,36,0,0,0,,,,,,,,
+101,08_C_56_17,PKM_C_Romperu_Ballikurava,Konidena,304,113,,,,,,,,,,
+102,08_C_56_17,PKM_C_Romperu_Ballikurava,Ballikurava ,61,66,,,,,,,,,,
+103,08_C_56_17,PKM_C_Romperu_Ballikurava,Chennupalli,305,486,,,,,,,,,,
+104,08_C_56_17,PKM_C_Romperu_Ballikurava,Muktheswaram,360,220,,,,,,,,,,
+105,08_C_56_17,PKM_C_Romperu_Ballikurava,Guntupalli,119,0,,,,,,,,,,
+106,08_C_56_17,PKM_C_Romperu_Ballikurava,Vallapalli,313,42,,,,,,,,,,
+107,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Garlapadu,0,14,0,0,,,,,,,,
+108,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Gadiyapudi,0,0,0,0,,,,,,,,
+109,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Mallavaram,0,12,0,0,,,,,,,,
+110,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Venkateswarapuram,0,0,0,0,,,,,,,,
+111,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Doddavaram ,0,0,0,0,,,,,,,,
+112,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Nelaturu,0,0,0,0,,,,,,,,
+113,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Maddipadu ,0,0,0,0,,,,,,,,
+114,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Lingamguntla,0,0,0,0,,,,,,,,
+115,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Ilapavuluru,74,93,0,0,,,,,,,,
+116,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Rangasaipuram,0,32,0,0,,,,,,,,
+117,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Pallamalli,10,2,0,0,,,,,,,,
+118,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Nekunambad,12,128,0,0,,,,,2,20,,
+119,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Chandrapadu,0,0,0,0,,,,,,,,
+120,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,T.Gudipadu,0,0,0,0,,,,,,,,
+121,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Bandlamudi,0,0,0,0,,,,,,,,
+122,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,P. Naidupalem,0,0,0,0,,,,,,,,
+123,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Cheemakurthy,0,0,0,0,,,,,,,,
+124,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,K.Agraharam,0,0,0,0,,,,,,,,
+125,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Yerragudipadu,0,0,0,0,,,,,,,,
+126,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Manchikalapadu,0,0,0,0,,,,,,,,
+127,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Lakshmipuram,0,0,0,0,,,,,,,,
+128,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Rudravaram,0,0,0,0,,,,,,,,
+129,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Guravareddipalem,0,0,0,0,,,,,,,,
+130,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Minampadu,0,0,0,0,,,,,,,,
+131,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Endluru,0,0,0,0,,,,,,,,
+132,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Pernamitta,0,0,0,0,,,,,,,,
+133,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,S.N.Padu (Gangavaram),0,0,0,0,,,,,,,,
+134,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Throvagunta,0,0,0,0,,,,,,,,
+135,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Devarampadu,0,0,0,0,,,,,,,,
+136,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Gudimendlapadu,0,0,0,0,,,,,,,,
+137,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Mukthinuthalapadu,60,42,0,0,,,,,,,,
+138,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Vellampalli,0,0,0,0,,,,,,,,
+139,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Kolachinakota,0,348,0,0,,,,,,,,
+140,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Seetharampuram,0,0,0,0,,,,,,,,
+141,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Nandipadu,0,0,0,0,,,,,,,,
+142,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Inamanamellur,0,0,0,0,,,,,,,,
+143,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Doddavarappadu,0,0,0,0,,,,,,,,
+144,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Peddakothapalli,0,22,0,0,,,,,,,,
+145,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Yedugundlapadu,0,4,0,0,,,,,,,,
+146,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,P.Gudipadu,0,0,0,0,,,,,,,,
+147,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Karavadi ,0,46,0,0,,,,,,,,
+148,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Ulichi,0,0,0,0,,,,,,,,
+149,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Chejerla,0,0,0,0,,,,,,,,
+150,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Maddiralapadu,12,48,0,0,,,,,,,,
+151,08-c-58-29,PKM-C-G&M-CHEEMAKUTHY,Chekurapadu,12,63,0,0,,,,,,,,
+152,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Devarapalem,80,120,0,0,,,,,1,,,2
+153,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Nippatlapadu,104,200,0,0,,,,,,,,
+154,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Budavada,0,0,0,0,,,,,,,,
+155,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,R.L.Puram,0,12,0,0,,,,,,,,
+156,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Mylavaram,0,0,0,0,,,,,,,,
+157,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Pulikonda,0,96,0,0,,,,,,,,
+158,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Ravipadu,0,0,0,0,,,,,,,,
+159,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Busarlapalli,0,0,0,0,,,,,,,,
+160,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,G.Lakshmipuram,0,0,0,0,,,,,,,,
+161,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Ramachandrapuram,0,0,0,0,,,,,,,,
+162,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Pidathalapudi,0,0,0,0,,,,,,,,
+163,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Gonuguntla,85,0,0,0,,,,,,,,
+164,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Tripurasundaripuram,0,165,0,0,,,,,,,,
+165,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,China Uyyalavada,0,138,0,0,,,,,,,,
+166,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Gummalampadu,1,10,0,0,,,,,,,,
+167,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Enikapadu,0,28,0,0,,,,,,,,
+168,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,B.Machavaram(Madduluru),0,0,0,0,,,,,,,,
+169,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Mattipadu(Vemulapadu),0,0,0,0,,,,,,,,
+170,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Chilakapadu,0,0,0,0,,,,,,,,
+171,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,P.Takkellapadu,0,0,0,0,,,,,,,,
+172,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Konaganivaripalem,0,0,0,0,,,,,,,,
+173,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,S.N.Puram,10,206,0,0,,,,,,,,
+174,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Boddikurapadu,63,1164,0,0,,,,,,,,
+175,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Surayapalem,3,118,0,0,,,,,,,,
+176,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Karumanchi,0,0,0,0,,,,,,,,
+177,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Nidamaluru,0,0,0,0,,,,,,,,
+178,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Ponduru,0,0,0,0,,,,,,,,
+179,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Turpu Naidupalem,2,2,0,0,,,,,,,,
+180,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,G.kattubadi,25,4,0,0,,,,,,,,
+181,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Mallavarappadu,31,40,0,0,,,,,,,,
+182,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Kanduluru,0,0,0,0,,,,,,,,
+183,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Marlapadu,0,0,0,0,,,,,,,,
+184,08-C-59-14(43),PKM-C-MUSI-CHILAKAPADU,Konijedu,12,27,0,0,,,,,,,,
+185,08-C-56-22,PKM-c-Romperu-Karamchedu,Kunkalamarru,1,,,1,,,,,1093,494,0,0
+186,08-C-56-22,PKM-c-Romperu-Karamchedu,Karamchedu,,,,,,,,,950,787,0,0
+187,08-C-56-22,PKM-c-Romperu-Karamchedu,Audipudi,,,,,,,,,0,0,4,0
+188,08-C-56-22,PKM-c-Romperu-Karamchedu,Daggupadu,,,,,,,,,0,1,60,28
+189,08-C-56-22,PKM-c-Romperu-Karamchedu,Kesavarappadu,,,,,,,,,5,0,0,0
+190,08-C-56-22,PKM-c-Romperu-Karamchedu,Swarna,,,,,,,,,745,1318,0,14
+191,08-C-56-22,PKM-c-Romperu-Karamchedu,Kodavalivaripalem,,,,,,,,,70,796,0,3
+192,08_C_57_3,PKM_C_GKM_Tripuranthakam,Duvvali,0,0,0,0,,,,,0,0,0,0
+193,08_C_57_3,PKM_C_GKM_Tripuranthakam,Madhavanipalle,0,0,0,0,,,,,0,0,0,0
+194,08_C_57_3,PKM_C_GKM_Tripuranthakam,Ramasamudram,0,0,0,0,,,,,0,0,0,0
+195,08_C_57_3,PKM_C_GKM_Tripuranthakam,Mittapalem,0,0,0,0,,,,,0,0,0,0
+196,08_C_57_3,PKM_C_GKM_Tripuranthakam,Kankanalapalli,9,18,35,40,,,,,0,0,0,0
+197,08_C_57_3,PKM_C_GKM_Tripuranthakam,Tripurantakam ,500,320,0,0,,,,,0,0,0,0
+198,08_C_57_3,PKM_C_GKM_Tripuranthakam,Rajupalem,782,38,0,0,,,,,0,0,0,0
+199,08_C_57_3,PKM_C_GKM_Tripuranthakam,Lellapalli,0,0,0,0,,,,,0,0,0,0
+200,08_C_57_3,PKM_C_GKM_Tripuranthakam,Viswanathapuram,657,342,0,0,,,,,0,0,0,0
+201,08_C_57_3,PKM_C_GKM_Tripuranthakam,S.Narasingapuram,240,280,0,0,,,,,0,0,0,0
+202,08_C_57_3,PKM_C_GKM_Tripuranthakam,Miriyampalli,0,0,0,0,,,,,0,0,0,0
+203,08_C_57_3,PKM_C_GKM_Tripuranthakam,RF,,,,,,,,,0,0,0,0
+204,08_C_57_4,PKM_C_GKM_Tripuranthakam,Gollapalli,405,165,0,0,,,,,,,,
+205,08_C_57_5,PKM_C_GKM_Tripuranthakam,Dupadu,139,250,0,0,,,,,,,,
+206,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Garapenta(RF),0,0,0,0,,,,,0,0,0,0
+207,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Uppaladinne(RF),0,0,0,0,,,,,0,0,0,0
+208,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Chowtapalli,4,2,22,16,,,,,0,0,0,0
+209,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Pullalacheruvu,10,4,75,179,,,,,0,0,0,0
+210,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Manepalli,240,90,0,0,,,,,0,0,0,0
+211,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Ayyagaripalli,50,6,0,0,,,,,0,0,0,0
+212,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Chotapacherla,84,8,0,0,,,,,0,0,0,0
+213,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,I.T.Varam,400,9,0,0,,,,,0,0,0,0
+214,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Ganapavaram,305,98,0,0,,,,,0,0,0,0
+215,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Medapi,1200,420,0,0,,,,,0,0,0,0
+216,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,Annasamudram,0,0,138,1447,,,,,0,0,0,0
+217,08-C-57-02,PKM-C-GKM-PULLALACHERUVU,R.F,360,246,0,0,,,,,0,0,0,0
+218,08_C_58_24,PKM_C_Romperu_Vetapalem ,Vetapalem ,40,372,0,0,,,,,,,,
+219,08_C_58_24,PKM_C_Romperu_Vetapalem ,Pandillapalli,10,240,0,0,,,,,,,,
+220,08_C_58_24,PKM_C_Romperu_Vetapalem ,Pullaripalem,0,0,0,0,,,,,,,,
+221,08_C_58_24,PKM_C_Romperu_Vetapalem ,Nayunipalli,0,0,0,0,,,,,,,,
+222,08_C_58_24,PKM_C_Romperu_Vetapalem ,Kothapeta,0,0,0,0,,,,,,,,
+223,08_C_57_04,PKM_C_GKM_Kurichedu,P.Veerayapalem,266,373,0,0,,,,,0,0,0,0
+224,08_C_57_04,PKM_C_GKM_Kurichedu,Bayyavaram,12,124,0,0,,,,,0,0,0,0
+225,08_C_57_04,PKM_C_GKM_Kurichedu,Kurichedu,0,31,0,10,,,,,0,0,0,0
+226,08_C_57_04,PKM_C_GKM_Kurichedu,Namassivayapuram,0,0,0,0,,,,,0,0,0,0
+227,08_C_57_04,PKM_C_GKM_Kurichedu,Mallayapalem,0,0,0,0,,,,,0,0,0,0
+228,08_C_57_04,PKM_C_GKM_Kurichedu,Peerambotlapalem,0,0,0,0,,,,,0,0,0,0
+229,08_C_57_04,PKM_C_GKM_Kurichedu,Peddavaram,0,0,0,0,,,,,0,0,0,0
+230,08_C_57_04,PKM_C_GKM_Kurichedu,Dekanakonda,0,0,0,0,,,,,0,0,0,0
+231,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Santaravuru ,28,998,0,78,,,,,,,,
+232,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Nagandla,10,293,0,281,,,,,,,,
+233,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Idupulapadu,0,16,0,368,,,,,22,,0,8
+234,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Pusapadu,0,20,0,635,,,,,,,,
+235,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Pavuluru  ,34,27,0,522,,,,,,,,
+236,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Inkollu    ,3,17,0,609,,,,,,,,
+237,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Bheemavaram,0,0,0,20,,,,,,,,
+238,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Dronadula,92,1012,0,343,,,,,,,,
+239,08_C_56_25,PKM_C_ROMPERU_INKOLLU,KOLALAPUDI,74,911,0,34,,,,,,,,
+240,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Timmasamudram,417,799,0,0,,,,,,,,
+241,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Nuthalapadu,0,0,0,132,,,,,,,,
+242,08_C_56_25,PKM_C_ROMPERU_INKOLLU,Punuru,15,120,18,291,,,,,,,,
+243,08_C_57_13,PKM_C_GKM_Darsi,Darsi,466,1174,0,0,,,,,0,0,0,0
+244,08_C_57_13,PKM_C_GKM_Darsi,T.choutapalem,81,113,,,,,,,0,0,0,0
+245,08_C_57_13,PKM_C_GKM_Darsi,E.Veerayapalem,194,384,0,0,,,,,0,0,0,0
+246,08_C_57_13,PKM_C_GKM_Darsi,Mohiddinpuram,0,363,0,0,,,,,0,0,0,0
+247,08_C_57_13,PKM_C_GKM_Darsi,Cheruvukommupalem,28,316,0,0,,,,,0,0,0,0
+248,08_C_57_13,PKM_C_GKM_Darsi,Seetasagar,0,0,0,0,,,,,0,0,0,0
+249,08_C_57_13,PKM_C_GKM_Darsi,POTHAKAMURU,243,573,0,0,,,,,0,0,0,0
+250,08_C_57_13,PKM_C_GKM_Darsi,Samanthapudi,0,1093,,0,,,,,0,0,0,0
+251,08_C_57_13,PKM_C_GKM_Darsi,Akkamambapuram,6,106,0,0,,,,,0,0,0,0
+252,08_C_57_13,PKM_C_GKM_Darsi,Brundavanam,160,201,0,0,,,,,0,0,0,0
+253,08_C_57_13,PKM_C_GKM_Darsi,Pulipadu,141,217,0,0,,,,,0,0,0,0
+254,08_C_57_13,PKM_C_GKM_Darsi,Singanapalem,0,0,0,0,,,,,0,0,0,0
+255,08_C_57_13,PKM_C_GKM_Darsi,Dosakayalapadu,0,18,,,,,,,0,0,0,0
+256,08_C_57_13,PKM_C_GKM_Darsi,Mannepalli,0,250,0,0,,,,,0,0,0,0
+257,08_C_57_13,PKM_C_GKM_Darsi,Vittalapuram,0,4,0,0,,,,,0,0,0,0
+258,08_C_57_13,PKM_C_GKM_Darsi,TALLURU,10,281,0,0,,,,,0,0,0,0
+259,08_C_57_13,PKM_C_GKM_Darsi,Madhava varam,0,101,0,0,,,,,0,0,0,0
+260,08_C_57_13,PKM_C_GKM_Darsi,Ramabhadrapuram,0,0,20,0,,,,,0,0,0,0
+261,08_C_57_13,PKM_C_GKM_Darsi,Bellamkondavaripalem,26,230,0,0,,,,,0,0,0,0
+262,08_C_57_13,PKM_C_GKM_Darsi,Sarvamitta,0,0,1,0,,,,,0,0,0,0
+263,08_C_57_13,PKM_C_GKM_Darsi,Lakkavaram,15,369,0,0,,,,,0,0,0,0
+264,08_C_57_13,PKM_C_GKM_Darsi,Nagambotlapalem,30,532,0,0,,,,,0,0,0,0
+265,08_C_57_13,PKM_C_GKM_Darsi,Somavarappadu,0,243,113,0,,,,,0,0,0,0
+266,08_C_57_13,PKM_C_GKM_Darsi,Siva ramapuram,0,306,75,0,,,,,0,0,0,0
+267,08_C_57_13,PKM_C_GKM_Darsi,Denuvukonda,40,0,0,0,,,,,0,0,0,0
+268,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Kopparapalem,180,223,0,0,,,,,0,0,0,0
+269,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Vellalacheruvu,306,20,81,0,,,,,0,0,0,0
+270,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Gopapuram Agraharam,81,225,2,0,,,,,0,0,0,0
+271,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Kamepalli,287,93,61,0,,,,,0,0,0,0
+272,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Santhamaguluru ,159,184,121,0,,,,,0,0,0,0
+273,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Tangedumalli,34,0,81,0,,,,,0,0,0,0
+274,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Gurizepalli,16,0,20,0,,,,,0,0,0,0
+275,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Kopparam,345,391,178,0,,,,,0,0,0,0
+276,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Elchuru,577,420,4,0,,,,,0,0,0,0
+277,08_C_55_18,PKM_C_Ogeru_S.Maguluru,Kommalapadu,244,61,110,0,,,,,0,0,0,0
+278,08-c-57-44,PKM-C-GKM-ONGOLE,Mangamuru,0,0,0,0,,,,,1,,,2
+279,08-c-57-44,PKM-C-GKM-ONGOLE,Koppolu,224,196,0,0,,,,,,,,
+280,08-c-57-44,PKM-C-GKM-ONGOLE,Ongole,0,0,0,0,,,,,,,,
+281,08-c-57-44,PKM-C-GKM-ONGOLE,Kothamamidipalem,0,0,0,0,,,,,,,,
+282,08-c-57-44,PKM-C-GKM-ONGOLE,Vengamukkapalem,0,0,0,0,,,,,,,,
+283,08-c-57-44,PKM-C-GKM-ONGOLE,Sarvareddypalem,0,0,0,0,,,,,,,,
+284,08-c-57-44,PKM-C-GKM-ONGOLE,Yerrajerla,0,0,0,0,,,,,,,,
+285,08-c-57-44,PKM-C-GKM-ONGOLE,Cheruvukommupalem,0,44,0,0,,,,,,,,
+286,08-c-57-44,PKM-C-GKM-ONGOLE,Mangaladripuram,0,33,0,0,,,,,,,,
+287,08-c-57-44,PKM-C-GKM-ONGOLE,Pelluru,51,1059,0,0,,,,,,,,
+288,08-c-57-44,PKM-C-GKM-ONGOLE,Narasapuram,30,24,0,0,,,,,,,,
+289,08-c-57-44,PKM-C-GKM-ONGOLE,Malleswarapuram ,0,0,0,0,,,,,,,,
+290,08-c-57-44,PKM-C-GKM-ONGOLE,Valluru,0,,0,0,,,,,,,,
+291,08-c-57-44,PKM-C-GKM-ONGOLE,Somavarappadu,0,,0,0,,,,,,,,
+292,08-c-57-44,PKM-C-GKM-ONGOLE,Valluru kavali manyam,0,,0,0,,,,,,,,
+293,08-c-57-44,PKM-C-GKM-ONGOLE,Vasepallipadu,,,,,,,,,,,,
+294,08_C_58_23,PKM_C_Romperu_Chirala,Vada,0,1103,0,0,,,,,0,0,0,0
+295,08_C_58_23,PKM_C_Romperu_Chirala,Ipurupalem,129,1406,21,28,,,,,0,0,0,0
+296,08_C_58_23,PKM_C_Romperu_Chirala,Perala,0,552,0,0,,,,,0,0,0,0
+297,08_C_58_23,PKM_C_Romperu_Chirala,CHIRALA ,0,1213,16,26,,,,,0,0,0,0
+298,08_C_58_23,PKM_C_Romperu_Chirala,Gavinivaripalem,330,935,12,28,,,,,0,0,0,0
+299,08_C_57_14,PKM_C_GKM_Mundlamuru,Tanamchintala,0,0,0,0,,,,,,,,
+300,08_C_57_14,PKM_C_GKM_Mundlamuru,Pothavaram,6,81,0,0,,,,,,,,
+301,08_C_57_14,PKM_C_GKM_Mundlamuru,Devavaram,4,239,0,0,,,,,,,,
+302,08_C_57_14,PKM_C_GKM_Mundlamuru,Thimmayapalem,4,97,0,0,,,,,,,,
+303,08_C_57_14,PKM_C_GKM_Mundlamuru,Vemula,321,766,0,0,,,,,,,,
+304,08_C_57_14,PKM_C_GKM_Mundlamuru,Vemulabanda,0,479,0,0,,,,,,,,
+305,08_C_57_14,PKM_C_GKM_Mundlamuru,Umamaheswarapuram,38,141,0,0,,,,,,,,
+306,08_C_57_14,PKM_C_GKM_Mundlamuru,Thammaluru,0,0,0,0,,,,,,,,
+307,08_C_57_14,PKM_C_GKM_Mundlamuru,Peddaravipadu,0,0,0,0,,,,,,,,
+308,08_C_57_14,PKM_C_GKM_Mundlamuru,N.V. Kandrika,21,115,0,0,,,,,,,,
+309,08_C_57_14,PKM_C_GKM_Mundlamuru,Chintalapudi,67,552,0,0,,,,,,,,
+310,08_C_57_14,PKM_C_GKM_Mundlamuru,Kellampalli,80,834,0,0,,,,,,,,
+311,08_C_57_14,PKM_C_GKM_Mundlamuru,Basavapuram,115,137,0,0,,,,,,,,
+312,08_C_57_14,PKM_C_GKM_Mundlamuru,Peddaullagallu,202,740,0,0,,,,,,,,
+313,08_C_57_14,PKM_C_GKM_Mundlamuru,Chinnaullagallu,101,259,0,0,,,,,,,,
+314,08_C_57_14,PKM_C_GKM_Mundlamuru,Pasupugallu,0,12,0,0,,,,,,,,
+315,08_C_57_14,PKM_C_GKM_Mundlamuru,Mundlamur ,0,0,0,0,,,,,,,,
+316,08_C_57_14,PKM_C_GKM_Mundlamuru,Vempadu,0,0,0,0,,,,,,,,
+317,08_C_57_14,PKM_C_GKM_Mundlamuru,Polavaram,0,16,0,0,,,,,,,,
+318,08_C_57_14,PKM_C_GKM_Mundlamuru,Sankarapuram,0,0,0,0,,,,,,,,
+319,08_C_57_14,PKM_C_GKM_Mundlamuru,Avisanavaripalem,0,0,0,0,,,,,,,,
+320,08_C_57_14,PKM_C_GKM_Mundlamuru,Malkapuram,20,28,0,0,,,,,,,,
+321,08_C_57_14,PKM_C_GKM_Mundlamuru,Kunkupadu,0,0,0,0,,,,,,,,
+322,08_C_57_14,PKM_C_GKM_Mundlamuru,Nannurupadu,0,0,0,0,,,,,,,,
+323,08_C_57_14,PKM_C_GKM_Mundlamuru,Modepalli,0,0,0,0,,,,,,,,
+324,08_C_57_01(14),PKM_C_GKM_Edara,Edara,355,666,0.01,0,,,,,0.01,0.01,0.01,0.01
+325,08_C_57_01(14),PKM_C_GKM_Edara,Bhimavaram,48,538,,,,,,,0,0,0,0
+326,08_C_57_01(14),PKM_C_GKM_Edara,Jammulamadaka,48,0,,,,,,,0,0,0,0
+327,08_C_57_01(14),PKM_C_GKM_Edara,Purimetla,0,17,,,,,,,0,0,0,0
+328,08_C_57_01(14),PKM_C_GKM_Edara,Kommavaram,47,450,,,,,,,0,0,0,0
+329,08_C_57_01(14),PKM_C_GKM_Edara,Marella,123,14,,,,,,,0,0,0,0
+330,08_C_57_01(14),PKM_C_GKM_Edara,Botlapalli,4,14,,,,,,,0,0,0,0
+331,08_C_57_01(14),PKM_C_GKM_Edara,Kambhampadu,10,60,,28,,,,,0,0,0,0
+332,08_C_57_01(14),PKM_C_GKM_Edara,Nujellapalli,8,17,,,,,,,0,0,0,0
+333,08_C_57_01(14),PKM_C_GKM_Edara,Ramayapalem,,,,,,,,,0,0,0,0
+334,08_C_57_01(14),PKM_C_GKM_Edara,Koticalapudi,,,,,,,,,0,0,0,0
+335,08-C-57-5(2),PKM-C-GKM-MARRIVEMULA,Chennapalem,0,0,0,0,,,,,0,0,0,0
+336,08-C-57-5(2),PKM-C-GKM-MARRIVEMULA,Sathakodu,0,0,0,0,,,,,0,0,0,0
+337,08-C-57-5(2),PKM-C-GKM-MARRIVEMULA,Marrivemula,0,0,0,0,,,,,0,0,0,0
+338,08-C-57-5(2),PKM-C-GKM-MARRIVEMULA,Mutukula,0,0,0,0,,,,,0,0,0,0
+339,08-C-57-5(2),PKM-C-GKM-MARRIVEMULA,Narasapuram,22,9,0,0,,,,,0,0,0,0
+340,08-C-57-5(2),PKM-C-GKM-MARRIVEMULA,RF,,,,,,,,,0,0,0,0
+341,08_C_59_05,PKM_C_Musi_Donakonda,Lankojipalli,,332,,,,,,,,,,
+342,08_C_59_05,PKM_C_Musi_Donakonda,Yerra Obanapalli,40,5,,,,,,,,,,
+343,08_C_59_05,PKM_C_Musi_Donakonda,Ramachandrapuram,61,245,,,,,,,,,,
+344,08_C_59_05,PKM_C_Musi_Donakonda,Rajampalli,121,482,,,,,,,,,,
+345,08_C_59_05,PKM_C_Musi_Donakonda,Annavaram,10,183,,,,,,,,,,
+346,08_C_59_05,PKM_C_Musi_Donakonda,Kottapalli,12,393,,,,,,,,,,
+347,08_C_59_05,PKM_C_Musi_Donakonda,Bandalapaya,,,,,,,,,,,,
+348,08_C_59_05,PKM_C_Musi_Donakonda,Abbayapalem,,,,,,,,,,,,
+349,08_C_59_05,PKM_C_Musi_Donakonda,Tummedalapadu,,,,,,,,,,,,
+350,08_C_59_05,PKM_C_Musi_Donakonda,Chandaluru,,,,,,,,,,,,
+351,08_C_59_05,PKM_C_Musi_Donakonda,Chalivendra,,,,,,,,,,,,
+352,08_C_59_05,PKM_C_Musi_Donakonda,Venkatachalampalli,,,,,,,,,,,,
+353,08_C_59_05,PKM_C_Musi_Donakonda,Balapuram,,,,,,,,,,,,
+354,08_C_59_05,PKM_C_Musi_Donakonda,Jammigumpala,,,,,,,,,,,,
+355,08_C_59_05,PKM_C_Musi_Donakonda,Bukkapuram,,,,,,,,,,,,
+356,08_C_59_05,PKM_C_Musi_Donakonda,BandiVeligandla,,,,,,,,,,,,
+357,08_C_59_05,PKM_C_Musi_Donakonda,Ganeswarapuram,,,,,,,,,,,,
+358,08_C_59_05,PKM_C_Musi_Donakonda,Venkatapuram,,,,,,,,,,,,
+359,08_C_59_05,PKM_C_Musi_Donakonda,Jamukaladinne,,,,,,,,,,,,
+360,08_C_59_05,PKM_C_Musi_Donakonda,Lakshmnarayanaipuram,,,,,,,,,,,,
+361,08_C_59_05,PKM_C_Musi_Donakonda,Korlamadugu,,,,,,,,,,,,
+362,08_C_59_05,PKM_C_Musi_Donakonda,Krishnapuram,,,,,,,,,,,,
+363,08_C_59_05,PKM_C_Musi_Donakonda,Peddauyyalawada,,,,,,,,,,,,
+364,08_C_59_05,PKM_C_Musi_Donakonda,DONAKONDA (Badapuram),,,,,,,,,,,,
+365,08_C_59_05,PKM_C_Musi_Donakonda,Veeravenkatapuram,,,,,,,,,,,,
+366,08_C_59_05,PKM_C_Musi_Donakonda,Yerrapalem,,,,,,,,,,,,
+367,08_C_59_05,PKM_C_Musi_Donakonda,Obbapuram,,,,,,,,,,,,
+368,08_C_59_05,PKM_C_Musi_Donakonda,Narasimhanayunipalli,,,,,,,,,,,,
+369,08_C_59_05,PKM_C_Musi_Donakonda,Indlacheruvu,,,,,,,,,,,,
+370,08_C_59_05,PKM_C_Musi_Donakonda,Ragamukkalapalli,,,,,,,,,,,,
+371,08_C_59_05,PKM_C_Musi_Donakonda,P.Venkatapuram,,,,,,,,,,,,
+372,08_C_59_05,PKM_C_Musi_Donakonda,L.N.Puram,,,,,,,,,,,,
+373,08_C_59_05,PKM_C_Musi_Donakonda,Peddammapalem,,,,,,,,,,,,
+374,08_C_59_05,PKM_C_Musi_Donakonda,Gudipadu,,,,,,,,,,,,
+375,08_C_59_05,PKM_C_Musi_Donakonda,Aravallipadu,,,,,,,,,,,,
+376,08_C_59_05,PKM_C_Musi_Donakonda,Vaddipadu,,,,,,,,,,,,
+377,08_C_59_05,PKM_C_Musi_Donakonda,Potlapadu,,,,,,,,,,,,
+378,08_C_59_05,PKM_C_Musi_Donakonda,Gangadonakonda,,,,,,,,,,,,
+379,08_C_59_05,PKM_C_Musi_Donakonda,PadamaraGangavaram,,,,,,,,,,,,
+380,08_C_59_05,PKM_C_Musi_Donakonda,Alavalapadu,,,,,,,,,,,,
+381,08_C_59_05,PKM_C_Musi_Donakonda,Bodanampadu,,,,,,,,,,,,
+382,08_C_57_10(18),PKM_C_GKM_Kunduru,Kunduru(W),219,733,20,0,,,,,0,,,
+383,08_C_57_10(18),PKM_C_GKM_Kunduru,Kunduru(E),206,345,23,0,,,,,0,,,
+384,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Battipadu,113,10,0,0,,,,,0,0,0,0
+385,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Chandavaram,122,85,0,0,,,,,0,0,0,0
+386,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Polepalli,19,13,0,0,,,,,0,0,0,0
+387,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Padamati laxmipuram,28,58,0,0,,,,,0,0,0,0
+388,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Ramapuram,,,,,,,,,0,0,0,0
+389,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Rudrasamudram,,,,,,,,,0,0,0,0
+390,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Bhumanapalli,,,,,,,,,0,0,0,0
+391,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Mallampet,,,,,,,,,0,0,0,0
+392,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,kocherlakota,0,0,0,0,,,,,0,0,0,0
+393,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Siddayapalem,0,0,0,0,,,,,0,0,0,0
+394,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Anantvaram,0,0,0,0,,,,,0,0,0,0
+395,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Manginapudi,0,0,0,0,,,,,0,0,0,0
+396,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Jagannadapuram,0,0,0,0,,,,,0,0,0,0
+397,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Kasipuram,0,0,0,0,,,,,0,0,0,0
+398,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,kalluru,0,0,0,0,,,,,0,0,0,0
+399,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Naidupalem,0,0,0,0,,,,,0,0,0,0
+400,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Avulamanda,0,0,0,0,,,,,0,0,0,0
+401,08_C_57_06(05),PKM-C-GKM-RUDRASAMUDRAM,Mustlagangavaram,0,0,0,0,,,,,0,0,0,0
+402,08_C_56_26,PKM_C_Romperu_J.Panguluru,Chinthagumpalli,0,157,0,0,,,,,1,0,0,2
+403,08_C_56_26,PKM_C_Romperu_J.Panguluru,Kadavakuduru,81,816,0,0,,,,,,0,0,0
+404,08_C_56_26,PKM_C_Romperu_J.Panguluru,Motupalli,20,0,0,0,,,,,,0,0,0
+405,08_C_56_26,PKM_C_Romperu_J.Panguluru,Gonasapudi,0,0,0,20,,,,,,0,0,0
+406,08_C_56_26,PKM_C_Romperu_J.Panguluru,Chinaganjam,12,1319,0,28,,,,,,0,0,0
+407,08_C_56_26,PKM_C_Romperu_J.Panguluru,Koniki,0,0,0,114,,,,,0,0,0,0
+408,08_C_56_26,PKM_C_Romperu_J.Panguluru,Duddukuru,0,0,0,29,,,,,0,0,0,0
+409,08_C_56_26,PKM_C_Romperu_J.Panguluru,Gangavaram,0,0,0,0,,,,,0,0,0,0
+410,08_C_56_26,PKM_C_Romperu_J.Panguluru,Kondamanjuluru,123,1000,0,0,,,,,0,0,0,0
+411,08_C_56_26,PKM_C_Romperu_J.Panguluru,Bayatamanjuluru,29,150,0,0,,,,,0,0,0,0
+412,08_C_56_26,PKM_C_Romperu_J.Panguluru,Muppavaram,5,130,0,0,,,,,0,0,0,0
+413,08_C_56_26,PKM_C_Romperu_J.Panguluru,Kondamuru,3,116,0,0,,,,,0,0,0,0
+414,08_C_56_26,PKM_C_Romperu_J.Panguluru,Kotapadu,31,455,0,0,,,,,0,0,0,0
+415,08_C_56_26,PKM_C_Romperu_J.Panguluru,Budavada,18,158,0,0,,,,,0,0,0,0
+416,08_C_56_26,PKM_C_Romperu_J.Panguluru,J.Pangulur,59,205,0,0,,,,,0,0,0,0
+417,08_C_56_26,PKM_C_Romperu_J.Panguluru,Renangivaram,0,20,0,0,,,,,0,0,0,0
+418,08_C_56_26,PKM_C_Romperu_J.Panguluru,Alavalapadu,2,0,0,0,,,,,0,0,0,0
+419,08_C_56_26,PKM_C_Romperu_J.Panguluru,Takkellapadu,0,0,0,0,,,,,0,0,0,0
+420,08_C_56_26,PKM_C_Romperu_J.Panguluru,Turpu Kopperapadu,0,0,0,0,,,,,0,0,0,0
+421,08_C_56_26,PKM_C_Romperu_J.Panguluru,Chandaluru,11,20,0,0,,,,,0,0,0,0
+422,08_C_56_26,PKM_C_Romperu_J.Panguluru,Nujellapalli,0,0,0,0,,,,,0,0,0,0
+423,08_C_56_26,PKM_C_Romperu_J.Panguluru,P.Gudipadu,0,44,0,0,,,,,0,0,0,0
+424,08_C_56_26,PKM_C_Romperu_J.Panguluru,Ravinuthala,0,0,0,0,,,,,0,0,0,0
+425,08_C_56_26,PKM_C_Romperu_J.Panguluru,Bollapalli,81,688,0,122,,,,,0,0,0,0
+426,08_C_56_26,PKM_C_Romperu_J.Panguluru,Edumudi,0,36,0,0,,,,,0,0,0,0
+427,08_C_56_26,PKM_C_Romperu_J.Panguluru,Maddirala Muppalla,0,0,0,0,,,,,0,0,0,0
+428,08_C_57_16,PKM_C_GKM_Addanki,Mylavaram,0,0,0,0,,,,,0,0,0,0
+429,08_C_57_16,PKM_C_GKM_Addanki,Upalapadu,0,101,0,0,,,,,0,0,0,0
+430,08_C_57_16,PKM_C_GKM_Addanki,Vemparala,40,41,0,0,,,,,0,0,0,0
+431,08_C_57_16,PKM_C_GKM_Addanki,China Kothapalli,286,587,0,0,,,,,0,0,0,0
+432,08_C_57_16,PKM_C_GKM_Addanki,Dharmavaram,444,318,0,0,,,,,0,0,0,0
+433,08_C_57_16,PKM_C_GKM_Addanki,Kalavakuru,428,325,0,0,,,,,0,0,0,0
+434,08_C_57_16,PKM_C_GKM_Addanki,Gopalapuram,22,0,0,0,,,,,0,0,0,0
+435,08_C_57_16,PKM_C_GKM_Addanki,Narasimhapuram,0,0,0,0,,,,,0,0,0,0
+436,08_C_57_16,PKM_C_GKM_Addanki,Bommanampadu,0,81,0,0,,,,,0,0,0,0
+437,08_C_57_16,PKM_C_GKM_Addanki,North Addanki,0,61,0,0,,,,,0,0,0,0
+438,08_C_57_16,PKM_C_GKM_Addanki,South Addanki,0,0,0,0,,,,,0,0,0,0
+439,08_C_57_16,PKM_C_GKM_Addanki,Manikeswaram,0,0,0,0,,,,,0,0,0,0
+440,08_C_57_16,PKM_C_GKM_Addanki,S.L.Gudipadu,204,0,0,0,,,,,0,0,0,0
+441,08_C_57_16,PKM_C_GKM_Addanki,Vaidana,429,391,0,0,,,,,0,0,0,0
+442,08_C_57_16,PKM_C_GKM_Addanki,Kukatlapalli,187,45,0,0,,,,,0,0,0,0
+443,08_C_57_16,PKM_C_GKM_Addanki,Gorrepadu,210,355,0,0,,,,,0,0,0,0
+444,08_C_57_16,PKM_C_GKM_Addanki,Kopperapadu,260,93,0,0,,,,,0,0,0,0
+445,08_C_57_16,PKM_C_GKM_Addanki,Kasyapuram,3,74,0,0,,,,,0,0,0,0
+446,08_C_57_16,PKM_C_GKM_Addanki,Anamanamuru,0,0,0,0,,,,,0,0,0,0
+447,08_C_57_16,PKM_C_GKM_Addanki,Bodduvaripalem  (Medrametla),0,0,0,0,,,,,0,0,0,0
+448,08_C_57_16,PKM_C_GKM_Addanki,Chakrayapalem,11,53,20,53,,,,,0,0,0,0
+449,08_C_56_22,PKM_C_Romperu_Parchuru,Uppumaguluru,203,14,,,,,,,,,,
+450,08_C_56_21,PKM_C_Romperu_Parchuru,Ramakuru,28,194,,,,,,,,,,
+451,08_C_56_21,PKM_C_Romperu_Parchuru,Bobbepalli,73,174,0,252,,,,,22,,0,8
+452,08_C_56_21,PKM_C_Romperu_Parchuru,Darsi,51,240,0,101,,,,,,,,
+453,08_C_56_21,PKM_C_Romperu_Parchuru,Jangameswarapuram,91,30,,16,,,,,,,,
+454,08_C_56_21,PKM_C_Romperu_Parchuru,Jonnathali,72,252,,46,,,,,,,,
+455,08_C_56_21,PKM_C_Romperu_Parchuru,Konanki,67,949,,62,,,,,,,,
+456,08_C_56_21,PKM_C_Romperu_Parchuru,Lakkavaram,6,150,,,,,,,,,,
+457,08_C_56_21,PKM_C_Romperu_Parchuru,MARTURU ,,,,,,,,,,,,
+458,08_C_56_21,PKM_C_Romperu_Parchuru,Nagarajupalli,35,491,,,,,,,,,,
+459,08_C_56_21,PKM_C_Romperu_Parchuru,Rajupalem,,,,,,,,,,,,
+460,08_C_56_21,PKM_C_Romperu_Parchuru,Vallaparla,28,324,0,60,,,,,,,,
+461,08_C_56_21,PKM_C_Romperu_Parchuru,Adusumilli,,,,,,,,,,,,
+462,08_C_56_21,PKM_C_Romperu_Parchuru,Bodavada mandaGunta,,,,,,,,,,,,
+463,08_C_56_21,PKM_C_Romperu_Parchuru,Chennubotlapalem,,,,,,,,,,,,
+464,08_C_56_21,PKM_C_Romperu_Parchuru,Cherukuru,85,1186,,,,,,,,,,
+465,08_C_56_21,PKM_C_Romperu_Parchuru,Devarapalli,,,,,,,,,,,,
+466,08_C_56_21,PKM_C_Romperu_Parchuru,Garnepudi,,,,,,,,,,,,
+467,08_C_56_21,PKM_C_Romperu_Parchuru,Gollapudi,,,,,,,,,,,,
+468,08_C_56_21,PKM_C_Romperu_Parchuru,Inagallu,,,,,,,,,,,,
+469,08_C_56_21,PKM_C_Romperu_Parchuru,Parchur ,,,,,,,,,,,,
+470,08_C_56_21,PKM_C_Romperu_Parchuru,Ramanayapalem,,1034,,,,,,,,,,
+471,08_C_56_21,PKM_C_Romperu_Parchuru,Upputuru,,206,,,,,,,,,,
+472,08_C_56_21,PKM_C_Romperu_Parchuru,Veerannapalem,,756,,,,,,,,,,
+473,08_C_56_21,PKM_C_Romperu_Parchuru,Yedubodu,,,,,,,,,,,,
+474,08_C_56_21,PKM_C_Romperu_Parchuru,Ananthavaram,,,,,,,,,,,,
+475,08_C_56_21,PKM_C_Romperu_Parchuru,Gannavaram,,,,,,,,,,,,
+476,08_C_56_21,PKM_C_Romperu_Parchuru,Jagarlamudi,,,,,,,,,,,,
+477,08_C_56_21,PKM_C_Romperu_Parchuru,Poluru,15,,,81,,,,,,,,
+478,08_C_56_21,PKM_C_Romperu_Parchuru,Vijanampadu,3,,,29,,,,,,,,
+479,08_C_56_21,PKM_C_Romperu_Parchuru,Yaddanapudi ,1,,,27,,,,,,,,
+480,08_C_56_21,PKM_C_Romperu_Parchuru,Yanamadala,4,,,36,,,,,,,,

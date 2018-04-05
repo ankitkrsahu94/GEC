@@ -1,0 +1,725 @@
+,,,,Irrigated with surface water,,,,,,,,,,,
+S.No,Watershed code,Watershed Name,Village Name,command area,,,,Non command area,,,,Poor GW quality area,,,
+,,,,Paddy,,Non-paddy,,Paddy,,Non-paddy,,Paddy,,Non-paddy,
+,,,,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi,Kharif,Rabi
+1,05_I_40_01,WG_I_Tammileru_Chintalapudi,Gurubhartlagudem,78,0,0,0,,,,,0,0,0,0
+2,05_I_40_02,WG_I_Tammileru_Chintalapudi,Lingagudem,0,0,0,0,,,,,0,0,0,0
+3,05_I_40_03,WG_I_Tammileru_Chintalapudi,Raghavapuram,125,0,0,0,,,,,0,0,0,0
+4,05_I_40_04,WG_I_Tammileru_Chintalapudi,Talarlapalli,48,0,0,0,,,,,0,0,0,0
+5,05_I_40_05,WG_I_Tammileru_Chintalapudi,Venkatrayapuram,0,0,0,0,,,,,0,0,0,0
+6,05_I_40_06,WG_I_Tammileru_Chintalapudi,Endapalli,152,0,0,0,,,,,0,0,0,0
+7,05_I_40_07,WG_I_Tammileru_Chintalapudi,Yarrampalli,435,0,0,0,,,,,0,0,0,0
+8,05_I_40_08,WG_I_Tammileru_Chintalapudi,Amudalachalakka,0,0,0,0,,,,,0,0,0,0
+9,05_I_40_09,WG_I_Tammileru_Chintalapudi,Chintalapudi,587,0,0,0,,,,,0,0,0,0
+10,05_I_40_10,WG_I_Tammileru_Chintalapudi,Potunuru,0,0,0,0,,,,,0,0,0,0
+11,05_I_40_11,WG_I_Tammileru_Chintalapudi,Mallayagudem,0,0,0,0,,,,,0,0,0,0
+12,05_I_40_12,WG_I_Tammileru_Chintalapudi,Urlagudem,0,0,0,0,,,,,0,0,0,0
+13,05_I_40_13,WG_I_Tammileru_Chintalapudi,Ayyaparajugudem,4,0,0,0,,,,,0,0,0,0
+14,05_I_40_14,WG_I_Tammileru_Chintalapudi,Bhogolu,39,0,0,0,,,,,0,0,0,0
+15,05_I_40_15,WG_I_Tammileru_Chintalapudi,Chandrannapalem,12,0,0,0,,,,,0,0,0,0
+16,05_I_40_16,WG_I_Tammileru_Chintalapudi,Dharmajigudem,4,0,0,0,,,,,0,0,0,0
+17,05_I_40_17,WG_I_Tammileru_Chintalapudi,Kalarayanagudem,6,0,0,0,,,,,0,0,0,0
+18,05_I_40_18,WG_I_Tammileru_Chintalapudi,Kalyanampadu,35,0,0,0,,,,,0,0,0,0
+19,05_I_40_19,WG_I_Tammileru_Chintalapudi,Konijarla,12,0,0,0,,,,,0,0,0,0
+20,05_I_40_20,WG_I_Tammileru_Chintalapudi,Kothapalli,46,0,0,0,,,,,0,0,0,0
+21,05_I_40_21,WG_I_Tammileru_Chintalapudi,Lingapalem,22,0,0,0,,,,,0,0,0,0
+22,05_I_40_22,WG_I_Tammileru_Chintalapudi,Malleshwaram,2,0,0,0,,,,,0,0,0,0
+23,05_I_40_23,WG_I_Tammileru_Chintalapudi,Mathamgudem,24,0,0,0,,,,,0,0,0,0
+24,05_I_40_24,WG_I_Tammileru_Chintalapudi,Pochavaram,0,0,0,0,,,,,0,0,0,0
+25,05_I_40_25,WG_I_Tammileru_Chintalapudi,Singagudem,80,0,0,0,,,,,0,0,0,0
+26,05_I_40_26,WG_I_Tammileru_Chintalapudi,T.Ch.R.Palem,103,0,0,0,,,,,0,0,0,0
+27,05_I_40_27,WG_I_Tammileru_Chintalapudi,Mulagapalampadu,29,0,0,0,,,,,0,0,0,0
+28,05_I_40_28,WG_I_Tammileru_Chintalapudi,Yadavalli,27,0,0,0,,,,,0,0,0,0
+29,05_I_40_29,WG_I_Tammileru_Chintalapudi,Bapirajugudem,171,30,1701,1608,,,,,0,0,0,0
+30,05_I_40_30,WG_I_Tammileru_Chintalapudi,Nadipalli,100,30,146,824,,,,,0,0,0,0
+31,05_I_40_31,WG_I_Tammileru_Chintalapudi,Rajampalem,20,20,0,564,,,,,,,,
+1,05_I_37_03,WG_I_Yerrakalva 2_Devulapalli,Ch.potepalli,0,0,0,0,,,,,0,0,0,0
+2,05_I_37_04,WG_I_Yerrakalva 2_Devulapalli,Dorasanipadu,0,0,0,0,,,,,0,0,0,0
+3,05_I_37_05,WG_I_Yerrakalva 2_Devulapalli,G.Kothapali,0,0,0,0,,,,,0,0,0,0
+4,05_I_37_06,WG_I_Yerrakalva 2_Devulapalli,IS Jagannadhaprm,0,0,0,0,,,,,0,0,0,0
+5,05_I_37_07,WG_I_Yerrakalva 2_Devulapalli,IS Raghavaprm,0,0,0,0,,,,,0,0,0,0
+6,05_I_37_08,WG_I_Yerrakalva 2_Devulapalli,Kodigudem,0,0,0,0,,,,,0,0,0,0
+7,05_I_37_09,WG_I_Yerrakalva 2_Devulapalli,Gundagolanukunta,0,0,0,0,,,,,0,0,0,0
+8,05_I_37_10,WG_I_Yerrakalva 2_Devulapalli,Malleswaram,0,0,0,0,,,,,0,0,0,0
+9,05_I_37_11,WG_I_Yerrakalva 2_Devulapalli,Kommara (N),0,0,0,0,,,,,0,0,0,0
+10,05_I_37_12,WG_I_Yerrakalva 2_Devulapalli,Kommara [S],0,0,0,0,,,,,0,0,0,0
+11,05_I_37_13,WG_I_Yerrakalva 2_Devulapalli,Ammapalem,0,0,0,0,,,,,0,0,0,0
+12,05_I_37_14,WG_I_Yerrakalva 2_Devulapalli,Devulapalli,0,0,0,0,,,,,0,0,0,0
+13,05_I_37_15,WG_I_Yerrakalva 2_Devulapalli,Lakkavaram,0,0,0,0,,,,,0,0,0,0
+14,05_I_37_16,WG_I_Yerrakalva 2_Devulapalli,Nimmalagudem,0,0,0,0,,,,,0,0,0,0
+15,05_I_37_17,WG_I_Yerrakalva 2_Devulapalli,KamavarapuKota,0,0,0,0,,,,,0,0,0,0
+16,05_I_37_18,WG_I_Yerrakalva 2_Devulapalli,Kondagudem,0,0,0,0,,,,,0,0,0,0
+17,05_I_37_19,WG_I_Yerrakalva 2_Devulapalli,Ramannapalem,0,0,0,0,,,,,0,0,0,0
+18,05_I_37_20,WG_I_Yerrakalva 2_Devulapalli,Ravikampadu,0,0,0,0,,,,,0,0,0,0
+19,05_I_37_21,WG_I_Yerrakalva 2_Devulapalli,Uppalapadu,0,0,0,0,,,,,0,0,0,0
+20,05_I_37_22,WG_I_Yerrakalva 2_Devulapalli,Yadavalli,0,0,0,0,,,,,0,0,0,0
+21,05_I_37_23,WG_I_Yerrakalva 2_Devulapalli,Veerampalem,0,0,0,0,,,,,0,0,0,0
+22,05_I_37_24,WG_I_Yerrakalva 2_Devulapalli,Kunavaram,0,0,0,0,,,,,0,0,0,0
+23,05_I_37_25,WG_I_Yerrakalva 2_Devulapalli,Kommugudem,0,0,0,0,,,,,0,0,0,0
+24,05_I_37_26,WG_I_Yerrakalva 2_Devulapalli,Dubacherla,0,0,0,0,,,,,0,0,0,0
+25,05_I_37_27,WG_I_Yerrakalva 2_Devulapalli,Amumonilanka,0,0,0,0,,,,,0,0,0,0
+26,05_I_37_28,WG_I_Yerrakalva 2_Devulapalli,Nallajerla,0,0,0,0,,,,,0,0,0,0
+27,05_I_37_29,WG_I_Yerrakalva 2_Devulapalli,Marellamudi,0,0,0,0,,,,,0,0,0,0
+28,05_I_37_30,WG_I_Yerrakalva 2_Devulapalli,Ananthapalli,0,0,0,0,,,,,0,0,0,0
+29,05_I_37_31,WG_I_Yerrakalva 2_Devulapalli,Cheepurugudem,0,0,0,0,,,,,0,0,0,0
+30,05_I_37_32,WG_I_Yerrakalva 2_Devulapalli,Gundepalli,0,0,0,0,,,,,0,0,0,0
+31,05_I_37_33,WG_I_Yerrakalva 2_Devulapalli,Chodavaram,0,0,0,0,,,,,0,0,0,0
+32,05_I_37_34,WG_I_Yerrakalva 2_Devulapalli,Prakasaraopalem,0,0,0,0,,,,,0,0,0,0
+33,05_I_37_35,WG_I_Yerrakalva 2_Devulapalli,Telikacherla,0,0,0,0,,,,,0,0,0,0
+1,05_E_29_09,WG_E_Kondrukota (Polavaram),Cheeduru,40,20,0,20,,,,,0,0,0,0
+2,05_E_29_10,WG_E_Kondrukota (Polavaram),Chegondapalli,0,0,0,0,,,,,0,0,0,0
+3,05_E_29_11,WG_E_Kondrukota (Polavaram),Kondrukota,0,0,0,0,,,,,0,0,0,0
+4,05_E_29_12,WG_E_Kondrukota (Polavaram),Koruturu,0,0,0,0,,,,,0,0,0,0
+5,05_E_29_13,WG_E_Kondrukota (Polavaram),Pydipaka,0,0,0,0,,,,,0,0,0,0
+6,05_E_29_14,WG_E_Kondrukota (Polavaram),Ravigudem,0,0,0,0,,,,,0,0,0,0
+7,05_E_29_15,WG_E_Kondrukota (Polavaram),Singanapalli,40,30,0,30,,,,,0,0,0,0
+8,05_E_29_16,WG_E_Kondrukota (Polavaram),Sirivaka,0,0,0,0,,,,,0,0,0,0
+9,05_E_29_17,WG_E_Kondrukota (Polavaram),Sivagiri,40,30,0,30,,,,,0,0,0,0
+10,05_E_29_18,WG_E_Kondrukota (Polavaram),Tekuru,0,0,0,0,,,,,0,0,0,0
+11,05_E_29_19,WG_E_Kondrukota (Polavaram),Tutugunta,84,35,0,0,,,,,0,0,0,0
+1,05_I_33,WG_I_Chityala_Tallapudi,Bandapuram,50,0,0,10,,,,,0,0,0,0
+2,05_I_34,WG_I_Chityala_Tallapudi,Duddukuru,30,0,0,10,,,,,0,0,0,0
+3,05_I_35,WG_I_Chityala_Tallapudi,Bhimolu,50,0,0,20,,,,,0,0,0,0
+4,05_I_36,WG_I_Chityala_Tallapudi,Cherukumilli,30,0,0,10,,,,,0,0,0,0
+5,05_I_37,WG_I_Chityala_Tallapudi,Chityala,20,0,0,5,,,,,0,0,0,0
+6,05_I_38,WG_I_Chityala_Tallapudi,Gangolu,109,40,117,0,,,,,0,0,0,0
+7,05_I_39,WG_I_Chityala_Tallapudi,Gopalapuram,30,0,0,20,,,,,0,0,0,0
+8,05_I_40,WG_I_Chityala_Tallapudi,Guddigudem,50,0,0,0,,,,,0,0,0,0
+9,05_I_41,WG_I_Chityala_Tallapudi,Karagapadu,60,50,0,70,,,,,0,0,0,0
+10,05_I_42,WG_I_Chityala_Tallapudi,Karicherlagudem,20,0,0,10,,,,,0,0,0,0
+11,05_I_43,WG_I_Chityala_Tallapudi,Komatikunta,25,0,0,10,,,,,0,0,0,0
+12,05_I_44,WG_I_Chityala_Tallapudi,Kovvurupadu,100,0,0,80,,,,,0,0,0,0
+13,05_I_45,WG_I_Chityala_Tallapudi,Nandigudem,25,0,0,10,,,,,0,0,0,0
+14,05_I_46,WG_I_Chityala_Tallapudi,Saggonda,30,0,0,10,,,,,0,0,0,0
+15,05_I_47,WG_I_Chityala_Tallapudi,Sagipadu,90,0,85,0,,,,,0,0,0,0
+16,05_I_48,WG_I_Chityala_Tallapudi,Vadalakunta,20,0,0,10,,,,,0,0,0,0
+17,05_I_49,WG_I_Chityala_Tallapudi,Vellachintalagudem,20,0,0,10,,,,,0,0,0,0
+18,05_I_50,WG_I_Chityala_Tallapudi,Venkatayapalem,30,0,0,10,,,,,0,0,0,0
+19,05_I_51,WG_I_Chityala_Tallapudi,Jaganadhapuram,20,0,0,10,,,,,0,0,0,0
+20,05_I_52,WG_I_Chityala_Tallapudi,Annadevarapeta,206,8,32,32,,,,,0,0,0,0
+21,05_I_53,WG_I_Chityala_Tallapudi,Ballipadu,32,49,9,60,,,,,0,0,0,0
+22,05_I_54,WG_I_Chityala_Tallapudi,Bayyavaram,109,12,9,33,,,,,0,0,0,0
+23,05_I_55,WG_I_Chityala_Tallapudi,Gajjaram,314,105,6,162,,,,,0,0,0,0
+24,05_I_56,WG_I_Chityala_Tallapudi,Kukunuru,62,40,4,53,,,,,0,0,0,0
+25,05_I_57,WG_I_Chityala_Tallapudi,Nallamillipadu,16,0,0,16,,,,,0,0,0,0
+26,05_I_58,WG_I_Chityala_Tallapudi,Pochavaram,146,93,4,116,,,,,0,0,0,0
+27,05_I_59,WG_I_Chityala_Tallapudi,Prakkilanka,229,201,6,0,,,,,0,0,0,0
+28,05_I_60,WG_I_Chityala_Tallapudi,Ragolupalli,148,122,15,12,,,,,0,0,0,0
+29,05_I_61,WG_I_Chityala_Tallapudi,Tadipudi,151,132,9,37,,,,,0,0,0,0
+30,05_I_62,WG_I_Chityala_Tallapudi,Tallapudi,232,202,2,78,,,,,0,0,0,0
+31,05_I_63,WG_I_Chityala_Tallapudi,Tirugudumetta,207,184,57,187,,,,,0,0,0,0
+32,05_I_64,WG_I_Chityala_Tallapudi,Tupakulagudem,130,122,0,11,,,,,0,0,0,0
+33,05_I_65,WG_I_Chityala_Tallapudi,Veerbhadrapuram,58,32,5,44,,,,,0,0,0,0
+34,05_I_66,WG_I_Chityala_Tallapudi,Vegeswarapuram,436,495,84,605,,,,,0,0,0,0
+35,05_I_67,WG_I_Chityala_Tallapudi,Peddevam,274,328,72,392,,,,,0,0,0,0
+1,05_I_33_11,WG_I_Kovvuru_Dommeru,Chagallu,0,0,0,0,,,,,0,0,0,0
+2,05_I_33_12,WG_I_Kovvuru_Dommeru,Daravaram,0,0,0,0,,,,,0,0,0,0
+3,05_I_33_13,WG_I_Kovvuru_Dommeru,Mallavaram,0,0,0,0,,,,,0,0,0,0
+4,05_I_33_14,WG_I_Kovvuru_Dommeru,Markondapadu,0,0,0,0,,,,,0,0,0,0
+5,05_I_33_15,WG_I_Kovvuru_Dommeru,Nelaturu,0,0,0,0,,,,,0,0,0,0
+6,05_I_33_16,WG_I_Kovvuru_Dommeru,S.Muppavaram,0,0,0,0,,,,,0,0,0,0
+7,05_I_33_17,WG_I_Kovvuru_Dommeru,Gowripatnam,0,0,0,0,,,,,0,0,0,0
+8,05_I_33_18,WG_I_Kovvuru_Dommeru,Kondagudem,0,0,0,0,,,,,0,0,0,0
+9,05_I_33_19,WG_I_Kovvuru_Dommeru,Laxmipuram,0,0,0,0,,,,,0,0,0,0
+10,05_I_33_20,WG_I_Kovvuru_Dommeru,Arikirevala,0,0,0,0,,,,,0,0,0,0
+11,05_I_33_21,WG_I_Kovvuru_Dommeru,Chidipi,0,0,0,0,,,,,0,0,0,0
+12,05_I_33_22,WG_I_Kovvuru_Dommeru,Chigurulanka,0,0,0,0,,,,,0,0,0,0
+13,05_I_33_23,WG_I_Kovvuru_Dommeru,Decherla,0,0,0,0,,,,,0,0,0,0
+14,05_I_33_24,WG_I_Kovvuru_Dommeru,Dharmavaram,0,0,0,0,,,,,0,0,0,0
+15,05_I_33_25,WG_I_Kovvuru_Dommeru,Dommeru,0,0,0,0,,,,,0,0,0,0
+16,05_I_33_26,WG_I_Kovvuru_Dommeru,I.Pangidi,0,0,0,0,,,,,0,0,0,0
+17,05_I_33_27,WG_I_Kovvuru_Dommeru,Kovvuru,0,0,0,0,,,,,0,0,0,0
+18,05_I_33_28,WG_I_Kovvuru_Dommeru,Kumaradevam,0,0,0,0,,,,,0,0,0,0
+19,05_I_33_29,WG_I_Kovvuru_Dommeru,Madduru,0,0,0,0,,,,,0,0,0,0
+20,05_I_33_30,WG_I_Kovvuru_Dommeru,Maddurulanka,0,0,0,0,,,,,0,0,0,0
+21,05_I_33_31,WG_I_Kovvuru_Dommeru,Nandamuru,0,0,0,0,,,,,0,0,0,0
+22,05_I_33_32,WG_I_Kovvuru_Dommeru,Pasivedala,0,0,0,0,,,,,0,0,0,0
+23,05_I_33_33,WG_I_Kovvuru_Dommeru,Penakarametta,0,0,0,0,,,,,0,0,0,0
+24,05_I_33_34,WG_I_Kovvuru_Dommeru,Togummi,0,0,0,0,,,,,0,0,0,0
+25,05_I_33_35,WG_I_Kovvuru_Dommeru,Vadapalli,0,0,0,0,,,,,0,0,0,0
+26,05_I_33_36,WG_I_Kovvuru_Dommeru,Vemuluru,0,0,0,0,,,,,0,0,0,0
+27,05_I_33_37,WG_I_Kovvuru_Dommeru,Malakapalli,0,0,0,0,,,,,0,0,0,0
+28,05_I_33_38,WG_I_Kovvuru_Dommeru,Ravurupadu,0,0,0,0,,,,,0,0,0,0
+1,05_I_37_13,WG_I_Nidadavolu_Arugolanu,Madhavaram,0,0,0,0,,,,,0,0,0,0
+2,05_I_37_14,WG_I_Nidadavolu_Arugolanu,Jagannadhapuram,134,134,0,0,,,,,0,0,0,0
+3,05_I_37_15,WG_I_Nidadavolu_Arugolanu,Nandamuru,217,217,0,0,,,,,0,0,0,0
+4,05_I_37_16,WG_I_Nidadavolu_Arugolanu,Arulla,564,564,0,0,,,,,0,0,0,0
+5,05_I_37_17,WG_I_Nidadavolu_Arugolanu,Navabpalem,211,211,0,0,,,,,0,0,0,0
+6,05_I_37_18,WG_I_Nidadavolu_Arugolanu,Aurgolanu,102,102,0,0,,,,,0,0,0,0
+7,05_I_37_19,WG_I_Nidadavolu_Arugolanu,Apparaopeta,0,0,0,0,,,,,0,0,0,0
+8,05_I_37_20,WG_I_Nidadavolu_Arugolanu,Atlapadu,166,0,166,8,,,,,0,0,0,0
+9,05_I_37_21,WG_I_Nidadavolu_Arugolanu,D.Muppavaram,40,0,40,6,,,,,0,0,0,0
+10,05_I_37_22,WG_I_Nidadavolu_Arugolanu,Gopavaram,45,0,45,36.82,,,,,0,0,0,0
+11,05_I_37_23,WG_I_Nidadavolu_Arugolanu,Jeedigunta,0,0,0,0,,,,,0,0,0,0
+12,05_I_37_24,WG_I_Nidadavolu_Arugolanu,Kalavacherla,138,0,138,42,,,,,0,0,0,0
+13,05_I_37_25,WG_I_Nidadavolu_Arugolanu,Korupalli,0,0,0,0,,,,,0,0,0,0
+14,05_I_37_26,WG_I_Nidadavolu_Arugolanu,Munipalli,131,0,131,58,,,,,0,0,0,0
+15,05_I_37_27,WG_I_Nidadavolu_Arugolanu,Nidadavolu,970,159,811,46,,,,,0,0,0,0
+16,05_I_37_28,WG_I_Nidadavolu_Arugolanu,Pandalaparru,0,0,0,0,,,,,0,0,0,0
+17,05_I_37_29,WG_I_Nidadavolu_Arugolanu,Pendyala,0,0,0,0,,,,,0,0,0,0
+18,05_I_37_30,WG_I_Nidadavolu_Arugolanu,Purushottapalli,0,0,0,0,,,,,0,0,0,0
+19,05_I_37_31,WG_I_Nidadavolu_Arugolanu,Timmarajupalem,16,14,2,0,,,,,0,0,0,0
+20,05_I_37_32,WG_I_Nidadavolu_Arugolanu,Vijjeswaram,0,0,0,0,,,,,0,0,0,0
+21,05_I_37_33,WG_I_Nidadavolu_Arugolanu,Jeediguntalanka,0,0,0,0,,,,,0,0,0,0
+22,05_I_37_34,WG_I_Nidadavolu_Arugolanu,Korumamidi,0,0,0,0,,,,,0,0,0,0
+23,05_I_37_35,WG_I_Nidadavolu_Arugolanu,Ravimetla,0,0,0,0,,,,,0,0,0,0
+24,05_I_37_36,WG_I_Nidadavolu_Arugolanu,Sankarapuram,0,0,0,0,,,,,0,0,0,0
+25,05_I_37_37,WG_I_Nidadavolu_Arugolanu,Singavaram,587,325,262,10,,,,,0,0,0,0
+26,05_I_37_38,WG_I_Nidadavolu_Arugolanu,Surapuram,0,0,0,0,,,,,0,0,0,0
+27,05_I_37_39,WG_I_Nidadavolu_Arugolanu,Tadimalla,0,0,0,0,,,,,0,0,0,0
+28,05_I_37_40,WG_I_Nidadavolu_Arugolanu,Unakaramilli,0,0,0,0,,,,,0,0,0,0
+29,05_I_37_41,WG_I_Nidadavolu_Arugolanu,Vissampalem,0,0,0,0,,,,,0,0,0,0
+30,05_I_37_42,WG_I_Nidadavolu_Arugolanu,J.Khandrika,66,32,34,0,,,,,0,0,0,0
+31,05_I_37_43,WG_I_Nidadavolu_Arugolanu,Settipeta,607,97,510,21,,,,,0,0,0,0
+32,05_I_37_44,WG_I_Nidadavolu_Arugolanu,Brahmanagudem,128,47,0,45,,,,,0,0,0,0
+33,05_I_37_45,WG_I_Nidadavolu_Arugolanu,Chikkala,0,0,0,0,,,,,0,0,0,0
+34,05_I_37_46,WG_I_Nidadavolu_Arugolanu,Kalavalapalli,86,0,0,190,,,,,0,0,0,0
+35,05_I_37_47,WG_I_Nidadavolu_Arugolanu,Nandigampadu,0,0,0,0,,,,,0,0,0,0
+36,05_I_37_48,WG_I_Nidadavolu_Arugolanu,Unagatla,0,0,0,31,,,,,0,0,0,0
+1,05_I_14,WG_I_Jagannapeta,Jaggannapeta,0,0,0,0,,,,,0,0,0,0
+2,05_I_15,WG_I_Jagannapeta,Kadakatla,66,66,0,0,,,,,0,0,0,0
+3,05_I_16,WG_I_Jagannapeta,kadiadda,0,0,0,0,,,,,0,0,0,0
+4,05_I_17,WG_I_Jagannapeta,Kondrupolu,0,0,0,0,,,,,0,0,0,0
+5,05_I_18,WG_I_Jagannapeta,Kunchinapalli,10,10,0,0,,,,,0,0,0,0
+6,05_I_19,WG_I_Jagannapeta,Padala,351,351,0,0,,,,,0,0,0,0
+7,05_I_20,WG_I_Jagannapeta,Tadepalli,117,117,0,0,,,,,0,0,0,0
+8,05_I_21,WG_I_Jagannapeta,Tadepalligudem (U),16,16,0,0,,,,,0,0,0,0
+9,05_I_22,WG_I_Jagannapeta,Tallamudurupadu,100,100,0,0,,,,,0,0,0,0
+10,05_I_23,WG_I_Jagannapeta,Yagallapalli,194,194,0,0,,,,,0,0,0,0
+11,05_I_24,WG_I_Jagannapeta,Krishnayapalem,258,258,0,0,,,,,0,0,0,0
+12,05_I_25,WG_I_Jagannapeta,Venkataramannagudem,0,0,0,0,,,,,0,0,0,0
+13,05_I_26,WG_I_Jagannapeta,Badampudi,679,605,0,0,,,,,0,0,0,0
+14,05_I_27,WG_I_Jagannapeta,Bommidi,724,724,0,0,,,,,0,0,0,0
+15,05_I_28,WG_I_Jagannapeta,Chebrolu,857,852,0,0,,,,,0,0,0,0
+16,05_I_29,WG_I_Jagannapeta,Dontavaram,295,295,0,0,,,,,0,0,0,0
+17,05_I_30,WG_I_Jagannapeta,Kagupadu,534,534,0,0,,,,,0,0,0,0
+18,05_I_31,WG_I_Jagannapeta,Kakarlamudi,692,692,0,0,,,,,0,0,0,0
+19,05_I_32,WG_I_Jagannapeta,Rachuru,807,807,0,0,,,,,0,0,0,0
+20,05_I_33,WG_I_Jagannapeta,Ravulaparru,509,509,0,0,,,,,0,0,0,0
+21,05_I_34,WG_I_Jagannapeta,Unguturu,781,781,0,0,,,,,0,0,0,0
+22,05_I_35,WG_I_Jagannapeta,V.Apparaopuram,168,163,0,0,,,,,0,0,0,0
+23,05_I_36,WG_I_Jagannapeta,Vellamilli,244,137,0,0,,,,,0,0,0,0
+24,05_I_37,WG_I_Jagannapeta,Avapadu,0,0,0,0,,,,,0,0,0,0
+1,05_I_38,WG_I_Bhimadole_Bhimadole,Ambarupeta,36,0,0,0,,,,,0,0,0,0
+2,05_I_39,WG_I_Bhimadole_Bhimadole,Duddepudi,71,0,0,0,,,,,0,0,0,0
+3,05_I_40,WG_I_Bhimadole_Bhimadole,Kodurupadu,61,0,0,0,,,,,0,0,0,0
+4,05_I_41,WG_I_Bhimadole_Bhimadole,Polasanipalli,26,0,0,0,,,,,0,0,0,0
+5,05_I_42,WG_I_Bhimadole_Bhimadole,Vempadu,120,5,51,40,,,,,0,0,0,0
+6,05_I_43,WG_I_Bhimadole_Bhimadole,Bhimadole,0,0,0,0,,,,,0,0,0,0
+7,05_I_44,WG_I_Bhimadole_Bhimadole,Pulla,0,0,0,0,,,,,0,0,0,0
+,05_I_45,WG_I_Bhimadole_Bhimadole,,,,,,,,,,,,,
+8,05_I_46,WG_I_Bhimadole_Bhimadole,D.Tirumala,4,3,24,5,,,,,0,0,0,0
+9,05_I_47,WG_I_Bhimadole_Bhimadole,Dadavali,40,2,13,24,,,,,0,0,0,0
+10,05_I_48,WG_I_Bhimadole_Bhimadole,Golladikuntakhandr,24,1,10,2,,,,,0,0,0,0
+11,05_I_49,WG_I_Bhimadole_Bhimadole,Gopikuntakhandrika,10,0,17,2,,,,,0,0,0,0
+12,05_I_50,WG_I_Bhimadole_Bhimadole,Gunnampalli,223,26,553,80,,,,,0,0,0,0
+13,05_I_51,WG_I_Bhimadole_Bhimadole,Jajulakunta,10,5,51,19,,,,,0,0,0,0
+14,05_I_52,WG_I_Bhimadole_Bhimadole,Krishnapuram,61,4,54,28,,,,,0,0,0,0
+15,05_I_53,WG_I_Bhimadole_Bhimadole,Lingaraopalem,8,2,75,106,,,,,0,0,0,0
+16,05_I_54,WG_I_Bhimadole_Bhimadole,Malasanikunta,8,5,137,21,,,,,0,0,0,0
+17,05_I_55,WG_I_Bhimadole_Bhimadole,Narayanapuram,354,30,273,86,,,,,0,0,0,0
+18,05_I_56,WG_I_Bhimadole_Bhimadole,P.Kannapuram,95,3,24,45,,,,,0,0,0,0
+19,05_I_57,WG_I_Bhimadole_Bhimadole,Rallakunta,10,6,59,18,,,,,0,0,0,0
+20,05_I_58,WG_I_Bhimadole_Bhimadole,Ramannagudem,48,11,89,57,,,,,0,0,0,0
+21,05_I_59,WG_I_Bhimadole_Bhimadole,Sarabhapuram,77,3,29,28,,,,,0,0,0,0
+22,05_I_60,WG_I_Bhimadole_Bhimadole,Sathenagedem,46,5,57,22,,,,,0,0,0,0
+23,05_I_61,WG_I_Bhimadole_Bhimadole,sattala,1,3,26,18,,,,,0,0,0,0
+24,05_I_62,WG_I_Bhimadole_Bhimadole,Timmapuram,60,10,238,52,,,,,0,0,0,0
+25,05_I_63,WG_I_Bhimadole_Bhimadole,Tirumalapalem,101,25,401,111,,,,,0,0,0,0
+26,05_I_64,WG_I_Bhimadole_Bhimadole,Vkrishnaprm,61,4,54,28,,,,,0,0,0,0
+27,05_I_65,WG_I_Bhimadole_Bhimadole,Kommugudem,4,3,34,18,,,,,0,0,0,0
+28,05_I_66,WG_I_Bhimadole_Bhimadole,H. Lingapalem,20,3,39,11,,,,,0,0,0,0
+29,05_I_67,WG_I_Bhimadole_Bhimadole,Pangidigudem,161,29,265,58,,,,,0,0,0,0
+30,05_I_68,WG_I_Bhimadole_Bhimadole,M. Nagulapalli,162,10,127,144,,,,,0,0,0,0
+31,05_I_69,WG_I_Bhimadole_Bhimadole,Sayanaraopalem,0,0,0,0,,,,,0,0,0,0
+32,05_I_70,WG_I_Bhimadole_Bhimadole,V.P. Nuthanam,0,0,0,0,,,,,0,0,0,0
+33,05_I_71,WG_I_Bhimadole_Bhimadole,A.Gokavaram,0,0,0,0,,,,,0,0,0,0
+34,05_I_72,WG_I_Bhimadole_Bhimadole,Chebrolukhandrika ©,70,69,0,0,,,,,0,0,0,0
+35,05_I_73,WG_I_Bhimadole_Bhimadole,Gopinadhapatnam,0,0,0,0,,,,,0,0,0,0
+36,05_I_74,WG_I_Bhimadole_Bhimadole,Kaikaram ©,1226,1226,0,0,,,,,0,0,0,0
+37,05_I_75,WG_I_Bhimadole_Bhimadole,Nallamadu,0,0,0,0,,,,,0,0,0,0
+38,05_I_76,WG_I_Bhimadole_Bhimadole,Tallapuram ©,103,103,0,0,,,,,0,0,0,0
+1,05_I_39_16,WG_I_Gunderu_Pedavegi,Pragadavaram,0,0,0,0,,,,,0,0,0,0
+2,05_I_39_17,WG_I_Gunderu_Pedavegi,Kanupeda,0,0,0,0,,,,,0,0,0,0
+3,05_I_39_18,WG_I_Gunderu_Pedavegi,Venkampalem,0,0,0,0,,,,,0,0,0,0
+4,05_I_39_19,WG_I_Gunderu_Pedavegi,Timmeriddipalli,0,0,0,0,,,,,0,0,0,0
+5,05_I_39_20,WG_I_Gunderu_Pedavegi,Ponukumadu,0,0,0,0,,,,,0,0,0,0
+6,05_I_39_21,WG_I_Gunderu_Pedavegi,Sankuchakarapuram,0,0,0,0,,,,,0,0,0,0
+7,05_I_39_22,WG_I_Gunderu_Pedavegi,Akkireddigudem,0,0,0,0,,,,,0,0,0,0
+8,05_I_39_23,WG_I_Gunderu_Pedavegi,Ch. Chintalapudi,0,0,0,0,,,,,0,0,0,0
+9,05_I_39_24,WG_I_Gunderu_Pedavegi,Denduluru,772,772,0,0,,,,,0,0,0,0
+10,05_I_39_25,WG_I_Gunderu_Pedavegi,Dosapadu ©,260,188,0,0,,,,,0,0,0,0
+11,05_I_39_26,WG_I_Gunderu_Pedavegi,Galayagudem,0,0,0,0,,,,,0,0,0,0
+12,05_I_39_27,WG_I_Gunderu_Pedavegi,Gopannapalem,0,0,0,0,,,,,0,0,0,0
+13,05_I_39_28,WG_I_Gunderu_Pedavegi,Gudigunta,0,0,0,0,,,,,0,0,0,0
+14,05_I_39_29,WG_I_Gunderu_Pedavegi,Komarepalli,162,0,0,0,,,,,0,0,0,0
+15,05_I_39_30,WG_I_Gunderu_Pedavegi,Kothagudem,0,0,0,0,,,,,0,0,0,0
+16,05_I_39_31,WG_I_Gunderu_Pedavegi,Kovvali ©,2099,1072,0,0,,,,,0,0,0,0
+17,05_I_39_32,WG_I_Gunderu_Pedavegi,Malakacherla,0,0,0,0,,,,,0,0,0,0
+18,05_I_39_33,WG_I_Gunderu_Pedavegi,Medinaraopalem,0,0,0,0,,,,,0,0,0,0
+19,05_I_39_34,WG_I_Gunderu_Pedavegi,Muppavaram,0,0,0,0,,,,,0,0,0,0
+20,05_I_39_35,WG_I_Gunderu_Pedavegi,Naguladevunipadu,0,0,0,0,,,,,0,0,0,0
+21,05_I_39_36,WG_I_Gunderu_Pedavegi,Narasimhapuram,0,0,0,0,,,,,0,0,0,0
+22,05_I_39_37,WG_I_Gunderu_Pedavegi,Pothunuru,1625,1052,0,0,,,,,0,0,0,0
+23,05_I_39_38,WG_I_Gunderu_Pedavegi,Ramaraogudem,0,0,0,0,,,,,0,0,0,0
+24,05_I_39_39,WG_I_Gunderu_Pedavegi,Sanigudem,0,0,0,0,,,,,0,0,0,0
+25,05_I_39_40,WG_I_Gunderu_Pedavegi,Singavaram,176,0,0,0,,,,,0,0,0,0
+26,05_I_39_41,WG_I_Gunderu_Pedavegi,Sriramavaram,0,0,0,0,,,,,0,0,0,0
+27,05_I_39_42,WG_I_Gunderu_Pedavegi,Timmanagudem,0,0,0,0,,,,,0,0,0,0
+28,05_I_39_43,WG_I_Gunderu_Pedavegi,Uppugudem,145,20,0,0,,,,,0,0,0,0
+29,05_I_39_44,WG_I_Gunderu_Pedavegi,Vegavaram,0,0,0,0,,,,,0,0,0,0
+30,05_I_39_45,WG_I_Gunderu_Pedavegi,Sommavarapadu,334,334,0,0,,,,,0,0,0,0
+31,05_I_39_46,WG_I_Gunderu_Pedavegi,Kothapalli,0,0,0,0,,,,,0,0,0,0
+32,05_I_39_47,WG_I_Gunderu_Pedavegi,Challapalli,0,0,0,0,,,,,0,0,0,0
+33,05_I_39_48,WG_I_Gunderu_Pedavegi,Ankalampadu,0,0,0,0,,,,,0,0,0,0
+34,05_I_39_49,WG_I_Gunderu_Pedavegi,Guntupalli,0,0,0,0,,,,,0,0,0,0
+35,05_I_39_50,WG_I_Gunderu_Pedavegi,K.S.Ramavaram,0,0,0,0,,,,,0,0,0,0
+36,05_I_39_51,WG_I_Gunderu_Pedavegi,Kallacheruvu,0,0,0,0,,,,,0,0,0,0
+37,05_I_39_52,WG_I_Gunderu_Pedavegi,Mysannagudem,0,0,0,0,,,,,0,0,0,0
+38,05_I_39_53,WG_I_Gunderu_Pedavegi,Polasigudem,0,0,0,0,,,,,0,0,0,0
+39,05_I_39_54,WG_I_Gunderu_Pedavegi,R. Nagulapalli,0,0,0,0,,,,,0,0,0,0
+40,05_I_39_55,WG_I_Gunderu_Pedavegi,Tadikalapudi,0,0,0,0,,,,,0,0,0,0
+41,05_I_39_56,WG_I_Gunderu_Pedavegi,Mankenapalli,0,0,0,0,,,,,0,0,0,0
+42,05_I_39_57,WG_I_Gunderu_Pedavegi,Assannagudem,32,0,0,0,,,,,0,0,0,0
+43,05_I_39_58,WG_I_Gunderu_Pedavegi,Badarala,61,0,0,0,,,,,0,0,0,0
+44,05_I_39_59,WG_I_Gunderu_Pedavegi,Ganapavarigudem,17,0,0,0,,,,,0,0,0,0
+45,05_I_39_60,WG_I_Gunderu_Pedavegi,K. Gokavaram,66,0,0,0,,,,,0,0,0,0
+46,05_I_39_61,WG_I_Gunderu_Pedavegi,Mudicherla,23,0,0,0,,,,,0,0,0,0
+47,05_I_39_62,WG_I_Gunderu_Pedavegi,Pachanagaram,41,0,0,0,,,,,0,0,0,0
+48,05_I_39_63,WG_I_Gunderu_Pedavegi,Puppalavarigudem,23,0,0,0,,,,,0,0,0,0
+49,05_I_39_64,WG_I_Gunderu_Pedavegi,Vemulapalli,55,0,0,0,,,,,0,0,0,0
+50,05_I_39_65,WG_I_Gunderu_Pedavegi,Rangapuram,62,0,0,0,,,,,0,0,0,0
+51,05_I_39_66,WG_I_Gunderu_Pedavegi,Bethavaram,0,0,0,0,,,,,0,0,0,0
+52,05_I_39_67,WG_I_Gunderu_Pedavegi,Chakrayagudem,0,0,0,0,,,,,0,0,0,0
+53,05_I_39_68,WG_I_Gunderu_Pedavegi,K.Kannapuram,0,0,0,0,,,,,0,0,0,0
+54,05_I_39_69,WG_I_Gunderu_Pedavegi,Munduru,0,0,0,0,,,,,0,0,0,0
+55,05_I_39_70,WG_I_Gunderu_Pedavegi,Nyayampalli,0,0,0,0,,,,,0,0,0,0
+56,05_I_39_71,WG_I_Gunderu_Pedavegi,Pedavegi,0,0,0,0,,,,,0,0,0,0
+57,05_I_39_72,WG_I_Gunderu_Pedavegi,T.Gokavaram,0,0,0,0,,,,,0,0,0,0
+58,05_I_39_73,WG_I_Gunderu_Pedavegi,Vegiwada,0,0,0,0,,,,,0,0,0,0
+59,05_I_39_74,WG_I_Gunderu_Pedavegi,Ramasingavaram,0,0,0,0,,,,,0,0,0,0
+60,05_I_39_75,WG_I_Gunderu_Pedavegi,Rajupothepalli,0,0,0,0,,,,,0,0,0,0
+61,05_I_39_76,WG_I_Gunderu_Pedavegi,Kethavaram,0,0,0,0,,,,,0,0,0,0
+62,05_I_39_77,WG_I_Gunderu_Pedavegi,Tedlam,0,0,0,0,,,,,0,0,0,0
+63,05_I_39_78,WG_I_Gunderu_Pedavegi,Sriramvaram,0,0,0,0,,,,,0,0,0,0
+64,05_I_39_79,WG_I_Gunderu_Pedavegi,Krisnaraopalem,0,0,0,0,,,,,0,0,0,0
+65,05_I_39_80,WG_I_Gunderu_Pedavegi,Lingaraopalem,0,0,0,0,,,,,0,0,0,0
+66,05_I_39_81,WG_I_Gunderu_Pedavegi,Gudlapalli,0,0,0,0,,,,,0,0,0,0
+67,05_I_39_82,WG_I_Gunderu_Pedavegi,A. Ch. Raju Palem,0,0,0,0,,,,,0,0,0,0
+68,05_I_39_83,WG_I_Gunderu_Pedavegi,Gundagolanu,0,0,0,0,,,,,0,0,0,0
+69,05_I_39_84,WG_I_Gunderu_Pedavegi,Surappagudem,0,0,0,0,,,,,0,0,0,0
+70,05_I_39_85,WG_I_Gunderu_Pedavegi,Agadalanka (C),0,0,0,0,,,,,0,0,0,0
+71,05_I_39_86,WG_I_Gunderu_Pedavegi,Chettunnapadu,0,0,0,0,,,,,0,0,0,0
+72,05_I_39_87,WG_I_Gunderu_Pedavegi,Mallavaram,0,0,0,0,,,,,0,0,0,0
+73,05_I_39_88,WG_I_Gunderu_Pedavegi,Pydichintapadu,0,0,0,0,,,,,0,0,0,0
+74,05_I_39_89,WG_I_Gunderu_Pedavegi,Kokkirailanka,0,0,0,0,,,,,0,0,0,0
+75,05_I_39_90,WG_I_Gunderu_Pedavegi,Prattikollanka,0,0,0,0,,,,,0,0,0,0
+76,05_I_39_91,WG_I_Gunderu_Pedavegi,Gudivakalanka,0,0,0,0,,,,,0,0,0,0
+77,05_I_39_92,WG_I_Gunderu_Pedavegi,Komatilanka,0,0,0,0,,,,,0,0,0,0
+78,05_I_39_93,WG_I_Gunderu_Pedavegi,Malkapuram,691,694,0,0,,,,,0,0,0,0
+1,05_I_40_17,WG_I_Tammileru South_Eluru,M.V.Varigudem,0,0,0,0,,,,,0,0,0,0
+2,05_I_40_18,WG_I_Tammileru South_Eluru,Kondalaraopalem,0,0,0,0,,,,,0,0,0,0
+3,05_I_40_19,WG_I_Tammileru South_Eluru,Gokinapalli,70,50,77,76,,,,,0,0,0,0
+4,05_I_40_20,WG_I_Tammileru South_Eluru,Rayannapalem,56,0,2511,1436,,,,,0,0,0,0
+5,05_I_40_21,WG_I_Tammileru South_Eluru,Vijayarai,30,30,1425,936,,,,,0,0,0,0
+6,05_I_40_22,WG_I_Tammileru South_Eluru,Muttanaveedu,10,11,88,210,,,,,0,0,0,0
+7,05_I_40_23,WG_I_Tammileru South_Eluru,Alliveedu,5,10,65,198,,,,,0,0,0,0
+8,05_I_40_24,WG_I_Tammileru South_Eluru,Jagannadhapuram,20,3,598,660,,,,,0,0,0,0
+9,05_I_40_25,WG_I_Tammileru South_Eluru,Kavvagunta,0,0,0,0,,,,,0,0,0,0
+10,05_I_40_26,WG_I_Tammileru South_Eluru,Dondapadu,60,0,114,0,,,,,0,0,0,0
+11,05_I_40_27,WG_I_Tammileru South_Eluru,Vanguru,0,0,0,0,,,,,0,0,0,0
+12,05_I_40_28,WG_I_Tammileru South_Eluru,Katlampudi,0,0,0,0,,,,,0,0,0,0
+13,05_I_40_29,WG_I_Tammileru South_Eluru,Jalipudi,0,0,0,0,,,,,0,0,0,0
+14,05_I_40_30,WG_I_Tammileru South_Eluru,Komadavolu,0,0,0,0,,,,,0,0,0,0
+15,05_I_40_31,WG_I_Tammileru South_Eluru,Tangellamudi,45,0,0,0,,,,,0,0,0,0
+16,05_I_40_32,WG_I_Tammileru South_Eluru,Chataparru,0,0,0,0,,,,,0,0,0,0
+17,05_I_40_33,WG_I_Tammileru South_Eluru,Chodimella,336,263,0,61,,,,,0,0,0,0
+18,05_I_40_34,WG_I_Tammileru South_Eluru,Eluru town,0,0,0,0,,,,,0,0,0,0
+19,05_I_40_35,WG_I_Tammileru South_Eluru,Madepalli,0,0,0,0,,,,,0,0,0,0
+1,05_I_40_18,WG_I_Pedapadu,B.Singavaram,0,0,0,0,,,,,0,0,0,0
+2,05_I_40_19,WG_I_Pedapadu,Pinakadimi,0,0,0,0,,,,,0,0,0,0
+3,05_I_40_20,WG_I_Pedapadu,Duggirala,0,0,0,0,,,,,0,0,0,0
+4,05_I_40_21,WG_I_Pedapadu,Koppaka,0,0,0,0,,,,,0,0,0,0
+5,05_I_40_22,WG_I_Pedapadu,Bhogapuram,0,0,0,0,,,,,0,0,0,0
+6,05_I_40_23,WG_I_Pedapadu,Pedapadu,1960,1969.6,0,0,,,,,0,0,0,0
+7,05_I_40_24,WG_I_Pedapadu,Ravulakunta,98.8,104,0,0,,,,,0,0,0,0
+8,05_I_40_25,WG_I_Pedapadu,Satyavolu,224.4,244,0,0,,,,,0,0,0,0
+9,05_I_40_26,WG_I_Pedapadu,S.Kothapalli,207.6,169.2,0,0,,,,,0,0,0,0
+10,05_I_40_27,WG_I_Pedapadu,Vasanthavada I,440,460,0,0,,,,,0,0,0,0
+11,05_I_40_28,WG_I_Pedapadu,Vasanthavada II,538.8,493.2,0,0,,,,,0,0,0,0
+12,05_I_40_29,WG_I_Pedapadu,Amruthalingampeta,87.2,50.4,0,0,,,,,0,0,0,0
+13,05_I_40_30,WG_I_Pedapadu,Gogunta,140,181.2,0,0,,,,,0,0,0,0
+14,05_I_40_31,WG_I_Pedapadu,Koniki,52.8,60,0,0,,,,,0,0,0,0
+15,05_I_40_32,WG_I_Pedapadu,Rajupeta,320.4,328,0,0,,,,,0,0,0,0
+16,05_I_40_33,WG_I_Pedapadu,Nandikeshwarapuram,18.4,18,0,0,,,,,0,0,0,0
+17,05_I_40_34,WG_I_Pedapadu,Punukolu,6.4,6.4,0,0,,,,,0,0,0,0
+18,05_I_40_35,WG_I_Pedapadu,Mupparru,1087.6,1226.8,0,0,,,,,0,0,0,0
+19,05_I_40_36,WG_I_Pedapadu,Kothuru,256.8,290.8,0,0,,,,,0,0,0,0
+20,05_I_40_37,WG_I_Pedapadu,Edulakunta,46.4,50,0,0,,,,,0,0,0,0
+21,05_I_40_38,WG_I_Pedapadu,Burugagudem,107.2,107.2,0,0,,,,,0,0,0,0
+22,05_I_40_39,WG_I_Pedapadu,Tallagudem,172.8,138,0,0,,,,,0,0,0,0
+23,05_I_40_40,WG_I_Pedapadu,Appanaveedu,0,0,0,0,,,,,0,0,0,0
+24,05_I_40_41,WG_I_Pedapadu,Epuru,100,0,0,0,,,,,0,0,0,0
+25,05_I_40_42,WG_I_Pedapadu,Tallamudi,120,60,0,0,,,,,0,0,0,0
+26,05_I_40_43,WG_I_Pedapadu,Kalaparru,296,20.8,0,0,,,,,0,0,0,0
+27,05_I_40_44,WG_I_Pedapadu,Vempadu,0,0,0,0,,,,,0,0,0,0
+28,05_I_40_45,WG_I_Pedapadu,Gogulapadu,263.2,191.2,0,0,,,,,0,0,0,0
+29,05_I_40_46,WG_I_Pedapadu,Kokkirapadu,0,0,0,0,,,,,0,0,0,0
+30,05_I_40_47,WG_I_Pedapadu,Vaddigudem,0,0,0,0,,,,,0,0,0,0
+31,05_I_40_48,WG_I_Pedapadu,Vatluru,825.2,260,0,0,,,,,0,0,0,0
+32,05_I_40_49,WG_I_Pedapadu,Sanivarapupeta,0,0,0,0,,,,,0,0,0,0
+33,05_I_40_50,WG_I_Pedapadu,Gavaravaram,0,0,0,0,,,,,0,0,0,0
+34,05_I_40_51,WG_I_Pedapadu,Satrampadu,0,0,0,0,,,,,0,0,0,0
+35,05_I_40_52,WG_I_Pedapadu,Ponangi,322.8,372,0,0,,,,,0,0,0,0
+36,05_I_40_53,WG_I_Pedapadu,Sriparru,0,0,0,0,,,,,0,0,0,0
+37,05_I_40_54,WG_I_Pedapadu,Manuru,0,0,0,0,,,,,0,0,0,0
+38,05_I_40_55,WG_I_Pedapadu,Kalakurru,0,0,0,0,,,,,0,0,0,0
+1,05_I_36_29,WG_I_ODJS_TANUKU,Duvva,1489,1489,3,1,,,,,0,0,0,0
+2,05_I_36_29,WG_I_ODJS_TANUKU,Tetali,282,282,15,3,,,,,0,0,0,0
+3,05_I_36_29,WG_I_ODJS_TANUKU,Tanuku,965,955,31,0,,,,,0,0,0,0
+4,05_I_36_29,WG_I_ODJS_TANUKU,Paidiparru,91,91,2,3,,,,,0,0,0,0
+5,05_I_36_29,WG_I_ODJS_TANUKU,Mandapaka,765,766,27,24,,,,,0,0,0,0
+6,05_I_36_29,WG_I_ODJS_TANUKU,Velpuru,487,425,74,39,,,,,0,0,0,0
+7,05_I_36_29,WG_I_ODJS_TANUKU,Komaravaram,176,176,8,10,,,,,0,0,0,0
+8,05_I_36_29,WG_I_ODJS_TANUKU,Konala,393,393,0,0,,,,,0,0,0,0
+9,05_I_36_29,WG_I_ODJS_TANUKU,Muddapuram,245,245,0,0,,,,,0,0,0,0
+10,05_I_36_29,WG_I_ODJS_TANUKU,T.Vemavaram,54,40,1,0,,,,,0,0,0,0
+11,05_I_36_29,WG_I_ODJS_TANUKU,Sajjapuram,0,0,0,0,,,,,0,0,0,0
+1,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Kaldari,790,728,27,24,,,,,0,0,0,0
+2,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Velivennu,356,367,37,10,,,,,0,0,0,0
+3,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Dammennu,100,108,11,3,,,,,0,0,0,0
+4,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Chilakapadu,127,148,36,14,,,,,0,0,0,0
+5,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Pasalapudi,723,723,1,0,,,,,0,0,0,0
+6,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Suryaraopalem,389,388,13,10,,,,,0,0,0,0
+7,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Satyavada,325,342,18,6,,,,,0,0,0,0
+8,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Morta,453,570,168,41,,,,,0,0,0,0
+9,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Velagadurru,15,15,0,0,,,,,0,0,0,0
+10,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Tadiparru,138,121,4,12,,,,,0,0,0,0
+11,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Undrajavaram,507,509,64,19,,,,,0,0,0,0
+12,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Vadluru,467,464,19,7,,,,,0,0,0,0
+13,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Chivatam,0,0,0,0,,,,,0,0,0,0
+14,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,K.Savaram,0,0,0,0,,,,,0,0,0,0
+15,05_I_36_27,WG_I_ODJS_UNDRAJAVARAM,Palangi,111,112,3,0,,,,,0,0,0,0
+1,05_I_36_28,WG_I_ODJS_Peravali,Nadupalli,139.2,121,5.3,0,,,,,0,0,0,0
+2,05_I_36_28,WG_I_ODJS_Peravali,Kanuru,449.2,373.1,9.3,1.25,,,,,0,0,0,0
+3,05_I_36_28,WG_I_ODJS_Peravali,K.Agraharam,360,320.9,1.7,0,,,,,0,0,0,0
+4,05_I_36_28,WG_I_ODJS_Peravali,Usulumarru,242.8,225.4,10.2,12.1,,,,,0,0,0,0
+5,05_I_36_28,WG_I_ODJS_Peravali,Teeparru,9.7,0.4,18.3,8.1,,,,,0,0,0,0
+6,05_I_36_28,WG_I_ODJS_Peravali,Ajjaram,94.3,110.9,7.7,14.1,,,,,0,0,0,0
+7,05_I_36_28,WG_I_ODJS_Peravali,Kakaraparru,78.9,39.3,60.2,63.5,,,,,0,0,0,0
+8,05_I_36_28,WG_I_ODJS_Peravali,Peravali,365.8,433,11.4,11.7,,,,,0,0,0,0
+9,05_I_36_28,WG_I_ODJS_Peravali,Kapavaram,352.5,351.7,0,0,,,,,0,0,0,0
+10,05_I_36_28,WG_I_ODJS_Peravali,Kothapalli,194.2,198.3,1.3,8.1,,,,,0,0,0,0
+11,05_I_36_28,WG_I_ODJS_Peravali,Mukkamala,186.6,245.6,38.4,159.1,,,,,0,0,0,0
+12,05_I_36_28,WG_I_ODJS_Peravali,Khandavalli,233.9,287.3,188.2,524.1,,,,,0,0,0,0
+13,05_I_36_28,WG_I_ODJS_Peravali,Malleshwaram,214.9,223,112.1,231.5,,,,,0,0,0,0
+14,05_I_36_28,WG_I_ODJS_Peravali,P.Vemavaram,333.9,333.9,42.9,72.8,,,,,0,0,0,0
+1,05_I_36_36,WG_I_36_Iragavaram,Relangi,1070,1060,262,78,,,,,0,0,0,0
+2,05_I_36_36,WG_I_36_Iragavaram,Kavalipuram,386,384,42,14,,,,,0,0,0,0
+3,05_I_36_36,WG_I_36_Iragavaram,Iragavaram,1214,1212,10,2,,,,,0,0,0,0
+4,05_I_36_36,WG_I_36_Iragavaram,Ogidi,214,212,15,5,,,,,0,0,0,0
+5,05_I_36_36,WG_I_36_Iragavaram,Eletipadu,101,112,20,1,,,,,0,0,0,0
+6,05_I_36_36,WG_I_36_Iragavaram,G.Khandrika,0,0,0,0,,,,,0,0,0,0
+7,05_I_36_36,WG_I_36_Iragavaram,Ithampudi,55,56,4,0,,,,,0,0,0,0
+8,05_I_36_36,WG_I_36_Iragavaram,Inaparu,314,307,11,5,,,,,0,0,0,0
+9,05_I_36_36,WG_I_36_Iragavaram,Kathavapadu,209,208,6,0,,,,,0,0,0,0
+10,05_I_36_36,WG_I_36_Iragavaram,Kantheru,304,303,4,0,,,,,0,0,0,0
+11,05_I_36_36,WG_I_36_Iragavaram,Kakileru,329,328,10,2,,,,,0,0,0,0
+12,05_I_36_36,WG_I_36_Iragavaram,Kothapadu,125,130,9,0,,,,,0,0,0,0
+13,05_I_36_36,WG_I_36_Iragavaram,Podalada,66,69,4,0,,,,,0,0,0,0
+14,05_I_36_36,WG_I_36_Iragavaram,Pekeru,410,401,29,10,,,,,0,0,0,0
+15,05_I_36_36,WG_I_36_Iragavaram,R.Khandrika,95,103,12,9,,,,,0,0,0,0
+16,05_I_36_36,WG_I_36_Iragavaram,K.Kumudavalli,210,215,15,5,,,,,0,0,0,0
+17,05_I_36_36,WG_I_36_Iragavaram,Turpuvipparru,228,224,7,1,,,,,0,0,0,0
+18,05_I_36_36,WG_I_36_Iragavaram,K.Illindalaparru,124,123,30,25,,,,,0,0,0,0
+19,05_I_36_36,WG_I_36_Iragavaram,Goteru,185,184,4,0,,,,,0,0,0,0
+20,05_I_36_36,WG_I_36_Iragavaram,Surampudi,123,121,45,3,,,,,0,0,0,0
+21,05_I_36_36,WG_I_36_Iragavaram,Rapaka,266,262,17,4,,,,,0,0,0,0
+1,05_I_36_30,WG_I_ODJS_Attili,Attili,1745,1745,18,18,,,,,0,0,0,0
+2,05_I_36_30,WG_I_ODJS_Attili,Pali,222,222,0,0,,,,,0,0,0,0
+3,05_I_36_30,WG_I_ODJS_Attili,Paluru,268,268,1,1,,,,,0,0,0,0
+4,05_I_36_30,WG_I_ODJS_Attili,Kommara,626,626,0,0,,,,,0,0,0,0
+5,05_I_36_30,WG_I_ODJS_Attili,Eduru,426,426,0,0,,,,,0,0,0,0
+6,05_I_36_30,WG_I_ODJS_Attili,Kanchumarru,267,267,2,2,,,,,0,0,0,0
+7,05_I_36_30,WG_I_ODJS_Attili,Manchili,622,622,19,19,,,,,0,0,0,0
+8,05_I_36_30,WG_I_ODJS_Attili,Aravalli,370,370,1,1,,,,,0,0,0,0
+9,05_I_36_30,WG_I_ODJS_Attili,Skinnerapuram,381,381,0,0,,,,,0,0,0,0
+10,05_I_36_30,WG_I_ODJS_Attili,Unikili,408,408,4,4,,,,,0,0,0,0
+11,05_I_36_30,WG_I_ODJS_Attili,Varigedu,629,629,0,0,,,,,0,0,0,0
+12,05_I_36_30,WG_I_ODJS_Attili,Tirupatipuram,388,388,0,0,,,,,0,0,0,0
+13,05_I_36_30,WG_I_ODJS_Attili,Ballipadu,381,381,1,1,,,,,0,0,0,0
+14,05_I_36_30,WG_I_ODJS_Attili,Gummampadu,140,140,1,1,,,,,0,0,0,0
+1,05_I_36_35,WG_I_ODJS_Penumantra,S.Illindalaparru,426,388,36,20,,,,,0,0,0,0
+2,05_I_36_35,WG_I_ODJS_Penumantra,Mallipudi,254,248,17,2,,,,,0,0,0,0
+3,05_I_36_35,WG_I_ODJS_Penumantra,Natharemeshwaram,308,310,12,1,,,,,0,0,0,0
+4,05_I_36_35,WG_I_ODJS_Penumantra,Juttiga,627,629,8,5,,,,,0,0,0,0
+5,05_I_36_35,WG_I_ODJS_Penumantra,Neggipudi,177,168,1,2,,,,,0,0,0,0
+6,05_I_36_35,WG_I_ODJS_Penumantra,Satyavaram,255,251,2,0,,,,,0,0,0,0
+7,05_I_36_35,WG_I_ODJS_Penumantra,Koyyetipadu,236,233,1,0,,,,,0,0,0,0
+8,05_I_36_35,WG_I_ODJS_Penumantra,Penumantra,1240,1251,62,8,,,,,0,0,0,0
+9,05_I_36_35,WG_I_ODJS_Penumantra,Mamuduru,496,513,67,5,,,,,0,0,0,0
+10,05_I_36_35,WG_I_ODJS_Penumantra,Polamuru,636,615,43,2,,,,,0,0,0,0
+11,05_I_36_35,WG_I_ODJS_Penumantra,Batlamaguturu,503,508,26,1,,,,,0,0,0,0
+12,05_I_36_35,WG_I_ODJS_Penumantra,Alamuru,427,421,8,1,,,,,0,0,0,0
+13,05_I_36_35,WG_I_ODJS_Penumantra,Velagaleru,89,89,3,0,,,,,0,0,0,0
+14,05_I_36_35,WG_I_ODJS_Penumantra,Marteru,222,217,2,6,,,,,0,0,0,0
+15,05_I_36_35,WG_I_ODJS_Penumantra,Oduru,360,360,36,1,,,,,0,0,0,0
+16,05_I_36_35,WG_I_ODJS_Penumantra,Nelamuru,315,290,15,1,,,,,0,0,0,0
+1,05_I_36_37,WG_I_ODJS_Penugonda,Vadali,506.15,508.17,48.96,46.93,,,,,0,0,0,0
+2,05_I_36_37,WG_I_ODJS_Penugonda,Sidhantham,667.59,679.728,97.1,84,,,,,0,0,0,0
+3,05_I_36_37,WG_I_ODJS_Penugonda,Elaparru,213.22,218.48,70,64.74,,,,,0,0,0,0
+4,05_I_36_37,WG_I_ODJS_Penugonda,Ramannapalem,198.66,245.59,70,22.66,,,,,0,0,0,0
+5,05_I_36_37,WG_I_ODJS_Penugonda,Venkatrampuram,67.97,68.37,14.16,13.76,,,,,0,0,0,0
+6,05_I_36_37,WG_I_ODJS_Penugonda,Cherukuwada,472.17,477.83,17.8,12.14,,,,,0,0,0,0
+7,05_I_36_37,WG_I_ODJS_Penugonda,Penugonda,843.19,857.75,29.94,15.37,,,,,0,0,0,0
+8,05_I_36_37,WG_I_ODJS_Penugonda,Munamurru,221.72,225.36,24.68,21.04,,,,,0,0,0,0
+9,05_I_36_37,WG_I_ODJS_Penugonda,Tamarada,177.62,187.73,23.47,13.35,,,,,0,0,0,0
+10,05_I_36_37,WG_I_ODJS_Penugonda,Kotalaparru,148.08,167.5,40.06,20.63,,,,,0,0,0,0
+11,05_I_36_37,WG_I_ODJS_Penugonda,Nadipudi,331.72,342.69,40.46,29.54,,,,,0,0,0,0
+12,05_I_36_37,WG_I_ODJS_Penugonda,Chinamallam,349.98,351.59,62.31,60.69,,,,,0,0,0,0
+13,05_I_36_37,WG_I_ODJS_Penugonda,Mulaparru,447.08,463.26,118.55,102.36,,,,,0,0,0,0
+14,05_I_36_37,WG_I_ODJS_Penugonda,Deva,273.11,282,35.2,26.3,,,,,0,0,0,0
+1,05_I_36_38,WG_I_ODJS_Achanta,Achanta,1681,1681,132,15,,,,,0,0,0,0
+2,05_I_36_38,WG_I_ODJS_Achanta,Penumanchili,456,456,55,9,,,,,0,0,0,0
+3,05_I_36_38,WG_I_ODJS_Achanta,Kodamanchili,615,615,94,17,,,,,0,0,0,0
+4,05_I_36_38,WG_I_ODJS_Achanta,Pedamallam,113,113,205,75,,,,,0,0,0,0
+5,05_I_36_38,WG_I_ODJS_Achanta,Koderu,109,109,42,21,,,,,0,0,0,0
+6,05_I_36_38,WG_I_ODJS_Achanta,Kandaravalli,129,129,12,0,,,,,0,0,0,0
+7,05_I_36_38,WG_I_ODJS_Achanta,Karugoruvilli,207,207,94,87,,,,,0,0,0,0
+8,05_I_36_38,WG_I_ODJS_Achanta,Bhimalapuram,18,18,355,49,,,,,0,0,0,0
+9,05_I_36_38,WG_I_ODJS_Achanta,Valluru,568,568,176,22,,,,,0,0,0,0
+10,05_I_36_38,WG_I_ODJS_Achanta,A.Vemavaram,879,879,50,1,,,,,0,0,0,0
+1,05_I_36_25,WG_I_ODJS_NIDAMARRU,Nidamarru,667,845,0,0,,,,,0,0,0,0
+2,05_I_36_25,WG_I_ODJS_NIDAMARRU,Chinanindrakolanu,0,0,0,0,,,,,0,0,0,0
+3,05_I_36_25,WG_I_ODJS_NIDAMARRU,Gunaparru,201,202,0,0,,,,,0,0,0,0
+4,05_I_36_25,WG_I_ODJS_NIDAMARRU,Amudalapalli,0,0,0,0,,,,,0,0,0,0
+5,05_I_36_25,WG_I_ODJS_NIDAMARRU,Tokalapalli,0,0,0,0,,,,,0,0,0,0
+6,05_I_36_25,WG_I_ODJS_NIDAMARRU,Bainepalli,0,0,0,0,,,,,0,0,0,0
+7,05_I_36_25,WG_I_ODJS_NIDAMARRU,Devaragopavaram,84,87,0,0,,,,,0,0,0,0
+8,05_I_36_25,WG_I_ODJS_NIDAMARRU,Pedanindrakolanu,667,1066,0,0,,,,,0,0,0,0
+9,05_I_36_25,WG_I_ODJS_NIDAMARRU,Narasimhapuram,153,153,0,0,,,,,0,0,0,0
+10,05_I_36_25,WG_I_ODJS_NIDAMARRU,V.Khandrika,28,28,0,0,,,,,0,0,0,0
+11,05_I_36_25,WG_I_ODJS_NIDAMARRU,Mandalaparru,171,172,0,0,,,,,0,0,0,0
+12,05_I_36_25,WG_I_ODJS_NIDAMARRU,Venkatapuram,137,263,0,0,,,,,0,0,0,0
+13,05_I_36_25,WG_I_ODJS_NIDAMARRU,timmaraogudem,317,399,0,0,,,,,0,0,0,0
+14,05_I_36_25,WG_I_ODJS_NIDAMARRU,Adavukolanu,1005,1410,0,0,,,,,0,0,0,0
+15,05_I_36_25,WG_I_ODJS_NIDAMARRU,P.Ramachandrapuram,52,52,0,0,,,,,0,0,0,0
+16,05_I_36_25,WG_I_ODJS_NIDAMARRU,Naganamilli,119,119,0,0,,,,,0,0,0,0
+17,05_I_36_25,WG_I_ODJS_NIDAMARRU,Buvvanapalli,146,146,0,0,,,,,0,0,0,0
+18,05_I_36_25,WG_I_ODJS_NIDAMARRU,Kakaramilli,78,78,0,0,,,,,0,0,0,0
+19,05_I_36_25,WG_I_ODJS_NIDAMARRU,Enikepali,96,97,0,0,,,,,0,0,0,0
+20,05_I_36_25,WG_I_ODJS_NIDAMARRU,Krishnapuram,55,56,0,0,,,,,0,0,0,0
+21,05_I_36_25,WG_I_ODJS_NIDAMARRU,Sidhapuram,87,88,0,0,,,,,0,0,0,0
+22,05_I_36_25,WG_I_ODJS_NIDAMARRU,Chanamilli,567,675,0,0,,,,,0,0,0,0
+23,05_I_36_25,WG_I_ODJS_NIDAMARRU,Bavaipalem,478,721,0,0,,,,,0,0,0,0
+24,05_I_36_25,WG_I_ODJS_NIDAMARRU,Krovvidi,498,847,0,0,,,,,0,0,0,0
+1,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Ganapavaram,382,382,71,71,,,,,0,0,0,0
+2,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Jagannadhapuram,240,240,43,43,,,,,0,0,0,0
+3,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Saripalli,307,307,16,16,,,,,0,0,0,0
+4,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Kothapalli,355,355,61,61,,,,,0,0,0,0
+5,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Varadarajapuram,135,135,64,64,,,,,0,0,0,0
+6,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Velagapalli,114,114,11,11,,,,,0,0,0,0
+7,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Valluru,315,315,24,24,,,,,0,0,0,0
+8,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Vereshwarapuram,116,116,2,2,,,,,0,0,0,0
+9,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Vakapalli,160,160,0,0,,,,,0,0,0,0
+10,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Jali Kommara,573,573,26,26,,,,,0,0,0,0
+11,05_I_36_31,WG_I_ODJS_GANAPAVARAM,A.Gopavaram,221,221,4,4,,,,,0,0,0,0
+12,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Muggulla,186,186,4,4,,,,,0,0,0,0
+13,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Ardhavaram,603,603,94,94,,,,,0,0,0,0
+14,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Pippara,875,875,11,11,,,,,0,0,0,0
+15,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Venkatrajapuram,47,47,0,0,,,,,0,0,0,0
+16,05_I_36_31,WG_I_ODJS_GANAPAVARAM,J.kakinada,244,244,6,6,,,,,0,0,0,0
+17,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Kesavaram,707,707,27,27,,,,,0,0,0,0
+18,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Kasipadu,463,463,12,12,,,,,0,0,0,0
+19,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Ch.Agraharam,229,229,2,2,,,,,0,0,0,0
+20,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Ch.Ramachandrapuram,89,89,6,6,,,,,0,0,0,0
+21,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Moyyeru,391,391,3,3,,,,,0,0,0,0
+22,05_I_36_31,WG_I_ODJS_GANAPAVARAM,D.Kumudavalli,172,172,1,1,,,,,0,0,0,0
+23,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Komarru,204,204,0,0,,,,,0,0,0,0
+24,05_I_36_31,WG_I_ODJS_GANAPAVARAM,Mupparthipadu,195,195,0,0,,,,,0,0,0,0
+25,05_I_36_31,WG_I_ODJS_GANAPAVARAM,S.Kondepadu,354,354,3,3,,,,,0,0,0,0
+1,05_I_36_26,WG_I_ODJS_Pentapadu,Pentapadu,237.55,236.34,0,0,,,,,0,0,0,0
+2,05_I_36_26,WG_I_ODJS_Pentapadu,D.Ch.Khandrika,46.13,46.13,0,0,,,,,0,0,0,0
+3,05_I_36_26,WG_I_ODJS_Pentapadu,Umamaheshwaram,171.59,171.59,0.81,0,,,,,0,0,0,0
+4,05_I_36_26,WG_I_ODJS_Pentapadu,Jatlapalem,808.97,808.97,0,0,,,,,0,0,0,0
+5,05_I_36_26,WG_I_ODJS_Pentapadu,Bodapadu,321.32,321.32,0,0,,,,,0,0,0,0
+6,05_I_36_26,WG_I_ODJS_Pentapadu,Mudunuru,666.11,666.11,6.07,0,,,,,0,0,0,0
+7,05_I_36_26,WG_I_ODJS_Pentapadu,Akutigapadu,333.06,333.06,0,0,,,,,0,0,0,0
+8,05_I_36_26,WG_I_ODJS_Pentapadu,Parimella,412.78,412.78,0,0,,,,,0,0,0,0
+9,05_I_36_26,WG_I_ODJS_Pentapadu,K.Pentapadu,527.31,527.31,0.81,0,,,,,0,0,0,0
+10,05_I_36_26,WG_I_ODJS_Pentapadu,Yanalapalli,355.31,355.31,2.02,0,,,,,0,0,0,0
+11,05_I_36_26,WG_I_ODJS_Pentapadu,N.Apparaopuram,57.87,57.87,0,0,,,,,0,0,0,0
+12,05_I_36_26,WG_I_ODJS_Pentapadu,W.Vipparru,1265.05,1256.15,34.8,0,,,,,0,0,0,0
+13,05_I_36_26,WG_I_ODJS_Pentapadu,Recharla,511.93,511.93,2.83,0,,,,,0,0,0,0
+14,05_I_36_26,WG_I_ODJS_Pentapadu,Vallurupalli,282.07,282.07,0,0,,,,,0,0,0,0
+15,05_I_36_26,WG_I_ODJS_Pentapadu,Alampuram,487.24,487.24,3.64,3.64,,,,,0,0,0,0
+16,05_I_36_26,WG_I_ODJS_Pentapadu,Ravipadu,921.07,921.07,0,0,,,,,0,0,0,0
+17,05_I_36_26,WG_I_ODJS_Pentapadu,chintapalli,218.13,218.13,0,0,,,,,0,0,0,0
+18,05_I_36_26,WG_I_ODJS_Pentapadu,Meenavalluru,501.81,501.81,0,4.45,,,,,0,0,0,0
+19,05_I_36_26,WG_I_ODJS_Pentapadu,Korumilli,232.69,232.69,0,0,,,,,0,0,0,0
+20,05_I_36_26,WG_I_ODJS_Pentapadu,B.kondepadu,299.06,299.06,0.4,0,,,,,0,0,0,0
+21,05_I_36_26,WG_I_ODJS_Pentapadu,Prathipadu,349.65,386.88,0,0.81,,,,,0,0,0,0
+22,05_I_36_26,WG_I_ODJS_Pentapadu,Darsiparru,738.15,738.15,0,0,,,,,0,0,0,0
+1,05_I_36_33,WG_I_ODJS_Undi,Undi,1506,1506,0,0,,,,,0,0,0,0
+2,05_I_36_33,WG_I_ODJS_Undi,Chilukuru,587,587,0,0,,,,,0,0,0,0
+3,05_I_36_33,WG_I_ODJS_Undi,Mahadevapatnam,462,462,0,0,,,,,0,0,0,0
+4,05_I_36_33,WG_I_ODJS_Undi,Velivarru,217,217,0,0,,,,,0,0,0,0
+5,05_I_36_33,WG_I_ODJS_Undi,N.R.P. Agraharam,252,252,0,0,,,,,0,0,0,0
+6,05_I_36_33,WG_I_ODJS_Undi,Yandagandi,785,785,0,0,,,,,0,0,0,0
+7,05_I_36_33,WG_I_ODJS_Undi,Vunudurru,480,480,0,0,,,,,0,0,0,0
+8,05_I_36_33,WG_I_ODJS_Undi,Pedapulleru,204,204,0,0,,,,,0,0,0,0
+9,05_I_36_33,WG_I_ODJS_Undi,Chinapulleru,209,209,0,0,,,,,0,0,0,0
+10,05_I_36_33,WG_I_ODJS_Undi,Vandrum,499,499,0,0,,,,,0,0,0,0
+11,05_I_36_33,WG_I_ODJS_Undi,Cherukuvada,725,725,0,0,,,,,0,0,0,0
+12,05_I_36_33,WG_I_ODJS_Undi,Kalisipudi,276,276,0,0,,,,,0,0,0,0
+13,05_I_36_33,WG_I_ODJS_Undi,Arthamuru,379,379,0,0,,,,,0,0,0,0
+14,05_I_36_33,WG_I_ODJS_Undi,Pamulaparru,328,328,0,0,,,,,0,0,0,0
+15,05_I_36_33,WG_I_ODJS_Undi,Kolamuru,924,924,0,0,,,,,0,0,0,0
+16,05_I_36_33,WG_I_ODJS_Undi,Uppuluru,489,489,0,0,,,,,0,0,0,0
+17,05_I_36_33,WG_I_ODJS_Undi,Pamduvva,460,460,0,0,,,,,0,0,0,0
+18,05_I_36_33,WG_I_ODJS_Undi,P.Khandrika,129,129,0,0,,,,,0,0,0,0
+19,05_I_36_33,WG_I_ODJS_Undi,Aredu,425,425,0,0,,,,,0,0,0,0
+20,05_I_36_33,WG_I_ODJS_Undi,Kaligotla,49,49,0,0,,,,,0,0,0,0
+1,05_I_36_32,WG_I_ODJS_AKIVEEDU,Akiveedu,720,720,0,0,,,,,0,0,0,0
+2,05_I_36_32,WG_I_ODJS_AKIVEEDU,Dumpagadapa,216,216,0,0,,,,,0,0,0,0
+3,05_I_36_32,WG_I_ODJS_AKIVEEDU,Sidhapuram,751,751,0,0,,,,,0,0,0,0
+4,05_I_36_32,WG_I_ODJS_AKIVEEDU,Arjamuru,116,116,0,0,,,,,0,0,0,0
+5,05_I_36_32,WG_I_ODJS_AKIVEEDU,Kollaparru,677,677,0,0,,,,,0,0,0,0
+6,05_I_36_32,WG_I_ODJS_AKIVEEDU,Kolleru,0,0,0,0,,,,,0,0,0,0
+7,05_I_36_32,WG_I_ODJS_AKIVEEDU,I.Bhimavaram,423,423,0,0,,,,,0,0,0,0
+8,05_I_36_32,WG_I_ODJS_AKIVEEDU,Cherukumilli,495,495,0,0,,,,,0,0,0,0
+9,05_I_36_32,WG_I_ODJS_AKIVEEDU,Kuppanapudi,346,346,0,0,,,,,0,0,0,0
+10,05_I_36_32,WG_I_ODJS_AKIVEEDU,Taratava,119,119,0,0,,,,,0,0,0,0
+11,05_I_36_32,WG_I_ODJS_AKIVEEDU,Gummuluru,423,423,0,0,,,,,0,0,0,0
+12,05_I_36_32,WG_I_ODJS_AKIVEEDU,Chinakapavaram,446,446,0,0,,,,,0,0,0,0
+13,05_I_36_32,WG_I_ODJS_AKIVEEDU,Pedakapavaram,1241,1241,0,0,,,,,0,0,0,0
+14,05_I_36_32,WG_I_ODJS_AKIVEEDU,Dharmapuram,332,332,0,0,,,,,0,0,0,0
+15,05_I_36_32,WG_I_ODJS_AKIVEEDU,Madiwada,382,382,0,0,,,,,0,0,0,0
+1,05_I_36_42,WG_I_36_KALLA,Kalla,911,911,0,0,,,,,0,0,0,0
+2,05_I_36_42,WG_I_36_KALLA,Kallakuru,554,554,0,0,,,,,0,0,0,0
+3,05_I_36_42,WG_I_36_KALLA,Dodanapudi,890,890,0,0,,,,,0,0,0,0
+4,05_I_36_42,WG_I_36_KALLA,Seesali,767,767,0,0,,,,,0,0,0,0
+5,05_I_36_42,WG_I_36_KALLA,Bondada,1054,1054,0,0,,,,,0,0,0,0
+6,05_I_36_42,WG_I_36_KALLA,Jakkaram,168,168,0,0,,,,,0,0,0,0
+7,05_I_36_42,WG_I_36_KALLA,Kolanapalli,445,445,0,0,,,,,0,0,0,0
+8,05_I_36_42,WG_I_36_KALLA,Kopalli,407,407,0,0,,,,,0,0,0,0
+9,05_I_36_42,WG_I_36_KALLA,Pedamiram,637,637,0,0,,,,,0,0,0,0
+10,05_I_36_42,WG_I_36_KALLA,Vempadu,134,134,0,0,,,,,0,0,0,0
+11,05_I_36_42,WG_I_36_KALLA,Pratallameraka,8,8,0,0,,,,,0,0,0,0
+12,05_I_36_42,WG_I_36_KALLA,Kalavapudi,16,16,0,0,,,,,0,0,0,0
+13,05_I_36_42,WG_I_36_KALLA,Elurupadu,609,609,0,0,,,,,0,0,0,0
+1,05_I_36_41,WG_I_ODJS_Bhimavaram,Bhimavaram,520,516,0,0,,,,,0,0,0,0
+2,05_I_36_41,WG_I_ODJS_Bhimavaram,Bethapudi,582,575,0,0,,,,,0,0,0,0
+3,05_I_36_41,WG_I_ODJS_Bhimavaram,Taderu,766,751,0,0,,,,,0,0,0,0
+4,05_I_36_41,WG_I_ODJS_Bhimavaram,Annavaram,271,268,0,0,,,,,0,0,0,0
+5,05_I_36_41,WG_I_ODJS_Bhimavaram,Anakoderu,482,476,0,0,,,,,0,0,0,0
+6,05_I_36_41,WG_I_ODJS_Bhimavaram,Rayalam,199,196,0,0,,,,,0,0,0,0
+7,05_I_36_41,WG_I_ODJS_Bhimavaram,komarada,433,423,0,0,,,,,0,0,0,0
+8,05_I_36_41,WG_I_ODJS_Bhimavaram,Kovada,54,53,0,0,,,,,0,0,0,0
+9,05_I_36_41,WG_I_ODJS_Bhimavaram,Narsimhapuram,93,93,0,0,,,,,0,0,0,0
+10,05_I_36_41,WG_I_ODJS_Bhimavaram,L.Gutlapadu,1063,1026,0,0,,,,,0,0,0,0
+11,05_I_36_41,WG_I_ODJS_Bhimavaram,Dirsumarru,652,628,0,0,,,,,0,0,0,0
+12,05_I_36_41,WG_I_ODJS_Bhimavaram,Yanamadru,543,530,0,0,,,,,0,0,0,0
+13,05_I_36_41,WG_I_ODJS_Bhimavaram,Chinamiram,276,273,0,0,,,,,0,0,0,0
+14,05_I_36_41,WG_I_ODJS_Bhimavaram,Vempa,546,545,0,0,,,,,0,0,0,0
+15,05_I_36_41,WG_I_ODJS_Bhimavaram,Tundurru,754,745,0,0,,,,,0,0,0,0
+16,05_I_36_41,WG_I_ODJS_Bhimavaram,Gunupudi,735,731,0,0,,,,,0,0,0,0
+1,05_I_36_34,WG_I_ODJS_Palakoderu,Palakoderu,345,350,0,0,,,,,0,0,0,0
+2,05_I_36_34,WG_I_ODJS_Palakoderu,Vissakoderu,622,611,0,0,,,,,0,0,0,0
+3,05_I_36_34,WG_I_ODJS_Palakoderu,Kumudavalli,376,372,0,0,,,,,0,0,0,0
+4,05_I_36_34,WG_I_ODJS_Palakoderu,Pennada,425,421,0,0,,,,,0,0,0,0
+5,05_I_36_34,WG_I_ODJS_Palakoderu,Goraganamudi,262,260,0,0,,,,,0,0,0,0
+6,05_I_36_34,WG_I_ODJS_Palakoderu,Vendra,206,209,0,0,,,,,0,0,0,0
+7,05_I_36_34,WG_I_ODJS_Palakoderu,Vendra agraharam,102,101,0,0,,,,,0,0,0,0
+8,05_I_36_34,WG_I_ODJS_Palakoderu,Kondepudi,238,237,0,0,,,,,0,0,0,0
+9,05_I_36_34,WG_I_ODJS_Palakoderu,Shrungavruksham,1222,1222,0,0,,,,,0,0,0,0
+10,05_I_36_34,WG_I_ODJS_Palakoderu,Mogallu,1029,1034,0,0,,,,,0,0,0,0
+11,05_I_36_34,WG_I_ODJS_Palakoderu,Korukollu,472,479,0,0,,,,,0,0,0,0
+12,05_I_36_34,WG_I_ODJS_Palakoderu,Maipa,238,233,0,0,,,,,0,0,0,0
+13,05_I_36_34,WG_I_ODJS_Palakoderu,Garagaparru,985,991,0,0,,,,,0,0,0,0
+14,05_I_36_34,WG_I_ODJS_Palakoderu,Gollakoderu,423,417,0,0,,,,,0,0,0,0
+1,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Veeravasavam,5143,1270,130,130,,,,,0,0,0,0
+2,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Nouduru,937,790,18,18,,,,,0,0,0,0
+3,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Andaluru,1043,940,3,3,,,,,0,0,0,0
+4,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Konithivada,1257,397,98,98,,,,,0,0,0,0
+5,05_I_36_40,WG_I_ODJS_VEERAVASARAM,M.Polavaram,658,638,12,12,,,,,0,0,0,0
+6,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Nelapogula,443,0,8,8,,,,,0,0,0,0
+7,05_I_36_40,WG_I_ODJS_VEERAVASARAM,P.Vemavaram,381,336,46,46,,,,,0,0,0,0
+8,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Tokalapudi,309,72,13,13,,,,,0,0,0,0
+9,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Rayakuduru,1959,274,91,91,,,,,0,0,0,0
+10,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Toleru,1941,1473,15,15,,,,,0,0,0,0
+11,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Bobbanavali,386,360,10,10,,,,,0,0,0,0
+12,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Mentepudi,374,371,18,18,,,,,0,0,0,0
+13,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Matsyapuri,1505,1588,4,4,,,,,0,0,0,0
+14,05_I_36_40,WG_I_ODJS_VEERAVASARAM,Matsyapuri Palem,388,300,6,6,,,,,0,0,0,0
+1,05_I_36_39,WG_I_36_PODURU,Panditavilluru,625,625,0,0,,,,,0,0,0,0
+2,05_I_36_39,WG_I_36_PODURU,Jagannadhapuram,378,378,5,5,,,,,0,0,0,0
+3,05_I_36_39,WG_I_36_PODURU,kavitam,577,577,12,12,,,,,0,0,0,0
+4,05_I_36_39,WG_I_36_PODURU,Poduru,893,893,81,81,,,,,0,0,0,0
+5,05_I_36_39,WG_I_36_PODURU,Miniminchinipadu,106,106,3,3,,,,,0,0,0,0
+6,05_I_36_39,WG_I_36_PODURU,Vaddiparru,293,293,75,75,,,,,0,0,0,0
+7,05_I_36_39,WG_I_36_PODURU,Gummuluru,631,631,75,75,,,,,0,0,0,0
+8,05_I_36_39,WG_I_36_PODURU,Ravipadu,207,207,21,21,,,,,0,0,0,0
+9,05_I_36_39,WG_I_36_PODURU,Penumadam,1431,1431,89,89,,,,,0,0,0,0
+10,05_I_36_39,WG_I_36_PODURU,Mattaparu,336,336,7,7,,,,,0,0,0,0
+11,05_I_36_39,WG_I_36_PODURU,Vedangi,411,411,88,88,,,,,0,0,0,0
+12,05_I_36_39,WG_I_36_PODURU,P.Polavaram,260,260,5,5,,,,,0,0,0,0
+13,05_I_36_39,WG_I_36_PODURU,Kommuchikkala,346,346,33,33,,,,,0,0,0,0
+14,05_I_36_39,WG_I_36_PODURU,Jinnuru,323,323,52,52,,,,,0,0,0,0
+1,05_I_36_45,WG_I_ODJS_Palakollu,Aratlakatla,244,244,28,15,,,,,0,0,0,0
+2,05_I_36_45,WG_I_ODJS_Palakollu,Palamooru,83,83,9,5,,,,,0,0,0,0
+3,05_I_36_45,WG_I_ODJS_Palakollu,S. Chikkala,426,426,18,20,,,,,0,0,0,0
+4,05_I_36_45,WG_I_ODJS_Palakollu,Ballipadu,110,110,4,3,,,,,0,0,0,0
+5,05_I_36_45,WG_I_ODJS_Palakollu,Daggulooru,266,266,14,16,,,,,0,0,0,0
+6,05_I_36_45,WG_I_ODJS_Palakollu,Chintaparru,145,145,19,11,,,,,0,0,0,0
+7,05_I_36_45,WG_I_ODJS_Palakollu,Kapavaram,326,326,173,98,,,,,0,0,0,0
+8,05_I_36_45,WG_I_ODJS_Palakollu,Ullamparru,246,246,37,16,,,,,0,0,0,0
+9,05_I_36_45,WG_I_ODJS_Palakollu,Palakollu,408,408,82,84,,,,,0,0,0,0
+10,05_I_36_45,WG_I_ODJS_Palakollu,Poolapalli,196,196,29,17,,,,,0,0,0,0
+11,05_I_36_45,WG_I_ODJS_Palakollu,Lankalakoderu,813,813,62,56,,,,,0,0,0,0
+12,05_I_36_45,WG_I_ODJS_Palakollu,Tillapudi,393,393,6,9,,,,,0,0,0,0
+13,05_I_36_45,WG_I_ODJS_Palakollu,Velevela,262,262,24,24,,,,,0,0,0,0
+14,05_I_36_45,WG_I_ODJS_Palakollu,Agarrru,658,658,45,26,,,,,0,0,0,0
+15,05_I_36_45,WG_I_ODJS_Palakollu,Chandaparru,218,218,6,50,,,,,0,0,0,0
+16,05_I_36_45,WG_I_ODJS_Palakollu,Gorintada,186,186,6,2,,,,,0,0,0,0
+17,05_I_36_45,WG_I_ODJS_Palakollu,Digamarru,351,351,65,27,,,,,0,0,0,0
+18,05_I_36_45,WG_I_ODJS_Palakollu,Varidhanam,122,122,39,23,,,,,0,0,0,0
+19,05_I_36_45,WG_I_ODJS_Palakollu,Pedamamidipalli,88,88,39,2,,,,,0,0,0,0
+1,05_I_36_46,WG_I_ODJS_Yelamanchili,Burugupalli,103,103,93,31,,,,,0,0,0,0
+2,05_I_36_46,WG_I_ODJS_Yelamanchili,Doddipatla,154,154,564,106,,,,,0,0,0,0
+3,05_I_36_46,WG_I_ODJS_Yelamanchili,Ilapakurru,478,478,239,24,,,,,0,0,0,0
+4,05_I_36_46,WG_I_ODJS_Yelamanchili,Siragalapalli,211,211,52,0,,,,,0,0,0,0
+5,05_I_36_46,WG_I_ODJS_Yelamanchili,Neredumilli,146,146,39,3,,,,,0,0,0,0
+6,05_I_36_46,WG_I_ODJS_Yelamanchili,Medapadu,300,300,72,8,,,,,0,0,0,0
+7,05_I_36_46,WG_I_ODJS_Yelamanchili,Kontheru,404,404,157,25,,,,,0,0,0,0
+8,05_I_36_46,WG_I_ODJS_Yelamanchili,Kaza,395,395,109,0,,,,,0,0,0,0
+9,05_I_36_46,WG_I_ODJS_Yelamanchili,Utada,26,26,18,1,,,,,0,0,0,0
+10,05_I_36_46,WG_I_ODJS_Yelamanchili,Yalamanchili,552,552,507,40,,,,,0,0,0,0
+11,05_I_36_46,WG_I_ODJS_Yelamanchili,Chinchinada,179,179,218,2,,,,,0,0,0,0
+12,05_I_36_46,WG_I_ODJS_Yelamanchili,Kalagampudi,35,35,48,0,,,,,0,0,0,0
+13,05_I_36_46,WG_I_ODJS_Yelamanchili,Y.V.Lanka,41,41,441,1,,,,,0,0,0,0
+14,05_I_36_46,WG_I_ODJS_Yelamanchili,Gumparru,496,496,76,8,,,,,0,0,0,0
+15,05_I_36_46,WG_I_ODJS_Yelamanchili,Penumarru,227,227,15,9,,,,,0,0,0,0
+1,05_I_36_44,WG_I_ODJS_Narasapuram,Navarasapuram,266,271,0,0,,,,,0,0,0,0
+2,05_I_36_44,WG_I_ODJS_Narasapuram,Gondi,58,85,0,0,,,,,0,0,0,0
+3,05_I_36_44,WG_I_ODJS_Narasapuram,Chittavaram,300,331,1,1,,,,,0,0,0,0
+4,05_I_36_44,WG_I_ODJS_Narasapuram,Chinamamidipalli,183,352,0,0,,,,,0,0,0,0
+5,05_I_36_44,WG_I_ODJS_Narasapuram,Saripalli,413,418,0,0,,,,,0,0,0,0
+6,05_I_36_44,WG_I_ODJS_Narasapuram,Likhitapudi,188,204,0,0,,,,,0,0,0,0
+7,05_I_36_44,WG_I_ODJS_Narasapuram,Mallavaram,871,902,0,0,,,,,0,0,0,0
+8,05_I_36_44,WG_I_ODJS_Narasapuram,K.Bethapudi,187,213,0,0,,,,,0,0,0,0
+9,05_I_36_44,WG_I_ODJS_Narasapuram,Kopparru,787,920,0,0,,,,,0,0,0,0
+10,05_I_36_44,WG_I_ODJS_Narasapuram,Rustumbada,561,670,19,23,,,,,0,0,0,0
+11,05_I_36_44,WG_I_ODJS_Narasapuram,Narsapuram,8,8,0,0,,,,,0,0,0,0
+12,05_I_36_44,WG_I_ODJS_Narasapuram,Madhavaipalem,182,179,0,0,,,,,0,0,0,0
+13,05_I_36_44,WG_I_ODJS_Narasapuram,Sitarampuram,306,289,9,11,,,,,0,0,0,0
+14,05_I_36_44,WG_I_ODJS_Narasapuram,L.B.Charla,976,749,6,15,,,,,0,0,0,0
+15,05_I_36_44,WG_I_ODJS_Narasapuram,Lakshmaneshwaram,733,704,5,13,,,,,0,0,0,0
+16,05_I_36_44,WG_I_ODJS_Narasapuram,Vemuladevi,819,971,13,45,,,,,0,0,0,0
+17,05_I_36_44,WG_I_ODJS_Narasapuram,Turputallu,0,0,11,26,,,,,0,0,0,0
+1,05_I_36_43,WG_I_ODJS_Mogalturu,Mogalturu,1159,1254,72,72,,,,,0,0,0,0
+2,05_I_36_43,WG_I_ODJS_Mogalturu,Seripalem,253,338,1,1,,,,,0,0,0,0
+3,05_I_36_43,WG_I_ODJS_Mogalturu,Kalipatnam,210,662,0,0,,,,,0,0,0,0
+4,05_I_36_43,WG_I_ODJS_Mogalturu,Mutyalapalli,143,581,0,0,,,,,0,0,0,0
+5,05_I_36_43,WG_I_ODJS_Mogalturu,K.P.Palem,121,143,52,52,,,,,0,0,0,0
+6,05_I_36_43,WG_I_ODJS_Mogalturu,Perupalem,102,73,48,48,,,,,0,0,0,0
