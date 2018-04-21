@@ -653,95 +653,95 @@ public class BasinXmltojson {
 			e.printStackTrace();
 		}
 
-        // json for gw and rainfall
-		if(assesssment_year.equals("2012-2013")) {     
-	
-	        try(BufferedReader iem = new BufferedReader(new FileReader(gw_rf_file))) {
-	              
-	              record = iem.readLine();
-	              while((record = iem.readLine()) != null) {
-	                  String fields[] = record.split(",",-1);
-	
-	                  
-	                  String basinName = format.removeQuotes(fields[format.convert("c")]);
-	                		  
-	                  //AreaType vs 'avg' vs 'level' vs Assessmentyear vs season vs pre-post vs data
-            		  Map<String, Map<String, Map<String, Map<String, Map<String, Map<String, Double>>>>>> gw = new HashMap<String, Map<String,Map<String,Map<String,Map<String,Map<String,Double>>>>>>();
-            		  gw.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
-            		  gw.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
-            		  gw.put(Constants.POOR_QUALITY, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
-            		  
-            		  gw.get(Constants.COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
-            		  gw.get(Constants.NON_COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
-            		  gw.get(Constants.POOR_QUALITY).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
-            		  
-            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
-            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
-            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
-            		  
-            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-            		  
-            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
-            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
-            		  
-            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
-            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
-            		  
-            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
-            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
-            		  
-            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
-            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
-            		  
-            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
-            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
-            		  
-            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
-            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
-
-            		  
-            		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
-            		  
-            		  //areaType vs AssessmentYear vs mon/nonmonsoon vs actual/normal vs value
-            		//areaType vs AssessmentYear vs mon/nonmonsoon vs actual/normal vs value
-            		  Map<String, Map<String, Map<String, Map<String, Double>>>> rf = new HashMap<String, Map<String,Map<String,Map<String,Double>>>>();
-            		  rf.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
-            		  rf.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
-            		  
-            		  rf.get(Constants.COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
-            		  rf.get(Constants.NON_COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
-            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
-            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
-            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
-            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
-            		 
-            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
-            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
-            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
-            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
-            		  
-            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
-            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
-            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
-            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
-            		  
-            		  Basin_details.get(basinName).rf_data =  (new Gson()).toJson(rf);
-            		  	  
-	              }
-	              
-	          }catch (IOException e) {
-	              e.printStackTrace();
-	          }
-        
-		}
+//        // json for gw and rainfall
+//		if(assesssment_year.equals("2012-2013")) {     
+//	
+//	        try(BufferedReader iem = new BufferedReader(new FileReader(gw_rf_file))) {
+//	              
+//	              record = iem.readLine();
+//	              while((record = iem.readLine()) != null) {
+//	                  String fields[] = record.split(",",-1);
+//	
+//	                  
+//	                  String basinName = format.removeQuotes(fields[format.convert("c")]);
+//	                		  
+//	                  //AreaType vs 'avg' vs 'level' vs Assessmentyear vs season vs pre-post vs data
+//            		  Map<String, Map<String, Map<String, Map<String, Map<String, Map<String, Double>>>>>> gw = new HashMap<String, Map<String,Map<String,Map<String,Map<String,Map<String,Double>>>>>>();
+//            		  gw.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+//            		  gw.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+//            		  gw.put(Constants.POOR_QUALITY, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+//            		  
+//            		  gw.get(Constants.COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+//            		  gw.get(Constants.NON_COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+//            		  gw.get(Constants.POOR_QUALITY).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+//            		  
+//            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+//            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+//            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+//            		  
+//            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+//            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+//            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
+//            		  
+//            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+//            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
+//            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
+//            		  
+//            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+//            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
+//            		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
+//            		  
+//            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+//            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
+//            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
+//            		  
+//            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+//            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
+//            		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
+//            		  
+//            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
+//            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
+//            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
+//            		  
+//            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+//            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
+//            		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
+//
+//            		  
+//            		  Basin_details.get(basinName).gw_data = (new Gson()).toJson(gw);
+//            		  
+//            		  //areaType vs AssessmentYear vs mon/nonmonsoon vs actual/normal vs value
+//            		//areaType vs AssessmentYear vs mon/nonmonsoon vs actual/normal vs value
+//            		  Map<String, Map<String, Map<String, Map<String, Double>>>> rf = new HashMap<String, Map<String,Map<String,Map<String,Double>>>>();
+//            		  rf.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
+//            		  rf.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
+//            		  
+//            		  rf.get(Constants.COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
+//            		  rf.get(Constants.NON_COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
+//            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
+//            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
+//            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
+//            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
+//            		 
+//            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
+//            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
+//            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
+//            		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
+//            		  
+//            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
+//            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
+//            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
+//            		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
+//            		  
+//            		  Basin_details.get(basinName).rf_data =  (new Gson()).toJson(rf);
+//            		  	  
+//	              }
+//	              
+//	          }catch (IOException e) {
+//	              e.printStackTrace();
+//	          }
+//        
+//		}
 		// json for basin
 		int count = 0;
 		try (BufferedWriter file = new BufferedWriter(new FileWriter(basinCQLOutputFileName))) {

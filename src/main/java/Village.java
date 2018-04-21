@@ -23,11 +23,12 @@ public class Village {
 	
 	public String rf_data=null;
 	public String gw_data=null;
+	public String old_rf_data=null;
+	public String old_gw_data=null;
 	public String canal_discharge=null;
 //	IrrigationUtilization irrigation_source;
 //	ResidentialUtilization residential_source;
 //	IndustrialUtilization industrial_source;
-	
 	
 	public Map<String, Map<String, Double>> getGwDependencyFactor() {
 		return gw_dependency;

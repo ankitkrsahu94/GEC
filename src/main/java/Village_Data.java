@@ -30,6 +30,8 @@ public class Village_Data {
 	int processed_status = 3;
 	String rf_data;
 	String gw_data;
+	String old_rf_data;
+	String old_gw_data;
 	String canal_discharge;
 
 	
@@ -67,6 +69,14 @@ public class Village_Data {
 		
 		if(vill.gw_data != null) {
 			this.gw_data = vill.gw_data;
+		}
+		
+		if(vill.old_gw_data != null) {
+			this.old_gw_data = vill.old_gw_data;
+		}
+		
+		if(vill.old_rf_data != null) {
+			this.old_rf_data = vill.old_rf_data;
 		}
 	}
 	

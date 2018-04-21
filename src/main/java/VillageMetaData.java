@@ -124,10 +124,8 @@ public class VillageMetaData {
                 //System.out.println("**"+MicroBasin_GWvillage_key);
             }
             int c1=0;
-//            System.out.println("ANKIT ::: locmapping : " + locmapping);
             for(String key:locmapping.keySet()){
             	//c1++;
-//            	System.out.println(key + " " + locmapping.get(key));
             	village_details.put(locmapping.get(key),new Village());
             }
             System.out.println("b4 naming"+village_details.size());
@@ -152,7 +150,6 @@ public class VillageMetaData {
         try(BufferedReader iem = new BufferedReader(new FileReader(basinIdfile))) {
             
         
-            record = iem.readLine();
             record = iem.readLine();
 
             while((record = iem.readLine()) != null) {
@@ -190,9 +187,6 @@ public class VillageMetaData {
                     	c++;
                     	village_details.get(IWMvillageName).setVillageId(VillageId);
                 	}
-                    else{
-//                    	System.out.println("ANKIT ::: village name detail is null for village : " + IWMvillageName);
-                    }
                 }
 
             }
@@ -241,7 +235,7 @@ public class VillageMetaData {
                 if(fields.length==3){
                 	int cropcode = Integer.parseInt(fields[format.convert("a")]);
                     String source =format.removeQuotes(fields[format.convert("b")]);
-                    double area = Double.parseDouble(fields[format.convert("c")]);
+                    double area = Utils.parseDouble(fields[format.convert("c")]);
                     if(paddykharif.get(cropcode)==null){
                     	Map<String,Double> water = new HashMap<>();
                         water.put(source, area);
@@ -270,7 +264,7 @@ public class VillageMetaData {
                 if(fields.length==3){
                 	int cropcode = Integer.parseInt(fields[format.convert("a")]);
                     String source =format.removeQuotes(fields[format.convert("b")]);
-                    double area = Double.parseDouble(fields[format.convert("c")]);
+                    double area = Utils.parseDouble(fields[format.convert("c")]);
                     if(paddyrabi.get(cropcode)==null){
                     	Map<String,Double> water = new HashMap<>();
                         water.put(source, area);
@@ -299,7 +293,7 @@ public class VillageMetaData {
                 if(fields.length==3){
                 	int cropcode = Integer.parseInt(fields[format.convert("a")]);
                     String source =format.removeQuotes(fields[format.convert("b")]);
-                    double area = Double.parseDouble(fields[format.convert("c")]);
+                    double area = Utils.parseDouble(fields[format.convert("c")]);
                     if(nonpaddykharif.get(cropcode)==null){
                     	Map<String,Double> water = new HashMap<>();
                         water.put(source, area);
@@ -328,7 +322,7 @@ public class VillageMetaData {
                 if(fields.length==3){
                 	int cropcode = Integer.parseInt(fields[format.convert("a")]);
                     String source =format.removeQuotes(fields[format.convert("b")]);
-                    double area = Double.parseDouble(fields[format.convert("c")]);
+                    double area = Utils.parseDouble(fields[format.convert("c")]);
                     if(nonpaddyrabi.get(cropcode)==null){
                     	Map<String,Double> water = new HashMap<>();
                         water.put(source, area);
@@ -392,9 +386,10 @@ public class VillageMetaData {
             			yield = (fields[3+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[3+(12*index)]);
             			yield = (yield == 0.0)?2400.0:yield;
             			yield = yield * (7*Constants.LITRES_TO_HAM);
-            			monsoonDays = (fields[5+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[5+(12*index)]);
+            			yield = Utils.round(yield, Constants.DECIMAL);
+            			monsoonDays = (fields[5+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[5+(12*index)]);
                 		operationDaysAgriculture.put(Constants.MONSOON, monsoonDays);
-                		nonMonsoonDays = (fields[6+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[6+(12*index)]);
+                		nonMonsoonDays = (fields[6+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[6+(12*index)]);
                 		operationDaysAgriculture.put(Constants.NON_MONSOON, nonMonsoonDays);
                 		wellDataAgriculture.setYield(yield);
                 		wellDataAgriculture.setOperativeDays(operationDaysAgriculture);
@@ -403,12 +398,13 @@ public class VillageMetaData {
                 		/**
                 		 * Domestic
                 		 */
-                		yield = (fields[7+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[7+(12*index)]);
+                		yield = (fields[7+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[7+(12*index)]);
                 		yield = (yield == 0.0)?284.0:yield;
                 		yield = yield * (7*Constants.LITRES_TO_HAM);
-                		monsoonDays = (fields[9+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[9+(12*index)]);
+                		yield = Utils.round(yield, Constants.DECIMAL);
+                		monsoonDays = (fields[9+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[9+(12*index)]);
                 		operationDaysDomestic.put(Constants.MONSOON, monsoonDays);
-                		nonMonsoonDays = (fields[10+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[10+(12*index)]);
+                		nonMonsoonDays = (fields[10+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[10+(12*index)]);
                 		operationDaysDomestic.put(Constants.NON_MONSOON, nonMonsoonDays);
                 		wellDataDomestic.setYield(yield);
                 		wellDataDomestic.setOperativeDays(operationDaysDomestic);
@@ -418,12 +414,13 @@ public class VillageMetaData {
                 		 */
 //                		System.out.println("index : " + index);
 //                		System.out.println(" fields : " + record);
-                		yield = (fields[11+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[11+(12*index)]);
+                		yield = (fields[11+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[11+(12*index)]);
                 		yield = (yield == 0.0)?4000.0:yield;
                 		yield = yield * (7*Constants.LITRES_TO_HAM);
-                		monsoonDays = (fields[13+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[13+(12*index)]);
+                		yield = Utils.round(yield, Constants.DECIMAL);
+                		monsoonDays = (fields[13+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[13+(12*index)]);
                 		operationDaysIndustry.put(Constants.MONSOON, monsoonDays);
-                		nonMonsoonDays = (fields[14+(12*index)].isEmpty())?0.0:Double.parseDouble(fields[14+(12*index)]);
+                		nonMonsoonDays = (fields[14+(12*index)].isEmpty())?0.0:Utils.parseDouble(fields[14+(12*index)]);
                 		operationDaysIndustry.put(Constants.NON_MONSOON, nonMonsoonDays);
                 		wellDataIndustry.setYield(yield);
                 		wellDataIndustry.setOperativeDays(operationDaysIndustry);
@@ -598,10 +595,7 @@ public class VillageMetaData {
         }catch (IOException e) {
             e.printStackTrace();
         }
-        
-//        System.out.println("ANKIT ::: VILLA : " + village_details);
-        
-        
+               
       //json for area
         Gson Area = new Gson();
         JSONObject jsn = new JSONObject();
@@ -634,16 +628,16 @@ public class VillageMetaData {
                     	keyRepetition.put(MicroBasin_GWvillage_key, 0);
              	   
                 	if(!fields[4].isEmpty()){
-	                	total=Double.parseDouble(fields[4]);
+	                	total=Utils.parseDouble(fields[4]);
 	                }
 	                if(!fields[5].isEmpty()){
-	                	command = Double.parseDouble(fields[5]);
+	                	command = Utils.parseDouble(fields[5]);
 	                }
 	                if(!fields[9].isEmpty()){
-	                    nonCommand=Double.parseDouble(fields[9]);
+	                    nonCommand=Utils.parseDouble(fields[9]);
 	                }
 	                if(!fields[13].isEmpty()){
-	                	poorQuality=Double.parseDouble(fields[13]);
+	                	poorQuality=Utils.parseDouble(fields[13]);
 	                }
                 	double hilly=0;
                 	double forest =0;
@@ -737,13 +731,14 @@ public class VillageMetaData {
                     String villageName = format.removeQuotes(fields[format.convert("d")]);
                 	String MicroBasin_GWvillage_key = BasinName + "##" + villageName;
              	   
+                	
              	   	if(keyRepetition.containsKey(MicroBasin_GWvillage_key)){
                     	int times = keyRepetition.get(MicroBasin_GWvillage_key)+1;
                     	keyRepetition.put(MicroBasin_GWvillage_key, times);
                     	MicroBasin_GWvillage_key = MicroBasin_GWvillage_key + "-" + String.valueOf(times);
                     }else
                     	keyRepetition.put(MicroBasin_GWvillage_key, 0);
-             	   	
+             	   
                    if(locmapping.keySet().contains(MicroBasin_GWvillage_key)){
                 	   double commandArea = Utils.parseDouble(fields[format.convert("f")]);
                        double nonCommandArea = Utils.parseDouble(fields[format.convert("j")]);
@@ -757,7 +752,8 @@ public class VillageMetaData {
                        Villagearea = (areaobj.total > 0.0)?areaobj.total:1;
                        
                        if(Basin_Id.containsKey(basinmapping.get(BasinName))) {
-                    		BasinCode = Basin_Id.get(basinmapping.get(BasinName));
+
+                    	    BasinCode = Basin_Id.get(basinmapping.get(BasinName));
                     		Map<Integer, Map<String, Double>> locAssociation = village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getBasinAssociation();
                               
                     		if(locAssociation == null)
@@ -766,10 +762,10 @@ public class VillageMetaData {
                     		if(locAssociation.get(BasinCode) == null)
                     			locAssociation.put(BasinCode, new HashMap<String, Double>());
                     		
-                    		locAssociation.get(BasinCode).put(Constants.COMMAND, (commandArea/tCommandArea));
-                    		locAssociation.get(BasinCode).put(Constants.NON_COMMAND, (nonCommandArea/tNonCommandArea));
-                    		locAssociation.get(BasinCode).put(Constants.POOR_QUALITY, (poorQualityArea/tPoorQualityArea));
-                    		locAssociation.get(BasinCode).put(Constants.TOTAL, (fractionArea/Villagearea));
+                    		locAssociation.get(BasinCode).put(Constants.COMMAND, Utils.round((commandArea/tCommandArea), Constants.DECIMAL));
+                    		locAssociation.get(BasinCode).put(Constants.NON_COMMAND, Utils.round((nonCommandArea/tNonCommandArea), Constants.DECIMAL));
+                    		locAssociation.get(BasinCode).put(Constants.POOR_QUALITY, Utils.round((poorQualityArea/tPoorQualityArea), Constants.DECIMAL));
+                    		locAssociation.get(BasinCode).put(Constants.TOTAL, Utils.round((fractionArea/Villagearea), Constants.DECIMAL));
                     		village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setBasinAssociation(locAssociation);
                     		
                     	}
@@ -1806,7 +1802,6 @@ public class VillageMetaData {
             		artificialWC.get(Constants.OTHER).getCapacity().put(Constants.POOR_QUALITY, Utils.parseDouble(fields[format.convert("ah")]));
             		
                  	if(locmapping.containsKey(MicroBasin_GWvillage_key)){
-//                 		System.out.println("ANKIT ::: inside locMaping");
                  		if(village_details.get(locmapping.get(MicroBasin_GWvillage_key)).getArtificialWC()==null){
                          	count++;
                          	village_details.get(locmapping.get(MicroBasin_GWvillage_key)).setArtificialWC(artificialWC);
@@ -2191,73 +2186,53 @@ public class VillageMetaData {
                 	
                 	  if(basinKey.split("##")[0].equals(basinName) ) {
                 		 
-                		  //AreaType vs 'avg' vs 'level' vs Assessmentyear vs season vs pre-post vs data
-                		  Map<String, Map<String, Map<String, Map<String, Map<String, Map<String, Double>>>>>> gw = new HashMap<String, Map<String,Map<String,Map<String,Map<String,Map<String,Double>>>>>>();
-                		  gw.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
-                		  gw.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
-                		  gw.put(Constants.POOR_QUALITY, new HashMap<String, Map<String,Map<String,Map<String,Map<String,Double>>>>>());
+                		  //assessmentYear vs areaType vs Season vs pre/post vs value
+                		  Map<String, Map<String, Map<String, Map<String, Double>>>> gw = new HashMap<>();
+                		  gw.put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Map<String,Double>>>());
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.COMMAND, new HashMap<String, Map<String,Double>>());
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
                 		  
-                		  gw.get(Constants.COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
-                		  gw.get(Constants.NON_COMMAND).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
-                		  gw.get(Constants.POOR_QUALITY).put(Constants.AVERAGE, new HashMap<String, Map<String,Map<String,Map<String,Double>>>>());
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_COMMAND, new HashMap<String, Map<String,Double>>());
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
+                		  gw.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
                 		  
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).put(Constants.LEVEL, new HashMap<String, Map<String,Map<String,Double>>>());
+//                		  village_details.get(locmapping.get(basinKey)).gw_data = "";//(new Gson()).toJson(gw);
+                		  village_details.get(locmapping.get(basinKey)).old_gw_data = (new Gson()).toJson(gw);
                 		  
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Double>>());
-                		  
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("h")]));
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("i")]));
-                		  
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("i")]));
-                		  gw.get(Constants.COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("j")]));
-                		  
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
-                		  
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
-                		  gw.get(Constants.NON_COMMAND).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
-                		  
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("d")]));
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("e")]));
-                		  
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_MONSOON, new HashMap<String, Double>());
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.PRE, Utils.parseDouble(fields[format.convert("e")]));
-                		  gw.get(Constants.POOR_QUALITY).get(Constants.AVERAGE).get(Constants.LEVEL).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_MONSOON).put(Constants.POST, Utils.parseDouble(fields[format.convert("f")]));
-
-                		  village_details.get(locmapping.get(basinKey)).gw_data = (new Gson()).toJson(gw);
-                		  
-                		  //areaType vs AssessmentYear vs mon/nonmonsoon vs actual/normal vs value
+                		  //assessmentYear vs areaType vs season vs actual/Normal vs value
                 		  Map<String, Map<String, Map<String, Map<String, Double>>>> rf = new HashMap<String, Map<String,Map<String,Map<String,Double>>>>();
-                		  rf.put(Constants.COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
-                		  rf.put(Constants.NON_COMMAND, new HashMap<String, Map<String,Map<String,Double>>>());
                 		  
-                		  rf.get(Constants.COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
-                		  rf.get(Constants.NON_COMMAND).put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String, Double>>());
-                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
-                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
-                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.ACTUAL, new HashMap<String, Double>());
-                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NORMAL, new HashMap<String, Double>());
-                		 
-                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
-                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
-                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
-                		  rf.get(Constants.COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
+                		  rf.put(Constants.GEC_ASSESSMENT_YEAR, new HashMap<String, Map<String,Map<String,Double>>>());
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.COMMAND, new HashMap<String, Map<String,Double>>());
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).put(Constants.NON_COMMAND, new HashMap<String, Map<String,Double>>());
                 		  
-                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("r")]));
-                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.MONSOON, Utils.parseDouble(fields[format.convert("o")]));
-                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.ACTUAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("s")]));
-                		  rf.get(Constants.NON_COMMAND).get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NORMAL).put(Constants.NON_MONSOON, Utils.parseDouble(fields[format.convert("p")]));
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
                 		  
-                		  village_details.get(locmapping.get(basinKey)).rf_data =  (new Gson()).toJson(rf);
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.COMMAND).get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
+                		  
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).put(Constants.MONSOON, new HashMap<String, Double>());
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).get(Constants.MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("r")]));
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).get(Constants.MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("o")]));
+                		  
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).put(Constants.NON_MONSOON, new HashMap<String, Double>());
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).get(Constants.NON_MONSOON).put(Constants.ACTUAL, Utils.parseDouble(fields[format.convert("s")]));
+                		  rf.get(Constants.GEC_ASSESSMENT_YEAR).get(Constants.NON_COMMAND).get(Constants.NON_MONSOON).put(Constants.NORMAL, Utils.parseDouble(fields[format.convert("p")]));
+                		  
+//                		  village_details.get(locmapping.get(basinKey)).rf_data =  "";//(new Gson()).toJson(rf);
+                		  village_details.get(locmapping.get(basinKey)).old_rf_data =  (new Gson()).toJson(rf);
 
                 		  
                 		  Map<String, Population> population = populationjsn.fromJson(village_details.get(locmapping.get(basinKey)).getPopulation(), new TypeToken<Map<String, Population>>(){}.getType());
