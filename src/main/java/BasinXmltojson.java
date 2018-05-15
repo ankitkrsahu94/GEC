@@ -3,11 +3,10 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
-import org.json.JSONObject;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -18,14 +17,13 @@ public class BasinXmltojson {
 	public static void compute(String distName, String path, BufferedWriter bw) {
 		
 		String filePath = path+distName+"/";
-		String assesssment_year = Village_Data.assesYear; 
 
 
 		/**
 		 * output files
 		 */
-		String basinCQLOutputFileName = path+"final_scripts/"+distName+"-InsertBasin-"+Constants.GEC_ASSESSMENT_YEAR+".cql";;
-
+		String basinCQLOutputFileName = path+"final_scripts/basinFiles/"+distName+"-basinMD-"+Constants.GEC_ASSESSMENT_YEAR+".cql";;
+		String mbVillAssocFile = path+"final_scripts/locIntersectionFiles/"+distName+"-mbVillIntersection-"+Constants.GEC_ASSESSMENT_YEAR+".cql";
 		/**
 		 * Source files for data creation
 		 */
@@ -34,11 +32,7 @@ public class BasinXmltojson {
 		String areafile = filePath+"area.csv";
 		String geologicalFile = filePath+"geological_data.csv";
 		String wellsSpecificYieldFile = filePath+"rainfall_unit_drift.csv";
-		String waterbodiesfile = filePath+"mi_tanks.csv";
 		String canalfile = filePath+"canals.csv";
-		String artificialWCfile = filePath+"wc_structures.csv";
-		String populationfile = filePath+"population.csv";
-        String gw_rf_file = filePath+"rf_gw_data.csv";
 
 		
 		/**
@@ -46,6 +40,7 @@ public class BasinXmltojson {
          */
         String basinIdfile = filePath+"../base_md/location/iwm_basin_name_id_map.csv";
         String villageIdfile = filePath+"../base_md/location/iwm_village_name_id_map.csv";
+        String villageUUIDFile = filePath+"../base_md/location/village_uuid.csv";
         
 		String record = "";
 		HashMap<String, String> locmapping = new HashMap<>();
@@ -53,6 +48,7 @@ public class BasinXmltojson {
 		HashMap<String, Integer> Basin_Id = new HashMap<>();
 		HashMap<String, Integer> village_id = new HashMap<>();
 		Map<String, MicroBasin> Basin_details = new HashMap<>();
+		Map<String, Map<String, Area>> mbVillAreaInfo = new HashMap<String, Map<String,Area>>();
 		Map<String, Double> Area = new HashMap<>();
 		Map<String, String> wellsNameMapping = new HashMap<String, String>();
 		wellsNameMapping.put("DW", "dugwell");
@@ -157,8 +153,6 @@ public class BasinXmltojson {
 						total = Double.parseDouble(fields[format.convert("e")]);
 					}
 					String iwmBasinName = locmapping.get(format.removeQuotes(fields[format.convert("c")]));
-					String gwVillageName = format.removeQuotes(fields[format.convert("d")]);
-					String villKey = format.removeQuotes(fields[format.convert("c")]) + "##" + gwVillageName;
 					if (iwmBasinName != null) {
 
 						if (Area.get(iwmBasinName) == null) {
@@ -179,12 +173,9 @@ public class BasinXmltojson {
 		}
 		// json for area
 		Gson Areajs = new Gson();
-		JSONObject jsn = new JSONObject();
 		// inserting into area json Object
 		try (BufferedReader iem = new BufferedReader(new FileReader(areafile))) {
 
-			int count = 0;
-			int c2 = 0;
 			record = iem.readLine();
 			record = iem.readLine();
 			int test = 0;
@@ -198,43 +189,57 @@ public class BasinXmltojson {
 				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 
 						|| fields.length == 26 || fields.length == 31) {
 					double total = 0;
-					double command = 0;
-					double nonCommand = 0;
-					double poorQuality = 0;
+                	double totalRec = 0;
+                	double totalNonRec = 0;
+                	double totCommand = 0;
+                	double totNonCommand = 0;
+                	double totPoorQuality = 0;
+                	double recCommand = 0;
+                	double recNonCommand = 0;
+                	double recPoorQuality = 0;
+                	double nonRecCommand = 0;
+                	double nonRecNonCommand = 0;
+                	double nonRecPoorQuality = 0;
 
-					if (!fields[4].isEmpty()) {
-						total = Double.parseDouble(fields[4]);
-					}
-					if (!fields[5].isEmpty()) {
-						command = Double.parseDouble(fields[5]);
-					}
-					if (!fields[9].isEmpty()) {
-						nonCommand = Double.parseDouble(fields[9]);
-					}
-					if (!fields[13].isEmpty()) {
-						poorQuality = Double.parseDouble(fields[13]);
-					}
-					double hilly = 0;
-					double forest = 0;
-					if (!fields[6].isEmpty() || !fields[10].isEmpty() || !fields[14].isEmpty()) {
-						hilly = Utils.parseDouble(fields[6]) + Utils.parseDouble(fields[10])
-								+ Utils.parseDouble(fields[14]);
-					}
-					if (!fields[7].isEmpty() || !fields[11].isEmpty() || !fields[15].isEmpty()) {
-						forest = Utils.parseDouble(fields[7]) + Utils.parseDouble(fields[11])
-								+ Utils.parseDouble(fields[15]);
-					}
-					Area area = new Area();
-					total = command + nonCommand + poorQuality + hilly + forest;
+                	if(!fields[4].isEmpty()){
+	                	total=Utils.parseDouble(fields[4]);
+	                }
+	                if(!fields[5].isEmpty()){
+	                	recCommand = Utils.parseDouble(fields[5]);
+	                }
+	                if(!fields[9].isEmpty()){
+	                	recNonCommand=Utils.parseDouble(fields[9]);
+	                }
+	                if(!fields[13].isEmpty()){
+	                	recPoorQuality=Utils.parseDouble(fields[13]);
+	                }
+	                
+	                totalRec = recCommand + recNonCommand + recPoorQuality;
+	                
+	                nonRecCommand = Utils.parseDouble(fields[6]) + Utils.parseDouble(fields[7]);
+            		nonRecNonCommand = Utils.parseDouble(fields[10]) + Utils.parseDouble(fields[11]);
+            		nonRecPoorQuality = Utils.parseDouble(fields[14]) + Utils.parseDouble(fields[15]);
+                	
+            		totalNonRec = nonRecCommand + nonRecNonCommand + nonRecPoorQuality;
+            		
+            		totCommand = recCommand + nonRecCommand;
+            		totNonCommand = recNonCommand + nonRecNonCommand;
+            		totPoorQuality = recPoorQuality + nonRecPoorQuality;
+            		
+            		total = totalRec + totalNonRec;
+            		
+            		Map<String, Area> areaInfo = new HashMap<>();
+            		//Total across all categories
+            		Area totalArea = new Area(totCommand, totNonCommand, totPoorQuality, total);
+            		areaInfo.put(Constants.TOTAL, totalArea);
+            		//For recharge worthy
+            		Area recArea = new Area(recCommand, recNonCommand, recPoorQuality, totalRec);
+                	areaInfo.put(Constants.RECHARGE_WORTHY, recArea);
+                	//For non recharge worthy
+            		Area nonRecArea = new Area(nonRecCommand, nonRecNonCommand, nonRecPoorQuality, totalRec);
+                	areaInfo.put(Constants.NON_RECHARGE_WORTHY, nonRecArea);
 					
-					area.command = command;
-					area.non_command = nonCommand;
-					area.poor_quality = poorQuality;
-					area.hilly = hilly;
-					area.forest = forest;
-					area.total = total;
-					
-					String areajson = Areajs.toJson(area);
+					String areajson = Areajs.toJson(areaInfo);
 					// JSONObject jsn = new JSONObject(areajson.getBytes());
 					// System.out.println(areajson);
 //					System.out.println("locmaping : " + locmapping.keySet());
@@ -242,7 +247,6 @@ public class BasinXmltojson {
 
 						if (Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
 								.getArea() == null) {
-							count++;
 							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
 									.setArea(areajson);
 							if (total == 0) {
@@ -250,47 +254,65 @@ public class BasinXmltojson {
 								// System.out.println(village_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")]))));
 							}
 						} else {
-							Area areaobj = Areajs.fromJson(Basin_details
-									.get(locmapping.get(format.removeQuotes(fields[format.convert("c")]))).getArea(),
-									Area.class);
 							
-							total += areaobj.total;
-							command += areaobj.command;
-							nonCommand += areaobj.non_command;
-							poorQuality += areaobj.poor_quality;
-							hilly += areaobj.hilly;
-							forest += areaobj.forest;
-							Area areaObj = new Area();
-							areaObj.command = command;
-							areaObj.non_command = nonCommand;
-							areaObj.poor_quality = poorQuality;
-							areaObj.hilly = hilly;
-							areaObj.forest = forest;
-							areaObj.total = total;
-							String areaObjjson = Areajs.toJson(areaObj);
-							Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
-									.setArea(areaObjjson);
+							Type type;
+                			type = new TypeToken<Map<String, Area>>() {}.getType();
+            				
+            				Map<String, Area> areaobj= Areajs.fromJson(Basin_details
+									.get(locmapping.get(format.removeQuotes(fields[format.convert("c")]))).getArea(), type);
 
+                			total += areaobj.get(Constants.TOTAL).total;
+                			totCommand += areaobj.get(Constants.TOTAL).command;
+                   			totNonCommand += areaobj.get(Constants.TOTAL).non_command;
+                			totPoorQuality += areaobj.get(Constants.TOTAL).poor_quality;
+                			
+                			totalRec += areaobj.get(Constants.RECHARGE_WORTHY).total;
+                			recCommand += areaobj.get(Constants.RECHARGE_WORTHY).command;
+                   			recNonCommand += areaobj.get(Constants.RECHARGE_WORTHY).non_command;
+                			recPoorQuality += areaobj.get(Constants.RECHARGE_WORTHY).poor_quality;
+                			
+                			totalNonRec += areaobj.get(Constants.NON_RECHARGE_WORTHY).total;
+                			nonRecCommand += areaobj.get(Constants.NON_RECHARGE_WORTHY).command;
+                   			nonRecNonCommand += areaobj.get(Constants.NON_RECHARGE_WORTHY).non_command;
+                			nonRecPoorQuality += areaobj.get(Constants.NON_RECHARGE_WORTHY).poor_quality;
+                			
+                			//Total across all categories
+                    		totalArea = new Area(totCommand, totNonCommand, totPoorQuality, total);
+                    		areaInfo.put(Constants.TOTAL, totalArea);
+                    		//For recharge worthy
+                    		recArea = new Area(recCommand, recNonCommand, recPoorQuality, totalRec);
+                        	areaInfo.put(Constants.RECHARGE_WORTHY, recArea);
+                        	//For non recharge worthy
+                    		nonRecArea = new Area(nonRecCommand, nonRecNonCommand, nonRecPoorQuality, totalNonRec);
+                        	areaInfo.put(Constants.NON_RECHARGE_WORTHY, nonRecArea);
+                        	
+                			areaobj.put(Constants.TOTAL, totalArea);
+                			areaobj.put(Constants.RECHARGE_WORTHY, recArea);
+                			areaobj.put(Constants.NON_RECHARGE_WORTHY, nonRecArea);
+                        	String areaObjjson = Areajs.toJson(areaobj);
+                        	
+                        	Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("c")])))
+							.setArea(areaObjjson);
 						}
 					}
 				}
 
 			}
-			System.out.println("test count value ######" + test);
-			int c = 0;
-			for (String key : Basin_details.keySet()) {
-				if (Basin_details.get(key).area == null) {
-					// System.out.println(key);
-					System.out.println(Basin_details.get(key).loc_name);
-				}
-//				System.out.println("ANKIT ::: key : " + key);
-//				System.out.println(Basin_details.get(key).getArea());
-				Area areaobj = Areajs.fromJson(Basin_details.get(key).getArea(), Area.class);
-				if (areaobj.total == 0) {
-					c++;
-				}
-			}
-			System.out.println("area count where total area=0 : " + c);
+//			System.out.println("test count value ######" + test);
+//			int c = 0;
+//			for (String key : Basin_details.keySet()) {
+//				if (Basin_details.get(key).area == null) {
+//					// System.out.println(key);
+//					System.out.println(Basin_details.get(key).loc_name);
+//				}
+////				System.out.println("ANKIT ::: key : " + key);
+////				System.out.println(Basin_details.get(key).getArea());
+//				Area areaobj = Areajs.fromJson(Basin_details.get(key).getArea(), Area.class);
+//				if (areaobj.total == 0) {
+//					c++;
+//				}
+//			}
+//			System.out.println("area count where total area=0 : " + c);
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -307,13 +329,13 @@ public class BasinXmltojson {
 				if (fields.length == 17 || fields.length == 25 || fields.length == 23 || fields.length == 24 
 						|| fields.length == 26 || fields.length == 31) {
 					int villageId;
-					double fractionArea = 0;
+					double totalVillArea = 0;
 					String iwmBasinName = locmapping.get(format.removeQuotes(fields[format.convert("c")]));
 					String gwVillageName = format.removeQuotes(fields[format.convert("d")]);
 					String villKey = format.removeQuotes(fields[format.convert("c")]) + "##" + gwVillageName;
 
 					if (!fields[format.convert("e")].isEmpty()) {
-						fractionArea = Double.parseDouble(fields[format.convert("e")]);
+						totalVillArea = Utils.parseDouble(fields[format.convert("e")]);
 						if (iwmBasinName != null && village_id.containsKey(villageMap.get(villKey))) {
 							villageId = village_id.get(villageMap.get(villKey));
 
@@ -326,8 +348,25 @@ public class BasinXmltojson {
 								basin_assoc.put(villageId, new HashMap<String, Double>());
 							
 							if(Area.get(iwmBasinName) != 0){
-								basin_assoc.get(villageId).put(Constants.TOTAL, (fractionArea / Area.get(iwmBasinName)));
-								Basin_details.get(iwmBasinName).setBasinAssociation(basin_assoc);
+//								basin_assoc.get(villageId).put(Constants.TOTAL, (totalVillArea / Area.get(iwmBasinName)));
+//								Basin_details.get(iwmBasinName).setBasinAssociation(basin_assoc);
+								/**
+	                    		 * This is to migrate area information to iwm_data table;
+	                    		 */
+								double command = Utils.parseDouble(fields[format.convert("f")]);
+								double nonCommand = Utils.parseDouble(fields[format.convert("j")]);
+								double poorQuality = Utils.parseDouble(fields[format.convert("n")]);
+								double hilly = Utils.parseDouble(fields[format.convert("g")]) + Utils.parseDouble(fields[format.convert("k")]) + Utils.parseDouble(fields[format.convert("o")]);
+								double forest = Utils.parseDouble(fields[format.convert("h")]) + Utils.parseDouble(fields[format.convert("l")]) + Utils.parseDouble(fields[format.convert("p")]);
+	                    		
+								Area a = new Area(command, nonCommand, poorQuality, totalVillArea);
+	                    		Type type = new TypeToken<Map<String, Area>>(){}.getType();
+								Map<String, Area> basinTotal = Areajs.fromJson(Basin_details.get(iwmBasinName).getArea(), type);
+	                    		mbVillAreaInfo.computeIfAbsent(iwmBasinName, k->new HashMap<String, Area>())
+	                    						.put(villageMap.get(villKey), a);
+	                    		mbVillAreaInfo.computeIfAbsent(iwmBasinName, k->new HashMap<String, Area>())
+	    						.putAll(basinTotal);
+	                    		
 							}else{
 								System.out.println("Basin area 0 for basin : " + iwmBasinName);
 							}
@@ -511,7 +550,6 @@ public class BasinXmltojson {
 		}
 
 		// json for geological
-		Gson geological = new Gson();
 		// inserting into geological json Object
 		try (BufferedReader iem = new BufferedReader(new FileReader(geologicalFile))) {
 
@@ -538,8 +576,7 @@ public class BasinXmltojson {
 					else
 						GeologicalInfo.put("Weathered gneiss", geoInfo);
 
-					if (Basin_details.containsKey(locmapping.get(format.removeQuotes(fields[format.convert("b")])))) { // #TODO
-																														// required
+					if (Basin_details.containsKey(locmapping.get(format.removeQuotes(fields[format.convert("b")])))) {
 						Basin_details.get(locmapping.get(format.removeQuotes(fields[format.convert("b")])))
 								.setGeologicalInfo(GeologicalInfo);
 					}else{
@@ -557,7 +594,6 @@ public class BasinXmltojson {
 		}
 
 		// json for InfiltrationInfo
-		Gson InfiltrationInfo = new Gson();
 		// inserting into InfiltrationInfo json Object
 		try (BufferedReader iem = new BufferedReader(new FileReader(geologicalFile))) {
 
@@ -772,7 +808,62 @@ public class BasinXmltojson {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		/**
+         * Prepare location name UUID map
+         */
+        Map<String, String> locNameUUIDMap = new HashMap<String, String>();
+        
+        try(BufferedReader iem = new BufferedReader(new FileReader(villageUUIDFile))) {
+            record = iem.readLine();
 
+            while((record = iem.readLine()) != null) {
+                String fields[] = record.split(",");
+                
+                if(fields.length==2){
+                	String location = format.removeQuotes(fields[0]).trim();
+                	String uuid = format.removeQuotes(fields[1]).trim();
+                    locNameUUIDMap.put(location, uuid);
+                }
+
+            }
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+        
+        
+      //json for village
+        try (BufferedWriter file = new BufferedWriter(new FileWriter(mbVillAssocFile))) {
+        	
+        	bw.newLine();
+        	bw.write("/* **** Scripts for village Microbasin intersection for : " + distName + " **** */");
+        	bw.newLine();
+        	bw.newLine();
+	        
+        	Gson gson = new Gson();
+        	
+        	for(String mBasin : mbVillAreaInfo.keySet()){
+        		String basinUUID = locNameUUIDMap.get(mBasin);
+        		Map<String, Area> formattedData = new HashMap<String, Area>();
+        		for(String vill : mbVillAreaInfo.get(mBasin).keySet()){
+        			vill = vill.trim();
+        			if(vill.equals(Constants.TOTAL))
+        				formattedData.put(vill, mbVillAreaInfo.get(mBasin).get(vill));
+        			else{
+        				String villUUID = locNameUUIDMap.get(vill);
+        				formattedData.put(villUUID, mbVillAreaInfo.get(mBasin).get(vill));
+        			}
+        		}
+        		String data = gson.toJson(formattedData);
+        		IwmData iwmData = new IwmData("MICROBASIN", basinUUID, data);
+        		file.write("Insert into iwm_data JSON '" + gson.toJson(iwmData) + "';\n");
+        	}
+	        System.out.println("Finished creating location association.");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }	
+        
 		System.out.println("count total = " + count);
 		System.out.println("end");
 

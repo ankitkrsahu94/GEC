@@ -5,24 +5,33 @@ import java.util.List;
 import java.util.Map;
 
 public class Constants {
-	public static final String GEC_ASSESSMENT_YEAR = "2012-2013";
+	public static final String GEC_ASSESSMENT_YEAR = "2017-2018";
 	public static final int PARENT_ID = 1;
 	public static final int LOC_TYPE_VILLAGE = 10;
 	public static final int LOC_TYPE_MB = 25;
 	public static final double PADDY_WATER_REQUIREMENT = 600.00;
 	public static final double NON_PADDY_WATER_REQUIREMENT = 300.00;
+	public static final double POPULATION_GROWTH_RATE = 3.76;
+	public static final double MI_INFILTRATION_RATE = 0.00144;
+	public static final double DEFAULT_AGRO_WELL_YIELD = 2400.0;
+	public static final double DEFAULT_DOMS_WELL_YIELD = 284.0;
+	public static final double DEFAULT_INDS_WELL_YIELD = 284.0;
+	public static final int MI_MONSOON_DAYS = 120;
+	public static final int MI_NON_MONSOON_DAYS = 150;
 	public static final String MONSOON = "monsoon";
 	public static final String NON_MONSOON = "non_monsoon";
 	public static final String ANNUAL = "annual";
 	public static final String PRE_MONSOON = "pre_monsoon";
 	public static final String POST_MONSOON = "post_monsoon";
+	public static final double POPULATION_LPCD = 60;
 	//Area
 	public static final String POOR_QUALITY = "poor_quality";
 	public static final String COMMAND = "command";
 	public static final String NON_COMMAND = "non_command";
 	public static final String HILLY = "hilly";
 	public static final String FOREST = "forest";
-	public static final String RECHARGE_WORTHY_AREA = "recharge_worthy";
+	public static final String RECHARGE_WORTHY = "recharge_worthy";
+	public static final String NON_RECHARGE_WORTHY = "non_recharge_worthy";
 	//Table columns
 	public static final String GEOLOGICAL_INFO = "geological_info";
 	public static final String INFILTRATION_INFO = "infiltration_info";
@@ -112,7 +121,7 @@ public class Constants {
 	public static final String FP = "fp";
 	public static final List<String> ARS_TYPES = new ArrayList<String>(Arrays.asList(PT, MPT, CD, FP, OTHER));
 	public static final Map<String, Double> FILLINGS = new HashMap<String, Double>();
-	public static final Double ARS_INFIL_FACTOR = 0.5;
+	public static final Double ARS_INFIL_FACTOR = 0.4;
 	public static final Double LITRES_TO_HAM = 0.0000001;
 	public static final double HECTARE_PER_ACRE = 0.404686;
 	public static final List<String> IRRIGATION_SOURCES = new ArrayList<String>(Arrays.asList(SURFACE_WATER_IRRIGATION, GROUND_WATER_IRRIGATION, MI_IRRIGATION));

@@ -145,16 +145,14 @@ public class Village_Data {
 		return area;
 	}
 	public void setArea(String area) {
-		 Map<String,Object> obj = new HashMap<>();
-		 Gson gs = new Gson();
-		 Area areaObj = gs.fromJson(area, Area.class);
-		 obj.put(Constants.COMMAND, areaObj.command);
-		 obj.put(Constants.NON_COMMAND, areaObj.non_command);
-		 obj.put(Constants.POOR_QUALITY, areaObj.poor_quality);
-		 obj.put(Constants.HILLY, areaObj.hilly);
-		 obj.put(Constants.FOREST, areaObj.forest);
-		 obj.put(Constants.TOTAL, areaObj.total);
-	     this.area = gs.toJson(obj);
+//		 Map<String,Object> obj = new HashMap<>();
+//		 Gson gs = new Gson();
+//		 Area areaObj = gs.fromJson(area, Area.class);
+//		 obj.put(Constants.COMMAND, areaObj.command);
+//		 obj.put(Constants.NON_COMMAND, areaObj.non_command);
+//		 obj.put(Constants.POOR_QUALITY, areaObj.poor_quality);
+//		 obj.put(Constants.TOTAL, areaObj.total);
+	     this.area = area;//gs.toJson(area);
 		
 	}
 	public String getCrop() {

@@ -1,0 +1,749 @@
+ SKL_F_01_ICHAPURAM-MB                        , 4013e0a8-a245-4e68-a12c-a6728bb930d4 
+ SKL_F_02_MANDASA-MB                          , a8ecfc99-248f-427f-95c9-9c40f1de1a17 
+ SKL_F_03_PALASA-MB                           , 74c0ab60-24d1-4a92-874a-4325c64c1e14 
+ SKL_F_04_NANDIGAM-MB                         , 9730b5af-a849-4aa8-9c52-0733e52e1593 
+ SKL_F_04_SANTABOMMALI-MB                     , bc6c73ea-54c5-4d66-a0a5-b68281fb17c0 
+ SKL_F_04_KOTABOMMALY-MB                      , e9d82474-20e7-47be-bebb-81c9f7f60160 
+ SKL_F_05_NARASANNAPETA-MB                    , 2954c65a-dee2-42f6-b8c0-6a58a40654f0 
+ VZM_NAGI_KEDARIPURAM-MB                      , ad40149f-51f8-41bd-9e56-29587a0f991e 
+ SKL_F_05_BHAMINT-MB                          , 18b1a90a-67a3-4173-8218-ea557b4d5302 
+ SKL_F_05_MELIAPUTTY-MB                       , 4c992b82-836f-450a-b878-54866520962a 
+ SKL_F_05_HIRAMANDALAM-MB                     , 5651b7a1-5f2d-4f7b-84e6-eba8eaee32d3 
+ SKL_F_05_SARUBUJJILI-MB                      , 57ed3150-06af-471a-8906-97e48ce5a02c 
+ SKL_F_05_GARA-MB                             , 2aa8ba5e-7bb1-4e71-b46d-04d998cb2c7e 
+ SKL_F_06_SRIKAKULAM-MB                       , 9122d2c4-95d2-4a5a-942f-949ff0808251 
+ VZM_NAG _JANJAVATHI-MB                       , 28f4a625-463d-4612-9443-5ce55362653c 
+ VZM_NAG _GUMMIDIGEDDA-MB                     , 98f55e85-1f0d-4718-b0c3-9b102bfad400 
+ VZM_NAG _VOTTIGEDDA-MB                       , 760a83b4-53e9-46d8-9b6e-bbfbd9cdbe1f 
+ SKL_F_06_VEERAGHATTAM-MB                     , 981c21d9-3ef0-433a-912b-7ed5207824ab 
+ VZM_NAG_SVMK _GOMUKHI-MB                     , f3afd718-18f1-44e9-8641-7e2f8d661b1d 
+ VZM_NAG_SVMK _BODURUGEDDA-MB                 , 9bc8aeed-08c4-4d6e-8f17-b0bda8945c68 
+ VZM_NAG_SVMK _SEETHANAGARAM-MB               , 90317890-5996-416b-8fbd-22b97ebfe99d 
+ VZM_NAG_SVMK _ANTIPETA-MB                    , e90c128d-de35-460a-897d-34a92d0d635f 
+ VZM_NAG_VEG _PEDDAGEDDA-MB                   , bd2c71ae-5734-4f4b-bc24-5b391be0fb3e 
+ VZM_NAG_VEG _VOTTIGEDDA-MB                   , c3408142-17e9-4816-85a7-683e093c0fbf 
+ VZM_NAG_VEG _BOBBILI-MB                      , 2039eaf8-87a5-461d-94f8-23ef0abb0dfe 
+ VZM_NAG_VEG _THERLAM-MB                      , 69f77198-d2bc-4039-b4b2-1addddef288d 
+ SKL_F_06_VANGARA-MB                          , a37f5887-68aa-4f0a-b371-76feac2a1eda 
+ SKL_F_06_RAJAM-MB                            , 7248e92c-9a47-463a-a5aa-13f08ecb76ef 
+ SKL_F_07_G.SIGADAM-MB                        , 082ee00e-acdb-4bbb-b592-1d40a705b0c8 
+ SKL_F_08_P.B.VARAM-MB                        , a74b5153-2bdc-4c66-b294-b2a05ebab8ae 
+ VZM_ KANDIVALASAGEDDA-MB                     , de36389e-8f4c-4814-9392-51dbbc93d0dd 
+ VSP_F_10_GOSTANI_ BORRA-MB                   , 0bec9de0-c549-46d5-8b93-3ce27c679792 
+ VSP_F_9_CHAMPAVATHI_GARUGUBILLI_AGENCY-MB    , 00a05376-0510-43c0-9efc-77595fe170cf 
+ VZM_CMP _PEDDAGEDDA-MB                       , aa977863-9dc7-4462-9be2-921cc5d62db0 
+ VZM_CMP _GADIGEDDA-MB                        , 118be6f0-52a5-4f87-9e36-2edba4df6afa 
+ VZM_CMP _VIZIANAGARAM-MB                     , b33f4756-202b-4aea-b758-5b41005e43e5 
+ VZM_CMP_KUMILI-MB                            , 13114b08-58dc-42fa-933b-2d8114035218 
+ VSP_E_27_SABARI-10_THOTAVALASA_ AGENCY-MB    , 5d7ddda6-9c0e-4e96-86b3-0f3954f66412 
+ VZM_GOST _POLIPALLI-MB                       , 8e8e80ab-a9d1-445a-a49e-3cb53f9bd686 
+ VZM_CMP_EDUVAMPULAGEDDA-MB                   , 49e6115c-e9a8-496d-ab0e-26dd3bc28805 
+ VSP_F_14_SARADA-1_ANANTAGIRI_ AGENCY-MB      , f9efce01-5366-42fd-b576-1bfdffe13189 
+ VZM_GOST _TATIPUDI-MB                        , 726014c7-b733-43a3-8803-827b31fb404e 
+ VZM_GOST _GANTYADA-MB                        , 8e77888f-97b3-48b0-bef1-4006e868a7b5 
+ VZM_GOST _L.KOTA-MB                          , 6535d49d-398f-4b42-abb5-be1705e0f1a7 
+ VZM_GOST _ALAMANDA-MB                        , 33c2c3d6-2c10-4221-b0d2-27dc50c5d21b 
+ VSP_F_10_GOSTANI_ PADMANABHAM-MB             , c53247a4-1e5c-4ded-a5fd-88dfb2cc7b27 
+ VSP_F_11_MMD_ ANANDAPURAM-MB                 , 50a14f35-9365-45ca-9910-645a21fef1ea 
+ VZM _MEHADRIGEDDA-MB                         , 649d738c-f958-44ec-8c6d-e3fb7ce0969e 
+ VSP_F_12_NARAVA-2  _PENDURTY-MB              , 0685de44-b8f3-4175-9c7c-e06c6f065a92 
+ VSP_F_12_NARAVA-1   SABBAVARAM-MB            , cc6a221b-86b6-481d-8b33-e8d7d3c8b0f2 
+ VSP_F_13_AKP-1_PARAWADA-MB                   , e76ba5bc-b0b8-48ba-8926-5104d96af523 
+ VSP_F_13_AKP-2_P GANTYADA-MB                 , 7ccbf8d9-9c6b-4c37-a0ec-a9bda3845302 
+ VSP_F_14_SARADA-2_PEDAKOTA_AGENCY-MB         , 2dc86bc4-53eb-4941-801a-de578763e6f4 
+ VSP_F_14_ SARADA-3_GANGAVARAM-MB             , bec9c17d-2ee3-4172-bc6e-9e2c143e2802 
+ VSP_F_14_ SARADA-4_DEVARAPALLI-MB            , 8b76b169-d8b7-4d92-a500-18649673ebd0 
+ VSP_F_14_SARADA-10_ CHEEDIKADA-MB            , d397e1bd-de78-4355-ad27-845d9c1d14b9 
+ VSP_F_14_SARADA-11_VMADUGULA-MB              , 48f06b74-2b22-4223-91a6-03fbcaf199a7 
+ VSP_F_14_ SARADA-12_GADIRAI-MB               , b93f301d-997d-472a-a619-c044b44acc57 
+ VSP_F_14_SARADA-5_KOTAPADU-MB                , 2d1f81e3-96a9-454e-8b4d-0a3029119594 
+ VSP_F_14_SARADA-9_BUTCHAYYAPETA-MB           , e6b81a92-a9ed-4f03-b898-73bc5a08c039 
+ VSP_F_14_SARADA-8_KASIMKOTA-MB               , 47f2862a-47fa-4199-88f8-9f9a0ae5f8d1 
+ VSP_F_SARADA-6_ATCHUTAPURAM-MB               , b298f337-ebf1-421c-b030-a76d274effb4 
+ VSP_F_14_SARADA-7_ELAMANCHILI-MB             , 63d3710b-9348-4987-b119-fb2efa3eaff1 
+ VSP_F_15_VARAHA-1_ROLUGUNTA-MB               , 75511ae1-d238-4cf0-8742-7258f9e79f57 
+ VSP_F_15_VARAHA-2_NARSIPATNAM-MB             , 7f2f439f-a241-459b-b9b0-6b093a9bc09f 
+ VSP_F_15_VARAHA-SARPA_RAVIKAMATAM-MB         , a9d7ff60-8731-4231-9889-2ad4bfc89709 
+ VSP_F_15_VARAHA-3_S.R.VARAM-MB               , 1412d2d7-e13f-4f12-ae76-c2956db567a8 
+ VSP_F_16_TANDAVA-7_RAMARAJUPALEM_ AGENCY-MB  , e1dce136-6568-4595-8515-d192f77a07c4 
+ VSP_F_16_TANDAVA-6_GOLUGONDA-MB              , 09e7b6c7-5f3f-49f0-a650-f0345d0beb21 
+ VSP_F_16_TANDAVA-4_K.AGRAHARAM-MB            , 0703d6bf-b785-4cfa-9bef-a05ad16318bc 
+ VSP_F_16_ TANDAVA-3_NATAVARAM-MB             , 05def6ce-bf37-45a2-a062-e624caf44306 
+ VSP_F_16_TANDAVA-5_GOLUGONDAPETA-MB          , 373cde99-b817-4e7a-9e3e-58b9453a8aa0 
+ VSP_F_16_TANDAVA-1_NAKKAPALLI-MB             , 3036999f-f785-4340-9fd4-49f4b770f8b6 
+ VSP_F_16_TANDAVA-2_PAYAKARAOPETA-MB          , d7007773-d2a6-4360-a0a4-9c507bdb3362 
+ EG-MHG-THW-TUNI-MB                           , d1fa29ab-04cb-4522-9681-adb712c0bb1b 
+ EG-MHG-THE-KOTANANDURU-MB                    , b80b619a-c6b7-4cb5-b081-b74ea1ce3025 
+ EG-MHG-PP-SANKHAVARAM-MB                     , 192e737e-32cb-47d2-9491-cd9f99105436 
+ EG-MHG-SG-PRATHIPADU-MB                      , 7110032f-0840-4bc7-b01b-f5a640a27e3e 
+ EG-MHG-PD-Y RAMAVARAM-MB                     , c837108c-f165-4505-ac07-5ce28f0a8c90 
+ EG-MHG-MG-ADDATEEGALA-MB                     , 6a183a13-9bac-416c-a1b3-1f4b148e7d0e 
+ EG-MHG-MD-JADDANGI-MB                        , 579e98c8-8dec-4358-a6e3-5e07bcf8cd77 
+ EG-MHG-YLE-KIRLAMPUDI-MB                     , 5c98247f-ea8b-4f36-a8ed-eec7db96ce50 
+ EG-MHG-DG-BORNAGUDEM-MB                      , 343ba98e-4eb7-48c2-9589-041874c3ccb6 
+ EG-MHG-YLW-ELESWARAM-MB                      , 84382a1c-f19f-4a4b-869c-ba436bc92928 
+ VSP_F_16_TANDAVA-9_MATTAMBHEMVARAM_AGENCY-MB , 56e280dd-7e28-45b6-b6a1-11ef08d644d7 
+ VSP_F_16_TANDAVA-8_KOYYURU-MB                , 433118d3-94fd-4fd0-9acf-950707315026 
+ PKM_C-56-CHEERALA-MB                         , ea3d764a-5fda-4b19-869b-a78c2080ad2c 
+ PKM_C-56-BALLIKURVA-MB                       , e62a6ad3-e0d0-40d2-8c2f-1d76463703ad 
+ PKM_C-56-PARCHURU-MB                         , 9ca4e7df-0ccb-469c-8863-b911641af4ca 
+ PKM_C-56-J.PANGALURU-MB                      , 1ae18620-8361-4877-9a2e-b40a870e81d9 
+ PKM_C-56-INKOLLU-MB                          , 4c18ac99-6cfc-4e8d-8488-cda35ec4e1a8 
+ PKM_C-56-VETAPALEM-MB                        , d8ab4a2a-7551-4ef1-b125-c8ea3f68b63b 
+ PKM_C-56-KARAMCHEDU-MB                       , 554c362b-3a2f-4bc8-b6ec-cf63bd489de1 
+ PKM_C-57-KONAPALLI-MB                        , edba05c6-0646-4183-9725-ab858f2ee07c 
+ PKM_C-57-B.PETA-MB                           , a437c812-b6c6-4f03-8478-74383f1c871f 
+ PKM_C-57-RACHERLA-MB                         , 2c249e61-9319-46e9-bf89-fa248c17120a 
+ PKM_C-57-ARTHAVEEDU-MB                       , 968e4752-d02f-42d2-a2a7-1808294df0a6 
+ PKM_C-57-MARKAPURAM-MB                       , 234d3a67-a069-4105-bc4b-0c9c74e97992 
+ PKM_C-57-CUMBUM-MB                           , bc27585e-617f-453a-8af7-443d7289a423 
+ PKM_C-57-PEDDARAVEEDU-MB                     , 7a59ffb1-56dd-4d5c-ad97-d8cc1b7de976 
+ PKM_C-57-RUDRASAMUDRAM-MB                    , cf90f13f-69c6-4e95-816f-e02dd114e09b 
+ PKM_C-57-DORNALA-MB                          , 0f326986-71ea-4f1a-9107-730069cdd11c 
+ PKM_C-57-BOYALAPALLI-MB                      , 5834c5b5-714b-4b75-987f-9d7dde5f2075 
+ PKM_C-57-YERRAGONDAPALEM-MB                  , c60affab-e638-4890-b572-82fdd8b36c17 
+ PKM_C-57-KAVALAKUNTLA-MB                     , 5ee00bd4-0fc5-4321-ab37-29c69b5ff38f 
+ PKM_C-57-TRIPURANTHKAM-MB                    , 297afd5d-41c9-4649-86c8-63de96b90e13 
+ PKM_C-57-PULLACHERUVU-MB                     , a8ebdce1-2fd4-4361-a61c-26b862f7b1a3 
+ PKM_C-57-MARRIVEMULA-MB                      , 1a32b7d9-a297-4447-8125-e6cfa31b90e4 
+ GNT-C-57-KANDLERU-1-BOLLAPALLI-PART_ONGOL-MB , d47f64c9-b357-4a19-b71f-c0a8b57dae17 
+ GNT-C-57-KADLERU-2-VINUKONDA_PART-ONGOLE-MB  , 4103039e-53af-41af-a8c3-ee55ac5c6943 
+ GNT-C-57-VOLA-TANGIRALA-MB                   , 199a03aa-8421-4113-88e0-f550d44c7a83 
+ PKM_C-57-KURICHEDU-MB                        , 4b8a8f0e-8c56-4eea-b220-3098618dcb8c 
+ GNT-C-57-PASUPU-VELLATURU-MB                 , 15797f1d-7694-4d87-bb17-a129c3a2a423 
+ GNT-C-57-GUNDLA-1-NUJENDLA-PART_ONGOLE-MB    , 1666cc67-cd4e-4750-997a-94844fc16e04 
+ GNT-C-57-CHEJA-CHEJARLA-MB                   , ab65cace-b4f9-47e5-a803-23fdd7a874bc 
+ GNT-C-57-KONKER-SAVALYAPURAM-MB              , 7948d1ac-1a2f-4e9f-a4fd-50a529aee297 
+ GNT-C-57-ANGA-ANGALUR-MB                     , c82f1d41-61b0-4194-9b59-168d1ca10442 
+ PKM_C-57-KUNDURU-MB                          , e5454307-be65-482a-aab5-6468e2fee683 
+ PKM_C-57-ADDANKI-MB                          , 40e0dce5-4309-4c8a-8c28-fc186352c8f4 
+ PKM_C-57-EDARA-MB                            , a9f461ce-f9b4-4a53-bf62-4046947f9506 
+ PKM_C-57-MUNDLAMURU-MB                       , c68cd250-25db-4b0a-ad38-a8c4befdd72c 
+ GNT-C-57-GUNDLA-2-THIMMAPURAM-PART_ONGOLE-MB , cb6fcc98-904f-4cf0-b245-a211250a20f8 
+ PKM_C-57-DARSI-MB                            , 405bfd26-bdc0-4145-91b6-c0c74b1266cf 
+ PKM_C-57-KORISAPADU-MB                       , a9491d29-4c6f-4cc6-b170-c85351a0354a 
+ PKM_C-56-NG PADU-MB                          , d0d050d0-4a71-4ae9-b54b-aab43fcba1e4 
+ GNT-D-50- REMIDI-REMIDICHERLA-MB             , 38567316-6c46-46b6-9e37-d81a812a31bf 
+ PKM_C-58-ONGOLE-MB                           , 276dbfd3-fe09-47ee-a9e1-d67f9293f049 
+ PKM_C-58-KOTHAPATNAM-MB                      , 8a7a944d-4577-4fbf-9a20-19125adc9e12 
+ PKM_C-59-KKMITLA-MB                          , 187408da-bfe0-420e-84e0-717cbe3dcf54 
+ PKM_C-59-DONAKONDA-MB                        , 564f8c02-b5b9-4a89-97f9-0d09825032b0 
+ PKM_C-59-PODILI-MB                           , 6e171357-de22-4de2-8ca6-ff0e0199d408 
+ PKM_C-59-KONDEPI-MB                          , 460cc608-0c35-42ef-b623-00b4f4bd33dc 
+ PKM_C-59-CHILAKAPADU-MB                      , f388a858-6347-4a98-9bca-f0280380a406 
+ PKM_C-60-H.M.PADU-MB                         , fb400b55-2c37-4a3f-b0dd-9184e0a07928 
+ PKM_C-60-VELIGANDLA-MB                       , 512195b8-e701-4640-b165-17fa5f33c02a 
+ PKM_C-60-BALLIPALLI-MB                       , 73601835-e9df-42d1-a34b-633a60a0078b 
+ PKM_C-60-KANIGIRI-MB                         , 178551e1-0bc9-45fc-9259-b12029b9bf18 
+ PKM_C-60-PC PALLY-MB                         , ebcb1114-a2d1-4b23-b486-d1502c57906e 
+ PKM_C-60-PONNALULU-MB                        , fa1efc2b-397b-4df1-96dc-404c9ef85729 
+ PKM_C-60-JARUGUMILLI-MB                      , 6f240bda-98db-4563-9f6b-7af2f3a47a2b 
+ PKM_C-60-S.KONDA-MB                          , 269c8fa2-da69-41e1-93c0-8fc3aca2a12c 
+ PKM_C-61-C.S.PURAM-MB                        , 7b8dbe37-3cb5-4b7f-ab69-385a707f4006 
+ PKM_C-61-PAMURU-MB                           , 4cd33727-0d63-41b3-8775-aaa590715331 
+ PKM_C-61-PEDDARAJUPALEM-MB                   , 9e680dd0-62f5-4d7a-ab2f-868d0f907ad9 
+ NLR_C_61_VEMPADU-MB                          , d4c61f98-2c2d-42bc-a5c6-cc6b4f9915db 
+ NLR_C_61_SR_PURAM-MB                         , 8f170932-8d00-444c-9415-8a63a24bf2d0 
+ PKM_C-61-TIRAGALADENNE-MB                    , 10b10c72-eb10-4b9c-90e7-de2611c18b8d 
+ NLR_C_61_KOTTAPETA-MB                        , 3aaee893-9b4d-4c9b-9a9c-c7dc08ae6ccb 
+ PKM_C-61-L.SAMUDRAM-MB                       , c302e603-a381-43db-a229-95b994bebdd5 
+ NLR_C_62_GOTTIGUNDALA-MB                     , 3b2a1cec-3f7d-4e11-936c-f17a668f6455 
+ PKM_C-61-RALLAPADU-MB                        , 71d5a012-2b66-4760-9efe-e3543895a12d 
+ PKM_C-61-KANDUKURU-MB                        , c99addaf-5c99-4ca6-b39d-c1376aea5f6c 
+ PKM_C-61-GUDLUR-MB                           , 5bd87a92-3f74-4545-bb1d-f78ab25ca3fa 
+ PKM_C-61-ULAVAPADU-MB                        , 1e72652a-1813-43ac-9527-6bdb7a2c3279 
+ NLR_C_62_CHINNA ANNALUR-MB                   , 5ba55d04-f84d-4955-ad91-372e61706f76 
+ NLR_C_62_KAVALI-MB                           , f48ad35a-958f-4d53-bcfc-64ab83860a47 
+ NLR_C_62_BOGOLE-MB                           , d1279ba0-20ae-43b3-8a1b-c53ddf57d77d 
+ NLR_C_62_JALADANKI-MB                        , 020d741a-5c60-425a-b280-10743097c686 
+ NLR_C_62_BRAHMANAKRAKA-MB                    , fd187922-ccc2-4afb-987e-e37b70e5a1d3 
+ NLR_C_74_KOTA-MB                             , 4a2e070c-9ee2-4bc0-ae09-e95ecd9a0b60 
+ NLR_C_73_CHINTAVARAM-MB                      , df693678-b0a1-405b-82c9-cb72de6fc597 
+ NLR_C_73_GONUPALLI-MB                        , 2d6827e8-3bb8-4f63-9437-0a11251d5843 
+ NLR_C_73_DEGAPUDI-MB                         , 97e62c02-ddd5-430a-9a8b-2413280a1c54 
+ NLR_C_73_KASUMUR-MB                          , 8386af60-07b8-4759-9bf0-7e1f4c3241e7 
+ NLR_C_73_GUDUR-MB                            , 3f8b3990-30d6-4968-a688-73ea8c641e5d 
+ NLR_C_73_MUTTUKUR-MB                         , 11cf7513-2163-4fbc-a149-52a0e0ca7100 
+ NLR_C_73_RAMASAGARAM-MB                      , 9873ae0b-66cd-460a-a73f-2b5b7e512b8b 
+ NLR_C_73_PALUGODU-MB                         , d9747c1f-a6c1-4ba3-994e-3827858f3e2f 
+ NLR_C_73_VENKATAGIRI-MB                      , e4e6aa14-f3b4-46d2-875c-c27a607e5003 
+ NLR_C_73_BALAYAPALLE-MB                      , c7d3064b-db02-4283-869b-448fcbef5c74 
+ NLR_C_73_DAKKILI-MB                          , 63bb41ca-0284-4c74-b5af-74833c8392b7 
+ CTR_SWARNA__INAGALLURU_INAGALLLURU-MB        , e5c799b9-1465-44e2-9e54-86332a6ad8bc 
+ CTR_SWARNA__BHEEMA_KOTALA-MB                 , 2706bf07-5eb8-4efc-a09d-e496321d2544 
+ CTR_SWARNA__GADANKI_GADANKI-MB               , 9bf1a918-530b-4bec-8f22-64d86c0517f0 
+ CTR_SWARNA__PANAPAKAM_PANAPAKAM-MB           , 9b87990e-53a8-434e-86f6-4c1b9d2a1c75 
+ CTR_SWARNA__NAGAPATLA_NAGAPATLA-MB           , 4827041a-0688-493f-99d5-42c4bf286c25 
+ CTR_SWARNA__KUPPAMBADURU_KUPPAMBADURU-MB     , d0037912-0b36-43e0-bccc-4a042f1639db 
+ CTR_SWARNA__KALYANI_TIRUCHANURU-MB           , 3e6118ff-3dfa-47ac-8ae7-2d99cc2330fb 
+ CTR_SWARNA__AVVACHARIKONA_MAMANDURU-MB       , 9474b63f-5f5b-49ec-bbbc-2ae09729e451 
+ CTR_SWARNA__THONDAMANADU_YERPEDU-MB          , b5bfca95-386f-42af-80c7-c5aaa178663f 
+ CTR_SWARNA__SRIKALAHASTI_THOTTAMBEDU-MB      , 999d78d1-2810-44e7-9d79-65b95d4836d2 
+ CTR_SWARNA__VALAGALAMANDA_MUCHUVOLU-MB       , cf8f28d1-1fba-4b5c-b3b2-c57b00268676 
+ NLR_C_74_PERIMIDI-MB                         , 4dde12a3-5ce8-455d-9c50-eceea63c9d79 
+ CTR_SWARNA__POLI_POLI-MB                     , 8e3ff84a-043d-49b7-aa8a-05cde11a8a45 
+ NLR_C_74_YAKASIRI-MB                         , 8bc7523f-c501-45af-9137-b41d9b087375 
+ NLR_C_74_CHAVALI-MB                          , 75f2fcf7-2e97-40cf-ab99-98bd77b222d0 
+ NLR_C_74_OZILI-MB                            , 1521b170-a253-4984-a790-c361f7b050af 
+ NLR_C_74_DUGGARAJUPATNA-MB                   , 8847569a-5512-4f18-871c-ff7fce587edd 
+ CTR_KALANGI__KVB PURAM_KVB PURAM-MB          , 0036b1eb-43ec-4f5e-9590-7602558680bb 
+ CTR_KALANGI__KATURU_KATURU-MB                , 06f271b5-409b-4ac2-b381-86f5b6fe5f0f 
+ CTR_KALANGI__RALLAERU_NIRPAKOTA-MB           , caf37733-7f37-46b4-acd3-41105834c8eb 
+ NLR_C_75_SHAR-MB                             , 9f8baaea-f26e-45d3-a38a-07dc0dea0300 
+ NLR_C_76_TADA-MB                             , 26c9f9ac-ced2-4e9f-b54a-57f3ed79e9ef 
+ NLR_C_76_YEKOLLU-MB                          , 23602fa2-6698-4c6e-b4e2-c5ac1ca1b252 
+ NLR_C_75_REDDYPALEM-MB                       , 17fa9ef6-c5cd-4b27-94eb-1506d6fb26d1 
+ NLR_C_75_IRKAM-MB                            , d9b96159-345b-41a0-bd09-3271ccdae45f 
+ NLR_C_76_KADALUR-MB                          , c60bb057-5855-4964-93a4-dfba7638c820 
+ NLR_C_76_VEDURUPATTU-MB                      , f479eace-dbf3-496c-849a-628193779d5f 
+ CTR_ARANI__NAGALAPURAM_NAGALAPURAM-MB        , de923666-6808-44cc-b3fa-ed31fb94fccc 
+ CTR_ARANI__ARANI_NARAYANAVANAM-MB            , eead0532-ea62-4d35-bdd7-e7ffc2516dee 
+ CTR_ARANI__SIVAGIRIVANKA_NINDRA-MB           , 311b05b9-69a5-450f-8139-f7c363a9b9d5 
+ CTR_SWARNA__RAYALACHERUVU_DURGASAMUDRAM-MB   , 37aaf828-3938-4d27-ba8e-ce9aba7b363e 
+ CTR_KORATLIAR__PALASAMUDRAM_PALASAMUDRAM-MB  , 64b112fb-b85e-4c16-8932-d07af067c80d 
+ CTR_KORATLIAR__S.R.PURAM_S.R.PURAM-MB        , c6a101c2-4548-4a2f-b49a-4a16c3448aa3 
+ CTR_KORATLIAR__KUNDETIVANKA_VEDURUKUPPAM-MB  , 1b38d42f-98d1-4853-b8de-091824c15b8e 
+ CTR_KORATLIAR__ANNURU_ANNURU-MB              , 474e2f79-0388-494a-8b35-006b73ab97c0 
+ CTR_KORATLIAR__VIJAYAPURAM_VIJAYAPURAM-MB    , b7cf2c69-9031-4e35-9a2c-d6a7fa5dc312 
+ CTR_KORATLIAR__NAGARI_NAGARI-MB              , 4ea90b78-b3a0-4ab1-b879-16abe4f2c1ab 
+ CTR_PALAR__LADDIGAMVANKA_CHOWDEPALLE-MB      , bb99ff51-31ee-48e3-9ff6-5f419b928cff 
+ CTR_PALAR__RAMASAMUDRAM_RAMASAMUDRAM-MB      , 16b38f19-c048-482a-9d08-a4b1d374903d 
+ CTR_PALAR__PEDDAPANJANIVANKA_PEDDAPANJANI-MB , 33bb0ab1-cf1f-4c44-b4d2-3b45ca1e8799 
+ CTR_PALAR__KOUNDINYA P1_BAIPAGARIPALLE-MB    , 0d54e988-60c0-432f-a07b-562b717550ae 
+ CTR_PALAR__KAIGALERU_BAIREDDIPALLE-MB        , ddc86f08-fc3c-4329-b3a6-365ec7ac91ed 
+ CTR_PALAR__DUGGAMMAERU_V.KOTA-MB             , dea148d5-0a69-406f-9044-6d7bd8755c8f 
+ CTR_PALAR__THOTLACHERUVUVANKA_RAMAKUPPAM-MB  , 4ed56f66-faca-4805-9da4-b1c0f82e270b 
+ CTR_PALAR__PALAREAST_RAJUPETA-MB             , 83f004bf-0778-4ec8-b8fc-598b17a94c4d 
+ CTR_PALAR__PALARWEST_THUMSI-MB               , 035bcc34-93dd-4494-adee-021e2e79fbca 
+ CTR_PALAR__KUPPAMVANKA_KUPPAM-MB             , 436f8b2b-fc53-47cc-8244-3b7df3231004 
+ CTR_PALAR__CHINNAERU_NADIMURU-MB             , 3dc47073-c58d-44ac-a471-498b00402a2e 
+ CTR_PONNIAR__ADAVIBODUGURU_ADAVIBODUGURU-MB  , 539d8f46-ec98-4df1-875a-816586c69a8f 
+ CTR_PALAR__GARGEYAVANKA_IRALA-MB             , f3285760-c5a6-446c-987e-9124fd4014b8 
+ CTR_PALAR__M.C.VANKA_PUTHALAPATTU-MB         , 3479db2f-ed00-49d5-ac2e-6f43ef546610 
+ CTR_PALAR__GODDUVANKA_THAVANAMPALLE-MB       , 1abff827-1e00-4498-9470-7a1af63963b3 
+ CTR_PALAR__PP.VANKA_MOGILI-MB                , e9873257-aa50-4e61-bf7f-ff2e76782744 
+ CTR_PALAR__NIVA_CHITTOOR-MB                  , 0008d0c1-b048-4500-ad79-3a244938efe5 
+ CTR_PALAR__GUDIPALA_GUDIPALA-MB              , 56f2ddaf-4fba-4ffd-bc11-362dff9b8264 
+ CTR_PALAR__G.D.NELLORE_G.D.NELLORE-MB        , d51218c3-b84b-47a2-abfa-7d9f972f0a07 
+ CTR_PALAR__KOUNDINYA P2_GANGAVARAM-MB        , cce8b4db-6d31-4c3d-8a4d-d6a6187834b3 
+ CTR_PONNIAR__BISANATHAM_ADAVIBODUGURU-MB     , 15718286-e6a1-4f8c-bc09-f0ed949b3d3a 
+ CTR_CH__PEDDAUPPARAPALLE_PEDDAUPPARAPALLE-MB , 21af779f-cb80-4768-938c-41455f10008f 
+ ATP_C_64_GOLLA-MB                            , ddcfacc4-6b11-425c-9623-78f5931066f9 
+ ATP_C_64_AMIDALA-MB                          , 52209457-77c9-4fc4-bca2-54cc4a70380b 
+ ATP_C_64_KORRAKODU-MB                        , f91b0412-674a-49ce-8bb1-f39c124d2ebb 
+ ATP_C_64_RAMAPURAM-MB                        , f787ebd9-9165-489d-9671-a109fd5dde9f 
+ ATP_C_64_ENUMULADODDI-MB                     , df0e68c0-609e-443f-89c6-fcb0aadeca9f 
+ ATP_C_64_MULAKANUR-MB                        , 29667d37-cc99-4ee3-b5df-f8c31e6fff4b 
+ ATP_C_64_PALAVAI-MB                          , c1ba3772-8ce8-45a0-a556-d4d195e14cf4 
+ ATP_C_64_UDIRIPIKONDA-MB                     , 1f92a5b0-bf57-4bb4-a16e-71c2446bf59f 
+ ATP_C_65_BUDEDU-MB                           , e2d46e05-44ea-4893-a5bb-dc91b5fd22b8 
+ ATP_C_65_TARIMALA-MB                         , 656440c7-a4a1-46b7-b7ae-ff21242b3be9 
+ ATP_C_66_KANAGANAPALLI-MB                    , f314ae02-f690-499e-b365-a04c2655a264 
+ ATP_C_66_THUMUCHERLA-MB                      , 74b0f5d5-43e0-42eb-b010-e7ef652d5f6f 
+ ATP_C_66_KURUGUNTA-MB                        , fc37f957-b16c-4a28-ad94-d252d974608d 
+ ATP_C_66_VADDUPALLI-MB                       , 08f36658-e7d0-4ae2-912a-e175a9d3eb07 
+ ATP_C_66_ANANTAPUR-MB                        , 56c5b2bd-d4d3-456b-b10e-d0f8c702bd2f 
+ ATP_C_66_HAMPAPURAM-MB                       , b8a15960-de7e-4031-b02a-f6d3e0902912 
+ ATP_C_66_ROTARYPURAM-MB                      , 08e5d9b9-a553-4e12-8386-2665630ca999 
+ ATP_C_66_NARPALA-MB                          , 257cc446-c844-40b7-b67f-c20fdfe622aa 
+ ATP_C_66_SALAKAMCHERUVU-MB                   , f8f22428-4e64-4b38-866b-23796143738c 
+ ATP_C_64_M.C. PALLI-MB                       , 98bd88fa-ad28-4196-8726-e9298efbb7e6 
+ ATP_C_64_NUTIMADUGU-MB                       , 8fe4e735-40c8-435a-8d86-3ff5ae0b7e09 
+ ATP_C_64_MANIREVU-MB                         , 82bcb6f1-4235-4acd-aa4f-4a218347dd31 
+ ATP_C_63_GOWRAJUPALLI-MB                     , 92c72d7a-3d40-4879-9bdf-4374869c0260 
+ ATP_C_63_BUCHERLA-MB                         , 1101d2fb-d400-4284-b6a6-424c0b16e79c 
+ ATP_C_63_RODDAM-MB                           , f0c5a5f1-d597-477b-abed-f982f493c2b7 
+ ATP_C_63_MALAGURU-MB                         , 5abc4c04-cc19-40aa-90b8-c85bb1e27a45 
+ ATP_C_63_CHERUKURU-MB                        , d556ba72-8f17-4fd3-9579-a792a0dbb715 
+ ATP_C_63_LEPAKSHI-MB                         , efb97a84-d059-42fd-b506-06b9da87fbdf 
+ ATP_C_63_HINDUPUR-MB                         , e1f3399a-bb60-4b69-8551-0d805aca9d19 
+ ATP_C_63_PARIGI-MB                           , 4a5c133a-d85f-418f-8092-5a174253e1ae 
+ ATP_C_63_MADAKASIRA-MB                       , 8d76fb8e-4c06-4a96-9279-f48a27eb7473 
+ ATP_D_46_AGALI-MB                            , 30bc266f-4168-4ab1-9d8d-3bc9e31a2274 
+ ATP_D_46_BASAVANAHALLI-MB                    , d1bd61a1-0f8c-4ef6-aa11-62c5f9d704f2 
+ ATP_D_46_B.G. HALLI-MB                       , 7f1c3603-d6ae-424b-8aad-28a8e38c4220 
+ ATP_D_46_AMARAPURAM-MB                       , 0accb44d-3411-4d91-bdfb-fd6955b8b617 
+ ATP_C_67_CHILAMATHUR-MB                      , d6956cb5-6937-4e99-a851-6eb653c4b6e2 
+ ATP_C_67_SOMAGATTA-MB                        , 5db61377-d093-4177-bcaf-4dc80de116a0 
+ ATP_C_67_VONAVOLU-MB                         , 3749cac8-d4e3-4370-b37f-87a81031b4b6 
+ ATP_C_67_PUTTAPARTHI-MB                      , 2a74d281-0ac5-4b36-bc39-f96f2ab91a54 
+ ATP_C_67_GONIPETA-MB                         , 41a4a3a3-8c16-4c22-b49a-1637083db03a 
+ ATP_C_67_MUNIMADUGU-MB                       , 8d9bd395-167f-41f4-859a-bd12ac60805e 
+ ATP_C_67_TALAMARLA-MB                        , 91fb4da0-01cc-4a11-af55-6812cb4a8e7a 
+ ATP_C_67_RAVULACHERUVU-MB                    , 286d59f7-0c91-4537-bda0-c6d9fb566b5f 
+ ATP_C_67_KANUMUKKALA-MB                      , 33417f1b-7041-4609-8c33-2a41ef93da02 
+ ATP_C_67_POLEPALLI-MB                        , dcb9fd70-cc0d-4a52-a74c-765222439176 
+ ATP_C_67_KUNUTHURU-MB                        , e4cbd82b-cfe5-48c4-9ae6-89bd053383c3 
+ ATP_C_67_CHIGICHERLA-MB                      , 2c4b5aac-c505-45d9-b1d7-218331f4d9da 
+ ATP_C_67_TADIMARRI-MB                        , b13d61f6-77ca-4dbb-8f1c-6c984bb1f36a 
+ ATP_C_67_MUDIGUBBA-MB                        , 90469c0f-c08f-4c96-a316-4887c8fbbc83 
+ ATP_C_67_PAMUDURTHI-MB                       , a6362ffc-9740-4bb7-84d4-d00d88fd1882 
+ ATP_C_67_NALLACHERUVU-MB                     , a862756c-9998-4a06-83bc-ca420042cec3 
+ ATP_C_67_THIPPEPALLI-MB                      , 90876a64-c7b9-49e2-aafa-741d0bc1a1c1 
+ ATP_C_67_KONDAKAMARLA-MB                     , 953d20dc-2a82-4ba2-9c96-47ef38aa5be5 
+ ATP_C_67_KADIRI-MB                           , b9cbbd2e-2ffd-44cc-8070-30715d67ac0b 
+ ATP_C_67_NALLAMADA-MB                        , 3a038263-2271-47d0-a8d5-13eeea67091a 
+ ATP_C_67_KALASAMUDRAM-MB                     , 47f9b83c-aefa-4e29-a26a-ba05ce324375 
+ ATP_C_67_DORIGALLU-MB                        , caa01e84-7d0c-4653-96a6-b1aa5d27978e 
+ ATP_C_67_SANEVARIPALLI-MB                    , cc43c64b-451d-4512-bc39-1811b999ab6e 
+ KDP_C_67_PARNAPALLI-MB                       , 35d87329-b90c-4141-9585-bf9dffd6eb02 
+ ATP_C_67_THIMMAMPALLI (PART)-MB              , 9945107c-7fe1-453d-860f-1655d4471a6e 
+ ATP_C_67_YELLANUR (PART)-MB                  , ece07aaf-0551-4fc9-81dc-415ea734bdc6 
+ KDP_C_67_ETURU-MB                            , cd8a5d7d-82be-42f4-b1f8-a280accdb9f3 
+ KDP_C_67_KONDAPURAM-MB                       , 80456221-a3b8-4457-8767-3d262a3aced7 
+ ATP_C_63_KOGIRA-MB                           , 96c6724b-9af1-499a-9b19-f9b9e102e52f 
+ CTR_PAPA_GUMMASAMUDRAM-MB                    , 1cfebdd9-ebc4-46e6-93f2-34047bd3791c 
+ CTR_PAPA_PTM VANKA_PTM-MB                    , 43e27915-640c-47a4-a70f-c68cbb4bf702 
+ CTR_PAPA_KADIRINADHUNIKOTA_V.KOTA-MB         , 0522883b-666f-45fe-b44a-58478eb61261 
+ ATP_C_67_AMADAGURU-MB                        , 311c0e90-8ed2-4361-8b1c-b18eca2189ab 
+ ATP_C_69_KOKKANTI-MB                         , 4679cea2-3615-4110-8905-6cc2f55e8ea6 
+ CTR_PAPA_PAPAGHNI_KANDUKURU-MB               , 3f76b700-a550-43df-b8e0-de21b7ae4125 
+ ATP_C_69_CHEEKATIMANIPALLI (PAR-MB           , 42b040df-0876-421d-987b-af20d76edda0 
+ CTR_PAPA_MOLAKALACHERUVU-MB                  , 4f44a5f6-832d-4bea-a52a-3761d11595ba 
+ CTR_PAPA_MUDIVEDU_THAMBALLPALLE-MB           , 06ad6f53-1e49-4605-9a69-33f05d065536 
+ CTR_PAPA_SOMPALLE_SOMPALLE-MB                , c55fa707-cd17-4d3b-9861-fd9f33058b34 
+ ATP_C_69_PEDABALLI-MB                        , 9976b07c-cd9e-49b7-b89b-1d3e14b3c801 
+ CTR_PAPA_PEDDAERU EAST _BANDREVU-MB          , c6e87f21-eb06-4be5-b6f9-fee6c09473bb 
+ KDP_C_69_GALIVEEDU-MB                        , 6d7e4ff5-4756-42a2-b5f0-254a998f7950 
+ ATP_C_69_N.P. KUNTA (PART)-MB                , 719e38cb-2e1d-40b4-abdf-418df2bfa7be 
+ KDP_C_69_VELIGALLU-MB                        , 1bf4f14e-1855-45e9-ac41-ba05696d7ab1 
+ CTR_PAPA_KUSAVATI _PEDDAMANDYAM-MB           , cacba579-2104-42fa-a0aa-d0d1ba3fed99 
+ KDP_C_69_SURABHI-MB                          , 79ab1074-6e4b-4687-baed-e16fd2647656 
+ ATP_C_69_VELICHALAMALA (PART)-MB             , 7799c93f-ac8b-4fb0-af42-21317f54a1f5 
+ ATP_C_67_TALUPULA-MB                         , 4e9e0a46-4597-4e4c-bd28-ec474cf27a90 
+ KDP_C_69_K.YERRAGUDI-MB                      , 9a1f1655-3622-4c48-8dbd-3b7843e2c8e2 
+ KDP_C_69_VEMPALLI-MB                         , 2975e1b6-a096-4bfb-bcbe-e64dcecff0db 
+ KDP_C_69_NANDIMANDALAM-MB                    , d9a624b8-020c-4c2b-a3ea-a84318e361e7 
+ KDP_C_69_SIMHADRIPURAM-MB                    , 51243d23-568b-4c93-a1d2-b27c1b6fe2f1 
+ KDP_C_69_KAMASAMUDRAM-MB                     , 3231370b-7d9c-4620-a92c-c73d65efc5f2 
+ KDP_C_69_THONDURU-MB                         , ffc65f56-c4f5-4fb4-871f-c0db70994fb9 
+ KDP_C_69_LINGALA-MB                          , 9eb33abd-4a07-4c20-8018-0e96cc2ae447 
+ KDP_C_69_PULIVENDULA-MB                      , 34947f90-27e8-4882-8ada-f57e7d2de453 
+ KDP_C_69_VEMULA-MB                           , e883f450-34ae-464d-bee3-7c033346eff0 
+ KDP_C_69_N.PALAGIRI-MB                       , 9099c82d-7ce9-4c74-a81e-001e990eccd6 
+ KDP_C_69_TALLAPALLI-MB                       , 777d8473-399d-491f-b6ee-13724f5f7378 
+ KDP_C_69_KAMALAPURAM-MB                      , 60e7ea5e-42e2-46a2-9463-1009e8890713 
+ ATP_C_67_KURLI (PART)-MB                     , 78f8acfd-649d-438e-9e65-36cbf80292f1 
+ KDP_C_69_KONAMPALLI-MB                       , 12f81761-9920-4937-be12-80da611fbfea 
+ ATP_C_59_KACHARLAKUNTA (PART)-MB             , 7691e856-f336-499d-a035-5cc281422593 
+ KDP_C_71_CHINNAMANDEM-MB                     , 28d8c6b3-ead8-475e-991c-22bd97640ba7 
+ KDP_C_71_SAMBEPALLI-MB                       , 5864d5b4-d940-4016-bf84-904d25f5b5b0 
+ KDP_C_71_T.SUNDUPALLI-MB                     , ddcfc058-d684-4721-ad35-595423b90c74 
+ KDP_C_71_T.SUNDUPALLIRF-MB                   , 2c7773e4-2767-4bfd-ae30-379106e12f64 
+ KDP_C_71_MUDUMPADU-MB                        , 00a7cbad-3837-4e20-84a5-a876c3c7eb96 
+ KDP_C_71_REDDIVARIPALLI-MB                   , e77db5bf-ad4f-4175-9df8-2c288f162ba3 
+ KDP_C_71_VEERABALLI-MB                       , 3e8e8c9d-70c7-4538-bfce-02c0c84049a9 
+ KDP_C_71_L.R.PALLI-MB                        , ee1d75da-274c-4472-8514-9ba2e4c10716 
+ KDP_C_71_RAMAPURAM-MB                        , 8f23e160-9c6a-4c8c-a490-78c56a4c57de 
+ KDP_C_71_SANIPAYA-MB                         , efe51da6-4e77-4131-b847-bd2c34155ad9 
+ KDP_C_71_RAJAMPET-MB                         , e084a6a3-46a1-4131-9ad1-73beb28211b3 
+ KDP_C_71_NANDALURU-MB                        , 68fe6e41-4483-4446-b1b9-2742b943b95c 
+ KDP_C_71_PULLAMPET-MB                        , c5b6fb53-a880-4a1e-b587-05599167e80e 
+ KDP_C_71_ANANTHARAJUPET-MB                   , c89a66db-2527-43ef-b514-8ccb918215b8 
+ KDP_C_71_KODURU-MB                           , 2a3555c0-89f0-432e-af58-6bbb73f7542a 
+ KDP_C_71_SETTIGUNTA-MB                       , 1d0b05be-67f7-410f-9a14-a3355e739f03 
+ KDP_C_71_PENAGALURU-MB                       , ac1ecb06-f6ea-4152-b0e9-15ff993d31cc 
+ KDP_C_71_CHITVEL-MB                          , 7362b057-8e5c-4e98-8aa1-ab06f39f3a05 
+ KDP_C_71_SESHACHAL FOREST-MB                 , ad126258-7e7a-457b-96a6-09a30581e1d0 
+ CTR_CH_REGADAKALVA_MADANAPALLE-MB            , 62efe946-99c9-450f-9288-857f5566364d 
+ CTR_CH_RESERVOIR_NIMMANAPLLE-MB              , 99b731cf-ddef-4c90-84db-f273de354bfb 
+ CTR_CH_TETTUVANKA_VOYALPADU-MB               , bdbb7258-6f7d-4cad-bf6e-f878c2af1135 
+ CTR_CH_MARRIPADUVANKA_TARIKONDA-MB           , 08384846-2599-46af-a1f3-38b1869cf83e 
+ CTR_CH_BAHUDAEAST_MARRIKUNTAPALLE-MB         , 91f72d82-ea06-4f59-b08b-a1a49959aa8b 
+ CTR_CH_DODDIPALLE RIVER_ENUGONDAPALEM-MB     , 57927f20-548c-4125-a8e7-6ee03f3c218b 
+ CTR_CH_SATHYAVATHI_CHERLOPALLE-MB            , a976bae2-033f-47c2-a9a6-73904458a95e 
+ CTR_CH__BAHUDAWEST_KALAKADA-MB               , 7a72e48a-de9a-42ea-b7b8-9be4f555e0ed 
+ CTR_CH__KV PALLE VANKA_KV PALLE-MB           , 94fdc9da-cc14-4189-a560-70d33cb41736 
+ CTR_CH__PEDDAVAGUWEST_SOMALA-MB              , b1dfc01c-8ada-4022-a570-46c13c843b50 
+ CTR_CH__PEDDAVAGUEAST_SODUM-MB               , 645f3e9c-0567-4370-bc71-0f470f4763c2 
+ CTR_CH__VALLIGATLA_KANDURU-MB                , 69aee302-67d8-492c-986a-0712939bb34a 
+ CTR_CH__CHINTHALAVARIPALLE_KALIKIRI-MB       , 6c6b1633-d02b-48a7-a3fe-713209528056 
+ CTR_CH__CG GALLU VANKA_ROMPICHERLA-MB        , 1b851462-3afb-4c3a-b398-5a35f42bda4a 
+ CTR_CH__GUNDLAMALLESWARAVANKA_MELLACHERUV-MB , ba48724a-09e6-4fd1-95d2-a3368c2e150d 
+ CTR_CH__SORAKAYALAPETA_VAGALLA-MB            , 04ebe0f3-cc5e-4374-b754-99f5e68868d8 
+ CTR_CH__GAJULERU_Y.V.PALEM-MB                , 6297def4-7fa8-4a72-a345-8dc00d57ec0a 
+ CTR_CH__JILLELAMANDA_JILLELAMANDA-MB         , 7657b48b-fb94-4610-a791-56ea903cc80a 
+ ATP_C_65_GUDIPADU_NC_PART KNL-MB             , 46cf7baa-76f8-484a-a270-55b9585ba5e7 
+ ATP_C_65_ALLURU (PART)-MB                    , 8e199413-9813-4ed7-94e7-27256c36d4b1 
+ ATP_C_65_TADIPATRI (PART)-MB                 , 833d803a-c740-4999-9d47-e8e78787b3e8 
+ ATP_C_65_AMALLADINNE-MB                      , 488ebbd7-a64a-45cb-bf17-ad13d40a3638 
+ ATP_C_65_KRISTIPADU (PART)-MB                , 007d6477-7ff7-4a56-b331-ee52644723bc 
+ ATP_C_65_PUPPALA-MB                          , 0d983e1f-260d-4c9c-8e3b-9680990a6728 
+ ATP_C_65_IGADURU-MB                          , afe25177-05cd-401d-943c-b774a2f323c3 
+ ATP_C_65_UBICHERLA (PART)-MB                 , 7934deeb-d3a2-44b4-8da6-edd067e060f3 
+ ATP_C_65_KADERPET-MB                         , c949b6be-f985-4b9f-8189-2017e6f7f2d9 
+ ATP_C_65_GUNTAKAL-MB                         , 6f1a988a-fb0c-4d50-8ecc-bc5fc57f998a 
+ ATP_C_65_MIDTHURU-MB                         , 35b83fa2-ccf9-40d4-b4eb-bf20a8ae1253 
+ ATP_C_65_UTAKALLU (PART)-MB                  , 8f252686-7c1d-491d-a728-bba4b265f156 
+ KU_C_MP_TUGGALI(B)-MB                        , d4efc234-2372-4f4f-8985-a6a3990ff522 
+ KU_C_MP_TUGGALI(A)-MB                        , eb1b3fb1-617e-47d3-bede-1238f084c69b 
+ KU_C_MP_PEAPULLY(B)-MB                       , 44c9734c-58a0-4fb2-91fa-b9365629b1aa 
+ KU_C_KD_PEAPULLY-MB                          , a1240c69-1829-457e-846c-8b924b577d2b 
+ KDP_C_65_CHAMALURU-MB                        , 1d24cf78-6b72-457b-b6e3-c2db358153dc 
+ KDP_C_65_REGADIPALLI-MB                      , 272b31a4-89c2-4311-944e-11481523fbb0 
+ KU_C_KD_VELUGODU-MB                          , 9e6bfb03-d622-4ec1-88dc-594e2804feca 
+ KU_C_KD_B.ATMAKURU_-C-MB                     , 7a3d8dc6-e9d5-4bb5-be82-daf262966b37 
+ KU_C_KD_ORVAKAL(A)-NC-MB                     , 2f6c1d7b-98d6-43a1-ab40-a76046ae1041 
+ KU_C_KD_MIDUTHURU-C-MB                       , 02649795-4cd2-42c2-814c-4b3d599b2a0b 
+ KU_C_KD_ORVAKAL(B)-NC-MB                     , 1e35e1e2-c5af-4fb6-b41e-204f18301ad5 
+ KU_C_KD_ORVAKAL(C)-NC-MB                     , b9a3ebb5-0888-414a-858e-a155214725af 
+ KU_C_KD_PANYAM(A)-MB                         , 78b2794f-aaf0-4826-bdfe-fb0b23f05f32 
+ KU_C_KD_PANYAM(B)-MB                         , c05b3887-0ce9-4c5c-ae65-4dae99702954 
+ KU_C_KD_GOSPADU_C-MB                         , fd71d818-ced8-41b9-a448-c265bc0c41c3 
+ KU-C_KD_BANAGANAPALLI(C)-MB                  , 9abd062b-c346-424a-86dd-f2eb262e6a69 
+ KU_C_KD_BANAGANAPALLI(A)-MB                  , 43450bc2-99bf-4fad-99fd-bb7d02855e96 
+ KU_C_KD_BANAGANAPALLI(B)-MB                  , 6ea8fd1b-36b0-4a8d-8733-772e6649c389 
+ KU_P_KD_OWK-MB                               , 78f53947-62ee-4d13-bcf1-7a6e0520b0cc 
+ KU_C_KD_SANJAMALA(A)-MB                      , 932a02b9-2808-49b4-b4b8-7f2b23b84c88 
+ KU_C_KD_SANJAMALA(B)-MB                      , adc5f9d4-0384-4661-8905-fc7eb51589f6 
+ KU_C_KD_DORNIPADU-C-MB                       , 3eef4141-af5c-42a5-8ce7-39d930916c24 
+ KU_C_KD_UYYALAWADA(A)-MB                     , e46d1c09-c887-4e72-9c48-b6a6ebeecb33 
+ KDP_C_68_DIGUVAKALVATALA-MB                  , a8fafe36-427e-4183-a68c-02c82fe3f93c 
+ KDP_C_68_PEDDAMUDIUM-MB                      , 912f1dae-1bbc-433e-9dd8-91cf2c836929 
+ KDP_C_68_T.M.PATNAM-MB                       , 4b6f4929-2e7f-471d-b417-bb5dc0d9e588 
+ KU_C_KD_KOLIMIGUNDLA-MB                      , 599d51dc-bd8a-41dc-9604-47dca9e778ea 
+ KU_C_KD_MAHANANDI(RF)-MB                     , 75073b70-77af-42a9-a13b-1da9d26bb030 
+ KU_C-KD_SIRIVELLA_C-MB                       , 7472ef07-a2f0-45a6-92b4-a4b9a3d41b72 
+ KU_C_KD_ALLAGADDA (A)-MB                     , 40fd2b64-fe25-48e7-b7c2-e3c4cd0dfbe0 
+ KU_C_KD_RUDRAVARAM NC(A)-MB                  , bfb78a57-d7a8-4222-a31f-51d9b54c3c66 
+ KU_C_KD_RUDRAVARAM (B)-MB                    , 835e8e4a-af08-4d53-8564-b8673ebdeaf4 
+ KU_C_KD_ALLAGADDA-MB                         , 45213e1d-4276-4ecf-b137-4209f3b3812c 
+ KU_P_KD_CHAGALAMARRI-MB                      , 39d46c49-7128-4ea4-ae4f-a98c7ee18c32 
+ KDP_C_68_RAJUPALEM-MB                        , 4ca49079-70b6-4164-b69a-87559f145fb3 
+ KDP_C_68_CHAPADU-MB                          , 764966e0-bb51-495d-a086-0744c133cc7d 
+ KDP_C_68_DUVVURU-MB                          , 59c28544-28bc-4dbf-a003-7f3bdebde733 
+ KDP_C_68_MYDUKURU-MB                         , 04e09401-cbef-488b-8513-4a25b243ec03 
+ KU_C_GKD_VELUGODU-MB                         , e83d69f2-859c-4dfb-98df-eb8c8117e23c 
+ KU_C_KD_B.ATMAKURU(B)-MB                     , e01d28f4-3b13-447e-9d54-aa947d1ddcbf 
+ KDP_C_65_KHAJIPET-MB                         , 3d185451-17b5-4885-8995-a44065695b96 
+ KDP_C_69_UPPALURU-MB                         , 19c4a982-c9d8-47c2-b2b2-fa256f697572 
+ KDP_C_69_PAYASAMPALLI-MB                     , 28119db8-ed36-4796-963f-852ab0f2c3fb 
+ KDP_C_65_PENDLIMARI-MB                       , 056c7ba7-14b0-42ab-9d34-bb29fe2aa76a 
+ KDP_C_65_CHENNURU-MB                         , c820e5b4-0aba-4162-829f-6687953491a4 
+ KDP_C_65_SIDHOUT-MB                          , bc6bf1e4-8d1d-46b0-b121-1ce3c80da5fa 
+ KDP_C_65_KADAPA-MB                           , e18e3c61-7691-46e0-aa4a-fb00706714c3 
+ KDP_C_65_PEDDAPALLI-MB                       , b1375141-1d16-464e-a251-389700326153 
+ KDP_C_65_VONTIMITTA-MB                       , 04a614aa-5288-40f7-b4be-c7a99f1a51ec 
+ KDP_C_65_MUDDANURU-MB                        , 1ac30dc7-3be7-4d6f-93ea-b990c04d2a92 
+ KDP_C_65_GADIKOTA-MB                         , d9c42bec-97b4-4d28-b108-d18726a6dba2 
+ KDP_C_65_J.MADUGU-MB                         , 1ac10fd4-f8ff-4fbe-b759-07d1f1dabb51 
+ KDP_C_65_POTLADURTHI-MB                      , 8934da49-4f74-4384-9409-bb5dd23c1cc5 
+ KDP_C_69_CHAKRAYAPET-MB                      , 7ab0c6f2-461b-44bc-a474-67e2709f580a 
+ PKM_C-70-GIDDALUR-MB                         , 1d77afb8-c8e3-44bb-aaa7-1eb5bdc73afd 
+ PKM_C-70-KOMAROLU-MB                         , d7192d34-a14c-4105-a770-c57748d19b5a 
+ PKM_C-70-ALLINAGARAM-MB                      , 15eccfac-22d9-4ee8-a576-0514669adecb 
+ KDP_C_70_GOPAVARAMPALLI-MB                   , f179e422-4b18-4cbd-90d9-17350a7e16d1 
+ KDP_C_70_KASINAYANA-MB                       , 717d12f7-963b-4325-ad07-2dabe7130111 
+ KDP_C_70_AKKALREDDYPALLI-MB                  , 089af6bd-19ae-46c8-8484-9b968d531449 
+ KDP_C_70_SAVISETTIPALLI-MB                   , b45ce5ba-d6c4-4482-9926-f50f50069775 
+ KDP_C_70_PORUMAMILLA-MB                      , eb584949-3944-4a12-8588-596a3474dd48 
+ KDP_C_70_BADVEL-MB                           , e447c0b4-f367-4264-8a26-fd10bccfd513 
+ KDP_C_70_B.MATAM-MB                          , 72dd47c8-0fd9-4950-87e3-96c214ca95a7 
+ KDP_C_70_REKULAKUNTA-MB                      , d902267d-0f4e-4525-942b-d417dfad49a2 
+ KDP_C_70_ATLOOR-MB                           , 0b257be4-755e-490b-b1b0-36d1b7582d5b 
+ KDP_C_70_MUTHUKURU-MB                        , 45491835-1f45-4a77-b04c-2ec8f8338e8f 
+ KDP_C_71_KONDURU-MB                          , fc8edf41-c502-4467-a634-43da15328eb0 
+ KDP_C_71_SIRIVARAM-MB                        , 481e57ac-c3a6-4a26-9534-f0400515d101 
+ KDP_C_65_GOPAVARAM-MB                        , 43fc331f-27bd-4b85-b331-4de058898d71 
+ KDP_C_65_MALLEMADUGU-MB                      , 331eae63-93cd-462b-8ba3-b96aeef6fdd1 
+ NLR_C_72_ANANTASAGARAM-MB                    , 6600246d-7601-4d44-9241-d8268a755392 
+ NLR_C_72_KALUVOYA-MB                         , 1df72566-b68e-49db-9d11-4fba732b3082 
+ NLR_C_72_CHEJARLA-MB                         , eb936cf3-12fb-42b5-891a-9754e83b6d80 
+ NLR_C_72_ALLAMPADU-MB                        , aac2a569-59e1-4a0f-9835-48af8338e2a4 
+ NLR_C_62_GANDLAVEEDU-MB                      , b47206ec-7e9f-4db1-be16-73728e8922b6 
+ NLR_C_72_A.S.PETA-MB                         , e2f866bb-d7be-4722-a78f-87cb5924687c 
+ NLR_C_72_PRABHUGIRIPATN-MB                   , 781bae71-9c9d-46cc-a66a-910855505e48 
+ NLR_C_72_NELLORE-MB                          , 78deb090-c3b6-4981-a727-2673de9b0582 
+ NLR_C_72_KOVUR-MB                            , f22ca03e-939c-40e1-856c-c849933d5038 
+ NLR_C_72_KODAVALUR-MB                        , 53cee9cb-1e10-4aa9-b345-8a827d1241f7 
+ ATP_D_46_KUNDURPI-MB                         , 35e9380c-da78-485d-8178-cd73235ae5d7 
+ ATP_D_46_APPILEPALLI-MB                      , b933e84e-1410-4834-a06b-e7de05aaee18 
+ ATP_D_46_SETTUR-MB                           , 3892defe-3488-4ede-872b-bf90f7ef21c1 
+ ATP_D_46_BRAHMASAMUDRAM-MB                   , 1226abd5-d832-4c9f-b770-09cbf3b87688 
+ ATP_D_46_RAYADURG-MB                         , ddbce801-ba2b-40df-975a-ec52b51ac952 
+ ATP_D_46_BHUPASAMUDRAM-MB                    , 54079271-295c-4d3b-a004-6b6e8faf542b 
+ ATP_D_46_BELUGUPPA-MB                        , 70aceeb7-15dd-450b-bb3e-ccfcb4109ea5 
+ ATP_D_46_SOLLAPURAM (PART-MB                 , d2cf85e0-dd12-42f7-aef2-0692632e8efb 
+ ATP_D_46_KANEKAL-MB                          , ec97b0bf-d856-43cf-b092-23351132f425 
+ ATP_D_46_CHADAM-MB                           , 7f06e998-9c4f-41fd-96a4-40f87540e820 
+ ATP_D_46_D. HIREHAL-MB                       , 4a02987b-fd2b-4013-8531-c53c5d1cd20c 
+ ATP_D_46_KADLUR-MB                           , aeb4e1cc-918c-4769-b4ff-1aff5b622527 
+ ATP_D_46_URAVAKONDA-MB                       , b92a8194-2d84-4b84-94e9-e00e2fc16deb 
+ ATP_D_46_HAVALIGI (PART-MB                   , 68a01965-c8f5-49e1-b884-790e11e2f8ac 
+ ATP_D_46_DONEKAL (PART)-MB                   , 5386dc54-ead7-4291-b6c9-c02457383575 
+ KU_D_V V _CHIPPAGIRI -C-(B)-MB               , ca72a2d9-2db8-4286-9af5-82de898c1715 
+ KU_D_VV_CIPPAGIRI-B_C-MB                     , 9c5bc56e-4fa1-4e60-a6cd-812ae285b5c8 
+ KU_D_V V_ HALAHARVI(A)-MB                    , a35fbdff-42e9-4b8b-be1e-cb77d8bcbf84 
+ KU_D_VV_HOLAGONDA_C-MB                       , d78062d3-fbbf-4a85-9f93-7c08a5d58166 
+ KU_D_TB_HOLAGUNDA_C-MB                       , 3d3e9c52-30f1-40e2-889a-ac2f92f7af1b 
+ KU_D_TB_ALUR_C-MB                            , 8b937d29-3ef2-4c36-af9b-2af3745d818e 
+ KU_D_TB_ADONI(A)-MB                          , 87620087-a13a-4df3-9706-b233007fc155 
+ KU_D_TB_KOWTHALAM(A)_C-MB                    , e052c2e6-9a25-48d2-a5f4-43cb12ce7654 
+ KU_D_TB_KOWTHALAM-MB                         , 47623bdc-84d1-4740-be18-a3668aa810ea 
+ KU-D_TB_KOSIGI_C-MB                          , fd79218e-d84c-4fd0-8aa5-2860836e811b 
+ KU_D_TB_ADONI_C-MB                           , 028d3ffb-6030-4021-a672-e61ce2f4e19a 
+ KU_D_TB_PEDDAKADABUR_C-MB                    , 20ee3464-a987-440e-8d24-0a8d1ca75777 
+ KU_D_TB_YEMMIGANUR_C-MB                      , 6d1c52b5-0b44-4fa0-b22b-7961dba6bc3b 
+ KU_D_TB_YEMMIGANUR-B_C-MB                    , 2035c241-7b44-49eb-a833-f759f11ed10f 
+ KU_D_TB_NANDAVARAM_C-MB                      , dcad8bd3-7903-414e-bc94-f045bcbf6b34 
+ KU-D-TB-C.BELAGAL_C-MB                       , 8c4794d2-6c28-4c7a-94c6-ca5382abc8fc 
+ KU_D_TB_GUDURU_C-MB                          , 952f9c3e-35e9-4026-88ae-b0fab40cca79 
+ KU_D_TB_ALURU-MB                             , bc90a7ae-5d1c-4ba9-97a6-b40d4c604de2 
+ KU-D-TB_PATHIKONDA(A)-MB                     , dd7a33cc-c289-4f85-8435-2529d0da6287 
+ KU_D_TB_ASPARI-MB                            , 25c0a166-6509-45cf-9c4b-d9fc98290969 
+ KU_D_TB_PATHIKONDA(B)-MB                     , 827d256e-423c-4c30-a02c-e7b137253676 
+ KU_D-TB_ASPARI(A)-MB                         , 685022dc-908e-4984-adbc-bbc4650e10af 
+ KU_D-TB_GONEGANDLA-MB                        , b2aa43db-b318-4aa8-aa43-8307bda9af82 
+ KU_D_TB_DEVANAKONDA(A-MB                     , db31a988-29f1-40c0-a6e8-7c96bcaf2259 
+ KU_D_TB_DEVANAKONDA(B)-MB                    , 10b03725-87b6-470a-b1a7-2cf192b89732 
+ KU_D_TB_KODUMURU(A)-MB                       , 86f4097c-8ee6-40d9-9896-4db5a8c1d304 
+ KU_D_TB_DHONE(A)-MB                          , fa68678f-2841-49b8-8f35-0fb74e543517 
+ KU_D_TB_DHONE (B)-MB                         , 6a4e66f5-0807-455a-afef-bc293d1f23d0 
+ KU_D_TB_KRISHNAGIRI(B)-MB                    , 299e5b2c-352a-49aa-ae75-098c8bc13cc3 
+ KU_D_TB_KRISHNAGIRI(A)-MB                    , 3a77339f-6ef6-4241-bf81-6ec7ab1f3abf 
+ KU_D_TB_KURNOOL-MB                           , f55b28e7-e8f1-4902-87d9-e38bfc945432 
+ KU_D_TB_VELDURTHI-MB                         , 7214b57d-3b33-4b44-b9c2-016aa66ab764 
+ KU_D_TB_KALLURU(A)-MB                        , b5fdb476-2901-40f7-8a46-4245adfd943a 
+ KU-D-TB-KALLURU(A)-MB                        , 8d2d3f92-047d-49b8-a08a-98d8c55518c7 
+ KU_D_TB_KALLURU(B)-MB                        , e6977eb2-429c-4a13-9523-1249bc9a5305 
+ KU_D_TB_KURNOOL (A)_NC-MB                    , 37fe5908-f436-4aed-8c1f-ca4f5d098b5b 
+ KU_D_TB_KURNOOL (C)_NC-MB                    , 135fc8ee-edd3-4710-bf47-7104c3d64b05 
+ KU_D_TB_NANDIKOTKURU_C-MB                    , ac94606a-7eed-4eae-bc88-173c4b969c25 
+ KU_D_LK_MIDTHURU_C-MB                        , dcf8c36c-91af-4fbf-a8d9-bea2ca3a2605 
+ KU_D_LK_J.BUNGLOW_C-MB                       , 3d161c7c-bfae-4934-8b37-050ec89b0324 
+ KU_D_LK_PAGIDYALA_C-MB                       , 4dcf03d9-4cdf-4ca5-88e5-77f8483598ce 
+ KU_D_LK_ATMAKURU(B)-MB                       , 05340f5d-9c22-40cc-b68f-7b9d553c5930 
+ KU_D_LK_KOTHAPALLI (C)-MB                    , 3c65f3d5-c19f-4887-a7e7-8ceb58e7c38b 
+ KU_D-LK_KOTHAPALLI(D)-MB                     , 834483be-5444-4a08-8a1b-3078c6d8dea6 
+ KU_D_LK_KOTHAPALLI (C)-2-MB                  , 6746ce86-2997-49a2-b3b5-4a8a754e087f 
+ KU_D_LK_ATMAKURU(A)-MB                       , 687d503b-5764-4097-8d9b-533f4d2fffca 
+ KU_D_LK_KOTHAPALLI (A)-MB                    , b1075f79-6077-4ddc-8932-07b1b361f6e5 
+ KU_D_LK_SRISAILAM(B)-MB                      , 57fe3460-1531-4682-9feb-e20ed0b38855 
+ KU_D_LK_SRISAILAM_A(PART ONGOL-MB            , 19ac682a-2e74-405b-9c83-92ffb09e1d72 
+ PKM_D-44-PEDDARUTLA-MB                       , 244ce586-a499-41c8-a456-952bf66b2840 
+ PKM_D-44-PALUTLA-MB                          , 90789c8d-a01c-44a2-a4fb-bc2414cc17e1 
+ PKM_D-44_GARNIPENTA-MB                       , 50a4c445-2dae-4c99-88b3-bbdadf9751b8 
+ GNT-D-50- JAKKULAGUNDAM-MB                   , 400fad39-adb3-4ff0-8a0d-ba15101ba0c9 
+ GNT-D-50- JERRI-SIRIGIRIPADU-MB              , 56b8fc6a-3a87-4cac-b5d2-a00e117c406f 
+ GNT-D-50- MUNIGUNDLA-VIJAYAPURISOUTH-MB      , d1e053b1-6b74-41b6-9ca4-6fcdd02a159a 
+ GNT-D-50- CHANDRA-MUTUKURU-MB                , 1ca289a4-d29d-4f1f-8742-7755eee7fa1c 
+ GNT-D-50-MACHERLA-MACHRLA-MB                 , e901fcc8-2cd2-4eea-b37f-679f92678442 
+ GNT-D-50-NAGARJUNA-MACHERLA-MB               , 961af635-367a-4f6f-8aa7-2673721a7d18 
+ GNT-D-50- GOLI-THUMURKOTA-MB                 , 8090502d-b4b0-400a-a3a7-8255e8d1ad88 
+ GNT-D-50-EDUMANGAL-RENTACHINTALA-MB          , e5a3cc63-14e2-4b18-b0a8-1811dbafee96 
+ GNT-D-50- GADIDA-DAIDA-MB                    , dce80edd-3991-4d08-8052-ca75e94439cb 
+ GNT-D-50-DANDI-GURAJALA-MB                   , 9eb21c86-f27b-46f8-8536-e4f73cf92f7f 
+ GNT-D-50- VOPHI-VOPICHERLA-MB                , bf8d6f83-5779-4b79-87a2-62576df86cd6 
+ GNT-D-50- NAGULERU-DACHAPALLI-MB             , fac240b6-1be7-4ab0-ad91-b708c28369bc 
+ GNT-D-50-ZULAKALLU-KESANAPALLI-MB            , 4798a386-db93-4eb1-aacd-cf1dae41c7fa 
+ GNT-D-50- RALLA-MACHAVARAM-MB                , 9bdb687e-afb4-46bd-a3a1-06036d55548a 
+ GNT-D-50- ERRA-2-PIDUGURALLA-MB              , 1deeb3f6-cc51-4ec4-8fa8-4e912517795b 
+ GNT-D-50-NARASING-NARISINGAPADU-MB           , 3a1a9c20-827e-4ff7-af9c-5eaef65638e0 
+ GNT-D-50- CHINTA-TADUVOYA-MB                 , 82dcf0b2-901e-43ab-bd79-3e3d603340f7 
+ GNT-D-50- ATCHAM-ATCHAMPETA-MB               , 7f496794-1e24-4825-95c9-43d5cfad267d 
+ GNT-D-50-ERRA-1-RAJUPALEM-MB                 , c0016bcb-4145-4083-92ef-bda4f8bd73bf 
+ GNT-D-50-CHALLA-CHALLAGUNDLA-MB              , d37cd64c-a201-4a29-a26e-6c075dd831b3 
+ GNT-D-50-ISUKA-1-KROSUR-MB                   , 5eb6a07f-1cb0-4756-a0e6-dec0ac0534de 
+ GNT-D-50-EDDU-AMARAVATHI-MB                  , 30337835-34c0-43b7-a622-991346b9fff6 
+ GNT-D-50-LAKSHMI-PANIDAM-MB                  , 73173cc2-ebd8-4786-859e-6c1caf9649a2 
+ GNT-D-50-MADDA-PEDAKURAPADU-MB               , fc3442ee-085a-4edf-8903-b406c25ba765 
+ GNT-D-50-KONDAVEETI-MEDIKONDURU-MB           , bf71f12a-ea8f-4eda-a558-4435731dd646 
+ GNT-D-50-KATTELA-THULLURU-MB                 , 0da05838-1b01-4c1e-9c60-bdfd47cfb05b 
+ GNT-D-50-PEDD-1-GUNTUR-MB                    , 7bacf389-321e-425b-b745-64162a6c6815 
+ GNT-C-54-REPALLI-MB                          , 5d7972bc-030a-48e0-b1ce-a398466599d1 
+ GNT-C-54-KOLLURU-MB                          , 08f45385-4e70-45f5-9054-dde6176216da 
+ GNT-C-54-KOLLIPARA-MB                        , 223a10ed-754e-4f51-9273-9e1ee3d3964c 
+ GNT-C-55-PEDDA-2-MANGALAGIRI-MB              , a8c160f1-c7c8-4929-a9ae-2804852ea62c 
+ GNT-C-54-BHATTIPROLLU-MB                     , 2d058bea-68f1-48f5-bfe7-cda70b0c1575 
+ GNT-C-54-NIZAMPATNAM-MB                      , fe04eaa2-faa7-46d9-8988-8069bdfb2ca9 
+ GNT-C-54-DUGGIRALA-MB                        , 9287fd18-7d1f-4531-a8c3-c2b8a134d102 
+ GNT-C-55-VOGERU-CHILAKALURIPET_PART-ONGO-MB  , 76602aef-0dfd-4185-ac2b-b8619ed90b0d 
+ GNT-C-55-URA-ROMPICHERLA-MB                  , 1f9ffd74-f939-4397-b162-4c5bb3af8ed7 
+ GNT-C-55-BODDU-VELPUR-MB                     , b3d278a1-8f4c-4770-aef2-3457f830317e 
+ GNT-C-55-NALANDA-NARASARAOPET-MB             , 3b1e8364-19df-41be-893e-d6ba90b879e6 
+ GNT-C-55-NAKKA-MUPPALLA-MB                   , 6f2e9eba-2d5f-4f15-af45-45fcb525a5f7 
+ GNT-C-55-ISSUKA-2-KONDAVEEDU-MB              , ac5c94f5-cb3e-4993-a8ae-0c74fa1bfe7e 
+ GNT-C-55-TUMMALA-EDLAPADU-MB                 , d9f0a824-19c3-45dd-abeb-fbb07af01632 
+ GNT-C-55-NALLAMA-PEDANANDIPADU-MB            , 01ff4a89-397b-457d-88d4-406d50559089 
+ GNT-C-55-RAMA-PRTHIPADU-MB                   , 983a801e-18fc-4666-b392-daa7d19e7ca2 
+ GNT-C-55-KONDA-VATTICHERUKURU-MB             , b77dc4cc-5ffc-4888-a21b-45d83341f6d7 
+ GNT-C-54-TSUNDURU-MB                         , 85c31017-6162-48ba-8b8c-9b193d2d1ed6 
+ GNT-C-54-AMARTHALURU-MB                      , 5e6cd01e-f979-47da-ad12-301c2d4368c2 
+ GNT-C-54-PONNURU-MB                          , fe6026c1-4067-4471-aab9-784ac9efdd97 
+ GNT-C-54-P.V.PALEM-MB                        , 73a361e7-a9d1-424e-a102-d56cc05f66c0 
+ GNT-C-54-BAPATLA-MB                          , 2ac1dafb-ba00-4201-9ad2-7193bd06daf8 
+ GNT-C-54-KARLAPAEM-MB                        , f8f5b0a1-e4c3-4d63-bdfc-f56cd5f8dcc4 
+ PKM_C-55-S.MAGULURU-MB                       , e8d51695-67cf-4738-891c-3f4b9986777e 
+ GNT-C-54-VEMURU-MB                           , 902aba1a-10e5-4073-b349-c9e9845042f5 
+ GNT-C-54-CHERUKUPALLI-MB                     , cacc3843-baf9-49b3-bbee-13069de75171 
+ GNT-C-54-NAGARAM-MB                          , e8fdc479-e51c-4f7c-bb2e-8a28929585bc 
+ GNT-C-54-TENALI-MB                           , d3f4f8b5-4d3f-43b5-aef9-86291f470da8 
+ KRI-D-48-BUDAWADA-MB                         , 7af46ddd-4f79-4a99-862d-fcb8be1775fc 
+ KRI-D-48-JAGGAYYAPETA-MB                     , 011dbecd-cce7-411f-9cc6-bf46c9e4c8c6 
+ KRI-D-49-VATSAVAI-MB                         , f00a73d6-b8ba-4d43-8ec4-fdd1bc66773b 
+ KRI-D-49-PENUGANCHIPROLU-MB                  , d13ad0ad-e778-4557-9802-17c58e6ac1dc 
+ KRI-D-49-NANDIGAMA-MB                        , 30d513c2-98bc-4274-8746-57ffaad758af 
+ KRI-D-49-VEERULAPADU-MB                      , 78e3efea-23d1-47f3-a6b8-e22ee0c53a75 
+ KRI-D-49-UTUKURU-MB                          , 2f8cb2fa-6380-4ea3-a0b6-2a438ca12ba2 
+ KRI-D-49-JAYANTHI-MB                         , b48b4278-9546-42bb-90cf-5b25f9fc5f79 
+ KRI-D-49-K.ATMAKURU-MB                       , 4d17daa4-d60d-499e-80d7-59ab75d6510a 
+ KRI-D-49-GAMPALAGUDEM-MB                     , c3afcc05-3f40-46ba-90bd-2039b05738aa 
+ KRI-D-49-PEDDAVARAM-MB                       , 47981f81-a714-459e-abab-eb2855eb1e66 
+ KRI-D-49-TIRUVURU-MB                         , 772d4b99-790e-49ad-9d92-a52b01c4a4a5 
+ KRI-D-49-A.KONDURU-MB                        , c3b8e67e-7c8b-4c18-b8fe-314dc69965fc 
+ KRI-D-49-VISSANNAPETA-MB                     , 6dc4c99d-3263-4c37-b589-6b40c8b5e255 
+ KRI-I-42-MYLAVARAM-MB                        , a7530a1a-7206-4b42-904a-2f2d008aff69 
+ KRI-I-42-REDDIGUDEM-MB                       , d0b0d8a2-00ce-4446-af08-8a309b611e7b 
+ KRI-I-42-G.KONDURU-MB                        , 11b60d83-53e2-4a08-83a3-7ea8b9b4d412 
+ KRI-I-42-GANGINENIPALEM-MB                   , 3a8c155d-5795-49ed-8897-659720b984fc 
+ KRI-I-42-AGIRIPALLI-MB                       , b2173937-df7e-4cb0-8daf-8bc26e8bd37d 
+ PENAMALURU-MB                                , d5084841-9ff6-47d2-b9c9-4698f5e007e8 
+ KANKIPADU-MB                                 , 3a4a0844-e129-45f3-a62a-276e1f3d9aa1 
+ UNGUTURU-MB                                  , 298096c5-8b84-47dd-b90d-4e82d4804fa9 
+ VUYYURU-MB                                   , 5e0baba3-b404-4876-a234-ca33ea435019 
+ THOTLAVALLURU-MB                             , 1eba8a82-be29-4e7e-a33e-59165714e1e8 
+ GHANTASALA-MB                                , 0579dded-64b0-4e99-8ada-28b8c2409bc0 
+ PAMIDIMUKKALA-MB                             , b07f3b01-cd16-466c-8816-4dd1376e3e38 
+ MOVVA-MB                                     , ec52cfe3-8872-4c28-90ba-3f06ee15b550 
+ PAMARRU-MB                                   , cba6b95e-116a-478a-9ee6-d4d7066c8c46 
+ GUDUR-MB                                     , b8f4e249-bb41-4774-ab67-b530921afb9f 
+ MACHILIPATNAM-MB                             , 64383283-385d-43d0-ba97-0710df6debf2 
+ CHALLAPALLI-MB                               , f8174fcd-7f73-4682-8aea-7d78725d4ba2 
+ GUDLAVALLERU-MB                              , b65c00eb-8c8b-4bc6-9f5c-cb3a0311a9f4 
+ PEDANA-MB                                    , 52c37130-2f80-453f-8401-62609db1bd87 
+ PEDAPARUPUDI-MB                              , 3c17d7f6-2e6c-4ccb-9c3f-24159a636ad9 
+ GUDIVADA-MB                                  , ccf96648-67fc-48f7-ad0b-74ca64020480 
+ BAPULAPADU_DELTA-MB                          , 855febb9-4fd6-4345-b6d3-600689e61d30 
+ NANDIVADA-MB                                 , b3afb625-d549-463e-8180-cfb445510143 
+ MANDAVALLI-MB                                , 20c1827b-5e34-493b-bc96-eb639e2da699 
+ MUDINEPALLI-MB                               , fe9618fc-b517-4a71-be6b-72ad24476bd6 
+ BANTUMILLI-MB                                , dcc3c65a-d46f-450e-aec4-4bfadacbc209 
+ KRUTHIVENNU-MB                               , b7fe6fba-e424-4a2b-af46-bf9708d730ad 
+ KAIKALURU-MB                                 , 6bc07b7c-d4ba-490e-b518-ce315d4ba6b7 
+ KALIDINDI-MB                                 , 3c0e31fb-80b8-4a2e-abd1-5c759f937fc9 
+ KRI-D-51-KANCHIKACHERLA-MB                   , fb530e02-6f9d-4b35-8e69-2c76a9e620a7 
+ NAGAYALANKA-MB                               , 584d63e9-fce7-4b49-b6e6-a1f90a0bb79e 
+ AVANIGADDA-MB                                , acf1d617-57a1-4b4b-a041-88f5026f1a76 
+ KRI-I-42-GANNAVARAM-MB                       , 1b2a8ce0-1ce4-47f6-bb55-5e23cdb78b33 
+ MOPIDEVI-MB                                  , aff5b22c-b471-4a3d-93b4-ecff4fdbcc82 
+ KODURU-MB                                    , c7507f6e-f84e-43ae-94d9-dc5eec3feff5 
+ KRI-I-41-NUZIVIDU-MB                         , 43b51087-c641-448e-b445-7ef811f2e07b 
+ KRI-I-42-BAPULAPADU-MB                       , bf47dee0-7a59-4a90-ae31-4876d3590dee 
+ KRI-I-40-CHATRAI-MB                          , f893307b-661f-4b23-a426-5ab313676209 
+ KRI-I-40-MUSUNURU-MB                         , 61d1ef77-eaa8-4276-b074-56cc0a7c44c4 
+ KRI-I-40-CHILLABOYINAPAL-MB                  , 98217c89-ab2b-44e6-b171-b30190db20a4 
+ WG- TAMMILERU SOUTH-17-MB                    , 5a6af1fe-4958-4da9-9664-5a2f6ec1347e 
+ WG- TAMMILERUNORTH-01-MB                     , 07c84149-5317-47d9-8843-c8c1daa7cbc2 
+ WG- RAMILERU-18-MB                           , 9ebd66ab-fe91-4d13-afb2-90bbb2cfbcf4 
+ WG- GUNDERU-16-MB                            , 10bf1e7d-48a4-486e-8980-7a8ec9ec573c 
+ WG- BHIMADOLU-15-MB                          , 4c44b2ad-a910-4e56-8510-c8879d6e9c14 
+ WG- TADEPALLIGUDEM-14-MB                     , c23b77f8-713e-4ab8-ad99-2ffb880ef2a3 
+ NIDAMARRU-MB                                 , 4e91c672-97ef-4a9f-9e3a-3983c04a85b7 
+ PENTAPADU-MB                                 , 9d657cc4-96a9-47df-bfcc-2750685c4e61 
+ TANUKU-MB                                    , 4d80f1e4-0b52-4940-9af3-70b81e8e956b 
+ GANAPAVARAM-MB                               , 9ce1560e-4152-4c5d-a263-0b5f0d2ad1a1 
+ ATTILI-MB                                    , 74caf633-705c-488a-b424-9c0eba7a5998 
+ UNDI-MB                                      , 411aa0dc-104c-496f-9e24-2ba76a72fe88 
+ AKIVEEDU-MB                                  , 4383e345-0384-4753-bf07-216d63010d08 
+ KALLA-MB                                     , 32331382-cc1a-495b-84bc-dfd6a2fa97b6 
+ PALAKODERU-MB                                , 7f597f18-31a0-42ad-af10-8fd790fba8e3 
+ PENUMANTRA-MB                                , 47e78f0f-011b-4839-8b62-8833eb5d81de 
+ VEERAVASARAM-MB                              , 09603ba8-f1db-4b90-af7b-11c3f4a6cba0 
+ IRAGAVARAM-MB                                , 648ef146-c543-4d75-bbef-c4ed7837944d 
+ PALACOLE-MB                                  , bdf017a1-829d-4831-8788-47dab8320b02 
+ PODURU-MB                                    , 80c9ad5e-25e9-4991-a968-d029c9208c25 
+ NARASAPURAM-MB                               , aca8f28c-37e5-42b1-997e-a0b6888c0d9a 
+ MOGALTHUR-MB                                 , 56b119f9-bcaf-40d9-b7d1-8a6577b81574 
+ ACHANTA-MB                                   , d6bd8b88-ce72-471d-8311-b5494608e4f6 
+ WG-JALLERU-05-MB                             , 49bbff98-90cb-4f87-b49e-ee8ba6e42b1b 
+ WG- YARRAKALAVA-1-02-MB                      , d861d53b-e9cd-4095-9aac-7dfce79d3983 
+ WG- JALAVAGU-04-MB                           , fbddc268-a372-4a30-a20c-60dad0f043c5 
+ WG- DEVULAPALLI-03-MB                        , eab8ba83-8d40-48f7-9ac4-26208ebae290 
+ WG- BAINERU-06-MB                            , 4ee213aa-66ad-4170-997b-3dec8a10ecf6 
+ WG- PALETIVAGU- 12-MB                        , bd7e509c-be90-45f5-90cd-8421f914a946 
+ YELAMANCHILI-MB                              , c717d7a8-f954-41e5-829e-5b5852bb2074 
+ WG- NIDADAVOLU-11-MB                         , 826715a2-bdee-4bd8-a5ec-e52787ae20c1 
+ UNDRAJAVARAM-MB                              , 28525c56-238f-48e6-96ce-3272a3fa4b88 
+ WG-TURPUKALAVA-07-MB                         , 9022b687-0ecc-4cba-ade2-ae2c3312f0e1 
+ PERAVALI-MB                                  , 9711b213-a38b-40ce-b59e-fda38f071553 
+ PENUGONDA-MB                                 , 3a11f9ea-1c40-4de6-a987-72d60522e48b 
+ WG- KOVVADA-08-MB                            , cf9885cc-d1e5-4bb8-875d-943c56e6b475 
+ WG- CHITYALA-10-MB                           , cf6b9fb5-5a8b-401b-a33c-93a5aab11c39 
+ WG- KOVVURU-DOMMERU-MB                       , 6a4c9718-9166-4e00-a034-0b56ea57e3f6 
+ ATREYAPURAM-MB                               , 4bd567d5-59f1-4cbe-9ade-efca304d7234 
+ KADIAM-MB                                    , 60e18ae9-f353-4fe0-9910-cf16b869fecc 
+ ALAMURU-MB                                   , c3aa2802-a25c-4f77-b3ac-c1c68afd3868 
+ RAVULAPALEM-MB                               , a0e48a97-83ef-4fa0-b011-a9148f284d12 
+ KOTHAPETA-MB                                 , 16cc4985-756f-4a70-a78e-f14c29c2a02f 
+ KAPILESWARAPURAM-MB                          , c06fafa7-de61-4b45-b38c-613097e126a0 
+ MANDAPETA-MB                                 , 5a6c6edd-6433-4105-b627-9fe4eb216395 
+ ANAPARTHI-MB                                 , a80c4ea8-6f1e-4e56-b294-4082f0199a0e 
+ RAYAVARAM-MB                                 , 6af71d60-d8cb-4b27-bcac-463ad053f8d3 
+ KARAPA-MB                                    , 5d28c482-aa2f-4599-8d75-0d3832babc2d 
+ KAJULURU-MB                                  , 4cefe3f0-cc70-475c-840c-99d510919022 
+ RAMACHANDRAPURAM-MB                          , 5fe8c3b4-6832-4da3-b05c-ee88c33970fd 
+ AINAVILLI-MB                                 , ed5440d2-32ff-46f0-8cf8-9b7153886aee 
+ MUMMIDIVARAMU-MB                             , 7d1e52e9-f341-44c2-99a5-89e0a1bdd5eb 
+ I.POLAVARAM-MB                               , 264c2499-83cb-4d84-8c72-aa14db92ee41 
+ KATRENIKONA-MB                               , 8e4f2220-19f9-4ea3-8a8c-3b2a4a6bc08b 
+ THALLAREVU-MB                                , 0c5962cc-a02a-46b5-bc68-2b8e8becb455 
+ KGANGAVARAMU-MB                              , b0543fb2-a212-45c0-96bd-aa184458b7ab 
+ AMBAJIPETA-MB                                , 4ea596ff-3231-4796-80aa-955d4e878ec9 
+ AMALAPURAM-MB                                , c98fa9ab-e6ba-4866-af8e-8a590ec916a2 
+ P_GANNAVARAM-MB                              , 76fe1ea9-f9ba-41b7-ba1e-a5c2dc7211c4 
+ MAMIDIKUDURU-MB                              , 40629c14-45e5-44c1-a48a-4702719dd344 
+ MALIKIPURAM-MB                               , 2db8425b-39f8-4dbb-9341-102e6e187850 
+ RAZOLE-MB                                    , 161953de-e34e-4437-b80c-8f82934bf49c 
+ SAKHINETIPALLE-MB                            , 51fcade7-146c-43b0-aa35-bfb6c9c079b9 
+ UPPALAGUPTAM-MB                              , f9772a19-7027-4522-b865-65ddc91a3f9a 
+ ALLAVARAM-MB                                 , 1944291d-62a5-457c-b986-509c18a79b48 
+ BICCAVOLU-MB                                 , 5c638d1f-ce03-4cee-9288-12b5193c470c 
+ KAKINADA-MB                                  , ccdc7d0f-5107-4ca4-9a94-8f408c3d5d97 
+ PEDAPUDI-MB                                  , 4653bb3f-1e2b-449f-b78f-2d50810cc95d 
+ EG-G-ZK-RANGAMPETA-MB                        , 61da3fee-bd92-4c02-a0ad-0cda35d0c368 
+ EG-G-BKNE-GANGAVARAM-MB                      , be0a7b50-f107-4fea-b20b-7b9f853ec773 
+ EG-G-BKW-SITANAGARAM-MB                      , 2f15fa0e-5b5c-4c4e-bb43-2d88668d8f06 
+ EG-G-BKS-RAJANAGARAM-MB                      , 61de6974-1772-430b-9a2f-49bdae37eded 
+ EG-G-SP-RAMPACHODAVARAM-MB                   , 5efe5bb6-1da7-4f17-94b4-da7b2e2e3020 
+ EG-G-MV-KONDAMODALU-MB                       , cc23794b-7655-46af-9f9a-1de47b385063 
+ WG- POLAVARAM-09-MB                          , 18a0f0f9-cf1f-4392-8613-34d18956586e 
+ KMM_E_26_BHADRACHELAM-MB                     , c2e2fb00-6ac3-4c73-85de-0d69140c57e5 
+ KMM_E_26_MURMURU-MB                          , 1172fdd8-f550-4cef-b90e-a6fcf4a5e759 
+ KMM_E_26_KUKNOOR-MB                          , b4d955c5-89f0-4158-bb29-8aa4704f5c27 
+ KMM_E_27_JEDIGUPPA-MB                        , 18da708c-ef66-4eae-81a2-350fc39260c4 
+ KMM_E_26_PERAMTALLAPALLI-MB                  , 92b08d98-c277-49f2-8cbd-6573f8772bf0 
+ KMM_E_26_GUMMADIVALLI-MB                     , f950ced6-6a61-4330-9a90-819801f7988d 
+ KMM_E_26_FOREST_A-MB                         , febfd941-8df3-4c03-acee-86e990ecffa9 
+ EG-G-SB4-IJJALURU-MB                         , f39840a7-0fd3-48d0-a5dd-d20fdb99dd21 
+ EG-G-PM-KUTRAVADA-MB                         , 40d492b0-67b0-4405-b5a9-4628ab5c2f3e 
+ KMM_E_27_CHATTI-MB                           , 25115b94-751e-4ac8-b2ad-cad4da8e370f 
+ KMM_E_27_CHINTURU-MB                         , d3437cea-8f10-4bed-a9f4-d6578dcacc94 
+ VSP_E_27_SABARI-8_ARAKU VALLEY_AGENCY-MB     , b133ddbd-56c5-411f-b535-77e5b3246874 
+ EG-G-SB1-DONKARAYI-MB                        , 14e6e842-c3c7-4a60-8e98-a8e7a84e2b6f 
+ KMM_E_27_CHOPPAMAMIDI-MB                     , 6a3ff14a-6a17-4e4d-bb70-f6a7ba4a7c7e 
+ EG-G-SB5-GUDISA-MB                           , d6152781-b144-4e20-91f6-04b75a7732d5 
+ EG-G-SB3-NELLURU-MB                          , f8556f95-43ca-49bc-a639-2b8ba4ccb4e1 
+ KMM_E_27_NARSINGAPETA-MB                     , dc54af1f-4672-4430-b98a-f237341e289f 
+ KMM_E_27_KUNAVARAM-MB                        , 9bfb5dbc-d273-420b-bfdb-0f88bc0801fe 
+ KMM_E_27_REKHAPALLI-MB                       , 9e4475ac-8292-46d0-a272-28a72d616073 
+ VSP_E_27_SABARI-7_HUKUMPETA_ AGENCY-MB       , b0ad6a88-b701-410f-9efb-b0a8b028df97 
+ VSP_E_27_SABARI-9_DUMBRIGUDA_ AGENCY-MB      , 0ab2003b-ef26-4472-b5eb-af4af8c2aaee 
+ VSP_E_27_SABARI-5_M PUTTU_AGENCY-MB          , fb52d2af-c936-4220-946f-d041f7b719ae 
+ VSP_E_27_SABARI-6_PADERU_AGENCY-MB           , 5b1150ae-f36b-4e6b-8541-983b86460fd6 
+ VSP_E_27_SABARI-4_P BAYALU_AGENCY-MB         , ae7b2dbe-9812-4379-8e91-780e872a5458 
+ VSP_E_27_SABARI-3_ GMADUGULA_AGENCY-MB       , 75b5fed2-53cc-4284-b443-16eddf8daedb 
+ VSP_E_27_SABARI-2_CHINTAPLLI_ AGENCY-MB      , a0856ad2-af0c-4beb-a7bb-4b1ebf715321 
+ VSP_E_27_SABARI-1_ GKVEEDHI_AGENCY-MB        , 2bee6616-85f9-4499-af7d-c7d85aba18bd 
+ EG-G-SB2-VATTIGEDDA-MB                       , bf8bf7e7-d38c-42a8-a819-3840f190fee8 
+ CTR_CH_PASALAVANDLAPALLE_PASALA-MB           , 53ee9fbc-8426-419b-a6be-1667a694bc5f 
+ KDP_C_71_RAYAVARAM-MB                        , 44160f21-dd3b-4903-8ac1-e22deca50e30 
+ NLR_C_73_RAPUR-MB                            , 4e92ad0a-ba20-4c5b-8540-61e3b0bf41f0 
+ NLR_C_74_NELAPATTU-MB                        , 64409b49-de88-43d9-8190-d9f3fb572c76 
+ KDP_C_70_KOTHAKOTA-MB                        , cc3ead0a-e607-4be2-acbc-3c4bf9bc7b18 
+ ATP_C_65_URACHINTHALA (PART)-MB              , d4ed35ef-6b06-4bff-b48d-10374365b2d8 
+ PKM_C-58-CHIMAKURTHY-MB                      , db1f7a71-021f-4fec-8dfa-99dffce937a3 
+ KRI-D-51-CHANDARLAPADU-MB                    , c0d65105-ec08-4e7f-8f18-26dc53db2159 
+ BHEEMAVARAM-MB                               , 967e0028-7a48-405b-b122-6aba2af8cf0b 
+ ATP_C_63_SOMANDEPALLI-MB                     , 4303af0f-fc31-407c-901f-187e51781734 
+ KRI-D-49-NEMALI-MB                           , fee6f4b1-cc05-403d-92f1-24ff221b0f2b 
+ KRI-D-49-TALLURU-MB                          , f231ee43-2de4-4d69-84ab-46fdf9aad87f 

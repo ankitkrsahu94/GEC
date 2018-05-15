@@ -55,12 +55,13 @@ CREATE TABLE cass_business_data.iwm_data (
 CREATE TABLE cass_business_data.gec_data (
     parent_id int,
     assessment_year text,
+    verific_status int,
     period text,
     display_view text,
     com_type text,
     loc_id int,
     data text,
-    PRIMARY KEY ((parent_id, assessment_year, period, display_view, com_type, loc_id))
+    PRIMARY KEY ((parent_id, assessment_year, verific_status, period, display_view, loc_id, com_type))
 ) WITH bloom_filter_fp_chance = 0.01
     AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
     AND comment = ''
