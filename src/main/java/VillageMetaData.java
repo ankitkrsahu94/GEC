@@ -135,7 +135,7 @@ public class VillageMetaData {
             	//c1++;
             	village_details.put(locmapping.get(key),new Village());
             }
-            System.out.println("b4 naming"+village_details.size());
+//            System.out.println("b4 naming"+village_details.size());
             for(String key:village_details.keySet()){
             	
             		village_details.get(key).setVillageName(key);
@@ -146,7 +146,7 @@ public class VillageMetaData {
             	c++;
             //	System.out.println(vill);
             }
-            System.out.println("village name count"+c);
+//            System.out.println("village name count"+c);
             
         }catch (IOException e) {
             e.printStackTrace();
@@ -434,8 +434,6 @@ public class VillageMetaData {
                 		basinWiseWellsMD.get(basinName).get(typeOfWell).get(areaType).put(Constants.INDUSTRY, wellDataIndustry);
             		}
             		
-            	} else {
-            		System.out.println("else of draft file " + record);
             	}
             }
         }catch (IOException e) {
@@ -626,6 +624,7 @@ public class VillageMetaData {
                 	double totNonCommand = 0;
                 	double totPoorQuality = 0;
                 	double recCommand = 0;
+                	double forest;
                 	double recNonCommand = 0;
                 	double recPoorQuality = 0;
                 	double nonRecCommand = 0;
@@ -658,10 +657,11 @@ public class VillageMetaData {
 	                
 	                totalRec = recCommand + recNonCommand + recPoorQuality;
 	                
-	                nonRecCommand = Utils.parseDouble(fields[7]); //Utils.parseDouble(fields[6])
-            		nonRecNonCommand = Utils.parseDouble(fields[11]); //Utils.parseDouble(fields[10]) + 
-            		nonRecPoorQuality = Utils.parseDouble(fields[15]); //Utils.parseDouble(fields[14]) + 
-                	
+	                nonRecCommand = Utils.parseDouble(fields[6]);// //
+            		nonRecNonCommand = Utils.parseDouble(fields[10]);//; // 
+            		nonRecPoorQuality = Utils.parseDouble(fields[14]);//; 
+            		forest = Utils.parseDouble(fields[7]) + Utils.parseDouble(fields[11]) + Utils.parseDouble(fields[15]);
+            		
             		totalNonRec = nonRecCommand + nonRecNonCommand + nonRecPoorQuality;
             		
             		totCommand = recCommand + nonRecCommand;
@@ -675,7 +675,7 @@ public class VillageMetaData {
             		Area totalArea = new Area(totCommand, totNonCommand, totPoorQuality, total);
             		areaInfo.put(Constants.TOTAL, totalArea);
             		//For recharge worthy
-            		Area recArea = new Area(recCommand, recNonCommand, recPoorQuality, totalRec);
+            		Area recArea = new Area(recCommand, recNonCommand, recPoorQuality, 0.0, forest, totalRec);
                 	areaInfo.put(Constants.RECHARGE_WORTHY, recArea);
                 	//For non recharge worthy
             		Area nonRecArea = new Area(nonRecCommand, nonRecNonCommand, nonRecPoorQuality, totalNonRec);
@@ -707,6 +707,7 @@ public class VillageMetaData {
                 			recCommand += areaobj.get(Constants.RECHARGE_WORTHY).command;
                    			recNonCommand += areaobj.get(Constants.RECHARGE_WORTHY).non_command;
                 			recPoorQuality += areaobj.get(Constants.RECHARGE_WORTHY).poor_quality;
+                			forest += areaobj.get(Constants.RECHARGE_WORTHY).forest;
                 			
                 			totalNonRec += areaobj.get(Constants.NON_RECHARGE_WORTHY).total;
                 			nonRecCommand += areaobj.get(Constants.NON_RECHARGE_WORTHY).command;
@@ -717,7 +718,7 @@ public class VillageMetaData {
                     		totalArea = new Area(totCommand, totNonCommand, totPoorQuality, total);
                     		areaInfo.put(Constants.TOTAL, totalArea);
                     		//For recharge worthy
-                    		recArea = new Area(recCommand, recNonCommand, recPoorQuality, totalRec);
+                    		recArea = new Area(recCommand, recNonCommand, recPoorQuality, 0.0, forest, totalRec);
                         	areaInfo.put(Constants.RECHARGE_WORTHY, recArea);
                         	//For non recharge worthy
                     		nonRecArea = new Area(nonRecCommand, nonRecNonCommand, nonRecPoorQuality, totalNonRec);
@@ -815,8 +816,8 @@ public class VillageMetaData {
                     		/**
                     		 * This is to migrate area information to iwm_data table;
                     		 */
-                    		Area a = new Area(commandArea, nonCommandArea, poorQualityArea, Villagearea);
-                    		System.out.println(locmapping.get(MicroBasin_GWvillage_key));
+                    		Area a = new Area(commandArea, nonCommandArea, poorQualityArea, hilly, forest, Villagearea);
+//                    		System.out.println(locmapping.get(MicroBasin_GWvillage_key));
                     		villageMBAreaInfo.computeIfAbsent(locmapping.get(MicroBasin_GWvillage_key), k->new HashMap<String, Area>())
                     						.put(basinmapping.get(MicroBasin_GWvillage_key.split("##")[0]), a);
                     		villageMBAreaInfo.computeIfAbsent(locmapping.get(MicroBasin_GWvillage_key), k->new HashMap<String, Area>())
@@ -1714,7 +1715,7 @@ public class VillageMetaData {
                 	}
                    // System.out.println(waterbodyjson);
                 } else {
-                	System.out.println("waterbodies : field length not matching" +fields.length);
+                	System.out.println(districtName + " waterbodies : field length not matching " +fields.length);
                 }
             }
             
@@ -2345,7 +2346,10 @@ public class VillageMetaData {
                 if(fields.length==2){
                 	String location = format.removeQuotes(fields[0]).trim();
                 	String uuid = format.removeQuotes(fields[1]).trim();
-                    locNameUUIDMap.put(location, uuid);
+                    if(uuid == null){
+                    	System.out.println("ANKIT ::: UUID is null : " + format.removeQuotes(fields[1]).trim());
+                    }
+                	locNameUUIDMap.put(location, uuid);
                 }
 
             }
@@ -2367,9 +2371,6 @@ public class VillageMetaData {
         	for(String village : villageMBAreaInfo.keySet()){
         		village = village.trim();
         		String villUUID = locNameUUIDMap.get(village);
-        		if(villUUID == null){
-        			System.out.println("ANKIT ::: " + village);
-        		}
         		Map<String, Area> formattedData = new HashMap<String, Area>();
         		for(String mb : villageMBAreaInfo.get(village).keySet()){
         			mb = mb.trim();
@@ -2377,6 +2378,10 @@ public class VillageMetaData {
         				formattedData.put(mb, villageMBAreaInfo.get(village).get(mb));
         			else{
         				String mbUUID = locNameUUIDMap.get(mb);
+        				if(mbUUID == null || mbUUID.equals("null")){
+        					System.out.println("ANKIT ::: Village UUID null for : " + mb);
+        					continue;
+        				}
         				formattedData.put(mbUUID, villageMBAreaInfo.get(village).get(mb));
         			}
         		}

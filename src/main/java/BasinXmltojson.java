@@ -851,6 +851,7 @@ public class BasinXmltojson {
         				formattedData.put(vill, mbVillAreaInfo.get(mBasin).get(vill));
         			else{
         				String villUUID = locNameUUIDMap.get(vill);
+        				if(villUUID == null || villUUID.equals("null"))	continue;
         				formattedData.put(villUUID, mbVillAreaInfo.get(mBasin).get(vill));
         			}
         		}
